@@ -1,0 +1,17 @@
+---
+layout: post
+title: Open Source Companies
+categories: clearwind
+old: 2217
+blog: andy-mckay
+---
+<p>A while back I read this post on <a href="http://www.softwarebyrob.com/2009/08/11/how-to-compete-against-open-source-competition/>How to compete against Open Source competition</a> via <a href="http://twitter.com/mjasay">@mjasay</a>.</p>
+<p>It's an interesting post, but made me think about things in a slightly different way. Supposing you are company planning on building support around an open source project. For example <a href="http://enfoldsystems.com">Enfold Systems</a> (Plone) or <a href="http://acquia.com">Acquia</a> (Drupal), how do you do that?</p>
+<p>The licensing of your project can be a real hinderance since you may or may not be able to code to the project. For example both Drupal and Plone are GPL'd. This puts a limitation on what you can do as a company. If you write a piece of software that includes libraries from the afore mentioned project, your software will (if distributed) have to be GPL'd as well.</p>
+<p>This can be a problem if you are trying to monetize on closed source software. I think there are areas of open source projects that can need closed source software. For example, Plone has never done very well at sophisticated reporting. Reporting is boring work that no-one want's to do but enterprises love. Audit logs. Windows integration (what hacker works on windows, c'mon) and so on.</p>
+<p>So instead you get to focus on other things. The obvious things: support, training, documentation. But also integration with the project that does not hit the GPL. At Enfold we worked on Windows desktop client, Windows installers, Windows web server integration, for example. Partly because these areas of improvements fell outside of the GPL.</p>
+<blockquote> there's already a breed of company that is actively following this advice, and it's the commercial open-source projects like JBoss, MindTouch, Openbravo, Pentaho, etc., as well as foundation-led efforts like Eclipse and Mozilla. Such organizations already know how to add the polish, documentation, and features that an organic community may lack</blockquote>
+<cite><a href="http://news.cnet.com/8300-13505_3-16-1.html?tag=mncol">Matt Asay</a></cite>
+<p>In Matt's post he points out that companies are working on this, just like Enfold and Acquia. But it's interesting to note, that as a company, your choice can be hampered. It's great to work on and release open source code, but unless that money can come back in via support, consulting or one of your other services, your business might be have a challenge.</p>
+<p>It would be interesting to look at companies and see the offerings they provide around their project. For example Acquia seems to be offering hosting and support (primarily). Alfresco seems to be offering hosting and support, but also a paid product. Because Alfresco is <a href="http://www.alfresco.com/legal/licensing/faq/#faq7">dual licensed</a>.</p>
+<p>It's good to see companies providing this level of support it's important to make the project a success. But it is curious to see how the license can really impact what a company does around the project.</p>

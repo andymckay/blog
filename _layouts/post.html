@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="meta">{{ page.date | | date: "%b %d, %Y"  }}</div>
+<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<hr class="florished">
+{{ content  | replace:'acronym','abbr' }}
+<div id="navigation">
+  {% if page.previous %}<a href="{{ page.previous.url }}">&laquo; older</a>{% endif %}
+  {% if page.next %}<a href="{{ page.next.url }}">newer &raquo;</a>{% endif %}
+</div>

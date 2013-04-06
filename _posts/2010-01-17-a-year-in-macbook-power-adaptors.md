@@ -1,0 +1,15 @@
+---
+layout: post
+title: A year in MacBook power adaptors
+categories: General
+old: 2241
+blog: andy-mckay
+---
+<p>At the beginning of the year I had one MacBook power adaptor.</p>
+<p>It was starting to get frayed around where the cable leaves the block and it would cut out. Time to buy a new one.</p>
+<p>A few months later, lose it on the way to Kenya. Time to buy a new one.</p>
+<p>Get into the office one day, it goes bang. Go to the Apple store and complain, get a new one (free at least).</p>
+<p>Get a new MacBook because the old one dies. Now have two, great.</p>
+<p>House gets burgled and all power supplies stolen. Down to zero.</p>
+<p>Time to buy a new one.</p>
+<p>Please make them cheaper Apple.</p>

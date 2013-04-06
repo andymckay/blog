@@ -1,0 +1,37 @@
+---
+layout: post
+title: Avoiding some generic views
+categories: Django
+old: 2257
+blog: andy-mckay
+---
+<p class="discreet">As I wrote this, I realised I seemed to be on a roll with negative blog posts. Sorry, I will get positive again soon, I'm sure.</p>
+
+<p>If you follow through the Django tutorial, you'll get to <a href="http://docs.djangoproject.com/en/dev/intro/tutorial04/">stage 4</a> which encourages you to move to  generic views. Generic views are a neat way of removing the view part of the equation. Instead of a standard URL > view > template, you have URL > template.</p>
+
+<p>There's <a href="http://docs.djangoproject.com/en/dev/ref/generic-views/">documentation on all the generic views</a> and there's quite a few.</p>
+
+<h3>The problem</h3>
+<p>Here's the conversation that goes on in #django IRC about once every day or so. Abbreviated, its normally more long winded than this.</p>
+
+<p><b>djangodood:</b> can I pass parameters to a query in templates?</p>
+<p><b>others:</b> no</p>
+<p><b>djangodood:</b> well how do I do this then? I tried doing it in urls.py and that didn't work</p>
+<p><b>others:</b> do it in your view</p>
+<p>...usually a break of a few minutes.</p>
+<p><b>djangodood:</b> but I want to use my generic views</p>
+<p><b>others</b> bang heads on table</p>
+
+<p>Logic for a template should be done mostly in the view. If its very model specific, doing it in the model might make sense. But the key is keep the template as simple as possible. The templating language reinforces this by not allowing parameters.</p>
+
+<p>Using generic views for things like object_list gives you a problem, you need to put the logic somewhere, so you either try pushing it up into urls.py or down into the template. We all know why the template is the wrong place (hopefully). So then urls.py starts to get really complicated. If you urls.py is full of logic for the view, wouldn't it just be better to push that back into a view?</p>
+
+<p>In practice I've found using generic views that a few things will happen: 1) I write a pile of generic views, 2) my urls.py gets complicated and then 3) as the site gets more complicated I have to start removing generic views. In a non-trivial site, the generic views quickly get removed.</p>
+
+<h3>What does make sense</h3>
+
+<p>The <a href="http://docs.djangoproject.com/en/dev/ref/generic-views/#django-views-generic-simple-direct-to-template">direct_to_template</a> or the <a href="http://docs.djangoproject.com/en/dev/ref/generic-views/#django-views-generic-simple-redirect-to">redirect_to</a> make sense to me. These generic views don't involve passing any new data to the templates, different querysets or parsed data - that means most of the time they work just fine.</p>
+
+<p>Writing a wrapper that uses the generic view, as <a href="http://www.b-list.org/weblog/2006/nov/16/django-tips-get-most-out-generic-views/">James Bennet shows</a>.</p>
+
+<p>In the tutorial, the generic views seem to say "hey skip writing this bit of Python". Chances are you'll be better off just writing that bit of Python as you'll need to go back to it. And it will stop you trying to do too much work in the template.</p>

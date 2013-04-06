@@ -1,0 +1,13 @@
+---
+layout: post
+title: ClearRSS 0.1 released
+categories: clearwind
+old: 1841
+blog: andy-mckay
+---
+ClearRSS is an RSS news feed parser written in Ajax, that uses the AjaxProxy to pull RSS feeds from remote sites and display them in your site. This is a quick 0.1 release, I haven't tested it in IE but it worked for me in Firefox. Volunteers to get this to a 1.0 welcomed. RSS feeds are sped up dramatically by local Zope caching of them.
+
+This follows on the Ajax Services theme. <em>Note</em>: that the RSS parsing code is actually re-used from another non-Plone project and then customised which is why it only took and hour to write.
+
+Download: <a href="http://www.agmweb.ca/files/ClearRSS.0.1.zip">ClearRSS.0.1.zip</a>
+

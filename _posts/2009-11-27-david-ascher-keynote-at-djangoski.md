@@ -1,0 +1,18 @@
+---
+layout: post
+title: David Ascher keynote at DjangoSki
+categories: Django
+old: 2232
+blog: andy-mckay
+---
+<p>We are pleased to announce the first keynote speaker for <a href="http://clearwind.ca/djangoski">DjangoSki</a> is David Ascher.</p>
+<p>David Ascher is the CEO of <a href="http://www.mozillamessaging.com/en-US/about/staff/">Mozilla Messaging</a>. He's been involved with
+Python for many years and has dabbled around in Django too. 
+He co-authored <a href="http://www.amazon.com/Learning-Python-Second-Mark-Lutz/dp/0596002815">Learning Python</a> and worked on 
+<a href="http://www.activestate.com/komodo">Komodo</a> whilst at ActiveState (where he became the CTO).
+Most recently Mozilla Messaging released the rather cool <a href="http://labs.mozilla.com/raindrop">Raindrop</a>, which is 
+written in Python.</p>
+<p>David has done some great talks at Python conferences in the past, providing thought provoking and entertaining talks. We think he can ski too,
+but we'll find that out.</p>
+<p>We would also like to thank our first sponsor for DjangoSki, <a href="http://openroad.ca/">OpenRoad Communications</a>.</p>
+<p>If you would like to sponsor DjangoSki and get your company in front of key Djangoers whilst supporting a great conference, <a href="mailto:sales@clearwind.ca">contact ClearWind</a>. For more information on the DjangoSki conference, go to <a href="http://djangoski.com">djangoski.com</a>.</p>

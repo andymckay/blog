@@ -1,0 +1,9 @@
+---
+layout: post
+title: New plone book
+categories: Plone
+old: 2179
+blog: andy-mckay
+---
+<p>The new book <a href="http://www.packtpub.com/practical-plone-3-beginners-guide-to-building-powerful-websites/">Practical Plone 3: A Beginner's Guide to Building Powerful Websites</a> is out. Haven't read it, but it sounds like it fills an excellent need - beginners who need to know how to use Plone. If you are new to Plone, read this first and then <a href="http://www.packtpub.com/Professional-Plone-web-applications-CMS/book">Professional Plone Development</a> second.</p>
+<p>Probably something I should go and read.</p>

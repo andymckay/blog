@@ -1,0 +1,8 @@
+---
+layout: post
+title: Joining Mozilla
+categories: Django
+old: 2283
+blog: andy-mckay
+---
+<p>Happy to announce that at the end of October I'll be joining Mozilla. I'll be working in the <a href="http://blog.mozilla.com/webdev/">web team</a> on the <a href="http://djangocon.us/schedule/sessions/9/">Django sites</a>. Excited to be working with a great team of people on some cool sites.</p>

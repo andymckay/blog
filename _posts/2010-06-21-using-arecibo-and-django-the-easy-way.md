@@ -1,0 +1,14 @@
+---
+layout: post
+title: Using Arecibo and Django, the easy way
+categories: Django
+old: 2268
+blog: andy-mckay
+---
+<p>So you've got your Django project on the production server. Want an easy way to track the errors in Django? The existing Django package is pretty easy to use, but it doesn't get much simpler than this: add in your Arecibo server to your ADMINS in settings.py.</p>
+<p>When Django emails out those error emails, it will send one to Arecibo. Arecibo will parse it and add it your site. The email address for that is: django-YOUR_PUBLIC_ARECIBO_KEY@yourserver.appspotmail.com. You can try this out right now, the email address for the test server is: <a href="mailto:django-sw3tqw35ywq45ws4kqa4ia6yw5q45serws23w351245lk6y@test-areciboapp.appspotmail.com">django-sw3tqw35ywq45ws4kqa4ia6yw5q45serws23w351245lk6y@test-areciboapp.appspotmail.com</a></p>
+<img src="http://www.agmweb.ca/files/arecibo-email-django-one.png" />
+<p>Becomes:</p>
+<img src="http://www.agmweb.ca/files/arecibo-email-django.png" />
+<p>To do this we are parsing the email down, which is less accurate than just doing a HTTP post via the API, but its pretty easy to setup.</p>
+<p>Note: the key for the email address for the test server might change, you can find it on the setup pages on the test server. All errors are deleted after one hour on the test server.</p>

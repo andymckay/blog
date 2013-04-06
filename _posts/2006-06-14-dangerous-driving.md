@@ -1,0 +1,21 @@
+---
+layout: post
+title: Dangerous driving
+categories: Driving
+old: 1806
+blog: andy-mckay
+---
+Of all the things that get my blood boiling as a cyclist is drivers who turn right directly in front of you. Fair enough, everyone has to turn right - but I just get incensed when drivers overtake, giving you lots of room, then instantly turn right blocking you completely. <em>Where is the cyclist meant to go</em>: left into the traffic, right around the front of the car, or hope you can brake in time before slamming into the car that is now braking.
+
+This has happened to me several times. At least once I've been unable to stop, and splatted myself on the back of a nice expensive car, hopefully scratching it in the process. I think the mental process that goes through the drivers is something like this:
+<ul>
+	<li>There's my right turn up ahead</li>
+	<li>Oh there's a cyclist I'll can just speed past him</li>
+	<li>He's behind me now, not my problem, let's turn right</li>
+</ul>
+
+Things they've forgotten: 1) there could be a pedestrian, car parking or other obstacle causing them to stop 2) cyclists can't stop as fast as cars. All they had to do was slow down... wait for the cyclist to pass then turn right or ensure they had left enough space up ahead.
+	
+Please drivers, <strong>slow down</strong> and give us room.
+
+Rant over. And watch out Mr. Brown Chevy Minivan, don't do that too me again.

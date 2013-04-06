@@ -1,0 +1,13 @@
+---
+layout: post
+title: Walled gardens of social networking
+categories: Web 2.0
+old: 1976
+blog: andy-mckay
+---
+<p>My wife and friends have started using Facebook and every time I see here I make some sort of semi-superior sigh and comment under my breath about Facebook. Partly because I've been through at least two sites including Orkut and each new site never cares about the lasts data. On some level it annoys me the attention these sites get since I don't understand why they get so much attention. Anything that is pitched to me as "MySpace for grown ups" (as it was on the radio) is just on a loser.</p>
+
+<p>In the end Facebook has this problem, eloquently expressed in a post:</p>
+<blockquote>
+I feel very strongly that we already have the world's best public social networking tool right in front of us: it's called the internet</blockquote>
+<cite><a href="http://www.codinghorror.com/blog/archives/000898.html">Jeff Atwood</a></cite>

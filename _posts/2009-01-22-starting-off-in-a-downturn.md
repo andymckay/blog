@@ -1,0 +1,11 @@
+---
+layout: post
+title: Starting off in a downturn
+categories: General
+old: 2176
+blog: andy-mckay
+---
+<p>In the new year I've gone back to freelancing and consulting. As it turned out, that's slightly more tricky than it has been over the last few years, a lot of the work has dried up. Partly though that's just a matter or re-establishing a network.</p>
+<p>The good thing is though, I'm actually getting to work on some new products. I really enjoyed getting some of the products at Enfold out the door and would really like to do so again. I started a while back with Arecibo and the next minor diversion will be out on Monday. The advantage here of course, is that I have little other work and can get on with building stuff. A few years ago the consulting work swamped me, making this impossible.</p>
+<p>I think I really need to turn off my RSS reader (averaging 300 posts a day), irc and mail and just focusing on shipping the next web site out of the door.</p>
+<p>Now if I can just figure out the paying the bills part...</p>

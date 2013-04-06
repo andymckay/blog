@@ -1,0 +1,8 @@
+---
+layout: post
+title: Vancouver Plone User Group
+categories: Plone
+old: 2206
+blog: andy-mckay
+---
+<p>After a lengthy absence the Vancouver Plone User Group is meeting for a get together. We'll be meeting at Workspace on the 20th at 7pm. <a href="http://tr.im/kQfC">Details here</a>. See you then.</p> 

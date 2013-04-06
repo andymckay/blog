@@ -1,0 +1,9 @@
+---
+layout: post
+title: Microsoft in danger of being cool
+categories: Python
+old: 2057
+blog: andy-mckay
+---
+<img src="http://www.agmweb.ca/files/visual-studio.png" style="padding: 1em; float: right">
+<p>Alright Microsoft has a long way to go to winning the hearts and minds of developers. But on this article talking about <a href="http://www.regdeveloper.co.uk/2008/03/13/ironpython_part_one/">IronPython</a> and the ability to access .NET. That in itself is cool, but we've know about that for a long time. But there is also an advert for Visual Studio. Using Halo characters. Now that is pretty cool.</p>

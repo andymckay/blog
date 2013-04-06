@@ -1,0 +1,8 @@
+---
+layout: post
+title: We've moved in.
+categories: General
+old: 1901
+blog: danae-mckays-blog
+---
+January 15th<br /><br />Well, Andy says he&#39;s going to set me up with a blog once our internet is up and running, so I thought I&#39;d get started right away! We moved into our house on Monday after spending the weekend bringing our stuff over from Ann&#39;s, collecting bits and pieces (some borrowed, some gifts) from Ian, and shopping for more &quot;must haves.&quot;<br /><br />Without all our stuff from Vancouver, we are having to borrow basics like dishes and cutlery, beds and bedding, towels, etc. We are so lucky to have Andy&#39;s family here. I don&#39;t know what we&#39;d do if we were moving somewhere we had no family at all.<br /><br />We are currently sleeping on a very uncomfortable futon and Emily is sleeping on a borrowed fold-up bed - the springs creak with the slightest movement. Samantha is fortunate to have the crib that her cousins Amy and Matt slept in as babies, so she is nice and comfy!<br /><br />We have one chair - a single futon that folds into a chair - and no table, so we eat all our meals sitting on the nice wide window ledge! We will soon have a table and chairs, courtesy of Peter. Would you believe that when you rent or buy a place here, it doesn&#39;t come with a fridge or washing machine?! Ian has provided us with a free fridge, and we plan to go buy a new washing machine and small freezer next weekend. Our office/guest room/play room is currently empty except for a few toys, most of which were Christmas gifts!<br /><br />I&#39;m sure we will fill the place up quickly, though. We&#39;ve had lots of offers of free furniture and such, plus our shipment will be here soon enough.

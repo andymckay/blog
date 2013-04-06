@@ -1,0 +1,19 @@
+---
+layout: post
+title: Just supposing...
+categories: General
+old: 2209
+blog: andy-mckay
+---
+<img src="http://www.agmweb.ca/files/99570208_feb4334854_m.jpg" style="padding: 1em; float: right" />
+<p>Every so often it crosses my mind - time to give up computers and do something else. Move on to something else. Maybe writing full time. Maybe canoe guide or instructor. Maybe take up woodworking seriously.</p>
+<p>I'm not sure why I keep thinking that another career would be any better or worse than this one. The grass is always greener, as they say. Perhaps it's the simple things. What are the problems at the moment?</p>
+<ul>
+<li>Although I've done it for a long time now, working alone in a home office can be a pretty lonely experience - more human interaction and company maybe?</li>
+<li>Sitting at a computer is not good for the health. I've never been one of life's fittest and most active people, but I do love going outside. Struggling to make time to do that these days.</li>
+<li>I seem to spend a lot of time in my RSS reader, reading about how other people are doing exciting things and starting things up. Perhaps I need to spend less time reading and just doing (even if it is a bit blind).</li>
+<li>I seem to spend a lot of time thinking about how to get things better or make money from idea X or Y.</li>
+</ul>
+<p>Perhaps in the end I'm spending too much time thinking. Sitting at computer with all these information sources can be a curse. Whenever I start a project for myself or a client, I Google the details. As I go through the development process, I'm continually looking for code, libraries and thinking of more efficient ways to complete the project. All well and good, but its a process that involves lots of thought. By design it's a process that involves lots of  thinking. Perhaps I need to do less of that some days.</p>
+<p>If you were going to throw in the chips on an IT career, what would you do?</p>
+<cite><a href="http://www.flickr.com/photos/candiedwomanire/99570208/">source photo</a></cite>

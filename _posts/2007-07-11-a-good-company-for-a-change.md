@@ -1,0 +1,10 @@
+---
+layout: post
+title: A good company for a change
+categories: England
+old: 1978
+blog: andy-mckay
+---
+<p>After dealing with companies that <a href="http://www.mytravel.com/">won't give refunds</a> and other companies that just plain <a href=http://www.virginmedia.com/">suck</a>, it's so nice to meet a <a href="http://www.orchardtoys.com/">good one</a>.</p>
+<p>We have a few jigsaws and we lost some of the peices on a flight to Canada. Danae emailed them the other day asking if it's possible to buy replacement peices somewhere. The answer was simple: "We'll send you a new puzzle in the post, it should be there in a day or two". Free, no cost. That's nice, thank you <a href="http://www.orchardtoys.com/">Orchard Toys</a>. Our girls love the puzzles and play with them all the time.</p>
+<p>The cynical in me would say that someone has taken a sane business decision along the lines of: it's a 1 pound puzzle and shipping it costs another 1 pound. For a whopping 2 pounds I've avoided a bunch of back and forth emails (and their cost), messing about with a small payment and kept a customer happy. If it is, that's a smart person.</p>

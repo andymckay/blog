@@ -1,0 +1,13 @@
+---
+layout: post
+title: Early adopters have fun problems
+categories: General
+old: 2088
+blog: andy-mckay
+---
+<img src="http://www.agmweb.ca/files/2251978697_cfa2638a55_m.jpg" style="padding 1em; float: right" />
+<p>There's a great post by Dare Obasanjo that points out theat <a href="http://www.25hoursaday.com/weblog/2008/05/21/NoteToWeb20CompaniesEarlyAdoptersAreNotTheMassMarket.aspx">Early Adopters are not the Mass Market</a>. He says (and I agree) that listening to the early adopters is not going to help you in mass market who generally have completely different problems.</p>
+<p>Recently I've been devoting time to thinking about what to do when I leave Blue Fountain and head back to Canada - sometime around Christmas. There's lots to think about and the first thing to do was set some boundaries so that I can ignore tempting options that don't fit into those boundaries. One other way of categorising things is dividing into solutions for early adopters and solutions for the mass market.</p>
+<p>All I hear all day is stuff about Twitter, Twitter and a bit more Twitter. That's certainly something that's interesting (I'm <a href="http://twitter.com/clearwind">clearwind</a> btw), but I haven't figured exactly what for yet. At the other end of the spectrum I work with companies who solve everything by emailing around an Excel spreadsheet. These companies run millions and and millions of pounds through these systems, not a  care about the bleeding edge.</p>
+<p>When I look at this I think that these companies that send everything around via email, work with Excel and so on I see someone who is not an early adopter. I think about improving things and maybe solving say workflow or versioning problems and I think golly: that doesn't sound too interesting. Solving spam problems or trying to solve email attachments? Aargh. That is <b>not</b> where I want to be.</p>
+<p>I might not be able to reach the mass market, but I'd rather have fun in the land of early adopters.</p>

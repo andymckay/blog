@@ -1,0 +1,10 @@
+---
+layout: post
+title: What ISP in the UK should I use?
+categories: Family
+old: 1866
+blog: andy-mckay
+---
+Where I'll be living only ADSL is available it seems. For the last few years I've been running my own mail server, web server, svn server (including this blog) and so on. Fortunately Shaw have never cared less about me running all this on my account and rarely change IP's on me.
+
+What I haven't found yet, apart from Virgin.net is an unlimited bandwidth cap. One of the highest rated ISP in the UK is I think madasafish.com, beating out all the others <a href="http://www.adslguide.org.uk/isps/compare.asp?bt=ON&freenetname=ON&freeserve=ON&tiscali=ON&virginnet=ON&cmp_action=Compare">here</a>. Ideally since I don't know whats coming and going, no bandwith usage limit would be nice. Is there a nice developer friendly ISP in the north west of the UK for a reasonable price, that somone would recommend? Mail me.

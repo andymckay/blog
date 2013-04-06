@@ -1,0 +1,8 @@
+---
+layout: post
+title: Plone 3 user manual
+categories: Plone
+old: 2008
+blog: andy-mckay
+---
+<p>Yay! <a href="http://plone.org/documentation/manual/plone-3-user-manual">Plone 3 user manual</a>. Congratulations to those involved and long may it be updated.</p>

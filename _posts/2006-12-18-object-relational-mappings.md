@@ -1,0 +1,10 @@
+---
+layout: post
+title: Object relational mappings
+categories: General
+old: 1888
+blog: andy-mckay
+---
+<p>From the Django mailing lists... <a href="http://blogs.tedneward.com/2006/06/26/The+Vietnam+Of+Computer+Science.aspx">The Vietnam of Computer Science</a></p>
+<blockquote>It represents a quagmire which starts well, gets more complicated as time passes, and before long entraps its users in a commitment that has no clear demarcation point, no clear win conditions, and no clear exit strategy.</blockquote>
+<blockquote>While many DBAs will faint dead away at the thought, in an increasingly service-oriented world, which eschews the idea of direct data access but instead requires all access go through the service gateway thus encapsulating the storage mechanism away from prying eyes, it becomes entirely feasible to imagine developers storing data in a form that's much easier for them to use, rather than DBAs.</blockquote>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: Getting out of the Plone sink
+categories: Plone
+old: 2107
+blog: andy-mckay
+---
+<p>For a long time I've been doing Plone, recently it's been some other stuff. Coal face web development with Rails, a bit of management, and now back to Zope 2. Before Plone it was Zope 2, Perl and ASP (in that order going back a while).</p>
+<p>Brief aside, recently I noticed ActiveState has moved to <a href="http://trentm.com/blog/archives/2008/07/08/activestate-code-the-new-aspn-cookbooks/">upgrade and move to a new platform</a> one of my old applications, the ASPN Cookbooks.  The new one is Django (I think). But that Zope 2, MS SQL application lasted around 7 years, not bad in our highly transient world.</p>
+<p>A while ago I left <a href="http://enfoldsystems.com">Enfold</a> and announced I was looking for the next thing to do. There were quite a few opportunities offered to me, all but two were essentially Plone consulting. A colleague who just moved to Google, said "What's it with you and Plone?". Indeed.</p>
+<p>Going back further in time I had the, now dead, ZopeZen site and that had a fabulous Google ranking. Well it did for Zope. Since then my Google ranking has been steadily dropping, probably due to the quality of my rambling posts. This all contributed to me being known as a Zope and Plone expert. Part of the reason for moving on from that was that I really wanted to get away from being a Zope expert?</p>
+<p>The result: lower Google rankings, low traffic, a small (but nice and helpful subscriber base) and less exposure.</p>
+<p>I now face this challenge again and what happened with my blog, will be happening with my career. In 2009 I'll be starting up some new projects and trying to move away from focusing on the Plone world. That's going to be an interesting challenge.</p>

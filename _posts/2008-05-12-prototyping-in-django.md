@@ -1,0 +1,12 @@
+---
+layout: post
+title: Prototyping in Django
+categories: Python
+old: 2082
+blog: andy-mckay
+---
+<p>For a while I've been working on a site for a great client of ours. It's a Zope 2 site that uses ZSQLMethods, (Script) Python and ZSQL Methods to pull together a site, it's been around for a long time and working well. Recently we've been adding some functionality to it and I wanted to write some new functionality.</p>
+<p>Sadly that does mean manually writing some: SQL, Python and Page Templates. I was just about to start it all off and in the back of my head was toying just importing Django and using its ORM, model and form code from within Zope (would that work, perhaps)?</p>
+<p>But for the moment I've just prototyped it all out in Django. It took about one hour to create the models and relations and add in the tests. Testing is quick and easy, the unit tests run nice and quickly. The free UI gives me a quick sanity check that everything is fine.</p>
+<p>All I have to do now is spend 4 days translating that prototype into ZSQLMethods and associated stuff. Fortunately I can now steal all the sql from django queries. </p>
+<p><b>Update:</b> <a href="http://bitprophet.org/code/django_to_zope.py">this helps</a>.</p>

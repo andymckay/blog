@@ -1,0 +1,3 @@
+permalink: /:year-:month-:day-:title/
+markdown: redcarpet
+paginate: 1

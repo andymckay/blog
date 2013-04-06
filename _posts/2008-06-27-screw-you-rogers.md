@@ -1,0 +1,61 @@
+---
+layout: post
+title: Screw you Rogers
+categories: Canada
+old: 2102
+blog: andy-mckay
+---
+<p>
+Well Rogers is going to be screwing the Canadian's royally that's for sure. The details <a href="http://micro.newswire.ca/release.cgi?rkey=1606278442&view=5804-0&Start=0">are here</a> for the new iPhone plans. But a quick precis.</p>
+<p>
+<ul>
+<li>A three year mandatory contract. Yes three years, twice as long as O2, 1 year longer than AT&T.</li>
+<li>The top plan $115 a month (about 57 pounds or 133 US dollars) gets you 800 minutes daytime, unlimited evening and weeknds and 2gb of data.</li>
+<li>For an extra $20 a month you get "Caller ID, Who Called, Caller Ring Trax" and evenings starting at 6pm (apparently its normally <b>9pm</b>)</li>
+</ul>
+<p>Wow so that's a monthly cost $135 + $6.95 (system access fee) + 13% (plus GST and PST) = $5,776.56 in monthly fees over 3 years. Let's compare this to some other countries:</p>
+<table border="1">
+<tr>
+<th></th>
+<th>Data</th>
+<th>Daytime</th>
+<th>Evenings</th>
+<th>Text</th>
+<th>Length</th>
+<th>Cost per month</th>
+<th>Handset cost</th>
+</tr>
+<tr>
+<td>US</td>
+<td>Unlimited</td>
+<td>450</td>
+<td>Unlimited</td>
+<td>200</td>
+<td>24 months</td>
+<td>70 CAD</td>
+<td>200 CAD + 36 CAD</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>Unlimited</td>
+<td>1200</td>
+<td>Unlimited</td>
+<td>500</td>
+<td>18 months</td>
+<td>~90 CAD</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>Canada</td>
+<td><b>2GB</b></td>
+<td>800</td>
+<td>Unlimited</td>
+<td>300</td>
+<td><b>36 months</b></td>
+<td><b>~160 CAD</b></td>
+<td>199 CAD</td>
+</tr>
+</table>
+<p>The most expensive Canadian plan is outshone by the third most expensive O2 plan (<a href="http://www.o2.co.uk/iphone/paymonthly">source</a>) and the cheapest AT+T plan (<a href="http://www.iphonehacks.com/2008/06/iphone-3g-att.html">source</a>). Yes I'm assuming unlimited data is the most important.</p>
+<p>Shame on Rogers and shame on Apple, who know damn well what the costs were going to be. I can only hope the sales are dismal and instead in 6 months time Rogers loosen up or competition comes into the market place.</p> 
+<p><b>Update:</b> <a href="http://fuckyourogers.com/>This site says it all</a>.</p>

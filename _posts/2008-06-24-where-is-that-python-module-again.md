@@ -1,0 +1,16 @@
+---
+layout: post
+title: Where is that python module again?
+categories: Python
+old: 2101
+blog: andy-mckay
+---
+<p>For people like me with multiple pythons installations and can never remember his current modules are installed, I added the simple script, <code>where-python</code>:</p>
+<pre>
+python -c "import $1; import os; print os.path.dirname($1.__file__)"
+</pre>
+<p>And hence:</p>
+<pre>$ where-python django
+/Library/Frameworks/Python.framework/Versions/2.4/lib/python2.4/site-packages/django
+</pre>
+

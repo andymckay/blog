@@ -1,0 +1,11 @@
+---
+layout: post
+title: Django Apps rock
+categories: Django
+old: 2287
+blog: andy-mckay
+---
+<span style="float: right"><a href="http://www.flickr.com/photos/expressmonorail/3153628675/" title="Disney - HAPPY NEW YEAR!! by Express Monorail, on Flickr"><img src="http://farm4.static.flickr.com/3250/3153628675_57204e1afc_m.jpg" alt="Disney - HAPPY NEW YEAR!!" /></a></span>
+<p>There's been some chat on <a href="http://groups.google.com/group/django-users/browse_thread/thread/22875fd287d0aa81/d6cf04a857424678?show_docid=d6cf04a857424678">mailing lists</a> and <a href="http://djangocon.blip.tv/file/4112452/">conferences</a> about the <a href="http://djangocon.blip.tv/file/4108781/">reusability</a> of apps and about how reusable apps suck.</p>
+<p>So here's in defence of plain old normal non-reusable Django apps. The ones that probably power most of your current awesome Django sites. They rock. Easy to write and build out a site with. Django apps deserve credit for being so rapid to develop and having a very small set of boilerplate and required code (just a models).</p>
+<p>So before people come up with schemes for making apps reusable, please remember, we've got a great solution for building apps now. Let's not ruin the speed and simplicity of Django app whilst in pursuit of improved reuse.</p>

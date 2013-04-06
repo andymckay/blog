@@ -1,0 +1,12 @@
+---
+layout: post
+title: Macbook Air
+categories: General
+old: 2043
+blog: andy-mckay
+---
+<p>Must admit been looking forward to this announcement, I got caught up in the pre conference rumours and followed the blogs on the keynote. I've been looking forward to hearing about the new MacBook. This is because a few years ago I had a small Sony and loved it. Except it didn't run OS X, just crappy old Windows. The idea of something that combined the size of the Sony and OS X and Apple polish (and not being a Sony) would rock.</p>
+<p>So with baited breath I watched the keynote and oh my god its gorgeous. I want one. But then the doubt set in.</p>
+<p>I was briefly a road warrior (well road peasant more like) and loved the Sony, because it was small, slept quickly, was light and a super long battery life. I used the thing all the way from Vancouver to Manchester, one battery (8hrs). I used to goad the person in front of me to put the seat down because I could still work the entire way.</p>
+<p>The MacBook Air. Light, yep check. Sleeps and restarts quickly, I bet it does. Long battery life, well they advertise 5 hours, so that really means 4 and after a few cycles, more like 3. Hmmm nope. Size, well it's thinner than a MacBook but slightly bigger the other way 1.08 x 12.78 x 8.92 vs  0.16 to 0.76 x 12.8 x 8.94.  I can't use my MacBook on a plane. Hmm.</p>
+<p>I think it's sexy, the idea that they've got rid of most ports and a superdrive is great. Fabbo. But will it work on the flight Vancouver to Manchester? No. So for that reason I've really cooled down on this laptop and I've gone from "I'll do anything to get it" to "Yeah if my MacBook breaks, maybe".</p>  

@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+<title>Andy McKay</title>
+<link href="http://www.agmweb.ca/blog/andy" rel="alternate"></link>
+<link href="http://www.agmweb.ca/blog/rss/latest/andy/" rel="self"></link>
+<title>What's on my mind: Collantes.US</title>
+<link href="http://log.collantes.us/atom.xml" rel="self"/>
+<link href="http://log.collantes.us/"/>
+<updated>{{ site.time | date_to_xmlschema }}</updated>
+<id>http://www.agmweb.ca/blog/andy</id>
+<author>
+<name>Andy McKay</name>
+<email>andy@clearwind.ca</email>
+</author>
+{% for post in site.posts limit:13 %}
+<entry>
+<title>{{ post.title }}</title>
+<link href="http://www.agmweb.ca/{ post.url }}"/>
+<updated>{{ post.date | date_to_xmlschema }}</updated>
+<id>http://www.agmweb.ca/{{ post.id }}</id>
+<content type="html">{{ post.content | xml_escape }}</content>
+</entry>
+{% endfor %}
+</feed>

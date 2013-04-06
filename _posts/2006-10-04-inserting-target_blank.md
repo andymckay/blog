@@ -1,0 +1,8 @@
+---
+layout: post
+title: Inserting target="_blank"
+categories: General
+old: 1858
+blog: andy-mckay
+---
+A client asked us to change the external links on their website. There were links to external url&#39;s and the links had target=&quot;_blank&quot; on them, inserted by the authors of the content. So the client asked us to remove that target and instead add it by JavaScript, in this case the JavaScript relied upon the link having a rel=&quot;external&quot;.  For those of you who don&#39;t know by the way, this is possible by uncommenting one line of JavaScript in Plone.  All well and good, but being the sort of person I am, I have to ask why. The reason? Accessibility.<div><br /></div><div>And that&#39;s when I got confused. Why does inserting that target through JavaScript improve accessibility for anyone? I can see it maybe being more valid. The only reason on #plone that anyone could think of was that if screenreaders ignore the JavaScript, they won&#39;t have new windows opening and that&#39;s more helpful.  Googling for this case only pointed me to lots of sites where people said target=&quot;_blank&quot; should be present in the HTML and not added in JavaScript to ensure it works for users with scripting disabled. Which is the opposite of what is being done.</div><div><br /></div><div>&nbsp;Please send you answers on a post card and preferably they shouldn&#39;t be blank. I&#39;ll add that in later.</div>

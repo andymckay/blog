@@ -1,0 +1,40 @@
+---
+layout: post
+title: Django-lawnchair
+categories: Django
+old: 2250
+blog: andy-mckay
+---
+<p><a href="http://brianleroux.github.com/lawnchair/">Lawnchair</a> is a library that provides a client side JSON store and that's really cool. Since I'm going to be using this quite a bit in some of our applications, I started to build out some of the common uses into a library. This makes working with django models on the client side a little bit easier.</p>
+
+<p>At the moment django-lawnchair contains a few utilities to do some work on the server, but to be honest, not to much. I'm hoping I can integrate django-piston a bit to make writing that easier.</p>
+
+<p>There's a bit more on the client side of things, using django-lawnchair.js you can instantiate a database like this:</p>
+
+<pre>var todos = new djangochair('/todo/list');</pre>
+
+<p>Grabbing all the objects for a model (in this case Todo objects), populating the local database (or whatever backend store you choose) is as simple as:</p>
+
+<pre>todos.remote_get(add_row);</pre>
+
+<p>...as each Todo is added to the DB, the callback <code>add_row</code> will be called.</p>
+
+<img src="http://www.agmweb.ca/files/django-lawnchair-1.png">
+
+<p>Users can interact with the objects. Each time you change a model in the local DB, we change the state. You can the push all the changed objects to Django:</p>
+
+<pre>todos.updated(function(r) {
+    todos.remote_save(r);
+ });</pre>
+
+<p>This will iterate through each changed object and push them to the server, where they will be saved. Got deleted objects?</p>
+
+<pre>todos.deleted(function(r) {
+    todos.remote_delete(r, function(r) {
+        todos.purge(r.key);
+    });
+});</pre>
+
+<p>...and so on. There's a lot to do in this area, handling errors, handling syncing problems and so on. The library doesn't do much of that yet, it's trying to set a base line for this stuff. As we build this out for some applications, we'll be fleshing these cases out.</p>
+
+<p>This is in a "works on my machine" state at: <a href="http://github.com/andymckay/django-lawnchair">http://github.com/andymckay/django-lawnchair</a>.</p>

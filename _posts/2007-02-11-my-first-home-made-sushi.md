@@ -1,0 +1,8 @@
+---
+layout: post
+title: My first home made sushi
+categories: England
+old: 1911
+blog: andy-mckay
+---
+On Thursday I was delighted to find the speciality section at Tesco that sold sushi ingredients, the rice, seaweed and so on. I then spent Thursday thinking about sushi. Roll around early Sunday morning and we are looking at the cheap for sale section in Somerfield. There is cheap salmon steaks, going for 50p each. Gleefully I grab them and plan for sushi.<div><br /></div><div>Purists may point out at this juncture that the whole point of sushi is fresh fish. I couldn&#39;t agree more, but at the moment the needy will take what he can get.</div><div><br /></div><div><span class="Apple-style-span">That afternoon I made my first ever sushi rolls (I think maki is the correct term). Seaweed on the outside, salmon, cucumber and bean sprouts inside. The roll almost fell apart, wasn&#39;t uniform and looked wierd. I didn&#39;t have any chopsticks (in the never appearing shipment) or bowls to mix up the wasabi. But it was <span class="Apple-style-span" style="font-weight: bold">fabulous</span>.</span></div><div><br /></div><div>I then realised I&#39;d completely miscalculated the salmon, one steak made 6 rolls and left me a ton of salmon to spare. Oh well sashimi is it is. I&#39;d forgetten the taste and textural sensation as it melted in my mouth. And I used to cook this?</div><div><br /></div><div>I think sushi has surplanted curry as my favourite food by a long way. And I&#39;ve got 3 salmon steaks in the freezer and found a good supplier of fresh tuna. Life is on the up.</div>

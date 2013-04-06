@@ -1,0 +1,14 @@
+---
+layout: post
+title: Moving from Django to Plone
+categories: Plone
+old: 2136
+blog: andy-mckay
+---
+<p>Just found <a href="http://seeknuance.com/about/">John DeRosa's blog</a>: another Seattle person who's going for Plone. I single him out because he's going from <a href="http://seeknuance.com/2008/09/13/django-plone-light-bulbs-differences-irks/">Django to Plone</a> and provides lots of insight. Since I've specifically gone the other way, there's some interesting things in there.</p>
+<p>I swear blind I've chatted and worked with John in the past (anyone who has met me realises I have the people and face recognition skills of a goldfish) - after a glass of wine, I'll remember. Anyway it was surprising to read the blog posts and then figure out who it was. Some comments:</p>
+<blockquote>Inventing a word thats vague, and confined to just your knowledge domain, is never betterish than using a realish word.</blockquote>
+<p>+10. He was talking about "folderish", but at the Plone conference in Naples I was complaining about the profusion of silly terminology in Plone. And yes "folderish" is used throughout my book, I followed the herd, what can I say? One of the few things I thought Moodle got right was that it didn't have portlets, viewlets, mambots (mambo) it had "HTML Blocks". Might not be 99% accurate but I got what it was first time.</p>
+<p>Regarding buildout, XML and other configurations:</p>
+<blockquote>The problem with these other formats, aside from inherent syntactic problems, is the required mental context-switch when you move from one to the other. One moment your brain is in Python mode, and the next moment it must switch to XML mode. And some moments later, it has to switch to [insert idiosyncratic format here] mode</blockquote>
+<p>Lot's more on his site and one more to add to my RSS reader.</p>

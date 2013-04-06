@@ -1,0 +1,50 @@
+---
+layout: post
+title: Why isn't government open by default?
+categories: Canada
+old: 2321
+blog: andy-mckay
+---
+<img src="http://www.agmweb.ca/files/bcesis.png" style="float: right" />
+<p>A few weeks ago the government <a href="http://t.co/nJDitye7">published a report</a> on an $80 million (or thereabouts) project for the BC Ministry of Education on BCeSIS. The report recommends that will have to be scrapped in the coming years and replaced after about six years, with a new off the shelf proprietary system.</p>
+<p>It cost <a href="http://www.kamloopsnews.ca/article/20110117/KAMLOOPS0101/301179972/-1/kamloops/education-minister-puts-future-of-bcesis-in-doubt">$11.9 million</a> a year to operate and <a href="http://www.cknw.com/Channels/Reg/NewsLocal/Story.aspx?ID=1539426">$16 million</a> to create. It holds around 600,000 records and runs on Oracle and other fun stuff.</p>
+<p>Some of the things that interested me in the report:</p>
+<p>On open source:</p>
+<blockquote>Although some attempts have been initiated to develop K-12 Open Source SIS solutions, there does not appear to be any formal, structured funding mechanism and approach to designing and developing a solution which would meet the future needs of the BC education sector, nor to scale to the extent required to provide a single, province-wide student database.</blockquote>
+<cite><a href="http://t.co/nJDitye7">BCeSIS report</a></cite>
+<p>Damn open source can a pain like that without "formal, structured funding mechanisms".</p>
+<p>The UI is mentioned as:</p>
+<blockquote>Current user satisfaction with BCeSIS is low, particularly with respect to the following: User interface, System response/availability</blockquote>
+<cite><a href="http://t.co/nJDitye7">BCeSIS report</a></cite>
+<p>I added a screenshot from <a href="http://www.youtube.com/watch?v=TZXa5TibMlw">this video</a> to see how bad the UI is. True enterprise consulting software at it's best, $16 million eh?</p>
+<p>In alternatives:</p>
+<blockquote>Continuing with BCeSIS and evolving and supporting the BCeSIS solution<br/>
+a.    Acquiring the source code for eSIS
+</blockquote>
+<cite><a href="http://t.co/nJDitye7">BCeSIS report page 21</a></cite>
+<p>That's right folks. BC spent $16 million and then $11 million on it a year. But it <b>does not own the source to the project</b>.</p>
+<p>That probably doesn't surprise many people, I bet it's quite common. For me, on almost all projects I've worked on or managed, the subject of who owns the code has come up quickly in the process. The answers vary, but it's normally something like a non-exclusive license on both ends. I.e. as a developer I can re-use libraries I built of out it and as the client you can do what you like with it.</p>
+<p>I do remember one meeting with a large government and business clients and I brought up the license to the code and was shot down quickly "of course the client owns the code". Silly me.</p>
+<h3>What if BCeSIS was open source?</h3>
+<p>Why would have BC not have asked the consulting company not to develop this as open source software from the get go? Let's just imagine if BCeSIS had been developed as open source.</p>
+<ul>
+<li>We wouldn't have to acquire the license to a system we paid for.</li>
+<li>Any vendor could work on the project allowing competitive bidding around the support of the project.</li>
+<li>Other governments, school districts or agencies might have picked up the project</li>
+<li>There might just be an open source eSIS project with a "formal, structured funding mechanism".</li>
+</ul>
+<p>If it was open source, BCeSIS might just be moving forward as other jurisdictions might have picked it up. It might be cheaper and easier to maintain. It won't be any worse.</p>
+<h3>Why isn't the government open source by default?</h3>
+<p>Let's just play devils advocate here and see why a large project wouldn't do open source. And by open source, we mean the software developed for a project like BCeSIS. You can still have an open source project and use Oracle.</p>
+<ul>
+<li>The business needs and <a href="http://www.investopedia.com/terms/e/economicmoat.asp#axzz1Zt0lfwaR">intellectual property moat</a>. But, the government is not trying to defend a business model. The goal should be to get other jurisdictions to work on this project and get as much input as possible.</li>
+<li>Security. We know that security by obscurity is bogus. We aren't asking you to put the usernames or passwords to your database in the public, just code. We don't even want you to do something silly like <a href="http://www.versapay.com/company-news/pci-dss-compliance-why-merchants-need-to-care/">copy sensitive production data downstream</a>.</li>
+<li>There are legal ramifications. I think those have been pretty much resolved these days, if you chose an appropriate license.</li>
+<li>It's too much effort. If you are open by default, it actually becomes quite easy. Making things closed becomes the hard and painful part, it's amazing how quickly and easily it flips around.</li>
+<li>The consulting company won't let us. Then the government needs to dictate to the consulting companies or find other ones. There's plenty of them.</li>
+</ul>
+<h3>Conclusion</h3>
+<p>The conclusion from the report is that there a few vendors who can provide and off the shelf solution and it will be backed by Oracle, Microsoft or Java technology. I bet it won't be open source code.</p>
+<p>It's not a simple "<a href="http://www.codinghorror.com/blog/2009/07/code-its-trivial.html">I can throw that together using Rails for 5k on a weekend</a>" project. It could be accomplished with an open source software stack and it could be done with all the code being open source. And that would present a much brighter future for the software and for the poor teachers and admininstrators who have to suffer it.</p>
+<p>The brief informal poll of exactly one teacher, my wife, when I told her of the scrapping of BCeSIS was "woohoo, it sucks". I hope the new one <a href="http://www.youtube.com/watch?v=8PA4Vrpd5qA">is better</a>.</p>
+<p><b>Update:</b> <a href="http://www.youtube.com/watch?v=fee1zxP83Zo">how to change your password</a>. Must be 8-14 chars, numbers, letters, one of $, # or _ and must start with a letter or number.  <a href="http://xkcd.com/936/">Lovely</a>.</p>

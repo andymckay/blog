@@ -1,0 +1,20 @@
+---
+layout: post
+title: Real time ship tracking
+categories: Canada
+old: 2228
+blog: andy-mckay
+---
+<p>Wanted to know what that ship in the Vancouver harbour is? Where its going, where its been? Want to know the path of the seabus today?</p>
+<script type="text/javascript">
+        width=800;          //the width of the embedded map in pixels or percentage
+        height=600;         //the width of the embedded map in pixels or percentage
+        border=1;           //the width of border around the map. Zero means no border
+        notation=false;     //true or false to display or not the vessel icons and options at the left
+        latitude=49.316581;   //the latitude of the center of the map in decimal degrees
+        longitude=-122.950275;  //the longitude of the center of the map in decimal degrees
+        zoom=11;            //the zoom level of the map. Use values between 2 and 17
+        trackvessel=0;      //the MMSI of the vessel to track, if within the range of the system
+</script>
+<script type="text/javascript" src="http://www.marinetraffic.com/ais/embed.js"></script>
+<p>Via Dethe Elza, from <a href="http://www.marinetraffic.com/ais/">http://www.marinetraffic.com/ais/</a>. Want to get it easy to use on my iPhone for next time I'm at the beach.</p>

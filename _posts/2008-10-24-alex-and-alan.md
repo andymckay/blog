@@ -1,0 +1,9 @@
+---
+layout: post
+title: Alex and Alan
+categories: Plone
+old: 2141
+blog: andy-mckay
+---
+<p>I'm slow and if it often takes me a long time to figure things out. Sometimes years it seems. But one thing I really appreciated the other day was how well Alan and Alex have built out a community.</p>
+<p>Recently I've noticed in Django there tends to be a feeling that it's all down to a few 

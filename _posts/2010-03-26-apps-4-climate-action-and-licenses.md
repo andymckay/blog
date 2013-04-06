@@ -1,0 +1,53 @@
+---
+layout: post
+title: Apps 4 Climate Action and licenses
+categories: Canada
+old: 2251
+blog: andy-mckay
+---
+<p><b>Update:</b> here's the word from the organisers:</p>
+
+<blockquote>...entrants can use any publically available data but their entry must include at least one data set from the catalogue where the Agency name begins with "Province of BC". All necessary permissions, rights or licenses are granted for "Province of BC" data sets.</blockquote >
+
+<blockquote>You are correct that the Province cannot grant license to information contained on sites outside our jurisdiction. Any catalogue entry where the Agency name does not begin with "Province of BC" is outside of our jurisdiction. Entrants must secure the necessary permissions, rights or licenses to use that material or any other third party material.</blockquote>
+
+<p>If you look at <a href="http://data.gov.bc.ca/data.html">the catalog</a> a bunch of links start with "Province of BC". Looks like its clear now what we can use, thanks!</p>
+
+<hr />
+<p>Today the BC government launched an "<a href="http://www.apps4climateaction.gov.bc.ca">Apps for Climate Action</a>" contest. Build an app or website or whatever that promotes climate change action and you could win a few thousand dollars. I'm pretty passionate about climate change, so that might be a nice little thing to do on a rainy evening or two.</p>
+
+<p>When you sign up <a href="http://www.apps4climateaction.gov.bc.ca/contest_rules.aspx">there's some rules</a>, one of them is:</p>
+
+<blockquote>The Province hereby grants to you, for the Contest Period and for a twelve (12) month period beginning on August 21, 2010 and ending on August 20, 2011, a non-exclusive, royalty-free, worldwide license to use, reproduce, modify for formatting purposes, publish, communicate to the public by telecommunication, display and distribute the Data for the sole purpose of incorporating the Data into your Application and submitting your Application to the Contest.</blockquote>
+
+<p>Now that's pretty cool. So let's go look at <a href="http://data.gov.bc.ca/data.html">the data</a>. It actually points to a series of different data sources across the internet. There's 543 of them to be exact. That table is a little hard to use so I parsed it in Python via Beautiful Soup into a <a href="http://spreadsheets.google.com/ccc?key=0ApbiPdOYdv9IdHJjU2xua3dhZVFpUW81aDViZlItT3c&hl=en">spreadsheet</a>. That was a bit more useful, but I really wanted to know by domain, so that's <a href="http://spreadsheets.google.com/ccc?key=0ApbiPdOYdv9IdDVHcmtsQ2pUUHpwOXZHQzVscHNqRHc&hl=en">another spreadsheet</a>.</p>
+
+<p>The data is spread out over 70+ domains, some of it under the province of BC's control, some of it not. For example this one is <a href="https://apps.gov.bc.ca/pub/geometadata/metadataDetail.do?recordUID=47657&recordSet=ISO19115">Ground water quality</a>. If you look at the bottom of that page, we see a <a href="http://www.gov.bc.ca/com/copyright.html">link to the copyright</a> and that reads:</p>
+
+<blockquote>It may not be reproduced or redistributed without the prior written permission of the Province of British Columbia.</blockquote>
+
+<p>Ok so for this project, we can assume that the license has been overridden by the contest rules. We'd probably be pretty safe in that bet.</p>
+
+<p>Now how about NASA? Yep, that's linked as one of the 543 resources, and points to <a href="http://earthobservatory.nasa.gov/">this site</a>. Now as it turns out for say, image data, NASA have a <a href="http://earthobservatory.nasa.gov/ImageUse/">pretty cool policy</a>:</p>
+
+<blockquote>Most materials published on the Earth Observatory, including images, are freely available for re-publication or re-use, including commercial purposes, with the following exceptions..</blockquote>
+
+<p>But I doubt that for a moment that the Province license overrides NASA's or that the Province has any right to do so. If you think this is cut and dry, don't be so sure, it's not obvious from the 70 plus domains who is what. For example... BC Hydro, who are listed in the data. Their policy is <a href="http://www.bchydro.com/siteinfo/legal.html">here</a> and it's:</p>
+
+<blockquote>Re-use of any of our editorial content and graphics online for any purpose is strictly prohibited</blockquote>
+
+<p>Does the Provinces license override BC Hydros? Some organisations do deserve credit. The UN <a href="http://unfccc.int/home/items/2783.php">has this</a>:</p>
+
+<blockquote>All official texts, data and documents are in the public domain and may be freely downloaded, copied and printed provided no change to the content is introduced, and the source is acknowledged.</blockquote>
+
+<p>The federal government also has a <a href="http://www.nrcan-rncan.gc.ca/com/notiavis-eng.php">good policy</a>:</p>
+
+<blockquote> Information on this site has been posted with the intent that it be readily available for personal and public non-commercial use and may be reproduced, in part or in whole and by any means, without charge or further permission from Natural Resources Canada</blockquote>
+
+<p>Alright that's enough quoting of pages. I will admit to starting off this discovery by assuming that things were much worse and that all the BC data needed permission, glad I re-read the contest rules to stop appearing like a complete ass. The simple fact is that this competition has said you must use data from a collection of website links. It's then stated that you have been given license to use the data. But I believe that license a) cannot be granted to sites outside the Provinces jurisdiction and b) is unclear what sites and data are covered.</p>
+
+<p>Of course we could just take the YouTube approach, build something get successful sell to Google and then.... but this is an app for the Government.</p>
+
+<p>What I'd like to see is a clearer license about what data can be used. Of course if you've got any questions about this <a href="http://ilmbwww.gov.bc.ca/copyright">copyright page</a>, try this <a href="http://ilmbwww.gov.bc.ca/help">helpful page</a> (via <a href="http://twitter.com/chris_e_simpson">@chris_e_simpson</a>).</p>
+
+

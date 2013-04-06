@@ -1,0 +1,20 @@
+---
+layout: post
+title: News of the World
+categories: England
+old: 2308
+blog: andy-mckay
+---
+<p>I had to comment on the News of the World going down, focusing on some points that seem to be under served by the media.</p>
+<p>The News of the World has been brought down by good old journalism from <a href="http://guardian.co.uk">the Guardian</a>. It's great that once again the Guardian is continuing it's good work on investigative journalism. We need good papers like this. It's just a shame about the internet destroying their business model.</p>
+<p>People bought the News of the World. In vast numbers. People wanted to know more and more about the victims of crime and celebrities. As the News of the World printed more, people bought more. We've been here before.</p>
+<blockquote>
+The editors of The Sun, Daily Mirror and News of the World have conceded that they had helped create an atmosphere in which the paparazzi, who were chasing Diana when her car crashed in a Paris underpass, were out of control.</blockquote>
+<cite><a href="http://www.telegraph.co.uk/news/uknews/1560857/Princess-Diana-Editors-admit-guilt-over-death.html">Telegraph</a></cite>
+<p>Whilst this sort of stuff drives newspaper sales, it will happen.</p>
+<p>And its not just those papers. Here's what the head of the Daily Mail spoke out <b>against</b>:</p>
+<blockquote>amendment to the Data Protection Act ...under which journalists faced being jailed for two years for illicitly obtaining personal information such as ex-directory telephone numbers or an individual's gas bills or medical records</blockquote>
+<cite><a href="http://www.guardian.co.uk/media/2008/nov/10/paul-dacre-press-threats">Guardian</a></cite>
+<p>That's right, it should be allowed for journalists to <a href="http://www.guardian.co.uk/media/2011/jul/12/the-sun-gordon-brown-son">illicitly obtain your medical records</a>.</p>
+<p>Best thing we can do is stop buying those papers and support better journalism.</p>
+

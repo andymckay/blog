@@ -1,0 +1,10 @@
+---
+layout: post
+title: Django talk at Norweb
+categories: Django
+old: 1919
+blog: andy-mckay
+---
+<p>After a little bit of confusion the first Norweb meeting got off successfully with a talk on Django followed by beers. A good time was had, I promised to post my slides and here there are as a PDF (I have to get S5 running here, on the bottom of a very long list.</p>
+
+<p><a href="/files/django-an-introduction.pdf">Django - an Introduction</a>, talk given by Andy McKay to <a href="http://norweb.cnuk.org">Norweb</a> Thursday 15th, only made sense if you were there really.</p>

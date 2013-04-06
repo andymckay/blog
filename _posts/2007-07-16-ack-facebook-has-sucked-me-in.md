@@ -1,0 +1,12 @@
+---
+layout: post
+title: Ack! Facebook has sucked me in!
+categories: General
+old: 1979
+blog: danae-mckays-blog
+---
+Yes, I've fallen into the Facebook trap... It's all my sister's fault. She was the first to invite me and I figured if she invited me it must be worthwhile. Well, I now have 50 friends on Facebook and am enjoying getting in touch with people I haven't seen in years, but it is sooooo easy to waste time there!<br/><br/>
+
+On the bright side, now that I know what I'm doing, it's easy to go on and spend a quick 5 minutes seeing what's new and then log off again. Trouble is, I find myself doing this a lot. The kids' playroom is also the computer room, so if they're playing nicely I find myself logging on... or if Sam happens to sleep at the same time as Emily has quiet time, why do housework when I can Facebook? (Is that a verb, by the way?)<br/><br/>
+
+Anyway, that's my little rant. Time to check if I have any new friends. ;o)

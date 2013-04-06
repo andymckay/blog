@@ -1,0 +1,32 @@
+---
+layout: post
+title: The short hot summer and pubs
+categories: Canada
+old: 2316
+blog: andy-mckay
+---
+<p>There's nothing like a short hot summer to focus the mind on just how ridiculous and odd some of the rules around our pubs and bars are here. Recently I met a friend at <a href="http://www.theravenpub.com/">The Raven</a> for a pint on their tiny outside patio. Which closed at 9pm because of the neighbours. But you can't carry your drink down the stairs between the patio and the main pub (all in the same building), because the "stairs are not licensed".</p>
+
+<p>So let's take a look at some other ridiculous rules. Vancouver pubs are forced to provide space for cars. This is whilst having the <a href="http://www.theglobeandmail.com/news/national/british-columbia/bc-announces-toughest-drunk-driving-laws-in-canada/article1548399/">toughest drink driving</a> rules in the country. In fact:</p>
+<blockquote>Vancouver bars must provide nearly three times more space for cars than for drinkers.</blockquote>
+<cite><a href="http://www.citycaucus.com/2011/07/vancouver-forcing-bars-to-make-lots-of-room-for-cars">citycaucus.com</a></cite>
+<p>Which is because a bar is required to have 1 parking space per 60 sq feet of customer space, a parking space is roughly 170 sq feet. Even though the owner of the pub or bar will be held liable if a <a href="http://www.cbc.ca/news/background/supremecourt/childs.html">customer drives later</a>.</p>
+
+<p>It's not just the local councils, there's the LDB too. They have rules about everything:</p>
+<blockquote>
+They said ski hills could have 10 seats at their pubs for the first 200 feet of their lifts and one seat more for each additional 100 feet of lift.</blockquote>
+<cite><a href="http://www.straight.com/article-393232/vancouver/ye-olde-liquor-rules-still-sting?page=0%2C2">Georgia Straight</a></cite>
+<p>One of the reasons we should have the LDB?</p>
+<blockquote>...guaranteed uniformly priced liquor without the attendant closures or cost increases that would come from a profit-centred private system</blockquote>
+<cite><a href="http://www.straight.com/article-393232/vancouver/ye-olde-liquor-rules-still-sting?page=0%2C4">Georgia Straight</a></cite>
+<p>Ah yes, access to "uniformly priced liquor" because it's important that everyone can get access to that? It shouldn't be more expensive in more remote places. Like <a href="http://www.bcliquorstores.com/store/774">Dease Lake</a> where in fact it's hard to get fresh vegetables:
+<blockquote>when the fresh produce arrives, it's descended upon. . . sometimes produce only comes in once or twice a month</blockquote>
+<cite><a href="http://thetyee.ca/News/2011/01/26/HeartlandHealthyFood/">The Tyee</a></cite>
+<p>Of course, it makes sense that we have a centralized distribution service for beer, which we can make vast profits on, but not essentials, like food.</p>
+
+<p>Then of course, there's "beer gardens". We've all been to events where you have fenced off areas, tightly controlled. You probably have to queue up once to buy a ticket and then queue up again to get a beer. Which will of course be subject to the <a href="http://www.canada.com/vancouversun/news/westcoastnews/story.html?id=e1a3c666-354a-4278-9b15-02496fa2c843">eye watering LDB markups</a>.</p>
+<p>No minors in there of course, because having a drink with a minor "<a href="We will not permit patrons to carry liquor within a large area, given the public safety risk">puts them at risk</a>". Sigh.</p>
+
+<p>I did start this post to have a rant about patios. But I haven't able to find any specific rules about patios, decks and pubs in BC. But on Labour Day we sat on a patio completely surrounded by glass thinking, wow this is almost the <a href="http://www.google.ca/search?q=english+pub+back+garden">exact opposite of a nice relaxing time</a>.</p>
+
+<p>Changing BC's liquor laws isn't going to be easy, the LDB is a government cash cow monopoly and the rules and regulations in municipalities are the result of years and years of little new rules, piling one top of another.</p>

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Arecibo free hosting being turned off
+categories: clearwind
+old: 2258
+blog: clearwind
+---
+<p>In 30 days (June 6th), we'll be turning off free hosting of error logging on <a href="http://areciboapp.com">Arecibo</a>. Unfortunately the amount of bandwidth and maintenance required is not producing the returns that we need to keep maintaining the product. This marks the end of a few years of offering Arecibo for free.</p>
+<p>We understand this will affect users who use Arecibo at the moment. For those users we are in the process of releasing an open source version of Arecibo that you can host yourself on <a href="http://code.google.com/appengine/">Google App Engine</a>. The code and documentation for that is <a href="http://github.com/andymckay/arecibo/">coming along quickly on github</a>.</p>
+<p>More details about the App Engine version will be appearing shortly. If you have any specific questions about your sites, please <a href="mailto:sales@clearwind.ca">drop us an email</a>.</p>
+<p>We will continue to work on and extend Arecibo and remain dedicated to providing paid and enterprise error logging solutions to our clients.</p>

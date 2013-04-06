@@ -1,0 +1,48 @@
+---
+layout: post
+title: Browser based Python prompt for Plone (almost)
+categories: Plone
+old: 1828
+blog: andy-mckay
+---
+<img src="http://www.chestermanhouse.com/img/surf_sunset.jpg" style="float: right" />
+We've almost got Clouseau's first release out. This is the product of the Vancouver Tool Sprint, which we held just before the Vancouver Python Workshop. Yes, I'm pretty far behind on my blog postings. Unfortunately for this blog I'm off to Vancouver Island and Long Beach for a few days of surfing and relaxation. It's been a hectic week and time for some down time.
+
+Anyway at the tools sprint we wanted to improve the state of tools in Plone for developers and focused in on my favourite, PloneShell. The sprint consisted of <em>Richard Amerman </em>, <em>Leonardo Almeida Rochael</em> and yours truly. However PloneShell has a few problems:
+<ol>
+	<li>It uses wxPython</li>
+	<li>It takes 10 minutes (seems like it anyway) every time you want to start it up</li>
+	<li>I couldn't get wxPython installed on my Mac because the new Plone installer now doesn't seem to include it</li>
+	<li>It needs ZEO</li>
+	<li>The code goes into many wxPython layers and gets pretty convoluted</li>
+
+</ol>
+So we got sidetracked and wrote a new tool for inspecting your Plone site. Inspecting > Clouseau - got it? So its a browser based, Ajax powered, Python prompt. Inside your Plone site. Install as a product, run Plone in debug-mode and go to site setup > Zope inspector and then you get a Python prompt in your browser.
+
+You can inspect, alter, commit changes and do everything you'd do in zopectl on an platform. So before you get too upset yes it is a security hole, we know that, it's a development tool.
+<ol>
+	<li>It will only run in debug mode (unless you change a file system config variable), so by default it will only work on your development site.</li>
+	<li>It requires Zope Manager access to use it.</li>
+	<li>There is a config variable on the file system to disable it.</li>
+</ol>
+
+So you've got past that? Good. What are some of the advantages of this?
+<ul>
+	<li>Collaborative debugging. Wait oh my golly. Two or more people can now share the same session. I opened Safari and Firefox at the conference and had <strong>two people working on the same Python prompt</strong>, that went down well. Imagine debugging those #plone questions now!</li>
+	<li>No dependencies. None, zero, zippo. Easy install.</li>
+	<li>No platform problems. Tested on Linux, Windows, OS X and Safari, Firefox and IE.</li>
+	<li>No ZEO. Will work out of the box in any install.</li>
+	<li>(Not implemented yet) A prompt in the context of objects.... looking at an object in Plone and want to see methods on it?</li>
+	<li>(Not implemented yet) Namespace variables browsable in a portlet....</li>
+	<li>And so on....</li>
+</ul>
+
+Clouseau is currently in the collective and we'd like any feedback on this. You can get it here: <a href="http://svn.plone.org/svn/collective/Clouseau">http://svn.plone.org/svn/collective/Clouseau</a>. Product page has been made and when that release is ready it will go there.
+
+What needs to be fixed for a full release, so don't mail us yet: multi-line support and return values (noticed a few Nones can appear in the UI). What we need to do for the next release: auto-complete, tool tips, easy multi-line entry.
+
+This is not a sprint to write something then forget about it. All of the sprint members were excited to be working on this tool, it is pretty damn cool and we were all pumped to be working on it. For one I will definitely be working on this tool. Next week - after the surfing.
+
+Many thanks to Leonardo who did the server side magic and Richard who did a lot of the UI and product boiler plate. And I think Alan Runyan does get some credit because I do remember a conversation over a beer or 6 about 5 years ago that included this topic. It might have been him once again who sowed the seed.
+
+

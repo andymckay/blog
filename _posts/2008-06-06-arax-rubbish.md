@@ -1,0 +1,16 @@
+---
+layout: post
+title: ARAX rubbish
+categories: Python
+old: 2094
+blog: andy-mckay
+---
+<p>This post on <a http="http://www.eweek.com/c/a/Application-Development/Move-Over-AJAX-ARAX-is-Here/?kc=EWKNLEDP060608A">eWeek</a> (via Slashdot) had me annoyed.</p>
+<ol>
+<li>It's a Ruby conference. "Microsoft is pushing a different scenario, known as Asynchronous Ruby and XML, or ARAX". Pushing isn't the word I would use, showing off that silverlight can host scripting languages is more likely.</li>
+<li>Yes writing Ruby as opposed to the RJS stuff can be more productive? Well duh, I've blogged about this before and my opinion of RJS is low. There's nothing wrong with JavaScript and learning it is not difficult.</li>
+<li>Silverlight supports lots of languages, in fact it supports CLR, .NET and hence a lot of other stuff. A nice overview is <a href="http://tirania.org/blog/archive/2007/May-01.html">here</a> and information about the DLR is <a href="http://blogs.msdn.com/hugunin/archive/2007/04/30/a-dynamic-language-runtime-dlr.aspx">here</a>.
+</li>
+<li>Want to use Python with Silverlight in your browser, well go for it using <a href="http://www.voidspace.org.uk/ironpython/silverlight/index.shtml">IronPython</a>. Oh wait is Microsoft pushing APAX now?</li>
+</ul>
+<p>Ruby on the browser, c'mon pick a language that's <a href="http://blog.delaguardia.com.mx/index.php?op=ViewArticle&articleId=99&blogId=1">popular</a>. Or perhaps it will just end up in a <a href="http://sayspy.blogspot.com/2007/07/python-might-make-it-into-firefox-4.html">decent browser</a> anyway.</p>

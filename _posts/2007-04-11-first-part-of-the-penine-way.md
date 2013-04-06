@@ -1,0 +1,11 @@
+---
+layout: post
+title: First part of the Penine way
+categories: England
+old: 1954
+blog: andy-mckay
+---
+<p>On the weekend we did the first part of the Penine Way, Edale up and over Kinder Scout. It was a great hike taking about 6 hours to do around 15 miles (we think). Up on to Kinder Scout, along to the road. Next will be Bleaklow.</p>
+<p>For a person who hasn't walked that far in a long time and for an old guy, my Dad is a little old than me, we did pretty well. It was beautiful weather up there and so we had a nice time not the:
+<blockquote>"Rough walking, absence of views and loss of direction sense all contribute to the hazards of the plateau even on a clear day."</blockquote>
+<cite><a href="http://travel.guardian.co.uk/article/2007/mar/31/saturday.walkingholidays.peakdistrict">...of Wainwright's days</a></cite>

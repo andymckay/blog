@@ -1,0 +1,10 @@
+---
+layout: post
+title: Iain Banks
+categories: Family
+old: 1950
+blog: andy-mckay
+---
+<a style="float:right" href="http://www.amazon.ca/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.ca%2FSteep-Approach-Garbadale-Iain-Banks%2Fdp%2F0316731064&tag=wwwzopezenorg-20&linkCode=ur2&camp=15121&creative=330641"><img src="http://ec1.images-amazon.com/images/P/0316731064.01._AA240_SCLZZZZZZZ_.jpg"></a>
+<p>There are a few authors I just have to get every new book. I can re-read the book and find hidden gems and they rarely get tired. This is in contrast to most authors, whom I can tell in a few pages if I've read before and then send back to the library. But there are a few exceptions. Iain Banks, Alastair Reynolds being two of them. And there was a new Iain Banks book out recently, the Steep Approach to Garbadale.</p>
+<p>Seeing it I bugged Danae to get it immediately. Her response was "only if I can get the new Carl Hiaasen. I'm not sure how spending more money helps, but I spotted my opportunity - "sure". So she ordered them. This was about a month ago. There I was doing the laundry and what is staring at me? A copy of the book. How long has it been sat there? Days, weeks? Good god, when was she going to tell me. Suffice to say I've been busy the last few evenings.</p>

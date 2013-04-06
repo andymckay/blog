@@ -1,0 +1,25 @@
+---
+layout: post
+title: WebDev Offsite and OS Bridge
+categories: Mozilla
+old: 2306
+blog: andy-mckay
+---
+<p>Last week the <a href="http://blog.mozilla.com/webdev/">Web Development team</a> (WebDev) at Mozilla had an offsite meeting in Portland. It coincided with OS Bridge at which there were several Mozillians speaking, so we combined the two.</p>
+<img src="http://farm4.static.flickr.com/3168/5856162206_a0a1d2c031.jpg" style="padding-left: 15em; clear: both">
+<p>The end result was an awesome week, a chance to meet some old friends and an opportunity to make a whole bunch of new friends. On Monday we had a day long meeting discussing our past and future. A particularly good talk was by <a href="http://twitter.com/#!/morgamic">Mike Morgan</a> who gave an interesting retrospective on the teams beginnings. There's now 40 odd of us in the team.</p>
+<p>Tuesday to Thursday was the start of OS Bridge day and I took in a few good talks, although I did spend some of the time fixing a few bugs. Talks that stood out include:</p>
+<ul>
+<li><a href="http://twitter.com/#!/fwenzel">Fred Wenzel</a> gave a great talk on <a href="https://github.com/mozilla/playdoh">Playdoh</a>. His first such talk apparently and very well done.</li>
+<li>A talk on <a href="http://opensourcebridge.org/sessions/669">body language</a> that was great for speakers, as if I didn't have enough to think about when speaking.</li>
+<li>How <a href="http://opensourcebridge.org/sessions/586">transit applicances</a> can be made cheaply with the aim of helping people use transit more.</li>
+</ul>
+<p>OS Bridge is a good, small volunteer driven conference. With the most awesome badge ever: its a small conference schedule, with your name printed in big clear letters on <b>both</b> sides. And free tea and coffee all day.</p>
+<a href="http://www.flickr.com/photos/morgamic/sets/72157627036526878/" style="float: right"><img src="http://farm4.static.flickr.com/3122/5865644361_7612b488f6.jpg" /></a>
+<p>Thursday night we had a Mozilla hosted party, where I had the pleasure to be a door man for a little bit and turn a few people away with some help. We asked people what they wanted the web to be and here's the answer.</p>
+<p>The best day was Friday. A hack and tell, write something in a day or so and tell people about it at the end. There were some great and really creative answers. I wrote a tool to parse python profile results, such as the kind django command extensions <a href="https://github.com/django-extensions/django-extensions/blob/master/django_extensions/management/commands/runprofileserver.py">runprofileserver</a> produces and see the result. It's got a <a href="http://socket.io/">socketio</a> front end and <a href="http://docs.pylonsproject.org/docs/pyramid.html">pyramid</a> and a <a href="http://www.gevent.org/">gevent</a> backend. I'll blog more about it soon.</p>
+<p>I really enjoyed doing something different from the usual and seeing all the results that the super smart people I work with can generate. Hope we can do this again and thanks <a href="http://twitter.com/#!/jeffbalogh">Jeff</a> for organizing.</p>
+<p>Saturday was day with the team out in Portland. We went to <a href="http://en.wikipedia.org/wiki/Multnomah_Falls">Multnomah Falls</a>, <a href="http://www.fullsailbrewing.com/">Full Sail Brewing</a> and the <a href="http://en.wikipedia.org/wiki/Bonneville_Dam">Bonneville Dam</a>. A fun day out.</p>
+<p>A real highlight this trip was Portland as a city for conferences. A small walkable downtown core with great free transit and awesome food. Something I'd not noticed before, perhaps its the (relatively) new food carts or the directions of Ryan Snyder. A few times at conferences I end up separated from the crowd in the evening. In Portland it's no problem, grab a drink at <a href="http://www.baileystaproom.com/">Baileys Tap Room</a> and someone will swing along eventually. And the beer is pretty good. And the beer menu is zero indexed.</p>
+<p>The only downer on the whole week was that <a href="http://twitter.com/#!/ryansnyder">Ryan Snyder</a> is moving on from Mozilla. Ryan was there from the beginning for me at Mozilla and always fun to be around. Good luck in the future and thanks for helping out with the week Ryan.</p>
+<cite><a href="http://www.flickr.com/photos/morgamic/">Photo's courtesy of @morgamic</a></cite>

@@ -1,0 +1,9 @@
+---
+layout: post
+title: Clouseau at the Plone Conference
+categories: Plone
+old: 2016
+blog: andy-mckay
+---
+<p>Just about to leave for a weeks holiday prior to the Plone conference in Naples. I'll be there and I'm still touting Clouseau as my fun project. So I'll probably run a birds of a feather session on Clouseau during the conference, but if anyone is interested in a few "corridor sprints" during the conference, then let me know. I'm game for any new features I don't have to write :).</p>
+<p>See you there.</p> 

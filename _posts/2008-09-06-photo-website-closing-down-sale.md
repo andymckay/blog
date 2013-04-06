@@ -1,0 +1,14 @@
+---
+layout: post
+title: Photo website closing down sale!
+categories: General
+old: 2121
+blog: danae-mckays-blog
+---
+<p>Sadly, my photography website has not done very well and I will not be renewing it for a second year. The site expires on September 12th, so I have decided to have a closing down sale in the hopes of making up some of my losses.</p>
+
+<p>All photos, mugs, cards, etc are marked down by 10-50%</p>
+
+<p>Please visit <a href="http://www.clearwind.ca/photography">www.clearwind.ca/photography</a></p>
+
+<p>Sale ends 11:59pm PST September 11.</p>

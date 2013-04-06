@@ -1,0 +1,10 @@
+---
+layout: post
+title: Inquisitor acquired by Yahoo, still cheating
+categories: General
+old: 2083
+blog: andy-mckay
+---
+<img src="http://www.agmweb.ca/files/inquisitor-scum.png" style="float: right; padding: 1em" />
+<p>Inquisitor is a piece of software that has <a href="http://www.recompiled.org/internet/inquisitor-puts-affiliate-links-at-top-of-search-results">a bad</a> <a href="http://www.tuaw.com/2008/01/07/inquisitor-raises-some-questions/"> reputation</a> and its developer doesn't fare much better. It's just been acquired by Yahoo and everyone is reporting that the <a href="http://arstechnica.com/journals/apple.ars/2008/05/12/yahoo-purchases-watanabes-safari-extension-inquisitor">affiliate links are gone</a>.</p>
+<p>Yet it still mangles search results. The search for p2p is the most glaring one. The top result? Dave's other products. Please clean this up Yahoo.</p>
