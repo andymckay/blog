@@ -44,12 +44,7 @@ margin: 30px auto 30px auto;
 }
 
 article {
-    padding: 1em;
-}
-
-#headerimg {
-display:block;
-margin:30px auto 30px auto;
+   padding: 1em;
 }
 
 h1, h2 {
@@ -63,7 +58,7 @@ text-decoration: none;
 border: none;
 }
 
-h2 :link, :visited, :hover {
+h2 :link, :visited {
 text-decoration: none;
 border: none;
 }
@@ -79,28 +74,15 @@ border-top: 1px dotted #cccccc;
 text-align: center;
 }
 
-blockquote {
+blockquote, cite {
 color: #898989;
-padding: .125em 2em;
-margin: 0 0 .5em 0;
 }
 
-#left :link, :visited, :hover {
-text-decoration: none;
-border: none;
-}
-
-#right :link, :visited, :hover {
-text-decoration: none;
-border: none;
-}
-
-.category {
-    text-align: right;
-}
-
-#right {
-    float: right;
+cite {
+color: #898989;
+padding-left: 2em;
+margin-top: -2em;
+padding-bottom: 2em;
 }
 
 #navigation {
@@ -116,32 +98,6 @@ padding: 10px 0 10px 0;
 color: #444444;
 font-size: 12px;
 text-align: center;
-}
-
-.footnotes {
-border-top: dotted 1px #cccccc;
-color: #888888;
-margin-top: 40px;
-}
-
-.footnotes ol {
-font-size: 12px;
-margin-left: 0;
-padding-left: 0;
-text-indent: 0;
--webkit-margin-before: 0;
--webkit-margin-after: 0;
-text-align: left;
-}
-
-.footnotes ul {
-font-size: 12px;
-margin-left: 0;
-padding-left: 0;
-text-indent: 0;
--webkit-margin-before: 0;
--webkit-margin-after: 0;
-text-align: left;
 }
 
 .spacer {
