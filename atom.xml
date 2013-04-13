@@ -19,9 +19,9 @@ layout: nil
 {% for post in site.posts limit:13 %}
 <entry>
 <title>{{ post.title }}</title>
-<link href="http://www.agmweb.ca/{ post.url }}"/>
+<link href="http://www.agmweb.ca{{ post.url }}"/>
 <updated>{{ post.date | date_to_xmlschema }}</updated>
-<id>http://www.agmweb.ca/{{ post.id }}</id>
+<id>http://www.agmweb.ca{{ post.id }}</id>
 <content type="html">{{ post.content | xml_escape }}</content>
 </entry>
 {% endfor %}
