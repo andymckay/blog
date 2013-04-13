@@ -6,7 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>{{ page.title }}</title>
+<title>Andy McKay{% if page.title %} :: {{ page.title }}{% endif %}</title>
 <link href="/css/style.css?v={{ site.time | date_to_xmlschema }}" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
@@ -31,7 +31,7 @@
   <p>
     I work at <a href="http://www.mozilla.com">Mozilla</a><br />
     <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
-    <a href="http://www.agmweb.ca/blog/rss/latest/andy/">RSS</a><br />
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
     <a href="http://twitter.com/andymckay">Twitter</a> &bull;
     <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
     <a href="http://github.com/andymckay">Github</a><br />
