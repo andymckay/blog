@@ -11,7 +11,7 @@ What impressed me as well was the level of organization from the team. When I ar
 
 Of course in this environment something could have gone wrong. It could have rained. But what happened instead was that the airport did some construction on a road and two weeks before the conference changed the flightplan at the airport so that planes took off right over the tent. But that became a game, spawned Twitter accounts and life moved on.
 
-I know how much a conference takes, <a href="http://2013.djangocon.eu/team/">this team</a> really raised the bar. Great work - thanks Ola, Ola, Kuba, Tomek and Jarek.
+I know how much work a conference takes, <a href="http://2013.djangocon.eu/team/">this team</a> really raised the bar. Great work - thanks Ola, Ola, Kuba, Tomek and Jarek.
 
 <img src="https://farm8.staticflickr.com/7294/8746074547_15d0704fd6_d.jpg" />
 
