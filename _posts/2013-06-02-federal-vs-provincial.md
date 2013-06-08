@@ -5,7 +5,7 @@ categories: Canada
 blog: andy-mckay
 ---
 
-Un BC we unfortunately have a
+In BC we unfortunately have a
 <a href="http://en.wikipedia.org/wiki/British_Columbia_Liberal_Party">Liberal government</a>.
 The BC Liberals are officially unconnected with the federal Liberals,
 a separation that <a href="http://www.cbc.ca/canada/bcvotes2009/story/2009/03/23/bcv-bc-liberal-party-profile.html">occurred in 1987</a>.
