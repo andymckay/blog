@@ -13,16 +13,16 @@ Here's some pictures.
 
 <img src="http://agmweb.ca/files/9495839602_07772bd509_c.jpg">
 
-<cite>Looking north up Howe Sound from St. Marks.</cite>
+<p><cite>Looking north up Howe Sound from St. Marks.</cite></p>
 
 This also gave me chance to play with the new wide angle lens for Danaes Canon.
 
 <img src="http://agmweb.ca/files/9493052729_2f04b03631_c.jpg">
 
-<cite>Looking south east back towards to Vancouver from Mt. Unnecessary.</cite>
+<p><cite>Looking south east back towards to Vancouver from Mt. Unnecessary.</cite></p>
 
 <img src="http://agmweb.ca/files/9495879060_386bb8b0bc_c.jpg">
 
-<cite>Looking south west towards Gibsons from Mt. Unnecessary.</cite>
+<p><cite>Looking south west towards Gibsons from Mt. Unnecessary.</cite></p>
 
 Stunning hike out of Vancouver. Hope to do it again, but get further and be in less pain after.
