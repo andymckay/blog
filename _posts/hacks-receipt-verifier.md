@@ -43,7 +43,7 @@ var verifier = new mozmarket.receipts.Verifier({
   // checks that the receipt is for your app.
   productURL: 'http://example.com',
   // only allow apps that came from the firefox marketplace.
-  installs_allowed_from: 'https://marketplace.firefox.com'
+  installs_allowed_from: ['https://marketplace.firefox.com']
 })
 verifier.verify(function (verifier) {
   if (verifier.state instanceof verifier.states.OK) {
