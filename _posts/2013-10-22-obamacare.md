@@ -12,8 +12,8 @@ I've done plenty of those RFPs and they aren't fun. My favourite was one for the
 
 Taking a quick look at the site, I'm slightly amused that a deep page in the site loads 64 external Javascript files and 13 CSS files.
 
-But what's more interesting is that it is just a web site. A lowly old web site is able to be the centre of attention and to be the corner stone of a Government policy to fix the USAs insane and dysfunctional health care system. A registration portal for millions upon millions of people to actually get health care. That's pretty cool and not something you see every day.
+But what's more interesting is that it is just a web site. A lowly old web site is able to be the centre of attention and to be the corner stone of a Government policy to fix the US insane and dysfunctional health care system. A registration portal for millions upon millions of people to actually get health care. That's pretty cool and not something you see every day.
 
 And how often have we seen a head of state give a key address specifically about a web site. Again, pretty cool. Unless you worked on that site, eh <a href="http://www.cgi.com/en">CGI</a>? The probably need more <a href="https://www.google.ca/search?q=synergy+site:cgi.com">synergy</a>.
 
-It won't fix the USAs health care system though.
+It won't fix the US health care system though.
