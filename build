@@ -1,1 +1,1 @@
-jekyll build; cd _site; rsync -aur * andymckay@clearwind.ca:/home/andymckay/webapps/agmweb/agmweb_static; cd ..
+jekyll build; cd _site; rsync -aur * andymckay@web70.webfaction.com:/home/andymckay/webapps/agmweb/agmweb_static; cd ..
