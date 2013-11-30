@@ -5,7 +5,7 @@ categories: Mozilla
 blog: andy-mckay
 ---
 
-Yesterday I found that my browser was behaving oddly. Sites were behaving oddly, as if the cookies weren't being passed correcly to sites, repeatedly. On reloading old tabs weren't loading. When trying to go into private browsing mode, there was no purple indicator in the top right.
+Yesterday I found that Firefox was behaving oddly. Sites were behaving oddly, as if the cookies weren't being passed correcly to sites, repeatedly. On reloading old tabs weren't loading. When trying to go into private browsing mode, there was no purple indicator in the top right.
 
 Going to the File menu I noticed that the private browsing link key shortcut had changed to ⌘N instead of shift-⌘P.
 
