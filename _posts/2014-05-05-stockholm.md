@@ -12,7 +12,7 @@ too much as the justification and follow on. One response that I like is
 
 As a software developer you spend all day solving challenges, it's mentally
 challenging and hard work. As soon as you are faced with a problem you start
-finding solutions and keep going until you've got one. That take tenacity.
+finding solutions and keep going until you've got one. That takes tenacity.
 
 <blockquote>
 <b>tenacious |təˈnāSHəs|</b>
