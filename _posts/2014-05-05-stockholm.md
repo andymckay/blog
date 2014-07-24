@@ -12,8 +12,7 @@ too much as the justification and follow on. One response that I like is
 
 As a software developer you spend all day solving challenges, it's mentally
 challenging and hard work. As soon as you are faced with a problem you start
-finding solutions and keep going until you've got on. Keeping going sometimes
-takes tenacity.
+finding solutions and keep going until you've got one. That takes tenacity.
 
 <blockquote>
 <b>tenacious |təˈnāSHəs|</b>
@@ -37,11 +36,11 @@ other? Sure, how hard can that be?"
 When we worked our way through the overly complicated solution there was an
 amazing sense of relief at satisfaction at what we'd done. It was amazing,
 the work we were doing and we felt great. We had brains and tenacity. We were
-awesome.
+awesome and smart.
 
 Then I stopped doing it. Later I looked back and realised it wasn't always
 awesome. We were caught in a tangled web of ideas and concepts - some of them
-half baked, some of them over engineered, some of them for completely
+half baked, some of them over-engineered, some of them for completely
 different purpose and some of them were just down right crap.
 
 But the feeling was great, we were getting stuff done despite all this. Were we
@@ -50,11 +49,12 @@ too complicated, too convoluted and we spent hours fighting it and loving the
 feeling of mastery it gave us when we kicked it's butt.
 
 It was an illusion. Just because something is complicated for you to learn and
-do doesn't give you job security or satisfaction in the long run.
+do doesn't mean its right and doesn't give you job security or satisfaction
+in the long run.
 
-In the long run someone smarter than you will figure out you are being an ass
-and build the right tool for the job and then kick your butt. The tenacity of
-fighting every day was a path to ruin.
+Eventually someone smarter than you will figure out you are being an ass
+and build the right tool for the job and then kick your butt. The fighting
+every day was a path to ruin.
 
 I'll still take tenacity as an answer, you need it. Just make sure it doesn't
 become stubbornness.
