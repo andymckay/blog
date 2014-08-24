@@ -1,6 +1,6 @@
 I've been a bit out of touch recently with holidays, so I'm catching up on the BC teachers situation and what looks like an attempt by the BC Government to destroy public education.
 
-This week the Minister <a href="http://bcparentinfo.ca/">launched a website</a> giving "some of the options available to you". So what are my options? No public school system? Let's try private school. Here's a preliminary search.
+This week the Minister <a href="http://bcparentinfo.ca/">launched a website</a> giving "<a href="http://www.timescolonist.com/news/local/b-c-teachers-union-blasts-province-for-media-talks-1.1324577">some of the options available to you</a>". So what are my options? No public school system? Let's try private school. Here's a preliminary search.
 
 My daughters are aged 8 and 10 and enjoy an excellent education in the public school system in French Immersion in North Vancouver, despite the Government. I also consider the school an excellent part of the local community.
 
@@ -19,6 +19,6 @@ Note that although I searched for schools on the North Shore, none of these are 
 
 Supposing I can get my children into one of these schools, it would drain my families resources by somewhere from $28k to $36k at the minimum. The median total income *before tax* in BC is $71k (<a href="http://www.statcan.gc.ca/tables-tableaux/sum-som/l01/cst01/famil108a-eng.htm">source</a>), after tax of 40%, let's say $43k. One of those private schools would consume 65% to 83% of the average after tax income.
 
-As an extra kicker, aince my wife is a teacher in the public school system, we have less money this year.
+As an extra kicker, since my wife is a teacher in the public school system, we have less money this year.
 
-So there you have it, those are my options Mr Fassbender. Do you have some realistic options for my family?
+Do you have some realistic options for my family?
