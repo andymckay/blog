@@ -15,7 +15,7 @@ Any schooling would ideally be in French and must definitely be non-religious in
 
 The highly questionable (<a href="http://www.cbc.ca/news/canada/british-columbia/polygamous-commune-school-perfect-fraser-institute-1.1071849">if not laughable</a>) Fraser Institute ranking ranks only a couple of these schools. Sherwood Park being just below the average and the West Vancouver schools Mulgrave and Collingwood well above the average.
 
-Note that although I searched for schools on the North Shore, none of these are "local" and I we would suffer a disconnect from our local community. Only one provides French Immersion. Lions Gate Christian Academy is definitely not going to happen.
+Note that although I searched for schools on the North Shore, none of these are "local" and we would suffer a disconnect from our local community. Only one provides French Immersion. Lions Gate Christian Academy is definitely not going to happen.
 
 Supposing I can get my children into one of these schools, it would drain my families resources by somewhere from $28k to $36k at the minimum. The median total income *before tax* in BC is $71k (<a href="http://www.statcan.gc.ca/tables-tableaux/sum-som/l01/cst01/famil108a-eng.htm">source</a>), after tax of 40%, let's say $43k. One of those private schools would consume 65% to 83% of the average after tax income.
 
