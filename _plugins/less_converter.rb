@@ -3,8 +3,8 @@ module Jekyll
   # at the beginning of the file.
   # .less -> .css
   class LessConverter < Converter
-    pygments_prefix "\n"
-    pygments_suffix "\n"
+    highlighter_prefix "\n"
+    highlighter_suffix "\n"
 
     def setup
       return if @setup
