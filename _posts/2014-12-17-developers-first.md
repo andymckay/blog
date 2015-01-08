@@ -13,6 +13,6 @@ Desktop payments are easier for *the developers who work on payments*. That mean
 
 In the meantime we've also built out things that make this much easier: a Docker development environment that sets things up correctly and a fake backend so you don't need to process money to test things out.
 
-Hindsight as wonderful thing, but at the time we were actively discouraged from doing desktop development. "Mobile first" and "Don't slow down mobile development".
+Hindsight is wonderful thing, but at the time we were actively discouraged from doing desktop development. "Mobile first" and "Don't slow down mobile development".
 
 But inadvertently we slowed down mobile development by not being *developer first*.
