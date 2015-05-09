@@ -7,7 +7,7 @@ blog: andy-mckay
 
 Python mock is pretty cool, but there's been a recurring problem for me with <a href="https://docs.python.org/3/library/unittest.mock.html#module-unittest.mock">mock</a>
 in that if you access any property on a Mock it returns a method which is *truthy*. This means
-simple typos can exist in code and it passes.
+simple typos can exist in your testing.
 
 As an example, in this library, there's a method <code>from_nonce</code>. If you just mock the object, then you can typo the method and it continues like normal:
 
