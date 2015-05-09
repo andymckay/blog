@@ -17,9 +17,9 @@ As an example, in this library, there's a method <code>from_nonce</code>. If you
 ...
 </pre>
 
-This has happened to me and I didn't notice when I'd typo'd a mock call, like <code>assert_called_with</code>. The test were wrong, but passed quite happily.
+This has happened to me and I didn't notice when I'd typo'd a mock call, like <code>is_called</code>. The test were wrong, but passed quite happily.
 
-The better way is to pass a <a href="https://docs.python.org/3/library/unittest.mock.html#the-mock-class">the object to the Mock call</a> as <code>spec</code>. Then only methods on the object can be called, for example:
+The better way is to pass <a href="https://docs.python.org/3/library/unittest.mock.html#the-mock-class">the object to the Mock call</a> as <code>spec</code>. Then only methods on the object can be called, for example:
 
 <pre>
 >>> with mock.patch('braintree.CreditCard', spec=braintree.CreditCard) as mocked:
