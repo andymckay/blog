@@ -19,7 +19,7 @@ By moving to GitHub issues we've gained:
 
 * faster performance
 * better integration with our code and pull requests
-* ability to link-in other tools (e.g. http://waffle.io)
+* ability to link-in other tools (e.g. <a href="http://waffle.io">http://waffle.io</a>)
 * lose a whole pile of features, settings and flags we never use
 * lose getting told off for features that cross products, e.g. the time people removed [perf] off our bugs because that reserved for something in Firefox
 
