@@ -1,35 +1,63 @@
 ---
 layout: post
-title: 5-Eyes
+title: Docker in development (part 4)
 categories: General
 blog: andy-mckay
 ---
 
-I'm glad the US is for once restricting it's laws around mass data survelliance. Well for US people anyway, because there is nothing about anyone. Nothing about the approx. 6.8 billion other people on the planet for whom mass data survelliance from the NSA will happen anyway.
+Tips for developing with Docker.
 
-That's me, all my family, most of my friends and probably a majority of the people reading this blog.
+Keep your container small
+-------------------------
 
-But hey, don't worry US people, you aren't safe. Canada will spy on you. We recently <a href="http://www.theglobeandmail.com/news/politics/privacy-security-and-terrorism-everything-you-need-to-know-about-bill-c-51/article23383976/">reduced the amount of oversight</a> on our intelligence agencies, so we aren't really sure what they are doing. What can Canada do?
+Each layer in your Dockerfile is cached. This means that if you have the same layer repeated in multiple images, it will cache and reuse that layer.
 
-<blockquote>
-The term "judicial oversight", as used by members of the Conservative Party in this debate, is truly a perversion of reality. It is one of the most offensive sections of the whole bill.
-</blockquote>
-<cite><a href="http://elizabethmaymp.ca/elizabeth-may-third-reading-speech-on-c-51/">Elizabeth May</a></cite>
+So its easy not too worry about how big a layer is. Until you start pulling your containers on to servers, test runners, QA servers, developers laptops and so on. Then you start to wonder how your container blew up to 2 gigs [<a href="#footnote-1">1</a>].
 
-<a href="http://www.theguardian.com/world/2013/nov/20/us-uk-secret-deal-surveillance-personal-data">Share it</a> with the US.
+After you add a layer, do yourself a favour and see how much it adds. To find out how much a layer adds, use the <code>docker history [image id]</code> command. The results can be suprising, especially when it comes to <a href="http://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified">yum</a>.
 
-<blockquote>
-Until now, it had been generally understood that the citizens of each country were protected from surveillance by any of the others.
-</blockquote>
-<cite><a href="http://www.theguardian.com/world/2013/nov/20/us-uk-secret-deal-surveillance-personal-data">Guardian</a></cite>
+Installing <a href="http://supervisor.readthedocs.org/en/latest/">supervisor</a> using <a href="https://pypi.python.org/pypi/pip">pip</a>:
 
-But...
+<pre>
+540868cb5bab        35 seconds ago      /bin/sh -c pip install supervisor               2.429 MB
+</pre>
 
-<blockquote>
-The NSA has been using the UK data to conduct so-called "pattern of life" or "contact-chaining" analyses, under which the agency can look up to three "hops" away from a target of interest – examining the communications of a friend of a friend of a friend
-</blockquote>
-<cite><a href="http://www.theguardian.com/world/2013/nov/20/us-uk-secret-deal-surveillance-personal-data">Guardian</a></cite>
+Installing supervisor using yum:
 
-But hey, its not just Canada, there's the UK, Australia and New Zealand who are all part of 5-Eyes and will share it back with the US. So that means you are still screwed. And then there's China and other countries that will spy on you and not share the data with the US.
+<pre>
+16bb922e5ff5        6 hours ago         /bin/sh -c yum install -y supervisor            224.5 MB
+</pre>
 
-So you are pretty screwed, we are all pretty screwed.
+That's a 222.071 MB difference.
+
+You can do a <code>yum clean</code> and that's when it gets interesting. Three seperate lines, no clean:
+
+<pre>
+392cecc77eae        12 hours ago         /bin/sh -c yum install -y cronie                34.72 MB
+91154ebe69d8        12 hours ago         /bin/sh -c yum install -y bash-completion       18.67 MB
+760d1b735093        12 hours ago         /bin/sh -c yum install -y supervisor            224.5 MB
+</pre>
+
+Install and clean in three lines:
+
+<pre>
+832fe193df7d        About a minute ago   /bin/sh -c yum install -y cronie && yum clean   34.69 MB
+331bc45fc42a        About a minute ago   /bin/sh -c yum install -y bash-completion &&    18.64 MB
+f74a8b922149        2 minutes ago        /bin/sh -c yum install -y supervisor && yum c   21.54 MB
+</pre>
+
+Install and clean in one line:
+
+<pre>
+23d486d7bc04        2 minutes ago        /bin/sh -c yum install -y supervisor bash-com   38.7 MB
+</pre>
+
+The last one saves you 239.19 MB.
+
+It's a pretty simple and quick check to see how big the layer in your Dockerfile. Next time you add a layer, give it a try.
+
+See also <a href="/2015-06-01-docker-in-development-part-3/">part 3</a>.
+
+<ol>
+<li><a id="footnote-1"></a>Yes, one of our containers has grown to this size.</li>
+</ol>
