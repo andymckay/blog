@@ -7,7 +7,7 @@ blog: andy-mckay
 
 When I started out doing web development, hundreds of years ago when CGI and Perl was a pretty neat thing, it felt like there were few tools for web development. Back in the day even <a href="http://securitytracker.com/id/1001108">formmail.pl</a> was a pretty neat idea... until it turned out to be a pretty hideous security hole.
 
-Over the years it has developed and grown and changed. And is changing faster than ever, there are more Javascript frameworks than days in the year. Or to put it another way:
+Over the years the industry has developed, grown and changed. And is now changing faster than ever. There are more Javascript frameworks than days in the year. Or to put it another way:
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I think I&#39;ve had milk last longer than some JavaScript frameworks.</p>&mdash; I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/540481335362875392">December 4, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
