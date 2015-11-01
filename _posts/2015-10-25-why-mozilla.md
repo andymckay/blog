@@ -21,7 +21,7 @@ I then listed why I've been at Mozilla five years:
 
 * **Enough freedom**: to spend some time going off and doing something I want to do without asking for permission.
 
-* **Interesting problems**: a reasonably wide variety of interesting problems that I enjoy solving. Coupled with above, the only thing stopping you fixing something is yourself. To borrow a quote from Facebook: **"Nothing at Mozilla is someone else's problem."**.
+* **Interesting problems**: a reasonably wide variety of interesting problems that I enjoy solving. Coupled with above, the only thing stopping you fixing something is yourself. To borrow a quote from Facebook: **"Nothing at Mozilla is someone else's problem"**.
 
 * **Career growth**: I've moved from being the new developer to taking on more responsibility, to moving into management and then moving up management.
 
