@@ -1,0 +1,28 @@
+<a href="https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/">Back in August</a> we announced that Firefox was working on the WebExtensions API as the future of developing add-ons in Firefox. We've been working on WebExtensions since then and this post covers the improvements that have been made since then.
+
+WebExtensions is in an <b>alpha state</b>. We recommend you look at WebExtensions and get involved, but if you consider using it, please note that things might change. Since that blog post we've closed off 77 bugs and really started to build out the WebExtensions team at Mozilla. We've got support for the following APIs in Firefox 45 fully:
+
+* alarms
+* contextMenus
+* pageAction
+* browserAction
+
+And a bunch of partially supported APIs:
+
+* bookmarks
+* cookies
+* extension
+* i18n
+* notifications
+* runtime
+* storage
+* tabs
+* webNavigation
+* webRequest
+* windows
+
+A full list of the <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Chrome_incompatibilities">APIs differences is available</a>. One nice thing is that all Add-ons built with WebExtensions are fully  compatible with a <a href="https://developer.mozilla.org/en-US/Firefox/Multiprocess_Firefox">multiprocess Firefox</a>.
+
+Beyond APIs, support is being added to <a href="https://addons.mozilla.org">addons.mozilla.org</a> to enable developers to upload their add-on and have it tested. That should be ready for Firefox 44. Documentation is being <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">worked on in MDN</a> and there's a <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples">reposistory of example</a> WebExtensions.
+
+Over the coming months we are working our way towards a Beta in Firefox 47 and first stable release in Firefox 48. Would you like to help us or get your API added? Then please join us on our <a href="https://mail.mozilla.org/listinfo/dev-addons">mailing list</a> or at one of our <a href="https://wiki.mozilla.org/WebExtensions#Communication_and_meetings">public meetings</a>.
