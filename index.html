@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for post in paginator.posts %}
+{% for post in site.posts limit:1 %}
 <div class="meta">{{ post.date | | date: "%b %d, %Y"  }}</div>
 <h2><a href="{{ post.url }}" class="posturl">{{ post.title }}</a></h2>
 <hr class="florished">
