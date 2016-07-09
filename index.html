@@ -7,7 +7,3 @@ layout: default
 <hr class="florished">
 {{ post.content  | replace:'acronym','abbr' }}
 {% endfor %}
-<div id="navigation">
-  {% if paginator.next_page %}<a href="/page{{paginator.next_page}}/">&laquo; older</a>{% endif %}
-  {% if paginator.previous_page %}{% if paginator.previous_page == 1 %}<a href="/">{% else %}<a href="/page{{paginator.previous_page}}/">{% endif %}newer &raquo;</a></div>{% endif %}
-</div>

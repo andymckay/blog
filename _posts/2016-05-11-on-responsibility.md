@@ -7,7 +7,7 @@ blog: andy-mckay
 
 There are many traits that I value in developers, one I keep reiterating to anyone who will listen is developer responsibility. What does that mean?
 
-So you write a peice of code based on a bug report or a feature request. You get it past code review, merge it and move to the next bug. Does that mean your responsibility ends their? No.
+So you write a peice of code based on a bug report or a feature request. You get it past code review, merge it and move to the next bug. Does that mean your responsibility ends there? No.
 
 If you are working on something that is being deployed to a server, did you make sure it actually landed in on the production server? Did you do a quick check that it actually worked in production? Did it need in any metrics? Did you look at any logs to see if it threw some errors? Did something come up a few days later, a bug report maybe? Did you follow up on that?
 
