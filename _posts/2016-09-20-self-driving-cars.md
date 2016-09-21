@@ -21,7 +21,7 @@ Secondly, one assumption seems to be wrong:
 
 And so, what troubles me is:
 
-* The location of X and Y. Can X (peoples homes) be moved closer to Y (where people live). Can Y be made redundant (e.g.: tele-commuting)? Will anyone have a Y in the near future (job automation, robots etc)?
+* The location of X and Y. Can X (peoples homes) be moved closer to Y (where people work). Can Y be made redundant (e.g.: tele-commuting)? Will anyone have a Y in the near future (job automation, robots etc)?
 
 * The mode of transportation. Does another option other than cars exist? How about bikes? Walking? Even public transportation? Why do we have to depend upon cars? Is this really the best we can do?
 
