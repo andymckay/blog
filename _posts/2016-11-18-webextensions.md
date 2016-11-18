@@ -29,6 +29,7 @@ And here is an explanation of the long list of caveats and why I still am very c
 <li>This method just looks at APIs and permissions. Which means that features that are required beyond those two methods are not covered. Web APIs for example aren't tested.</li>
 <li>Whilst we've got many APIs, some of them may not be implemented exactly the same as Chrome. Or have bugs. That can cause some extensions to have some problems.</li>
 <li>A grep of chrome.* for APIs reveals domains, typos, comments and some just wierd strings. If you ignore those there would probably be even more that work.</li>
+<li>This uses data from Firefox Nightly, if you use earlier versions of Firefox, you'll get less. Also not every single API is ready for release yet.</li>
 </ul>
 
 The result of these caveats is a list of variables which you can see in [the code](https://github.com/andymckay/examine-chrome-extensions). A more perfect scenario would be to download the extension, try loading it into Firefox and then seeing the result. But automating and building it all out would take more than one hour or two of hacking. If anyone wants to try to do that for 100,000 extensions let me know.
