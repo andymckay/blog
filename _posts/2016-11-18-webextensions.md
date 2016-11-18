@@ -24,7 +24,7 @@ And here is an explanation of the long list of caveats and why I still am very c
 <b>Caveats</b>
 
 <ul>
-<li>This doesn't mean they can run out of the box, it means they are </b>easily convertable</b>. Possibly the most obvious reason is that some of these extensions contain deprecated methods. Firefox hasn't implemented those deprecate methods. But if the developer updates their extension to use the new methods it will work in both Firefox and Chrome.</li>
+<li>This doesn't mean they can run out of the box, it means they are </b>easily convertable</b>. Possibly the most obvious reason is that some of these extensions contain deprecated methods. Firefox hasn't implemented those deprecated methods. But if the developer updates their extension to use the new methods it will work in both Firefox and Chrome.</li>
 <li>This method filters out apps, or extensions which use apps API, which can be a little heavy handed and hard for extension users to spot.</li>
 <li>This method just looks at APIs and permissions. Which means that features that are required beyond those two methods are not covered. Web APIs for example aren't tested.</li>
 <li>Whilst we've got many APIs, some of them may not be implemented exactly the same as Chrome. Or have bugs. That can cause some extensions to have some problems.</li>
@@ -36,3 +36,226 @@ The result of these caveats is a list of variables which you can see in [the cod
 So what can you take from the number 87.76%? Some comfort that its probably somewhere around that number. I can say with a lot of confidence that over 75% of extensions are easily convertable to Firefox. A bit less confidence that over 85% are.
 
 That sounds pretty good to me though and a credit to the hard work the team has put in this year.
+
+<hr>
+
+Full output of the script from today:
+
+<pre>
+Importer stats
+--------------
+  71551 74.81% success
+  24041 25.13% apps
+     56 0.06% error
+
+   5463 7.64% missing_permissions
+   6542 9.14% missing_apis
+
+  62792 87.76% easy_conversion
+
+Missing APIs
+------------
+   1369 chrome.desktopCapture.chooseDesktopMedia
+    533 chrome.permissions.request
+    458 chrome.declarativeContent.onPageChanged
+    454 chrome.declarativeContent.PageStateMatcher
+    443 chrome.declarativeContent.ShowPageAction
+    427 chrome.devtools.panels
+    360 chrome.identity.getAuthToken
+    346 chrome.proxy.settings
+    311 chrome.permissions.remove
+    292 chrome.devtools.inspectedWindow
+    291 chrome.desktopCapture.cancelChooseDesktopMedia
+    272 chrome.permissions.contains
+    221 chrome.management.setEnabled
+    187 chrome.runtime.error
+    185 chrome.identity.launchWebAuthFlow
+    182 chrome.management.onInstalled
+    168 chrome.tts.speak
+    167 chrome.identity.removeCachedAuthToken
+    146 chrome.browsingData.remove
+    141 chrome.tabs.cr_tabs_TabClosed_listeners_added
+    141 chrome.tabs.cr_tabs_TabCreated_listeners_added
+    141 chrome.tabs.cr_tabs_TabSelectionChanged_listeners_added
+    141 chrome.tabs.hasOwnProperty
+    128 chrome.identity.getProfileUserInfo
+    126 chrome.management.onUninstalled
+    126 chrome.devtools.network
+    116 chrome.management.onEnabled
+    109 chrome.manifest.content_scripts
+    107 chrome.extension.onMessageExternal
+     99 chrome.management.uninstall
+     94 chrome.downloads.onDeterminingFilename
+     94 chrome.management.onDisabled
+     92 chrome.extension.onClicked
+     78 chrome.experimental.cookies
+     76 chrome.proxy.onProxyError
+     76 chrome.identity.getRedirectURL
+     71 chrome.storage.managed
+     71 chrome.tts.stop
+     61 chrome.privacy.services
+     59 chrome.manifest.version
+     57 chrome.privacy.network
+     56 chrome.tabCapture.capture
+     54 chrome.pageCapture.saveAsMHTML
+     51 chrome.permissions.onAdded
+     50 chrome.tts.getVoices
+     46 chrome.browsingData.removeCache
+     43 chrome.d.ts
+     43 chrome.debugger.attach
+     43 chrome.storage.set
+     42 chrome.debugger.sendCommand
+     40 chrome.permissions.onRemoved
+     38 chrome.extension.connectNative
+     38 chrome.permissions.getAll
+     37 chrome.debugger.onEvent
+     37 chrome.debugger.detach
+     34 chrome.privacy.websites
+     33 chrome.i18n._getL10nData
+     33 chrome.i18n._setL10nData
+     31 chrome.identity.onSignInChanged
+     31 chrome.webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES
+     30 chrome.tts.isSpeaking
+     26 chrome.fontSettings.getFontList
+     25 chrome.storage.get
+     24 chrome.contentSettings.javascript
+     24 chrome.debugger.onDetach
+     22 chrome.webstore.install
+     21 chrome.cast.media
+     21 chrome.input.ime
+     21 chrome.contentSettings.popups
+     20 chrome.system.cpu
+     20 chrome.cast.SessionRequest
+     20 chrome.runtime.onUninstalled
+     20 chrome.declarativeWebRequest.onRequest
+     20 chrome.cast.ApiConfig
+     19 chrome.cast.requestSession
+     19 chrome.browsingData.removeHistory
+     19 chrome.system.display
+     18 chrome.contentSettings.cookies
+     18 chrome.cast.initialize
+     18 chrome.browsingData.removeDownloads
+     18 chrome.browsingData.removeCookies
+     17 chrome.tabs.TAB_ID_NONE
+     17 chrome.declarativeWebRequest.RequestMatcher
+     17 chrome.webRequest.ResourceType
+     16 chrome.browserAction.show
+     16 chrome.settings.uuuid
+     16 chrome.extension.getVersion
+     15 chrome.system.storage
+     15 chrome.tabs.executeScriptAsync
+     15 chrome.contextMenus.ACTION_MENU_TOP_LEVEL_LIMIT
+     15 chrome.privacy.IPHandlingPolicy
+     15 chrome.runtime.lasterror
+     15 chrome.tabs.executeScriptInFrame
+     14 chrome.example.echo
+     14 chrome.settings.get
+     14 chrome.runtime.Port
+     14 chrome.contentSettings.images
+     14 chrome.extension.onConnectExternal
+     13 chrome.ttsEngine.onStop
+     13 chrome.settings.set
+
+Missing permissions
+-------------------
+   1382 desktopCapture
+    620 clipboardRead
+    616 declarativeContent
+    510 proxy
+    476 geolocation
+    457 browsingData
+    348 contentSettings
+    275 tts
+    232 system.cpu
+    158 privacy
+    156 debugger
+    151 pageCapture
+    144 identity.email
+    120 tabCapture
+     91 sessions
+     79 downloads.shelf
+     54 fontSettings
+     52 unlimited_storage
+     39 ttsEngine
+     36 system.storage
+     32 input
+     30 fileBrowserHandler
+     29 system.display
+     26 declarativeWebRequest
+     18 system.memory
+     14 processes
+     11 power
+      8 audioCapture
+      7
+      7 {u'socket': [u'tcp-connect', u'tcp-listen']}
+      7 videoCapture
+      7 printerProvider
+      6 location
+      5 webview
+      5 fileSystem
+      5 enterprise.platformKeys
+      4 create
+      4 experimental
+      4 infobars
+      4 {u'fileSystem': [u'write']}
+      4 signedInDevices
+      4 wallpaper
+      3 networkingPrivate
+      3 dial
+      3 cast.streaming
+      3 app
+      3 mdns
+      3 cast
+      3 streamsPrivate
+      3 keybinding
+      2 bookmarkManagerPrivate
+      2 certificateProvider
+      2 preferencesPrivate
+      2 activetabs
+      2 enterprise.deviceAttributes
+      2 {u'fileSystem': [u'write', u'retainEntries', u'directory']}
+      2 usb
+      2 *
+      2 dns
+      2 tab
+      2 audio
+      1 *//yousonnik.ru/*
+      1 all_frames
+      1 webR/equestBlocking
+      1 offroad
+      1 hid
+      1 @ant-sites-string-list@
+      1 newtab
+      1 accessibilityFeatures.read
+      1 activeTab1
+      1 t
+      1 .entireweb.com
+      1 accessibilityPrivate
+      1 externally_connectable
+      1 brailleDisplayPrivate
+      1 alwaysOnTopWindows
+      1 Storage
+      1 mangement
+      1 clipboardWrite
+      1 https:ajax.googleapis.com/
+      1 *.facebook.com/*
+      1 dataReductionProxy
+      1 desktopCapturePrivate
+      1 enterprise.platformKeysPrivate
+      1 popup
+      1 copresence
+      1 accessibilityFeatures.modify
+      1 platformKeys
+      1 beamrise
+      1 Tabs
+      1 http//gosnapshot.com/snapshot
+      1 s
+      1 urls
+      1 https: //*/*
+      1 commandLinePrivate
+      1 system
+      1 sienium
+      1 virtualKeyboardPrivate
+      1 www.bgu.ac.il
+      1 none
+</pre>
