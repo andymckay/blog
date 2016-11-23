@@ -5,6 +5,8 @@ categories: General
 blog: andy-mckay
 ---
 
+**Update**: I did a bit more filtering and checking and the numbers dropped to around 76%. Head down past the caveats for more.
+
 This question gets asked quite a lot around Mozilla now that we've been working on [WebExtensions](https://developer.mozilla.org/en-US/Add-ons/WebExtensions) for a while. We've been aiming for some sort of [Chrome parity](https://blog.mozilla.org/addons/2016/09/13/webextensions-and-parity-with-chrome/). A while back I wrote a script that I used on [arewewebextensionsyet.com](http://arewewebextensionsyet.com/). That produced a percentage of WebExtensions, but I always felt nervous about talking about it because there so many caveats it never felt accurate.
 
 One of the major caveats was that the sample size of extensions I had from the Chrome store of 10,000 felt too small (that sample is the one used on [arewewebextensionsyet.com](http://arewewebextensionsyet.com/) currently). This week I used [this project](https://github.com/mdamien/chrome-extensions-archive) to parse the sitemap on the Chrome store and get 100,000 extensions and apps. A much more satisfying amount.
@@ -37,6 +39,29 @@ The result of these caveats is a list of variables which you can see in [the cod
 So what can you take from the number 87.76%? Some comfort that its probably somewhere around that number. I can say with a lot of confidence that over 75% of extensions are easily convertable to Firefox. A bit less confidence that over 85% are.
 
 That sounds pretty good to me though and a credit to the hard work the team has put in this year.
+
+<hr>
+
+<b>Update: November 22nd</b>
+
+A couple of more issues or caveats were pointed out to me:
+
+
+* This list of add-ons [includes themes](https://developer.chrome.com/extensions/themes), those are possible in Firefox already and although its related slightly different. Because themes don't use APIs and are different they should probably be excluded. By the way, there is a plan to get new [theming support in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1306671). This dropped our total number of extensions examined down.
+* This does not include manifest keys. Some elements of the manifest do not need an API or permission so if we don't support them we still aren't at parity. All the big ones, we already have bugs and plans for, but just to be complete I included these.
+
+The result is now:
+
+<table>
+<tr><th></th><td>Number</td><td>Percentage</td></tr>
+<tr><th style="text-align:right">Extensions</th><td>57,804</td><td></td></tr>
+<tr><th style="text-align:right">Missing one or more permission</th><td>5,242</td><td>9.07%</td></tr>
+<tr><th style="text-align:right">Missing one or more API</th><td>6,309</td><td>10.91%</td></tr>
+<tr><th style="text-align:right">Missing one or more manifest</th><td>7,799</td><td>13.49%</td></tr>
+<tr><th style="text-align:right">Easily convertable</th><td>44,716</td><td><b>76.36%</b></td></tr>
+</table>
+
+Told you I felt pretty good about 75% of extensions. For a more detailed output, [check out the repository](https://github.com/andymckay/examine-chrome-extensions/tree/master/output).
 
 <hr>
 
