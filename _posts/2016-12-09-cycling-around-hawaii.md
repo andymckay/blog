@@ -25,7 +25,7 @@ But after 90km I started to hit a wall and slowed down and took frequent breaks.
 
 **Day Two: Ocean View to Volcano**
 
-I figured out I'd strained my achilles yesterday. It was raining. Really raining. There were flash flood warning and the road was about to closed. But my plan was to get Volcano. So I did.
+I figured out I'd strained my achilles yesterday. It was raining. Really raining. There were flash flood warnings and the road was about to be closed. But my plan was to get Volcano. So I did.
 
 The first hour or two were the worst, heavy pounding rain that formed rivers on the road. Brakes basically became useless and visibility was terrible. And my ankle hurt.
 
@@ -57,7 +57,7 @@ As it turns out, for me right now about 90km is just about the right distance fo
 
 **Day Five: Waimea to Waikoloa**
 
-You could do this straight downhill to Waikoloa (25km), but that would be boring. So instead I looped up to Hawi. Boy was I glad I did, this was another highlight. A nice climb up a hill with fabulous views across Hawaii. Followed by a wonderful roller coaster of slow downhill past lovely tree lined roads, views of Maui in the distance. Amazing.
+You could do this straight downhill to Waikoloa (25km), but that would be boring. So instead I looped up to Hawi. Boy was I glad I did, this was another highlight. A nice climb up a hill with fabulous views across Hawaii. Followed by a wonderful roller coaster of slow downhill past lovely tree lined roads, views of Maui in the distance. A wonderful last day.
 
 <img src="/files/maui.jpg">
 
