@@ -33,6 +33,6 @@ So what does keep you using Firefox?
 
 [3] Some people argue that some add-ons are better on Firefox, e.g: Adblock Plus has more features on Firefox than Chrome. For other add-ons e.g: React Tools it's not the case. Yet others argue that Adblock Plus is faster on Chrome than on Firefox and so on. Short answer: it's complicated.
 
-[5] Remember all they have to do is switch and install the equivalent Chrome extensions.
+[4] Remember all they have to do is switch and install the equivalent Chrome extensions.
 
-[4] That's my guess. This is a number we are trying to figure out.
+[5] That's my guess. This is a number we are trying to figure out.
