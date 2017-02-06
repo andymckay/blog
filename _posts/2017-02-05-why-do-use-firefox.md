@@ -17,7 +17,7 @@ That's a question that keeps troubling me, because I care about Firefox. Here's 
 
 * pretty much all the add-ons with a large install base [2] already exist on Chrome [3]
 
-So here's my statement: the **vast majority of users could switch to Chrome and get all the same extensions with almost identical functionality** [4]. For a minority of users using extensions that do not exist in Chrome, you cannot. My guess at that number of users who cannot switch is under 1% of our user base [5].
+So here's my statement: the **vast majority of users could switch to Chrome and get all the same extensions with almost identical functionality** [4]. For a minority of users using extensions that do not exist in Chrome, you cannot. My guess at that number of users who cannot switch is well under 5% of our user base [5].
 
 So some people will complain loudly and argue this is the death of Firefox. Whilst I can see this might cause a switch for some people, I haven't yet seen the evidence behind this statement. To be frank, why haven't you already switched to another browser?
 
