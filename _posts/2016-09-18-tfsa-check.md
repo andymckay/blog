@@ -27,7 +27,10 @@ As a quick check I wanted to see how much or little my TFSA had changed against 
 <tr><td>2014</td><td>$5,500.00</td><td>$31,000.00</td><td>$36,786.29</td></tr>
 <tr><td>2015</td><td>$10,000.00</td><td>$41,000.00</td><td>$49,125.61</td></tr>
 <tr><td>2016</td><td>$5,500.00</td><td>$46,500.00</td><td>$57,356.89</td></tr>
+<tr><td>2017</td><td>$5,500.00</td><td>$52,000.00</td><td>$65,999.73</td></tr>
 </tbody>
 </table>
 
 Which always raises the question for me of what is a reasonable rate to calculate at these days. It always used to be 10%, but that's very hard to get these days. Since 2006 the annualized return on the S&P 500 is 5.158% for example. Perhaps 5% represents too conversative a number.
+
+**Update**: added in 2017 numbers.
