@@ -9,7 +9,7 @@ This week we limited Firefox Nightly so that by default legacy extensions won't 
 
 Over the next two releases, this limit will occur on Firefox Beta and then finally Firefox release 57, which goes to the public in November.
 
-It represents a huge amount of work from the last two years by a dedicated team at Mozilla. It's not been an easy journey, we know it's a controversial decision that upset people. Some of those people have voiced their opposition again and again in mailing lists, email and other channels.
+It represents a huge amount of work from the last two years by a dedicated team at Mozilla. Its not been an easy journey, we know it's a controversial decision that upset people. Some of those people have voiced their opposition again and again in mailing lists, email and other channels. We know some add-ons won't or can't be ported and people will lose functionality.
 
 Since WebExtensions started we've:
 
@@ -21,14 +21,15 @@ Since WebExtensions started we've:
 * helped shepherd add-ons through Firefox going to more than <a href="https://wiki.mozilla.org/Electrolysis">one process</a> to multiple processes
 * completely <a href="https://github.com/mozilla/web-ext">rewritten the command line tools</a> and provided some kick-ass APIs
 * re-written the validator for add-ons into JavaScript and its now mirroring the rules from Firefox
-* written 11 blog posts(<a href="<a href="https://blog.mozilla.org/addons/2015/12/21/webextensions-in-firefox-45-2/">Firefox 45</a> to <a href="https://blog.mozilla.org/addons/2017/08/10/webextensions-firefox-56/">Firefox 56</a>) on WebExtensions status
+* re-written the discovery pane in Firefox and the <a href="https://addons.mozilla.org/en-US/firefox/">AMO mobile pages</a>
+* written 11 blog posts (<a href="<a href="https://blog.mozilla.org/addons/2015/12/21/webextensions-in-firefox-45-2/">Firefox 45</a> to <a href="https://blog.mozilla.org/addons/2017/08/10/webextensions-firefox-56/">Firefox 56</a>) on WebExtensions status
 * built 2 new services to assist in add-on development
 * done 3 work weeks
 * worked with a bunch of awesome contributors
 
 ... there's a ton of things I've missed, apologies to everyone. And <b>we aren't done</b>, we've got 6 weeks till the cut off for 57 and then another month or two as it rolls out to release.
 
-What's more important is the possibilities for the future, this:
+What's more important is the <a href="http://mckay.pub/2016-04-17-addons-old/">possibilities for the future</a>, this:
 
 * releases the shackles around Firefox developers that extensions caused
 * improves the security and performance for our users
