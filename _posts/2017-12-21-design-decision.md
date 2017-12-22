@@ -5,13 +5,13 @@ categories: General
 blog: andy-mckay
 ---
 
-There could be many blog posts about the Mozilla bug firehose. This is just about dealing with on particular aspect.
+There could be many blog posts about the Mozilla bug firehose. This is just about dealing with one particular aspect.
 
-When a bug comes into Mozilla it needs to get triaged, that is someone needs to figure out what to do with it. Triaging is an effort to try and get bugs appropriately classified to see how critical the bug is. Part of shipping a product every 6 weeks is that we have to try and fix crucial bugs in each release. To do that you have to read the bugs reports and try to understand what's happening.
+When a bug comes into Mozilla it needs to get triaged - someone needs to figure out what to do with it. Triaging is an effort to try and get bugs appropriately classified to see how critical the bug is. Part of shipping a product every 6 weeks is that we have to try and fix crucial bugs in each release. To do that you have to read the bugs reports and try to understand what's happening.
 
 We set aside a certain amount of time for triage meetings every week to triage those bugs. With product, engineering management, QA management and a bunch of engineers, those meetings are expensive to the whole organisation. So we started getting pretty ruthless on those triage meetings to keep them as short as possible .
 
-One category of bugs that we got a lot of (an awful lot of) in WebExtension is a "feature request". This is where someone is asking for feature that we currently don't provide in the WebExtensions API. This one bug could slow down a whole triage as a whole pile of people look at a bug and think about it and try to decide if its a good idea or not. That's a terribly expensive and inefficient way to spend the triage meeting.
+One category of bugs that we got a lot of (an awful lot of) in WebExtension is a "feature request". This is where someone is asking for feature that we currently don't provide in the WebExtensions API. This one bug could slow down a whole triage as all the people look at a bug and think about it and try to decide if its a good idea or not. That's a terribly expensive and inefficient way to spend the triage meeting.
 
 Instead we decided that we can do a few things:
 
