@@ -9,7 +9,7 @@ In September I did my second Gran Frondo, <a href="http://www.agmweb.ca/2015-09-
 
 This time I had an idea of what I was going to face, had a training plan in my head and even a cunning plan for the Fondo.
 
-<img src="files/IMG_1752.png" style="display: block"/>
+<img src="/files/IMG_1752.png" style="display: block"/>
 <cite>Training ride near Langley</cite>
 
 Going into the Fondo though I was actually slightly worried. After the Fondo last year, once I'd stopped cycling I gained weight again. Approaching the Fondo I was weighing more than last year and all my training rides were slower.
