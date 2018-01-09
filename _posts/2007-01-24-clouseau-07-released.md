@@ -13,8 +13,8 @@ blog: andy-mckay
 	<li>Nicer bigger Ploney font for results</li>
 	<li>Clean up error messages</li>
 </ol>
-<img src="http://www.agmweb.ca/files/clouseau-truncated.png" />
+<img src="/files/clouseau-truncated.png" />
 
-<p>Download: <a href="http://www.agmweb.ca/files/Clouseau.0.7.1.zip">Clouseau.0.7.1.zip</a></p>
+<p>Download: <a href="/files/Clouseau.0.7.1.zip">Clouseau.0.7.1.zip</a></p>
 
 <p><b>Update</b> forgot to check collector and found an old bug I fixed so sneaked out 0.7.1.</p>

@@ -5,7 +5,7 @@ categories: Plone
 old: 1854
 blog: andy-mckay
 ---
-<a href="http://www.agmweb.ca/files/clouseau-context.png"><img src="http://www.agmweb.ca/files/clouseau-context.png" width="200" style="float: right"></a>
+<a href="/files/clouseau-context.png"><img src="/files/clouseau-context.png" width="200" style="float: right"></a>
 Now features context sensitive Python prompt. Not sure about the API of an object? Just click the little Clouseau button and a Python prompt will appear with <em>context</em> mapped to the actual object you are looking at.
 
 Other changes:

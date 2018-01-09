@@ -5,7 +5,7 @@ categories: Plone
 old: 2100
 blog: andy-mckay
 ---
-<img src="http://www.agmweb.ca/files/katuberling.png" style="float:right; padding: 1em" />
+<img src="/files/katuberling.png" style="float:right; padding: 1em" />
 <p>One common things I've heard in the Plone community, is that people are always struggling to find developers. This is often seen as a real problem not only for the consulting companies but also for Plone itself. This problem is common to many development areas, but the unique nature of Plone means that it's situation is rather exacerbated.</p>
 <p>For quite a while I've had an opinion that people often jump on the "we need more developers" mantra when they don't need to. The term developer does mean an awful lot of different things to different people. To me a developer is a skilled professional that can solve complicated technical problems by developing solution. Alright that's a broad definition, would just programmer be better?. In the past I've worked with many people I would call good or even bloody great developers (thinking specifically here of Mark Hammond and Sidnei da Silva). I've also worked with some bloody incompetent ones and fired them.</p>
 <p>There's a few things that I think are true about good developers:</p>

@@ -11,4 +11,4 @@ I'm such a stick in the mud, I know what I like and Sunday was a chock a block f
 
 For those of you attending the Vancouver Python Workshop, this is the view from Jericho Beach and is just around the corner from Locarno Beach, which is where the barbeque is.
 
-<img src="http://www.agmweb.ca/files/IMG_5653.jpg" alt="Jericho sunset" />
+<img src="/files/IMG_5653.jpg" alt="Jericho sunset" />

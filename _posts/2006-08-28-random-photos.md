@@ -7,10 +7,10 @@ blog: andy-mckay
 ---
 Flower on the sunshine coast.
 
-<img src="http://www.agmweb.ca/files/IMG_6211.jpg" alt="Flower" />
+<img src="/files/IMG_6211.jpg" alt="Flower" />
 
 View from our rental suite on the sunshine coast.
 
-<img src="http://www.agmweb.ca/files/IMG_6207.jpg" alt="View with ferry" />
+<img src="/files/IMG_6207.jpg" alt="View with ferry" />
 
 <strong>Update:</strong> yes the lens needs cleaning, darn.

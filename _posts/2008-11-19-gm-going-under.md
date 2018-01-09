@@ -14,6 +14,6 @@ blog: andy-mckay
 <cite><a href="http://www.csmonitor.com/2005/0609/p01s01-usec.html">Rising benefits burden (2006)</a></cite></li>
 </ul>
 <p>I see these as businesses that are inherently bad and going to fail. The real question is do you spend money now and keep them alive or wait for them to fail in a few years. I haven't been able to find figures on actual volumes of sales, but here's GM share prices, notice a decline since their peak in 1999:</p>
-<img src="http://www.agmweb.ca/files/gm_share_price.png" />
+<img src="/files/gm_share_price.png" />
 <p>Yes it is precipitous in the last few months, but this is more than just a shock, it's a crap business. You might help them ride out the storm for a month or two, but they will be going under until they can get their union under control, focus on cars people want instead of <a href="http://en.wikipedia.org/wiki/Pontiac_Aztek">crap</a>, <a href="http://www.google.com/search?hl=en&client=safari&rls=en-us&q=pt+cruiser+classification+canada+truck&btnG=Search">cheating</a> or just plain <a href="http://www.google.com/search?hl=en&client=safari&rls=en-us&q=hummer+mpg&btnG=Search">disgusting</a> cars.</p>
 <p><b>Note:</b> yes the PT Cruiser is by Chrysler and I mostly talk about GM. These three companies are generally not good corporate citizens and I lump them together.</p>

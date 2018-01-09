@@ -21,7 +21,7 @@ class Document(models.Model):
 <p>So you'll get a project and app which I called plango with a bunch of models. Next we want to run through the database and pull out the object and write them into Django, that's a matter importing Django inside a zopectl run script. The magic code to pull the fields out of the content types so I can get them from Zope is:</p>
 <pre>obj._meta.fields</pre>
 <p>...that gives you the Django fields. One thing that is important is that the URL's which are great in Plone are maintained. For that there's a urlpaths model that keeps track of the url for that object. It uses Django signals and we rip off and grab the normalize function from Plone to make a nice URL like <code>about/my-company</code>.</p>
-<img src="http://www.agmweb.ca/files/plango-list.png" style="padding: 1em; float: right" />
+<img src="/files/plango-list.png" style="padding: 1em; float: right" />
 <p>Once that's done, we've got our objects in and accessible through the Django admin interface. Wee. The changing is pretty easy, all the fields are there in the Django interface, once you click on edit. Oh sigh if now we could just get Kupu in, which is still the best editor out there.</p>
 <p>Next there was a piece of middleware which grabs the url such as <code>about/test</code> and grabs the relevant page in urlpaths. There's a bit of magic that grabs the object and then looks up a default view for that object. The view is a page template, yay, for example in <code>document.pt</code>:</p>
 <pre>
@@ -29,7 +29,7 @@ class Document(models.Model):
           Title or id
         &lt;/h1&gt;
 </pre>
-<img src="http://www.agmweb.ca/files/plango-view.png" style="padding: 1em; float: right" />
+<img src="/files/plango-view.png" style="padding: 1em; float: right" />
 <p>Using the templates was easy, I was able to just drop main_template in, and then spend an ages ripping everything out that I wasn't going to build out tonight. And the end result is extremely unremarkable screenshot to our right.</p>
 <p>Phew. Well it was an interesting exercise, it's certainly something that needs a great deal of work to continue before its useable, although might be an interesting tool on top of things like entransit. Certainly I feel that if I to start upgrading those Plone sites, I will be working on this tool instead.</p>
 <p><b>Disclaimer:</b> this won't work, if it does I'll fall over with shock. But here's some code:</p>

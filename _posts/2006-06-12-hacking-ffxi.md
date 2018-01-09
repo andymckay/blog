@@ -13,4 +13,4 @@ A list of the files is here and a description:
 
 An image of the result:
 
-<img src="http://www.agmweb.ca/files/gigas.jpg" alt="Gigas moogle replacement" />
+<img src="/files/gigas.jpg" alt="Gigas moogle replacement" />

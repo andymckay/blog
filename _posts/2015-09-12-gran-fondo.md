@@ -19,7 +19,7 @@ I'd started by putting myself in the 7hr+ category and just being glad to make i
 
 This was based on a similar ride I did in June from <a href="http://agmweb.ca/page2/">Whistler to Vancouver</a>. That ride has much more downhill, but was also about 10km longer. It took 5h 46m.
 
-<img src="http://www.agmweb.ca/files/vancouver-whistler.png" />
+<img src="/files/vancouver-whistler.png" />
 
 Yesterday the ride started at 7am from Stanley Park, leaving from Stanley Park and heading over Lions Gate was a bit of mess with it being way too crowded. The ride out of Stanley Park and over Lions Gate without any cars as the sun rose over the horizon was just plain stunning.
 

@@ -19,7 +19,7 @@ blog: andy-mckay
 
 <p>...as each Todo is added to the DB, the callback <code>add_row</code> will be called.</p>
 
-<img src="http://www.agmweb.ca/files/django-lawnchair-1.png">
+<img src="/files/django-lawnchair-1.png">
 
 <p>Users can interact with the objects. Each time you change a model in the local DB, we change the state. You can the push all the changed objects to Django:</p>
 

@@ -5,5 +5,5 @@ categories: General
 old: 2093
 blog: andy-mckay
 ---
-<img src="http://www.agmweb.ca/files/amazon-outage.png" style="float: right; padding: 1em" />
+<img src="/files/amazon-outage.png" style="float: right; padding: 1em" />
 <p>Bam!</p>

@@ -14,5 +14,5 @@ blog: andy-mckay
             }
 </pre>
 <p>In this case there is no "bar()" defined. This will be caught and passed to Arecibo, so that you have a track of the error and the browser.</p>
-<img src="http://www.agmweb.ca/files/arecibo-client-side.png" />
+<img src="/files/arecibo-client-side.png" />
 <p>Unfortunately at the moment this only works in Firefox and Chrome. Thanks Chris!.</p>

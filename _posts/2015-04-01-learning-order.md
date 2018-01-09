@@ -11,17 +11,17 @@ A few years ago I put up some shelves in my house. At one point, I noticed that 
 
 When I started out writing software I was very visually based. I'd start out by figuring out how the page looked, then wrote the template, then the view and then the model and then maybe tests. It wasn't test driven development, it was "how my brain works development".
 
-<img src="http://www.agmweb.ca/files/order-before.png">
+<img src="/files/order-before.png">
 
 I wrote a book about developing Plone and I wrote the book in a similar order. As it turns out I think a lot of the people who were learning Plone did things in the same way, perhaps its the nature of Plone developers or perhaps thats the natural order when you don't know whats going.
 
 As I did development more and more, one day I'd noticed I'd switched things around. My process had flipped and I had going the other way around. Starting at the "bottom" with the model and working my way up. Maybe it was "test driven development".
 
-<img src="http://www.agmweb.ca/files/order-next.png">
+<img src="/files/order-next.png">
 
 Well lets face it, it is never that clean and simple. It's really more like this:
 
-<img src="http://www.agmweb.ca/files/order-after.png">
+<img src="/files/order-after.png">
 
 Peoples order of doing things changes due to many variables: from how people think, to how experienced people are. When I did training I was amazed to see that in a group of a dozen people I'll have a dozen different starting points. That's because I had a group of developers at different levels with different experiences.
 

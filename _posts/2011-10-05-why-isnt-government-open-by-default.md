@@ -5,7 +5,7 @@ categories: Canada
 old: 2321
 blog: andy-mckay
 ---
-<img src="http://www.agmweb.ca/files/bcesis.png" style="float: right" />
+<img src="/files/bcesis.png" style="float: right" />
 <p>A few weeks ago the government <a href="http://t.co/nJDitye7">published a report</a> on an $80 million (or thereabouts) project for the BC Ministry of Education on BCeSIS. The report recommends that will have to be scrapped in the coming years and replaced after about six years, with a new off the shelf proprietary system.</p>
 <p>It cost <a href="http://www.kamloopsnews.ca/article/20110117/KAMLOOPS0101/301179972/-1/kamloops/education-minister-puts-future-of-bcesis-in-doubt">$11.9 million</a> a year to operate and <a href="http://www.cknw.com/Channels/Reg/NewsLocal/Story.aspx?ID=1539426">$16 million</a> to create. It holds around 600,000 records and runs on Oracle and other fun stuff.</p>
 <p>Some of the things that interested me in the report:</p>

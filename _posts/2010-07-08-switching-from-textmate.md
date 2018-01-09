@@ -19,5 +19,5 @@ blog: andy-mckay
 <li>The fact that a find brings up the find dialog, except the replace is not selectable truly <b>baffled</b> me. You have to do "replace" which brings up the find dialog and now the replace is selectable. (see pics below). This baffled me so much, I've <a href="http://svn.openkomodo.com/openkomodo">downloaded the source</a>.</li>
 </ul>
 <p>But so far happy with Komodo and so glad to dump TextMate. Perhaps I'm just stalling the inevitable of just using emacs.</p>
-<img src="http://www.agmweb.ca/files/komodo-find.png" title="this is the find dialog" />
-<img src="http://www.agmweb.ca/files/komodo-replace.png" title="this is the replace dialog" />
+<img src="/files/komodo-find.png" title="this is the find dialog" />
+<img src="/files/komodo-replace.png" title="this is the replace dialog" />

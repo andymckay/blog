@@ -5,5 +5,5 @@ categories: England
 old: 2032
 blog: andy-mckay
 ---
-<img src="http://www.agmweb.ca/files/IMG_0855.jpg" style="margin: 1em">
+<img src="/files/IMG_0855.jpg" style="margin: 1em">
 <p>Had a nice holiday in Egypt and got to see the pyramids, finally.</p>

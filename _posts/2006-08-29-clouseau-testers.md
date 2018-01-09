@@ -11,7 +11,7 @@ Any chance I could get some testers for Clouseau? I think I'm ready for a first 
 
 (And if that instance is publicly accessible, great, then I can test too).
 
-Zip file: <a href="http://www.agmweb.ca/files/Clouseau.0.1.zip">http://www.agmweb.ca/files/Clouseau.0.1.zip</a> (or from the collective)
+Zip file: <a href="/files/Clouseau.0.1.zip">/files/Clouseau.0.1.zip</a> (or from the collective)
 
 <strong>Update:</strong> requires Zope 2.9+. Tested on Plone 2.5.
 

@@ -6,7 +6,7 @@ old: 2015
 blog: andy-mckay
 ---
 <p>It's only October, but presents for Christmas are being talked about. Every Christmas we end up on Boxing Day feeling terrible about the amount of presents that have arrived. In an attempt to stop this, we are publishing a "Christmas present manifesto".</p>
-<img src="http://www.agmweb.ca/files/IMG_0262.jpg" style="padding: 1em; float: right" />
+<img src="/files/IMG_0262.jpg" style="padding: 1em; float: right" />
 <h3>Christmas present manifesto</h3>
 <p>Christmas is an overwhelming time for kids: there's all the magic of Christmas, a huge build up and a chance to spend time with family. The urge for people to give kids so many things is easy. There's so many toys that you could see the kids playing with. In a relatively affluent society it's hard to resist.<p>
 <p>But we don't want our kids to have so many toys. There's a few things to remember - our kids have a lot of toys already (a huge number in fact) and most of them are plastic, a small portion recyclable. It's not a competition with other family members, the kids won't remember. You'll be generating a huge amount of waste over Christmas anyway, never mind discarded presents.</p>

@@ -7,7 +7,7 @@ blog: andy-mckay
 ---
 <p>We've now updated <a href="http://areciboapp.com">Arecibo</a> so that the open source server is now live and the free hosted version is now turned off. It's time to get that App Engine version of Arecibo up and running and start pushing your errors to that. Hopefully the DNS will have updated in your area by the time this post goes live.</p>
 
-<img src="http://www.agmweb.ca/files/arecibo-new.png" class="clear" title="Arecibo server on App Engine"/>
+<img src="/files/arecibo-new.png" class="clear" title="Arecibo server on App Engine"/>
 
 <p>In the process we've had to update a few of the clients as well so that they work with a Arecibo server specified by the user. So instead of all of them hard coding in the URL, this is now part of the library. We've moved the documentation into sphinx, so you can find some <a href="http://areciboapp.com/docs">docs online</a>.</p>
 

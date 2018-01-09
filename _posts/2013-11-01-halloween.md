@@ -33,7 +33,7 @@ Anyway let's get Vidyo up and reading the CamTwist device and bingo:
 
 <img src="http://farm4.staticflickr.com/3807/10619372046_3db844a6e9_n.jpg">
 
-Now it wouldn't be enough just to video, we need sound. So I grabbed some .wav of the Sith Lord and made a <a href="http://www.agmweb.ca/files/darth">simple web page</a>. Positioned the speakers near my speaker phone and hovered a finger over the right button. The phrase "Don't be too proud of this technological terror you've constructed." is too good to pass up in a Mozilla meeting.
+Now it wouldn't be enough just to video, we need sound. So I grabbed some .wav of the Sith Lord and made a <a href="/files/darth">simple web page</a>. Positioned the speakers near my speaker phone and hovered a finger over the right button. The phrase "Don't be too proud of this technological terror you've constructed." is too good to pass up in a Mozilla meeting.
 
 So there I was on Thursday with everything set up and waiting for that first Vidyo call. But then meeting after meeting got cancelled, leaving me only two brief meetings to try it out. I had to hold it over to Friday, a few more meetings got cancelled, leaving me to inflict it upon a few people in the Apps demo meeting on Friday. Sorry for the distraction, but hey it's almost Halloween.
 

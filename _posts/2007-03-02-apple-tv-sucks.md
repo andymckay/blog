@@ -5,7 +5,7 @@ categories: General
 old: 1929
 blog: andy-mckay
 ---
-<img src="http://www.agmweb.ca/files/apple-tv-sucks.jpg" style="float:right; padding: 1em; border: 1px solid grey">
+<img src="/files/apple-tv-sucks.jpg" style="float:right; padding: 1em; border: 1px solid grey">
 <p>I haven't used it. Or seen it. But I have seen <a href="http://www.apple.com/ca/appletv/tour.html">this page</a> and I'm now convinced it sucks. The first thing it offers is <i>Movie Trailers</i>. Movie trailers are adverts, people pay to put movie trailers in front of us. It's annoying enough having them on DVD's you have to fight your way past.</p>
 <p>If you think I'm paying to buy a box so I can watch adverts think again. Having movie trailers there makes the omission of <b>movies</b> glaring. It doesn't have a DVD drive on it... so let me get this right... it's a TV that you can't actually watch TV on, or movies, or DVD's.</p>
 <blockquote>

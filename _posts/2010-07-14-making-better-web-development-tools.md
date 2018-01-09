@@ -16,7 +16,7 @@ blog: andy-mckay
 <p>Usually this is done by domain switching: dev.yoursite.com, test.yoursite.com, live.yoursite.com and so on. This can be added in under the <i>projects</i> tab on Arecibo and once you've got your domains set up we now know the location and severity of errors and issues.</p>
 <h3>Issues and URL Staging</h3>
 <p>So when you create an issue, you give it a URL, we can now determine it stage and its severity automatically. Also we can recognize that because an issue is fixed on test doesn't mean its on live. Your deployment workflow from development to live might be really fast (under a day, or instant) or really slow. So each issue can be marked fixed per stage:</p>
-<img src="http://www.agmweb.ca/files/arecibo-stages.png" class="clear" />
+<img src="/files/arecibo-stages.png" class="clear" />
 <p>The goal is to tie in staging to the workflow and make sure we've got an API so that when a peice of code is deployed, you can tell Arecibo to mark it deployed.</p>
 <h3>Reopening Issues</h3>
 <p>Errors that come in to Arecibo are grouped by similarity and it's those groups that are tied to tickets. So when an issue is marked as completed, it should be "fixed" for all its stages from development to production. If an error occurs again on an issue that is "fixed" we know something went wrong. This allows us to re-open the ticket and let the development team know that the issue has not been resolved.</p>

@@ -9,5 +9,5 @@ ClearRSS is an RSS news feed parser written in Ajax, that uses the AjaxProxy to 
 
 This follows on the Ajax Services theme. <em>Note</em>: that the RSS parsing code is actually re-used from another non-Plone project and then customised which is why it only took and hour to write.
 
-Download: <a href="http://www.agmweb.ca/files/ClearRSS.0.1.zip">ClearRSS.0.1.zip</a>
+Download: <a href="/files/ClearRSS.0.1.zip">ClearRSS.0.1.zip</a>
 

@@ -6,6 +6,6 @@ old: 1959
 blog: andy-mckay
 ---
 <p>We visited on the weekend and found a lovely garden for the time of year.</p>
-<img src="http://www.agmweb.ca/files/IMG_7496.jpg" />
-<img src="http://www.agmweb.ca/files/IMG_7507.jpg" />
-<img src="http://www.agmweb.ca/files/IMG_7531.jpg" />
+<img src="/files/IMG_7496.jpg" />
+<img src="/files/IMG_7507.jpg" />
+<img src="/files/IMG_7531.jpg" />

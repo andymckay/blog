@@ -10,4 +10,4 @@ blog: andy-mckay
 <li>Increased performance, but not recompiling on every request and utf-8 templates (thanks Mr Topf)</li>
 <li>More detailed errors through SimpleTAL patch</li>
 </ul>
-<p><b>Download:</b> <a href="http://www.agmweb.ca/files/simpletemplate.0.5.zip">simpletemplate.0.5.zip</a></p>
+<p><b>Download:</b> <a href="/files/simpletemplate.0.5.zip">simpletemplate.0.5.zip</a></p>

@@ -5,7 +5,7 @@ categories: General
 old: 2209
 blog: andy-mckay
 ---
-<img src="http://www.agmweb.ca/files/99570208_feb4334854_m.jpg" style="padding: 1em; float: right" />
+<img src="/files/99570208_feb4334854_m.jpg" style="padding: 1em; float: right" />
 <p>Every so often it crosses my mind - time to give up computers and do something else. Move on to something else. Maybe writing full time. Maybe canoe guide or instructor. Maybe take up woodworking seriously.</p>
 <p>I'm not sure why I keep thinking that another career would be any better or worse than this one. The grass is always greener, as they say. Perhaps it's the simple things. What are the problems at the moment?</p>
 <ul>

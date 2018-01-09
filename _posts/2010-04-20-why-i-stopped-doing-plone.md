@@ -17,7 +17,7 @@ blog: andy-mckay
 <p>One of the advantages of being old is that I know there a things I can't fix. I now know how brilliant the ZODB is. I now know I never want to use it again. But I know this isn't going to be replaced in Plone without a heck of a lot of work. Or for example: I faced a Franken Plone 2.x site that was slow and couldn't be upgraded or made faster for many reasons.</p>
 <p>Stuck with these bits and knowing they aren't going to change, you either learn to love them or not. In the end this (and other parts of Plone) felt like they were continual weights. This added to the negative situation.</p>
 
-<img src="http://www.agmweb.ca/files/1455441415_0aff0f36fd_m_d.jpg" class="photo" />
+<img src="/files/1455441415_0aff0f36fd_m_d.jpg" class="photo" />
 
 <h3>The monster hiding behind the cupboard</h3>
 <p>Like an system or framework there are bits that are sample to change and bits that aren't. Some things are so damn simple to change to configure. Some are like scaling your way up the north face of the Eiger with a broken arm.</p>

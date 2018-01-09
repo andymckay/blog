@@ -9,11 +9,11 @@ Yesterday I found that Firefox was behaving oddly. Sites were behaving oddly, as
 
 Going to the File menu I noticed that the private browsing link key shortcut had changed to ⌘N instead of shift-⌘P.
 
-<img src="http://www.agmweb.ca/files/private-before.png">
+<img src="/files/private-before.png">
 
 But that shortcut still worked and seemed to open new non-private windows.
 
-<img src="http://www.agmweb.ca/files/private-after.png">
+<img src="/files/private-after.png">
 
 What was going on? I tried removing add-ons, cleaning out jetpacks and anything I could change. Finally I went to <code>about:config</code> and searched for "private" and then found this setting:
 

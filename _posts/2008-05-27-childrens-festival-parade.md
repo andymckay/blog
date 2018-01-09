@@ -13,5 +13,5 @@ blog: danae-mckays-blog
 
 <p>Here are a couple of photos - one of the float near completion (I only took photos of the completed float once the kids were on and I can't post them without parents' permission!) and one of Emily, my little Lego doctor. I was so proud of her! She had been less than enthusiastic about being on the float and I'd only managed to convince her to do it a couple of days beforehand, but she let her face be painted and cooperated beautifully. She even waved constantly throughout the entire parade!</p>
 
-<p><img src="http://www.agmweb.ca/files/img_2584.jpg"></p>
-<img src="http://www.agmweb.ca/files/img_2678.jpg">
+<p><img src="/files/img_2584.jpg"></p>
+<img src="/files/img_2678.jpg">

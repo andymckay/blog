@@ -9,4 +9,4 @@ blog: andy-mckay
 
 <p>Was a good day, except for the rain :)</p>
 
-<img src="http://www.agmweb.ca/files/castlerigg.jpg" />
+<img src="/files/castlerigg.jpg" />

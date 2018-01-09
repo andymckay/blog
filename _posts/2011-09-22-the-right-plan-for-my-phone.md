@@ -19,7 +19,7 @@ blog: andy-mckay
 <li>I will not be tied to a three year contract.</li>
 </ul>
 <h3><a href="http://www2.windmobile.ca/en/Pages/default.aspx">Wind</a></h3>
-<img src="http://www.agmweb.ca/files/wind-coverage-house.png" />
+<img src="/files/wind-coverage-house.png" />
 <p>Oops no coverage at my house. That's a deal breaker.</p>
 <h3><a herf="http://www.telusmobility.com/en/BC/clear_choice_voice_data/index.shtml">Telus</a></h3>
 <p>The $50 a month could work, but I can't buy it without adding a device. Then devices all require a three year contract. Forget it Telus.</p>
