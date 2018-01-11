@@ -34,3 +34,5 @@ Finally, I keep a checkout of Every Event near by on all my machines. All I have
    <pre>web-ext run --firefox /Applications/FirefoxNightly.app/Contents/MacOS/firefox --verbose --start-url about:debugging</pre>
 
 That's aliased to a nice short command on my Mac and gives me a clean profile with the relevant console *just one click away*...
+
+**Update**: see also <a href="https://github.com/freaktechnik/shell-webextension">shell WebExtension</a> project by <a href="https://twitter.com/freaktechnik/status/950776509639380992">Martin Giger</a> which has some more sophisticated content script support.
