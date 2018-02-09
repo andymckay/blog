@@ -9,7 +9,7 @@ For the longest time I've used vertical tabs in Firefox and I still find it odd 
 
 Of course, for most users this isn't a problem, most users do not have a lot of tabs open according to [Firefox telemetry](https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&end_date=2018-02-08&keys=__none__!__none__!__none__&max_channel_version=nightly%252F60&measure=TAB_COUNT&min_channel_version=null&processType=*&product=Firefox&sanitize=1&sort_keys=submissions&start_date=2018-01-22&table=0&trim=1&use_submission_date=0):
 
-<img src="/files/tab-count.png">
+<a href="https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&end_date=2018-02-08&keys=__none__!__none__!__none__&max_channel_version=nightly%252F60&measure=TAB_COUNT&min_channel_version=null&processType=*&product=Firefox&sanitize=1&sort_keys=submissions&start_date=2018-01-22&table=0&trim=1&use_submission_date=0"><img src="/files/tab-count.png"></a>
 
 But if you have a few the title just gets squished and squished till it becomes a scroll bar. Vertical tabs look great for this giving you lots of title space on a wide monitor:
 
