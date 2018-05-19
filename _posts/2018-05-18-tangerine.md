@@ -45,7 +45,7 @@ The `Cancel` button cancels the cancelling. The highlighted option `Confirm` act
 
 Supposing I wanted to see my transactions on an account. There's about one half of the screen to scroll down. The black text `Posted Transactions` doesn't actually do anything. The transaction list is an infinite scroll. So instead they've put everything at the top of the page, such as `Search`, `Transaction Breakdown` and so on.
 
-<img src="/files/tangerine-transsactions.png">
+<img src="/files/tangerine-transactions.png">
 
 Then there's another title `Transactions`. Do you get the idea that in those 5 boxes saying `Transactions`, this might be about...
 
