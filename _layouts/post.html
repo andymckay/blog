@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="meta">{{ page.date | | date: "%b %d, %Y"  }}</div>
+<div class="meta">{{ page.date | date: "%b %d, %Y"  }}</div>
 <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
 <hr class="florished">
 {{ content  | replace:'acronym','abbr' }}
