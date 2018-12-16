@@ -8,11 +8,12 @@ blog: andy-mckay
 Today the BC Government announced that they will be planning to introduce legislation that:
 
 <blockquote>"All new cars and trucks sold in B.C. in the year 2040 will have to be zero-emission vehicles"</blockquote>
-<cite>https://www.cbc.ca/news/canada/british-columbia/every-new-car-sold-in-2040-will-be-zero-emission-b-c-government-says-1.4913679</cite>
+<cite><a href="https://www.cbc.ca/news/canada/british-columbia/every-new-car-sold-in-2040-will-be-zero-emission-b-c-government-says-1.4913679">CBC</a></cite>
 
 I'm unreasonably interested and excited by this. There is a simple fact that we need to do this and car companies will not do it, they are too <a href="http://www.thedrive.com/news/24142/bmw-expects-85-percent-of-its-cars-will-keep-traditional-combustion-engines-in-2030">invested in the existing carbon economy</a>. My first thought is that 2040 is way too far off, but this really isn't a simple change and the political and societal desire to change is not strong enough to force a sudden change yet.
 
-Other jurisdictions are making similar noises, but <a href="https://qz.com/1341155/nine-countries-say-they-will-ban-internal-combustion-engines-none-have-a-law-to-do-so/">haven't introduced legislation yet</a>. Two that talk about it more are the UK and California. There are some interesting questions in BC that might be specific to us:
+Other jurisdictions are making similar noises, but <a href="https://qz.com/1341155/nine-countries-say-they-will-ban-internal-combustion-engines-none-have-a-law-to-do-so/">haven't introduced legislation yet</a>. Two that talk about it more are the UK and California. There are some interesting questions in BC :
+
 * BC is big. Twice the size of California and over four times the size of the UK. It's full of a lot of nothing. You can go long ways without encountering anything. This problem is common to most of Canada, but the current range of electric vehicles is more obvious when its 400km to the next charging station.
 * BC gets <a href="https://en.wikipedia.org/wiki/List_of_extreme_temperatures_in_Canada">really cold up north</a>. Colder than California or the UK. This affects <a href="https://teslamotorsclub.com/tmc/threads/cold-weather-driving.64591/">electric batteries and charging</a>. Again this problem affects all of Canada.
 * <a href="https://en.wikipedia.org/wiki/Site_C_dam">Site C isn't perfect</a>, but we'll need the electricity.
