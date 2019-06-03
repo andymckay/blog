@@ -11,7 +11,7 @@ Checking in with my [one month goals](http://mckay.pub/2018-12-28-goals/).
 
 * Diet was mostly Keto for a while, but I've slipped into some carbs for running and sometimes have too many carbs. That's probably caused the lack of weight loss.
 
-* Running has dramatically improved. At the beginning of the month I was feeling down because I was going slowly. This last week I completed 7.1k at a sub 6km/minute pace and my training runs are getting faster.
+* Running has dramatically improved. At the beginning of the month I was feeling down because I was going slowly. This last week I completed [7.1k at a sub 6km/minute pace](https://www.strava.com/activities/2107454561) and my training runs are getting faster.
 
 * Signed up for the West Van Run in March, want to beat my time on that from last year - 29 minutes - significantly.
 
