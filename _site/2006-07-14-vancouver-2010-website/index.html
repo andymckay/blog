@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Vancouver 2010 website</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jul 14, 2006</div>
+<h2><a href="/2006-07-14-vancouver-2010-website/">Vancouver 2010 website</a></h2>
+<hr class="florished">
+<p>Attended a talk at <a href="http://cmprofessionals.org/">cmprofessionals.org</a> last night. Who knew there was such an organisation, and they might be in your city. Apparently they have been going for about a year and talk every couple of months, so I&#39;ll hopefully be going again. It&#39;s a different group from the Python or Plone groups, I naturally sat down and got out my laptop to take notes.... only one there with a laptop.</p>
+
+<p>The talk was on the <a href="http://vancouver2010.com">Vancouver 2010</a> website. It&#39;s built using <a href="http://thelevel.com">The Level</a>&#39;s software. They are a content management start up in Vancouver. It&#39;s rumoured their main contract is a big project for Google (was confirmed last night that they do something for them).</p>
+
+<p>Before the Torino cames they had to get the content out of the old web site and get a new site up and running with a new design in the new CMS. The organising committee (Vanoc) has got their sponsor Bell Canada to do the site which then used The Level. There was a team of 6 people building the site over 3 months, with 3 content editors plugging in the content. There&#39;s probably many more involved in the auxilary, but that seemed to be the core group.</p>
+
+<p>The lady doing the talking (who&#39;s name unfortunately I did not write down), showed us a demo of editing content. Being one of the few techy people in the audience I was curious to get a quick preview of the editing interface. Basically it&#39;s an in place editing system, most of the template is fixed with a few areas you can edit. Common to editing systems a little button pops up so you can edit the post, which takes you to a new page. That pages is just like a Plone edit page, but out of context... enter the data in a few fields and the text into a simple wysiwyg editor.</p>
+
+<p>From a few comments made it seems clear that the system has some sort of relational or xml database backend. Content is pulled out and transformed on the way using XSLT. Spotted a few things in there like versioning and staging but nothing really stunning. Ah I&#39;m such a cynic, but c&#39;mon I thing automatic RSS feeds, css for mobile users and so on are standard these days (although I&#39;m sure people say similar things about Plone with different topics).</p>
+
+<p>My two questions: localisation and accessibility were answered deftly. They even did focus groups for accessiblity prior to launch, good for them! Didn&#39;t get into specifics about the traffic, would be curious. From here the site is fast and I can imagine during Turino there was quite a peak of interest. A quick ab gave me:</p>
+
+<p>Requests per second:    22.73 <a href="mean">#/sec</a></p>
+
+<p>However I did it for 50 requests and got a server timeout. Eek, better not run benchmarks on other people&#39;s servers :)</p>
+
+<p>Moving to the games is going to be an interesting transition, the site needs for getting all the data from the games out is a different challenge, something I&#39;d like to see more talks on.</p>
+
+<div id="navigation">
+  <a href="/2006-07-11-moving-on-from-enfold/">&laquo; older</a>
+  <a href="/2006-07-17-view-from-folk-music-festival/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

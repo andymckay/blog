@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: mod_python to mod_wsgi</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jan 09, 2009</div>
+<h2><a href="/2009-01-09-mod_python-to-mod_wsgi/">mod_python to mod_wsgi</a></h2>
+<hr class="florished">
+<p>These last few days I've been doing some <a href="http://www.areciboapp.com/blog/5/">upgrades to Arecibo</a>. These include adding in new fields and converting times into a users local timezones - figuring out when an error occurred is now just that little bit easier.</p>
+
+<p>I also moved from mod_python to mod_wsgi. I still have to tune those settings but it looks like a great win in terms of performance and mirrors what other people have been saying about mod_wsgi. There were helpful docs <a href="http://ericholscher.com/blog/2008/jul/8/setting-django-and-mod_wsgi/">here</a> and <a href="http://code.google.com/p/modwsgi/wiki/IntegrationWithDjango">here</a>. Was very easy to setup too, worked first time.</p>
+
+<p>Also did some quick benchmarking with CoralCDN and just to confirm, its stated goal is to make a website available, but <i>not fast</i>. My site was way slower with CoralCDN, probably more available, but slower.</p>
+
+<div id="navigation">
+  <a href="/2009-01-05-house-prices/">&laquo; older</a>
+  <a href="/2009-01-09-speeding-up-arecibo/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Firefox Accounts coming to the Marketplace</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Oct 03, 2014</div>
+<h2><a href="/2014-10-03-fxa/">Firefox Accounts coming to the Marketplace</a></h2>
+<hr class="florished">
+<p>This month we&#39;ll be turning on <a href="https://blog.mozilla.org/blog/2014/02/07/introducing-mozilla-firefox-accounts/">Firefox Accounts</a> integration on the <a href="https://marketplace.firefox.com/">Marketplace</a> and turning off support for <a href="https://login.persona.org/">Persona</a>.</p>
+
+<p>All Firefox Marketplace users have to do is use the same email address to create an account on Firefox Accounts. On the backend, we&#39;ll match up the account by email and everything will be the same.</p>
+
+<p>If you are on Android, Desktop or Firefox OS 1.1 - 1.4 device you&#39;ll see the web based flow, which looks something like below:</p>
+
+<p><img src="/files/fxa.png"></p>
+
+<p>If you are on Firefox OS 2.1 or greater (coming at the end of the year), you&#39;ll see the &quot;native&quot; phone flow.</p>
+
+<p>The Firefox Accounts work has probably been one of the most challenging projects I&#39;ve managed in my short time managing projects Mozilla for a few reasons:</p>
+
+<ul>
+<li>the Marketplace supports every version of Firefox OS from 1.1 up to 2.2 and beyond</li>
+<li>the Marketplace is available as packaged iframe app, a packaged app and a website</li>
+<li>the Marketplace has payments which are in a Trusted UI which is different and has to support all the above</li>
+<li>testing packaged apps is really hard and painful due to signing certificates (really, its horrible)</li>
+<li>the number of Firefox OS phones bricked this week in testing this is around 6 and counting</li>
+<li>we&#39;ve got a hard deadline to try and get it in for Firefox OS 2.1</li>
+</ul>
+
+<p>You take all this together and the two things I&#39;ve learned these last weeks:</p>
+
+<ul>
+<li>there are some really awesome people at Mozilla working hard on this</li>
+<li>we&#39;ve got to make this easier somehow, if its hard for us and this burden is slowing all development down</li>
+</ul>
+
+<p>The bug for Firefox Accounts integration is <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1007956">1007956</a> if you want follow along. In the meantime you should go sign up for a <a href="https://accounts.firefox.com/signup">Firefox Account</a>, you can use it for Firefox Sync, soon the Marketplace and more after that.</p>
+
+<div id="navigation">
+  <a href="/2014-09-14-open-source/">&laquo; older</a>
+  <a href="/2014-11-10-moz/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Test client and simpletemplate</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jan 27, 2009</div>
+<h2><a href="/2009-01-27-test-client-and-simpletemplate/">Test client and simpletemplate</a></h2>
+<hr class="florished">
+<p>One of the nice things about Django tests is that if you are testing your views (and who doesn't) you can test the context that comes back. That is, when you make a call to a template, you could check the HTML if you wanted, but you could just check the right data was sent to the template.</p>
+
+<p>Unless you are using my simpletemplate that is, since Django testing patches the internal Django templating to pass back the context. I've just added the same to simpletemplate, so that it does the same. At the top of your tests you need to add one line:</p>
+
+<pre>from django.contrib.simpletemplate import test</pre>
+
+<p>Then in a test we can do:</p>
+
+<pre>        c = Client()
+        res = c.get("/")
+        assert res.status_code == 200
+        assert res.context != None, "Test that my simpletemplate patch is working"
+        assert res.context["objects"], "Check that we have some objects"</pre>
+
+<p>That's in simpletemplate SVN.</p>
+
+<p>Sigh, the more I use simpletemplate, the more I see all the silly things I did when I wrote it (like putting it in contrib) and need to clean that up one day .</p>
+
+<div id="navigation">
+  <a href="/2009-01-26-open-source-training/">&laquo; older</a>
+  <a href="/2009-01-30-the-week-in-review/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

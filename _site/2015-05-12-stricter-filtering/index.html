@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Stricter API filtering</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">May 12, 2015</div>
+<h2><a href="/2015-05-12-stricter-filtering/">Stricter API filtering</a></h2>
+<hr class="florished">
+<p><a href="http://www.django-rest-framework.org">Django Rest Framework</a> and
+Tastypie both provide REST queries and allow looking up lists of objects based
+on query parameters. In the former case it allows multiple back-ends, but
+defaults to using Django filter.</p>
+
+<p>That&#39;s a fine approach with one problem. Consider this:</p>
+
+<pre>
+http://example.com/api/products?category=clothing
+</pre>
+
+<p>You&#39;ve got a reasonably good idea of what that will return. How about this one?</p>
+
+<pre>
+http://example.com/api/products?categry=clothing
+</pre>
+
+<p>What does that return? Everything. Because <code>category</code> got typo&#39;d. Meaning that
+it was excluded from the filter and you didn&#39;t filter on anything at all. Ouch.</p>
+
+<p>Out of the box Django Rest Framework only allows GETs on lists. Even a GET that
+goes awry like that is bad. But you can use the
+<a href="https://github.com/miki725/django-rest-framework-bulk">bulk library</a>
+ to do PATCH, PUT and DELETE.</p>
+
+<pre>
+DELETE http://example.com/api/products?categry=clothing
+</pre>
+
+<p>That&#39;s really going to ruin your day. <a href="https://twitter.com/kumar303/">Kumar</a> rightly
+complained about this so I threw in a simple filter to stop that.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">rest_framework.exceptions</span> <span class="kn">import</span> <span class="n">ParseError</span>
+<span class="kn">from</span> <span class="nn">rest_framework.filters</span> <span class="kn">import</span> <span class="n">DjangoFilterBackend</span>
+
+<span class="k">class</span> <span class="nc">StrictQueryFilter</span><span class="p">(</span><span class="n">DjangoFilterBackend</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">filter_queryset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">,</span> <span class="n">view</span><span class="p">):</span>
+        <span class="n">requested</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">QUERY_PARAMS</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
+        <span class="n">allowed</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">view</span><span class="p">,</span> <span class="s">'filter_fields'</span><span class="p">,</span> <span class="p">[]))</span>
+        <span class="n">difference</span> <span class="o">=</span> <span class="n">requested</span><span class="o">.</span><span class="n">difference</span><span class="p">(</span><span class="n">allowed</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">difference</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ParseError</span><span class="p">(</span>
+                <span class="n">detail</span><span class="o">=</span><span class="s">'Incorrect query parameters: '</span> <span class="o">+</span> <span class="s">','</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">difference</span><span class="p">))</span>
+
+        <span class="k">return</span> <span class="p">(</span><span class="nb">super</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__class__</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+                <span class="o">.</span><span class="n">filter_queryset</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">,</span> <span class="n">view</span><span class="p">))</span></code></pre></figure>
+
+<p>Once it&#39;s done alter: <code>DEFAULT_FILTER_BACKENDS</code> to point to that and make sure your <a href="http://www.django-rest-framework.org/api-guide/filtering/#api-guide">filter_fields</a> are correct.</p>
+
+<p>Now a typo&#39;d query string will return you a 422 error.</p>
+
+<div id="navigation">
+  <a href="/2015-05-11-ditching-bugzilla/">&laquo; older</a>
+  <a href="/2015-05-13-rebuilding/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

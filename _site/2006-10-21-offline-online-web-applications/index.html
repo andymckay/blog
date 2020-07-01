@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Offline / online web applications</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Oct 21, 2006</div>
+<h2><a href="/2006-10-21-offline-online-web-applications/">Offline / online web applications</a></h2>
+<hr class="florished">
+<p>Looks like we are finally getting to offline / online web applications. Scrybe a new start up is trying this with yet another office suite (<a href="http://www.techcrunch.com/2006/10/21/scrybe-could-set-a-new-standard-in-office-apps/">link</a>). The offline / online problem is something that&#39;s starting to get a lot of attention and something I&#39;ve wanted to solve myself one day, albeit I was thinking of purely open source solutions.</p>
+
+<p>The problem domain is relatively straightforward, I posit that the reason many web applications will not make it is that:</p>
+
+<ul>
+    <li>For many, many people online access is a problem. My friend Laurence was in Peru for a month or two. Gmail was brutal.</li>
+    <li>Most people don't trust data stored remotely, having it local gives warm fuzzies.</li>
+    <li>Many people like an application that is local, it gives you lots more control, for example a nice icon in the dock.</li>
+</ul>
+
+<p>At Enfold I got bored of building wxPython programs and the suggestions of pyQt and all the other options drove me nuts. So I built applications using a <a href="http://svn.enfoldsystems.com/public/spats/">spats</a>, its a crazily simple local, Page Template server. But it allows us to write applications using Python, Page Templates, Ajax locally. So we ended up with Plone Controllers and Installers written in spats. The result:</p>
+
+<ul>
+    <li>Faster development, since they are familiar technologies.</li>
+    <li>Prettier and feature rich.</li>
+    <li>Cheaper and more flexible.</li>
+</ul>
+
+<p>So for me they rock. But this sort of approach allows you to do more. What if you could run Writely locally and just edit your data locally. What if Plone could be run locally, would you use it more? Would you trust it more? The problem then becomes a matter of data sharing and collaboration, which is when you syncrhonise up to a remote server. What if you could write once, and run anywhere? I believe using things like Python, Page Templates and Ajax, you&#39;ve got a very good start. Zope 3 and all that could give you more, but remember your client has to be light and have a good upgrade path. I&#39;m focusing more on server-less applications, but that&#39;s another story...</p>
+
+<p>OO.org, the new company specialising in a framework for write once and run anywhere. Coming to a web page near you. Maybe. If I can think of a name that doesn&#39;t confuse everyone with Open Office :)</p>
+
+<div id="navigation">
+  <a href="/2006-10-15-what-to-learn/">&laquo; older</a>
+  <a href="/2006-10-26-clouseau-05-released/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

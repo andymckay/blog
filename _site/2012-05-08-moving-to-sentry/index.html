@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Moving to Sentry</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">May 08, 2012</div>
+<h2><a href="/2012-05-08-moving-to-sentry/">Moving to Sentry</a></h2>
+<hr class="florished">
+<p>Back in the mists of time I worked at company that had lots of projects and lots of errors, but no unified way to find the errors. Instead  we relied on the users to find them, this sucked. So I wrote <a href="http://areciboapp.com">Arecibo</a> to track them. It went through many iterations, I even tried to make a business out of it at one point.</p>
+
+<p>But alas it didn't happen and I moved it to open source a while back. If there was any value in the project someone could move it along. I've rewritten it from a multi-home app to a single home App Engine app and then back away from App Engine. A while back we turned it on for Mozilla and hooked up a few projects to it.</p>
+
+<p>The only real problem is that I lost interest in working on it a while ago. I've really only been maintaining it and hoping someone else would pick it up.</p>
+
+<p>A few years ago David Cramer started <a href="https://www.getsentry.com/welcome/">Sentry</a>.  It's now surpassed passed Arecibo in terms of functionality. The real winner for us was the addition of UDP support, we don't really care about storing every single error and having something non-blocking is crucial. So we've started to shift away from Arecibo towards to Sentry at Mozilla web development.</p>
+
+<p>A few weeks ago we switched <a href="https://addons.mozilla.org">Add-ons</a> to Sentry. By a happy coincidence, last week we had a bot that hit an error and we generated 379,000 errors in about 24 hours. Sentry trundled along quite happily. Of course Arecibo isn't dead, it's open source, it's there if you need it. And being open source, may the best project win - and that's Sentry.</p>
+
+<p>There, that's one more project I don't have to feel guilty about not maintaining.</p>
+
+<div id="navigation">
+  <a href="/2012-05-08-marketplace-update-april-29th-may-5th/">&laquo; older</a>
+  <a href="/2012-05-23-snowdon-before-heading-into-the-clouds/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

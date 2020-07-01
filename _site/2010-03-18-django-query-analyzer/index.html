@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Django query analyzer</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Mar 18, 2010</div>
+<h2><a href="/2010-03-18-django-query-analyzer/">Django query analyzer</a></h2>
+<hr class="florished">
+<p>One of the things I wanted to work on at the <a href="http://clearwind.ca/djangoski">DjangoSki sprints</a> was a django query analyzer.</p>
+
+<p>The basic premise is that I want to create an easy way for users to experiment with and play with the ORM to produce the queries that they want. If you are new to Django, figuring out the ORM is one the first things you will need to tackle and it can be a little opaque. There's some ways to play with it at the shell, or use the debug toolbar, but these can be a little limited and unhelpful to newbies.</p>
+
+<p>The main interface would ideally be a series of options introspected from the model. Choose a model, choose a query manager, then add in multiple filter queries. This would not be able to capture everything and you'd always need an opt out clause of a text area where you can enter anything you want.</p>
+
+<p>This is pretty similar to the GUI's you'll get with most SQL servers, its just the Django ORM layer on top of it.</p>
+
+<p>Sadly I didn't get much chance apart from some time on Thursday afternoon. But a whole bunch of other people did including Stefan Tjarks, <a href="http://twitter.com/robhudson">Rob Hudson</a> and Nick Fitzgerald. These guys did some great work on the project despite my vague handwaving about what the project should be. Fortunately after the conference I got a chance to do a few hours works and got to this stage:</p>
+
+<p><img src="/files/django-query-analyzer-part-one.png" />
+<p>The introspection code is there, just need to get around to pulling it altogether on the front end so that we&#39;ve got a nice way. But I think for a newbie this can be a very useful way to play with the ORM and see what comes out and how those little changes to the code can make substantial changes to the SQL.</p>
+<p>The code is very rough and has been messed around by me from that original hard work by Rob, Stefan and Nick - but it&#39;s at: <a href="http://github.com/andymckay/django-query-analyzer">http://github.com/andymckay/django-query-analyzer</a></p></p>
+
+<div id="navigation">
+  <a href="/2010-03-17-learning-javascript/">&laquo; older</a>
+  <a href="/2010-03-22-why-you-should-use-phonegap/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

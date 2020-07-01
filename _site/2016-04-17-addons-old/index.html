@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: The add-ons burden</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Apr 17, 2016</div>
+<h2><a href="/2016-04-17-addons-old/">The add-ons burden</a></h2>
+<hr class="florished">
+<p>Before I got into working on add-ons I didn&#39;t realise the burden that the old style add-ons have created for everyone in the add-on. I do think add-ons are great and what they&#39;ve done to help Firefox users and Firefox has been excellent. But the more I&#39;ve understood the ecosystem, the more I&#39;m concerned by it.</p>
+
+<p>This is a negative post, focusing on the problems, but I don&#39;t think these are a surprise for people involved in add-ons. No matter how fondly some people might look at add-ons of the past, they have some real problems that haven&#39;t been addressed.</p>
+
+<h2>For users</h2>
+
+<ul>
+<li><p>There is no information what an add-on does beyond the description. It might slow down the browser in various ways. It might mess with the user interface or settings.</p></li>
+<li><p>Because an add-on can do pretty well anything, the security can be problematic.</p></li>
+<li><p>For most users there is no difference between Firefox and the add-ons. There&#39;s no way to tell that an add-on caused problems or wierd behaviour.</p></li>
+</ul>
+
+<h2>For Firefox developers</h2>
+
+<ul>
+<li><p>Because there is no layer between many of the XUL and XPCOM internals of Firefox, its really hard for Firefox developers to change things without being hampered by the effect on add-on developers. It&#39;s really hard to move Firefox forward when every change might break the experience for an unknown number of users.</p></li>
+<li><p>Problems reported in Firefox are harder to diagnose and add-ons are the first line of inquiry.</p></li>
+</ul>
+
+<h2>For Add-on developers</h2>
+
+<ul>
+<li><p>Every release of Firefox can break your add-on because Firefox developers are changing the internals and progressing. You might get a notice about it if we can find it (see below).</p></li>
+<li><p>The API for what an add-on can do is as about as large the Firefox internals itself. Thats a huge, sporadically documented and continually shifting API. Developers shouldn&#39;t have to be Mozilla experts to produce an add-on.</p></li>
+</ul>
+
+<h2>For the add-ons team</h2>
+
+<ul>
+<li><p>Every release the add-ons team trawls through bugs and finds things that could cause problems for add-ons. We then alter the addons.mozilla.org validator, run add-ons through them. Squint at the result, see if they sound right and then repeat. Then tell all the add-on developers about them.</p></li>
+<li><p>Reviewing add-ons places a security burden upon Mozilla to prevent malicious add-ons going through. Add-ons could be obfuscated or just plain complicated and add-on developers want their add-ons approved. This creates a huge amount of tension between everyone.</p></li>
+</ul>
+
+<p>People have asked me questions about where WebExtensions will go and I have to refer back to this list and make sure that when we implement that feature we don&#39;t fall into the same trap. So to repeat: <strong>what&#39;s really important is to look back at the decisions that led to this and stop ourselves repeating these problems</strong>.</p>
+
+<p>WebExtensions and the path forward is looking really good and I know that it will get so much better, I&#39;m genuinely excited by that.</p>
+
+<div id="navigation">
+  <a href="/2016-03-02-mozpay/">&laquo; older</a>
+  <a href="/2016-05-11-on-responsibility/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Twice the solitude</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Aug 21, 2012</div>
+<h2><a href="/2012-08-21-twice-the-solitude/">Twice the solitude</a></h2>
+<hr class="florished">
+<p><a href="http://github.com/andymckay/solitude">Solitude</a> is a server to do payment processing for the <a href="https://marketplace.mozilla.org">Mozilla Marketplace</a>. In my <a href="http://www.agmweb.ca/blog/andy/2345/">last post</a> I blogged about how Solitude seperates itself from the client application to provide a level of defense by depth.</p>
+
+<p>Well Solitude provides yet another layer of defense. It can be run in two modes: as a server or as a server and a proxy. Currently this mode works with PayPal, but is applicable to any third party payment provider. The former looks like this:</p>
+
+<p><img src="/files/solitude.png">
+<p>In this case if a security breach occurs on the Solitude server you&#39;ll get access to the credentials to access PayPal and some key tokens to access PayPal with. You&#39;d need to get into both the file system and the database to get that information. But still it&#39;s just one server.</p>
+<p>In the latter mode, Solitude is run twice, once as server with access to the database and once as a proxy that can access PayPal:</p>
+<img src="/files/solitude-two.png">
+<p>In this scenario a security breach needs to occur on the Solitude database server and the proxy. You&#39;d need to get into both the file system and the database, but on two seperate machines.</p>
+<p>To have the database server talk to a proxy, point to the proxy in the Solitude settings file:</p>
+<pre>PAYPAL<em>PROXY = &#39;https://addons.mozilla.local/proxy/paypal&#39;</pre>
+<p>On you proxy server, run the server with the environment variable:</p>
+<pre>SOLITUDE</em>PROXY=&#39;enabled&#39;</pre>
+<p>Just make sure you don&#39;t do something silly and connect that instance to the database (you should block that at the network level anyway), on the proxy your set:</p>
+<pre>DATABASES = {&#39;default&#39;: {}}</pre>
+<p>Should work. More information on setting this up is in the <a href="http://solitude.readthedocs.org/en/latest/topics/paypal.html#proxy">Solitude docs</a>.</p></p>
+
+<div id="navigation">
+  <a href="/2012-08-14-life-in-solitude/">&laquo; older</a>
+  <a href="/2012-08-22-indian-arm-canoe-trip/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

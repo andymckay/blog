@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Running Django admin separately</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Mar 30, 2010</div>
+<h2><a href="/2010-03-30-running-django-admin-separately/">Running Django admin separately</a></h2>
+<hr class="florished">
+<p><img src="http://farm1.static.flickr.com/196/502452945_4ad5e6eb7f_m.jpg" class="photo"></p>
+
+<p>Django admin is great for administrating a site, but chances are you won't want to run that on your "big serious production site" for a few reasons.</p>
+
+<h3>Setting up</h3>
+
+<p>This is pretty easy to do, all your apps will be stored in source control (or something more exotic) so pull those apps down. Leave out the apps you don't need. Perhaps you've got a public facing specific app that pulls in public specific things, sets up context processor or specific auth. backends, all things you don't need in the admin site.</p>
+
+<p>This could be set up on the same server, or on a different server as long as it can reach the database.</p>
+
+<h3>Security</h3>
+
+<p>There's no limit to the number of password attempts on the admin site. So you could dictionary attack the admin site if you really wanted to get in. Moving it to a separate instance isn't necessarily more secure, unless you set up an appropriate policy.</p>
+
+<p>For example: all requests to admin.yoursite.com are internal only, or restricted by IP. Those sorts of policies are very easy for system admins to setup and maintain.</p>
+
+<p>Knowing that pretty much no matter what the end user does, they can't access django-admin is a big comfort.</p>
+
+<h3>Performance</h3>
+
+<p>Admin can be a bit slow if some queries aren't optimized, you'd be really annoyed if someone browsing the admin site took down your public site. Likewise the public facing site might have options that are unnecessary on the admin (such as the afore mentioned context processors).</p>
+
+<p>At DjangoSki I was chatting to Jakob about this and found we've both also run admin on ready-only database slaves. So it's not really an admin, just a data browsing site.</p>
+
+<h3>Configuration</h3>
+
+<p>For a big site you will likely have quite a few things in front of a site. Your media is likely on a CDN. You've likely got a load balancer and a caching server in there. All things that make your site go nice and fast. You don't need any of those for the admin. Again, route the requests differently.</p>
+
+<h3>Different Apps</h3>
+
+<p>There's apps that you might want to run on one instance and not the other. At one time I ran a SQL logging app on the public site over a few hours to track down some performance, that was a public specific app. It was easy to turn that on the public site and not have to worry about logging admin queries.</p>
+
+<p>You don't even have to limit yourself to just one admin. If you really, really, wanted to, you could have multiple admins, each accessing different apps. Django admin will only allow you to admin apps you have INSTALLED_APPS, so if you really wanted to you could have one admin for group X that only accessed app X. However if you creating lots of admins, you'll probably find better ways to do that.</p>
+
+<p>Setting up admin to run separately is pretty easy and I'd fully recommend it for any project of a serious size.</p>
+
+<div id="navigation">
+  <a href="/2010-03-29-the-4-numbers-that-matter/">&laquo; older</a>
+  <a href="/2010-04-08-nosql-meh/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

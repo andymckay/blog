@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Error handling in web applications</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">May 28, 2008</div>
+<h2><a href="/2008-05-28-error-handling-in-web-applications/">Error handling in web applications</a></h2>
+<hr class="florished">
+<p>In recent memory I've had to fight this a couple of times with project managers. When it happens next time, hoping there isn't I'll have this blog post to go back to.</p>
+
+<p>In a web application there's essentially two kinds of errors that can occur, there's an error from user input, or there's an error from infrastructure. The errors from user input, the most frequent ones are easy to handle we'll discuss those simply now: user submits form, form comes back with an error. Everyone knows this one so discussion is over.</p>
+
+<p>The harder one is the unforseen error, the error that occurs in an application because something unexpected happens. I build sites in Python when I can, in Ruby on Rails when god decides I need punishing. Both Python and Ruby have exceptions and exception handling. Anywhere in code you can raise and error and it will bubble up the application until something catches it. Normally the catcher is the main server loop which will format it back to the user in a nice message. Simple.</p>
+
+<p>Being able to raise exceptions is crucial to programming. In a 
+<p>For example I will sprinkle my code liberally with asserts and checks. I don't really trust much of anything to work most of the time and a few asserts will give me a fighting chance. I've found a lot of Rails code use the save method in ActiveRecord eg:</p>
+
+<pre>
+person.save
+</pre>
+
+<p>If anything goes wrong with this, <code>False</code> is returned. If you don't check that code, you don't know if it's worked. Instead:</p>
+
+<pre>
+person.save!
+</pre>
+
+<p>Will raise an error.</p>
+
+<div id="navigation">
+  <a href="/2008-05-27-speeding-up-javascript/">&laquo; older</a>
+  <a href="/2008-06-02-gloworm-rocks/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: What Plone can learn from Rails</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Oct 18, 2007</div>
+<h2><a href="/2007-10-18-what-plone-can-learn-from-rails/">What Plone can learn from Rails</a></h2>
+<hr class="florished">
+<p>This was a talk given to the Plone conference in Naples 2007. Rather than just plonk slides online that don't say much here's the talk as a blog post with detail added.</p>
+
+<p><dl>
+<dt>Lennart&#39;s and Phillips excellent talk</dt>
+<dd>Before going any further, refer to Philip and Lennart&#39;s excellent talks, these cover the areas slightly differently and focus on different things. All going down the same path though.</dd></p>
+
+<p><dt>Why am I doing Rails?<dt>
+<dd>Because it completely suits the model of sites we are building at Blue Fountain, factory automation. In a factory spitting out widgets it&#39;s perfect for a relational database, it&#39;s not content management.</dd></p>
+
+<p><dt>Comparing apples and oranges</dt>
+<dd>Yes they are different and solve different problems but do share a similar space.</dd></p>
+
+<p><dt>Easy to be envious of Rails</dt>
+<dd>Rails has done well shooting up in terms of hype and use. It&#39;s got a large following and crowd and is generally doing very well. It&#39;s much more popular than Plone, how did it get there?</dd></p>
+
+<p><dt>Really hit a new audience</dt>
+<dd>It caught all the people do LAMP, Struts, ASP and so on. All those technologies that don&#39;t really provide any infrastructure at all for a complicated site, just ability to hook code up to databases. Those are hard tools and a move to Rails make sense to them. We moved to Zope, those people moved to Rails. Zope provided too many barriers and problems to people so they dropped off.</dd></p>
+
+<p><dt>The Gartner Hype Cycle</dt>
+<dd>Just a brief note that I believe Rails is hitting &quot;The trough of disenchantment&quot;. It&#39;s had the hype and it&#39;s coming down into the trough. There&#39;s been some FUD about Rails and some problems, but it&#39;s solving them and moving on, it&#39;s a natural cycle.</dd>
+<dd>For me Plone is coming out to the &quot;The slope of enlightment&quot; and is moving forward. It&#39;s had the rough time and the FUD and it&#39;s only getting better. This might be a personal statement rather than have any real backing.</dd></p>
+
+<p><dt>Plone: The best is yet to come</dt>
+<dd>It really is. Plone 3 and the future is bright.</dd></p>
+
+<p><dt>A shallow learning curve</dt>
+<dd>Back to Rails, it has a shallow, simple learning curve. Bite off what you want and move onwards and upwards, being more productive. There are new things to learn but most of them can be bitten as you need to.</dd></p>
+
+<p><dt>The Z shaped learning curve</dt>
+<dd>Need we say more, we know it&#39;s possible to go badly.</dd></p>
+
+<p><dt>Keep the learning curve shallow</dt>
+<dd>To get the hype, to win developer&#39;s hearts, to get the mind&#39;s we have to keep the learning curve shallow. Allow people to bite off what they can. Keep moving forward, keep getting productive. With this in mind, here&#39;s a few things that can really make a difference...</dd></p>
+
+<p><dt>1. Product refresh is damn helpful</dt>
+<dd>You have to be able to make a change and see it happen instantly. If it doesn&#39;t it&#39;s too slow. Rails, Django, Jboss they all do it. We have to keep it. It&#39;s kind of gone away until Andreas wrote RefreshNG (to confirm this), this should be required and maintained by us. Without it we make it really hard for new people.</dd></p>
+
+<p><dt>2. New terms are confusing</dt>
+<dd>We love making up new terms for everything. We have an overwhelming array of these. Rails has some but it&#39;s kept them followable and understandable (mostly). Let&#39;s do the same.
+<blockquote>I dont know what a portlet is. Or a component, module, block, or snippet. The last system I evaluated had something called &quot;mambots&quot; which, to me, sounded like robotic assistance for breast-feeding.</blockquote><cite><a href="http://adaptivepath.com/ideas/essays/archives/000365.php">http://adaptivepath.com/ideas/essays/archives/000365.php</a></cite>. We&#39;ve already got enough barriers as it is, for example ZODB etc... let&#39;s stop throwing more up.
+</dd></p>
+
+<p><dt>3. Every new technology introduced is a barrier</dt>
+<dd>We&#39;ve got lots of new technologies in Plone. Mostly kept internal to Plone and not used elsewhere and that starts to create problems for people coming in. Ask the people who do training or write books there&#39;s soooo much there. Do we really need it all? Can we ditch DTML in our CSS and just use Python string replacement? We all worry about the Zope 3 learning curve, add in Plone and it&#39;s very, very tough.</dd>
+<dd>Rails has things like .rxml and .rjs and quite frankly every time I&#39;ve seen them used I&#39;ve thrown them out in favour of Ruby libraries or just straight Javascript. These things don&#39;t help although they keep developers happy in writing them.</dd>
+<dd>Keeping things to ourselves (eg Clouseau) is bad. If we&#39;ve got something new going into Plone would it make sense to try and make it a standard say: if it&#39;s going into core it must be used in one or two other places first. It might not last but at least we haven&#39;t kept ourselves isolated.</dd></p>
+
+<p><dt>4. Is Zope 2 a barrier?</dt>
+<dd>It&#39;s getting to the point where we can say all the wonderful goodness over the last few years is on the one hand making it possible and the other taking it away. Rails appealed to the crowd by doing a few things. It didn&#39;t try to do all the things Zope 2 does (application server, database, web server) and that stuck in people&#39;s brains. Philip and Paul showed of running Zope 2 with WSGI this is an important step in the right direction.</dd>
+<dd>A quick rummage around the ZMI and things become apparent. Ever had anyone look in <em>Control Panel</em> &gt; <em>Products</em>. Why do we still have all Script (Python) and External Methods? Cruft and it&#39;s time to look at Zope 2 and find a way to get past the ZMI and the all in one mentality.</dd></p>
+
+<p><dt>Fun text on button in moodle</dt>
+<dd>I thought this was really bad in Moodle <blockquote>Use carefully -- it can 
+     make Apache/PHP crash ...[snip]</blockquote> and then I thought of the ZMI and the terrible messages text and things that can happen in there.</dt></p>
+
+<p><dt>Can we live without the ZODB?</dt>
+<dd>This is where most of the chatter ended up at. I&#39;m not smart enough to solve this but people out there can. In the last few years SQL Alchemy and other tools have really come along and provided a huge amount of good code for us to build off. Rumour has it Jim said that the ZODB in Zope 3 is optional. That would be great.</dd>
+<dd>So much work by so many people has gone into solving the whole ZODB thing. Currently you have two choices, love it and use it or don&#39;t use Plone. Trying to bend a RDBMs in there is not possible without pain or lots of knowledge. Continually justifying the ZODB to enterprise customers is a pain. Continually justifying to new developers is a pain. It&#39;s a barrier that slows the adoption down. I do like the ZODB I use it a heck of a lot. Plone with an RDBMs will still be Plone, it won&#39;t be any different, you won&#39;t be writing SQL much. But you will walk into a client and not have to justify it again and again.</dd>
+<dd>Rails uses SQL and using something that everyone knew and could grok instantly gave them a huge leg up.</dd></p>
+
+<p><dt>5. TTW got us here and must continue</dt>
+<dd>Rails doesn&#39;t have through the web development, so this might be a little off course. But Rails is aimed at a different market than us. Through the web development is fast, easy and accessible for new people. They love it. It&#39;s the ZODB persistence of code, the restricted python and other things that are the problem.</dd>
+<dt>ZODB persistence, Restricted Python sucks</dt>
+<dd>If we remove these items so that through the web means just editing file system stuff through the web AND can easily be turned on and off (eg. Django&#39;s admin interface) we might just have something that meets all the worlds.</dd></p>
+
+<p><dt>6. Trying to separate presentation is good</dt>
+<dd>It is hard, it is a struggle and it&#39;s something I got wrong in the past. I used to believe that allowing people to write Python write in a template is the only way to go. I was wrong. You can see this in lots of Rails code, Rails preaches not doing this but it happens and it sucks. Learn from Rails and fight the good fight, keep as much Python out of templates as you can.</dd></p>
+
+<p><dt>7. Community is a huge difference</dt>
+<dd>Rails has a very big community. But what I&#39;ve seen of it has not been as nice and helpful as Plone and this experience has been shared by others. Keep it friendly guys, it&#39;s the secret weapon over most other projects and over every single closed source CMS.
+<blockquote>No matter how fun Rails is I will always miss #plone</blockquote><cite>Geoff Davis</cite>.</dd></p>
+
+<p><dt>8. Avoid making Plone do everything</dt>
+<dd>Rails doesn&#39;t try and do much at all so again slightly off topic. But the rise of Django, Turbo Gears, Pylons and Rails helps Plone. It stops us trying to do everything in Plone, we shouldn&#39;t be. Know when to say no. Plone is now a framework, but it is going to become a product, it has to.</dd></p>
+
+<p><dt>9. Keep unit tests easy to write</dt>
+<dd>Rails creates them for you (via rake) and runs them for you quickly and easily. I really like the fixtures in Rails, they are so damn helpful. Haven&#39;t spotted anything like that in Plone yet.</dd></p>
+
+<p><dt>10. Scaffold code generation</dt>
+<dd>Most people I asked mentioned this as a huge win. The scaffold generation creates a convention that is easy to follow. Going and grabbing someone else&#39;s code is easy to track down where things are. You can look at the URL and go find the controller or model that is relevant in no time. It might be hell when you get there but at least you can easier than Plone. Philip mentioned this as something he would like to see happen in Plone, I agree.</dd></p>
+
+<p><dt>11. Marketing really does help</dt>
+<dd>Seen those Rails &quot;20 minutes build a whole site&quot; demo? Really they do scaffold and end up with nothing useful in terms of HTML. If I die without writing another HTML form I will be a happy man. So Rails ends up with a bunch of projects for creating forms for you. Once you&#39;ve gotten past that 20 minute quick hit, it is pretty easy to look at the scaffold HTML and move on, bite the next bit.</dd>
+<dd>Yet I (and many others) came into Rails thinking it would do it all magically for me and it didn&#39;t. We&#39;ve got to explain to people that Plone can be extremely fast and productive and market it. If we could get Sean Kelly to sit down and just do screencasts all the time we would be doing great, help the foundation fund this effort.</dd></p>
+
+<p><dt>12. More through one command</dt>
+<dd>Although I&#39;ve sworn at rake a few times when it did the wrong thing, having one command to go and do everything is nice. It could be <code>zopectl</code> or <code>paster</code> or <code>whatever</code> as long as it is all in one place.</dd></p>
+
+<p><dt>13. Maintenance</dt>
+<dd>Can be easy to find code in Rails due to scaffold as noted. Does this make Rails easier to maintain, probably. However let&#39;s point out that Rails has been around for less than Plone and does generally a simpler job.</dd></p>
+
+<p><dt>14. We need a 37 signals</dt>
+<dd>37 Signals get&#39;s lots of attention and press. Lots of people use backpack and other things. They&#39;ve done well at selling themselves and selling Rails. The Plone world is full of lots of brilliant people and companies - on par with any other company out there. But none of the Plone companies get recognition outside of the Plone community. That&#39;s a shame.</dd>
+<dd>If we could get a company getting that recognition and getting people into Plone without them knowing it&#39;s Plone until they have chance to build any prejudices, we can get a win. This will increase the buzz and energy about Plone as they realise it can do lots of useful things.</dd></p>
+
+<p><dt>What Rails can learn from Plone</dt>
+<dd>In the end I think this would be a good talk, Plone has done a lot of things well.</dd></p>
+
+<p><dt>And by the way if you are thinking of using Rails...</dt>
+<dd>Don&#39;t* ... use <em>Django</em> instead. Or <em>Grok</em>. Long live Python.</dd></p>
+
+<div id="navigation">
+  <a href="/2007-10-14-plone-conference-in-naples/">&laquo; older</a>
+  <a href="/2007-10-22-looking-for-developers/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

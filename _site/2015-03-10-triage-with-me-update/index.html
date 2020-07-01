@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Triage with me update</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Mar 10, 2015</div>
+<h2><a href="/2015-03-10-triage-with-me-update/">Triage with me update</a></h2>
+<hr class="florished">
+<p><a href="http://www.agmweb.ca/2013-09-06-triage/">Triage with me</a> is a tool I wrote a while ago at Mozilla. Mostly when Bugzilla bug numbers rolled over to 7 digits and reading out bug numbers in a meeting became just ridiculous.</p>
+
+<p>As a person leading the triage, as you click on bug links, they are sent to a server and then to every person watching the triage page. All you do is turn on the add-on and continue as usual. Over the past year or so I&#39;ve found triage with me an invaluable tool and find triages without it really, really hard to do.</p>
+
+<p>This release adds in a few updates:</p>
+
+<ul>
+<li>bugzilla.mozilla.org and github.com URLs are now covered</li>
+<li>it differentiates between a bugzilla bug, a github pull request and a github issue</li>
+<li>you can choose the destination server in addon settings, which means that you can stand up your own server</li>
+<li>people in the triage get a notification on each URL</li>
+<li>the toggle triaging menu item actually shows a check mark when its enabled (yay)</li>
+</ul>
+
+<p><img src="/files/triage-with-me-0.3.1.png"></p>
+
+<p>As it turned out, monitoring github URLs was hard because it doesn&#39;t do page loads for every page, instead using push state to alter the state of the page. That means the tabs <a href="https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/tabs">SDK</a> doesn&#39;t quite work. I tried <a href="https://twitter.com/andymckay/status/574108927853400064">several work arounds</a>, in the end settling for just a <a href="https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/timers">setInterval</a> and watching for URL changes. Its crude and some titles are going in wrong. Hope to fix those bugs soon.</p>
+
+<p>Version <a href="/files/triage-with-me-0.3.1.xpi">0.3.1 is now available</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/triage-with-me/">AMO</a>.</p>
+
+<div id="navigation">
+  <a href="/2015-03-04-email/">&laquo; older</a>
+  <a href="/2015-03-19-tv/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

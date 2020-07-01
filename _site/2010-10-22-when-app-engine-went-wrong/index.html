@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: When App Engine went wrong</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Oct 22, 2010</div>
+<h2><a href="/2010-10-22-when-app-engine-went-wrong/">When App Engine went wrong</a></h2>
+<hr class="florished">
+<p><span style="float: right"><a href="http://www.flickr.com/photos/mollyeh11/931046867/" title="Misery by mollyeh11, on Flickr"><img src="http://farm2.static.flickr.com/1183/931046867_15a0763a11_m.jpg" alt="Misery" /></a></span></p>
+
+<p>About a month ago Clearwind launched a new site on App Engine. It's a pretty straightforward site for a great client we had. We'd been working on the site for many months a little bit here and there, building out new features as the client requested them. Within a few hours of starting work we had a base site running on App Engine as our test.</p>
+
+<p>So that site sat there, quite happily serving out those odd few requests as we added in new features. There was the occasional errors for things like data migrations and testing of new features as we went, but nothing major.</p>
+
+<p>And then in September, the site went live - and there was much rejoicing. And then it went down. I did an update (this is a push of the code to the server) and it came back up. And then it went down. And so on. It couldn't stay up for more than about 10 requests or so, sometimes more, sometimes less.</p>
+
+<p>I started tweeting, I was pretty upset. The site that had been working fine, just didn't seem to work well. We were getting <a href="http://areciboapp.appspot.com/view/agphcmVjaWJvYXBwcg0LEgVFcnJvchjqyjAM/">errors</a> similar to <a href="http://code.google.com/p/googleappengine/issues/detail?id=772">issue 772</a> and <a href="http://code.google.com/p/googleappengine/issues/detail?id=1409">issue 1409</a>. As result of reading those tickets, I did learn that your app needs to be able to cope with a DeadlineExceededError killing it <b>any</b> point, even imports, monkey patching etc... another interesting App Engine issue to cope with.</p>
+
+<p>The result of those threads was not helpful (and 772 is still not resolved) but grasping at straws I thought I'd try ripping <a href="http://code.google.com/p/google-app-engine-django/">google-app-engine-django</a> out.  This is a helper that we also use in <a href="http://www.areciboapp.com">Arecibo</a> that allows you to use Django a little more out of the box with App Engine (and gives you all important command line integration). So I ripped it out that night and pushed up. Site went down.</p>
+
+<p>Around this time Google got in touch after seeing my tweets and offered to help. That was pretty nice of them and I was quite impressed, thanks. I explained the problem and after chatting to the client decided we'd call it quits for the night, give it about 24 hrs since the problems started and see if Google can help.</p>
+
+<h3>Next day</h3>
+
+<p>No reply from Google by this point, the site is still down. I tried more changes, nothing worked. What was clear is that App Engine is having real problems on the import. Here's the start of main.py (which is the main entry point in your app):</p>
+
+<pre>
+import logging 
+import sys
+import os
+...
+</pre>
+
+<p>I was getting a <a href="http://code.google.com/appengine/docs/python/runtime.html#The_Request_Timer">DeadlineExceededError</a> on line 3. That's importing os. If it couldn't even import that before the DeadlineExceededError hit. What could I do?</p>
+
+<p>It also became clear it was <a href="http://code.google.com/p/googleappengine/issues/detail?id=3771">affecting</a> a <a href="http://groups.google.com/group/google-appengine/browse_thread/thread/b849776947527dcb/95e3ded59c9a3506?pli=1">whole bunch</a> of people too.</p>
+
+<h3>Rackspace</h3>
+
+<p>That night, with the site still down and client upset, but understanding, we moved to Rackspace. That meant 2 nights and some of the weekend (this is a period when I was crazily busy trying to meet other clients deadlines too) ripping everything App Engine about the site out and making it plain old Django with a Postgres back end. A day of testing and migration (the App Engine migration tool broke at this time too) and the site was up and running.</p>
+
+<p>So we've got a site that had a large amount of stuff written specifically to cope with App Engine design in it, rapidly ported to standard Django. We could probably rip about 30% of the site out and still be functioning and there's a few ForeignKey oddities in there as a result, but it's <b>working</b> and working well.</p>
+
+<p>We've lost the (theoretical) speed, scalability and lack of maintenance of App Engine, but gained a working site. We also gained technical support, that both me and the client have been able to mail and phone and get quick helpful answers from, I've actually been quite impressed with Rackspace in the meantime.</p>
+
+<h3>Where now with App Engine?</h3>
+
+<p>It's not just this one client site we run on App Engine, it's also all the Arecibo instances out there. Some of which were hit by similar problems. That really sucked since instance X generated an error and sent it to instance Y which was also down. Once I've got the features I want in Arecibo for the next release, the next feature will be providing a standard Django, non App Engine instance.</p>
+
+<p>It took from Sep 23rd (most of the original errors occurred around this time) to <a href="http://groups.google.com/group/google-appengine-downtime-notify/browse_thread/thread/f32919f348f619ce">Sep 28th</a> for some start of resolution and it looks things were under control by <a href="http://groups.google.com/group/google-appengine/browse_thread/thread/6ded39ad5166d0be/0c2d7595d1b54975">Sep 29th</a>. None of this ever showed up in the <a href="http://code.google.com/status/appengine/2010/09/28">App Engine status page</a>.</p>
+
+<p>Would I use App Engine again? Maybe, but I'd need a paid support line - someone whom I can get help and resolution from - perhaps <a href="http://code.google.com/appengine/business/">App Engine for Business</a> is that. All systems have their bad days, Rackspace even occasionally have outages, but I've never seen anything last 3-4 days and not allow me to do anything. It made me look bad and cost me an awful lot of time.</p>
+
+<div id="navigation">
+  <a href="/2010-10-20-djangoski-not-in-2011/">&laquo; older</a>
+  <a href="/2010-10-24-django-apps-rock/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>

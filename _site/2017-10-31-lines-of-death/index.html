@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Lines of death in Firefox</title>
+<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Oct 31, 2017</div>
+<h2><a href="/2017-10-31-lines-of-death/">Lines of death in Firefox</a></h2>
+<hr class="florished">
+<p>There is an interesting blog post about the <a href="https://textslashplain.com/2017/01/14/the-line-of-death/">&quot;line of death&quot; and Chrome</a>. It refers to the area of a browser that a user can &quot;trust&quot;. There are some parts of the browser that a user can trust because they come from a browser. The rest comes from the content and has a different level of trust. This blog post is musing about this with extensions.</p>
+
+<p>That&#39;s why in Firefox popups that are part of the browser overlap into the &quot;trusted&quot; area. The trusted area is above the dotted line:</p>
+
+<p><image src="/files/line-of-death/line.png" style="width: 600px"></p>
+
+<p>Examples of prompts that cross the line are things like permission prompts or in this case an add-on installation prompt. That cannot be faked by a web site because the page cannot reach outside its content area. That little chevron (shown below) is the difference between what a web site can do and what a browser can do:</p>
+
+<p><image src="/files/line-of-death/chevron.png" style="width: 600px"></p>
+
+<p>At this point the concerns are similar to the <a href="ttps://textslashplain.com/2017/01/14/the-line-of-death/">other blog post</a>. Except along come extensions. As an aside, please note I&#39;m talking about WebExtensions in Firefox, legacy extensions could do <em>almost anything</em> and that is a problem.</p>
+
+<p>Here&#39;s a screenshot of some of the things that an extension can do.</p>
+
+<p><image src="/files/line-of-death/html-area.png" style="width: 600px"></p>
+
+<p>We can set a pop-up button that crosses the browser and content area (this example is a <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/browserAction">browserAction</a>, a <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/pageAction">pageAction</a> is also available). An extension can specify certain <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/menus">context menu items</a> in certain contexts. It can specify some HTML for a <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/sidebarAction">sidebar</a> and HTML in the dev tools (<a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/devtools.panels">panels</a> can also be specified). You&#39;ll note a few things about these elements:</p>
+
+<ul>
+<li>the contents of the elements can be HTML only</li>
+<li>they can&#39;t overflow their alloted area</li>
+<li>there is a visual convention tying the element back to the add-on (the header in the sidebar, the browserAction icon etc)</li>
+</ul>
+
+<p>An extension can change the content area, because they can use content scripts to alter the content and that&#39;s an interesting problem then of how much a user can trust the content area. However, users have to give explicit permission to a content script being run on a domain. As an aside, perhaps we should warn users when they visit that domain later?</p>
+
+<p>There are other cases, for example you can&#39;t change the awesome bar but you can insert entries into the results:</p>
+
+<p><image src="/files/line-of-death/omnibox-api.png" style="width: 600px"></p>
+
+<p>Some APIs do not have clear user interface implications such as the <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/webRequest">webRequest</a> API, these are not covered in this post.</p>
+
+<p>That&#39;s where we are now (October 2017) and there&#39;s some things that we hope a user can trust as part of the browser. They can trust some parts of the browser: for example the URL bar can&#39;t be edited, the SSL icon and info cannot be edited.</p>
+
+<p>In the old days on legacy extensions, because an extension could change any part of the browser, there&#39;s only a limited amount that a user could trust part of the UI. It could be Firefox, it could have been an extension [<a href="#footnote">footnote</a>].</p>
+
+<p>Now we&#39;ve got a new start with extensions, I think its time to think clearly about what extensions should be able to do and how trust with the user can be maintained. For example what do we do when:</p>
+
+<ul>
+<li>an extension alters part of the browser that isn&#39;t obviously extension or content related?</li>
+<li>what does it look like when an extension insert browser elements over content areas?</li>
+</ul>
+
+<p>Maintaining a level of simplicity, understanding and security for the users is something we can&#39;t ignore.</p>
+
+<p><hr class="florished"></p>
+
+<p><a id="footnote">§</a> If your answer is &quot;the extension is part of the browser&quot; and &quot;its the users responsibility to understand all the code in an extension before installing&quot; that you go and have a hard think about what a web browser is, who uses it and what could wrong. And <a href="/2017-07-11-manual-review/">no manual code review</a> is not the answer.</p>
+
+<div id="navigation">
+  <a href="/2017-10-27-here-we-are/">&laquo; older</a>
+  <a href="/2017-12-21-design-decision/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@agmweb.ca">andy@agmweb.ca</a> &bull;
+    <a href="http://www.agmweb.ca/atom.xml">RSS</a><br />
+    <a href="http://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="http://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="http://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1636311-1";
+urchinTracker();
+</script>
+</body>
+</html>
