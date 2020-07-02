@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Fertigo;
+    src: url(/files/Fertigo_PRO.otf) format("opentype");
+}
+
+h1 {
+    display: none;
+    color: white;
+    font-size: 4em;
+    font-family: Fertigo, 'sans-serif';
+}
+
+body {
+    margin: 3em;
+    background-color: black;
+}

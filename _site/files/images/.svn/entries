@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="306"
+   name=""
+   committed-date="2007-07-11T07:10:30.749925Z"
+   url="http://svn.clearwind.ca/private/sites/agmweb/images"
+   last-author="andy"
+   kind="dir"
+   uuid="782aba81-2c17-0410-9171-9f3801278b84"
+   repos="http://svn.clearwind.ca/private"
+   revision="307"/>
+<entry
+   committed-rev="306"
+   name="status-read.gif"
+   text-time="2007-07-11T07:11:44.000000Z"
+   committed-date="2007-07-11T07:10:30.749925Z"
+   checksum="6b30bac02e009b7679ed40aef4a1204a"
+   last-author="andy"
+   kind="file"
+   prop-time="2007-07-11T07:11:44.000000Z"/>
+<entry
+   committed-rev="7"
+   name="feed-icon16x16.png"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="0ee254a56334189fd471afeec067186f"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="IMG_5130.JPG"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="2fb083da256aebeeb0ba79e89c723c8d"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="306"
+   name="status-unread.gif"
+   text-time="2007-07-11T07:11:44.000000Z"
+   committed-date="2007-07-11T07:10:30.749925Z"
+   checksum="f930fff81d5de4e7e5a785462686ff31"
+   last-author="andy"
+   kind="file"
+   prop-time="2007-07-11T07:11:44.000000Z"/>
+<entry
+   committed-rev="7"
+   name="IMG_5141.jpg"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="2a3c84af8837ec6d32213f26d05931ae"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="IMG_5499.jpg"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="4f8ded84da5525058ffc38de31555bb1"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="arrow.jpg"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="c2b7a2565ea2b6fbb5b317db4163875a"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="email.png"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="e6147b39723a680bf25984702e2992ff"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="IMG_0188.jpg"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="6ebdc6f7d68ce5282b6ce06c766c9809"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="IMG_5455.jpg"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="37e55d78ef27033d6a1ef0b39ef216b4"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+<entry
+   committed-rev="7"
+   name="feed-icon32x32.png"
+   text-time="2006-11-29T05:24:21.000000Z"
+   committed-date="2006-07-07T18:34:31.961286Z"
+   checksum="f36089aa84ac79a38699dfd4a814e278"
+   last-author="andy"
+   kind="file"
+   prop-time="2006-11-29T05:24:21.000000Z"/>
+</wc-entries>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="site.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Cribbage Score</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="game-setup" style="display: none;">
+        <h3>Cribbage</h3>
+        <p class="mute">Create a new game.</p>
+        <hr>
+        <div class="form-group">
+          <label for="name-one">Name of player one</label>
+          <input id="name-one" name="one" placeholder="Name of player one">
+        </div>
+        <div class="form-group">
+          <label for="name-two">Name of player two</label>
+          <input id="name-two" name="two" placeholder="Name of player two">
+        </div>
+        <button type="submit" class="btn btn-primary">Create game</button>
+      </form>
+      <form id="game-resume" style="display: none">
+        <button type="submit" class="btn btn-success">Resume game</button>
+      </form>
+      <div id="in-progress" style="display: none;">
+        <div id="winner" class="alert alert-success" style="display: none;"></div>
+          <h3>
+            <div id="score-name-one"></div>
+            <div class="label label-success" id="score-one">0</div>
+          </h3>
+          <br>
+          <button class="quick-add" value="one-1">1</button>
+          <button class="quick-add" value="one-2">2</button>
+          <form class="enter-points form-inline">
+            <div class="form-group">
+              <input name="one" type="number">
+              <button type="submit">Add</button>
+            </div>
+          </form>
+          <p class="muted">Last five scores: <span id="score-one-last"></span></p>
+          <hr>
+          <h3>
+            <div id="score-name-two"></div>
+            <div class="label label-success" id="score-two">0</div>
+          </h3>
+          <br>
+          <button class="quick-add" value="two-1">1</button>
+          <button class="quick-add" value="two-2">2</button>
+          <form class="enter-points form-inline">
+            <div class="form-group">
+              <input name="two" type="number">
+              <button type="submit">Add</button>
+            </div>
+          </form>
+          <p class="muted">Last five scores: <span id="score-two-last"></span></p>
+          <hr>
+        </form>
+        <form id="game-end">
+          <button type="submit" class="btn btn-danger">End game</button>
+        </form>
+      </div>
+    </div>
+    <script src="site.js"></script>
+  </body>
+</html>

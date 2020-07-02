@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <title>Password keeper (round 6)</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password keeper (round 6)</h1>
+      <form id="update" role="form" class="form-inline">
+        <div class="form-group">
+          <input id="domain" name="domain" class="form-control" placeholder="domain">
+          </div>
+        <div class="form-group">
+          <input name="user" class="form-control" placeholder="user">
+        </div>
+        <div class="form-group">
+          <input name="password" type="password" class="form-control" placeholder="password">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#update').click(function(event) {
+          localStorage.setItem($('#domain').val(), JSON.stringify($('form').serializeArray()));
+          $('form').trigger('reset');
+          return false;
+        });
+      });
+
+      var receiveMessage = function(event) {
+        event.source.postMessage(localStorage.getItem(event.data),
+                                 event.origin);
+      };
+      window.addEventListener("message", receiveMessage, false);
+
+    </script>
+  </body>
+</html>
+

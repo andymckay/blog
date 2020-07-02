@@ -1,0 +1,1086 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <title>Slowest Zamboni tests</title>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body class="container">
+    <p class="alert">Run at: 2013-04-12 15:27:15.564541 on: elendil.local</p>
+      <h1>Test setup time. <a name="setup">#</a></h1>
+      <p>
+        <button type="button" class="btn btn-primary">Top 10</button>
+        <button type="button" class="btn btn-info">All</button>
+      </p>
+      <table class="table">
+        <tr>
+          <th></th>
+          <th>Location</th>
+          <th>Total (seconds)</th>
+          <th>Blame</th>
+        </tr>
+        <tr>
+  <td><a name="setup-1">1</td>
+  <td>mkt.ratings</td>
+  <td>10.7588908672</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a name="setup-2">2</td>
+  <td>mkt.ratings.tests</td>
+  <td>10.7587358952</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a name="setup-3">3</td>
+  <td>mkt.ratings.tests.test_resources</td>
+  <td>10.7584929466</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a name="setup-4">4</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource</td>
+  <td>10.7439160347</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="setup-5">5</td>
+  <td>mkt.search</td>
+  <td>5.75686502457</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a name="setup-6">6</td>
+  <td>mkt.search.tests</td>
+  <td>5.7566640377</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a name="setup-7">7</td>
+  <td>mkt.search.tests.test_api</td>
+  <td>5.7563829422</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a name="setup-8">8</td>
+  <td>mkt.search.tests.test_api.TestApi</td>
+  <td>5.74339199066</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr>
+  <td><a name="setup-9">9</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler</td>
+  <td>2.30356216431</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr>
+  <td><a name="setup-10">10</td>
+  <td>mkt.ratings.tests.test_resources.TestReviewFlagResource</td>
+  <td>2.14531588554</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L253">5fe841, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-11">11</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt</td>
+  <td>2.139523983</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-12">12</td>
+  <td>mkt.home</td>
+  <td>1.85699415207</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-13">13</td>
+  <td>mkt.home.tests</td>
+  <td>1.85684299469</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-14">14</td>
+  <td>mkt.home.tests.test_api</td>
+  <td>1.8566570282</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-15">15</td>
+  <td>mkt.home.tests.test_api.TestAPI</td>
+  <td>1.85498094559</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L46">d25c77, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-16">16</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource</td>
+  <td>1.82972884178</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-17">17</td>
+  <td>mkt.search.tests.test_api.TestApiReviewer</td>
+  <td>1.65930604935</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L190">8bdd5d, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-18">18</td>
+  <td>mkt.search.tests.test_api.TestCategoriesWithCreatured</td>
+  <td>1.61996412277</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L257">d94958, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-19">19</td>
+  <td>mkt.receipts</td>
+  <td>1.45363593102</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-20">20</td>
+  <td>mkt.receipts.tests</td>
+  <td>1.45346283913</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-21">21</td>
+  <td>mkt.receipts.tests.test_api</td>
+  <td>1.45322299004</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-22">22</td>
+  <td>mkt.receipts.tests.test_api.TestAPI</td>
+  <td>1.44937086105</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-23">23</td>
+  <td>mkt.search.tests.test_api.TestApiFlags</td>
+  <td>1.13647699356</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L293">780098, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-24">24</td>
+  <td>mkt.account</td>
+  <td>0.931393861771</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-25">25</td>
+  <td>mkt.account.tests</td>
+  <td>0.931194067001</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-26">26</td>
+  <td>mkt.account.tests.test_api</td>
+  <td>0.930931091309</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-27">27</td>
+  <td>mkt.account.tests.test_api.TestAccount</td>
+  <td>0.926640033722</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-28">28</td>
+  <td>mkt.account.tests.test_api.TestInstalled</td>
+  <td>0.784817934036</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L91">4e3e33, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-29">29</td>
+  <td>mkt.reviewers</td>
+  <td>0.604770898819</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-30">30</td>
+  <td>mkt.reviewers.tests</td>
+  <td>0.604595899582</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-31">31</td>
+  <td>mkt.reviewers.tests.test_api</td>
+  <td>0.604065179825</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-32">32</td>
+  <td>mkt.reviewers.tests.test_api.TestAccount</td>
+  <td>0.601402997971</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/reviewers/tests/test_api.py#L16">dafed8, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-33">33</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler</td>
+  <td>0.58949804306</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-34">34</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource</td>
+  <td>0.489818096161</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-35">35</td>
+  <td>mkt</td>
+  <td>0.165714979172</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-36">36</td>
+  <td>mkt.abuse</td>
+  <td>0.165560007095</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-37">37</td>
+  <td>mkt.abuse.tests</td>
+  <td>0.165414810181</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-38">38</td>
+  <td>mkt.abuse.tests.test_resources</td>
+  <td>0.16523194313</td>
+  <td></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-39">39</td>
+  <td>mkt.abuse.tests.test_resources.BaseTestAbuseResource</td>
+  <td>0.164258956909</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L18">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-40">40</td>
+  <td>mkt.account.tests.test_api.TestLoginHandler</td>
+  <td>0.0947389602661</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L134">b29a64, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="setup-41">41</td>
+  <td>mkt.home.tests.test_api.TestForm</td>
+  <td>0.0148730278015</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L18">e68e25, Andy McKay</a></td>
+</tr>
+      </table>
+      <h1>Test run time. <a name="tests">#</a></h1>
+      <p>
+        <button type="button" class="btn btn-primary">Top 10</button>
+        <button type="button" class="btn btn-info">All</button>
+      </p>
+      <table class="table">
+        <tr>
+          <th></th>
+          <th>Location</th>
+          <th>Total (seconds)</th>
+          <th>Blame</th>
+        </tr>
+        <tr>
+  <td><a name="tests-1">1</td>
+  <td>mkt.home.tests.test_api.TestAPI.test_response</td>
+  <td>1.14522218704</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L46">d25c77, Andy McKay</a></td>
+</tr>
+<tr>
+  <td><a name="tests-2">2</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_invalid_app</td>
+  <td>0.780591964722</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-3">3</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_update</td>
+  <td>0.736289024353</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-4">4</td>
+  <td>mkt.search.tests.test_api.TestCategoriesWithCreatured.test_creatured_plus_category</td>
+  <td>0.692969799042</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L257">d94958, Allen Short</a></td>
+</tr>
+<tr>
+  <td><a name="tests-5">5</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_version_latest</td>
+  <td>0.595327138901</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-6">6</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_delete_users_admin</td>
+  <td>0.576591014862</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-7">7</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_delete_addons_admin</td>
+  <td>0.569977045059</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-8">8</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_delete_comment_mine</td>
+  <td>0.560875892639</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-9">9</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_create_duplicate_rating</td>
+  <td>0.558368206024</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr>
+  <td><a name="tests-10">10</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_delete_app_mine</td>
+  <td>0.549530029297</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-11">11</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_version_none</td>
+  <td>0.547796010971</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-12">12</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_update_bad_data</td>
+  <td>0.529489994049</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-13">13</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_version_not_latest</td>
+  <td>0.522747039795</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-14">14</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_update_change_app</td>
+  <td>0.517187833786</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-15">15</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_create</td>
+  <td>0.496459960938</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-16">16</td>
+  <td>mkt.search.tests.test_api.TestCategoriesWithCreatured.test_no_category</td>
+  <td>0.487262010574</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L257">d94958, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-17">17</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_get_by_slug</td>
+  <td>0.48637509346</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-18">18</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_already_rated</td>
+  <td>0.479350090027</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-19">19</td>
+  <td>mkt.search.tests.test_api.TestApiReviewer.test_status_reviewer</td>
+  <td>0.464390039444</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L190">8bdd5d, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-20">20</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler.test_get_featured_region</td>
+  <td>0.455168008804</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-21">21</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_delete_not_mine</td>
+  <td>0.446082115173</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-22">22</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_get_by_pk</td>
+  <td>0.433170080185</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-23">23</td>
+  <td>mkt.ratings.tests.test_resources.TestReviewFlagResource.test_flag_conflict</td>
+  <td>0.411073923111</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L253">5fe841, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-24">24</td>
+  <td>mkt.ratings.tests.test_resources.TestReviewFlagResource.test_flag_note</td>
+  <td>0.403791904449</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L253">5fe841, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-25">25</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler.test_has_cors</td>
+  <td>0.3997631073</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-26">26</td>
+  <td>mkt.search.tests.test_api.TestApiReviewer.test_addon_type_reviewer</td>
+  <td>0.396137952805</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L190">8bdd5d, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-27">27</td>
+  <td>mkt.ratings.tests.test_resources.TestReviewFlagResource.test_flag</td>
+  <td>0.387528896332</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L253">5fe841, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-28">28</td>
+  <td>mkt.search.tests.test_api.TestApi.test_addon_type_anon</td>
+  <td>0.381431102753</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-29">29</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler.test_get_featured</td>
+  <td>0.378702878952</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-30">30</td>
+  <td>mkt.search.tests.test_api.TestApiReviewer.test_status_value_packaged</td>
+  <td>0.372725963593</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L190">8bdd5d, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-31">31</td>
+  <td>mkt.ratings.tests.test_resources.TestReviewFlagResource.test_flag_anon</td>
+  <td>0.36118888855</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L253">5fe841, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-32">32</td>
+  <td>mkt.ratings.tests.test_resources.TestReviewFlagResource.test_has_cors</td>
+  <td>0.358694076538</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L253">5fe841, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-33">33</td>
+  <td>mkt.search.tests.test_api.TestApi.test_status_value_packaged</td>
+  <td>0.358163118362</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-34">34</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler.test_get_slug</td>
+  <td>0.346673965454</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-35">35</td>
+  <td>mkt.search.tests.test_api.TestApi.test_dehydrate</td>
+  <td>0.340813159943</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-36">36</td>
+  <td>mkt.search.tests.test_api.TestApi.test_device</td>
+  <td>0.335340976715</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-37">37</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler.test_get_category</td>
+  <td>0.329102039337</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-38">38</td>
+  <td>mkt.search.tests.test_api.TestApi.test_app_type_packaged</td>
+  <td>0.326714038849</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-39">39</td>
+  <td>mkt.search.tests.test_api.TestApi.test_right_category_present</td>
+  <td>0.324775934219</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-40">40</td>
+  <td>mkt.receipts.tests.test_api.TestAPI.test_cef_logs</td>
+  <td>0.312232017517</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-41">41</td>
+  <td>mkt.search.tests.test_api.TestApi.test_status_anon</td>
+  <td>0.292011022568</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-42">42</td>
+  <td>mkt.search.tests.test_api.TestApi.test_meta</td>
+  <td>0.29048705101</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-43">43</td>
+  <td>mkt.home.tests.test_api.TestAPI.test_has_cors</td>
+  <td>0.278028964996</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L46">d25c77, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-44">44</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_pending_paid_for_developer</td>
+  <td>0.271297931671</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-45">45</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_pending_free_for_developer</td>
+  <td>0.271111011505</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-46">46</td>
+  <td>mkt.receipts.tests.test_api.TestAPI.test_record_metrics_packaged_app</td>
+  <td>0.269690036774</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-47">47</td>
+  <td>mkt.search.tests.test_api.TestApi.test_q</td>
+  <td>0.265136003494</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-48">48</td>
+  <td>mkt.search.tests.test_api.TestApi.test_premium_types</td>
+  <td>0.264226198196</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-49">49</td>
+  <td>mkt.search.tests.test_api.TestApi.test_multiple_premium_types</td>
+  <td>0.257594108582</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-50">50</td>
+  <td>mkt.search.tests.test_api.TestApi.test_has_cors</td>
+  <td>0.249722957611</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-51">51</td>
+  <td>mkt.search.tests.test_api.TestApiFlags.test_no_flags</td>
+  <td>0.243633985519</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L293">780098, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-52">52</td>
+  <td>mkt.home.tests.test_api.TestFeaturedHomeHandler.test_verbs</td>
+  <td>0.243585824966</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L66">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-53">53</td>
+  <td>mkt.search.tests.test_api.TestApi.test_app_type_hosted</td>
+  <td>0.242592096329</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-54">54</td>
+  <td>mkt.search.tests.test_api.TestApiFlags.test_adult</td>
+  <td>0.241000890732</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L293">780098, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-55">55</td>
+  <td>mkt.receipts.tests.test_api.TestAPI.test_log_metrics</td>
+  <td>0.228405952454</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-56">56</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_rate_unpurchased_premium</td>
+  <td>0.228167057037</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-57">57</td>
+  <td>mkt.account.tests.test_api.TestInstalled.test_installed</td>
+  <td>0.207889080048</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L91">4e3e33, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-58">58</td>
+  <td>mkt.search.tests.test_api.TestApiFlags.test_child</td>
+  <td>0.201179981232</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L293">780098, Rob Hudson</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-59">59</td>
+  <td>mkt.search.tests.test_api.TestApi.test_verbs</td>
+  <td>0.198564052582</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-60">60</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_send</td>
+  <td>0.194042921066</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-61">61</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_pending_paid_for_anonymous</td>
+  <td>0.193156003952</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-62">62</td>
+  <td>mkt.search.tests.test_api.TestApi.test_wrong_weight</td>
+  <td>0.191259145737</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-63">63</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_pending_free_for_anonymous</td>
+  <td>0.189587116241</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-64">64</td>
+  <td>mkt.search.tests.test_api.TestApi.test_premium_types_empty</td>
+  <td>0.182147979736</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-65">65</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_own_payments</td>
+  <td>0.179124832153</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-66">66</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_create_own_app</td>
+  <td>0.176952838898</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-67">67</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_paid</td>
+  <td>0.175441980362</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-68">68</td>
+  <td>mkt.search.tests.test_api.TestApi.test_wrong_category</td>
+  <td>0.17432308197</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-69">69</td>
+  <td>mkt.search.tests.test_api.TestApi.test_right_category</td>
+  <td>0.171506881714</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-70">70</td>
+  <td>mkt.receipts.tests.test_api.TestAPI.test_record_metrics</td>
+  <td>0.167870998383</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-71">71</td>
+  <td>mkt.receipts.tests.test_api.TestAPI.test_record_logged_out</td>
+  <td>0.166792869568</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-72">72</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_get</td>
+  <td>0.165949821472</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-73">73</td>
+  <td>mkt.search.tests.test_api.TestApi.test_wrong_sort</td>
+  <td>0.164478063583</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/search/tests/test_api.py#L20">cf72fe, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-74">74</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_slug_app</td>
+  <td>0.147101163864</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-75">75</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_record_multiple_installs</td>
+  <td>0.137017011642</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-76">76</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_record_install</td>
+  <td>0.132071018219</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-77">77</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_create_nonexistant_app</td>
+  <td>0.130656003952</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-78">78</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_send_anonymous</td>
+  <td>0.129794120789</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-79">79</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_record_receipt</td>
+  <td>0.128012895584</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-80">80</td>
+  <td>mkt.reviewers.tests.test_api.TestAccount.test_allowed</td>
+  <td>0.127629995346</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/reviewers/tests/test_api.py#L16">dafed8, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-81">81</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_create_bad_data</td>
+  <td>0.120379924774</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-82">82</td>
+  <td>mkt.reviewers.tests.test_api.TestAccount.test_some</td>
+  <td>0.119322061539</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/reviewers/tests/test_api.py#L16">dafed8, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-83">83</td>
+  <td>mkt.account.tests.test_api.TestInstalled.test_installed_other</td>
+  <td>0.118037939072</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L91">4e3e33, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-84">84</td>
+  <td>mkt.account.tests.test_api.TestInstalled.test_installed_reviewer</td>
+  <td>0.117857933044</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L91">4e3e33, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-85">85</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_has_cors</td>
+  <td>0.115598201752</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-86">86</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_non_owner</td>
+  <td>0.112529039383</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-87">87</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_allowed</td>
+  <td>0.111834049225</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-88">88</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_delete_not_there</td>
+  <td>0.111346006393</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-89">89</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_not_paid</td>
+  <td>0.108195066452</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-90">90</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_missing_optional_field</td>
+  <td>0.105678081512</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-91">91</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_anonymous_post_list_fails</td>
+  <td>0.0969250202179</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-92">92</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_patch</td>
+  <td>0.0958261489868</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-93">93</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_send_bad_data</td>
+  <td>0.0945799350739</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-94">94</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_anonymous_get_detail</td>
+  <td>0.090047121048</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-95">95</td>
+  <td>mkt.ratings.tests.test_resources.TestRatingResource.test_anonymous_get_list</td>
+  <td>0.0849940776825</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/ratings/tests/test_resources.py#L18">61267e, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-96">96</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_send_potato</td>
+  <td>0.0837121009827</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-97">97</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_put</td>
+  <td>0.0803871154785</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-98">98</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_patch_extra_fields</td>
+  <td>0.0792300701141</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-99">99</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_send</td>
+  <td>0.0749201774597</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-100">100</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_own</td>
+  <td>0.0687031745911</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-101">101</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_should_throttle</td>
+  <td>0.068244934082</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-102">102</td>
+  <td>mkt.account.tests.test_api.TestLoginHandler.test_login_success</td>
+  <td>0.0672998428345</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L134">b29a64, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-103">103</td>
+  <td>mkt.receipts.tests.test_api.TestAPI.test_has_cors</td>
+  <td>0.0663561820984</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L27">2588d7, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-104">104</td>
+  <td>mkt.abuse.tests.test_resources.TestAppAbuseResource.test_shouldnt_throttle</td>
+  <td>0.0663359165192</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L131">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-105">105</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_other</td>
+  <td>0.0639939308167</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-106">106</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_patch_other</td>
+  <td>0.0630121231079</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-107">107</td>
+  <td>mkt.account.tests.test_api.TestInstalled.test_verbs</td>
+  <td>0.0628938674927</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L91">4e3e33, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-108">108</td>
+  <td>mkt.receipts.tests.test_api.TestReceipt.test_not_record_addon</td>
+  <td>0.0628089904785</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/receipts/tests/test_api.py#L90">3d3f71, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-109">109</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_invalid_user</td>
+  <td>0.0597939491272</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-110">110</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_send</td>
+  <td>0.0584211349487</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-111">111</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_send_without_platform</td>
+  <td>0.0578031539917</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-112">112</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_send_bad_data</td>
+  <td>0.0561130046844</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-113">113</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_send_bad_data</td>
+  <td>0.0556058883667</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-114">114</td>
+  <td>mkt.reviewers.tests.test_api.TestAccount.test_still_not_allowed</td>
+  <td>0.0534508228302</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/reviewers/tests/test_api.py#L16">dafed8, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-115">115</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_verbs</td>
+  <td>0.0528399944305</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-116">116</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_send_potato</td>
+  <td>0.0496180057526</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-117">117</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_send_anonymous</td>
+  <td>0.0479869842529</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-118">118</td>
+  <td>mkt.reviewers.tests.test_api.TestAccount.test_verbs</td>
+  <td>0.044233083725</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/reviewers/tests/test_api.py#L16">dafed8, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-119">119</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_send_potato</td>
+  <td>0.0406060218811</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-120">120</td>
+  <td>mkt.account.tests.test_api.TestInstalled.test_not_allowed</td>
+  <td>0.037750005722</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L91">4e3e33, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-121">121</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_send_anonymous</td>
+  <td>0.0365331172943</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-122">122</td>
+  <td>mkt.reviewers.tests.test_api.TestAccount.test_not_allowed</td>
+  <td>0.0342361927032</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/reviewers/tests/test_api.py#L16">dafed8, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-123">123</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_shouldnt_throttle</td>
+  <td>0.0329539775848</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-124">124</td>
+  <td>mkt.account.tests.test_api.TestAccount.test_not_allowed</td>
+  <td>0.0323882102966</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L30">07aba9, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-125">125</td>
+  <td>mkt.account.tests.test_api.TestFeedbackHandler.test_should_throttle</td>
+  <td>0.0300228595734</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L170">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-126">126</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_shouldnt_throttle</td>
+  <td>0.0278358459473</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-127">127</td>
+  <td>mkt.abuse.tests.test_resources.BaseTestAbuseResource.test_should_throttle</td>
+  <td>0.0278298854828</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L18">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-128">128</td>
+  <td>mkt.abuse.tests.test_resources.TestUserAbuseResource.test_should_throttle</td>
+  <td>0.0273160934448</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L112">390283, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-129">129</td>
+  <td>mkt.abuse.tests.test_resources.BaseTestAbuseResource.test_shouldnt_throttle</td>
+  <td>0.0208480358124</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/abuse/tests/test_resources.py#L18">4b6a76, Chuck Harmston</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-130">130</td>
+  <td>mkt.account.tests.test_api.TestLoginHandler.test_login_failure</td>
+  <td>0.0138559341431</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/account/tests/test_api.py#L134">b29a64, Allen Short</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-131">131</td>
+  <td>mkt.home.tests.test_api.TestForm.test_device</td>
+  <td>0.00145411491394</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L18">e68e25, Andy McKay</a></td>
+</tr>
+<tr style="display: none">
+  <td><a name="tests-132">132</td>
+  <td>mkt.home.tests.test_api.TestForm.test_region</td>
+  <td>0.00108098983765</td>
+  <td><a href="https://github.com/mozilla/zamboni/blob/master/mkt/home/tests/test_api.py#L18">e68e25, Andy McKay</a></td>
+</tr>
+        </table>
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $('.btn-primary').on('click', function(){
+                $(this).parent().next().find('tr:gt(10)').hide();
+              });
+              $('.btn-info').on('click', function(){
+                $(this).parent().next().find('tr').show();
+              });
+          });
+        </script>
+  </body>
+</html>
+
+

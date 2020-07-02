@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="99"
+   name=""
+   committed-date="2008-01-21T22:42:41.077820Z"
+   url="http://svn.clearwind.ca/public/projects/tablechart"
+   last-author="andy"
+   kind="dir"
+   uuid="e3538481-2c17-0410-8306-8cc94be00d1d"
+   repos="http://svn.clearwind.ca/public"
+   revision="99"/>
+<entry
+   committed-rev="97"
+   name="tablechart.css"
+   text-time="2008-01-21T22:41:40.000000Z"
+   committed-date="2008-01-21T22:41:04.918140Z"
+   checksum="ad0aa278a4596e563f8442d12ad836e5"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:41:40.000000Z"/>
+<entry
+   committed-rev="89"
+   name="loading.gif"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:09:52.353063Z"
+   checksum="c77ae44a51409e7c2183fff5dc25dffa"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="89"
+   name="overlay.png"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:09:52.353063Z"
+   checksum="143d209e15051311fdae758b295036b5"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="96"
+   name="tablechart.js"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:35:32.757470Z"
+   checksum="c4c73d040651e9173ce841677c1d65ed"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="89"
+   name="lightbox.css"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:09:52.353063Z"
+   checksum="b68c7006a46370d13b0fbea8727441c2"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="89"
+   name="close.gif"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:09:52.353063Z"
+   checksum="4c7843fd7f423263703c3192344534bb"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="89"
+   name="lightbox.js"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:09:52.353063Z"
+   checksum="2cd80b44e8adb1be4b480309ca552890"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="89"
+   name="readme.txt"
+   text-time="2008-01-21T22:37:55.000000Z"
+   committed-date="2008-01-21T22:09:52.353063Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:37:55.000000Z"/>
+<entry
+   committed-rev="110"
+   name="example.html"
+   text-time="2008-05-13T15:33:18.000000Z"
+   committed-date="2008-05-15T12:17:50.895330Z"
+   checksum="40bdb609a06764cac0c863f53e218366"
+   last-author="andy"
+   kind="file"
+   prop-time="2008-01-21T22:42:41.000000Z"
+   revision="110"/>
+</wc-entries>

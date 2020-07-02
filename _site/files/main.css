@@ -1,0 +1,198 @@
+html {
+ background: #ccc;
+}
+body{
+ background: white;
+ border:1px solid #999;
+ border-bottom: 1em solid #000033;
+ border-top: 1em solid #000033;
+ margin: 0 auto;
+ width: 800px;
+ overflow: scroll;
+ font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+ font-size: 85%;
+}
+
+p.byline {
+ margin-top: -1.5em;
+ border-top: 1px solid lightgrey;
+ color: grey;
+ padding:4px 0 4px 22px;
+ background:transparent url(images/date.png) no-repeat center left;
+}
+
+#breadcrumbs {
+ font-size: 80%;
+ text-transform: lowercase;
+ padding-bottom: 0.5em;
+}
+#breadcrumbs div {
+ display: inline;
+} 
+table {
+ font-size: 95%;
+}
+
+#left {
+ margin: 2em;
+}
+
+#topbar{
+ background:black;#f8f8f8;
+ border-bottom: 1px solid #ccc;
+ padding: 2em;
+ position: relative;
+ color: white;
+ margin-bottom: 0.7em;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+ padding-top: 0;
+ padding-bottom: 0;
+ margin-top: 0;
+ margin-bottom: 0;
+ font-family: serif;
+ color: #aaa;
+}
+
+h2 {
+ padding-top: 0em;
+ padding-bottom: 1em;
+}
+
+#topbar h1 {
+    font-weight: normal;    
+}
+
+#topbar a h1 {
+    color: whitesmoke;   
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd { 
+padding-bottom: 1em;
+}
+#left {
+   padding: 0.5em;
+}
+
+#right ul li {
+  list-style: none;
+  margin-left: -3em;
+}
+
+#right a {
+  border: none;
+  color: grey
+}
+
+
+#right h3 {
+  color: grey
+}
+
+img {
+  border: none;
+}
+
+blockquote{
+ border-left: 3px solid lightgrey;
+ margin: 1em 3em;
+ line-height: 1.5;
+ padding: 0 0 0 1em
+}
+
+pre {
+ overflow: auto;
+ border-left:3px solid firebrick;
+ color:#333;
+ font-size: 12px;
+ font-family: Monaco,'Courier New',Courier,monospace;
+ padding:0 0 0 1em
+}
+
+div.syntax pre {
+ margin: 0;
+ padding: 0;
+ border: none;
+ background: white;
+ font-family: Monaco,'Courier New',Courier,monospace !important;
+ font-size: 1em !important;
+ width: 760px;
+}
+
+ 
+p, blockquote, ul, ol {
+ margin:1em 0;
+}
+p, blockquote, ul, ol, dd {
+ line-height: 1.5;
+ spacing: 1.5;
+}
+
+a h1, a h2, a h3, a h4, a h5, a h6 {
+ text-decoration:none;
+ color: #777;
+}
+
+#topbar a h1 {
+    color: white;   
+}
+
+a {
+ text-decoration:none;
+ border-bottom: 1px dashed grey;
+}
+
+table a {
+ border-bottom: none;
+}
+
+cite {
+ font-style:italic
+}
+
+code {
+ color:#333;
+ font-family: Monaco,'Courier New',Courier,monospace;
+}
+
+
+.image_0 {
+    background: white url(http://www.agmweb.ca/images/IMG_5499.jpg) !important;
+}
+
+.image_1 {
+    background: white url(http://www.agmweb.ca/images/IMG_5499.jpg) !important;
+}
+
+.image_2 {
+    background: white url(http://www.agmweb.ca/images/IMG_5499.jpg) !important;
+}
+
+.image_3 {
+    background: white url(http://www.agmweb.ca/images/IMG_5499.jpg) !important;
+}
+
+#breadcrumbs {
+    padding-left: 2em;
+}
+
+#breadcrumbs a {
+    border-bottom: none;
+    text-transform: lowercase;
+}
+ 
+div.field label {
+    font-weight: bold;
+}
+div.field formHelp {
+    color: grey;
+    font-size: 80%;
+}
+
+

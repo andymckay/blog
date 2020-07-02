@@ -1,0 +1,17 @@
+﻿a.tablechart {
+}
+
+table.tograph { 
+    border-collapse:collapse; 
+    border: 1px solid #ccc; 
+}
+table.tograph td, table.tograph th { 
+    border-bottom: 1px solid #eee;
+    vertical-align: top; 
+    padding: 5px;
+}
+table.tograph th {
+    text-align:left;
+    font-weight:bold;
+    background-color: #eee;
+}

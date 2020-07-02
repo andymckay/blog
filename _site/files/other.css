@@ -1,0 +1,52 @@
+body {
+    line-height: 1.5em;
+}
+#header {
+    background-color: white;
+background-image: url("http://www.agmweb.ca/files/gradient-e5e5e5-ffffff.gif"); 
+background-repeat: repeat-x;
+background-attachment: fixed;
+}
+#header a, #header a:visited {
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+}     
+.post_title {
+    clear: both;
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+    padding-bottom: 5px;
+}  
+#right h3 {
+    color: grey;
+    font-weight: 100;
+}
+#right {
+    border-left: 1px solid grey;
+    padding: 1em;
+}
+
+.byline {
+    background: url(http://www.agmweb.ca/files/images/date.png) no-repeat 0% 50% transparent;
+    margin-top: -0.5em;
+    padding: 4px 0px 4px 22px;    
+}   
+
+#middle {
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 800px;
+}   
+blockquote {
+    border: 1px solid grey;
+    border-left: 3px solid firebrick;
+    background: whitesmoke;
+    padding: 1em;
+    margin: 0em;
+}
+div.post {
+    margin-top: 0em;
+    padding-bottom: 3em;
+}

@@ -1,0 +1,14 @@
+<html>
+  <title>Android mozPay Cookie Test</title>
+  <body>
+  <h1>Android mozPay Cookie Test</h1>
+  <pre id="output"></pre>
+  <script type="text/javascript">
+  var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+  var target = document.getElementById('output');
+  for (var nIdx = 0; nIdx < aKeys.length; nIdx++) { 
+    output.innerHTML = output.innerHTML + nIdx + '. ' + decodeURIComponent(aKeys[nIdx]) + ': ' + decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(aKeys[nIdx]).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) + '\n';
+  }
+  </script>
+  </body>
+</html>

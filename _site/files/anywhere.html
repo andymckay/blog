@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>My Marketplace</title>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<button id="install">Install Twitter</button>
+<script>
+$('#install').on('click', function() {
+  var request = window.navigator.mozApps.install('https://mobile.twitter.com/cache/twitter.webapp', null);
+  request.onerror = function(e) {
+    alert("Error installing app : " + request.error.name);
+  };
+});
+</script>
+</body>
+</html>

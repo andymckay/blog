@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <link href="/files/receipts-example/static/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="/files/receipts-example/static/bootstrap/bootstrap-theme.css" rel="stylesheet">
+  <script src="/files/receipts-example/static/app.js"></script>
+  <title>Receipts example</title>
+  </head>
+  <body>
+    <header>
+      <section class="container">
+      <h2>Receipts example</h2>
+      </section>
+    </header>
+
+
+    <section class="container">
+      <button id="install" class="btn">
+        Install
+      </button>
+      <button id="add" class="btn">
+        Add
+      </button>
+    </section>
+
+    <section class="container hidden" id="receipt-problem">
+      <p><strong>Oh dear!</strong></p>
+      <p>There was a problem with your receipt. We don't have a valid receipt for your client.</p>
+    </section>
+
+    <section class="container well" id="receipt-list">
+      <p>Receipts</p>
+      <dl></dl>
+    </section>
+
+    <footer>
+    </footer>
+  </body>
+</html>
+
+

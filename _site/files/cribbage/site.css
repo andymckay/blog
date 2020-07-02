@@ -1,0 +1,15 @@
+#game-setup > input {
+  width: 100%
+}
+
+#enter-points > input {
+  width: 3em;
+}
+
+.btn {
+  margin-top: 1em;
+}
+
+.mute {
+  color: lightgrey;
+}
