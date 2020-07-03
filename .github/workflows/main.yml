@@ -1,0 +1,18 @@
+name: Build
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install and build
+      run: |
+        gem install jekyll
+        jekyll build -d docs -t
+    - uses: EndBug/add-and-commit@v4
+    - name: Commit
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }    
