@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Fertigo;
+    src: url(Fertigo_PRO.otf) format("opentype");
+}
+@font-face {
+    font-family: DroidSans;
+    src: url(DroidSans.ttf) format("truetype");
+}
+
+
+html {
+overflow: scroll;
+}
+
+body {
+margin: 0;
+font-family: DroidSans;
+color: #3e2827;
+background-color: #ffffff;
+line-height: 1.6em;
+font-size: 18px;
+padding-left: 10vw;
+padding-right: 10vw;
+}
+
+a:link {
+color: #3e2827;
+text-decoration: none;
+border-bottom: 1px solid #3e2827;
+}
+
+a:visited {
+color: #3e2827;
+text-decoration: none;
+border-bottom: 1px solid #3e2827;
+}
+
+a:hover {
+color: #be1007;
+text-decoration: none;
+border-bottom: 1px solid #3e2827;
+}
+
+#main {
+margin: 30px auto 30px auto;
+}
+
+article {
+   padding: 1em;
+}
+
+h1, h2 {
+font-family: Fertigo;
+margin-top: 0;
+text-align: center;
+}
+
+h1 :link, :visited {
+text-decoration: none;
+border: none;
+}
+
+h2 :link, :visited {
+text-decoration: none;
+border: none;
+}
+
+ul, ol {
+padding-left: 0;
+}
+
+#thefooter {
+margin: 50px auto 50px auto;
+padding: 10px 0 5px 0;
+border-top: 1px dotted #cccccc;
+text-align: center;
+}
+
+blockquote, cite {
+color: #898989;
+}
+
+cite {
+color: #898989;
+padding-left: 2em;
+margin-top: -2em;
+padding-bottom: 2em;
+}
+
+#navigation {
+padding: 30px 0 15px 0;
+text-align: center;
+}
+
+#date {
+padding: 10px 0 10px 0;
+}
+
+#date p {
+color: #444444;
+font-size: 12px;
+text-align: center;
+}
+
+.spacer {
+padding: 0 20px 0 20px;
+}
+
+.archives {
+list-style-type: none;
+}
+
+.made {
+color: #868686;
+float: right;
+font-size: 12px;
+}
+
+.meta {
+color: #8d8d8d;
+text-align: center;
+font-size: 12px;
+letter-spacing: .2em;
+text-transform: uppercase;
+}
+
+.spacer {
+padding-left: 10px;
+}
+
+sup {
+font-size: 12px;
+color: #888888;
+}
+
+code {
+font-size: 15px;
+}
+
+pre {
+font-size: 15px;
+}
+
+time {
+font-family: monospace;
+font-size:  14px;
+color: #666666;
+}
+
+img {
+border: none;
+}
+
+hr.florished {
+padding: 0;
+border: none;
+border-top: medium double #cccccc;
+color: #cccccc;
+text-align: center;
+}
+
+hr.florished:after {
+content: "§";
+display: inline-block;
+position: relative;
+top: -0.7em;
+font-size: 1em;
+padding: 0 0.25em;
+background: #ffffff;
+}
+
+p.category {
+    text-align: center;
+}
+
+ul {
+    padding-left: 3em;
+}
+
+pre {
+}
+
+#oops img {
+    display: block; margin-left: auto; margin-right: auto;
+}
