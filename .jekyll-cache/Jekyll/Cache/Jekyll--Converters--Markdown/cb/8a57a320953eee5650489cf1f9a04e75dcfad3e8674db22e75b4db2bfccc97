@@ -1,0 +1,51 @@
+I"‰<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAkMK3-vxpvsIkaNV7-untGBShGlNrvjL6P_AvObMfcdtoqOsS3RRY2oOqVPmWFMHeU9LOrezqe91kxg" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var vancouver = new GLatLng(49.261226, -123.113927);
+var distance_toronto = 2010;
+var pointInterval = 30;
+
+function initialize() {
+    if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map_canvas"));
+        map.setCenter(vancouver, 3);
+        getCirclePoints(vancouver, distance_toronto);
+        GEvent.addListener(map, "click", function(ov, pt) {
+            getCirclePoints(pt, distance_toronto);
+        });
+    }
+}
+
+function getCirclePoints(center,radius){
+	var circlePoints = Array();
+        map.clearOverlays();
+
+	with (Math) {
+		var rLat = (radius/3963.189) * (180/PI); // miles
+		var rLng = rLat/cos(center.lat() * (PI/180));
+
+		for (var a = 0 ; a < 361 ; a++ ) {
+			var aRad = a*(PI/180);
+			var x = center.lng() + (rLng * cos(aRad));
+			var y = Math.max(Math.min(center.lat() + (rLat * sin(aRad)), 85), -85);
+			var point = new GLatLng(parseFloat(y),parseFloat(x),true);
+			circlePoints.push(point);
+		}
+	}
+
+	var overlay = new GPolygon(circlePoints, '#0000ff', 1, 1, '#0000ff', 0.2);	
+	map.addOverlay(overlay);
+	map.setCenter(overlay.getBounds().getCenter(),map.getBoundsZoomLevel(overlay.getBounds()));
+}
+
+$(document).ready(function() {
+    initialize();
+});
+</script>
+
+<div id="map_canvas" style="width: 1000px; height: 450px"></div>
+<p>A while back someone asked if they could pop by whilst visiting Toronto. So here's a quick visualization that sums up what's closer to Vancouver than Toronto. The answer? Most of the US. I stole the code from one of the <a href="http://maps.forum.nu/gm_driving_radius.html">Google demos</a>.</p>
+:ET

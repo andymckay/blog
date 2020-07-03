@@ -1,0 +1,44 @@
+I"�	<p>This week I recieved and email from the Clean Energy Vehicle program. They’d like us to install a device in our Tesla that tracks us:</p>
+
+<p>“By understanding when and where EVs charge to how much energy is consumed, you can help pave the way for future drivers by ensuring that the power system is ready for a plug-in future.”</p>
+
+<p>The program details <a href="https://www.fleetcarma.com/chargebc/">are here</a>.</p>
+
+<p>“GPS information is collected, but not shared at the individual level. The data is collected and stored but no one outside of FleetCarma will see an individual’s location data.”</p>
+
+<p>Alright so who’s FleetCarma? Let’s look into <a href="https://www.fleetcarma.com/chargebc/terms/">the terms</a>:</p>
+
+<p>“Data Collected by the C2 Device and Privacy…  drive start date and time, duration of trip, trip distance… GPS coordinates of the drive,”</p>
+
+<p>“With the specific exclusion of GPS coordinates when driving, an anonymized subset of the data outlined above may be shared with the Province and BC Hydro and other third party suppliers”</p>
+
+<p>“GPS coordinates during driving will not be shared with any Program partners or third party suppliers except in both anonymous and aggregate form to inhibit extraction of any individual driving behaviour.”</p>
+
+<p>Not sure who those Program partners or third party suppliers are but GeoTab uses <a href="https://docs.google.com/document/d/1sVygLN02w2xNovFY4q5vw-oAzfYxCd7WLhyToElgDbs/pub">some sub-processors</a>.</p>
+
+<p>FletCarma will <a href="https://www.fleetcarma.com/privacy/">share your information</a>:</p>
+
+<p>“To affiliated entities of CrossChasm Technologies Inc., including wholly owned subsidiaries” (Whomever that is)</p>
+
+<p>“When we’re legally required to provide data, such as in response to a subpoena in a civil lawsuit.”</p>
+
+<p>It’s nice to note.</p>
+
+<p>“You may also request that your Personal Information be deleted. FleetCarma will promptly respond to your request within 30 days”</p>
+
+<p>At this point I can surmise that:</p>
+
+<ul>
+  <li>
+    <p>FleetCarma will know all the trips I make in the car.</p>
+  </li>
+  <li>
+    <p>FleetCarma be subpoenad to give up that information.</p>
+  </li>
+  <li>
+    <p>FleetCarma can be hacked to give up all that information.</p>
+  </li>
+</ul>
+
+<p>Normally this would be a simple, hell no. But I care greatly about electric cars and the infrastructure and this has put me in a bind. The privacy problem here is one that I simply can’t get around.</p>
+:ET

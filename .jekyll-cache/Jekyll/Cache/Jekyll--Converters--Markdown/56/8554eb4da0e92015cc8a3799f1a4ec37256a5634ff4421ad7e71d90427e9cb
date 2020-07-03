@@ -1,0 +1,30 @@
+I"�<p>This month we’ll be turning on <a href="https://blog.mozilla.org/blog/2014/02/07/introducing-mozilla-firefox-accounts/">Firefox Accounts</a> integration on the <a href="https://marketplace.firefox.com/">Marketplace</a> and turning off support for <a href="https://login.persona.org/">Persona</a>.</p>
+
+<p>All Firefox Marketplace users have to do is use the same email address to create an account on Firefox Accounts. On the backend, we’ll match up the account by email and everything will be the same.</p>
+
+<p>If you are on Android, Desktop or Firefox OS 1.1 - 1.4 device you’ll see the web based flow, which looks something like below:</p>
+
+<p><img src="/files/fxa.png" /></p>
+
+<p>If you are on Firefox OS 2.1 or greater (coming at the end of the year), you’ll see the “native” phone flow.</p>
+
+<p>The Firefox Accounts work has probably been one of the most challenging projects I’ve managed in my short time managing projects Mozilla for a few reasons:</p>
+
+<ul>
+  <li>the Marketplace supports every version of Firefox OS from 1.1 up to 2.2 and beyond</li>
+  <li>the Marketplace is available as packaged iframe app, a packaged app and a website</li>
+  <li>the Marketplace has payments which are in a Trusted UI which is different and has to support all the above</li>
+  <li>testing packaged apps is really hard and painful due to signing certificates (really, its horrible)</li>
+  <li>the number of Firefox OS phones bricked this week in testing this is around 6 and counting</li>
+  <li>we’ve got a hard deadline to try and get it in for Firefox OS 2.1</li>
+</ul>
+
+<p>You take all this together and the two things I’ve learned these last weeks:</p>
+
+<ul>
+  <li>there are some really awesome people at Mozilla working hard on this</li>
+  <li>we’ve got to make this easier somehow, if its hard for us and this burden is slowing all development down</li>
+</ul>
+
+<p>The bug for Firefox Accounts integration is <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1007956">1007956</a> if you want follow along. In the meantime you should go sign up for a <a href="https://accounts.firefox.com/signup">Firefox Account</a>, you can use it for Firefox Sync, soon the Marketplace and more after that.</p>
+:ET

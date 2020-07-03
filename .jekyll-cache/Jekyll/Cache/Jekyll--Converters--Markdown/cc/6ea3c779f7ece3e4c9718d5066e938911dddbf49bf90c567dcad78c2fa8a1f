@@ -1,0 +1,19 @@
+I"e<p>This blog post started out as talking about Adobe Air frustrations, but as I ran through the post I actually started fix my issues so within 3 days expect this post to be completely inaccurate.</p>
+<ol>
+<li>Some simple HTML, CSS and DOM things just seemed to fail. They are the sort of things that you sit and look at and think continually you've done something wrong. As it turns out adding event listeners to DOM nodes is slightly different, but I still couldn't get background images assigned in CSS.</li>
+<li>Air comes with a nice <code>URLRequest</code> object to talk to external sites and give progress over the result via an asynchronous event. However it can only do GET and POST to external sites. So no PUTs to a Plone site (for example). Ouch. This might kill off my little project to provide a simple file upload tool for Plone.</li>
+<li>I've just now found a way to handle multiple file drag and drops, in theory.</li>
+<li>Almost everything is an asynchronous event, which is great for flexibility. Writing everything in JS without any templating and attaching events to everything is starting to get tortuous. Perhaps it's just growing pains and learning a new style, but at this point a big complicated project looks like it might get insanely complex.</li>
+</ol>
+<p>On the plus side there were a few nice things in there that rocked. It comes with it's own SQL database either in memory on the filesystem. User preferences for the application can be stored away in its own encrypted space with no configuration, just:</p>
+<pre>
+function setPref(key, value) {
+  var bytes = new air.ByteArray();
+  bytes.writeUTFBytes(value);
+  air.EncryptedLocalStore.setItem(key, bytes);
+}
+...
+setPref("plone-cookie", cookie);
+</pre>
+<p>...and simple preferences data is being stored. Hopefully first Air app should be done next few days, depending how much real life interferes again.</p>
+:ET
