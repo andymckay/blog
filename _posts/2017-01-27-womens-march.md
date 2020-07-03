@@ -7,7 +7,7 @@ blog: andy-mckay
 
 <img src="/files/IMG_0229.png" style="float: right; margin: 1em" />
 
-Last week we went on the Womens March in Vancouver. This was the <a href="http://mckay.pub/2015-04-07-harper/">second political</a> demonstration of my life.
+Last week we went on the Womens March in Vancouver. This was the <a href="https://mckay.pub/2015-04-07-harper/">second political</a> demonstration of my life.
 
 What's happening in the US with Trump is terrible and because the US is so large economically and politically it's having a huge reverberation around the world. Including Canada.
 

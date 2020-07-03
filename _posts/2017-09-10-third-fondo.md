@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-Yesterday was my third Gran Frondo, <a href="http://mckay.pub/2016-11-03-second-fondo/">the last</a> was in 2016.
+Yesterday was my third Gran Frondo, <a href="https://mckay.pub/2016-11-03-second-fondo/">the last</a> was in 2016.
 
 Last year was a bit of an odd year, I knew what to face, yet I struggled. I was planning on correcting that this year.
 

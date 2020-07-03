@@ -16,7 +16,7 @@ My needs for must have Extensions are actually pretty small:
 
 Those last two just became possible. For tabs on the side I wrote <a href="http://github.com/andymckay/sidebar-tabs">sidebar tabs</a> once the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1208596">sidebar API</a> landed. I'll write a more detailed blog post on that extension, it's in flux, I'm playing around with it and mostly using it for dogfood at the moment.
 
-<img src="http://mckay.pub/files/sidebar-tabs.png" height="400">
+<img src="https://mckay.pub/files/sidebar-tabs.png" height="400">
 
 The more observant of you will notice that it still has tabs across the top. Currently we <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1332447">can't hide those</a>.
 

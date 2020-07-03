@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-Checking in with my [four month goals](http://mckay.pub/2018-12-28-goals/).
+Checking in with my [four month goals](https://mckay.pub/2018-12-28-goals/).
 
 * Lost a couple of pounds but keep going up and down. Still struggling with this. My diet is still not good.
 

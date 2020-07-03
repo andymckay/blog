@@ -13,7 +13,7 @@ Mostly these are not using <a href="https://wiki.mozilla.org/WebExtensions">WebE
 
 System add-ons are really "internal" pieces of code that would otherwise be shipped in mozilla-central, blessed by the module owner and generally approved. They are maintained by someone who is active involved in their code (usually but not always a Mozilla employee). They have gone through security and privacy reviews. They are tested against Firefox code in the test infrastructure on each release. They sometimes do things that no other add-on should be allowed to do.
 
-This is all in contrast to third party add-ons that you'll find on AMO. When you look through all the reasoning behind WebExtensions, you'll find that a lot of the reasons involve things like "hard to maintain", "security problems" and so on. Please see my <a href="http://mckay.pub/2016-04-17-addons-old/">earlier posts for more on this</a>. I would say that these reasons don't apply to system add-ons.
+This is all in contrast to third party add-ons that you'll find on AMO. When you look through all the reasoning behind WebExtensions, you'll find that a lot of the reasons involve things like "hard to maintain", "security problems" and so on. Please see my <a href="https://mckay.pub/2016-04-17-addons-old/">earlier posts for more on this</a>. I would say that these reasons don't apply to system add-ons.
 
 So do system add-ons need to be WebExtensions? Maybe they don't. In fact I think if we try and push them into being system add-ons we'll create a scenario where WebExtensions become the blocker. 
 

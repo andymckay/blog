@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-Checking in with my [five month goals](http://mckay.pub/2018-12-28-goals/).
+Checking in with my [five month goals](https://mckay.pub/2018-12-28-goals/).
 
 * Holy crap it's been this long.
 

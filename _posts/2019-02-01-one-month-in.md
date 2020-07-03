@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-Checking in with my [one month goals](http://mckay.pub/2018-12-28-goals/).
+Checking in with my [one month goals](https://mckay.pub/2018-12-28-goals/).
 
 * Lost 12 pounds. Although I did go as much as 15 pounds down, only to come back up again.
 
