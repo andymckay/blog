@@ -1,6 +1,6 @@
 var install = function install(ev) {
   ev.preventDefault();
-  var manifest_url = "http://www.agmweb.ca/files/receipts-example/manifest.webapp";
+  var manifest_url = "https://mckay.pub.ca/files/receipts-example/manifest.webapp";
   navigator.mozApps.install(manifest_url);
 }
 

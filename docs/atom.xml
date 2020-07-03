@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
 <title>Andy McKay</title>
-<link href="http://www.agmweb.ca/blog/andy" rel="alternate"></link>
-<link href="http://www.agmweb.ca/blog/rss/latest/andy/" rel="self"></link>
+<link href="https://mckay.pub.ca/blog/andy" rel="alternate"></link>
+<link href="https://mckay.pub.ca/blog/rss/latest/andy/" rel="self"></link>
 <updated>2019-09-20T15:30:45-07:00</updated>
-<id>http://www.agmweb.ca/blog/andy</id>
+<id>https://mckay.pub.ca/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
@@ -12,9 +12,9 @@
 
 <entry>
 <title>My fifth Gran Fondo</title>
-<link href="http://www.agmweb.ca/2019-09-20-fifth-fondo/"/>
+<link href="https://mckay.pub.ca/2019-09-20-fifth-fondo/"/>
 <updated>2019-09-20T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/fifth-fondo</id>
+<id>https://mckay.pub.ca/fifth-fondo</id>
 <content type="html">&lt;p&gt;A bit ago was my fifth Gran Frondo, &lt;a href=&quot;http://mckay.pub/2018-09-09-fourth-fondo/&quot;&gt;the last&lt;/a&gt; was in 2018.&lt;/p&gt;
 
 &lt;p&gt;Last year I dropped 25 minutes off my time and that made me really happy. This year my goal was 4 hours. This was just an aribtrary number, but it was also based on an attempt to qualify for the 2020 version of this race which is a UCI World Cup Event.&lt;/p&gt;
@@ -86,9 +86,9 @@
 
 <entry>
 <title>2019 Goals - Five months check in</title>
-<link href="http://www.agmweb.ca/2019-06-02-five-months-in/"/>
+<link href="https://mckay.pub.ca/2019-06-02-five-months-in/"/>
 <updated>2019-06-02T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/five-months-in</id>
+<id>https://mckay.pub.ca/five-months-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;http://mckay.pub/2018-12-28-goals/&quot;&gt;five month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -105,9 +105,9 @@
 
 <entry>
 <title>Create Issue Extension</title>
-<link href="http://www.agmweb.ca/2019-05-14-create-issue/"/>
+<link href="https://mckay.pub.ca/2019-05-14-create-issue/"/>
 <updated>2019-05-14T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/create-issue</id>
+<id>https://mckay.pub.ca/create-issue</id>
 <content type="html">&lt;p&gt;I needed to find a better way to keep track of my to-do lists. I&amp;#39;ve tried a few tools, but after a while always forget about them and don&amp;#39;t keep them up to date. A to-do list is only any good if you add stuff to it and look at it.&lt;/p&gt;
 
 &lt;p&gt;I spend 95% my time in about 5 places these days: Google Calendar, Google Docs, Gmail, Slack and Github. I spend a lot of time on the latter, GitHub. So, of course, to super charge my to-do list I went for a quick browser extension - cue colleagues who laugh and say &amp;quot;of course you did&amp;quot; when I mention this.&lt;/p&gt;
@@ -133,9 +133,9 @@
 
 <entry>
 <title>2019 Goals - Four months check in</title>
-<link href="http://www.agmweb.ca/2019-05-13-four-months-in/"/>
+<link href="https://mckay.pub.ca/2019-05-13-four-months-in/"/>
 <updated>2019-05-13T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/four-months-in</id>
+<id>https://mckay.pub.ca/four-months-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;http://mckay.pub/2018-12-28-goals/&quot;&gt;four month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -158,9 +158,9 @@
 
 <entry>
 <title>2019 Goals - Two months check in</title>
-<link href="http://www.agmweb.ca/2019-03-02-two-months-in/"/>
+<link href="https://mckay.pub.ca/2019-03-02-two-months-in/"/>
 <updated>2019-03-02T00:00:00-08:00</updated>
-<id>http://www.agmweb.ca/two-months-in</id>
+<id>https://mckay.pub.ca/two-months-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;http://mckay.pub/2018-12-28-goals/&quot;&gt;two month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -178,9 +178,9 @@
 
 <entry>
 <title>2019 Goals - One month check in</title>
-<link href="http://www.agmweb.ca/2019-02-01-one-month-in/"/>
+<link href="https://mckay.pub.ca/2019-02-01-one-month-in/"/>
 <updated>2019-02-01T00:00:00-08:00</updated>
-<id>http://www.agmweb.ca/one-month-in</id>
+<id>https://mckay.pub.ca/one-month-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;http://mckay.pub/2018-12-28-goals/&quot;&gt;one month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -199,9 +199,9 @@
 
 <entry>
 <title>2019 Goals</title>
-<link href="http://www.agmweb.ca/2018-12-28-goals/"/>
+<link href="https://mckay.pub.ca/2018-12-28-goals/"/>
 <updated>2018-12-28T00:00:00-08:00</updated>
-<id>http://www.agmweb.ca/goals</id>
+<id>https://mckay.pub.ca/goals</id>
 <content type="html">&lt;p&gt;&lt;strong&gt;My goal&lt;/strong&gt;: I&amp;#39;m going to beat last years time of 4:19 and do the &lt;a href=&quot;https://www.rbcgranfondo.com/whistler/&quot;&gt;Whistler Gran Fondo&lt;/a&gt; in September 2019 in 4 hours.&lt;/p&gt;
 
 &lt;p&gt;That seems absurdly ridiculous on the face of it, but the fact that I was able to shave off 23 minutes this year was nothing short of miraculous to me. So let&amp;#39;s try shaving off another 19 minutes. How am I going to do this?&lt;/p&gt;
@@ -228,9 +228,9 @@
 
 <entry>
 <title>Car Tracking</title>
-<link href="http://www.agmweb.ca/2018-12-15-car-tracking/"/>
+<link href="https://mckay.pub.ca/2018-12-15-car-tracking/"/>
 <updated>2018-12-15T00:00:00-08:00</updated>
-<id>http://www.agmweb.ca/car-tracking</id>
+<id>https://mckay.pub.ca/car-tracking</id>
 <content type="html">&lt;p&gt;This week I recieved and email from the Clean Energy Vehicle program. They&amp;#39;d like us to install a device in our Tesla that tracks us:&lt;/p&gt;
 
 &lt;p&gt;&amp;quot;By understanding when and where EVs charge to how much energy is consumed, you can help pave the way for future drivers by ensuring that the power system is ready for a plug-in future.&amp;quot;&lt;/p&gt;
@@ -273,9 +273,9 @@
 
 <entry>
 <title>BC going electric</title>
-<link href="http://www.agmweb.ca/2018-11-20-bc-going-electric/"/>
+<link href="https://mckay.pub.ca/2018-11-20-bc-going-electric/"/>
 <updated>2018-11-20T00:00:00-08:00</updated>
-<id>http://www.agmweb.ca/bc-going-electric</id>
+<id>https://mckay.pub.ca/bc-going-electric</id>
 <content type="html">&lt;p&gt;Today the BC Government announced that they will be planning to introduce legislation that:&lt;/p&gt;
 
 &lt;blockquote&gt;&quot;All new cars and trucks sold in B.C. in the year 2040 will have to be zero-emission vehicles&quot;&lt;/blockquote&gt;
@@ -303,9 +303,9 @@
 
 <entry>
 <title>So done with the NFL</title>
-<link href="http://www.agmweb.ca/2018-11-15-done-with-the-nfl/"/>
+<link href="https://mckay.pub.ca/2018-11-15-done-with-the-nfl/"/>
 <updated>2018-11-15T00:00:00-08:00</updated>
-<id>http://www.agmweb.ca/done-with-the-nfl</id>
+<id>https://mckay.pub.ca/done-with-the-nfl</id>
 <content type="html">&lt;p&gt;I&amp;#39;ve been an NFL for fan for a long time. It started before university when I rebelled against any sport that was vaguely popular at school (and seemed absolutely terrible). For no other reason than they did well at the time, I became a Washington Redskins fan (yes I&amp;#39;m old).&lt;/p&gt;
 
 &lt;p&gt;I started a football team at university, I was involved in it. I even heard Chuck Noll speak once. If there was a Redskins game on TV, I would go up to the local pub in my jersey and watch the game.&lt;/p&gt;
@@ -337,9 +337,9 @@
 
 <entry>
 <title>My fourth Gran Fondo</title>
-<link href="http://www.agmweb.ca/2018-09-09-fourth-fondo/"/>
+<link href="https://mckay.pub.ca/2018-09-09-fourth-fondo/"/>
 <updated>2018-09-09T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/fourth-fondo</id>
+<id>https://mckay.pub.ca/fourth-fondo</id>
 <content type="html">&lt;p&gt;Yesterday was my fourth Gran Frondo, &lt;a href=&quot;http://mckay.pub/2017-09-10-third-fondo/&quot;&gt;the last&lt;/a&gt; was in 2017.&lt;/p&gt;
 
 &lt;p&gt;The Fondo for me has become the signature event of the year. It&amp;#39;s at the end of the season, as the days get shorter and the evenings draw closer and the rain starts to arrive. The ride provides a nice gauge for how well the training has gone and your level of fitness over the year. Also, since it&amp;#39;s the same ride every year you can compare yourself historically to the ride.&lt;/p&gt;
@@ -407,9 +407,9 @@
 
 <entry>
 <title>Tesla Model 3</title>
-<link href="http://www.agmweb.ca/2018-07-25-tesla/"/>
+<link href="https://mckay.pub.ca/2018-07-25-tesla/"/>
 <updated>2018-07-25T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/tesla</id>
+<id>https://mckay.pub.ca/tesla</id>
 <content type="html">&lt;p&gt;About a month ago we got our &lt;a href=&quot;https://ts.la/andrew72696&quot;&gt;Tesla Model 3&lt;/a&gt;. This is a rambling post about it.&lt;/p&gt;
 
 &lt;p&gt;Personally I don&amp;#39;t mind spending money on some things, but I absolutely hate spending money on depreciating assets. Since I&amp;#39;m lucky enough to have money to save, I feel it should be in boring assets that make a &lt;a href=&quot;https://www.vanguardcanada.ca/&quot;&gt;solid return every year&lt;/a&gt;.&lt;/p&gt;
@@ -448,9 +448,9 @@
 
 <entry>
 <title>Pedestrians vs Drivers</title>
-<link href="http://www.agmweb.ca/2018-06-29-pedestrians/"/>
+<link href="https://mckay.pub.ca/2018-06-29-pedestrians/"/>
 <updated>2018-06-29T00:00:00-07:00</updated>
-<id>http://www.agmweb.ca/pedestrians</id>
+<id>https://mckay.pub.ca/pedestrians</id>
 <content type="html">&lt;p&gt;So often these days the debate is framed as &amp;quot;drivers vs cyclists&amp;quot; or &amp;quot;drivers vs pedestrians&amp;quot;. Basically drivers vs everyone. Because if there&amp;#39;s one thing we&amp;#39;ve learnt is that drivers think all the roads, parking spaces and infrastructure is all for them and absolutely no-one else.&lt;/p&gt;
 
 &lt;p&gt;But you need to walk to get into a car. You need to get out of a car to walk when you get to your destination. Everyone becomes a pedestrian at some point. In fact everyone in a car gets out of a car, eventually.&lt;/p&gt;

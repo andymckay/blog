@@ -59,8 +59,8 @@
 //
 //	Configuration
 //
-var fileLoadingImage = "http://www.agmweb.ca/files/media/public/images/loading.gif";		
-var fileBottomNavCloseImage = "http://www.agmweb.ca/files/media/public/images/closelabel.gif";
+var fileLoadingImage = "https://mckay.pub.ca/files/media/public/images/loading.gif";		
+var fileBottomNavCloseImage = "https://mckay.pub.ca/files/media/public/images/closelabel.gif";
 
 var resizeSpeed = 7;	// controls the speed of the image resizing (1=slowest and 10=fastest)
 
@@ -196,7 +196,7 @@ Lightbox.prototype = {
 		//				</div>
 		//				<div id="loading">
 		//					<a href="#" id="loadingLink">
-		//						<img src="http://www.agmweb.ca/files/media/public/images/loading.gif">
+		//						<img src="https://mckay.pub.ca/files/media/public/images/loading.gif">
 		//					</a>
 		//				</div>
 		//			</div>
@@ -209,7 +209,7 @@ Lightbox.prototype = {
 		//				</div>
 		//				<div id="bottomNav">
 		//					<a href="#" id="bottomNavClose">
-		//						<img src="http://www.agmweb.ca/files/media/public/images/close.gif">
+		//						<img src="https://mckay.pub.ca/files/media/public/images/close.gif">
 		//					</a>
 		//				</div>
 		//			</div>

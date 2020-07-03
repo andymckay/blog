@@ -21,7 +21,7 @@ var notifyMe = function notifyMe() {
     Notification.requestPermission(function (permission) {
       // If the user is okay, let's create a notification
       if (permission === "granted") {
-        var notification = new Notification("Hi there!").onclick(window.open('http://www.agmweb.ca/files/notification.html'));
+        var notification = new Notification("Hi there!").onclick(window.open('https://mckay.pub.ca/files/notification.html'));
       }
     });
   }

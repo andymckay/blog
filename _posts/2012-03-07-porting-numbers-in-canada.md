@@ -5,7 +5,7 @@ categories: Canada
 old: 2331
 blog: andy-mckay
 ---
-<p>A while back I posted about how I was looking for an <a href="http://www.agmweb.ca/blog/andy/2318/">alternative to Rogers</a>. Pretty much anyone who didn't want me to sign a contract for a phone will do. As it turned out I switched to Wind.</p>
+<p>A while back I posted about how I was looking for an <a href="https://mckay.pub.ca/blog/andy/2318/">alternative to Rogers</a>. Pretty much anyone who didn't want me to sign a contract for a phone will do. As it turned out I switched to Wind.</p>
 <p>Sadly as it turned out Wind doesn't work with 5 blocks of my house. Even though they say they do on the map. It was really hard to get through to Wind customer service, but after a few days of frustration I switched to Koodo (really Telus) and all was good. Wind cancelled out my bill, no problem.</p>
 <p>Until I got a bill from Rogers. So here goes:</p>
 <p>December 20th, my 3 year contract ends, it's now on 30 day basis. January 20th. I phone up and give Rogers 30 days notice. That's in their contract and something I had discussed with them on a previous date, January 5th. My last bill will be February 20th.</p>

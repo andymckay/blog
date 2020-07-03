@@ -15,4 +15,4 @@ Zip file: <a href="/files/Clouseau.0.1.zip">/files/Clouseau.0.1.zip</a> (or from
 
 <strong>Update:</strong> requires Zope 2.9+. Tested on Plone 2.5.
 
-<strong>Update:</strong> <a href="http://www.agmweb.ca/blog/index.php?p=40">what's Clouseau?</a>.
+<strong>Update:</strong> <a href="https://mckay.pub.ca/blog/index.php?p=40">what's Clouseau?</a>.

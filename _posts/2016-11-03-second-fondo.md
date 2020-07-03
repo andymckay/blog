@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-In September I did my second Gran Frondo, <a href="http://www.agmweb.ca/2015-09-12-gran-fondo/">the first</a> was in 2015.
+In September I did my second Gran Frondo, <a href="https://mckay.pub.ca/2015-09-12-gran-fondo/">the first</a> was in 2015.
 
 This time I had an idea of what I was going to face, had a training plan in my head and even a cunning plan for the Fondo.
 

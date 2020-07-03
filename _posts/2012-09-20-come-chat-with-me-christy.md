@@ -10,7 +10,7 @@ blog: andy-mckay
 
 <p>So come speak to me Christy. You can come meet me at work or knock on my door. Either of those would work.</p>
 
-<p>Alright so there are 4.4 million people in BC, you can't visit everyone. But let's say you stopped by my work for an hour. That's 20 people, that's a more efficient use of your time. [<a href="http://www.agmweb.ca/blog/andy/2349/#numbers">1</a>]</p>
+<p>Alright so there are 4.4 million people in BC, you can't visit everyone. But let's say you stopped by my work for an hour. That's 20 people, that's a more efficient use of your time. [<a href="https://mckay.pub.ca/blog/andy/2349/#numbers">1</a>]</p>
 
 <p>You aren't planning on going to the legislature and speaking to MP's or going to Victoria because:</p>
 
@@ -19,11 +19,11 @@ blog: andy-mckay
 
 <p>You've got 6 months, plenty of time.</p>
 
-<p>Or perhaps you could use reddit. Some guy called <a href="http://www.reddit.com/r/IAmA/comments/z1c9z/i_am_barack_obama_president_of_the_united_states/">Obama</a> did that bet that would cross a few people off the list. [<a href="http://www.agmweb.ca/blog/andy/2349/#wowbagger">2</a>]</p>
+<p>Or perhaps you could use reddit. Some guy called <a href="http://www.reddit.com/r/IAmA/comments/z1c9z/i_am_barack_obama_president_of_the_united_states/">Obama</a> did that bet that would cross a few people off the list. [<a href="https://mckay.pub.ca/blog/andy/2349/#wowbagger">2</a>]</p>
 
 <p>If you'd like Christy to come talk to you, you could contact her on <a href="https://twitter.com/christyclarkbc">Twitter</a>.</p>
 
-<p>Add this link to your site and see if you can encourage <a rel="nofollow" href="http://twitter.com/home/?status=.@christyclarkbc come chat with me! http://www.agmweb.ca/blog/andy/2349/">Christy to come chat with you</a>:</p>
+<p>Add this link to your site and see if you can encourage <a rel="nofollow" href="http://twitter.com/home/?status=.@christyclarkbc come chat with me! https://mckay.pub.ca/blog/andy/2349/">Christy to come chat with you</a>:</p>
 <pre>
 &lt;a href="http://twitter.com/home/?status=.@christyclark come chat with me!"&gt;Come chat with me Christy&lt;/a&gt;
 </pre>

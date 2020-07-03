@@ -3,7 +3,7 @@ body {
 }
 #header {
     background-color: white;
-background-image: url("http://www.agmweb.ca/files/gradient-e5e5e5-ffffff.gif"); 
+background-image: url("https://mckay.pub.ca/files/gradient-e5e5e5-ffffff.gif"); 
 background-repeat: repeat-x;
 background-attachment: fixed;
 }
@@ -29,7 +29,7 @@ background-attachment: fixed;
 }
 
 .byline {
-    background: url(http://www.agmweb.ca/files/images/date.png) no-repeat 0% 50% transparent;
+    background: url(https://mckay.pub.ca/files/images/date.png) no-repeat 0% 50% transparent;
     margin-top: -0.5em;
     padding: 4px 0px 4px 22px;    
 }   

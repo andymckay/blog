@@ -4,7 +4,7 @@ title: Elections
 categories: Canada
 blog: andy-mckay
 ---
-The BC election for 2013 just kicked off today. Of course the real campaign has been happening for ages. Basically the Liberals gave up on being a government months ago, <a href="http://www.agmweb.ca/2012-09-20-come-chat-with-me-christy">disbanding parliament and just "campaigning"</a>.
+The BC election for 2013 just kicked off today. Of course the real campaign has been happening for ages. Basically the Liberals gave up on being a government months ago, <a href="https://mckay.pub.ca/2012-09-20-come-chat-with-me-christy">disbanding parliament and just "campaigning"</a>.
 
 But there was a comment today on CBC that annoyed me:
 
