@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Docker in development (part 4)</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -25,7 +25,7 @@
 <hr class="florished">
 <p>Tips for developing with Docker.</p>
 
-<h2>Keep your container small</h2>
+<h2 id="keep-your-container-small">Keep your container small</h2>
 
 <p>Each layer in your Dockerfile is cached. This means that if you have the same layer repeated in multiple images, it will cache and reuse that layer.</p>
 
@@ -45,9 +45,9 @@
 16bb922e5ff5        6 hours ago         /bin/sh -c yum install -y supervisor            224.5 MB
 </pre>
 
-<p>That&#39;s a 222.071 MB difference.</p>
+<p>That’s a 222.071 MB difference.</p>
 
-<p>You can do a <code>yum clean</code> and that&#39;s when it gets interesting. Three seperate lines, no clean:</p>
+<p>You can do a <code>yum clean</code> and that’s when it gets interesting. Three seperate lines, no clean:</p>
 
 <pre>
 392cecc77eae        12 hours ago         /bin/sh -c yum install -y cronie                34.72 MB
@@ -58,9 +58,9 @@
 <p>Install and clean in three lines:</p>
 
 <pre>
-832fe193df7d        About a minute ago   /bin/sh -c yum install -y cronie && yum clean   34.69 MB
-331bc45fc42a        About a minute ago   /bin/sh -c yum install -y bash-completion &&    18.64 MB
-f74a8b922149        2 minutes ago        /bin/sh -c yum install -y supervisor && yum c   21.54 MB
+832fe193df7d        About a minute ago   /bin/sh -c yum install -y cronie &amp;&amp; yum clean   34.69 MB
+331bc45fc42a        About a minute ago   /bin/sh -c yum install -y bash-completion &amp;&amp;    18.64 MB
+f74a8b922149        2 minutes ago        /bin/sh -c yum install -y supervisor &amp;&amp; yum c   21.54 MB
 </pre>
 
 <p>Install and clean in one line:</p>
@@ -71,7 +71,7 @@ f74a8b922149        2 minutes ago        /bin/sh -c yum install -y supervisor &&
 
 <p>The last one saves you 239.19 MB.</p>
 
-<p>It&#39;s a pretty simple and quick check to see how big the layer in your Dockerfile. Next time you add a layer, give it a try.</p>
+<p>It’s a pretty simple and quick check to see how big the layer in your Dockerfile. Next time you add a layer, give it a try.</p>
 
 <p>See also <a href="/2015-06-01-docker-in-development-part-3/">part 3</a>.</p>
 

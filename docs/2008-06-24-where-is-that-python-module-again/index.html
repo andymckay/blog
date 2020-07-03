@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Where is that python module again?</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,16 +24,14 @@
 <h2><a href="/2008-06-24-where-is-that-python-module-again/">Where is that python module again?</a></h2>
 <hr class="florished">
 <p>For people like me with multiple pythons installations and can never remember his current modules are installed, I added the simple script, <code>where-python</code>:</p>
-
 <pre>
 python -c "import $1; import os; print os.path.dirname($1.__file__)"
 </pre>
-
 <p>And hence:</p>
-
 <pre>$ where-python django
 /Library/Frameworks/Python.framework/Versions/2.4/lib/python2.4/site-packages/django
 </pre>
+
 
 <div id="navigation">
   <a href="/2008-06-22-we-need-more-developers/">&laquo; older</a>

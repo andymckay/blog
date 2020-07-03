@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Django miscellany</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,7 +24,6 @@
 <h2><a href="/2008-05-02-django-miscellany/">Django miscellany</a></h2>
 <hr class="florished">
 <p>My colleagues got hit by <a href="http://blog.cottee.org/2008/04/django-settings-file.html">this issue the other day</a>. It's a definite annoyance, and just for the record here's my version, just on the off chance that <code>os.curdir</code> is different.</p>
-
 <pre>
 import os
 this = os.path.dirname(os.path.abspath(__file__))
@@ -33,11 +32,8 @@ TEMPLATE_DIRS = (
     "%s/jobs/templates" % this,
 )
 </pre>
-
 <p>On other things I integrated django-openid the other day into a Django site and its really nice. It worked really well, although I do have to find a way of altering the templates to go nicely into my Page Templated site. I do have to put in some work to the login screen. I have to explain the OpenId login, without making it too daunting and provide an easy way to create an account.</p>
-
 <p>Finally I had a quick play with Google maps. Want to show a map based on a UK postcode? How about:</p>
-
 <pre>
           var postcode = "L7 9NJ";
           if (postcode != "") {
@@ -52,7 +48,6 @@ TEMPLATE_DIRS = (
               }
           }
 </pre>
-
 <p>Yay. Not the encoding has to done with setBaseCountryCode as <code>UK</code>, not <code>.co.uk</code> or <code>gb</code>. Otherwise it centres on Germany, not Liverpool. </p>
 
 <div id="navigation">

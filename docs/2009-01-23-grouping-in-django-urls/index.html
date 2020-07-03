@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Grouping in Django URL's</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,18 +24,12 @@
 <h2><a href="/2009-01-23-grouping-in-django-urls/">Grouping in Django URL's</a></h2>
 <hr class="florished">
 <p>I wanted to include a regular expression in my Django URL's, but I didn't want to that be passed as an argument to the view. The answer is in the Python <a href="http://docs.python.org/library/re.html#module-re">regular expression</a> documentation:</p>
-
 <blockquote>(?:...)
 A non-grouping version of regular parentheses</blockquote>
-
 <p>So in my case a URL like:</p>
-
 <pre>r'^(?:site/[0-9]+/)view/(?P&lt;id&gt;.*)/$</pre>
-
 <p>Would match the URL:</p>
-
 <pre>/site/1/view/2/</pre>
-
 <p>But by using (?: only the <code>id</code> is passed to the view.</p>
 
 <div id="navigation">

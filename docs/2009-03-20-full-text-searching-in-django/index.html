@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Full text searching in Django</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,7 +24,6 @@
 <h2><a href="/2009-03-20-full-text-searching-in-django/">Full text searching in Django</a></h2>
 <hr class="florished">
 <p>I've been looking for a nice full text search index for Postgres. For a while I've used the built in full text search in Postgres and have been pretty impressed in that I've had nothing to fix on it or worry about in over 5 months and I like that.</p>
-
 <p>On the next upgrade of the site I wanted to do full text indexing across multiple models. This made it a little bit more interesting, but I quickly discarded a few plans:
 <ul>
 <li><a href="http://barryp.org/blog/entries/postgresql-full-text-search-django/">tsvector</a> is the one I was using and is based on providing search for a single model.</li>
@@ -33,13 +32,9 @@
 <li><a href="http://www.djangosnippets.org/snippets/1328/">This snippet</a> is very cool, but again only for one model....</li>
 </ul>
 <p>So all we need to do is hack apart that snippet and use it with the content types framework instead. So here's yet another solution that provides cross model searching. I use the Vector field from the last snippet and use it in a Generic content model.  Then using a bit from the Whoosh example, I apply a signal to listen to every model. When it changes a check to see if the "get_search_fields" method exists. Yes that's hacky but works.</p>
-
 <p>The last hacky part is actually saving the tsvector, that is done through raw sql (as is the snippet). I've tried overriding get_db_prep_save and such (<a href="http://docs.djangoproject.com/en/dev/howto/custom-model-fields/?from=olddocs">as documented</a>) but can only succeed in strings being written in, not tsvectors. So if anyone has any thoughts on that, much appreciated.</p>
-
 <p>So a query returns the search model hits and then access content_object on the result gives you the object for the results page. With pagination that will mean 20 queries, one for each row of my result. Which isn't ideal, but we can optimize by adding more values to the search model if needed to prevent those lookups.</p>
-
 <p>Here's the code:</p>
-
 <pre>from django.db import models
 from django.contrib import admin
 
@@ -98,8 +93,8 @@ def update_index(sender, instance, created, **kwargs):
     cursor.close()
 
 signals.post_save.connect(update_index)</pre>
-
 <p><b>Update:</b> corrected possible sql injection.</p>
+</p>
 
 <div id="navigation">
   <a href="/2009-03-18-exit-strategies-for-open-source-companies/">&laquo; older</a>

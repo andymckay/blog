@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Handling dir in Clouseau</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,14 +23,14 @@
 <div class="meta">Sep 20, 2006</div>
 <h2><a href="/2006-09-20-handling-dir-in-clouseau/">Handling dir in Clouseau</a></h2>
 <hr class="florished">
-<p>I was playing with <em>dir</em> in Clouseau today. The problem is that in all tools this useful function returns around 600-900 when run on a Zope object. The reason I thought was acquistion and then I realised it wasn&#39;t its just Zope 2&#39;s huge inheritance tree. So how can this be more useful?</p>
+<p>I was playing with <em>dir</em> in Clouseau today. The problem is that in all tools this useful function returns around 600-900 when run on a Zope object. The reason I thought was acquistion and then I realised it wasn’t its just Zope 2’s huge inheritance tree. So how can this be more useful?</p>
 
 <ul>
-    <li>Integration with DocFinderTab to find say the dir of the top 4-5 or five classes, most of the time you don't need to go too deep.</li>
-    <li>Easy introspection of an objects Schema for example:
+	<li>Integration with DocFinderTab to find say the dir of the top 4-5 or five classes, most of the time you don't need to go too deep.</li>
+	<li>Easy introspection of an objects Schema for example:
 <pre>
 <textarea name="code" class="python">
->>> utils.schema(context)
+&gt;&gt;&gt; utils.schema(context)
 [ 'setDescription', 'setTitle', 'Title',]
 </textarea>
 </pre>

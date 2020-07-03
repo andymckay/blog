@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: First things to do on a Django project...</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,33 +24,24 @@
 <h2><a href="/2009-09-03-first-things-to-do-on-a-django-project/">First things to do on a Django project...</a></h2>
 <hr class="florished">
 <p>Call them best practices if you like, but here's the things I do when starting a new Django project.</p>
-
 <div>&nbsp;</div>
-
 <ul><li><strong>Create an "app" app.</strong>&nbsp;<span class="Apple-style-span">The&nbsp;<em>app</em>&nbsp;folder is the catch all for all the non-reusable parts of your site. The bit that actually does alot of the site specific stuff. Usually, but not always, it only contains an empty<em>models.py</em>&nbsp;(this is so that Django knows its an app).</span></li><li><span class="Apple-style-span"><strong>Create a templates folder.</strong> Inside the app project, this is for all the site specific stuff, as opposed to hopefully reusable parts in the specific folders.</span></li><li><span class="Apple-style-span"><strong><a class="external-link" href="http://docs.djangoproject.com/en/dev/ref/templates/api/#writing-your-own-context-processors">Create a template context processor</a>.</strong> You know you will need one eventually, every project does. Don't forget to hook it into the settings file. Mine is normally called <em>context.py</em>&nbsp;and placed in the app project. It does absolutely nothing at this point, it's just waiting to be customised.</span></li><li><span class="Apple-style-span"><strong><a class="external-link" href="http://docs.djangoproject.com/en/dev/topics/http/middleware/">Create a middleware file.</a></strong> You might not need it, but chances are you will.&nbsp;Don't forget to hook it into the settings file.&nbsp;Mine is normally called <em>middleware.py&nbsp;</em>and placed in the app project. Again it does absolutely nothing at this point.</span></li><li><span class="Apple-style-span"><a class="external-link" href="http://docs.djangoproject.com/en/dev/topics/auth/#writing-an-authentication-backend"><strong>(Optional) Create a custom authentication backend.</strong></a> Called <em>authentication.py </em>and placed in the app project. Hook it up when you need it.</span></li></ul>
-
 <p>So that's the app project. Next let's set up the static content, that's easy:</p>
-
 <div>
 <ul><li><strong>Create a "static" folder.&nbsp;</strong>This is where the css, js, img will live.</li><li><strong><a class="external-link" href="http://docs.djangoproject.com/en/dev/howto/static-files/#how-to-do-it">Serve static through the dev server.</a></strong> When it goes live, I leave the content and urls in the same place, but have static overriden at the Apache (or your favourite server) level to serve the static content and not your dev server.</li></ul>
 <span class="Apple-style-span">
 <p>Create a restart script that starts everything cleanly. For me this normally means:</p>
 </span></div>
-
 <div>
 <ul><li>drops the database</li><li>recreates it</li><li>syncs the database (syncdb), without input</li><li>creates a superuser, or loads in a fixture with that data</li><li>loads in the required fixtures</li></ul>
 <span class="Apple-style-span">
 <p>Here's <a class="external-link" href="https://mckay.pub.ca/blog/andy/2154/">an old one</a> that does that, I've changed the one I use a bit since then, will need to do a new post. Whilst you are quickly iterating this is the best way to go, it keeps it clean and simple. You'll want to use South or django-evolution once it goes live of course.</p>
 </span></div>
-
 <div><span class="Apple-style-span">For each subsequent app (things that have the models that actually do the work) that you create:</span></div>
-
 <div>
 <ul><li><strong>Create a forms folder add an __init__.py inside it.</strong> Forms will live here.</li><li><strong>Delete models.py and create a models folder.</strong> Add an __init__.py inside it. In the __init__.py import each of the modules that you will be adding. Don't forget to add in <a class="external-link" href="http://code.djangoproject.com/ticket/9674">app_label on your models</a>.</li><li><strong>Inside the models folder, create a fixtures folder</strong>. Guess what goes in here.</li><li><strong>Create a signals.py.</strong> Signal code will go here.</li><li><strong>Delete views.py and create a views folder.</strong></li><li><strong><a class="external-link" href="http://emperorcezar.blogspot.com/2008/04/breaking-out-django-tests.html">Create a tests folder</a>, add an __init__.py inside it.</strong> Tests will live here.</li><li><strong>Create a template folder.</strong> This is where the templates live.</li></ul>
 <span class="Apple-style-span">And that's about it. Next to do on the list is to create a paster script that does all this so you don't have to.</span></div>
-
 <div><span class="Apple-style-span"><br /></span></div>
-
 <div>&nbsp;</div>
 
 <div id="navigation">

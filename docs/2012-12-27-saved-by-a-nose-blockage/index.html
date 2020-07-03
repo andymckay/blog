@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Saved by a nose-blockage</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,15 +24,13 @@
 <h2><a href="/2012-12-27-saved-by-a-nose-blockage/">Saved by a nose-blockage</a></h2>
 <hr class="florished">
 <p>Was slightly pleased to see today that nose-blockage saved our test suite. A change in the <a href="https://github.com/mozilla/django-browserid">django-browserid</a> library meant that on each call to login in our test suite, it was going to make a HTTP request to <code>verifier.login.persona.org</code>.</p>
-
 <p>Fortunately <a href="https://github.com/andymckay/nose-blockage">nose-blockage</a> stops that request and 1,012 tests failed. If we didn't have that blockage in place, out test suite would have made over 1,012 HTTP requests to the persona.org server on each test run. That would have made our test suite slower and dependent on an external service. Not a big issue to fix, but this is a really good example of why nose-blockage can be useful to save you from libraries that change. Example failure:</p>
-
 <pre>
--------------------- >> begin captured logging << --------------------
+-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------
 django_browserid.base: INFO: Verification URL: https://verifier.login.persona.org/verify
 requests.packages.urllib3.connectionpool: INFO: Starting new HTTPS connection (1): verifier.login.persona.org
 blockage.plugins: WARNING: Denied HTTP connection to: verifier.login.persona.org
---------------------- >> end captured logging << ---------------------
+--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------
 </pre>
 
 <div id="navigation">

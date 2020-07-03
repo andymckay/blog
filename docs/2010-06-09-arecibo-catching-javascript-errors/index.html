@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Arecibo catching Javascript errors</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,20 +24,16 @@
 <h2><a href="/2010-06-09-arecibo-catching-javascript-errors/">Arecibo catching Javascript errors</a></h2>
 <hr class="florished">
 <p>Thanks to a push from <a href="http://github.com/acdha">Chris Adams</a>, the Javascript library in the trunk now catches JavaScript errors.</p>
-
 <p>So if you have some JavaScript that throws an error, for example:</p>
-
 <pre>
             function foo() {
                 alert("About to fail!");
                 bar();
             }
 </pre>
-
 <p>In this case there is no "bar()" defined. This will be caught and passed to Arecibo, so that you have a track of the error and the browser.</p>
-
-<p><img src="/files/arecibo-client-side.png" />
-<p>Unfortunately at the moment this only works in Firefox and Chrome. Thanks Chris!.</p></p>
+<p><img src="/files/arecibo-client-side.png" /></p>
+<p>Unfortunately at the moment this only works in Firefox and Chrome. Thanks Chris!.</p>
 
 <div id="navigation">
   <a href="/2010-06-08-taskqueues-in-app-engine/">&laquo; older</a>

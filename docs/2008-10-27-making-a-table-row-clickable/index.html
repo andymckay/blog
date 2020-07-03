@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Making a table row clickable</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,22 +24,17 @@
 <h2><a href="/2008-10-27-making-a-table-row-clickable/">Making a table row clickable</a></h2>
 <hr class="florished">
 <p>This one is quite old, but I just spent a bit of time fiddling with the listings page on Arecibo. I really hate that when I've got a table, I have just one link to view the item in the whole row, that's just unfriendly. So I did some googling and spent some doing exactly what I shouldn't of: fiddling with CSS and making it all into spans.</p>
-
 <p>Today I remembered that tables in HTML are damn good at displaying tables and threw that out. Instead a quick jQuery can grab all the rows and make them link to the first link in the row:</p>
-
 <pre>
             $('table.listing tbody tr').bind("click", function() {
                 window.location = $(this).find("a").attr("href");
                 return false;
             });
 </pre>
-
 <p>And remember to turn the cursor into a pointer so it looks more like a link:</p>
-
 <pre>
    cursor: pointer;
 </pre>
-
 <p>Elementary stuff, but i'll be able to find this code next time and the Arecibo user interface is just that bit nicer.</p>
 
 <div id="navigation">

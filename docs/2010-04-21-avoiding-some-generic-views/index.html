@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Avoiding some generic views</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -25,26 +25,19 @@
 <hr class="florished">
 <p class="discreet">As I wrote this, I realised I seemed to be on a roll with negative blog posts. Sorry, I will get positive again soon, I'm sure.</p>
 
-<p>If you follow through the Django tutorial, you'll get to <a href="http://docs.djangoproject.com/en/dev/intro/tutorial04/">stage 4</a> which encourages you to move to  generic views. Generic views are a neat way of removing the view part of the equation. Instead of a standard URL > view > template, you have URL > template.</p>
+<p>If you follow through the Django tutorial, you'll get to <a href="http://docs.djangoproject.com/en/dev/intro/tutorial04/">stage 4</a> which encourages you to move to  generic views. Generic views are a neat way of removing the view part of the equation. Instead of a standard URL &gt; view &gt; template, you have URL &gt; template.</p>
 
 <p>There's <a href="http://docs.djangoproject.com/en/dev/ref/generic-views/">documentation on all the generic views</a> and there's quite a few.</p>
 
 <h3>The problem</h3>
-
 <p>Here's the conversation that goes on in #django IRC about once every day or so. Abbreviated, its normally more long winded than this.</p>
 
 <p><b>djangodood:</b> can I pass parameters to a query in templates?</p>
-
 <p><b>others:</b> no</p>
-
 <p><b>djangodood:</b> well how do I do this then? I tried doing it in urls.py and that didn't work</p>
-
 <p><b>others:</b> do it in your view</p>
-
 <p>...usually a break of a few minutes.</p>
-
 <p><b>djangodood:</b> but I want to use my generic views</p>
-
 <p><b>others</b> bang heads on table</p>
 
 <p>Logic for a template should be done mostly in the view. If its very model specific, doing it in the model might make sense. But the key is keep the template as simple as possible. The templating language reinforces this by not allowing parameters.</p>

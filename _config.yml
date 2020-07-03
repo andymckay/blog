@@ -1,4 +1,4 @@
+plugins: [jekyll-paginate]
 permalink: /:year-:month-:day-:title/
-markdown: redcarpet
 paginate: 1
 highlighter: rouge

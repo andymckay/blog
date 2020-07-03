@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Plone 3 tiny changes</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,12 +23,12 @@
 <div class="meta">Aug 24, 2007</div>
 <h2><a href="/2007-08-24-plone-3-tiny-changes-2/">Plone 3 tiny changes</a></h2>
 <hr class="florished">
-<p><img src="/files/plone_small_things_message.png" style="padding:1em; float:right" />
-<p>Quite often in applications I&#39;ve wanted to show just a warning or some information back to the user. In older Plone&#39;s there was one choice, that bright orange box that screamed &quot;idiot!&quot;. Now you can give your status message a level and there will a suitably bold message.</p>
-<code>
-addStatusMessage(_(u&quot;Changes saved.&quot;), type=&#39;info&#39;)
-</code>
-<p>Choices are: <code>info</code>, <code>warning</code> or <code>error</code>.</p></p>
+<p><img src="/files/plone_small_things_message.png" style="padding:1em; float:right" /></p>
+<p>Quite often in applications I've wanted to show just a warning or some information back to the user. In older Plone's there was one choice, that bright orange box that screamed "idiot!". Now you can give your status message a level and there will a suitably bold message.</p>
+<p><code>
+addStatusMessage(_(u"Changes saved."), type='info')
+</code></p>
+<p>Choices are: <code>info</code>, <code>warning</code> or <code>error</code>.</p>
 
 <div id="navigation">
   <a href="/2007-08-22-plone-3-tiny-changes-1/">&laquo; older</a>

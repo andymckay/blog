@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Language is important</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,7 +23,7 @@
 <div class="meta">Jan 07, 2015</div>
 <h2><a href="/2015-01-07-allowed/">Language is important</a></h2>
 <hr class="florished">
-<p><img src="https://farm6.staticflickr.com/5108/5569324504_b5a30e8dfc.jpg" style="float: right"></p>
+<p><img src="https://farm6.staticflickr.com/5108/5569324504_b5a30e8dfc.jpg" style="float: right" /></p>
 
 <p>This last week I sent in a pair of pull requests to remove the terms <em>whitelist</em> and <em>blacklist</em> from a couple of our repositories. You might scoff a such a pull request and a while back I would probably have been one of the first to question such a pull request, but my views on this have been changing.</p>
 
@@ -31,29 +31,29 @@
 
 <p>A colleague of mine, the awesome Chris Karlof, writes all his use cases, bugs and documentation defaulting to a female perspective. Throughout the use cases it refers to actions <em>she</em> takes. Then earlier in 2014 there were multiple pull requests in <a href="https://github.com/django/django/pull/2692">Django</a> and other projects that tackled these terms and <a href="https://www.joyent.com/blog/the-power-of-a-pronoun">gender bias</a>.</p>
 
-<p>Lastly, I support the Washington Redskins (go <a href="https://www.google.ca/search?q=redskins+rg+iii&biw=1124&bih=656&source=lnms&tbm=isch&sa=X&ei=HBiuVInMKsnkoASx3ILwAQ&ved=0CAcQ_AUoAg">RG III</a>), have done for many years. But I wish they&#39;d change their name (and get a new owner), I&#39;ve met enough people now who are offended by it.</p>
+<p>Lastly, I support the Washington Redskins (go <a href="https://www.google.ca/search?q=redskins+rg+iii&amp;biw=1124&amp;bih=656&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=HBiuVInMKsnkoASx3ILwAQ&amp;ved=0CAcQ_AUoAg">RG III</a>), have done for many years. But I wish they’d change their name (and get a new owner), I’ve met enough people now who are offended by it.</p>
 
 <p>Finally, I decided it was time to make some changes and started making small changes to our code bases. First off I commented on a few pull requests that there might be better terms for <em>whitelist</em>. Then I started changing our code bases. Interestingly enough on the way, I realised I was the person who had introduced those terms in a few places.</p>
 
-<p>When you think about it there are probably better terms. For example: <em>email_whitelist</em> became <em>emails_allowed</em>, <em>tag_blacklist</em> became <em>tags_blocked</em>. In pretty much every case there is a better word that is: 1) more descriptive and  2) shorter. That&#39;s a win.</p>
+<p>When you think about it there are probably better terms. For example: <em>email_whitelist</em> became <em>emails_allowed</em>, <em>tag_blacklist</em> became <em>tags_blocked</em>. In pretty much every case there is a better word that is: 1) more descriptive and  2) shorter. That’s a win.</p>
 
 <p>You could use things like <em>allowlist</em> or <em>denylist</em>, but unless you are particularly fond of Hungarian notation why have <em>list</em> in there at all? Just use a variable that reads well.</p>
 
 <h3>Will this make a big difference?</h3>
 
-<p>Of course not, I&#39;m not pretending it will. I can&#39;t point to studies or anything proving offence. But I can look at my code base with a little bit more pride and think that it sets a decent example.</p>
+<p>Of course not, I’m not pretending it will. I can’t point to studies or anything proving offence. But I can look at my code base with a little bit more pride and think that it sets a decent example.</p>
 
 <h3>Where does it end?</h3>
 
-<p>I can&#39;t predict what&#39;s offensive in every culture and every person in the future. Using that as an excuse to not make the change is lame. I&#39;m just a simple person trying to do something right. Certainly something new will come up and we&#39;ll adapt when it happens. We&#39;ll be listening and that&#39;s important.</p>
+<p>I can’t predict what’s offensive in every culture and every person in the future. Using that as an excuse to not make the change is lame. I’m just a simple person trying to do something right. Certainly something new will come up and we’ll adapt when it happens. We’ll be listening and that’s important.</p>
 
 <h3>Haven't we got better things to do?</h3>
 
-<p>Yep, we all do. But if you&#39;ve got 5 minutes or see something that might be offensive, clean it up. It&#39;s easy to always play the &quot;too busy&quot; card and never fix things.</p>
+<p>Yep, we all do. But if you’ve got 5 minutes or see something that might be offensive, clean it up. It’s easy to always play the “too busy” card and never fix things.</p>
 
 <p>So if you see something you could make a little better as you make changes, just give it a go. If you are feeling brave you could tackle <a href="https://dxr.mozilla.org/mozilla-central/search?q=whitelist">this</a> or <a href="https://dxr.mozilla.org/mozilla-central/search?q=blacklist">this</a>.</p>
 
-<p>At Mozilla, I&#39;m recognizing that we have a diverse multi-cultural team and inclusive team. I&#39;m proud of that and want to support it. After all: <strong>Doing good is part of our code</strong>. Literally.</p>
+<p>At Mozilla, I’m recognizing that we have a diverse multi-cultural team and inclusive team. I’m proud of that and want to support it. After all: <strong>Doing good is part of our code</strong>. Literally.</p>
 
 <div id="navigation">
   <a href="/2014-12-17-developers-first/">&laquo; older</a>

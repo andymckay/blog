@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Farewell navigator.mozPay</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -25,27 +25,53 @@
 <hr class="florished">
 <p>A few weeks ago the Mozilla Marketplace announced it was <a href="https://discourse.mozilla-community.org/t/firefox-os-connected-devices-announcement/6864">shutting down payments</a>. A few days ago Android filed bugs to remove <a href="https://wiki.mozilla.org/WebAPI/WebPayment">mozPay</a> from their codebase.</p>
 
-<p>And with that a pile of stuff I worked on at Mozilla for a long time with a couple of awesome colleagues came to an end. I&#39;m not bitter about that at all, in the end I became the biggest proponent of ending this project because I saw the costs it was occuring (lots) and the returns (almost zero) and impact it was having (zero). At Mozilla we need to be better at evaluating and ending things when they don&#39;t work. If you can&#39;t end things that work, how can you start new exciting things?</p>
+<p>And with that a pile of stuff I worked on at Mozilla for a long time with a couple of awesome colleagues came to an end. I’m not bitter about that at all, in the end I became the biggest proponent of ending this project because I saw the costs it was occuring (lots) and the returns (almost zero) and impact it was having (zero). At Mozilla we need to be better at evaluating and ending things when they don’t work. If you can’t end things that work, how can you start new exciting things?</p>
 
-<p>There&#39;s multiple reasons why payments didn&#39;t go anywhere, I&#39;ll detail the business ones in a later post. For a moment here&#39;s the technical things that stood out:</p>
+<p>There’s multiple reasons why payments didn’t go anywhere, I’ll detail the business ones in a later post. For a moment here’s the technical things that stood out:</p>
 
 <ul>
-<li><p>mozPay was implemented in Firefox OS and later Android, which meant that web development was tied tightly to release timelines for phones.</p></li>
-<li><p>mozPay worked by putting a transparent border around the payment window, in an attempt to be unspoofable. Sadly this meant that the screen real estate got really small and was full of bugs as a result.</p></li>
-<li><p>mozPay had configuration in the platform, which meant that testing our dev and stage instances required continual re-configuration (something that got scripted through an add-on).</p></li>
-<li><p>The idea behind mozPay was flawed from the get go.</p></li>
-<li><p>The Marketplace was shipped as a web site because Firefox OS is about the web. But everything else on the phone was shipped as a packaged app. The advantage was that we could ship updates as often as we wanted. The downside was that every change had to be tested on every phone and OS we shipped back to the 1.0.</p></li>
-<li><p>Because everything else on the phone was not tested once it shipped, payments testing didn&#39;t get the benefit of the tools or expertise from Firefox OS. It was out on its own. I summed this up in a meeting once like this: &quot;Either we are doing it wrong, or the rest of Firefox OS is, I&#39;m not sure which but I know we are different&quot;.</p></li>
-<li><p>There wasn&#39;t a way to test it well at all really. There was no test framework from our payment provider. The only real way to test it was using real money.</p></li>
-<li><p>Because it was focused on carrier billing, not credit cards we were building a payments system for the web that couldn&#39;t be used on the web. Being in Canada, I couldn&#39;t test it at all, yet had to develop for it.</p></li>
-<li><p>Because there was no real way to test it or easily play with, it became opaque to so many people in Mozilla.</p></li>
-<li><p>At one point we couldn&#39;t even test carrier payments in the QA department in Mountain View because there was something wrong with carrier configuration for the tower that served the Mountain View office. We were asking people to drive away from the office and then test it.</p></li>
-<li><p>We were meant to be doing a UI that was consistent with both the Marketplace and Firefox OS. Both of which were not consistent with each other.</p></li>
-<li><p>We didn&#39;t own the entire flow of the payments, but had responsibility for it all, so that meant working with our payment provider to get minor changes done.</p></li>
-<li><p>...and don&#39;t get me started on authentication for payments and the switch from Persona to Firefox Accounts. That will bring me out in tears.</p></li>
+  <li>
+    <p>mozPay was implemented in Firefox OS and later Android, which meant that web development was tied tightly to release timelines for phones.</p>
+  </li>
+  <li>
+    <p>mozPay worked by putting a transparent border around the payment window, in an attempt to be unspoofable. Sadly this meant that the screen real estate got really small and was full of bugs as a result.</p>
+  </li>
+  <li>
+    <p>mozPay had configuration in the platform, which meant that testing our dev and stage instances required continual re-configuration (something that got scripted through an add-on).</p>
+  </li>
+  <li>
+    <p>The idea behind mozPay was flawed from the get go.</p>
+  </li>
+  <li>
+    <p>The Marketplace was shipped as a web site because Firefox OS is about the web. But everything else on the phone was shipped as a packaged app. The advantage was that we could ship updates as often as we wanted. The downside was that every change had to be tested on every phone and OS we shipped back to the 1.0.</p>
+  </li>
+  <li>
+    <p>Because everything else on the phone was not tested once it shipped, payments testing didn’t get the benefit of the tools or expertise from Firefox OS. It was out on its own. I summed this up in a meeting once like this: “Either we are doing it wrong, or the rest of Firefox OS is, I’m not sure which but I know we are different”.</p>
+  </li>
+  <li>
+    <p>There wasn’t a way to test it well at all really. There was no test framework from our payment provider. The only real way to test it was using real money.</p>
+  </li>
+  <li>
+    <p>Because it was focused on carrier billing, not credit cards we were building a payments system for the web that couldn’t be used on the web. Being in Canada, I couldn’t test it at all, yet had to develop for it.</p>
+  </li>
+  <li>
+    <p>Because there was no real way to test it or easily play with, it became opaque to so many people in Mozilla.</p>
+  </li>
+  <li>
+    <p>At one point we couldn’t even test carrier payments in the QA department in Mountain View because there was something wrong with carrier configuration for the tower that served the Mountain View office. We were asking people to drive away from the office and then test it.</p>
+  </li>
+  <li>
+    <p>We were meant to be doing a UI that was consistent with both the Marketplace and Firefox OS. Both of which were not consistent with each other.</p>
+  </li>
+  <li>
+    <p>We didn’t own the entire flow of the payments, but had responsibility for it all, so that meant working with our payment provider to get minor changes done.</p>
+  </li>
+  <li>
+    <p>…and don’t get me started on authentication for payments and the switch from Persona to Firefox Accounts. That will bring me out in tears.</p>
+  </li>
 </ul>
 
-<p>If you think all the above sounds crazy, you are right. One time I went to DjangoCon Europe in Poland and said to my QA person &quot;I&#39;m in Poland can I test anything?&quot;. The reply I got was: go set up a Polish bank account, get a SIM card, get the SIM card billed to the bank account, get a phone, put the SIM card in and then try purchasing something. Ensure that when you purchase something it shows up correctly on your bank statement a few weeks later. I had one day free.</p>
+<p>If you think all the above sounds crazy, you are right. One time I went to DjangoCon Europe in Poland and said to my QA person “I’m in Poland can I test anything?”. The reply I got was: go set up a Polish bank account, get a SIM card, get the SIM card billed to the bank account, get a phone, put the SIM card in and then try purchasing something. Ensure that when you purchase something it shows up correctly on your bank statement a few weeks later. I had one day free.</p>
 
 <p>But the level of purchasing from the user clicking the button all the way through to what appears on the bank account was the level we were looking after.</p>
 

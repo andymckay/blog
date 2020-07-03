@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Building Python packages from Travis</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,12 +23,12 @@
 <div class="meta">May 08, 2015</div>
 <h2><a href="/2015-05-08-travis-pypi/">Building Python packages from Travis</a></h2>
 <hr class="florished">
-<p>If you&#39;ve got a Python package that you push to <a href="http://pypi.python.org/">pypi</a> and you run your tests on <a href="http://travis-ci.org/">Travis</a> then I <em>strongly</em> recommend that you set up uploading your Python packages to pypi using Travis. There&#39;s a few reasons for this:</p>
+<p>If you’ve got a Python package that you push to <a href="http://pypi.python.org/">pypi</a> and you run your tests on <a href="http://travis-ci.org/">Travis</a> then I <em>strongly</em> recommend that you set up uploading your Python packages to pypi using Travis. There’s a few reasons for this:</p>
 
 <ul>
-<li>builds are clean and do not contain any artifacts that might be present on your local system</li>
-<li>anyone with commit access to the repository can do a release by tagging and not just the owner on pypi (really useful at Mozilla)</li>
-<li>the step is automated and that&#39;s a win</li>
+  <li>builds are clean and do not contain any artifacts that might be present on your local system</li>
+  <li>anyone with commit access to the repository can do a release by tagging and not just the owner on pypi (really useful at Mozilla)</li>
+  <li>the step is automated and that’s a win</li>
 </ul>
 
 <p>Follow <a href="http://docs.travis-ci.com/user/deployment/pypi/">this documentation</a>. Basically, alter <code>travis.yml</code>:</p>

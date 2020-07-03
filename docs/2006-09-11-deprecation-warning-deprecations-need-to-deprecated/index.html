@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Deprecation warning - deprecations need to deprecated</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,7 +23,7 @@
 <div class="meta">Sep 11, 2006</div>
 <h2><a href="/2006-09-11-deprecation-warning-deprecations-need-to-deprecated/">Deprecation warning - deprecations need to deprecated</a></h2>
 <hr class="florished">
-<p>I don&#39;t know about you, but the deprecation warnings when Plone starts up are getting kind of annoying. Here&#39;s the trimmed down version:</p>
+<p>I don’t know about you, but the deprecation warnings when Plone starts up are getting kind of annoying. Here’s the trimmed down version:</p>
 
 <blockquote>
 2006-09-11 22:44:25 WARNING Init Class Products.ATContentTypes.content.base.ATCTFolderMixin has a security declaration for nonexistent method 'manage_copyObjects'
@@ -62,32 +62,31 @@ registerSetupWidget is deprecated and will be removed in Plone 3.0.
   icon="kupu_icon.gif",
 /opt/Plone-2.5/lib/python/Signals/SignalHandler.py:39: DeprecationWarning: The zLOG package is deprecated and will be removed in Zope 2.11. Use the Python logging module instead.
   zLOG.LOG('Z2', zLOG.BLATHER, "Installed sighandler for %s" % (
-/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.CMFPlone.QuickInstallerTool.QuickInstallerTool.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete/>
+/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.CMFPlone.QuickInstallerTool.QuickInstallerTool.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete />
   DeprecationWarning)
-/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.PluggableAuthService.PluggableAuthService.PluggableAuthService.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete/>
+/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.PluggableAuthService.PluggableAuthService.PluggableAuthService.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete />
   DeprecationWarning)
 /opt/Plone-2.5/Instance/Products/PluggableAuthService/plugins/BasePlugin.py:71: DeprecationWarning: isImplementedBy has been renamed to providedBy
   return interface.isImplementedBy( self )
-/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.PlonePAS.plugins.cookie_handler.ExtendedCookieAuthHelper.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete/>
+/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.PlonePAS.plugins.cookie_handler.ExtendedCookieAuthHelper.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete />
   DeprecationWarning)
-/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.PlonePAS.plugins.role.GroupAwareRoleManager.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete/>
+/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.PlonePAS.plugins.role.GroupAwareRoleManager.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete />
   DeprecationWarning)
-/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.kupu.plone.plonelibrarytool.PloneKupuLibraryTool.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete/>
+/opt/Plone-2.5/lib/python/OFS/subscribers.py:74: DeprecationWarning: Products.kupu.plone.plonelibrarytool.PloneKupuLibraryTool.manage_afterAdd is deprecated and will be removed in Zope 2.11, you should use event subscribers instead, and meanwhile mark the class with <five:deprecatedManageAddDelete />
   DeprecationWarning)
 /opt/Plone-2.5/Instance/Products/Marshall/config.py:33: DeprecationWarning: The zLOG package is deprecated and will be removed in Zope 2.11. Use the Python logging module instead.
   LOG('Marshall', level, msg)
 </blockquote>
- 
 
 <p>So first off, how do we supress these errors that are presumably using the logging module?</p>
 
-<p>Secondly how about using the power of the internet and making a web page that describes what to do. I don&#39;t know what <em>marking the class</em> actually means, but I&#39;m sure if someone put up a page explaining it, and a link we could figure it out eg:</p>
+<p>Secondly how about using the power of the internet and making a web page that describes what to do. I don’t know what <em>marking the class</em> actually means, but I’m sure if someone put up a page explaining it, and a link we could figure it out eg:</p>
 
 <blockquote>Products.kupu.plone.plonelibrarytool.PloneKupuLibraryTool.manage_afterAdd is deprecated see http://blogs.nuxeo.com/sections/blogs/florent_guillaume/2005_11_08_events-in-zope-2-9</blockquote>
 
 <p>(which btw the way is a useful blog post on the subject, hiding down there in the Google results)</p>
 
-<p>Do I really need to see all this? Can we put this into a unit test that will do something like <em>test --show-deprecations</em>? Deprecation warnings in products I develop are useful, but I fear, I like most or just ignoring these logs. If that&#39;s the case we are losing the battle.</p>
+<p>Do I really need to see all this? Can we put this into a unit test that will do something like <em>test –show-deprecations</em>? Deprecation warnings in products I develop are useful, but I fear, I like most or just ignoring these logs. If that’s the case we are losing the battle.</p>
 
 <div id="navigation">
   <a href="/2006-09-05-programming-with-abbrs/">&laquo; older</a>

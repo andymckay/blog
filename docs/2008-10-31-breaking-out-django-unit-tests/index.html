@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Breaking out Django unit tests</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,11 +24,8 @@
 <h2><a href="/2008-10-31-breaking-out-django-unit-tests/">Breaking out Django unit tests</a></h2>
 <hr class="florished">
 <p>You can move models.py and views.py into seperate directories called models and views. I also make a directory to stick all my forms in called, excitingly enough, forms. But you can make a tests directory and put your tests in there. Grrr. A bit of Googling didn't get me too far, so a bit of reading of source got me this far.</p>
-
 <p>The key is that Django will look to see if tests.py has a "suite" method, if so it will run it. This allows us to do what we'd like with the test runner.</p>
-
 <p>So, make a directory called tests and put in it your unit tests, make a __init__.py and in that reference each of the modules you'd like to run tests on. Contents of my __init__.py:</p>
-
 <pre>
 import unittest       
 import browser
@@ -45,7 +42,6 @@ def suite():
     suite._tests = tests
     return suite
 </pre>
-
 <p>My tests directory has a browser.py and site.py that contain unit tests. Adjust the imports and the __tests__ lists as you see fit for your instance. When I add a new file, I register it here.</p>
 
 <div id="navigation">

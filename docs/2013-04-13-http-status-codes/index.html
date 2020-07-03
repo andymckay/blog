@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: HTTP status codes</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -37,15 +37,15 @@ code 202 over 200, will work in pretty much every library and convey more inform
 <p>Some of the HTTP status codes we are using:</p>
 
 <ul>
-<li><a href="http://httpstatus.es/201">201 Created</a>: we have created the new resource (e.g.: app).</li>
-<li><a href="http://httpstatus.es/202">202 Accepted</a>: we haven&#39;t processed yet, but we will do. Normally this means we&#39;ve pushed the request off to a <a href="http://www.celeryproject.org/">Celery</a> queue.</li>
-<li><a href="http://httpstatus.es/402">402 Payment Required</a>: you tried to install an app without paying for it.</li>
-<li><a href="http://httpstatus.es/409">409 Conflict</a>: this would generate a conflict in the state of the resource. For example you tried to POST something instead of a PUT or PATCH.</li>
-<li><a href="http://httpstatus.es/429">429 Too Many Requests</a>: you&#39;ve made too many requests and we&#39;ve throttled you.</li>
-<li><a href="http://ttp://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00">451 Unavailable for Legal Reasons</a>: the app is unavailable for legal reasons, perhaps due to region or content restrictions.</li>
+  <li><a href="http://httpstatus.es/201">201 Created</a>: we have created the new resource (e.g.: app).</li>
+  <li><a href="http://httpstatus.es/202">202 Accepted</a>: we haven’t processed yet, but we will do. Normally this means we’ve pushed the request off to a <a href="http://www.celeryproject.org/">Celery</a> queue.</li>
+  <li><a href="http://httpstatus.es/402">402 Payment Required</a>: you tried to install an app without paying for it.</li>
+  <li><a href="http://httpstatus.es/409">409 Conflict</a>: this would generate a conflict in the state of the resource. For example you tried to POST something instead of a PUT or PATCH.</li>
+  <li><a href="http://httpstatus.es/429">429 Too Many Requests</a>: you’ve made too many requests and we’ve throttled you.</li>
+  <li><a href="http://ttp://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00">451 Unavailable for Legal Reasons</a>: the app is unavailable for legal reasons, perhaps due to region or content restrictions.</li>
 </ul>
 
-<p>Unfortunately some of these status codes are a little less well defined. For code 451 there are currently at least 3 proposed meanings: <a href="http://msdn.microsoft.com/en-us/library/gg651019">something about users mailboxes</a> and <a href="https://tools.ietf.org/html/rfc2326#page-42">something RTSP</a> along with the <a href="http://ttp://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00">legal restriction</a>. But hopefully users of our API will realise we aren&#39;t using Exchange or RTSP and maybe even <a href="https://zamboni.readthedocs.org/en/latest/topics/api/submission.html#get--api-v1-apps-app-%28int-id%29|%28string-slug%29-">read the docs</a> to find out what this means.</p>
+<p>Unfortunately some of these status codes are a little less well defined. For code 451 there are currently at least 3 proposed meanings: <a href="http://msdn.microsoft.com/en-us/library/gg651019">something about users mailboxes</a> and <a href="https://tools.ietf.org/html/rfc2326#page-42">something RTSP</a> along with the <a href="http://ttp://tools.ietf.org/html/draft-tbray-http-legally-restricted-status-00">legal restriction</a>. But hopefully users of our API will realise we aren’t using Exchange or RTSP and maybe even <a href="https://zamboni.readthedocs.org/en/latest/topics/api/submission.html#get--api-v1-apps-app-%28int-id%29|%28string-slug%29-">read the docs</a> to find out what this means.</p>
 
 <p>Using HTTP statuses is simple and descriptive. I like that.</p>
 

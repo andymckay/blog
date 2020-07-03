@@ -4,7 +4,7 @@ title: The archives
 permalink: /archives/
 date: 2002-09-09
 ---
-<div class="meta">{{ page.date | | date: "%b %d, %Y"  }}</div>
+<div class="meta">{{ page.date | date: "%b %d, %Y"  }}</div>
 
 ##[{{ page.title }}]({{ page.url }})
 

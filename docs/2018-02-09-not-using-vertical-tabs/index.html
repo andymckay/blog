@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Alternatives to vertical tabs</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,31 +23,32 @@
 <div class="meta">Feb 09, 2018</div>
 <h2><a href="/2018-02-09-not-using-vertical-tabs/">Alternatives to vertical tabs</a></h2>
 <hr class="florished">
-<p>For the longest time I&#39;ve used vertical tabs in Firefox and I still find it odd that people don&#39;t use it more. It&#39;s a simple fact that a horizontal tab strip doesn&#39;t scale too well when you get lots of tabs.</p>
+<p>For the longest time I’ve used vertical tabs in Firefox and I still find it odd that people don’t use it more. It’s a simple fact that a horizontal tab strip doesn’t scale too well when you get lots of tabs.</p>
 
-<p>Of course, for most users this isn&#39;t a problem, most users do not have a lot of tabs open according to <a href="https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&end_date=2018-02-08&keys=__none__!__none__!__none__&max_channel_version=nightly%252F60&measure=TAB_COUNT&min_channel_version=null&processType=*&product=Firefox&sanitize=1&sort_keys=submissions&start_date=2018-01-22&table=0&trim=1&use_submission_date=0">Firefox telemetry</a>:</p>
+<p>Of course, for most users this isn’t a problem, most users do not have a lot of tabs open according to <a href="https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&amp;end_date=2018-02-08&amp;keys=__none__!__none__!__none__&amp;max_channel_version=nightly%252F60&amp;measure=TAB_COUNT&amp;min_channel_version=null&amp;processType=*&amp;product=Firefox&amp;sanitize=1&amp;sort_keys=submissions&amp;start_date=2018-01-22&amp;table=0&amp;trim=1&amp;use_submission_date=0">Firefox telemetry</a>:</p>
 
-<p><a href="https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&end_date=2018-02-08&keys=__none__!__none__!__none__&max_channel_version=nightly%252F60&measure=TAB_COUNT&min_channel_version=null&processType=*&product=Firefox&sanitize=1&sort_keys=submissions&start_date=2018-01-22&table=0&trim=1&use_submission_date=0"><img src="/files/tab-count.png"></a></p>
+<p><a href="https://telemetry.mozilla.org/new-pipeline/dist.html#!cumulative=0&amp;end_date=2018-02-08&amp;keys=__none__!__none__!__none__&amp;max_channel_version=nightly%252F60&amp;measure=TAB_COUNT&amp;min_channel_version=null&amp;processType=*&amp;product=Firefox&amp;sanitize=1&amp;sort_keys=submissions&amp;start_date=2018-01-22&amp;table=0&amp;trim=1&amp;use_submission_date=0"><img src="/files/tab-count.png" /></a></p>
 
 <p>But if you have a few the title just gets squished and squished till it becomes a scroll bar. Vertical tabs look great for this giving you lots of title space on a wide monitor:</p>
 
-<p><img src="/files/tab-list-vertical.png"></p>
+<p><img src="/files/tab-list-vertical.png" /></p>
 
 <p>Firefox is <em>way better</em> at this than Chrome. I sat next to someone who had nothing but triangles as their tab bar in Chrome. How did they cope?</p>
 
-<p><img src="/files/tab-chrome.png"></p>
+<p><img src="/files/tab-chrome.png" /></p>
 
-<p>With the landing of the tab hiding API in WebExtensions in Firefox 59, I wanted to try and understand what the many people who were clamouring for this API wanted to do. So I wrote a <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-hider/">quick extension that&#39;s pretty terrible</a>. It provided a &quot;Hide this tab&quot; context menu item on the tab to hide the tab. I then added a quick management page to list all the hidden pages.</p>
+<p>With the landing of the tab hiding API in WebExtensions in Firefox 59, I wanted to try and understand what the many people who were clamouring for this API wanted to do. So I wrote a <a href="https://addons.mozilla.org/en-US/firefox/addon/tab-hider/">quick extension that’s pretty terrible</a>. It provided a “Hide this tab” context menu item on the tab to hide the tab. I then added a quick management page to list all the hidden pages.</p>
 
-<p><img src="/files/tab-hidden-list.png"></p>
+<p><img src="/files/tab-hidden-list.png" /></p>
 
-<p>That was ok, but clicking that menu item was tedious. So then I set it to just perform some actions for me. I&#39;ve now got it set up to <em>hide</em> a tab if it hasn&#39;t been looked it for an hour. Then five hours after that, if I haven&#39;t opened it again, the extension just closes the tab.</p>
+<p>That was ok, but clicking that menu item was tedious. So then I set it to just perform some actions for me. I’ve now got it set up to <em>hide</em> a tab if it hasn’t been looked it for an hour. Then five hours after that, if I haven’t opened it again, the extension just closes the tab.</p>
 
-<p>I tried that for a week and found it pretty useful. Tabs that are hidden still show up in the awesome bar and as soon as I click on them, they come back instantly. Eventually they&#39;ll get closed. They&#39;ll still appear in the awesome bar and I can bring them back, just in a slower manner.</p>
+<p>I tried that for a week and found it pretty useful. Tabs that are hidden still show up in the awesome bar and as soon as I click on them, they come back instantly. Eventually they’ll get closed. They’ll still appear in the awesome bar and I can bring them back, just in a slower manner.</p>
 
-<p>If I find myself saying &quot;where was that tab...&quot; I just go to the management view and its likely there.</p>
+<p>If I find myself saying “where was that tab…” I just go to the management view and its likely there.</p>
 
-<p>This extension isn&#39;t perfect, but its enabled me to stop using vertical tabs most of the time and now I&#39;m torn which workflow is better. Maybe some combination.</p>
+<p>This extension isn’t perfect, but its enabled me to stop using vertical tabs most of the time and now I’m torn which workflow is better. Maybe some combination.</p>
+
 
 <div id="navigation">
   <a href="/2018-01-08-webextensions-scratchpad/">&laquo; older</a>

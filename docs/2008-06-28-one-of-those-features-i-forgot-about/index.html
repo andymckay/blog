@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: One of those features I forgot about</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,15 +24,12 @@
 <h2><a href="/2008-06-28-one-of-those-features-i-forgot-about/">One of those features I forgot about</a></h2>
 <hr class="florished">
 <p>Always nice to remember a feature in Python that I haven't used for ages. This happened to me the other day with this... given a list:</p>
-
 <pre>x = ["hair", "brown", "eyes", "blue"]</pre>
-
 <p>How do I get the hair and eye colours easily? One way, the oft forgotten 3rd argument to list slicing:</p>
-
 <pre>
 Python 2.5.1 (r251:54869, Apr 18 2007, 22:08:04)
->>> x = ["hair", "brown", "eyes", "blue"]
->>> for z in zip(x[::2], x[1::2]):
+&gt;&gt;&gt; x = ["hair", "brown", "eyes", "blue"]
+&gt;&gt;&gt; for z in zip(x[::2], x[1::2]):
 ...   print z
 ... 
 ('hair', 'brown')

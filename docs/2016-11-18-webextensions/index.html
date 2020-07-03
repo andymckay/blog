@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: How many Chrome Extensions run in Firefox?</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -25,11 +25,11 @@
 <hr class="florished">
 <p><strong>Update</strong>: I did a bit more filtering and checking and the numbers dropped to around 76%. Head down past the caveats for more.</p>
 
-<p>This question gets asked quite a lot around Mozilla now that we&#39;ve been working on <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">WebExtensions</a> for a while. We&#39;ve been aiming for some sort of <a href="https://blog.mozilla.org/addons/2016/09/13/webextensions-and-parity-with-chrome/">Chrome parity</a>. A while back I wrote a script that I used on <a href="http://arewewebextensionsyet.com/">arewewebextensionsyet.com</a>. That produced a percentage of WebExtensions, but I always felt nervous about talking about it because there so many caveats it never felt accurate.</p>
+<p>This question gets asked quite a lot around Mozilla now that we’ve been working on <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions">WebExtensions</a> for a while. We’ve been aiming for some sort of <a href="https://blog.mozilla.org/addons/2016/09/13/webextensions-and-parity-with-chrome/">Chrome parity</a>. A while back I wrote a script that I used on <a href="http://arewewebextensionsyet.com/">arewewebextensionsyet.com</a>. That produced a percentage of WebExtensions, but I always felt nervous about talking about it because there so many caveats it never felt accurate.</p>
 
 <p>One of the major caveats was that the sample size of extensions I had from the Chrome store of 10,000 felt too small (that sample is the one used on <a href="http://arewewebextensionsyet.com/">arewewebextensionsyet.com</a> currently). This week I used <a href="https://github.com/mdamien/chrome-extensions-archive">this project</a> to parse the sitemap on the Chrome store and get 100,000 extensions and apps. A much more satisfying amount.</p>
 
-<p>After stripping out apps, I then ran some scripts over those extensions to see how many would work in Firefox Nightly. Here&#39;s the output:</p>
+<p>After stripping out apps, I then ran some scripts over those extensions to see how many would work in Firefox Nightly. Here’s the output:</p>
 
 <table>
 <tr><th></th><td>Number</td><td>Percentage</td></tr>
@@ -44,7 +44,7 @@
 <p><b>Caveats</b></p>
 
 <ul>
-<li>This doesn't mean they can run out of the box, it means they are </b>easily convertable</b>. Possibly the most obvious reason is that some of these extensions contain deprecated methods. Firefox hasn't implemented those deprecated methods. But if the developer updates their extension to use the new methods it will work in both Firefox and Chrome.</li>
+<li>This doesn't mean they can run out of the box, it means they are &lt;/b&gt;easily convertable&lt;/b&gt;. Possibly the most obvious reason is that some of these extensions contain deprecated methods. Firefox hasn't implemented those deprecated methods. But if the developer updates their extension to use the new methods it will work in both Firefox and Chrome.</li>
 <li>This method filters out apps, or extensions which use apps API, which can be a little heavy handed and hard for extension users to spot.</li>
 <li>This method just looks at APIs and permissions. Which means that features that are required beyond those two methods are not covered. Web APIs for example aren't tested.</li>
 <li>Whilst we've got many APIs, some of them may not be implemented exactly the same as Chrome. Or have bugs. That can cause some extensions to have some problems.</li>
@@ -58,15 +58,15 @@
 
 <p>That sounds pretty good to me though and a credit to the hard work the team has put in this year.</p>
 
-<p><hr></p>
+<hr />
 
 <p><b>Update: November 22nd</b></p>
 
 <p>A couple of more issues or caveats were pointed out to me:</p>
 
 <ul>
-<li>This list of add-ons <a href="https://developer.chrome.com/extensions/themes">includes themes</a>, those are possible in Firefox already and although its related slightly different. Because themes don&#39;t use APIs and are different they should probably be excluded. By the way, there is a plan to get new <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1306671">theming support in Firefox</a>. This dropped our total number of extensions examined down.</li>
-<li>This does not include manifest keys. Some elements of the manifest do not need an API or permission so if we don&#39;t support them we still aren&#39;t at parity. All the big ones, we already have bugs and plans for, but just to be complete I included these.</li>
+  <li>This list of add-ons <a href="https://developer.chrome.com/extensions/themes">includes themes</a>, those are possible in Firefox already and although its related slightly different. Because themes don’t use APIs and are different they should probably be excluded. By the way, there is a plan to get new <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1306671">theming support in Firefox</a>. This dropped our total number of extensions examined down.</li>
+  <li>This does not include manifest keys. Some elements of the manifest do not need an API or permission so if we don’t support them we still aren’t at parity. All the big ones, we already have bugs and plans for, but just to be complete I included these.</li>
 </ul>
 
 <p>The result is now:</p>
@@ -82,7 +82,7 @@
 
 <p>Told you I felt pretty good about 75% of extensions. For a more detailed output, <a href="https://github.com/andymckay/examine-chrome-extensions/tree/master/output">check out the repository</a>.</p>
 
-<p><hr></p>
+<hr />
 
 <p>Full output of the script from today:</p>
 

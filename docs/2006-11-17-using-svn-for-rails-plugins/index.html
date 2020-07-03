@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Using SVN for rails plugins</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -29,13 +29,13 @@
 script/plugin install http://path.to.svn.server/project
 </pre>
 
-<p>Seemed simple enough. Problem is that the way it works is moronic. It grabs the HTML for page that you&#39;d normally see in the browser, parses it using regex&#39;s (a XML or HTML parsing library would be too much to ask). And then tries to download every file it can find.</p>
+<p>Seemed simple enough. Problem is that the way it works is moronic. It grabs the HTML for page that you’d normally see in the browser, parses it using regex’s (a XML or HTML parsing library would be too much to ask). And then tries to download every file it can find.</p>
 
-<p>Only problem is that it will also include the <em>svnindex.xsl</em> file if you&#39;ve set up nice SVN pages following something like <a href="http://andrewbeacock.blogspot.com/2006/10/supporting-multiple-subversion-svn.html">this</a> and for some reason blow up at that point. Looking at the code, it only follows relative links, so the answer is to change Apache to use a full path to the xsl, so from:</p>
+<p>Only problem is that it will also include the <em>svnindex.xsl</em> file if you’ve set up nice SVN pages following something like <a href="http://andrewbeacock.blogspot.com/2006/10/supporting-multiple-subversion-svn.html">this</a> and for some reason blow up at that point. Looking at the code, it only follows relative links, so the answer is to change Apache to use a full path to the xsl, so from:</p>
 
 <pre>SVNIndexXSLT /svnindex.xsl</pre>
 
-<p>...to:</p>
+<p>…to:</p>
 
 <pre>SVNIndexXSLT http://svn.clearwind.ca/svnindex.xsl</pre>
 

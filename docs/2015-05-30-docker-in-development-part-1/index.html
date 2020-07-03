@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Docker in development (part 1)</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,23 +23,23 @@
 <div class="meta">May 30, 2015</div>
 <h2><a href="/2015-05-30-docker-in-development-part-1/">Docker in development (part 1)</a></h2>
 <hr class="florished">
-<p>There&#39;s lots of blog posts explaining how to use Docker in production. Those posts are filled with things like: don&#39;t run ssh, put only one thing in your container and so on. That&#39;s all cool. At the moment however, Mozilla is the opposite way around, we aren&#39;t using Docker in production. But, we are using it development. I&#39;d like to use Docker in production for our sites and hope I can work with our operations and security to make that happen.</p>
+<p>There’s lots of blog posts explaining how to use Docker in production. Those posts are filled with things like: don’t run ssh, put only one thing in your container and so on. That’s all cool. At the moment however, Mozilla is the opposite way around, we aren’t using Docker in production. But, we are using it development. I’d like to use Docker in production for our sites and hope I can work with our operations and security to make that happen.</p>
 
-<p>So here&#39;s some blog posts on how we (the Mozilla Payments team) use Docker in development. After all, pushing to production starts with development.</p>
+<p>So here’s some blog posts on how we (the Mozilla Payments team) use Docker in development. After all, pushing to production starts with development.</p>
 
 <p>Credit here to <a href="http://github.com/muffinresearch/">Stuart</a> and <a href="https://github.com/jaredkerim/">Jared</a> who got me started on Docker and solved a few of these things.</p>
 
-<h2>Use a process manager</h2>
+<h2 id="use-a-process-manager">Use a process manager</h2>
 
 <p>This is often recommended against, the idea being that a container should do one things and one thing well.</p>
 
 <p>At the end of a Dockerfile there is a <a href="https://docs.docker.com/reference/builder/#cmd">CMD</a> instruction. If that command ever terminates, the container is killed.</p>
 
-<p>Assuming that you are developing on a server that reloads automatically (and why wouldn&#39;t you) <em>you will</em> break your server. Syntax errors, configuration errors, logic errors - you name it. All part of a days work. When that happens, <em>if the reload kills the process then your container exits</em>.</p>
+<p>Assuming that you are developing on a server that reloads automatically (and why wouldn’t you) <em>you will</em> break your server. Syntax errors, configuration errors, logic errors - you name it. All part of a days work. When that happens, <em>if the reload kills the process then your container exits</em>.</p>
 
-<p>Each stopping of a container slows down your development. So don&#39;t do that.</p>
+<p>Each stopping of a container slows down your development. So don’t do that.</p>
 
-<p>Instead use a process manager like <a href="http://smarden.org/runit/">runit</a> or <a href="http://supervisord.org/">supervisord</a> to run your process. When you process dies (and it will because that&#39;s development) your container won&#39;t die with it. Once you&#39;ve fixed your issue you can kick start your server again with <code>supervisord start [servicename]</code>, in the case of supervisord.</p>
+<p>Instead use a process manager like <a href="http://smarden.org/runit/">runit</a> or <a href="http://supervisord.org/">supervisord</a> to run your process. When you process dies (and it will because that’s development) your container won’t die with it. Once you’ve fixed your issue you can kick start your server again with <code>supervisord start [servicename]</code>, in the case of supervisord.</p>
 
 <div id="navigation">
   <a href="/2015-05-24-accept-header/">&laquo; older</a>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Doing a PUT in Adobe Air</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,7 +24,6 @@
 <h2><a href="/2008-03-12-doing-a-put-in-adobe-air/">Doing a PUT in Adobe Air</a></h2>
 <hr class="florished">
 <p>This one had me confused for quite a while, simply I wanted to do a PUT in Adobe Air to my Plone site. Something that you think would be quite easy but somehow all I got were errors. The problem turned out to be I was doing an upload, when it should have been <code>uploadUnencoded</code> which has a slightly different signature.</p>
-
 <pre>
 function uploadFile(file) {
     // an internal function to get our upload url
@@ -44,7 +43,7 @@ function uploadFile(file) {
     file.addEventListener(air.ProgressEvent.PROGRESS, uploadProgress);
     file.addEventListener(air.Event.COMPLETE, uploadComplete);
     file.addEventListener(air.SecurityErrorEvent.SECURITY_ERROR, uploadError);
-    file.addEventListener(air.HTTPStatusEvent.HTTP_STATUS, uploadError);    
+    file.addEventListener(air.HTTPStatusEvent.HTTP_STATUS, uploadError);	
     file.addEventListener(air.IOErrorEvent.IO_ERROR, uploadError);
     
     file.uploadUnencoded(urlRequest);

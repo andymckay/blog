@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Putting weather onto a site</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,7 +24,6 @@
 <h2><a href="/2009-03-16-putting-weather-onto-a-site/">Putting weather onto a site</a></h2>
 <hr class="florished">
 <p>Just following on from the last post about Cleartrain, someone asked in irc which product to use to put the weather onto their Plone site. There's a bunch of old ones out there. The simple answer is, don't. Just do it in Javascript, for example:</p>
-
 <pre>    &lt;div id="weather-feed" /&gt;
     &lt;script type="text/javascript" src="https://www.google.com/jsapi"&gt;&lt;/script&gt;
     &lt;script type="text/javascript"&gt;
@@ -54,12 +53,10 @@
 
     google.setOnLoadCallback(initialize);
     
-    &lt;/script&gt;</pre> 
-
+    &lt;/script&gt;</pre>
 <p>This pulls in the weather from Yahoo, via Google. See <a href="http://developer.yahoo.com/weather/#request">http://developer.yahoo.com/weather/#request</a> for more.</p>
-
 <p>Example:</p>
-<div class="highlight"><pre><code class="language-" data-lang="">&lt;div id="weather-feed" /&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div id="weather-feed" /&gt;
 &lt;script type="text/javascript" src="https://www.google.com/jsapi"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt;
 
@@ -89,7 +86,8 @@ function initialize() {
 google.setOnLoadCallback(initialize);
 
 &lt;/script&gt;
-</code></pre></div>
+</code></pre></div></div>
+
 <div id="navigation">
   <a href="/2009-03-11-django-test-client-and-openid/">&laquo; older</a>
   <a href="/2009-03-18-exit-strategies-for-open-source-companies/">newer &raquo;</a>

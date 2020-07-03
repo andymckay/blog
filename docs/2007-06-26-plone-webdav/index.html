@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Plone WebDAV</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -25,14 +25,12 @@
 <hr class="florished">
 <p>
 Come up a few times on the list. The difference between using WebDAV and not is that in a WebDAV client when you get a page, you want to get the source to edit the page, not the HTML with the rendered template. To do this Plone tries to determine if you are using WebDAV or not, one way is to use port 1980, the WebDAV source port in <code>zope.conf</code>.</p>
-
 <p>An easier way I prefer is adding your client to the <code>zope.conf</code> so that it recognises your client as WebDAV. This makes a simple change for Zope's sitting behind a proxy. To use finder with Plone add the following <code>webdav-source-clients</code> line and then restart:</p>
-
 <pre>
-&lt;http-server>
+&lt;http-server&gt;
    webdav-source-clients WebDAVFS
    address 8080
-&lt;/http-server>
+&lt;/http-server&gt;
 </pre>
 
 <div id="navigation">

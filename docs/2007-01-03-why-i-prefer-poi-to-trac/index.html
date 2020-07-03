@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Why I prefer Poi to Trac</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -23,22 +23,22 @@
 <div class="meta">Jan 03, 2007</div>
 <h2><a href="/2007-01-03-why-i-prefer-poi-to-trac/">Why I prefer Poi to Trac</a></h2>
 <hr class="florished">
-<p>If I had the choice, I&#39;d use <a href="http://plone.org/products/poi">Poi</a> over <a href="http://trac.edgewall.org/">Trac</a> and that&#39;s because Trac does not support multiple sites very easily. Almost every company I&#39;ve run or worked at over the last few years has been primarily a consulting company.  I spend my day dealing with multiple projects, sometimes an insanely high number.</p>
+<p>If I had the choice, I’d use <a href="http://plone.org/products/poi">Poi</a> over <a href="http://trac.edgewall.org/">Trac</a> and that’s because Trac does not support multiple sites very easily. Almost every company I’ve run or worked at over the last few years has been primarily a consulting company.  I spend my day dealing with multiple projects, sometimes an insanely high number.</p>
 
-<p>Simply put, Trac does not do this. From the <a href="http://trac.edgewall.org/wiki/TracFaq#can-i-manage-multiple-projects-from-a-single-installation-of-trac">Trac wiki</a>:
-<blockquote>Right now there is no support for sharing information between projects.</p>
+<p>Simply put, Trac does not do this. From the <a href="http://trac.edgewall.org/wiki/TracFaq#can-i-manage-multiple-projects-from-a-single-installation-of-trac">Trac wiki</a>:</p>
+<blockquote>Right now there is no support for sharing information between projects.
 
-<p>The rationale for this is that the scope of Trac (1.0) is to manage a single project, and do it well. Support for larger multi-project management adds a lot of complexity, but is planned for post-1.0 development, probably as a separate framework around Trac.</blockquote>
-But in a world where all I have is multiple projects, this is a problem. Poi allows me to:
+The rationale for this is that the scope of Trac (1.0) is to manage a single project, and do it well. Support for larger multi-project management adds a lot of complexity, but is planned for post-1.0 development, probably as a separate framework around Trac.</blockquote>
+<p>But in a world where all I have is multiple projects, this is a problem. Poi allows me to:</p>
 <ul>
-    <li>Have multiple bug trackers, the permissions on each individual tracker is configurable, so different clients can have different trackers and can&#39;t view each others.</li>
-    <li>As a developer, or project manager, I can have one page that lists all bugs assigned to me, across all the collectors. Such a summary page is invaluable to me.</li>
+	<li>Have multiple bug trackers, the permissions on each individual tracker is configurable, so different clients can have different trackers and can't view each others.</li>
+	<li>As a developer, or project manager, I can have one page that lists all bugs assigned to me, across all the collectors. Such a summary page is invaluable to me.</li>
 </ul>
-Trac also provides a Wiki. A wiki is not useful to a developer of CMS&#39;s. In fact the problem in some organisations is that you can&#39;t find the damn data because it could be in SVN, Plone, Trac&#39;s wiki or Bootcamp. Ouch.</p>
+<p>Trac also provides a Wiki. A wiki is not useful to a developer of CMS’s. In fact the problem in some organisations is that you can’t find the damn data because it could be in SVN, Plone, Trac’s wiki or Bootcamp. Ouch.</p>
 
 <p>Not that Trac is bad, there are some nice features in there. The viewed source for SVN, checkin messages that are interlinked, closing bugs from checkin messages and so on are all cool.</p>
 
-<p>The only real downside is that Poi does need a bit of work and cleaning on an install, something that raises the bar a little. But that&#39;s only if you are being a perfectionist about it.</p>
+<p>The only real downside is that Poi does need a bit of work and cleaning on an install, something that raises the bar a little. But that’s only if you are being a perfectionist about it.</p>
 
 <p><b>Update Wed Jan 3rd, 2.53pm</b>: Calvin wrote to tell me that with some mod_python you can make global lists pulling from multiple databases. Unfortunately he hasn't got any examples yet, but sounds like I might have to give this a go.</p>
 

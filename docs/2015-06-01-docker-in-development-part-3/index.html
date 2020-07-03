@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Docker in development (part 3)</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -25,11 +25,11 @@
 <hr class="florished">
 <p>Tips for developing with Docker.</p>
 
-<h2>Running pdb</h2>
+<h2 id="running-pdb">Running pdb</h2>
 
 <p>This is a Python specific tip, but <a href="https://docs.python.org/3.4/library/pdb.html">pdb</a> is Python specific debugger. Using pdb is pretty useful for Python development, but this tip can apply to any processes that use a pseudo terminal to interact with the process.</p>
 
-<p>If you use <a href="https://docs.docker.com/compose/">docker-compose</a>, you can&#39;t actually run your process and enter an interactive debugging session. There&#39;s been <a href="https://github.com/docker/compose/issues/423">some requests</a> for that but there&#39;s a simpler way. Since we are using a <a href="/2015-05-31-docker-in-development-part-2/">process manager</a>, all you have to do is:</p>
+<p>If you use <a href="https://docs.docker.com/compose/">docker-compose</a>, you can’t actually run your process and enter an interactive debugging session. There’s been <a href="https://github.com/docker/compose/issues/423">some requests</a> for that but there’s a simpler way. Since we are using a <a href="/2015-05-31-docker-in-development-part-2/">process manager</a>, all you have to do is:</p>
 
 <ul>
     <li><a href="https://docs.docker.com/reference/commandline/cli/#exec">exec</a> into the container, eg: <code>docker exec -ti $(docker ps | grep [servicename] | awk '{print $1}') /bin/bash</code></li>
@@ -37,7 +37,7 @@
     <li>start the process from the shell, eg: <code>python manage.py runserver 0.0.0.0:8000</code></li>
 </ul>
 
-<p>Then you&#39;ll be able to re-trigger requests and get to your Python prompt. Bear in mind, you&#39;ll have to ensure that any environment variables you set are set correctly. You&#39;ll be able to use pdb as much as want. As soon as you stop and restart the container, it will revert back to it&#39;s normal state again.</p>
+<p>Then you’ll be able to re-trigger requests and get to your Python prompt. Bear in mind, you’ll have to ensure that any environment variables you set are set correctly. You’ll be able to use pdb as much as want. As soon as you stop and restart the container, it will revert back to it’s normal state again.</p>
 
 <p>See also <a href="/2015-05-31-docker-in-development-part-2/">part 2</a>.</p>
 

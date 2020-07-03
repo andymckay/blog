@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2019-09-20T15:30:45-07:00 -->
+<!-- Last built: 2020-07-03T08:58:17-07:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Browser based Python prompt for Plone (almost)</title>
-<link href="/css/style.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2019-09-20T15:30:45-07:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T08:58:17-07:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -24,44 +24,45 @@
 <h2><a href="/2006-08-07-browser-based-python-prompt-for-plone-almost/">Browser based Python prompt for Plone (almost)</a></h2>
 <hr class="florished">
 <p><img src="http://www.chestermanhouse.com/img/surf_sunset.jpg" style="float: right" />
-We&#39;ve almost got Clouseau&#39;s first release out. This is the product of the Vancouver Tool Sprint, which we held just before the Vancouver Python Workshop. Yes, I&#39;m pretty far behind on my blog postings. Unfortunately for this blog I&#39;m off to Vancouver Island and Long Beach for a few days of surfing and relaxation. It&#39;s been a hectic week and time for some down time.</p>
+We’ve almost got Clouseau’s first release out. This is the product of the Vancouver Tool Sprint, which we held just before the Vancouver Python Workshop. Yes, I’m pretty far behind on my blog postings. Unfortunately for this blog I’m off to Vancouver Island and Long Beach for a few days of surfing and relaxation. It’s been a hectic week and time for some down time.</p>
 
-<p>Anyway at the tools sprint we wanted to improve the state of tools in Plone for developers and focused in on my favourite, PloneShell. The sprint consisted of <em>Richard Amerman </em>, <em>Leonardo Almeida Rochael</em> and yours truly. However PloneShell has a few problems:
+<p>Anyway at the tools sprint we wanted to improve the state of tools in Plone for developers and focused in on my favourite, PloneShell. The sprint consisted of <em>Richard Amerman </em>, <em>Leonardo Almeida Rochael</em> and yours truly. However PloneShell has a few problems:</p>
 <ol>
-    <li>It uses wxPython</li>
-    <li>It takes 10 minutes (seems like it anyway) every time you want to start it up</li>
-    <li>I couldn&#39;t get wxPython installed on my Mac because the new Plone installer now doesn&#39;t seem to include it</li>
-    <li>It needs ZEO</li>
-    <li>The code goes into many wxPython layers and gets pretty convoluted</li></p>
+	<li>It uses wxPython</li>
+	<li>It takes 10 minutes (seems like it anyway) every time you want to start it up</li>
+	<li>I couldn't get wxPython installed on my Mac because the new Plone installer now doesn't seem to include it</li>
+	<li>It needs ZEO</li>
+	<li>The code goes into many wxPython layers and gets pretty convoluted</li>
 
-<p></ol>
-So we got sidetracked and wrote a new tool for inspecting your Plone site. Inspecting &gt; Clouseau - got it? So its a browser based, Ajax powered, Python prompt. Inside your Plone site. Install as a product, run Plone in debug-mode and go to site setup &gt; Zope inspector and then you get a Python prompt in your browser.</p>
+</ol>
+<p>So we got sidetracked and wrote a new tool for inspecting your Plone site. Inspecting &gt; Clouseau - got it? So its a browser based, Ajax powered, Python prompt. Inside your Plone site. Install as a product, run Plone in debug-mode and go to site setup &gt; Zope inspector and then you get a Python prompt in your browser.</p>
 
-<p>You can inspect, alter, commit changes and do everything you&#39;d do in zopectl on an platform. So before you get too upset yes it is a security hole, we know that, it&#39;s a development tool.
+<p>You can inspect, alter, commit changes and do everything you’d do in zopectl on an platform. So before you get too upset yes it is a security hole, we know that, it’s a development tool.</p>
 <ol>
-    <li>It will only run in debug mode (unless you change a file system config variable), so by default it will only work on your development site.</li>
-    <li>It requires Zope Manager access to use it.</li>
-    <li>There is a config variable on the file system to disable it.</li>
-</ol></p>
+	<li>It will only run in debug mode (unless you change a file system config variable), so by default it will only work on your development site.</li>
+	<li>It requires Zope Manager access to use it.</li>
+	<li>There is a config variable on the file system to disable it.</li>
+</ol>
 
-<p>So you&#39;ve got past that? Good. What are some of the advantages of this?
+<p>So you’ve got past that? Good. What are some of the advantages of this?</p>
 <ul>
-    <li>Collaborative debugging. Wait oh my golly. Two or more people can now share the same session. I opened Safari and Firefox at the conference and had <strong>two people working on the same Python prompt</strong>, that went down well. Imagine debugging those #plone questions now!</li>
-    <li>No dependencies. None, zero, zippo. Easy install.</li>
-    <li>No platform problems. Tested on Linux, Windows, OS X and Safari, Firefox and IE.</li>
-    <li>No ZEO. Will work out of the box in any install.</li>
-    <li>(Not implemented yet) A prompt in the context of objects.... looking at an object in Plone and want to see methods on it?</li>
-    <li>(Not implemented yet) Namespace variables browsable in a portlet....</li>
-    <li>And so on....</li>
-</ul></p>
+	<li>Collaborative debugging. Wait oh my golly. Two or more people can now share the same session. I opened Safari and Firefox at the conference and had <strong>two people working on the same Python prompt</strong>, that went down well. Imagine debugging those #plone questions now!</li>
+	<li>No dependencies. None, zero, zippo. Easy install.</li>
+	<li>No platform problems. Tested on Linux, Windows, OS X and Safari, Firefox and IE.</li>
+	<li>No ZEO. Will work out of the box in any install.</li>
+	<li>(Not implemented yet) A prompt in the context of objects.... looking at an object in Plone and want to see methods on it?</li>
+	<li>(Not implemented yet) Namespace variables browsable in a portlet....</li>
+	<li>And so on....</li>
+</ul>
 
-<p>Clouseau is currently in the collective and we&#39;d like any feedback on this. You can get it here: <a href="http://svn.plone.org/svn/collective/Clouseau">http://svn.plone.org/svn/collective/Clouseau</a>. Product page has been made and when that release is ready it will go there.</p>
+<p>Clouseau is currently in the collective and we’d like any feedback on this. You can get it here: <a href="http://svn.plone.org/svn/collective/Clouseau">http://svn.plone.org/svn/collective/Clouseau</a>. Product page has been made and when that release is ready it will go there.</p>
 
-<p>What needs to be fixed for a full release, so don&#39;t mail us yet: multi-line support and return values (noticed a few Nones can appear in the UI). What we need to do for the next release: auto-complete, tool tips, easy multi-line entry.</p>
+<p>What needs to be fixed for a full release, so don’t mail us yet: multi-line support and return values (noticed a few Nones can appear in the UI). What we need to do for the next release: auto-complete, tool tips, easy multi-line entry.</p>
 
 <p>This is not a sprint to write something then forget about it. All of the sprint members were excited to be working on this tool, it is pretty damn cool and we were all pumped to be working on it. For one I will definitely be working on this tool. Next week - after the surfing.</p>
 
 <p>Many thanks to Leonardo who did the server side magic and Richard who did a lot of the UI and product boiler plate. And I think Alan Runyan does get some credit because I do remember a conversation over a beer or 6 about 5 years ago that included this topic. It might have been him once again who sowed the seed.</p>
+
 
 <div id="navigation">
   <a href="/2006-08-03-the-end-of-web-services/">&laquo; older</a>
