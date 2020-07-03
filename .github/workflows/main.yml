@@ -14,6 +14,5 @@ jobs:
         gem install jekyll
         jekyll build -d docs -t
     - uses: EndBug/add-and-commit@v4
-    - name: Commit
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }    
