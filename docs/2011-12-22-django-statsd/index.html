@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: django-statsd</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Dec 22, 2011</div>
+<h2><a href="/2011-12-22-django-statsd/">django-statsd</a></h2>
+<hr class="florished">
+<p>A while ago <a href="http://jbalogh.me/">Jeff Balogh</a> and <a href="http://coffeeonthekeyboard.com/">James Socol</a> got statsd and <a href="http://graphite.wikidot.com/installation">graphite</a> running for web development projects at Mozilla. They wrote some great code including <a href="https://github.com/jsocol/pystatsd">pystatsd</a> and <a href="https://github.com/jsocol/commonware">commonware</a>. This allows us at a glance to see what's going on in <a href="http://addons.mozilla.org">AMO</a> and <a href="http://support.mozilla.org">SUMO</a> and whole host of other projects.</p>
+<p>Since then graphite has become a key part of our process. I can't imagine running a large site without it. I started playing around with some tighter integration between Django and pystatsd a while back. That resulted in a pull request to pystatsd which James didn't want, he wanted to keep pystatsd Python only. Made sense, so then I wrote <a href="https://github.com/andymckay/django-statsd">django-statsd</a> which provides some optional deeper integration between Django and statsd.</p>
+<p>To install add in INSTALLED_APPS:</p>
+<pre>django_statsd</pre>
+<p>You can now choose your client by configuring <code>settings.py</code>. By default statsd will send UDP packets on your development box. To turn that off use a null client, for example:</p>
+<pre>STATSD_CLIENT = 'django_statsd.clients.null'</pre>
+<p>You'd use <code>django_statsd.clients.normal</code> on your production boxes, or anything you want to measure.</p>
+<p>This library includes a few useful ways of sending timings. I pulled the middleware out of the afore mentioned commonware (credit to James and Jeff for that) so that you can time every request in Django. That's as simple as:</p>
+<pre>
+        MIDDLEWARE_CLASSES = (
+                'django_statsd.middleware.GraphiteRequestTimingMiddleware',
+                'django_statsd.middleware.GraphiteMiddleware',
+                ) + MIDDLEWARE_CLASSES
+</pre>
+<p>I included a couple of hairy monkey patches that allow you to time all db and cache calls. You can turn that on by doing the following:</p>
+<pre>
+        STATSD_PATCHES = [
+                'django_statsd.patches.db',
+                'django_statsd.patches.cache',
+        ]
+</pre>
+<p>That would be nice to run on a dev or stage site where you can test performance metrics. You can of course send stats the boring old way:</p>
+<pre>
+        from django_statsd.clients import statsd
+        statsd.incr('response.200')
+</pre>
+<p>And that's about it for sending data. If you have all the remaining pieces in place (namely pystatsd installed and configured and pointing to statsd and graphite) you should now have data coming in.</p>
+<p>For development, there's some data that's going astray, namely these UDP packets. It would be nice to display that information. For that I integrated with <a href="https://github.com/django-debug-toolbar/django-debug-toolbar">django debug toolbar</a> so that you can view the statsd data that would have been sent on that request.</p>
+<p>This configuration is a bit tricky but you'll need to change the following:</p>
+<pre>
+        MIDDLEWARE_CLASSES = (
+             'debug_toolbar.middleware.DebugToolbarMiddleware',
+             ...       
+        ) + MIDDLEWARE_CLASSES
+</pre>
+<p>Note: this must go before the GraphiteMiddleware so that we've got the timing
+data in before we show the toolbar panel.</p>
+<p>Add in the panel:</p>
+<pre>
+        DEBUG_TOOLBAR_PANELS = (
+             ...
+             'django_statsd.panel.StatsdPanel',
+        )
+</pre>
+<p>Set the client:</p>
+<pre>
+        STATSD_CLIENT = 'django_statsd.clients.toolbar'
+</pre>
+<p>Now you can see your statsd timings in the toolbar. Here's an example with all the patches and middleware enabled</p>
+<p><img src="/files/statsd-keys.png" /></p>
+<p>This shows you data locally which is useful, but does not aggregate it. That's not too useful for development boxes. The debug toolbar already shows you this information, what we want is the graphite aggregated on the server.</p>
+<p>To link up to the data in graphite you can add some more configuration. The following is the internal mozilla configuration for addons.mozilla.org (this will not work for you).</p>
+<pre>
+        TOOLBAR_STATSD = {
+                'graphite': 'https://graphite-phx.mozilla.org/render/',
+                'roots': {
+                        'timers': ['stats.timers.addons-dev', 'stats.timers.addons'],
+                        'counts': ['stats.addons-dev', 'stats.addons']
+                }
+        }
+</pre>
+<p>And clicking on a key you'll get the data of that key on your live servers for example:</p>
+<p><img src="/files/statsd-graph.png" /></p>
+<p>Plus this also saves you having to use the Graphite web api to find a graph and so on. When you are developing a page you can see how often that page is hit, how fast it is and so on, right from the toolbar.</p>
+<p>That's it for now, but I hope to add some more tests and add timings for more things, including redis and urlconf.</p>
+<p><strong>Note:</strong> because django-statsd already existed on pypi, it's on pypi as <a href="http://pypi.python.org/pypi/django-statsd-mozilla">django-statsd-mozilla</a> so to install use: <code>pip install django-statsd-mozilla</code>.</p>
+<p><strong>Update:</strong> Sidnei da Silva has an <a href="https://code.launchpad.net/~txstatsd-dev/txstatsd/trunk">awesome twisted client</a> for statsd. He gave some pointers to speed up statsd. Connecting with old friends working on the same things again years later is pretty awesome.</p>
+
+<div id="navigation">
+  <a href="/2011-11-28-home-football-games/">&laquo; older</a>
+  <a href="/2012-01-01-nut-meet-firefox/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

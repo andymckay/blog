@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Django Tutorial for Page Templates (Part 1)</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Nov 15, 2007</div>
+<h2><a href="/2007-11-15-django-tutorial-for-page-templates-part-1/">Django Tutorial for Page Templates (Part 1)</a></h2>
+<hr class="florished">
+<p>This tutorial is a re-writing of the Django Tutorial in the documentation on the <a href="http://www.djangoproject.com/documentation/tutorial01/">Django website</a>. In this I step through the same tutorial covering the templating sections, but focusing on how they would look using Page Templates instead of the Django templating language.</p>
+
+<p>The demo code and so on is from that site and all credit to the authors of that tutorial. As ever all mistakes are mine.</p>
+
+<p>To run the code in this demo, you'll need Simple TAL and Simple Template. Check out Simple Template from here and follow the readme contained within that directory:</p>
+
+<pre>svn co http://svn.clearwind.ca/public/django/simpletemplate</pre>
+
+<p>If you don't fancy typing everything in, then please checkout code used in these examples from:</p>
+
+<pre>svn co http://svn.clearwind.ca/public/django/polltutorial</pre>
+
+<p>Already to go. Then start following through the tutorial and through parts <a href="http://www.djangoproject.com/documentation/tutorial01/">one</a> and <a href="http://www.djangoproject.com/documentation/tutorial02/">two</a>. Neither of these touch on templating at all so nothing relevant to us there. Tutorial <a href="http://www.djangoproject.com/documentation/tutorial03/">three</a> is where the fun starts to happen, in the section <a href="http://www.djangoproject.com/documentation/tutorial03/#write-views-that-actually-do-something">Write views that actually do something</a>.
+
+<p>Simple template provides key api calls for rendering templates, that you can use instead of the builtin ones. Instead of:</p>
+<pre>from django.template import Context, loader</pre>
+<p>Use:</p>
+<pre>from django.contrib.simpletemplate.public import get_template</pre>
+<p>Instead of the given example, use:</p>
+<pre>
+from django.contrib.simpletemplate.public import get_template
+from django.template import Context
+from mysite.polls.models import Poll
+from django.http import HttpResponse
+
+def index(request):
+    latest_poll_list = Poll.objects.all().order_by('-pub_date')[:5]
+    t = get_template('polls/index.pt')
+    c = Context({
+        'latest_poll_list': latest_poll_list,
+    })
+    return HttpResponse(t.render(c))
+</pre>
+
+<p>The key changes here are line 1, with that different import. Also on line 8 we are no longer using <code>index.html</code>, we are using a Page Template which follows a convention established from Zope of .pt as extension so we'll call ours <code>index.pt</code>.</p>
+
+<p>The <code>index.pt</code> looks like the following:</p>
+<pre>
+&lt;tal:block tal:condition="latest_poll_list"&gt;
+    &lt;ul&gt;
+        &lt;li tal:repeat="poll latest_poll_list"
+               tal:content="poll/question"&gt;question&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/tal:block&gt;
+&lt;tal:block tal:condition="not: latest_poll_list"&gt;
+    &lt;p&gt;No polls are available.&lt;/p&gt;
+&lt;/tal:block&gt;
+</pre>
+<p>If you are familiar with TAL then this will hopefully make sense. The next step covers using "A shortcut: get_object_or_404()", this is relatively straightforward, to use the <code>render_to_response</code> replace the current import with the following:</p>
+<pre>
+from django.contrib.simpletemplate.public import render_to_response
+</pre>
+<p>Just remember to point to a <code>.pt</code> template, not a <code>.html</code> one.</p>
+<p>And finally in tutorial three there is one more example that covers the detail view. 
+Here's how <code>detail.pt</code> looks in Page Templates:</p>
+<pre>
+&lt;h1 tal:content="poll/question"&gt;Poll Question&lt;/h1&gt;
+&lt;pre&gt;
+&lt;p tal:condition="error_message|nothing"&gt;
+    &lt;strong tal:content="error_message"&gt;Error&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;form action="" 
+         tal:attributes="action string:/polls/${poll/id}/vote/" 
+         method="post"&gt;
+    &lt;tal:block tal:repeat="choice poll/choice_set/all"&gt;
+        &lt;input type="radio" name="choice" 
+                tal:attributes="for string:choice${choice/index};
+                value choice/id" /&gt;
+        &lt;label tal:attributes="for string:choice${choice/index}"
+                tal:content="choice/choice"&gt;The choice&lt;label&gt;&lt;br /&gt;
+    &lt;/tal:block&gt;
+    &lt;input type="submit" value="Vote" /&gt;
+&lt;/form&gt;
+</pre>
+<p>And that's it, on to tutorial four in another day.</p>
+</p>
+
+<div id="navigation">
+  <a href="/2007-11-13-pledge-to-buy-hand-made/">&laquo; older</a>
+  <a href="/2007-11-21-new-photo-website/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

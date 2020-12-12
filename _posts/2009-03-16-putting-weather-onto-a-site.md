@@ -7,7 +7,7 @@ blog: andy-mckay
 ---
 <p>Just following on from the last post about Cleartrain, someone asked in irc which product to use to put the weather onto their Plone site. There's a bunch of old ones out there. The simple answer is, don't. Just do it in Javascript, for example:</p>
 <pre>    &lt;div id="weather-feed" /&gt;
-    &lt;script type="text/javascript" src="http://www.google.com/jsapi"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="https://www.google.com/jsapi"&gt;&lt;/script&gt;
     &lt;script type="text/javascript"&gt;
     
     google.load("feeds", "1");
@@ -39,7 +39,7 @@ blog: andy-mckay
 <p>This pulls in the weather from Yahoo, via Google. See <a href="http://developer.yahoo.com/weather/#request">http://developer.yahoo.com/weather/#request</a> for more.</p>
 <p>Example:</p>
     <div id="weather-feed" />
-    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
     
     google.load("feeds", "1");

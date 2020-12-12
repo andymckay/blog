@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-Checking in with my [two month goals](http://mckay.pub/2018-12-28-goals/).
+Checking in with my [two month goals](httsp://mckay.pub/2018-12-28-goals/).
 
 * Lost a couple of pounds but keep going up and down.
 

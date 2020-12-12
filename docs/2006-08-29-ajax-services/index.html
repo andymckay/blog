@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Ajax services</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Aug 29, 2006</div>
+<h2><a href="/2006-08-29-ajax-services/">Ajax services</a></h2>
+<hr class="florished">
+<p>A while back I posted on <a href="https://mckay.pub.ca/blog/index.php?p=39">the end of web services</a>. In this post I was proposing that Web Services as traditionally represented are dead and a new batch of Ajax based web services will arise.</p>
+
+<p>The thing is most people don’t actually do “Web services”. Most of the time it’s used to improve the UI experience locally for users and the idea of consuming remote data doesn’t happen. This is because of a technical problem. A client can’t make a request to a remote server in Ajax.</p>
+
+<p>There are many ways around this on the client, including using form posts and some toolkits Dojo abstract that out. There is a way to do this at the server as well, using say Apache’s Proxy pass. That allows the request to still appear in the local domain, but behind the scenes Apache is doing the forwarding for you.</p>
+
+<p>Once you’ve got this done you are opened up to the world of web services. Any server that provides a datasource or interaction via Ajax or XML is open to be used on your client. For example:</p>
+
+<ul>
+	<li>Want to show an RSS feed in your site? Well if you don't want to actually parse the data on the server, why not parse it on the client, using an Ajax RSS reader (<a href="http://ajax.phpmagazine.net/2005/11/ajax_rss_reader_step_by_step_t.html">example</a>)</li>
+	<li>Want to show the weather on your site? You don't want to store that on the server, you just want a pretty graphic, pull it using one of these (<a href="http://blogs.pathf.com/agileajax/2006/07/bjax_with_greas.html">example 1</a>, <a href="http://saratoga-weather.org/scripts-WD-AJAX.php">example 2</a>)</li>
+        <li>Want a spell checker in Plone, but don't want to install the spell checking libraries on your server because its a pain? Then get the spell checker from <a href="http://www.clearwind.ca/software/clearspell">ClearWind.</a></li>
+</ul>
+
+<p>This approach is more akin to the Web services of old, it abstracts away services into other servers and allows you to re-use both ends of the equation. Clients for displaying widgets can be used in multiple places and the servers can be re-used in a service model. That’s why I’m calling it <strong>Ajax Services</strong>.</p>
+
+<p>An Ajax Service is a:</p>
+
+<ul>
+	<li>An Ajax based client that can be re-used in multiple different sites.</li>
+	<li>A server side service that can be consumed by an web site using the client, not just the local site the site was intended for. The service uses REST for incoming requests and XML for responses, allowing easy Ajax integration in a client.</li>
+</ul>
+
+<p>One example is the Ajax Proxy for Plone. This is a server side proxy that lives inside Plone. It takes incoming requests from the client and proxies them on. There are a few nice things this gives you: caching, security, transformations and load balancing to name a few. Once you’ve got a generic proxy for your server you can load up your client with services pointing to multiple places and get true web services back to your client.</p>
+
+<p>Here’s an example:</p>
+
+<ul>
+	<li>The browser fires off the Ajax request, normally a GET or other HTTP verb.</li>
+	<li>The request comes into your local server (for example Plone) on the same domain.</li>
+	<li>The local server does some processing of the payload (for example caching) and figure's out where to send it on to.</li>
+	<li>The local server forwards the request on to the remote server and waits for a response.</li>
+        <li>The response is received and processed.</li>
+        <li>The response is then passed back upstream to the browser and the user gets the data.</li>
+</ul>
+
+<p>Apologies for the ramble, I’ll try to be more coherent and release more code soon. For the moment here’s two releases: <em>AjaxProxy</em> is a tool for Plone that acts as a generic Ajax proxy allowing you to proxy any request on through Plone. <em>ClearSpell</em> is a spelling tool for Plone that provides spell checking on any input or textarea. Unlike previous spell checking, there is no dependencies other than AjaxProxy, the ClearWind spell checking service provides the spell checking libraries.</p>
+
+<p>More to come…</p>
+
+<div id="navigation">
+  <a href="/2006-08-29-ajax-proxy-for-plone-10-released/">&laquo; older</a>
+  <a href="/2006-08-29-clearspell-for-plone-10-released/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

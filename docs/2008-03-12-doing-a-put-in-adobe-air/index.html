@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Doing a PUT in Adobe Air</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Mar 12, 2008</div>
+<h2><a href="/2008-03-12-doing-a-put-in-adobe-air/">Doing a PUT in Adobe Air</a></h2>
+<hr class="florished">
+<p>This one had me confused for quite a while, simply I wanted to do a PUT in Adobe Air to my Plone site. Something that you think would be quite easy but somehow all I got were errors. The problem turned out to be I was doing an upload, when it should have been <code>uploadUnencoded</code> which has a slightly different signature.</p>
+<pre>
+function uploadFile(file) {
+    // an internal function to get our upload url
+    var url = getPref("url");
+    // an internal function to get the file name for the PUT
+    var urlRequest = new air.URLRequest(url + "/" + fileFromPath(file.url));
+
+    var headers = new Array()
+    // an internal function to get the Plone security cookie
+    headers.push(new air.URLRequestHeader("Cookie", "__ac=" + getPref("cookie")));
+    // an internal function to get the file extension
+    headers.push(new air.URLRequestHeader("Content-Type", extensionFromFile(file)));    
+    
+    urlRequest.requestHeaders = headers; 
+    urlRequest.method = air.URLRequestMethod.PUT;
+    
+    file.addEventListener(air.ProgressEvent.PROGRESS, uploadProgress);
+    file.addEventListener(air.Event.COMPLETE, uploadComplete);
+    file.addEventListener(air.SecurityErrorEvent.SECURITY_ERROR, uploadError);
+    file.addEventListener(air.HTTPStatusEvent.HTTP_STATUS, uploadError);	
+    file.addEventListener(air.IOErrorEvent.IO_ERROR, uploadError);
+    
+    file.uploadUnencoded(urlRequest);
+} 
+</pre>
+
+<div id="navigation">
+  <a href="/2008-03-10-multiple-file-drag-and-drop-in-air/">&laquo; older</a>
+  <a href="/2008-03-13-microsoft-in-danger-of-being-cool/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

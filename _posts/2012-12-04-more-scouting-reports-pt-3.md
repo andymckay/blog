@@ -5,7 +5,7 @@ categories: Mozilla
 old: 2358
 blog: andy-mckay
 ---
-<p><em>Following on from <a href="http://www.agmweb.ca/blog/andy/2356/">part one</a> and <a href="http://www.agmweb.ca/blog/andy/2357/">part two</a></em>.</p>
+<p><em>Following on from <a href="https://mckay.pub.ca/blog/andy/2356/">part one</a> and <a href="https://mckay.pub.ca/blog/andy/2357/">part two</a></em>.</p>
 <p>The last post I was looking at fixtures. I haven't fixed up all the fixtures, but as I'm going along I'm fixing them. As it turns out, most of the tests need very few fixtures, but were just pulling in large ones because it's easy. Haven't seen any huge wins on the overall test time yet, but it won't hurt.</p>
 <h3>Scouting</h3>
 <p>Fixing tests requires information. There are quite a few timing plugins out there, but I didn't find one that did what I wanted, so I wrote one. <a href="https://github.com/andymckay/nose-timing">Nose timing</a> is based on <a href="https://github.com/acdha/nose-congestion">nose congestion</a> and is a basic plugin to output the time of each test setup and each test. It then outputs them in JSON with a file and line number.</p>

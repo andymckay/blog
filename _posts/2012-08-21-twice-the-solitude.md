@@ -5,7 +5,7 @@ categories: Mozilla
 old: 2347
 blog: andy-mckay
 ---
-<p><a href="http://github.com/andymckay/solitude">Solitude</a> is a server to do payment processing for the <a href="https://marketplace.mozilla.org">Mozilla Marketplace</a>. In my <a href="http://www.agmweb.ca/blog/andy/2345/">last post</a> I blogged about how Solitude seperates itself from the client application to provide a level of defense by depth.</p>
+<p><a href="http://github.com/andymckay/solitude">Solitude</a> is a server to do payment processing for the <a href="https://marketplace.mozilla.org">Mozilla Marketplace</a>. In my <a href="https://mckay.pub.ca/blog/andy/2345/">last post</a> I blogged about how Solitude seperates itself from the client application to provide a level of defense by depth.</p>
 <p>Well Solitude provides yet another layer of defense. It can be run in two modes: as a server or as a server and a proxy. Currently this mode works with PayPal, but is applicable to any third party payment provider. The former looks like this:</p>
 <img src="/files/solitude.png">
 <p>In this case if a security breach occurs on the Solitude server you'll get access to the credentials to access PayPal and some key tokens to access PayPal with. You'd need to get into both the file system and the database to get that information. But still it's just one server.</p>

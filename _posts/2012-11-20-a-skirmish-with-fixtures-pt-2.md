@@ -5,7 +5,7 @@ categories: Mozilla
 old: 2357
 blog: andy-mckay
 ---
-<p><em>Following on from <a href="http://www.agmweb.ca/blog/andy/2356/">part one</a>.</em></p>
+<p><em>Following on from <a href="https://mckay.pub.ca/blog/andy/2356/">part one</a>.</em></p>
 <p>Didn't get much chance to look at the test suite tonight and with the <a href="http://www.meetup.com/vanpyz/">VanPyz meeting</a> tomorrow I won't have much chance then either. But here's some things.</p>
 <h3>SQL Stacktrace</h3>
 <p><a href="https://github.com/adw0rd/django-sql-stacktrace">Django SQL stacktrace</a> is a useful tool that adds a stack trace as a SQL comment. Tail your sites SQL log to see what triggers a SQL statement.</p>

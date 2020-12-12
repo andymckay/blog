@@ -17,7 +17,7 @@ In between riding, I've gone to the gym to lift weights regularly. I've lost alm
 
 I'd started by putting myself in the 7hr+ category and just being glad to make it. With a week to go, I dropped myself into the 5hr+ category and dropped my t-shirt size by one.
 
-This was based on a similar ride I did in June from <a href="http://agmweb.ca/page2/">Whistler to Vancouver</a>. That ride has much more downhill, but was also about 10km longer. It took 5h 46m.
+This was based on a similar ride I did in June from <a href="https://mckay.pub/page2/">Whistler to Vancouver</a>. That ride has much more downhill, but was also about 10km longer. It took 5h 46m.
 
 <img src="/files/vancouver-whistler.png" />
 

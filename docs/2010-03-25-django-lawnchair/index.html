@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Django-lawnchair</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Mar 25, 2010</div>
+<h2><a href="/2010-03-25-django-lawnchair/">Django-lawnchair</a></h2>
+<hr class="florished">
+<p><a href="http://brianleroux.github.com/lawnchair/">Lawnchair</a> is a library that provides a client side JSON store and that's really cool. Since I'm going to be using this quite a bit in some of our applications, I started to build out some of the common uses into a library. This makes working with django models on the client side a little bit easier.</p>
+
+<p>At the moment django-lawnchair contains a few utilities to do some work on the server, but to be honest, not to much. I'm hoping I can integrate django-piston a bit to make writing that easier.</p>
+
+<p>There's a bit more on the client side of things, using django-lawnchair.js you can instantiate a database like this:</p>
+
+<pre>var todos = new djangochair('/todo/list');</pre>
+
+<p>Grabbing all the objects for a model (in this case Todo objects), populating the local database (or whatever backend store you choose) is as simple as:</p>
+
+<pre>todos.remote_get(add_row);</pre>
+
+<p>...as each Todo is added to the DB, the callback <code>add_row</code> will be called.</p>
+
+<p><img src="/files/django-lawnchair-1.png" /></p>
+
+<p>Users can interact with the objects. Each time you change a model in the local DB, we change the state. You can the push all the changed objects to Django:</p>
+
+<pre>todos.updated(function(r) {
+    todos.remote_save(r);
+ });</pre>
+
+<p>This will iterate through each changed object and push them to the server, where they will be saved. Got deleted objects?</p>
+
+<pre>todos.deleted(function(r) {
+    todos.remote_delete(r, function(r) {
+        todos.purge(r.key);
+    });
+});</pre>
+
+<p>...and so on. There's a lot to do in this area, handling errors, handling syncing problems and so on. The library doesn't do much of that yet, it's trying to set a base line for this stuff. As we build this out for some applications, we'll be fleshing these cases out.</p>
+
+<p>This is in a "works on my machine" state at: <a href="http://github.com/andymckay/django-lawnchair">http://github.com/andymckay/django-lawnchair</a>.</p>
+
+<div id="navigation">
+  <a href="/2010-03-24-creating-a-modelform-dynamically/">&laquo; older</a>
+  <a href="/2010-03-26-apps-4-climate-action-and-licenses/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

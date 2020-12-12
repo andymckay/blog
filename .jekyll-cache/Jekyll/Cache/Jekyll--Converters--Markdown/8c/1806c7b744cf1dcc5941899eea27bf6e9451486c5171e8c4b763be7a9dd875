@@ -1,0 +1,30 @@
+I"L<p>There are many sins in recruiting. One of them is the broad categorisation of
+developers as front or back-end. But for that a new trend has been emerging and
+will continue to get stronger, a <a href="https://mckay.pub.ca/2013-11-26-node/">front-end developer</a> encompasses a lot of
+skill sets and can’t be easily classified.</p>
+
+<p>Traditionally you take a site by getting some HTML, returning it from a server
+and slapping some HTML, JS and CSS on it. For this you’d expect a front-end
+developer to be heavily presentation oriented and wield CSS like a mighty
+sword.</p>
+
+<p>But these days you’ll see a lot more apps
+where the main work is done in the client and the server is just an API to
+return data (if one exists at all). Yet still developers are broadly placed
+into a bucket as a “front-end developer”.
+In a world where lots of the logic and presentation is done in the front-end,
+does that make sense?</p>
+
+<p>Take a good developer who can take data from multiple
+sources, store and sort it efficiently, test it well and have it accessible in
+a good API.  So, does that describe a task on the front or back-end?</p>
+
+<p>That could just as easily be a developer working on the back-end as a developer
+working in the front-end. You need to build, or use an existing framework to
+do all that on the front-end. For that you don’t need to do any
+presentation or CSS work.</p>
+
+<p>So when you think of hiring a “front-end” developer, think more
+importantly about what you expect that person to be doing: frameworks,
+presentation, performance, localisation, data… the list goes on.</p>
+:ET

@@ -1,0 +1,19 @@
+I"L<p><em>Following on from <a href="https://mckay.pub.ca/blog/andy/2356/">part one</a>.</em></p>
+<p>Didn't get much chance to look at the test suite tonight and with the <a href="http://www.meetup.com/vanpyz/">VanPyz meeting</a> tomorrow I won't have much chance then either. But here's some things.</p>
+<h3>SQL Stacktrace</h3>
+<p><a href="https://github.com/adw0rd/django-sql-stacktrace">Django SQL stacktrace</a> is a useful tool that adds a stack trace as a SQL comment. Tail your sites SQL log to see what triggers a SQL statement.</p>
+<h3>Fixtures</h3>
+<p>How fast are the fixtures? Pretty fast, they've often been blamed for being slow, but I don't buy that's the only problem in our test suite. But what is odd is that we have so many SQL queries on this test. That's because we load far too many fixtures. Let's strip it down to what we need - that's actually a user account and just one platform. That's 3 objects, not all the ones we load.</p>
+<p>As well, an absolute path to a fixture is much faster than a non-absolute path. In the latter Django has to rummage through many, many paths and files to find the fixture. Every single time.</p>
+<p>Slimming down the fixtures and specifying absolute paths adds up to 0.4 seconds, that's significant (from <b>2.191s</b> down to <b>1.704s</b>). After adding a quick patch to time management commands we can see that the loading of fixtures takes 29ms. That's pretty good.</p>
+<p>We are still at 204 queries though for one test (but down from over 500, we are getting somewhere).</p>
+<h3>Signals</h3>
+<p>Fixtures are loaded from the database and when a fixture triggers a signal we ignore it. The test I'm looking at uses some signals, some object creation in the tests. So if a user is loaded using a fixture, the signals are ignored. If a user is created in a test and altered, the signals are triggered. That means things like <code>zadmin reindexing</code> is fired, more queries and time.</p>
+<p>The difference between a fixture and making objects in the test (a la <a href="https://github.com/dnerdy/factory_boy">factory boy</a>), is unlikely to be huge.</p>
+<h3>The transformer</h3>
+<p>During the course of this test we trigger the <a href="https://github.com/mozilla/zamboni/blob/master/apps/addons/models.py#L850">Addon transformer</a>, 3 (yes that's 3 times). Each hit on the transformer triggers 15 SQL queries, adding 45 queries to our count. Those queries are still fast, removing them reduces the number of queries, but only saves us 0.06 seconds.</p>
+<h3>All the remaining work</h3>
+<p>This test checks that when an app is added to the site, it creates the appropriate image assets. Sadly this means it hits quite a bunch of slow code, a quick profile shows that PIL sucks up quite a bit of time. This is where the test needs breaking down and some mocks added. This violates the "no mocking of internal code" directive, but we should amend that directive to say "no mocking of internal code unless its slow".</p>
+<p>Next? Fixing up all the fixtures will take some time, but I think there's some time that can be saved there.</p>
+<p>Then? Stopping zamboni doing so many things.</p>
+:ET

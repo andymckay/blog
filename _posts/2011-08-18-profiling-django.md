@@ -5,7 +5,7 @@ categories: Django
 old: 2314
 blog: andy-mckay
 ---
-<p>At the recent <a href="http://www.agmweb.ca/blog/andy/2306/">WebDev offsite</a> in Portland, we had a chance to spend the day working on any project we wanted and then show the results off that afternoon. I chose to play around with <a href="http://socket.io/">Socket IO</a>. This is also inspired by a great talk by <a href="http://blog.abourget.net/2011/3/09/new-and-hot-stuff-in-the-pylons-project/">Alexander Bourget at Confoo</a>.</p>
+<p>At the recent <a href="https://mckay.pub.ca/blog/andy/2306/">WebDev offsite</a> in Portland, we had a chance to spend the day working on any project we wanted and then show the results off that afternoon. I chose to play around with <a href="http://socket.io/">Socket IO</a>. This is also inspired by a great talk by <a href="http://blog.abourget.net/2011/3/09/new-and-hot-stuff-in-the-pylons-project/">Alexander Bourget at Confoo</a>.</p>
 <p>A while back I was trying to profile my Django site and find some speed improvements. I started off by looking for a nice way to profile a Django site and give me some output. That's easy, as it turns out there's some code in <a href="https://github.com/django-extensions/django-extensions">Django command extensions</a> that outputs profiles:</p>
 <pre>python manage.py runprofileserver --use-cprofile --prof-path=/tmp/output</pre>
 <p>For each request to your Django site this will output in <code>cprofile</code> format a profile of the request, one per file. Now we just need a tool to read it.</p>

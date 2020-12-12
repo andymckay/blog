@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Climbing the ruby and rails learning curve</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Nov 03, 2006</div>
+<h2><a href="/2006-11-03-climbing-the-ruby-and-rails-learning-curve/">Climbing the ruby and rails learning curve</a></h2>
+<hr class="florished">
+<p>Been building a ruby on rails app this week. Like most new technologies, its very feast or famine. I get a road block and get stuck for a while, get over it and get productive for a while, then hit the next road block. Actually probably most development is like that. I’ve got lots of posts in my head about it and Plone.</p>
+
+<p>General thoughts so far are there are many good things in it, I like the environment separation, creation of unit tests and fixtures so I don’t have to write SQL (yet). There are also many bad things in it, the templating is painful, it doesn’t create any HTML for you (except through scaffold which isn’t usable except for 20 min. screencasts) and waaay to much magic. It feels like Zope 2.</p>
+
+<p>The one that hits me right now is introspection, I’m so used to going up to anything in Python and being able to do: <code>type(something)</code> will always give me a clue as to the type and figure out the api. In theory in ruby <code>something.class</code> should be same. Except it’s not, because it doesn’t always work. In my rails unit tests I can access one of my fixtures like this: <code>timesheets[:foo]</code> to get the foo fixture. But I can’t iterate through it. I also can’t do <code>puts timesheets.class</code> I get:</p>
+
+<pre>ArgumentError: wrong number of arguments (0 for 1)</pre>
+
+<p>Even using the ruby debugger (thanks to help from Geoff Davis) gives me:</p>
+
+<pre>
+(rdb:1) m timesheets
+test/unit/timesheet_test.rb:24:in `__send__':wrong number of arguments (0 for 1)
+</pre>
+
+<p>Magic is bad. Not least of which it makes me feel stupid.</p>
+
+<div id="navigation">
+  <a href="/2006-10-26-clouseau-05-released/">&laquo; older</a>
+  <a href="/2006-11-06-clouseau-06-released/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

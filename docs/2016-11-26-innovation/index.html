@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Innovation</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Nov 26, 2016</div>
+<h2><a href="/2016-11-26-innovation/">Innovation</a></h2>
+<hr class="florished">
+<p>A while ago someone mentioned that the move to WebExtensions for Firefox was “an end to innovation”. I asked that person to move that comment to do a discussion forum so we could chat more. It didn’t happen, so I thought I’d write a blog post so you can discuss it in the comments… except I don’t have comments, so please file a reply on your blog.</p>
+
+<p>Innovation is great, everyone wants more innovation, how could you possibly not? Innovation is like beer, or cookies, or money, or fresh Caprese salad in Italy whilst sitting on the beach in the sun. You can’t possibly want less of it.</p>
+
+<p>But innovation cannot occur in a vacuum there are costs. In the past add-ons have provided innovation and helped Firefox grow. But sadly there has also been a real cost the way they currently exist, here’s three reasons: the cost has been the inability of Firefox to innovate, the cost of developers getting into building WebExtensions and the maintenance cost of add-ons.</p>
+
+<p>I touched on some of these points in my blog post “<a href="https://mckay.pub.ca/2016-04-17-addons-old/">The add-ons burden</a>”, but let’s unpack a couple of those.</p>
+
+<p>The classic example for Firefox has been multi-process Firefox (or e10s). I’ve heard multiple stories since being involved in add-ons. One is that it was tried time and time again, but no-one could figure out how to do it without breaking add-ons. There are so many more changes coming down the pipeline like Servo, that will keep breaking add-ons. The ability to innovate Firefox is as important as the ability to innovate Firefox through add-ons. It turns out that add-ons really, really crimp Firefox development.</p>
+
+<p>Building an extension before WebExtensions was complicated, it required knowledge of Firefox and the Mozilla framework. The SDK and other things helped. Getting to a simple content script was made pretty easy by the SDK (which is something like 40% of all add-ons). But with WebExtensions you need to be able to read a limited set of APIs and understand web development. There are more web developers in the world than there are Mozilla developers. By allowing more developers to get involved in extensions, we provide a larger funnel into extensions.</p>
+
+<p>Every day people file bugs against Firefox, many of them. I spend quite a lot of my time in triages trying to understand those bugs, as I’m sure lots of people do at Mozilla. I don’t have numbers on this but I bet the first question in many of those bugs is “what happens when you try in a clean profile?” (basically with no add-ons). Add-ons cause so many bugs and issues for Firefox and its users that its crazy. It’s also something that most add-on developers don’t see. The cost to Mozilla and Firefox is there and its real. It hits end users and Firefox developers every day.</p>
+
+<p>In this case, the legacy add-ons infrastructure exacts such a negative cost on other teams, so it ends up being an overall drag. Until I became involved in Firefox, I didn’t see that and the chances are most add-on developers won’t unless they too are involved in the many facets of Firefox.</p>
+
+<p>But there are ways to solve this. For the majority of Mozilla the main concern is the the Firefox release channel, what we all think of as Firefox. That’s the one with the majority of users. Perhaps we could recognize that we have multiple channels and focus on innovating with add-ons on a non-release channel. That would allow innovation, without the costs.</p>
+
+<p>In the case of Firefox, the ability to innovate is the sum of multiple groups, not just one group and just focusing on yourself doesn’t make sense when you’ve got a product with many millions of users.</p>
+
+<div id="navigation">
+  <a href="/2016-11-25-what-people-hear/">&laquo; older</a>
+  <a href="/2016-12-09-cycling-around-hawaii/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

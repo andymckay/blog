@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: NoSQL, meh</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Apr 08, 2010</div>
+<h2><a href="/2010-04-08-nosql-meh/">NoSQL, meh</a></h2>
+<hr class="florished">
+<p>At this point I just can't quite get as excited about NoSQL as some people.</p>
+<p>I'm not against it, I think it's pretty cool, it's just that with the <a href="http://wiki.zope.org/ZODB/FrontPage">ZODB</a> I've been there and done it once before for about 8 years and I don't want to go there again in a hurry.</p>
+<h3>The Zope expert</h3>
+<p>In the past I used to come in as the Zope or Plone expert. That's what writing a damn book does for you. If a problem or a change needs happens in a Zope or Plone site chances are you have to alter some data and interact with the ZODB. But one thing you cannot <i>easily</i> do, is have a quick look at the records in the database.</p>
+<p>The ZODB is a very sophisticated <a href="http://docs.python.org/library/pickle.html#module-pickle">Python pickler</a>. To get an object out of the ZODB you have to have the class of the object that went in so that you know how to unpickle it and get the object back. Something I remember Paul Everitt indicated as a problem to me many years ago and it took me a while to clue in.</p>
+<p>So whenever a problem came up in the data, it was up to me to fix. It was considered too hard for other people to fix. It might <i>"just be"</i> a matter of writing a Python script that ran through some records and altered a  string, but that was pushed to me.</p>
+<h3>Along came Rails</h3>
+<p>Then along came a Rails project. This is before we discovered Django and found out what Rails was really like. But for me there was a moment of pure joy one morning when an absolutely awesome colleague I worked with at the time said to me something like: "There's a problem with this invoice, I traced it down to this table in the database which has errors in these columns. I've written a SQL statement to correct, or should it be done at the model level?". Not only had he found and analyzed the problem, he was offering to fix it.</p>
+<p>Praise the gods. To do similar in Plone, he would have had to learn Python, read up on all the classes. Write a script to get those objects from the ZODB and examine them. Not a small undertaking by any means.</p>
+<h3>What was going on</h3>
+<p>The tools for the ZODB just weren't there and it wasn't transparent enough. If there was a good object browser for the ZODB (and yes a few simple projects showed up that tried to do that) that did all the work and exposed things that would really help. But setting up and configuring such a tool is hard and I never saw one that allowed you to do large scale changes.</p>
+<p>Perhaps if the ZODB was just a big JSON structure that you could easily build a browsing tool and hook up easily it would have been more transparent. Or at least if was presented that way... but for many its a black box.</p>
+<p>Let's face it, everyone knows SQL. If you've got a complicated issue that occasionally pops up on some site - I can completely understand not wanting to spend a lot of time learning the relatively complicated answer on how to fix. Or to put it another way:</p>
+<p><img src="http://browsertoolkit.com/fault-tolerance.png" /></p>
+<p>Of course I'm guilty of being a bit self interested here. I'm happy to do fixes, but if I'm the first line for every problem in a Plone site then the resource allocation is out of whack. And you are screwed when I get hit by the bus.</p>
+<h3>The future</h3>
+<p>I'm using App Engine and hence Big Table quite a lot these days and enjoying it. I think that's great. I've played with CouchDB and I'm impressed so far. There's lots of cool stuff there, but I'm still enjoying Django with a boring old fashioned RDBMs backend and recommending that (along with App Engine) to clients. If a client asks for something like Couch/Cassandra/Mongo we'll happily implement it.</p>
+<p>But in the back of my mind is that worry, I've been down the NoSQL route before. And the result was a lesson learned. I'm going to be cautious this time around.</p>
+
+<div id="navigation">
+  <a href="/2010-03-30-running-django-admin-separately/">&laquo; older</a>
+  <a href="/2010-04-12-great-day/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

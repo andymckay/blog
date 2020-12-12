@@ -5,11 +5,11 @@ categories: General
 blog: andy-mckay
 ---
 
-Yesterday was my fourth Gran Frondo, <a href="http://mckay.pub/2017-09-10-third-fondo/">the last</a> was in 2017.
+Yesterday was my fourth Gran Frondo, <a href="https://mckay.pub/2017-09-10-third-fondo/">the last</a> was in 2017.
 
 The Fondo for me has become the signature event of the year. It's at the end of the season, as the days get shorter and the evenings draw closer and the rain starts to arrive. The ride provides a nice gauge for how well the training has gone and your level of fitness over the year. Also, since it's the same ride every year you can compare yourself historically to the ride.
 
-Last year I dropped 17 minutes off my time and that made me really happy. I finished <a href="http://mckay.pub/2017-09-10-third-fondo/">last years post</a> by saying "I'm going to get below 4hr 30min next year". So that was my goal.
+Last year I dropped 17 minutes off my time and that made me really happy. I finished <a href="https://mckay.pub/2017-09-10-third-fondo/">last years post</a> by saying "I'm going to get below 4hr 30min next year". So that was my goal.
 
 Equipment wise I got a new bike and upgraded to a <a href="https://www.cervelo.com/en/road/s-series/s3">Cervélo S3</a>. It's lighter, more aero, bigger gears and faster. I love my S3. I also got a new computer and upgraded to a Wahoo to get a cadence, heart rate and speed monitor.
 

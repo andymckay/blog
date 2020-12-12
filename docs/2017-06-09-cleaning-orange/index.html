@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Cleaning up intermittents</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jun 09, 2017</div>
+<h2><a href="/2017-06-09-cleaning-orange/">Cleaning up intermittents</a></h2>
+<hr class="florished">
+<p><a href="https://wiki.mozilla.org/Auto-tools/Projects/OrangeFactor">Orange Factor</a> robot creates bugs in Bugzilla components when it detects intermittents in the Firefox test suite. Unfortunately it never cleans up after itself. Trying to keep the bug count in a component manageable is something that really helps me understand whats going on and the orange factor bugs that never get closed don’t help.</p>
+
+<p>I found that as I was triaging through I found a common pattern, which is basically go look on Brasstacks and see if it occured in a while. From that came a simple script that looks for intermittents and checks to see if it occurred on Brasstacks in the last 180 days, if not then close it.</p>
+
+<p>Both Brasstacks and Bugzilla have REST APIs, but last week or so Brasstacks went behind Mozilla internal authentication. To get around that, you need to pass the session cookie and user agent through any requests.</p>
+
+<p>The resulting script is on <a href="https://github.com/andymckay/bugzilla-scripts/blob/master/intermittent.py">Github</a> and closes out a couple of bugs for us each week.</p>
+
+<p>For this script to work, you need a bunch of environment variables: the brasstacks session, the brasstacks user agent, the bugzilla API key and bugzilla API token. But this script is written for me, not for your project, you’ll probably want to do something different anyway.</p>
+
+<p><strong>Update</strong>: as per <a href="https://groups.google.com/forum/#!topic/mozilla.dev.platform/RVs1FkBC5U4">this email</a>, this is now happening automatically.</p>
+
+<div id="navigation">
+  <a href="/2017-05-26-ride-to-conquer/">&laquo; older</a>
+  <a href="/2017-07-11-mail-filters/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

@@ -5,7 +5,7 @@ categories: Mozilla
 blog: andy-mckay
 ---
 
-<a href="http://www.agmweb.ca/2013-09-06-triage/">Triage with me</a> is a tool I wrote a while ago at Mozilla. Mostly when Bugzilla bug numbers rolled over to 7 digits and reading out bug numbers in a meeting became just ridiculous.
+<a href="https://mckay.pub.ca/2013-09-06-triage/">Triage with me</a> is a tool I wrote a while ago at Mozilla. Mostly when Bugzilla bug numbers rolled over to 7 digits and reading out bug numbers in a meeting became just ridiculous.
 
 As a person leading the triage, as you click on bug links, they are sent to a server and then to every person watching the triage page. All you do is turn on the add-on and continue as usual. Over the past year or so I've found triage with me an invaluable tool and find triages without it really, really hard to do.
 

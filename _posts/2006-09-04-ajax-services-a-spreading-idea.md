@@ -14,4 +14,4 @@ This just got onto Slashdot, <a href="http://cows-ajax.sourceforge.net">COWS Aja
 
 To quote the site:
 <blockquote>The trick is that the URL of the script is not pointing to a javascript file, but instead pointing to something like a PHP or other backend.</blockquote>
-Looks like an implementation of <a href="http://www.agmweb.ca/blog/index.php?p=50">Ajax Services</a> to me. I would really like to see more implementations of AjaxProxy, so something in PHP would be really nice if anyone knows more than me it would be great to see.
+Looks like an implementation of <a href="https://mckay.pub.ca/blog/index.php?p=50">Ajax Services</a> to me. I would really like to see more implementations of AjaxProxy, so something in PHP would be really nice if anyone knows more than me it would be great to see.

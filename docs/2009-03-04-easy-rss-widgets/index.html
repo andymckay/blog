@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Easy RSS Widgets</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Mar 04, 2009</div>
+<h2><a href="/2009-03-04-easy-rss-widgets/">Easy RSS Widgets</a></h2>
+<hr class="florished">
+<p>One thing that I looked at a while back, but didn't have chance to play with was <a href="http://code.google.com/apis/ajaxfeeds/">Google Ajax Feeds</a>. These give you an interface to easily read RSS feeds in Javascript.</p>
+<p>A few years ago I tried this in Javascript using ClearRSS for Plone. The only problem with that was that I used a generic server side proxy (now redundant thanks to JSONP) and found myself hitting all the inconsistencies with feeds and programming that in Javascript. This API removes the first problem and solves the second by normalising all the data so that it is accessible consistently.</p>
+<p>The result is that it's easy to read feeds in Javascript. As an example I just created a widget for Cleartrain, so that all trainings can be easily embedded on a page. For example all the Django training can be pulled using this:</p>
+<pre>&lt;div id="cleartrain-feed" /&gt;
+&lt;script type="text/javascript" src="https://www.google.com/jsapi"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://media.cleartrain.ca/widget/cleartrain.js"&gt;&lt;/script&gt;	
+&lt;script type="text/javascript"&gt;
+    cleartrain.url = "http://cleartrain.ca/atom/topics/4/";
+    cleartrain.content = false;
+&lt;/script&gt;</pre>
+<div id="cleartrain-feed"></div>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+<script type="text/javascript" src="http://media.cleartrain.ca/widget/cleartrain.js"></script>
+
+<script type="text/javascript">
+    cleartrain.url = "http://cleartrain.ca/atom/topics/4/";
+    cleartrain.content = false;
+</script>
+
+<p>Cleartrain is itself a Django site and required no modification above and beyond having RSS feeds for everything. The Javascript to allow this to be embedable is really easy, all we do is read the Ajax API, loop through the entries and then add into the innerHTML. The source for that is here: <a href="http://media.cleartrain.ca/widget/cleartrain.js">http://media.cleartrain.ca/widget/cleartrain.js</a>.</p>
+<p>Definitely a neat API from Google and a very quick and easy way to create an RSS widget.</p>
+
+<div id="navigation">
+  <a href="/2009-02-26-content-mirror/">&laquo; older</a>
+  <a href="/2009-03-04-plone-bootcamps/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

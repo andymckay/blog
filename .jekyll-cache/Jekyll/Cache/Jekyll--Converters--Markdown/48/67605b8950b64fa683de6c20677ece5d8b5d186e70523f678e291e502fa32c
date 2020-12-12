@@ -1,0 +1,22 @@
+I"�<p>I needed to find a better way to keep track of my to-do lists. I’ve tried a few tools, but after a while always forget about them and don’t keep them up to date. A to-do list is only any good if you add stuff to it and look at it.</p>
+
+<p>I spend 95% my time in about 5 places these days: Google Calendar, Google Docs, Gmail, Slack and Github. I spend a lot of time on the latter, GitHub. So, of course, to super charge my to-do list I went for a quick browser extension - cue colleagues who laugh and say “of course you did” when I mention this.</p>
+
+<p><a href="https://github.com/andymckay/create-issue">Create issue on GitHub</a> is a <a href="https://addons.mozilla.org/en-US/firefox/addon/create-github-issue/">stupid simple Firefox Extension</a> that lets you highlight a peice of text on a page, then right click to create an issue. It creates the issue in a repository defined on the config page using a personal access token. That’s it.</p>
+
+<p>The beauty of this is that everything is a web page. Emails. Slack messages. Docs. All you do is highlight some text then right click and it creates an issue with the selected text and a URL to the item. Key to this is that’s it <strong>fast</strong> to create a simple issue.</p>
+
+<p><img src="https://user-images.githubusercontent.com/74699/53767875-fac37300-3e8b-11e9-8401-650d0a317f3a.png" /></p>
+
+<p>For this I’ve setup a private repo (<a href="https://github.blog/2019-01-07-new-year-new-github/">those are free now</a>). Thanks to all the integrations with GitHub issues, I get a bunch of stuff for free:</p>
+
+<ul>
+  <li>automatic links on other issues and PRs across GitHub back to my to-do item</li>
+  <li>notifications in email and Slack</li>
+  <li><a href="https://github.com/marketplace/stale">stale</a> to automatically clean my list</li>
+  <li><a href="https://github.com/probot/reminders">reminders</a> to remind me of me of things at set times</li>
+</ul>
+
+<p>So far I’ve used this more than any to-do list system I’ve used in the past.</p>
+
+:ET

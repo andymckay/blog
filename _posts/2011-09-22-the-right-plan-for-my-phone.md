@@ -5,7 +5,7 @@ categories: Canada
 old: 2318
 blog: andy-mckay
 ---
-<p>Almost three years ago we came back to Canada and the next day went to a Rogers store and bought two iPhones. If you've done this in Canada, you have probably had to face the horror of a <b>three year contract</b>, I was <a href="http://www.agmweb.ca/blog/andy/2102/">upset about it</a>, but there was no choice. My contract is now coming up.</p>
+<p>Almost three years ago we came back to Canada and the next day went to a Rogers store and bought two iPhones. If you've done this in Canada, you have probably had to face the horror of a <b>three year contract</b>, I was <a href="https://mckay.pub.ca/blog/andy/2102/">upset about it</a>, but there was no choice. My contract is now coming up.</p>
 <p>Why won't I just renew with Rogers? a) a three year contract, b) much more expensive, c) rogers will nickel and dime you for everything (evening calls start at 9pm, you have to pay extra for visual voice mail etc), d) rogers will call you the day after your bill is paid demanding credit card payment right then. Oh and a <b>three year contract</b> that stacks everything in Rogers favour. Love it.</p>
 <p>I spend more on Rogers than almost on any other service, but I never get offered anything from Rogers. No ongoing incentives, points or rewards. Apart from complaining about my bill payments, Rogers has not given me any love. Ever. Until yesterday, when a letter arrived, asking me to sign up for another three years. Not likely.</p>
 <p>But to give Rogers credit over AT+T, the actual network is pretty good here in Vancouver.</p>

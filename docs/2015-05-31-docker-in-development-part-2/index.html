@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Docker in development (part 2)</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">May 31, 2015</div>
+<h2><a href="/2015-05-31-docker-in-development-part-2/">Docker in development (part 2)</a></h2>
+<hr class="florished">
+<p>Tips for developing with Docker.</p>
+
+<h2 id="write-critical-logs-outside-the-container">Write critical logs outside the container</h2>
+
+<p>You are developing an app, so it will go wrong. It will go wrong a lot, that’s fine. But at the beginning you will have a cycle that goes like this: container starts up, container starts your app, app fails and exits, container stops. What went wrong with your app? You’ve got no idea.</p>
+
+<p>Because the container died, you lost the logs and if you start the container up again, the same thing happens.</p>
+
+<p>If you store the critical logs of your app outside your container, then you can see the problems after it exits. If you use a process runner like  <a href="http://supervisord.org/">supervisord</a> then you’ll find that <a href="https://docs.docker.com/reference/commandline/cli/#logs">docker logs</a> contains your process runner.</p>
+
+<p>You can do a few things here, like move your logs into the process runner logs, or just write your logs to a location that allows you to save them. There’s lots of ways to do that, but since we use supervisord and <a href="https://docs.docker.com/compose/">docker-compose</a>, for us its a matter of making sure supervisord writes its logs out to a <a href="https://docs.docker.com/reference/builder/#volume">volume</a>.</p>
+
+<p>See also <a href="/2015-05-30-docker-in-development-part-1/">part 1</a>.</p>
+
+<div id="navigation">
+  <a href="/2015-05-30-docker-in-development-part-1/">&laquo; older</a>
+  <a href="/2015-06-01-docker-in-development-part-3/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

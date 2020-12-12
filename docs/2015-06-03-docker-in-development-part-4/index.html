@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Docker in development (part 4)</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jun 03, 2015</div>
+<h2><a href="/2015-06-03-docker-in-development-part-4/">Docker in development (part 4)</a></h2>
+<hr class="florished">
+<p>Tips for developing with Docker.</p>
+
+<h2 id="keep-your-container-small">Keep your container small</h2>
+
+<p>Each layer in your Dockerfile is cached. This means that if you have the same layer repeated in multiple images, it will cache and reuse that layer.</p>
+
+<p>So its easy not too worry about how big a layer is. Until you start pulling your containers on to servers, test runners, QA servers, developers laptops and so on. Then you start to wonder how your container blew up to 2 gigs [<a href="#footnote-1">1</a>].</p>
+
+<p>After you add a layer, do yourself a favour and see how much it adds. To find out how much a layer adds, use the <code>docker history [image id]</code> command. The results can be suprising, especially when it comes to <a href="http://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified">yum</a>.</p>
+
+<p>Installing <a href="http://supervisor.readthedocs.org/en/latest/">supervisor</a> using <a href="https://pypi.python.org/pypi/pip">pip</a>:</p>
+
+<pre>
+540868cb5bab        35 seconds ago      /bin/sh -c pip install supervisor               2.429 MB
+</pre>
+
+<p>Installing supervisor using yum:</p>
+
+<pre>
+16bb922e5ff5        6 hours ago         /bin/sh -c yum install -y supervisor            224.5 MB
+</pre>
+
+<p>That’s a 222.071 MB difference.</p>
+
+<p>You can do a <code>yum clean</code> and that’s when it gets interesting. Three seperate lines, no clean:</p>
+
+<pre>
+392cecc77eae        12 hours ago         /bin/sh -c yum install -y cronie                34.72 MB
+91154ebe69d8        12 hours ago         /bin/sh -c yum install -y bash-completion       18.67 MB
+760d1b735093        12 hours ago         /bin/sh -c yum install -y supervisor            224.5 MB
+</pre>
+
+<p>Install and clean in three lines:</p>
+
+<pre>
+832fe193df7d        About a minute ago   /bin/sh -c yum install -y cronie &amp;&amp; yum clean   34.69 MB
+331bc45fc42a        About a minute ago   /bin/sh -c yum install -y bash-completion &amp;&amp;    18.64 MB
+f74a8b922149        2 minutes ago        /bin/sh -c yum install -y supervisor &amp;&amp; yum c   21.54 MB
+</pre>
+
+<p>Install and clean in one line:</p>
+
+<pre>
+23d486d7bc04        2 minutes ago        /bin/sh -c yum install -y supervisor bash-com   38.7 MB
+</pre>
+
+<p>The last one saves you 239.19 MB.</p>
+
+<p>It’s a pretty simple and quick check to see how big the layer in your Dockerfile. Next time you add a layer, give it a try.</p>
+
+<p>See also <a href="/2015-06-01-docker-in-development-part-3/">part 3</a>.</p>
+
+<ol>
+<li><a id="footnote-1"></a>Yes, one of our containers has grown to this size.</li>
+</ol>
+
+<div id="navigation">
+  <a href="/2015-06-01-docker-in-development-part-3/">&laquo; older</a>
+  <a href="/2015-06-03-five-eyes/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

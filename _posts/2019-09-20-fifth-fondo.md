@@ -5,7 +5,7 @@ categories: General
 blog: andy-mckay
 ---
 
-A bit ago was my fifth Gran Frondo, <a href="http://mckay.pub/2018-09-09-fourth-fondo/">the last</a> was in 2018.
+A bit ago was my fifth Gran Frondo, <a href="https://mckay.pub/2018-09-09-fourth-fondo/">the last</a> was in 2018.
 
 Last year I dropped 25 minutes off my time and that made me really happy. This year my goal was 4 hours. This was just an aribtrary number, but it was also based on an attempt to qualify for the 2020 version of this race which is a UCI World Cup Event.
 

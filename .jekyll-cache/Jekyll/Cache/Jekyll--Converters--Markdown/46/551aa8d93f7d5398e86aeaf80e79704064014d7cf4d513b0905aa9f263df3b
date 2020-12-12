@@ -1,0 +1,29 @@
+I"¤<p>User feedback is important to your website. You will, of course, be using log files and awesome tools like <a href="https://mckay.pub.ca/blog/andy/2326/">Graphite</a> to get an idea of whats going on with your site. But how about some user feedback. Let's take <a href="http://www.bmw.ca/">BMW</a>'s site for example.</p>
+<p>It has the fancy Java configurator thing for configurating your car I guess. I'm not sure how fancy it is because it needs Java and well I don't have that on my laptop and/or don't care to install and/or don't really care why. All I know is can't see anything in the configurator yet every car website works fine. Helpfully BMW gives you a chance to give feedback. So let's tell them Java sucks and perhaps they should look at HTML 5.</p>
+<p>About 3 clicks in I get to this page, hmm so a few other people have trouble with Java too?</p>
+<p><img src="/files/bmw-1.png" /></p>
+<p>Alright, so let's type some feedback:</p>
+<p><img src="/files/bmw-2.png" /></p>
+<p>That's really all I care about to be honest. It's taken me to a seperate window and about 7 clicks so far to <b>tell you</b> how to <b>improve your</b> site. You aren't paying me for this, or giving a cool BMW t-shirt or something?</p>
+<p>But wait you keep asking me more and here's the sinking feeling:</p>
+<p><img src="/files/bmw-3.png" /></p>
+<p>I've given everything I know, but I'm not 1/4 of the way through! What! How long will this take? If I just leave right now because I have life to lead, will you still take my feedback?</p>
+<p>By now I'm hating this survey, I'm 40 clicks in and there's no end in sight. Then after asking a series of questions about the site, it then goes back to the beginning of the series and asks me to clarify my answer. It doesn't do it right after asking these questions.... no that would be too sensible.</p>
+<p><img src="/files/bmw-4.png" /></p>
+<p>I used to work in market research years ago and we used to see fall offs in responses where it was clear the respondent was getting bored or could tell branching would occur. Branching is when you answer a question in a certain way and trigger more questions. Many people pick up on this easily, knowing that the answer will lead to more questions and avoid those answers.. Perhaps that is why all the follow up questions are later. Sigh, let's keep going.</p>
+<p>What? Does the person who wrote this get paid per question? We are at about 50 questions now. I've just been clicking randomly for ages now hoping it would end or I'd struck by lightning or something. You really don't care about my time, do you?</p>
+<p><img src="/files/bmw-5.png" /></p>
+<p>That's it. Phew, well glad you liked it.</p>
+<p><img src="/files/bmw-6.png" /></p>
+<p>I didn't like it and I'm not going to like you on Facebook. Really, you just showed me that you've hired some market research goons to do a survey. I'll appear as a statistic in a power point presentation somewhere to someone. Show me a) you care about me and my time I'm giving you and b) let me get to the damn point quickly. All I wanted to tell you was <b>one thing</b> and you made it really, really hard to tell you that.</p>
+<p>Let's assume that BMWs problems are due to Firefox (which they aren't). How would I tell Mozilla. Well I could go to the <a href="http://input.mozilla.com/en-US/feedback">feedback page</a>.</p>
+<p><img src="/files/input-1.png" /></p>
+<p>Oh ok, that's simple, I got a bit sad today.</p>
+<p><img src="/files/input-2.png" /></p>
+<p>And that's it.</p>
+<p><img src="/files/input-3.png" /></p>
+<p>That's three entire clicks that let me get precisely to the point. I know the data has been sent, I got nice feedback. Somebody at Mozilla has got a simple user metric number (happy or sad) that will <a href="http://input.mozilla.com/en-US/">look great in a graph</a> or on a powerpoint slide and the key feedback was given.</p>
+<p>I'm sure the BMW approach makes lots of MBAs happy, but it feels like a very, very unfriendly system that does not have getting to the key data in mind. Probably won't stop our roads being clogged with with X3 and X5 though, sadly.</p>
+<p>Value your users time, especially on something so important for your business, their feedback.</p>
+<p>PS: sorry team for the bad feedback.</p>
+:ET

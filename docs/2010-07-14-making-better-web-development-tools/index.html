@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Making better web development tools</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jul 14, 2010</div>
+<h2><a href="/2010-07-14-making-better-web-development-tools/">Making better web development tools</a></h2>
+<hr class="florished">
+<p>Yesterday Arecibo grew an issue tracker. At this point it's not especially useful - you can add an issue, assign it and resolve it. There's a whole lot more to do in the issue tracker such as notifications, workflow, code tracking and so on. Hopefully these will come in quickly over the next few weeks.</p>
+<p>You may be asking yourself, not another bug database? Don't we have about 800 of these already? And yes we do. But very few of them are tailored for what we (at Clearwind) need. We build websites. We do other things which are web based, for example mobile apps, but most of the time it's websites.</p>
+<p>When you look at bug database they are generic, they focus on being usable for everyone on any project. I want features that specifically make web development better and more efficient. There's lots of ideas in my head and more to come but this is the roadmap of where I'm going with tickets over the next few days.</p>
+<h3>Tying Issues to Errors</h3>
+<p>One simple thing is that you can tie an error to an issue all in the same application. Looking at an issue I can see the explicit error if there was one reported to Arecibo.</p>
+<p>As an aside last time I checked exceptional and hoptoad (competing services) allowed you to push exceptions out to another service. That's good, but the amount of benefit we can get in one place will outweigh that.</p>
+<h3>Project URL Staging</h3>
+<p>In web development there's generally two kinds of project those that don't have any staging and those that do. Small quick projects or projects maintained by one developer sometimes only have a production server and that's it. Developers make their changes and it's tested and developed live. Larger projects have a staging setup that can vary from 1 or 2 development servers to dozens of other servers, all providing testing and feedback prior to going live.</p>
+<p>Usually this is done by domain switching: dev.yoursite.com, test.yoursite.com, live.yoursite.com and so on. This can be added in under the <i>projects</i> tab on Arecibo and once you've got your domains set up we now know the location and severity of errors and issues.</p>
+<h3>Issues and URL Staging</h3>
+<p>So when you create an issue, you give it a URL, we can now determine it stage and its severity automatically. Also we can recognize that because an issue is fixed on test doesn't mean its on live. Your deployment workflow from development to live might be really fast (under a day, or instant) or really slow. So each issue can be marked fixed per stage:</p>
+<p><img src="/files/arecibo-stages.png" class="clear" /></p>
+<p>The goal is to tie in staging to the workflow and make sure we've got an API so that when a peice of code is deployed, you can tell Arecibo to mark it deployed.</p>
+<h3>Reopening Issues</h3>
+<p>Errors that come in to Arecibo are grouped by similarity and it's those groups that are tied to tickets. So when an issue is marked as completed, it should be "fixed" for all its stages from development to production. If an error occurs again on an issue that is "fixed" we know something went wrong. This allows us to re-open the ticket and let the development team know that the issue has not been resolved.</p>
+<p>Just to repeat, these are just the tip of the iceberg for ideas to make it a better bug tracker for web developers and not all of these features are in Arecibo yet. I'm hoping to add these features in over the next little while - now that the skeleton for issues are in. Then we can start to get on with the really fun stuff.</p>
+
+<div id="navigation">
+  <a href="/2010-07-08-switching-from-textmate/">&laquo; older</a>
+  <a href="/2010-07-22-api-for-app-engine-creation/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

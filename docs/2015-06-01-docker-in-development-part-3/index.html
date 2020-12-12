@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Docker in development (part 3)</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Jun 01, 2015</div>
+<h2><a href="/2015-06-01-docker-in-development-part-3/">Docker in development (part 3)</a></h2>
+<hr class="florished">
+<p>Tips for developing with Docker.</p>
+
+<h2 id="running-pdb">Running pdb</h2>
+
+<p>This is a Python specific tip, but <a href="https://docs.python.org/3.4/library/pdb.html">pdb</a> is Python specific debugger. Using pdb is pretty useful for Python development, but this tip can apply to any processes that use a pseudo terminal to interact with the process.</p>
+
+<p>If you use <a href="https://docs.docker.com/compose/">docker-compose</a>, you can’t actually run your process and enter an interactive debugging session. There’s been <a href="https://github.com/docker/compose/issues/423">some requests</a> for that but there’s a simpler way. Since we are using a <a href="/2015-05-31-docker-in-development-part-2/">process manager</a>, all you have to do is:</p>
+
+<ul>
+    <li><a href="https://docs.docker.com/reference/commandline/cli/#exec">exec</a> into the container, eg: <code>docker exec -ti $(docker ps | grep [servicename] | awk '{print $1}') /bin/bash</code></li>
+    <li>stop the process using your process manager, eg: <code>supervisorctl stop [servicename]</code></li>
+    <li>start the process from the shell, eg: <code>python manage.py runserver 0.0.0.0:8000</code></li>
+</ul>
+
+<p>Then you’ll be able to re-trigger requests and get to your Python prompt. Bear in mind, you’ll have to ensure that any environment variables you set are set correctly. You’ll be able to use pdb as much as want. As soon as you stop and restart the container, it will revert back to it’s normal state again.</p>
+
+<p>See also <a href="/2015-05-31-docker-in-development-part-2/">part 2</a>.</p>
+
+<div id="navigation">
+  <a href="/2015-05-31-docker-in-development-part-2/">&laquo; older</a>
+  <a href="/2015-06-03-docker-in-development-part-4/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>

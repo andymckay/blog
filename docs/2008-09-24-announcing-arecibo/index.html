@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: 2020-07-03T17:27:43+00:00 -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Announcing Arecibo</title>
+<link href="/css/style.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2020-07-03T17:27:43+00:00" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">Sep 24, 2008</div>
+<h2><a href="/2008-09-24-announcing-arecibo/">Announcing Arecibo</a></h2>
+<hr class="florished">
+<p><img src="http://media.areciboapp.com/img/pictures/pic02.png" style="float: right; padding: 1em" width="200px" /></p>
+<p>One of the problems I find annoying in web development is the bug reports from users. It could be your application has gone live, or it's still going through testing. But feedback tends to be vague "I clicked this and it didn't work" or some such.</p>
+<p>There often follows a few emails with questions like "what browser did you use" or "did you get an error message". Those emails are time consuming and expensive. They also have an air of unprofessionalism about them. Why can't you figure this out for yourself?</p>
+
+<p>In some applications like Plone or Django the error handling is well developed. But in others (e.g. Rails) it's not as good. Plus, we rarely have the luxury of living in an isolated world. One application I developed a while back had an Apache front end to Moodle (PHP), Django (Python), Rails (Ruby) and Plone (Python). When an error occurred, looking through all the different possible logs was not easy.</p>
+
+<p>For this reason I'm announcing the <a href="http://www.areciboapp.com">beta of Arecibo</a>. It's a hosted service that listens for errors on your websites. When an error occurs a HTTP post or email containing the details can be whisked off to Arecibo, allowing you the developer to view the error and all its details. Arecibo can send out notifications if you wish via Twitter, email, RSS feeds and the like.</p>
+
+<p>Currently there are implementations to allow you to send issues to Arecibo from JavaScript, Python, PHP, Ruby and more detailed ones for Django and Plone. The JavaScript one is really nice because in just a few lines of JavaScript, you can have servers like Apache send your errors to a centralised repository.</p>
+<p>It's currently in beta and available at <a href="http://www.areciboapp.com">http://www.areciboapp.com</a>, there's currently no limit on signing up, but if it's popular I might lock it down. Give it a try, kick the tires, tell me the bugs (well the ones Arecibo didn't catch).</p>
+
+<div id="navigation">
+  <a href="/2008-09-21-the-recruiter-and-the-restaurant/">&laquo; older</a>
+  <a href="/2008-09-30-back-to-canada-date/">newer &raquo;</a>
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>
