@@ -17,7 +17,7 @@ Also this week the District of North Vancouver tweeted out that they are adding 
 
 They've done this a few times. But what they won't do is making cycling to Deep Cove any safer and this demonstrates a clear lack of co-ordination and planning with a patchwork of cycling improvements.
 
-Let's assume you coming to Deep Cove from somewhere around Ironworkers Memorial Bridge. The source](https://www.translink.ca/-/media/translink/documents/rider-guide/cycling/local-area-maps/pack_tl-cyclemaps_northshore.pdf) for "designated cycling routes" is [TransLink](https://www.translink.ca/rider-guide/cycling-in-metro-vancouver#metro-vancouver-cycling-maps).
+Let's assume you coming to Deep Cove from somewhere around Ironworkers Memorial Bridge. The [source](https://www.translink.ca/-/media/translink/documents/rider-guide/cycling/local-area-maps/pack_tl-cyclemaps_northshore.pdf) for "designated cycling routes" is [TransLink](https://www.translink.ca/rider-guide/cycling-in-metro-vancouver#metro-vancouver-cycling-maps).
 
 There are two routes: Mount Seymour Parkway and Dollarton Highway:
 
@@ -33,4 +33,4 @@ Further, both those routes are designated as **Comfortable for Few**, because th
 
 <img src="/files/comfortable-for-few.png" />
 
-Encouraging people to cycle to Deep Cove by providing a bike valet is a commendable achievement. But without *safe cycling infrastructure to get you to the bike valet*, it's only going to result injury, accidents and worse. Translink website shows that's it *not possible to get all the way there on a designated bike route* and if you do, *it's only "comfortable for few"*. So what are we meant to do ICBC?
+Encouraging people to cycle to Deep Cove by providing a bike valet is a commendable achievement. But **without safe cycling infrastructure to get you to the bike valet**, it's only going to result injury, accidents and worse. Translink website shows that's it **not possible to get all the way there on a designated bike route** and if you do, **it's only "comfortable for few"**. So what are we meant to do ICBC?
