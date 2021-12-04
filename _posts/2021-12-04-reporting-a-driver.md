@@ -5,9 +5,9 @@ categories: General
 blog: andy-mckay
 ---
 
-One day I was at a traffic light waiting. The car in front waited as well. Before the light turned green, it decided to do a left turn through a red light across multiple lanes of traffic. 
+A month or so ago I was a traffic light waiting to turn left. The car in front waited as well. Before the light turned green, it decided to do a left turn through a red light across multiple lanes of traffic. 
 
-This car was not turning left "late". A few moments later the light would turn green allowing the opposing traffic to come across.
+This car was not turning left "late". It made a **deliberate and calculated decision to turn left on red light**. A few moments later the light would turn green allowing the opposing traffic to come across.
 
 <img src="/files/turning-left.png" width="400">
 
@@ -17,13 +17,13 @@ I hit the button on my Tesla and got a full recording on video of the car doing 
 
 ## Finding where to report
 
-<a href="https://www.icbc.com/Pages/default.aspx">ICBC</a> isn't interested. There is nothing on their website to report this. Only when someone crashes.
+<a href="https://www.icbc.com/Pages/default.aspx">ICBC</a> isn't interested. There is nothing on their website to report this. They are only interested when someone crashes.
 
-This is on Boundary Rd which is the border between Vancouver and Burnaby. The Vancouver police site is not interested.
+This incident was on Boundary Rd which is the border between Vancouver and Burnaby. The <a href="https://app.vancouver.ca/PoliceCitizenReporting_net/">Vancouver police site</a> is not interested.
 
 <img src="/files/vancouver-police.png" width="400">
 
-Turns out the juristiction for Boundary Rd is actually the Burnaby RCMP, so I went to their website. The Burnaby RCMP website let's you report something online, yes there's an option for "Someone was driving poorly".
+Turns out the juristiction for Boundary Rd. is actually the <a href="https://bc-cb.rcmp-grc.gc.ca/ViewPage.action?siteNodeId=2114&languageId=1&contentId=64642">Burnaby RCMP</a>, so I went to their website. The Burnaby RCMP website let's you report something online, yes there's an option for "Someone was driving poorly".
 
 But if you have "video surveillance" you can't report it online. That makes sense.
 
@@ -45,21 +45,20 @@ The email from the Burnaby RCMP doesn't work (perhaps I wrote it down wrong), bu
 
 They won't tell me if anything happened, if any penalties were assessed because of privacy laws.
 
-**The fastest and easiest way to get satisfaction is to just post the video on social media**. Next time I'll just do this.
-
 ## Summary
 
 This cost me a USB stick and at least three hours. If I'm able to get my USB stick back, it will be closer to four hours.
 
+**The fastest and easiest way to get satisfaction is to just post the video on social media**. Next time I'll just do this.
+
 There is a just huge pile of dis-incentives in this system:
-* it's hard to find
-* institutions aren't interested
-* they make it very hard to report it
+* it's hard to find where to report a driver
+* the institutions make it hard to report it
 * they make you go out of your way in terms of time and money
-* there's no feedback you don't know what qualifies for reporting
+* there's no feedback so you don't know what qualifies for reporting
 * you don't know if you did any good
 
-There is **no incentive to report a dangerous driver**. In fact, there are **only dis-incentives to report dangerous drivers**. It's pointless, costs you time and money and no idea if anything happens as result.
+There is **no incentive to report a dangerous driver**. In fact, there are **only dis-incentives to report dangerous drivers**. It's pointless, costs you time and money, and you have no idea if anything happens as result.
 
 ## What we could improve
 
@@ -71,13 +70,13 @@ Here's some suggestions...
 
 The only place that seemed to care about reporting this was the Burnaby RCMP. The Vancouver police and ICBC didn't allow anything on their website.
 
-It should be easy to do on a website, a few questions and then upload a video and take 5 minutes.
+It should be easy to do on a website, answer a few questions, and then upload a video. It should take 5 minutes.
 
-Having to "drop off a video" these days is ridiculous. Videos can be uploaded to social media or another number of places. It means no cost, no physical media and no having to the place.
+Having to "drop off a video" these days is ridiculous. Videos can be uploaded to social media or another number of places.
 
 ### Provide feedback
 
-There are two crucial peices of feedback that people need:
+There are two crucial pieces of feedback that people need:
 
 **One:** Knowing that drivers are being held accountable and people reporting them helps. This makes people report dangerous driving. Reports can be aggregate to avoid identifying individual drivers.
 
@@ -93,5 +92,4 @@ If it wants to take part in **road safety** do you think it should care or help 
 
 I went into this knowing that likely nothing would happen. But I was dispirited how rarely it would happen.
 
-It also made me realize how even more ridiculous the "license and register cyclists" argument is. We can't even hold drivers of 2 ton people and planet killing machines responsible.
-
+It also made me realize how even more ridiculous the "license and register cyclists" argument is. We can't even hold drivers of 2 ton machines that kill people and the planet responsible.
