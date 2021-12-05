@@ -9,7 +9,7 @@ A month or so ago I was a traffic light waiting to turn left. The car in front w
 
 This car was not turning left "late". It made a **deliberate and calculated decision to turn left on red light**. A few moments later the light would turn green allowing the opposing traffic to come across.
 
-<img src="/files/turning-left.png" width="400">
+<img src="/files/turning-left.png" width="700">
 
 I hit the button on my Tesla and got a full recording on video of the car doing this. When I got home I could see I got the license plate nice and clearly. So at this point I thought, let's see what it's like to report a driver... and here's what happened.
 
