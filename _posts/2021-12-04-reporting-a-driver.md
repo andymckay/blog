@@ -90,6 +90,6 @@ If it wants to take part in **road safety** do you think it should care or help 
 
 ---
 
-I went into this knowing that likely nothing would happen. But I was dispirited how rarely it would happen.
+I went into this knowing that likely nothing would happen. But I was dispirited how hard it was.
 
 It also made me realize how even more ridiculous the "license and register cyclists" argument is. We can't even hold drivers of 2 ton machines that kill people and the planet responsible.
