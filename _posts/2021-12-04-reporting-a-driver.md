@@ -15,7 +15,7 @@ I hit the button on my Tesla and got a full recording on video of the car doing 
 
 **Also** this driver has an "N" plate and is a new driver.
 
-## Finding where to report
+### Finding where to report
 
 <a href="https://www.icbc.com/Pages/default.aspx">ICBC</a> isn't interested. There is nothing on their website to report this. They are only interested when someone crashes.
 
@@ -31,13 +31,13 @@ But if you have "video surveillance" you can't report it online. That makes sens
 
 So you have to phone them. I phoned their non-emergency line and waited over an hour and half. Gave the details and was told I'd be called back.
 
-## Getting evidence to the police
+### Getting evidence to the police
 
 An officer phoned me back and said they'd need to see the video and I had to "drop it off". Alright, if that's what you want me to do.
 
 So I copy the video to a cheap old USB stick, because that's the best idea I've got and have to drive over to Burnaby RCMP detachment (45 min return drive). They take my USB stick and say that's it.
 
-## Follow up
+### Follow up
 
 One month later I've heard nothing from anyone. I phoned Burnaby RCMP and they say I have to contact the constable to get my USB stick back.
 
@@ -45,7 +45,7 @@ The email from the Burnaby RCMP doesn't work (perhaps I wrote it down wrong), bu
 
 They won't tell me if anything happened, if any penalties were assessed because of privacy laws.
 
-## Summary
+### Summary
 
 This cost me a USB stick and at least three hours. If I'm able to get my USB stick back, it will be closer to four hours.
 
@@ -60,7 +60,7 @@ There is a just huge pile of dis-incentives in this system:
 
 There is **no incentive to report a dangerous driver**. In fact, there are **only dis-incentives to report dangerous drivers**. It's pointless, costs you time and money, and you have no idea if anything happens as result.
 
-## What we could improve
+### What we could improve
 
 More and more cars have dashcams and more people have cars and cameras. We have more opportunity to make our roads safer than ever before, but we don't.
 
