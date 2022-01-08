@@ -45,7 +45,7 @@ You can get to it by swiping up on the air temperature section and then finding 
 
 Again, you sometimes need to do this quickly and in less than ideal conditions.
 
-Being able to see where you are going in the cold is fundamental to NOT KILLING PEOPLE.
+Being able to see where you are going in the cold is fundamental to **NOT KILLING PEOPLE**.
 
 ## Others
 
