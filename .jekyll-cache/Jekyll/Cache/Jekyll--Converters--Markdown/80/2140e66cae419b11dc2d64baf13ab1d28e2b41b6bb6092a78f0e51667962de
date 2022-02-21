@@ -1,0 +1,22 @@
+I"„<p>One pattern that has become quite common at GitHub, for me, is using Actions to spot if something has changed. I use this to track changes in project boards, or changes in JSON payloads, changes in websitesâ€¦ basically anything out there.</p>
+
+<p>The basic anatomy is:</p>
+<ul>
+  <li>Have a workflow file that runs on a <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule">schedule</a></li>
+  <li>Create a data file in your repository to store the data, for example in JSON or CSV.</li>
+</ul>
+
+<p>When run:</p>
+<ul>
+  <li>The workflow loads the data file from the previous time.</li>
+  <li>Loads the data from the source, probably with a bit of massaging to get it just right.</li>
+  <li>Compare the two.</li>
+  <li>Send any changes to a <a href="https://github.com/marketplace/actions/slack-messenger">slack channel</a>.</li>
+  <li>Save the data file.</li>
+  <li>Commit the data file.</li>
+</ul>
+
+<p>Then next time it runs, it just repeats the process. I wrote one recently to notify GitHub staff internally when a job gets posted to our external job board and its 85 lines of Python that we whipped up in an hour.</p>
+
+<p><strong>Please note:</strong> there is an <a href="https://docs.github.com/en/github/site-policy/github-acceptable-use-policies#3-conduct-restrictions">Acceptable Use</a> policy for GitHub and if you do this alot you might hit that.</p>
+:ET

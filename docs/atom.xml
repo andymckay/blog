@@ -3,12 +3,41 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub.ca/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub.ca/blog/rss/latest/andy/" rel="self"></link>
-<updated>2022-01-08T17:34:06+00:00</updated>
+<updated>2022-02-21T03:11:58+00:00</updated>
 <id>https://mckay.pub.ca/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Using GitHub Actions to spot changes</title>
+<link href="https://mckay.pub.ca/2022-02-20-has-something-changed/"/>
+<updated>2022-02-20T00:00:00+00:00</updated>
+<id>https://mckay.pub.ca/has-something-changed</id>
+<content type="html">&lt;p&gt;One pattern that has become quite common at GitHub, for me, is using Actions to spot if something has changed. I use this to track changes in project boards, or changes in JSON payloads, changes in websites… basically anything out there.&lt;/p&gt;
+
+&lt;p&gt;The basic anatomy is:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Have a workflow file that runs on a &lt;a href=&quot;https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule&quot;&gt;schedule&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Create a data file in your repository to store the data, for example in JSON or CSV.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When run:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The workflow loads the data file from the previous time.&lt;/li&gt;
+  &lt;li&gt;Loads the data from the source, probably with a bit of massaging to get it just right.&lt;/li&gt;
+  &lt;li&gt;Compare the two.&lt;/li&gt;
+  &lt;li&gt;Send any changes to a &lt;a href=&quot;https://github.com/marketplace/actions/slack-messenger&quot;&gt;slack channel&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Save the data file.&lt;/li&gt;
+  &lt;li&gt;Commit the data file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then next time it runs, it just repeats the process. I wrote one recently to notify GitHub staff internally when a job gets posted to our external job board and its 85 lines of Python that we whipped up in an hour.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Please note:&lt;/strong&gt; there is an &lt;a href=&quot;https://docs.github.com/en/github/site-policy/github-acceptable-use-policies#3-conduct-restrictions&quot;&gt;Acceptable Use&lt;/a&gt; policy for GitHub and if you do this alot you might hit that.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>How Tesla is trying to kill you</title>
@@ -583,35 +612,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Normally this would be a simple, hell no. But I care greatly about electric cars and the infrastructure and this has put me in a bind. The privacy problem here is one that I simply can’t get around.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>BC going electric</title>
-<link href="https://mckay.pub.ca/2018-11-20-bc-going-electric/"/>
-<updated>2018-11-20T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/bc-going-electric</id>
-<content type="html">&lt;p&gt;Today the BC Government announced that they will be planning to introduce legislation that:&lt;/p&gt;
-
-&lt;blockquote&gt;&quot;All new cars and trucks sold in B.C. in the year 2040 will have to be zero-emission vehicles&quot;&lt;/blockquote&gt;
-&lt;p&gt;&lt;cite&gt;&lt;a href=&quot;https://www.cbc.ca/news/canada/british-columbia/every-new-car-sold-in-2040-will-be-zero-emission-b-c-government-says-1.4913679&quot;&gt;CBC&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m unreasonably interested and excited by this. There is a simple fact that we need to do this and car companies will not do it, they are too &lt;a href=&quot;http://www.thedrive.com/news/24142/bmw-expects-85-percent-of-its-cars-will-keep-traditional-combustion-engines-in-2030&quot;&gt;invested in the existing carbon economy&lt;/a&gt;. My first thought is that 2040 is way too far off, but this really isn’t a simple change and the political and societal desire to change is not strong enough to force a sudden change yet.&lt;/p&gt;
-
-&lt;p&gt;Other jurisdictions are making similar noises, but &lt;a href=&quot;https://qz.com/1341155/nine-countries-say-they-will-ban-internal-combustion-engines-none-have-a-law-to-do-so/&quot;&gt;haven’t introduced legislation yet&lt;/a&gt;. Two that talk about it more are the UK and California. There are some interesting questions in BC :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;BC is big. Twice the size of California and over four times the size of the UK. It’s full of a lot of nothing. You can go long ways without encountering anything. This problem is common to most of Canada, but the current range of electric vehicles is more obvious when its 400km to the next charging station.&lt;/li&gt;
-  &lt;li&gt;BC gets &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_extreme_temperatures_in_Canada&quot;&gt;really cold up north&lt;/a&gt;. Colder than California or the UK. This affects &lt;a href=&quot;https://teslamotorsclub.com/tmc/threads/cold-weather-driving.64591/&quot;&gt;electric batteries and charging&lt;/a&gt;. Again this problem affects all of Canada.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Site_C_dam&quot;&gt;Site C isn’t perfect&lt;/a&gt;, but we’ll need the electricity.&lt;/li&gt;
-  &lt;li&gt;Remind me why we should have a pipeline to ship oil from Alberta out again?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Yes I am focusing on electric vehicles here, because that’s the majority of non oil burning cars out there. Notably Vancouver has the &lt;a href=&quot;https://www.cbc.ca/news/canada/british-columbia/hydrogen-fuel-pump-opens-in-vancouver-1.4709016&quot;&gt;first hydrogen fuel station&lt;/a&gt; in Canada. We might need hydrogen in other parts of BC, or perhaps there will be another answer by then, but for the moment it looks like we are looking at an electric future.&lt;/p&gt;
-
-&lt;p&gt;Also &lt;a href=&quot;/2018-07-25-tesla/&quot;&gt;Tesla is pretty amazing&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Anyways, I hope this legislation happens and if so it sets us down an interesting path. A slow one, but there are some real problems to solve on the way.&lt;/p&gt;
 </content>
 </entry>
 
