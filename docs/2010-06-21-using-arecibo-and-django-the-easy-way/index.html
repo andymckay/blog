@@ -21,8 +21,9 @@
 <article>
 <div class="meta">Jun 21, 2010</div>
 <h2><a href="/2010-06-21-using-arecibo-and-django-the-easy-way/">Using Arecibo and Django, the easy way</a></h2>
-<hr>
-<h3>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h3>
+<div id="thenavigation">
+  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div>
 <hr class="florished">
 <p>So you've got your Django project on the production server. Want an easy way to track the errors in Django? The existing Django package is pretty easy to use, but it doesn't get much simpler than this: add in your Arecibo server to your ADMINS in settings.py.</p>
 <p>When Django emails out those error emails, it will send one to Arecibo. Arecibo will parse it and add it your site. The email address for that is: django-YOUR_PUBLIC_ARECIBO_KEY@yourserver.appspotmail.com. You can try this out right now, the email address for the test server is: <a href="mailto:django-sw3tqw35ywq45ws4kqa4ia6yw5q45serws23w351245lk6y@test-areciboapp.appspotmail.com">django-sw3tqw35ywq45ws4kqa4ia6yw5q45serws23w351245lk6y@test-areciboapp.appspotmail.com</a></p>

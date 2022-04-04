@@ -21,8 +21,9 @@
 <article>
 <div class="meta">Jun 08, 2010</div>
 <h2><a href="/2010-06-08-taskqueues-in-app-engine/">Taskqueues in App Engine</a></h2>
-<hr>
-<h3>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h3>
+<div id="thenavigation">
+  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div>
 <hr class="florished">
 <p>App Engine has <a href="http://code.google.com/appengine/docs/python/taskqueue/tasks.html">task queues</a> as an experimental feature. There's nothing fancy here, it's just a way of queueing something up to be run later.</p>
 <p>We've probably all written a few queues in our time, the task queue is just a continuation of that. Add a URL to be executed a certain point and a scheduler will come along and try all the urls in the queue. For <a href="http://areciboapp.com">Arecibo</a> we use this to do the post processing on an error. When an error comes into Arecibo we write it to the datastore quickly, we then add in one task queue that will: figure out the grouping, figure out any notifications, figure out the user agent (surprisingly a bit expensive). That post processing will be done async via the task.</p>

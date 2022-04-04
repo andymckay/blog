@@ -21,8 +21,9 @@
 <article>
 <div class="meta">Jan 05, 2008</div>
 <h2><a href="/2008-01-05-using-profiles-with-django/">Using profiles with Django</a></h2>
-<hr>
-<h3>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h3>
+<div id="thenavigation">
+  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div>
 <hr class="florished">
 <p>There's a feature in Django to add in new values to a user record, use a profile. Here's an example: <a href="http://www.b-list.org/weblog/2006/jun/06/django-tips-extending-user-model/">http://www.b-list.org/weblog/2006/jun/06/django-tips-extending-user-model/</a>. So first thing I did was write a unit test for it, which failed.</p>
 <p>This got me confused for a minute because I thought that when you created a user, it created the profile for you automatically. Duh! So for the record here's a simple unit test, create a user, set the company (a field on the Profile object), retrieve it and check the company is still there.</p>
