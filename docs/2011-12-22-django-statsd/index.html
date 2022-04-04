@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2022-04-04T21:59:43+00:00 -->
+<!-- Last built: 2022-04-04T22:09:36+00:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: django-statsd</title>
-<link href="/css/style.css?v=2022-04-04T21:59:43+00:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2022-04-04T21:59:43+00:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2022-04-04T22:09:36+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2022-04-04T22:09:36+00:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -22,8 +22,8 @@
 <article>
 <div class="meta">Dec 22, 2011</div>
 <h2><a href="/2011-12-22-django-statsd/">django-statsd</a></h2>
-<hr class="florished">
-<h2>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h2>
+<hr>
+<h3>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h3>
 <hr class="florished">
 <p>A while ago <a href="http://jbalogh.me/">Jeff Balogh</a> and <a href="http://coffeeonthekeyboard.com/">James Socol</a> got statsd and <a href="http://graphite.wikidot.com/installation">graphite</a> running for web development projects at Mozilla. They wrote some great code including <a href="https://github.com/jsocol/pystatsd">pystatsd</a> and <a href="https://github.com/jsocol/commonware">commonware</a>. This allows us at a glance to see what's going on in <a href="http://addons.mozilla.org">AMO</a> and <a href="http://support.mozilla.org">SUMO</a> and whole host of other projects.</p>
 <p>Since then graphite has become a key part of our process. I can't imagine running a large site without it. I started playing around with some tighter integration between Django and pystatsd a while back. That resulted in a pull request to pystatsd which James didn't want, he wanted to keep pystatsd Python only. Made sense, so then I wrote <a href="https://github.com/andymckay/django-statsd">django-statsd</a> which provides some optional deeper integration between Django and statsd.</p>
