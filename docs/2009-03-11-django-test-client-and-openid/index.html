@@ -21,8 +21,9 @@
 <article>
 <div class="meta">Mar 11, 2009</div>
 <h2><a href="/2009-03-11-django-test-client-and-openid/">Django Test Client and OpenID</a></h2>
-<hr>
-<h3>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h3>
+<div id="thenavigation">
+  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div>
 <hr class="florished">
 <p>...or how I used <a href="http://code.google.com/p/django-openid">django-openid</a> all wrong in the first place and I've just gotten it cleaned up.</p>
 <p>A while back I dedicated myself to trying to do everything with OpenID since having all these logins all other the place is just awful. With sites dedicated to the technically minded it seems the right way to go. So I grabbed django-openid out and slapped it in. This handles the login and logout for you. When an authenticated request is made a variable is appended to request by its middleware: <code>request.openid</code> which in turn provides account information.</p>

@@ -21,8 +21,9 @@
 <article>
 <div class="meta">Nov 23, 2006</div>
 <h2><a href="/2006-11-23-stopping-plone-from-starting-on-boot/">Stopping Plone from starting on boot</a></h2>
-<hr>
-<h3>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h3>
+<div id="thenavigation">
+  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div>
 <hr class="florished">
 <p>I get annoyed by the Plone instance that installed using the OS X installer starting automatically. I’m now at the stage of having 5 Plone instances, 3 Zope versions and they all run ZEO which doesn’t start up automatically, leaving Zope wedged. Fortunately I only restart the once a month or so when my MacBook freezes or the next BIOS patch comes in. It’s fixed by removing: <em>/Library/StartupItems/Plone-2.5</em>. In fact I found a few other things in there I didn’t want and removed too.</p>
 
