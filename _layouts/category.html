@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<h1>{{ page.tag | upcase }}</h1>
-<h3>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></h3>
-<hr class="florished">
+<h1>{{ page.tag | capitalize }}</h1>
+<div id="thenavigation">
+  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div><hr class="florished">
 
 <ul>
 {% for post in site.tags[page.tag] %}

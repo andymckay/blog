@@ -4,7 +4,9 @@ layout: default
 {% for post in site.posts limit:1 %}
 <div class="meta">{{ post.date | date: "%b %d, %Y"  }}</div>
 <h2><a href="{{ post.url }}" class="posturl">{{ post.title }}</a></h2>
-<h3>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></h3>
+<div id="thenavigation">
+<p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+</div>
 <hr class="florished">
 {{ post.content  | replace:'acronym','abbr' }}
 {% endfor %}
