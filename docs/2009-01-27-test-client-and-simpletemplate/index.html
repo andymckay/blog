@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2022-02-21T03:11:58+00:00 -->
+<!-- Last built: 2022-04-04T21:51:01+00:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Test client and simpletemplate</title>
-<link href="/css/style.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -22,6 +22,8 @@
 <article>
 <div class="meta">Jan 27, 2009</div>
 <h2><a href="/2009-01-27-test-client-and-simpletemplate/">Test client and simpletemplate</a></h2>
+<hr class="florished">
+<h2>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h2>
 <hr class="florished">
 <p>One of the nice things about Django tests is that if you are testing your views (and who doesn't) you can test the context that comes back. That is, when you make a call to a template, you could check the HTML if you wanted, but you could just check the right data was sent to the template.</p>
 <p>Unless you are using my simpletemplate that is, since Django testing patches the internal Django templating to pass back the context. I've just added the same to simpletemplate, so that it does the same. At the top of your tests you need to add one line:</p>

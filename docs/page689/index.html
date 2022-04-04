@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2022-02-21T03:11:58+00:00 -->
+<!-- Last built: 2022-04-04T21:51:01+00:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay</title>
-<link href="/css/style.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -21,30 +21,10 @@
 <section>
 <article>
 
-<div class="meta">Feb 20, 2022</div>
-<h2><a href="/2022-02-20-has-something-changed/" class="posturl">Using GitHub Actions to spot changes</a></h2>
+<div class="meta">Apr 04, 2022</div>
+<h2><a href="/2022-04-04-bike-packing/" class="posturl">Bike Packing in 2022</a></h2>
 <hr class="florished">
-<p>One pattern that has become quite common at GitHub, for me, is using Actions to spot if something has changed. I use this to track changes in project boards, or changes in JSON payloads, changes in websites… basically anything out there.</p>
-
-<p>The basic anatomy is:</p>
-<ul>
-  <li>Have a workflow file that runs on a <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule">schedule</a></li>
-  <li>Create a data file in your repository to store the data, for example in JSON or CSV.</li>
-</ul>
-
-<p>When run:</p>
-<ul>
-  <li>The workflow loads the data file from the previous time.</li>
-  <li>Loads the data from the source, probably with a bit of massaging to get it just right.</li>
-  <li>Compare the two.</li>
-  <li>Send any changes to a <a href="https://github.com/marketplace/actions/slack-messenger">slack channel</a>.</li>
-  <li>Save the data file.</li>
-  <li>Commit the data file.</li>
-</ul>
-
-<p>Then next time it runs, it just repeats the process. I wrote one recently to notify GitHub staff internally when a job gets posted to our external job board and its 85 lines of Python that we whipped up in an hour.</p>
-
-<p><strong>Please note:</strong> there is an <a href="https://docs.github.com/en/github/site-policy/github-acceptable-use-policies#3-conduct-restrictions">Acceptable Use</a> policy for GitHub and if you do this alot you might hit that.</p>
+<p>I’m about to go on some big journeys and a first foray into bike packing. So watch this space for some specific bike packing content over the next few months.</p>
 
 
 </article>
@@ -58,7 +38,7 @@
   <p>
     I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
     <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
-    <a href="https://mckay.pub.ca/atom.xml">RSS</a><br />
+    <a href="https://mckay.pub/atom.xml">RSS</a><br />
     <a href="https://twitter.com/andymckay">Twitter</a> &bull;
     <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
     <a href="https://github.com/andymckay">GitHub</a><br />

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2022-02-21T03:11:58+00:00 -->
+<!-- Last built: 2022-04-04T21:51:01+00:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Profiling Django</title>
-<link href="/css/style.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -22,6 +22,8 @@
 <article>
 <div class="meta">Aug 18, 2011</div>
 <h2><a href="/2011-08-18-profiling-django/">Profiling Django</a></h2>
+<hr class="florished">
+<h2>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h2>
 <hr class="florished">
 <p>At the recent <a href="https://mckay.pub/blog/andy/2306/">WebDev offsite</a> in Portland, we had a chance to spend the day working on any project we wanted and then show the results off that afternoon. I chose to play around with <a href="http://socket.io/">Socket IO</a>. This is also inspired by a great talk by <a href="http://blog.abourget.net/2011/3/09/new-and-hot-stuff-in-the-pylons-project/">Alexander Bourget at Confoo</a>.</p>
 <p>A while back I was trying to profile my Django site and find some speed improvements. I started off by looking for a nice way to profile a Django site and give me some output. That's easy, as it turns out there's some code in <a href="https://github.com/django-extensions/django-extensions">Django command extensions</a> that outputs profiles:</p>
