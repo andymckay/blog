@@ -1,0 +1,47 @@
+I"0<p>We have this awesome project <a href="https://github.com/mozilla/zamboni">zamboni</a> that powers the <a href="https://marketplace.firefox.com/">Firefox Marketplace</a> and <a href="https://addons.mozilla.org/en-US/firefox/">Add-ons</a>. But it has a problem and that has been annoying me for too long. It's now at the point of embarassment, the test suit is too damn slow. How slow?</p>
+<p>On my Macbook Air, it's: <b>1949 tests in 874.476s</b>.</p>
+<p>14 minutes. That 0.44 seconds per test. That's way beyond what it should be. <a href="https://solitude.readthedocs.org/en/latest/">Solitude</a> another Django project clocks in at <b>260 tests in 13.965s</b>, that's 0.05 seconds per test. Why is zamboni almost 9x slower per test?.</p>
+<p>How fast do I want it to go? Well really fast, but at the moment I'd settle for the following benchmark. It takes me 5 minutes to walk out of my home office, get a cup of tea and come back. At that time I expect a full test suite run. That means getting the tests to average 0.15 seconds. A significant improvement. This is the "cup of tea" milestone.</p>
+<p>Notes:<p>
+<ul>
+<li>yes, from a pure testing point of view our tests do too much</li>
+<li>no, I'm not going to mock the database</li>
+<li>no, I'm not going to mock Elastic Search (although I'd like to)</li>
+<li>maybe I'll mock internal bits that are slow, but I'll try to resist that</li>
+<li>no, I don't think this is all due to fixtures</li>
+<li>yes, I'm trying to break zamboni down into smaller pieces over time</li>
+</ul>
+<p>We've got our measurement and our target. Let's go.</p>
+<h3>First steps</h3>
+<p> Preparing for this I found a few areas I could clean out along the way. To our surprise we found a few areas that were making external HTTP calls to other servers. In most cases these were signals that were being called as a side effect. For example <a href="https://github.com/mozilla/zamboni/blob/master/mkt/developers/tasks.py">fetching icons</a>, which had no meaning to the tests and could pass or fail without issue.</p>
+<p>So I wrote <a href="https://github.com/andymckay/nose-blockage">nose-blockage</a>, this is a nose plugin to block all HTTP and SMTP connections, by raising an error. If the HTTP call matters, mock it. If not you get an error. If it doesn't matter, the error means it exits quickly.</p>
+<p>This didn't make a huge difference, but it made me feel better.</p>
+<h3>SQL queries</h3>
+<p>SQL may, or may not be the problem. But it's easy to find a number of SQL queries and hammer it down.  So let's look at that. To find the number of queries I used <a href="https://mckay.pub/blog/andy/2351/">django-statsd</a> with its database patch. I picked a slow test to see the number of queries.</p>
+<pre>
+    @patch('mkt.developers.tasks._fetch_content', _mock_fetch_content)
+    def test_imageassets(self):
+        asset_count = ImageAsset.objects.count()
+        self.create_app()
+        eq_(ImageAsset.objects.count() - len(APP_IMAGE_SIZES), asset_count)
+</pre>
+<p>How many SQL queries? <b>584</b></p>
+<p>Where are they all? <a href="https://github.com/jbalogh/test-utils">test-utils</a> did one SQL query per model table on start up. That's around 150 queries for the entire suite (not per test). <a href="https://github.com/jbalogh/test-utils/commit/ce5136a257cd44a1c663319124a255c1d10a9834">Forget that</a>. Removing that takes us down to <b>430</b>.</p>
+<p>Let's be sophisticated and run each line in turn and count the sql queries (I inserted a return and re-ran)</p>
+<pre>
+    @patch('mkt.developers.tasks._fetch_content', _mock_fetch_content)
+    def test_imageassets(self):
+        # By this point 242 queries.
+        asset_count = ImageAsset.objects.count()
+        # By this point 243 queries.
+        self.create_app()
+        # By this point 429 queries.
+        eq_(ImageAsset.objects.count() - len(APP_IMAGE_SIZES), asset_count)
+        # By this point 430 queries.
+</pre>
+<p>Something is wrong with our fixtures and then create_app code.</p>
+<h3>Miscellany</h3>
+<p>We use waffle switches in our code to allow feature switching. Tests turn these on or off a lot to ensure that we test the correct configuration so let's just <a href="https://github.com/mozilla/zamboni/commit/ee2610c211db636290a84bf8d15bbd4b4f2404e9">create those in the cache</a>, instead of the db, then we remove a db hit.</p>
+<p>Next. Whats up with those fixtures?</p>
+</p></p>
+:ET

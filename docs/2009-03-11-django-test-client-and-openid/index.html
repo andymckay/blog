@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Last built: 2022-02-21T03:11:58+00:00 -->
+<!-- Last built: 2022-04-04T21:51:01+00:00 -->
 <meta charset="utf-8" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Andy McKay :: Django Test Client and OpenID</title>
-<link href="/css/style.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css?v=2022-02-21T03:11:58+00:00" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v=2022-04-04T21:51:01+00:00" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
 <link rel="alternate" href="/atom.xml" type="application/atom+xml">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -22,6 +22,8 @@
 <article>
 <div class="meta">Mar 11, 2009</div>
 <h2><a href="/2009-03-11-django-test-client-and-openid/">Django Test Client and OpenID</a></h2>
+<hr class="florished">
+<h2>Bike packing 2022 &bull; <a>Gear</a> &bull; <a>Trips</a></h2>
 <hr class="florished">
 <p>...or how I used <a href="http://code.google.com/p/django-openid">django-openid</a> all wrong in the first place and I've just gotten it cleaned up.</p>
 <p>A while back I dedicated myself to trying to do everything with OpenID since having all these logins all other the place is just awful. With sites dedicated to the technically minded it seems the right way to go. So I grabbed django-openid out and slapped it in. This handles the login and logout for you. When an authenticated request is made a variable is appended to request by its middleware: <code>request.openid</code> which in turn provides account information.</p>
