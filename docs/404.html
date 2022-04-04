@@ -1,9 +1,44 @@
----
-layout: default
-title: Oops!
-date: 2002-09-09
----
-<div class="meta">{{ page.date | date: "%b %d, %Y"  }}</div>
-<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-<hr class="florished">
-<div id="oops"><img src="https://mckay.pub/files/c+h.jpg" /></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Last built: {{ site.time | date_to_xmlschema }} -->
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay{% if page.title %} :: {{ page.title }}{% endif %}</title>
+<link href="/css/style.css?v={{ site.time | date_to_xmlschema }}" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css?v={{ site.time | date_to_xmlschema }}" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+    <div id="oops"><img src="https://mckay.pub/files/c+h.jpg" /></div>
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub/atom.xml">RSS</a><br />
+    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
+    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>
