@@ -77,9 +77,8 @@ padding-left: 0;
 }
 
 #thenavigation {
-    margin: 50px auto 50px auto;
-    padding: 10px 0 5px 0;
-    border-top: 1px dotted #cccccc;
+    margin: 0px auto 0px auto;
+    padding: 0 0 5px 0;
     text-align: center;
 }
 

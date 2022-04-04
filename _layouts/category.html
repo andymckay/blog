@@ -4,11 +4,19 @@ layout: default
 
 <h1>{{ page.tag | capitalize }}</h1>
 <div id="thenavigation">
-  <p>Bike packing 2022 &bull; <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/"></a>Trips</a></p>
+  <p>Bike packing 2022 👉 <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/">Trips</a></p>
 </div><hr class="florished">
 
 <ul>
-{% for post in site.tags[page.tag] %}
+  {{ page.tag}}
+  {{ site.tags.[page.tag]}}
+{% for post in site.tags.[page.tag] %}
+  <li>
+    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+
+{% for post in site.tags.gear %}
   <li>
     {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
