@@ -5,7 +5,7 @@ categories: England
 old: 2068
 blog: andy-mckay
 ---
-<p>A while back I posted on Heathrow terminal 5's <a href="https://mckay.pub.ca/blog/andy/1941/">project management philosophy</a>. Unfortunately it turns out that the launch of Heathrow terminal 5 has gone tit's up. The stories are numerous, but for those who don't know the baggage system went wrong. Something to do with computers. Looks like the cunning plan broke down somewhere:</p>
+<p>A while back I posted on Heathrow terminal 5's <a href="https://mckay.pub/blog/andy/1941/">project management philosophy</a>. Unfortunately it turns out that the launch of Heathrow terminal 5 has gone tit's up. The stories are numerous, but for those who don't know the baggage system went wrong. Something to do with computers. Looks like the cunning plan broke down somewhere:</p>
 <blockquote>
 The system was designed by an integrated team from BAA, BA and Vanderlande Industries of the Netherlands, and will handle both intra-terminal and inter-terminal luggage and will actually process 70,000 bags a day.
 </blockquote>

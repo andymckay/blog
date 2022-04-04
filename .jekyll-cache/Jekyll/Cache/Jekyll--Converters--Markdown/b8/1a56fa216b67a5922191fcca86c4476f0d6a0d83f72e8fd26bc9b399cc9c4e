@@ -1,10 +1,10 @@
-I"�<p>A while ago someone mentioned that the move to WebExtensions for Firefox was “an end to innovation”. I asked that person to move that comment to do a discussion forum so we could chat more. It didn’t happen, so I thought I’d write a blog post so you can discuss it in the comments… except I don’t have comments, so please file a reply on your blog.</p>
+I"�<p>A while ago someone mentioned that the move to WebExtensions for Firefox was “an end to innovation”. I asked that person to move that comment to do a discussion forum so we could chat more. It didn’t happen, so I thought I’d write a blog post so you can discuss it in the comments… except I don’t have comments, so please file a reply on your blog.</p>
 
 <p>Innovation is great, everyone wants more innovation, how could you possibly not? Innovation is like beer, or cookies, or money, or fresh Caprese salad in Italy whilst sitting on the beach in the sun. You can’t possibly want less of it.</p>
 
 <p>But innovation cannot occur in a vacuum there are costs. In the past add-ons have provided innovation and helped Firefox grow. But sadly there has also been a real cost the way they currently exist, here’s three reasons: the cost has been the inability of Firefox to innovate, the cost of developers getting into building WebExtensions and the maintenance cost of add-ons.</p>
 
-<p>I touched on some of these points in my blog post “<a href="https://mckay.pub.ca/2016-04-17-addons-old/">The add-ons burden</a>”, but let’s unpack a couple of those.</p>
+<p>I touched on some of these points in my blog post “<a href="https://mckay.pub/2016-04-17-addons-old/">The add-ons burden</a>”, but let’s unpack a couple of those.</p>
 
 <p>The classic example for Firefox has been multi-process Firefox (or e10s). I’ve heard multiple stories since being involved in add-ons. One is that it was tried time and time again, but no-one could figure out how to do it without breaking add-ons. There are so many more changes coming down the pipeline like Servo, that will keep breaking add-ons. The ability to innovate Firefox is as important as the ability to innovate Firefox through add-ons. It turns out that add-ons really, really crimp Firefox development.</p>
 

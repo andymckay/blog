@@ -17,7 +17,7 @@ blog: andy-mckay
 <div>
 <ul><li>drops the database</li><li>recreates it</li><li>syncs the database (syncdb), without input</li><li>creates a superuser, or loads in a fixture with that data</li><li>loads in the required fixtures</li></ul>
 <span class="Apple-style-span">
-<p>Here's <a class="external-link" href="https://mckay.pub.ca/blog/andy/2154/">an old one</a> that does that, I've changed the one I use a bit since then, will need to do a new post. Whilst you are quickly iterating this is the best way to go, it keeps it clean and simple. You'll want to use South or django-evolution once it goes live of course.</p>
+<p>Here's <a class="external-link" href="https://mckay.pub/blog/andy/2154/">an old one</a> that does that, I've changed the one I use a bit since then, will need to do a new post. Whilst you are quickly iterating this is the best way to go, it keeps it clean and simple. You'll want to use South or django-evolution once it goes live of course.</p>
 </span></div>
 <div><span class="Apple-style-span">For each subsequent app (things that have the models that actually do the work) that you create:</span></div>
 <div>

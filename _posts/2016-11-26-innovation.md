@@ -11,7 +11,7 @@ Innovation is great, everyone wants more innovation, how could you possibly not?
 
 But innovation cannot occur in a vacuum there are costs. In the past add-ons have provided innovation and helped Firefox grow. But sadly there has also been a real cost the way they currently exist, here's three reasons: the cost has been the inability of Firefox to innovate, the cost of developers getting into building WebExtensions and the maintenance cost of add-ons.
 
-I touched on some of these points in my blog post "[The add-ons burden](https://mckay.pub.ca/2016-04-17-addons-old/)", but let's unpack a couple of those.
+I touched on some of these points in my blog post "[The add-ons burden](https://mckay.pub/2016-04-17-addons-old/)", but let's unpack a couple of those.
 
 The classic example for Firefox has been multi-process Firefox (or e10s). I've heard multiple stories since being involved in add-ons. One is that it was tried time and time again, but no-one could figure out how to do it without breaking add-ons. There are so many more changes coming down the pipeline like Servo, that will keep breaking add-ons. The ability to innovate Firefox is as important as the ability to innovate Firefox through add-ons. It turns out that add-ons really, really crimp Firefox development.
 

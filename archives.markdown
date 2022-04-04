@@ -6,8 +6,6 @@ date: 2002-09-09
 ---
 <div class="meta">{{ page.date | date: "%b %d, %Y"  }}</div>
 
-##[{{ page.title }}]({{ page.url }})
-
 <ul class="archives">
 {% for post in site.posts %}
 <li><time>{{ post.date | date: "%b %d, %Y" }}</time>

@@ -4,10 +4,10 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
 <title>Andy McKay</title>
-<link href="https://mckay.pub.ca/blog/andy" rel="alternate"></link>
-<link href="https://mckay.pub.ca/blog/rss/latest/andy/" rel="self"></link>
+<link href="https://mckay.pub/blog/andy" rel="alternate"></link>
+<link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>https://mckay.pub.ca/blog/andy</id>
+<id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
@@ -15,9 +15,9 @@ layout: nil
 {% for post in site.posts limit:13 %}
 <entry>
 <title>{{ post.title }}</title>
-<link href="https://mckay.pub.ca{{ post.url }}"/>
+<link href="https://mckay.pub{{ post.url }}"/>
 <updated>{{ post.date | date_to_xmlschema }}</updated>
-<id>https://mckay.pub.ca{{ post.id }}</id>
+<id>https://mckay.pub{{ post.id }}</id>
 <content type="html">{{ post.content | xml_escape }}</content>
 </entry>
 {% endfor %}

@@ -37,7 +37,7 @@ A while ago I wrote this:
 <blockquote>
 The problem is that all these things I'm not doing cause me stress. When I get to the end of the day, sometimes all I see is a lack of accomplishment and a list of things I haven't done.
 </blockquote>
-<cite><a href="https://mckay.pub.ca/2013-01-03-doing-less-in-the-new-year/">Me</a></cite>
+<cite><a href="https://mckay.pub/2013-01-03-doing-less-in-the-new-year/">Me</a></cite>
 
 I'm not keeping up with all the new libraries, tools and things springing up all over the place. I never will be, this industry is growing and moving faster than anyone can keep with and it's accelerating in size and scope every day. Its awesome its improving so fast. *If you don't get comfortable with this happening you are on a road to burn out*.
 

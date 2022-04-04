@@ -5,7 +5,7 @@ categories: Mozilla
 old: 2320
 blog: andy-mckay
 ---
-<p>In a previous blog post I talked about <a href="https://mckay.pub.ca/blog/andy/2317/">why you should attend a user group</a>, in this one I wanted talk about some of the things I've found useful in running a user group.</p>
+<p>In a previous blog post I talked about <a href="https://mckay.pub/blog/andy/2317/">why you should attend a user group</a>, in this one I wanted talk about some of the things I've found useful in running a user group.</p>
 <ul>
 <li>Announce with plenty time in advance (at least 3 weeks) what's happening so that people have time to plan. Then follow up with a reminder a day or two beforehand.</li>
 <li>A web page and a mailing list. Recently I've switched Vancouver Python over to <a href="http://meetup.com">Meetup.com</a> and that's working well, but if paying for Meetup.com isn't your thing, don't worry about it.</li>

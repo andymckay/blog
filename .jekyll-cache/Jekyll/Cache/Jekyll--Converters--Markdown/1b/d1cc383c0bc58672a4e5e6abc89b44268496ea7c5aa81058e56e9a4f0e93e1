@@ -1,4 +1,4 @@
-I"�<p>When I started out doing web development, hundreds of years ago when CGI and Perl was a pretty neat thing, it felt like there were few tools for web development. Back in the day even <a href="http://securitytracker.com/id/1001108">formmail.pl</a> was a pretty neat idea… until it turned out to be a pretty hideous security hole.</p>
+I"�<p>When I started out doing web development, hundreds of years ago when CGI and Perl was a pretty neat thing, it felt like there were few tools for web development. Back in the day even <a href="http://securitytracker.com/id/1001108">formmail.pl</a> was a pretty neat idea… until it turned out to be a pretty hideous security hole.</p>
 
 <p>Over the years the industry has developed, grown and changed. And is now changing faster than ever. There are more Javascript frameworks than days in the year. Or to put it another way:</p>
 
@@ -30,7 +30,7 @@ So I just need to split my simple CRUD app into 12 microservices, each with thei
 <blockquote>
 The problem is that all these things I'm not doing cause me stress. When I get to the end of the day, sometimes all I see is a lack of accomplishment and a list of things I haven't done.
 </blockquote>
-<p><cite><a href="https://mckay.pub.ca/2013-01-03-doing-less-in-the-new-year/">Me</a></cite></p>
+<p><cite><a href="https://mckay.pub/2013-01-03-doing-less-in-the-new-year/">Me</a></cite></p>
 
 <p>I’m not keeping up with all the new libraries, tools and things springing up all over the place. I never will be, this industry is growing and moving faster than anyone can keep with and it’s accelerating in size and scope every day. Its awesome its improving so fast. <em>If you don’t get comfortable with this happening you are on a road to burn out</em>.</p>
 

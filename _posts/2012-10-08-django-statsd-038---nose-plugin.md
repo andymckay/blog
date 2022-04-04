@@ -5,7 +5,7 @@ categories: Django
 old: 2351
 blog: andy-mckay
 ---
-<p>We use Statsd in combination with Django through <a href="https://github.com/andymckay/django-statsd">django-statsd</a>. The timing and profiling information it provides is really useful on a live site. The information can also be useful for debugging and developing locally, for example by exposing in <a href="https://mckay.pub.ca/blog/andy/2344/">django-debug-toolbar</a>.</p>
+<p>We use Statsd in combination with Django through <a href="https://github.com/andymckay/django-statsd">django-statsd</a>. The timing and profiling information it provides is really useful on a live site. The information can also be useful for debugging and developing locally, for example by exposing in <a href="https://mckay.pub/blog/andy/2344/">django-debug-toolbar</a>.</p>
 <p>How about unit tests? Well here's a nose plugin to expose that information. Combined with the patches inside django-statsd you can quickly get some useful information. Run your tests with the following plugin:</p>
 <pre>--with-statsd</pre>
 <p>You should (hopefully) get some nice information. This is the output when running with all the patches in <a href="https://solitude.readthedocs.org/en/latest/index.html">solitude</a>.</p>

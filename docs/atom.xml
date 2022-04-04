@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
 <title>Andy McKay</title>
-<link href="https://mckay.pub.ca/blog/andy" rel="alternate"></link>
-<link href="https://mckay.pub.ca/blog/rss/latest/andy/" rel="self"></link>
+<link href="https://mckay.pub/blog/andy" rel="alternate"></link>
+<link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
 <updated>2022-01-08T17:34:06+00:00</updated>
-<id>https://mckay.pub.ca/blog/andy</id>
+<id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
@@ -12,9 +12,9 @@
 
 <entry>
 <title>How Tesla is trying to kill you</title>
-<link href="https://mckay.pub.ca/2022-01-08-how-tesla-is-trying-to-kill-you/"/>
+<link href="https://mckay.pub/2022-01-08-how-tesla-is-trying-to-kill-you/"/>
 <updated>2022-01-08T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/how-tesla-is-trying-to-kill-you</id>
+<id>https://mckay.pub/how-tesla-is-trying-to-kill-you</id>
 <content type="html">&lt;p&gt;There is one fundamental thing about driving a car: don’t hurt or kill anyone. There’s a bunch of other things, but that one is key.&lt;/p&gt;
 
 &lt;p&gt;A recent update from Tesla has broken a bunch of things that means driving my Tesla is way my dangerous and I’m more likely to get into accident. That’s bad for me and you.&lt;/p&gt;
@@ -70,9 +70,9 @@
 
 <entry>
 <title>Reporting a dangerous driver</title>
-<link href="https://mckay.pub.ca/2021-12-04-reporting-a-driver/"/>
+<link href="https://mckay.pub/2021-12-04-reporting-a-driver/"/>
 <updated>2021-12-04T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/reporting-a-driver</id>
+<id>https://mckay.pub/reporting-a-driver</id>
 <content type="html">&lt;p&gt;A month or so ago I was a traffic light waiting to turn left. The car in front waited as well. Before the light turned green, it decided to do a left turn through a red light across multiple lanes of traffic.&lt;/p&gt;
 
 &lt;p&gt;This car was not turning left “late”. It made a &lt;strong&gt;deliberate and calculated decision to turn left on red light&lt;/strong&gt;. A few moments later the light would turn green allowing the opposing traffic to come across.&lt;/p&gt;
@@ -168,9 +168,9 @@
 
 <entry>
 <title>Cycling moments of terror</title>
-<link href="https://mckay.pub.ca/2021-10-04-moments-of-terror/"/>
+<link href="https://mckay.pub/2021-10-04-moments-of-terror/"/>
 <updated>2021-10-04T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/moments-of-terror</id>
+<id>https://mckay.pub/moments-of-terror</id>
 <content type="html">&lt;p&gt;We know that British Columbia, by way of the Motor Vehicle Act, is not a province that supports cycling. Generally cycling here is one that involves moments of terror and then real terror depending upon the lack of infrastructure you face cycling.&lt;/p&gt;
 
 &lt;p&gt;Here’s some examples.&lt;/p&gt;
@@ -216,9 +216,9 @@
 
 <entry>
 <title>Cycling to Deep Cove</title>
-<link href="https://mckay.pub.ca/2021-06-06-cycling-to-deep-cove/"/>
+<link href="https://mckay.pub/2021-06-06-cycling-to-deep-cove/"/>
 <updated>2021-06-06T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/cycling-to-deep-cove</id>
+<id>https://mckay.pub/cycling-to-deep-cove</id>
 <content type="html">&lt;p&gt;This week ICBC tweeted this:&lt;/p&gt;
 
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;If you’re out cycling this &lt;a href=&quot;https://twitter.com/hashtag/GoByBikeBC?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#GoByBikeBC&lt;/a&gt; week, please use designated bike routes whenever possible – they’re safer &amp;amp; reduce conflicts with vehicle traffic. Check your municipality’s website for designated bike routes or go to &lt;a href=&quot;https://twitter.com/TransLink?ref_src=twsrc%5Etfw&quot;&gt;@TransLink&lt;/a&gt; for Metro Vancouver cycling maps. &lt;a href=&quot;https://t.co/tZt9wA5JXy&quot;&gt;pic.twitter.com/tZt9wA5JXy&lt;/a&gt;&lt;/p&gt;&amp;mdash; ICBC (@icbc) &lt;a href=&quot;https://twitter.com/icbc/status/1400873754608209926?ref_src=twsrc%5Etfw&quot;&gt;June 4, 2021&lt;/a&gt;&lt;/blockquote&gt;
@@ -255,9 +255,9 @@
 
 <entry>
 <title>My fifth Gran Fondo</title>
-<link href="https://mckay.pub.ca/2019-09-20-fifth-fondo/"/>
+<link href="https://mckay.pub/2019-09-20-fifth-fondo/"/>
 <updated>2019-09-20T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/fifth-fondo</id>
+<id>https://mckay.pub/fifth-fondo</id>
 <content type="html">&lt;p&gt;A bit ago was my fifth Gran Frondo, &lt;a href=&quot;https://mckay.pub/2018-09-09-fourth-fondo/&quot;&gt;the last&lt;/a&gt; was in 2018.&lt;/p&gt;
 
 &lt;p&gt;Last year I dropped 25 minutes off my time and that made me really happy. This year my goal was 4 hours. This was just an aribtrary number, but it was also based on an attempt to qualify for the 2020 version of this race which is a UCI World Cup Event.&lt;/p&gt;
@@ -331,9 +331,9 @@
 
 <entry>
 <title>2019 Goals - Five months check in</title>
-<link href="https://mckay.pub.ca/2019-06-02-five-months-in/"/>
+<link href="https://mckay.pub/2019-06-02-five-months-in/"/>
 <updated>2019-06-02T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/five-months-in</id>
+<id>https://mckay.pub/five-months-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;https://mckay.pub/2018-12-28-goals/&quot;&gt;five month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -364,9 +364,9 @@
 
 <entry>
 <title>Create Issue Extension</title>
-<link href="https://mckay.pub.ca/2019-05-14-create-issue/"/>
+<link href="https://mckay.pub/2019-05-14-create-issue/"/>
 <updated>2019-05-14T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/create-issue</id>
+<id>https://mckay.pub/create-issue</id>
 <content type="html">&lt;p&gt;I needed to find a better way to keep track of my to-do lists. I’ve tried a few tools, but after a while always forget about them and don’t keep them up to date. A to-do list is only any good if you add stuff to it and look at it.&lt;/p&gt;
 
 &lt;p&gt;I spend 95% my time in about 5 places these days: Google Calendar, Google Docs, Gmail, Slack and Github. I spend a lot of time on the latter, GitHub. So, of course, to super charge my to-do list I went for a quick browser extension - cue colleagues who laugh and say “of course you did” when I mention this.&lt;/p&gt;
@@ -393,9 +393,9 @@
 
 <entry>
 <title>2019 Goals - Four months check in</title>
-<link href="https://mckay.pub.ca/2019-05-13-four-months-in/"/>
+<link href="https://mckay.pub/2019-05-13-four-months-in/"/>
 <updated>2019-05-13T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/four-months-in</id>
+<id>https://mckay.pub/four-months-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;https://mckay.pub/2018-12-28-goals/&quot;&gt;four month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -429,9 +429,9 @@
 
 <entry>
 <title>2019 Goals - Two months check in</title>
-<link href="https://mckay.pub.ca/2019-03-02-two-months-in/"/>
+<link href="https://mckay.pub/2019-03-02-two-months-in/"/>
 <updated>2019-03-02T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/two-months-in</id>
+<id>https://mckay.pub/two-months-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;httsp://mckay.pub/2018-12-28-goals/&quot;&gt;two month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -461,9 +461,9 @@
 
 <entry>
 <title>2019 Goals - One month check in</title>
-<link href="https://mckay.pub.ca/2019-02-01-one-month-in/"/>
+<link href="https://mckay.pub/2019-02-01-one-month-in/"/>
 <updated>2019-02-01T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/one-month-in</id>
+<id>https://mckay.pub/one-month-in</id>
 <content type="html">&lt;p&gt;Checking in with my &lt;a href=&quot;https://mckay.pub/2018-12-28-goals/&quot;&gt;one month goals&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -496,9 +496,9 @@
 
 <entry>
 <title>2019 Goals</title>
-<link href="https://mckay.pub.ca/2018-12-28-goals/"/>
+<link href="https://mckay.pub/2018-12-28-goals/"/>
 <updated>2018-12-28T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/goals</id>
+<id>https://mckay.pub/goals</id>
 <content type="html">&lt;p&gt;&lt;strong&gt;My goal&lt;/strong&gt;: I’m going to beat last years time of 4:19 and do the &lt;a href=&quot;https://www.rbcgranfondo.com/whistler/&quot;&gt;Whistler Gran Fondo&lt;/a&gt; in September 2019 in 4 hours.&lt;/p&gt;
 
 &lt;p&gt;That seems absurdly ridiculous on the face of it, but the fact that I was able to shave off 23 minutes this year was nothing short of miraculous to me. So let’s try shaving off another 19 minutes. How am I going to do this?&lt;/p&gt;
@@ -537,9 +537,9 @@
 
 <entry>
 <title>Car Tracking</title>
-<link href="https://mckay.pub.ca/2018-12-15-car-tracking/"/>
+<link href="https://mckay.pub/2018-12-15-car-tracking/"/>
 <updated>2018-12-15T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/car-tracking</id>
+<id>https://mckay.pub/car-tracking</id>
 <content type="html">&lt;p&gt;This week I recieved and email from the Clean Energy Vehicle program. They’d like us to install a device in our Tesla that tracks us:&lt;/p&gt;
 
 &lt;p&gt;“By understanding when and where EVs charge to how much energy is consumed, you can help pave the way for future drivers by ensuring that the power system is ready for a plug-in future.”&lt;/p&gt;
@@ -588,9 +588,9 @@
 
 <entry>
 <title>BC going electric</title>
-<link href="https://mckay.pub.ca/2018-11-20-bc-going-electric/"/>
+<link href="https://mckay.pub/2018-11-20-bc-going-electric/"/>
 <updated>2018-11-20T00:00:00+00:00</updated>
-<id>https://mckay.pub.ca/bc-going-electric</id>
+<id>https://mckay.pub/bc-going-electric</id>
 <content type="html">&lt;p&gt;Today the BC Government announced that they will be planning to introduce legislation that:&lt;/p&gt;
 
 &lt;blockquote&gt;&quot;All new cars and trucks sold in B.C. in the year 2040 will have to be zero-emission vehicles&quot;&lt;/blockquote&gt;

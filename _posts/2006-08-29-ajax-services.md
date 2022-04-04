@@ -5,7 +5,7 @@ categories: Plone
 old: 1837
 blog: andy-mckay
 ---
-A while back I posted on <a href="https://mckay.pub.ca/blog/index.php?p=39">the end of web services</a>. In this post I was proposing that Web Services as traditionally represented are dead and a new batch of Ajax based web services will arise.
+A while back I posted on <a href="https://mckay.pub/blog/index.php?p=39">the end of web services</a>. In this post I was proposing that Web Services as traditionally represented are dead and a new batch of Ajax based web services will arise.
 
 The thing is most people don't actually do "Web services". Most of the time it's used to improve the UI experience locally for users and the idea of consuming remote data doesn't happen. This is because of a technical problem. A client can't make a request to a remote server in Ajax. 
 
