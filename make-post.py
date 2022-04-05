@@ -2,8 +2,7 @@ from datetime import date
 
 today = date.today()
 name = "_posts/" + today.strftime("%Y-%m-%d-post.md")
-preamble = """
----
+preamble = """---
 layout: post
 title:
 categories: gear
