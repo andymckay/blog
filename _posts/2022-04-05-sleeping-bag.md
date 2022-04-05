@@ -14,7 +14,7 @@ By better it needed to be:
 * Pack down small
 * Warm and cope with a couple of seasons
 
-I ended up with:
+I ended up with the Spark Ultralight Sleeping Bag from <a href="https://seatosummit.com/products/spark-ultralight-sleeping-bag-series">Sea to Summit</a>:
 
 <img src="https://cdn.shopify.com/s/files/1/2467/2501/products/Spark-Ultralight-Sleeping-Bag-Side-View.jpg?crop=center&height=1500&v=1626820119&width=1500" width="400">
 
