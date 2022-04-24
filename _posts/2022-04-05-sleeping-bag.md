@@ -20,5 +20,8 @@ I ended up with the Spark Ultralight Sleeping Bag from <a href="https://seatosum
 
 Its ultralight at 340g, made with ethically sourced down. It covers a couple of seasons of the year. It packs down really small and in my quick test seemed ultra warm.
 
-**Current status:** I haven't actually slept overnight in it yet.
+**Update:** I've slept out three nights with the bag now. 
 
+It's light, it packs down well but I feel like I'm at the tolerance of warmth for the sleeping bag. It goes down to -2c and is listed as **two seasons**. I'd hate to get a whole lot colder with this sleeping bag and I've had a couple of nights close to zero.
+
+It could also be the combination of the tent, which I'm not sure is ideal for windy weather.
