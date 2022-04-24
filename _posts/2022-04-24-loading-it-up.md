@@ -38,6 +38,6 @@ This seemed to work well, although I made a few changes as I went along:
 
 Overall once I got the weight distribution better, it worked out well. Until I took a bikepacking.com route and ended up on trails that are just not designed for me with panniers. But it was still fun.
 
-<img src="/files/IMG_1913.jpeg" height="400">
+<img src="/files/IMG_1935.jpeg" height="400">
 
 <cite>The bike was not gonna fit down some of these parts of the trail.</cite>
