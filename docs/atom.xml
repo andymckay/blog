@@ -3,12 +3,62 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2022-04-24T20:28:59+00:00</updated>
+<updated>2022-04-24T21:20:56+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Loading it up</title>
+<link href="https://mckay.pub/2022-04-24-loading-it-up/"/>
+<updated>2022-04-24T00:00:00+00:00</updated>
+<id>https://mckay.pub/loading-it-up</id>
+<content type="html">&lt;p&gt;For my first trip I needed to loaded up my bike with gear. This is going to be a continual learning process.&lt;/p&gt;
+
+&lt;p&gt;Here’s my bike full loaded on my first trip:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/IMG_1913.jpeg&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So I didn’t go the usual bike packing way of a large handlebar bag and a behind the seat bag for a few reasons. I found most of the handlebar bags quite restrictive - they take up a lot of space where my hands would normally go. I found that extremely wierd. I’ve ridden with a rack and saddle bags for ages, I find it comfortable.&lt;/p&gt;
+
+&lt;p&gt;Finally, I’m probably going to be doing more bike touring than bike packing and I’m rarely going to be doing anything too technical and mountain bike like.&lt;/p&gt;
+
+&lt;p&gt;So I’ve got:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Two &lt;a href=&quot;https://www.mec.ca/en/product/6000-588/Nano-X-Hail-Dry-Bag?colour=Zinnia&quot;&gt;MEC 5L dry bags&lt;/a&gt; on the front&lt;/li&gt;
+  &lt;li&gt;One &lt;a href=&quot;https://www.apidura.com/shop/expedition-full-frame-pack/&quot;&gt;middle frame bag from Apidura&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Two &lt;a href=&quot;https://www.apidura.com/shop/expedition-full-frame-pack/&quot;&gt;panniers from MEC&lt;/a&gt; that I stole from my wife’s bag. In there was another MEC dry bag.&lt;/li&gt;
+  &lt;li&gt;One dry bag that we had lying around on the top.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dividing everything up logically I was then able to pack this way:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sleeping back and thermals in one of the front dry bags.&lt;/li&gt;
+  &lt;li&gt;Most of my remaining clothes in the other front dry bag.&lt;/li&gt;
+  &lt;li&gt;Sleeping mat in the dry bag lying on the top of the rack.&lt;/li&gt;
+  &lt;li&gt;One dry bag containing all other things that should stay dry in one pannier.&lt;/li&gt;
+  &lt;li&gt;Tent in the other pannier.&lt;/li&gt;
+  &lt;li&gt;Food and all heavy stuff in the middle frame bag.&lt;/li&gt;
+  &lt;li&gt;Remaining stuff (fuel, stove, pots, first aid kit, rope etc) distributed around.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This seemed to work well, although I made a few changes as I went along:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I ended up with a few heavy things in the sleeping mat bag. This meant they slid to the back of the bike and caused it to be unstable when standing or cornering. I moved them into the frame bag to be directly over the bottom bracket and that helped a lot.&lt;/li&gt;
+  &lt;li&gt;I found a few things I needed quickly on a cold wet ride: hats, buffs, waterproofs. I quickly redistributed these to places I could get them quickly. The dry bags on the front forks were ideal for just one or two things at the top like this. Quick and easy to get in and out.&lt;/li&gt;
+  &lt;li&gt;The panniers had two big flaws, I’m looking for replacements. They aren’t fully waterproof (as the website says). They are fine for short journeys, but 8+hrs of cycling in the rain… no. The velcro can open up when they are overloaded.&lt;/li&gt;
+  &lt;li&gt;The frame bag got quickly disorganised because its so big. I need to find a way to organise it better.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Overall once I got the weight distribution better, it worked out well. Until I took a bikepacking.com route and ended up on trails that are just not designed for me with panniers. But it was still fun.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/IMG_1913.jpeg&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;The bike was not gonna fit down some of these parts of the trail.&lt;/cite&gt;&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>A bike</title>
@@ -511,35 +561,6 @@
     &lt;p&gt;I’ve got a plan for cycling through to the Fondo. Damn holidays keep getting in the way though.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-</content>
-</entry>
-
-<entry>
-<title>Create Issue Extension</title>
-<link href="https://mckay.pub/2019-05-14-create-issue/"/>
-<updated>2019-05-14T00:00:00+00:00</updated>
-<id>https://mckay.pub/create-issue</id>
-<content type="html">&lt;p&gt;I needed to find a better way to keep track of my to-do lists. I’ve tried a few tools, but after a while always forget about them and don’t keep them up to date. A to-do list is only any good if you add stuff to it and look at it.&lt;/p&gt;
-
-&lt;p&gt;I spend 95% my time in about 5 places these days: Google Calendar, Google Docs, Gmail, Slack and Github. I spend a lot of time on the latter, GitHub. So, of course, to super charge my to-do list I went for a quick browser extension - cue colleagues who laugh and say “of course you did” when I mention this.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/andymckay/create-issue&quot;&gt;Create issue on GitHub&lt;/a&gt; is a &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/create-github-issue/&quot;&gt;stupid simple Firefox Extension&lt;/a&gt; that lets you highlight a peice of text on a page, then right click to create an issue. It creates the issue in a repository defined on the config page using a personal access token. That’s it.&lt;/p&gt;
-
-&lt;p&gt;The beauty of this is that everything is a web page. Emails. Slack messages. Docs. All you do is highlight some text then right click and it creates an issue with the selected text and a URL to the item. Key to this is that’s it &lt;strong&gt;fast&lt;/strong&gt; to create a simple issue.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/74699/53767875-fac37300-3e8b-11e9-8401-650d0a317f3a.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For this I’ve setup a private repo (&lt;a href=&quot;https://github.blog/2019-01-07-new-year-new-github/&quot;&gt;those are free now&lt;/a&gt;). Thanks to all the integrations with GitHub issues, I get a bunch of stuff for free:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;automatic links on other issues and PRs across GitHub back to my to-do item&lt;/li&gt;
-  &lt;li&gt;notifications in email and Slack&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/stale&quot;&gt;stale&lt;/a&gt; to automatically clean my list&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/probot/reminders&quot;&gt;reminders&lt;/a&gt; to remind me of me of things at set times&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So far I’ve used this more than any to-do list system I’ve used in the past.&lt;/p&gt;
-
 </content>
 </entry>
 
