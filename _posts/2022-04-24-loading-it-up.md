@@ -7,7 +7,7 @@ blog: andy-mckay
 
 For my first trip I needed to loaded up my bike with gear. This is going to be a continual learning process.
 
-Here's my bike full loaded on my first trip:
+Here's my bike full loaded <a href="/2022-04-24-first-trip/">on my first trip</a>:
 
 <img src="/files/IMG_1913.jpeg" height="400">
 
