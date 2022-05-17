@@ -40,7 +40,7 @@ The first long ride, ending up with campsite and a beach in Olowalu.
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7121391240/embed/73b811f333e399e90f3795b6eccd0260a273df53'></iframe>
 
-<img src="/files/IMG_2052.jpg" width="400">
+<img src="/files/IMG_2052.JPG" width="400">
 
 I absolutely loved this ride. It was gorgeous, very sunny and unbelieveably windy.
 
@@ -61,7 +61,7 @@ In the end I took a leisurely ride from Olowalu over to Kihei and had a nice lun
 
 This was a flat ride, a good chunk on a busy highway. It also had brutal headwinds that seemed to change and hit me each way. At one point I just gave up riding and walked my bike along the sandy beach instead, tough life.
 
-<img src="/files/IMG_2081.jpg" width="400">
+<img src="/files/IMG_2081.JPG" width="400">
 
 ### Day 4: Olowalu to Kahului
 
@@ -73,7 +73,7 @@ So instead I went the long way back to Kahului and reversed my route from the da
 
 There is one hill that almost defeated me, called "The Wall" which <a href="https://www.strava.com/activities/7127821053/segments/2959625694434573968">Strava shows as 15.8%</a> but feels more like 18%.
 
-<img src="/files/IMG_2120.jpg" width="400">
+<img src="/files/IMG_2120.JPG" width="400">
 
 ### Day 5: Kahului to Kipahulu
 
@@ -95,7 +95,7 @@ Most tourists run around at Hana, but that's such a shame. The road down to Kipa
 
 The campsite is spectacular and it was basically empty. I had a nice chat with the camp manager and in the past the camp was repeatedly overrun with people that were abusing the site. So they've introduced reservations and limited the number of visitors. If you can get a spot it's worth it, amazing campsite.
 
-<img src="/files/IMG_2177.jpg" width="400">
+<img src="/files/IMG_2177.JPG" width="400">
 
 Wouldn't be a visit to the national park without a hike up to the waterfalls that evening would it?
 
@@ -115,7 +115,7 @@ It starts with being close to the sea and beaches. Then it starts to open out an
 
 This where I started to struggle. But I just took it easy and enjoyed the remoteness. On one side you had the sea, the other the volcano stretching up with the observatory on top.
 
-<img src="/files/IMG_2238.jpg" width="400">
+<img src="/files/IMG_2238.JPG" width="400">
 
 At about 45km you get to the Maui Winery and general store that sold water and food. It was a most welcome site.
 
