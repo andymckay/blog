@@ -44,7 +44,7 @@ The first long ride, ending up with campsite and a beach in Olowalu.
 
 I absolutely loved this ride. It was gorgeous, very sunny and unbelieveably windy.
 
-There's a big hill coming out of Kahului - its always good to start with the hill and get it out of the way.The village of <a href="https://www.google.com/maps/place/Kahakuloa,+HI+96793,+USA/@21.0009245,-156.5628451,15z/data=!3m1!4b1!4m8!1m2!10m1!1e1!3m4!1s0x7eab2bdab3f68513:0x65c8e7836e04e78!8m2!3d21.0009085!4d-156.55406">Kahakuloa</a> marks the transition from the hill - it's a good place for drinks and banana bread and has spectacular scenery.
+There's a big hill coming out of Kahului - its always good to start with the hill and get it out of the way. The village of <a href="https://www.google.com/maps/place/Kahakuloa,+HI+96793,+USA/@21.0009245,-156.5628451,15z/data=!3m1!4b1!4m8!1m2!10m1!1e1!3m4!1s0x7eab2bdab3f68513:0x65c8e7836e04e78!8m2!3d21.0009085!4d-156.55406">Kahakuloa</a> marks the transition from the hill - it's a good place for drinks and banana bread and has spectacular scenery.
 
 The next section is all cliff side roads, with fantastic views. At the beginning the road gets very, very narrow but does soon even out.
 
@@ -107,13 +107,13 @@ This was a tiring day, on top of a good ride yesterday and I slept well.
 
 The road was open. Funnily enough there were a few rental cars that really shouldn't have been there either, but that's always the way. This was another amazing ride.
 
-The road is advertised as four wheel drive only. It's just fine for a bike. A road bike would probably be ok, if it takes it easy on the gravelly bits.
+The road is advertised as four wheel drive only. It's just fine for a bike. A road bike would probably be ok, just take it easy on the gravelly bits.
 
 It starts with being close to the sea and beaches. Then it starts to open out and you get to climb. And climb. And climb. Many short steep sections. There is no water for 45km and 1,000 meters and it was getting up to 28c.
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138008275/embed/f53b039a252167d21f91c1166f0f405e3de2d203'></iframe>
 
-This where I started to struggle. But I just took it easy and enjoyed the remoteness. On one side you had the sea, the other the volcano stretching up with the observatory on top.
+This where I started to struggle. But I just rested a few times and enjoyed the remoteness. On one side you had the sea, the other the volcano stretching up with the observatory on top.
 
 <img src="/files/IMG_2238.JPG" width="400">
 
