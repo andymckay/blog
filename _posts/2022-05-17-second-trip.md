@@ -13,7 +13,7 @@ This trip had a few differences: I was flying, Maui is really warm, I was never 
 
 My wife also pointed out that we had an air mattress that compacted smaller and it fit nicely into my <a href="https://mckay.pub/2022-05-17-panniers/">new panniers</a>, meaning I could take one dry bag less as well.
 
-It turns out camping is really hard to find in Maui. Covid has meant that availability is limited and some have just closed. Here's the "official" campsites that are left:
+It turns out camping is really hard to find in Maui. Covid has meant that availability is limited and some have just closed. Here's the "official" campsites that are left (excluding walk in ones at the top of Haleakala):
 
 <img src="/files/camping-maui.png" width="400px">
 <cite><a href="https://www.google.com/maps/@20.6704429,-156.5285182,10.41z/data=!4m2!10m1!1e1">Google map</a></cite>
