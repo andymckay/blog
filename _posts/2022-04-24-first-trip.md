@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First trip
+title: First trip - Vancouver island
 categories: trips
 blog: andy-mckay
 ---
