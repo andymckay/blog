@@ -117,7 +117,7 @@ This where I started to struggle. But I just rested a few times and enjoyed the 
 
 <img src="/files/IMG_2238.JPG" width="400">
 
-At about 45km you get to the Maui Winery and general store that sold water and food. It was a most welcome site.
+At about 45km you get to the Maui Winery and general store that sold water and food. It was a most welcome sight.
 
 Unfortunately the climbing doesn't stop until you reach the road that branches off to Haleakala. I didn't take that and instead cruised dow the hill into Kahului - a nice chance to get my average speed up.
 
@@ -131,7 +131,7 @@ Maui isn't a big island and accomodation is a problem. If I did it again, I'd pr
 
 The winds are really, really strong. I'm glad I left my frame bag at home, it would have provided more surface area for the wind to catch. It was hard enough as it was. Minimize your surface area for the wind.
 
-Generally the Kihei and Lahaina areas for tourists. Sandy beaches, no rain, no wind. That's not the part of Maui that I love. The north shore of west Maui and the east side of Maui are beautiful, wild, remote and just perfect.
+Generally the Kihei and Lahaina areas are for tourists. Sandy beaches, no rain, no wind. That's not the part of Maui that I love. The north shore of west Maui and the east side of Maui are beautiful, wild, remote and just perfect.
 
 
 
