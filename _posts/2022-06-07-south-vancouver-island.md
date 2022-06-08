@@ -17,7 +17,7 @@ Let's warm up for the Fondo by doing a 120km ride.
 
 <div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7218875101'></div><script src='https://strava-embeds.com/embed.js'></script>
 
-It turns out this route is pretty straightforward, avoiding the highway is still a struggle and there's still choke points where you have to go on the highway north of Cedar, around Ladysmith and near the turn off to Lake Cowichan. At this point I did not know about the Lake Cowichan Trail which goes from Duncan to Lake Cowichan, if you go this way look it up to avoid roads.
+It turns out this route is pretty straightforward, avoiding the highway is still a struggle and there's still choke points where you have to go on the highway north of Cedar, around Ladysmith and near the turn off to Lake Cowichan. At this point I did not know about the <a href="https://www.cvrd.ca/121/Cowichan-Valley-Trail">Cowichan Valley Trail</a> which goes from Duncan to Lake Cowichan (and more), if you go this way look it up to avoid roads.
 
 ### Day 2: Cowichan Crusher
 
@@ -69,7 +69,7 @@ Y'know, following roads and trails that are well established. I did give up at P
 
 <div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7235049728'></div><script src='https://strava-embeds.com/embed.js'></script>
 
-Highlight was that I found the Lake Cowichan Trail which goes from Lake Cowichan straight into Duncan on a old train line. It's fast easy and delightful 25km+ of trail that I'd recommend to anyone going that way. I was able to stop in Duncan and pick up some tubes from a local bike shop and then work my way up the coast.
+Highlight was that I found the <a href="https://www.cvrd.ca/121/Cowichan-Valley-Trail">Cowichan Valley Trail</a> which goes from Lake Cowichan straight into Duncan on a old train line. It's fast easy and delightful 25km+ of trail that I'd recommend to anyone going that way. I was able to stop in Duncan and pick up some tubes from a local bike shop and then work my way up the coast.
 
 ### Conclusions
 
