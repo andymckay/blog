@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Third Trip - South Vancouver Island
-categories: trip
+categories: trips
 blog: andy-mckay
 ---
 
@@ -35,7 +35,7 @@ I was able to ditch all my gear at the start so didn't have to lug it around. Af
 
 Once I got to the campsite, it was lovely.
 
-<img src="files/IMG_3243.JPG" height="400">
+<img src="/files/IMG_3243.JPG" height="400">
 
 At this point I had a bit of a problem. My original plan was to head to Port Renfrew, then Sooke, then back to Lake Cowichan and home by Wednesday with two rest days before the Valley Fondo. There were two problems: the forecast was a lot of rain and I had many sores from two long days (not going to go into details there, suffice to say I was in pain).
 
@@ -43,13 +43,13 @@ At this point I had a bit of a problem. My original plan was to head to Port Ren
 
 Based on how I felt I reluctantly decided to head home. I felt this was the second time I'd failed at a full Vancouver Island trip, but I wanted my body to recover before the Fondo. But I thought I'd add a twist. Instead of repeating day 1 and doing the highway, I'd try a new route - this one.
 
-<img src="files/lake-cowichan-to-nanaimo.png" height="400">
+<img src="/files/lake-cowichan-to-nanaimo.png" height="400">
 
 This route was spectacular. Soaring mountains, rivers, a road that turned into a logging road and got narrowers. Waterfalls, bear poop, deer and no people. And it went up and up and got smaller and narrower. And steeper. Then it became unrideable. For a long time. Then I was fording streams, then trees were across the road. Then snow, deep snow.
 
 This was before it went really wrong:
 
-<img src="files/IMG_3270.JPG" height="400">
+<img src="/files/IMG_3270.JPG" height="400">
 
 I hadn't ridden my bike for about an hour when I had to make a decision. I was aiming for Nanaimo but had 62km to go and was in snow and getting pretty lost. I had all the gear to camp out, but realised I was unprepared and lacking information on where I was going. It's well and good camping, but if you are going the wrong way, it could go very wrong.
 
@@ -71,10 +71,12 @@ Y'know, following roads and trails that are well established. I did give up at P
 
 Highlight was that I found the Lake Cowichan Trail which goes from Lake Cowichan straight into Duncan on a old train line. It's fast easy and delightful 25km+ of trail that I'd recommend to anyone going that way. I was able to stop in Duncan and pick up some tubes from a local bike shop and then work my way up the coast.
 
-### Conclusion
+### Conclusions
 
-I should carry more than one spare tube. Definitely research logging roads more and have a better map than just Google maps, that's for sure. I enjoyed camping so much the second night, I wish I'd camped the third night too. I'm bored of hotels and the camping was delightful - at the time my brain was just focused on the first place to crash.
+* I should carry more than one spare tube. 
+* Definitely research logging roads more and have a better map than just Google maps.
+* I enjoyed camping so much the second night, I wish I'd camped the third night too. I'm bored of hotels and the camping was delightful - at the time my brain was just focused on the first place to crash.
 
-My five day trip got shortened by a day with an absolutely epic exploration day added in completely by accident. I don't feel bad I didn't get to Nanaimo that way, it was a super exciting and interesting ride. I probably wouldnt do it again that way though.
+My five day trip got shortened by a single day by adding an absolutely epic exploration day by accident, so the trip was pretty good. I don't feel bad I didn't get to Nanaimo that way, it was a super exciting and interesting ride. I probably wouldnt do it again that way though.
 
 Just to note that after day 2 I did adjust my seat slightly and that seemed to help, but it did take a couple of days of not riding for things to heal.
