@@ -5,7 +5,7 @@ categories: trips
 blog: andy-mckay
 ---
 
-One of my favourite places in BC is the Stein Valley Nlaka'pamux Heritage Park, located by Lytton, BC. It's special for a couple of reasons. It's one of the only large unlogged watersheds <a href="https://en.wikipedia.org/wiki/Stein_River">left in BC</a>. It's much warmer than everywhere else, making it ideal for trips when you want to avoid rain, or weather elsewhere is crappy.
+One of my favourite places in BC is the <a href="https://bcparks.ca/explore/parkpgs/stein_val/">Stein Valley Nlaka'pamux Heritage Park</a>, located by Lytton, BC. It's special for a couple of reasons. It's one of the only large unlogged watersheds <a href="https://en.wikipedia.org/wiki/Stein_River">left in BC</a>. It's much warmer than everywhere else, making it ideal for trips when you want to avoid rain, or weather elsewhere is crappy.
 
 The park is big, with one main trail that comes in from the west side of the Fraser River and goes up to the Stein Lake, 50km+ away. This means there is really only one main trail and route in the park with not many options until you get up to the lake. Once you get up the lake passes and trails exist through over to the west to Blowdown Creek etc. This is serious alpine wilderness hiking, which unfortunately I haven't been able to do.
 
@@ -21,7 +21,7 @@ To get to the Stein you can take the <a href="https://www2.gov.bc.ca/gov/content
 
 There are two choices left; the rail bridge to the south of Lytton and then an 8km hike up to the park trailhead or the suspension bridge and a ~2km hike. We went for the latter. It looks like this and with a 30km+ wind howling up the Fraser it made an interesting crossing while carrying a large backpack.
 
-<img src="/files/IMG_3377.png">
+<img src="/files/IMG_3377.png" width="400">
 
 The rest of the hike was pretty straightforward, beautiful forests by a raging river. Pictographs carved on rock and lots of camping sites in 28c sunny weather.
 
