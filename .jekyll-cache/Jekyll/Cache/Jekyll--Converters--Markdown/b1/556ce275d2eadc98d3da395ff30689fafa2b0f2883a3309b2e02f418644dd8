@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>Andy McKay :: Fifth trip - West Coast Trail</title>
-<link href="/css/style.css" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
-<link rel="alternate" href="/atom.xml" type="application/atom+xml">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-</head>
-<body>
-<div id="main">
-<header>
-  <h1><a href="/">Andy McKay</a></h1>
-</header>
-<section>
-<article>
-<div class="meta">Jun 25, 2022</div>
-<h2><a href="/2022-06-25-west-coast-trail/">Fifth trip - West Coast Trail</a></h2>
-<div id="thenavigation">
-  <p>Trips 2022 ðŸ‘‰ <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/">Trips</a></p>
-</div>
-<hr class="florished">
-<p>The <a href="https://www.pc.gc.ca/en/pn-np/bc/pacificrim/activ/SCO-WCT">West Coast Trail</a> is one of the most popular hiking trips in the world and has for many years been a rite of passage for many people in BC. In June I noticed that a spot was available - they normally all get booked for the year as soon as the reservations open in January - and took it. Heading from the south to the north on June 20th.</p>
+I"ÞC<p>The <a href="https://www.pc.gc.ca/en/pn-np/bc/pacificrim/activ/SCO-WCT">West Coast Trail</a> is one of the most popular hiking trips in the world and has for many years been a rite of passage for many people in BC. In June I noticed that a spot was available - they normally all get booked for the year as soon as the reservations open in January - and took it. Heading from the south to the north on June 20th.</p>
 
 <p>Instead of spending the weeks cycling or running I focused on hiking with a back pack, doing my usual local trails with varying weights of backpacks and also doing the <a href="/2022-06-25-stein-valley/">Stein Valley</a>.</p>
 
@@ -209,30 +182,4 @@
     </li>
   </ol>
 </div>
-
-<div id="navigation">
-  <a href="/2022-06-25-stein-valley/">&laquo; older</a>
-  
-</div>
-
-</article>
-</section>
-<footer>
-<div id="thefooter">
-  <p>
-    <a href="/">Home</a> &bull;
-    <a href="/archives/">Archives</a>
-  </p>
-  <p>
-    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
-    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
-    <a href="https://mckay.pub/atom.xml">RSS</a><br />
-    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
-    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
-    <a href="https://github.com/andymckay">GitHub</a><br />
-  </p>
-</div>
-</footer>
-</div>
-</body>
-</html>
+:ET
