@@ -84,12 +84,12 @@ padding-left: 0;
 
 blockquote, cite {
 color: #898989;
+display: block;
 }
 
 cite {
 color: #898989;
 padding-left: 2em;
-margin-top: -2em;
 padding-bottom: 2em;
 }
 
