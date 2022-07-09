@@ -9,44 +9,46 @@
 
 
 html {
-overflow: scroll;
+    overflow: scroll;
 }
 
 body {
-margin: 0;
-font-family: DroidSans;
-color: #3e2827;
-background-color: #ffffff;
-line-height: 1.6em;
-font-size: 18px;
-padding-left: 10vw;
-padding-right: 10vw;
+    margin: 0;
+    font-family: DroidSans;
+    color: #3e2827;
+    background-color: #ffffff;
+    line-height: 1.6em;
+    font-size: 18px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    max-width: 60em;
 }
 
 a:link {
-color: #3e2827;
-text-decoration: none;
-border-bottom: 1px solid #3e2827;
+    color: #3e2827;
+    text-decoration: none;
+    border-bottom: 1px solid #3e2827;
 }
 
 a:visited {
-color: #3e2827;
-text-decoration: none;
-border-bottom: 1px solid #3e2827;
+    color: #3e2827;
+    text-decoration: none;
+    border-bottom: 1px solid #3e2827;
 }
 
 a:hover {
-color: #be1007;
-text-decoration: none;
-border-bottom: 1px solid #3e2827;
+    color: #be1007;
+    text-decoration: none;
+    border-bottom: 1px solid #3e2827;
 }
 
 #main {
-margin: 30px auto 30px auto;
+    margin: 30px auto 30px auto;
 }
 
 article {
-   padding: 1em;
+    padding: 1em;
+    max-width: 60
 }
 
 h1, h2 {
