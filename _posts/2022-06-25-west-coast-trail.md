@@ -41,7 +41,7 @@ To get to the start you have to take a ferry and at about 10:30am I was off, on 
 
 On the other side of the river you are faced with a vertical ladder to scale. The first of many and telling of what is to come:
 
-<img src="/files/P1020717.JPG" width="400">
+<img src="/files/P1020717.JPG" width="600">
 <cite>This is the start. Get used to it.<cite>
 
 It took me 2 and a bit hours to get to the junction to Thrashers. I was hiking at my usual comfortable speed I was doing in North Vancouver and overtaking people who started on the 8am ferry. It felt comfortable for me.
@@ -52,7 +52,7 @@ At this point I would end up at Thrashers at 1pm ish and have an entire day to w
 
 I pushed on to Camper Bay and got there in two and a bit hours.
 
-<img src="/files/P1020722.JPG" width="400">
+<img src="/files/P1020722.JPG" width="600">
 <cite>So many broken bridges and boardwalks. This coast is tough on infrastructure.</cite>
 
 The trail Gordon River to Thrashers felt like a hike on the more remote North Vancouver trails (eg: Three chop, upper lynn loop etc). Just throw in a bunch of ladders. Thrashers to Camper Bay was a muddy hell hole of broken boardwalks, mud, deep mud, slippy everything and mud. Parts of this were not that much fun. People I chatted to later said the boulder field on the coast wasn't fun either so 🤷‍♂.
@@ -69,12 +69,12 @@ When the sun rose, I staggered out of bed, made my tea and oats and packed up. F
 
 The section out of Camper Bay continued the trend of being broken boardwalks, mud, bog, ladders, rivers, bridges, ladders, more ladders, mud and so on. Did I mention mud? There's a lot of that. When you get to Walbran Creek, it mud comes to and end you was able to exit from the forest onto the beach for the first time.
 
-<img src="/files/P1020736.JPG" width="400">
+<img src="/files/P1020736.JPG" width="600">
 <cite>So many ladders and its hard to get a feel of how steep they are from these pictures.</cite>
 
 I still felt good at this point, strong and powering through things. I will admit, I did find some of the ladders a bit scary at times. Heights aren't my thing and having a backpack and poles etc makes it harder. Doing some of those in pouring rain, with heavy backpacks must be hard. Camper Bay to Walbran is rough.
 
-<img src="/files/P1020754.JPG" width="400">
+<img src="/files/P1020754.JPG" width="600">
 <cite>Coming out of the forest onto the beach felt pretty good.</cite>
 
 I had lunch at Walbran Creek and tried to cross - silly idea. I got my feet and gaiters totally drenched and was only half way across when it got really deep. So I back tracked and went across the creek using the cable car higher up. But that gave me the excuse to have a cup of tea, change socks and dry things out a little.
@@ -97,7 +97,7 @@ I headed out with some damp gear, but nothing too bad from last night heading. C
 
 The trail alternated with little bits inland and the beach before inland towards Nitinaht. I was feeling pretty good here still and powering along quite happily. Views were getting better and the trails were improving.
 
-<img src="/files/P1020782.JPG" width="400">
+<img src="/files/P1020782.JPG" width="600">
 <cite>I wish every hike was this beautiful.</cite>
 
 At the Nitinaht ferry there's the Crabshack which serves crabs and other delicacies like bags of chips and pop. I went for a grill cheese which took 40 minutes, but was worth it. A quick ferry ride across the river led me on to the trail so I could keep powering towards Tsusiat.
@@ -106,12 +106,12 @@ At this point the trail is high up on a cliff, close to the edge with fantastic 
 
 After 4 minutes of not seeing any bear and shouting until I felt like an idiot, I inched forward, bear spray at the ready. It was long gone.
 
-<img src="/files/P1020816.JPG" width="400">
+<img src="/files/P1020816.JPG" width="600">
 <cite>One of the many random beaches without people on that you see from the trail. Just amazing.</cite>
 
 The rest of hike to Tsusiat was uneventful, but getting even more pretty including a cool sea arch that I only just made the tides for. That night I was surrounded by tons of people but the waterfall and sea meant I didn't hear much.
 
-<img src="/files/P1020837.png" width="400">
+<img src="/files/P1020837.JPG" width="600">
 <cite>Tents and waterfall at Tsusiat.</cite>
 
 ### Day four: Tsusiat Falls to Michigan Creek
@@ -128,14 +128,14 @@ Tsocowis Creek is a lovely spot with a nice campsite that had no one there. I st
 
 Hiking was pretty easy and I still felt good, able to power along and got to Michigan Creek in the early afternoon. I spent a while failing to set up my hammock, none of the trees were quite right. Finally settled on a spot in the trees with my tent and chilled... only to find I'd lost my camera [^1]. Aargh. I knew the last time I used it was Tsocowis Creek.
 
-<img src="/files/P1020869.JPG" height="400">
+<img src="/files/P1020869.JPG" height="600">
 <cite>Bridge over waterfall at Tsocowis Creek.</cite>
 
 After ages searching the campground, asking people and retracing my steps I was at a loss. So I grabbed my Spot, my bear spray and hiked the 9km return to Tsocowis Creek to see if it was there. It wasn't. So really I did 21km+ this day, but 9km of it was in the sun without a backpack - nice and easy.
 
 Later that night someone found the camera next to their tent. Yay 😃
 
-<img src="/files/IMG_3472.jpeg" height="400">
+<img src="/files/IMG_3472.jpeg" height="600">
 <cite>Evening at Michigan Creek</cite>
 
 ### Day five: Michigan Creek to Pachena Access
@@ -148,31 +148,31 @@ As you can probably tell the times are getting shorter and shorter for similar d
 
 There was another bear sighting, which ran off quickly once it spotted me. Sea lion rock is awesome and is a few rocks full of sea lions. Was as advertised.
 
-<img src="/files/P1020881.JPG" height="400">
+<img src="/files/P1020881.JPG" height="600">
 <cite>Sea lion rock is loud and fun to watch.</cite>
 
 In a few hours I turned up at the beautiful beach at Pachena and I was done at 12:30pm, one day early. 
 
-<img src="/files/P1020891.JPG" height="400">
+<img src="/files/P1020891.JPG" height="600">
 <cite>The end at Pachena beach.</cite>
 
 The trail bus crew were able to move my reservation up a day and by 5:30pm I was in Nanaimo waiting for a ferry home and kinda wishing I was able to turn back and do the whole trail once again.
 
 ### Summary
 
-*The trail is beautiful* in that special west coast way, similar to Haida Gwaii and so on. Long empty beaches, bears, eagles, ravens, sea otters and just continuous beauty. I hope I never get tired this amazing coast.
+**The trail is beautiful** in that special west coast way, similar to Haida Gwaii and so on. Long empty beaches, bears, eagles, ravens, sea otters and just continuous beauty. I hope I never get tired this amazing coast.
 
-*The trail is muddy* beyond anyway I thought possible. It's really bad and that makes it really slippy. It's what makes the trail harder and I can't imagine how bad it is in the rain. You need gaiters and poles for the mud.
+***The trail is muddy** beyond anyway I thought possible. It's really bad and that makes it really slippy. It's what makes the trail harder and I can't imagine how bad it is in the rain. You need gaiters and poles for the mud.
 
-*Difficulty is subjective*. I didn't find it that hard, because I've spent years hiking on the North Shore and it is similar to the harder trails. If you don't do this kind of hiking regularly, if you've got a big backpack you will find it **very tough**. I think back to the experience some people had said they had hiking (almost none) and their backpack weight (very heavy) on the bus to the trail and cringe, I hope they made it in the time they had allotted.
+**Difficulty is subjective**. I didn't find it that hard, because I've spent years hiking on the North Shore and it is similar to the harder trails. If you don't do this kind of hiking regularly, if you've got a big backpack you will find it **very tough**. I think back to the experience some people had said they had hiking (almost none) and their backpack weight (very heavy) on the bus to the trail and cringe, I hope they made it in the time they had allotted.
 
-*Light is better* when it comes to backpacking. The majority of accidents are people slipping and if you are fatigued from carrying a 60lb backpack and trying to negotiate this trail, you are more likely to have a serious slip. I didn't feel I missed anything.
+**Light is better** when it comes to backpacking. The majority of accidents are people slipping and if you are fatigued from carrying a 60lb backpack and trying to negotiate this trail, you are more likely to have a serious slip. I didn't feel I missed anything.
 
-*It's more sanitised than I expected*. I did go 4 hours at a time without seeing people and I did camp by myself. But those were the exceptions, it's become quite popular and all the rivers have bridges or cable cars. There is support and exit points if you have an accident and that's all good. But I'm craving something more remote, maybe the North Coast trail, Haida Gwaii etc. The possibilities are endless.
+**It's more sanitised than I expected**. I did go 4 hours at a time without seeing people and I did camp by myself. But those were the exceptions, it's become quite popular and all the rivers have bridges or cable cars. There is support and exit points if you have an accident and that's all good. But I'm craving something more remote, maybe the North Coast trail, Haida Gwaii etc. The possibilities are endless.
 
 I loved this hike and my time on the trail so much and I missed it as soon as I was done. I would do it again. Those last three days in the sun were amazing and I ❤️ this part of the world, so very much.
 
-<img src="/files/IMG_3486.jpeg" height="400">
+<img src="/files/IMG_3486.jpeg" height="600">
 <cite>Felt good to be done and now I can get to a hot shower and my daughters graduation. And maybe a beer.</cite>
 
 👋 I'll be back.
