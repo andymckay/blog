@@ -23,7 +23,7 @@ There are two choices left; the rail bridge to the south of Lytton and then an 8
 
 <img src="/files/IMG_3377.png" width="400">
 
-The rest of the hike was pretty straightforward, beautiful forests by a raging river. Pictographs carved on rock and lots of camping sites in 28c sunny weather.
+The rest of the hike was pretty straightforward, beautiful forests by a raging river. Pictographs carved on rock and lots of camping sites in 28c sunny weather, sounds pretty good to me.
 
 We camped at Devils Staircase campground, which isn't a staircase and isn't really hard or devilish.
 
@@ -33,10 +33,10 @@ The plan for day two was to head further into the Stein, without our backpacks. 
 
 It was seriously steep, seriously sketchy and with a very large penalty if you slipped. I just wasn't comfortable crossing, I tried and nearly lost it.
 
-So at that point, we headed back, packed up and reluctantly headed out of the Stein Valley and found a gin an tonic instead.
+So at that point, we headed back, packed up and reluctantly headed out of the Stein Valley and found a gin and tonic instead.
 
 <div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7293015342'></div><script src='https://strava-embeds.com/embed.js'></script>
 
-As it turns out in almost 30c heat, hiking up hills with 40lb+ backpacks and crossing the suspension bridge of doom was enough to wipe us out and we enjoyed our gin and tonic.
+As it turns out in almost 30c heat, hiking up hills with 40lb+ backpacks and crossing the suspension bridge of doom was enough to wipe us out. Getting back to the car, we definitely felt like we'd done a good hike and we enjoyed our gin and tonic.
 
 I still have the ambition to get to the Stein Lake and do the Stein Valley traverse, ideally by crossing over from Blowdown Creek or Lizzie Pass. But not this weekend.
