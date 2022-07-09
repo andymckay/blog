@@ -9,7 +9,7 @@ The <a href="https://www.pc.gc.ca/en/pn-np/bc/pacificrim/activ/SCO-WCT">West Coa
 
 Instead of spending the weeks cycling or running I focused on hiking with a back pack, doing my usual local trails with varying weights of backpacks and also doing the <a href="/2022-06-25-stein-valley/">Stein Valley</a>.
 
-I'd read lots of posts about the trail and the toll the 75km takes on people. Over 100 people are year are evacuated usually due to hypothermia or injuries from slipping. The weeks leading up to the trip were mostly full of anxiety... would I be fit enough, would I have the right gear and so on. I went full on as <a href="/2022-06-25-packing-light/">light as possible</a>, was this a bad move? We'd find out.
+I'd read lots of posts about the trail and the toll the 75km takes on people. Over 100 people are year are evacuated usually due to hypothermia or injuries from slipping. The weeks leading up to the trip were mostly full of anxiety... would I be fit enough, would I have the right gear and so on. I went full on as <a href="/2022-06-25-packing-light/">light as possible</a>, was this a bad move? We'd find out. Oh and I was doing it solo, the most dangerous way to do it.
 
 👉 <a href="https://pcweb.azureedge.net/-/media/pn-np/bc/pacificrim/WET4/visit/PDF/2019-WCT-Map_EN.pdf">Map of the trail as a PDF</a>.
 
