@@ -162,7 +162,7 @@ The trail bus crew were able to move my reservation up a day and by 5:30pm I was
 
 **The trail is beautiful** in that special west coast way, similar to Haida Gwaii and so on. Long empty beaches, bears, eagles, ravens, sea otters and just continuous beauty. I hope I never get tired this amazing coast.
 
-***The trail is muddy** beyond anyway I thought possible. It's really bad and that makes it really slippy. It's what makes the trail harder and I can't imagine how bad it is in the rain. You need gaiters and poles for the mud.
+**The trail is muddy** beyond anyway I thought possible. It's really bad and that makes it really slippy. It's what makes the trail harder and I can't imagine how bad it is in the rain. You need gaiters and poles for the mud.
 
 **Difficulty is subjective**. I didn't find it that hard, because I've spent years hiking on the North Shore and it is similar to the harder trails. If you don't do this kind of hiking regularly, if you've got a big backpack you will find it **very tough**. I think back to the experience some people had said they had hiking (almost none) and their backpack weight (very heavy) on the bus to the trail and cringe, I hope they made it in the time they had allotted.
 
