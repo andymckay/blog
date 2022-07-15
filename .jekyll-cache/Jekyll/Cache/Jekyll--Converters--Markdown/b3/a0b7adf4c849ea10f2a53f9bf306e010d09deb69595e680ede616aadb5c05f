@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
-<title>Andy McKay :: Sixth Trip - Mt. Frosty</title>
-<link href="/css/style.css" rel="stylesheet" type="text/css">
-<link href="/css/pygments.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
-<link rel="alternate" href="/atom.xml" type="application/atom+xml">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-</head>
-<body>
-<div id="main">
-<header>
-  <h1><a href="/">Andy McKay</a></h1>
-</header>
-<section>
-<article>
-<div class="meta">Jul 14, 2022</div>
-<h2><a href="/2022-07-14-mt-frosty/">Sixth Trip - Mt. Frosty</a></h2>
-<div id="thenavigation">
-  <p>Trips 2022 👉 <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/">Trips</a></p>
-</div>
-<hr class="florished">
-<p>On Sunday I competed in my second Okanagan Gran Fondo. It was really good and I improved greatly on my time from last year, chopping off almost 30 minutes and completing my first Fondo at over 30km an hour. On Sunday my wife dropped me off in Manning Park on the way home so I could climb Mt. Frosty, the tallest peak in Manning Park.</p>
+I"�<p>On Sunday I competed in my second Okanagan Gran Fondo. It was really good and I improved greatly on my time from last year, chopping off almost 30 minutes and completing my first Fondo at over 30km an hour. On Sunday my wife dropped me off in Manning Park on the way home so I could climb Mt. Frosty, the tallest peak in Manning Park.</p>
 
 <h3 id="day-1-windy-joe">Day 1: Windy Joe</h3>
 
@@ -90,30 +63,4 @@
 <p>I’ve found that now I’ve got a clearly defined set of gear it was super easy to pack, go through my checklist and get going on a hike, so that’s great.</p>
 
 <p>A fantastic way to end my sabbatical.</p>
-
-<div id="navigation">
-  <a href="/2022-06-25-west-coast-trail/">&laquo; older</a>
-  <a href="/2022-07-14-some-bike-races/">newer &raquo;</a>
-</div>
-
-</article>
-</section>
-<footer>
-<div id="thefooter">
-  <p>
-    <a href="/">Home</a> &bull;
-    <a href="/archives/">Archives</a>
-  </p>
-  <p>
-    I work at <a href="https://github.com">GitHub</a>. I used to be at <a href="https://www.mozilla.com">Mozilla</a>.<br />
-    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
-    <a href="https://mckay.pub/atom.xml">RSS</a><br />
-    <a href="https://twitter.com/andymckay">Twitter</a> &bull;
-    <a href="https://www.linkedin.com/pub/andy-mckay/11/225/aa1">Linkedin</a> &bull;
-    <a href="https://github.com/andymckay">GitHub</a><br />
-  </p>
-</div>
-</footer>
-</div>
-</body>
-</html>
+:ET
