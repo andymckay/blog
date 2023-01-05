@@ -21,9 +21,6 @@
 <article>
 <div class="meta">Feb 10, 2007</div>
 <h2><a href="/2007-02-10-running-tests-in-django/">Running tests in Django</a></h2>
-<div id="thenavigation">
-  <p>Trips 2022 👉 <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/">Trips</a></p>
-</div>
 <hr class="florished">
 <p>Found I was getting this error in Django running tests:  &lt;pre&gt;Got an error recreating the test database: must be owner of database test_clearwind &lt;/pre&gt;&lt;p&gt;Did a bit of googling and took a while, so in case I get it again the answer is to run the following in psql:&lt;/p&gt;&lt;pre&gt;alter user django createdb;&lt;/pre&gt;Where django is the name of my user.</p>
 

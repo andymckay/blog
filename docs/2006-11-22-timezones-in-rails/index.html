@@ -21,9 +21,6 @@
 <article>
 <div class="meta">Nov 22, 2006</div>
 <h2><a href="/2006-11-22-timezones-in-rails/">Timezones in Rails</a></h2>
-<div id="thenavigation">
-  <p>Trips 2022 👉 <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/">Trips</a></p>
-</div>
 <hr class="florished">
 <p>Are a bit of a mess. If you want an easy life assume that your app is only going to be ever run in one timezone and go to <em>environment.rb</em> and set:  ENV['TZ'] = 'GMT'  &lt;div&gt;<br />&lt;/div&gt;&lt;div&gt;The problem I had is that it seems rails is doing a cast of the date. I set a date as GMT, put into the database, a <em>timestamp with time zone</em> field. Then when you get it out it casts into my local timezone:  &lt;/div&gt;</p>
 <pre>

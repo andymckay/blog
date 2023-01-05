@@ -21,9 +21,6 @@
 <article>
 <div class="meta">Nov 17, 2008</div>
 <h2><a href="/2008-11-17-syncdb-and-django/">syncdb and Django</a></h2>
-<div id="thenavigation">
-  <p>Trips 2022 👉 <a href="/tags/gear/">Gear</a> &bull; <a href="/tags/trips/">Trips</a></p>
-</div>
 <hr class="florished">
 <p>This has cropped up a couple of times on irc, so here's a recipe I have for restarting my Django instance during development. I'm not the sort of person who takes a long time to think it all through and can write a model and call it done, I iterate quickly and often. For the quickest way to do that during the initial development, I drop the db, re run syncdb and import my fixtures regularly.</p>
 <p>Once a production version is out and running I then get rid of this script and do migrations.</p>
