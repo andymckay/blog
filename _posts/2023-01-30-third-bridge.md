@@ -29,7 +29,7 @@ Let's have a tunnel! There have been so many tunnels proposed, but it's really e
 
 Expand around the Second Narrows? On the north side you hit the highway going north and the "cut" which is constrained to a couple of lanes each way. There isn't really room to grow there. Highway 1 is 2 to 3 lanes across the North Shore, so widening that would require a vast re-allocation of land. On the south side you hit Cassiar tunnel which is going to be really hard and expensive to expand and then it goes on through the rest of Vancouver.
 
-Expand around Lions Gate? And expand a highway through one of the most amazing parks in the world? What happens when it hits the north end. It currently goes left, towards Park Royal or right towards Marine Drive. Neither of which can take more load.
+Expand around Lions Gate? At the south end you'll just drop a pile of traffic into downtown, because downtown isn't struggling with too many cars already. On the north side the traffic currently goes left, towards Park Royal or right towards Marine Drive. Neither of which can take more load, so those will need changing and possibly build more of a highway up to Highway 1.
 
 Somewhere in the middle, near the Seabus? So how would the traffic get there? Would we have to turn Lonsdale into a highway to connect up Highway 1? Where on earth would a highway landing in East Vancouver go?
 
