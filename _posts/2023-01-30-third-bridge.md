@@ -37,11 +37,11 @@ If you increase the bridge capacity, you have to increase the capacity around it
 
 ## It's cheaper than transit
 
-The cost of the Skytrain is roughly $500 million per km for the Broadway Skytrain construction. [1] I'm no expert but that seems really expensive, but I'm not an expert on why it costs that much.  A suggested line across the North Shore and then to downtown at 20km could be roughly in the $10 billion price range. But it's probably more expensive due to the bridge. [2]
+The cost of the Skytrain is roughly $500 million per km for the Broadway Skytrain construction. [^1] I'm no expert but that seems really expensive, but I'm not an expert on why it costs that much.  A suggested line across the North Shore and then to downtown at 20km could be roughly in the $10 billion price range. But it's probably more expensive due to the bridge. [^2]
 
-The cost of the Massey Tunnel replacement is $4.15 billion, the suggested bridge replacement was $2.7 billion. [3]
+The cost of the Massey Tunnel replacement is $4.15 billion, the suggested bridge replacement was $2.7 billion. [^3]
 
-It's not really worth trying to compare a 20km rapid transit line to a bridge that is 629m long, but let's be clear: road infrastructure is expensive to build, expensive to maintain [4] and involves zero user fees. Don't be fooled that it's cheap to build or maintain.
+It's not really worth trying to compare a 20km rapid transit line to a bridge that is 629m long, but let's be clear: road infrastructure is expensive to build, expensive to maintain [^4] and involves zero user fees. Don't be fooled that it's cheap to build or maintain.
 
 ## What next
 
@@ -53,7 +53,10 @@ Do you really want to live in a place like that (sorry Portland)?
 
 The saddest part of the article "less than 18 per cent – indicated they'd need more information to have an informed opinion on the topic.". It's not just that people have this opinion, it's that they don't want to learn more about it.
 
-[1] https://www.theglobeandmail.com/canada/article-why-canada-gets-less-for-more-when-it-comes-to-building-transit-2/
-[2] https://dailyhive.com/vancouver/north-shore-city-councils-rapid-transit-translink-approval-plan
-[3] https://vancouversun.com/news/local-news/b-c-to-make-announcement-on-george-massey-tunnel-replacement
-[4] https://www.lakecountry.bc.ca/en/news/you-asked-why-does-road-maintenance-cost-so-much.aspx (I can't find a number yet for how much BC spends on this.)
+[^1] https://www.theglobeandmail.com/canada/article-why-canada-gets-less-for-more-when-it-comes-to-building-transit-2/
+
+[^2] https://dailyhive.com/vancouver/north-shore-city-councils-rapid-transit-translink-approval-plan
+
+[^3] https://vancouversun.com/news/local-news/b-c-to-make-announcement-on-george-massey-tunnel-replacement
+
+[^4] https://www.lakecountry.bc.ca/en/news/you-asked-why-does-road-maintenance-cost-so-much.aspx (I can't find a number yet for how much BC spends on this.)
