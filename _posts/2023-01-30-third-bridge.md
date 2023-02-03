@@ -53,10 +53,10 @@ Do you really want to live in a place like that (sorry Portland)?
 
 The saddest part of the article "less than 18 per cent – indicated they'd need more information to have an informed opinion on the topic.". It's not just that people have this opinion, it's that they don't want to learn more about it.
 
-[^1] https://www.theglobeandmail.com/canada/article-why-canada-gets-less-for-more-when-it-comes-to-building-transit-2/
+[^1]: https://www.theglobeandmail.com/canada/article-why-canada-gets-less-for-more-when-it-comes-to-building-transit-2/
 
-[^2] https://dailyhive.com/vancouver/north-shore-city-councils-rapid-transit-translink-approval-plan
+[^2]: https://dailyhive.com/vancouver/north-shore-city-councils-rapid-transit-translink-approval-plan
 
-[^3] https://vancouversun.com/news/local-news/b-c-to-make-announcement-on-george-massey-tunnel-replacement
+[^3]: https://vancouversun.com/news/local-news/b-c-to-make-announcement-on-george-massey-tunnel-replacement
 
-[^4] https://www.lakecountry.bc.ca/en/news/you-asked-why-does-road-maintenance-cost-so-much.aspx (I can't find a number yet for how much BC spends on this.)
+[^4]: https://www.lakecountry.bc.ca/en/news/you-asked-why-does-road-maintenance-cost-so-much.aspx (I can't find a number yet for how much BC spends on this.)
