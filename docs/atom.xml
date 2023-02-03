@@ -3,12 +3,66 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-01-31T16:31:39+00:00</updated>
+<updated>2023-02-03T20:40:41+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>What's next</title>
+<link href="https://mckay.pub/2023-02-03-whats-next/"/>
+<updated>2023-02-03T00:00:00+00:00</updated>
+<id>https://mckay.pub/whats-next</id>
+<content type="html">&lt;p&gt;As some of you may know, for the last few years I worked at GitHub as part of an amazing team building &lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;GitHub Actions&lt;/a&gt;. I got to work on stuff that really did change how people build software. I was there from the re-invention after it’s announcement (there were earlier days) until early 2022. I was immensely proud of Actions. When people ask what I’ve done in my career, the two biggest product achievements remain: moving Firefox over to WebExtensions and building GitHub Actions.&lt;/p&gt;
+
+&lt;p&gt;But last year it was time for a change. GitHub were kind enough to give me a extended holiday to think about things, hence all the &lt;a href=&quot;https://mckay.pub/tags/trips/&quot;&gt;2022 trips&lt;/a&gt;. I came back and worked with the wonderful Dependabot team for a while, but alas it wasn’t to be and I voluntarily moved on to the next thing.&lt;/p&gt;
+
+&lt;h3 id=&quot;vercel&quot;&gt;Vercel&lt;/h3&gt;
+
+&lt;p&gt;That next thing was &lt;a href=&quot;https://vercel.com/&quot;&gt;Vercel&lt;/a&gt; which I was excited about, moving to a smaller company focused on some things that I thought were interesting. However a few months later, it turns out that wasn’t the place for me and I chose to leave.&lt;/p&gt;
+
+&lt;p&gt;I’m not going to get into the details of why Vercel didn’t work out for me, but suffice to say that the cultural fit was missing, along with a few other things. There’s some really good people at Vercel building some very good stuff and I wish them only the best.&lt;/p&gt;
+
+&lt;h3 id=&quot;timing&quot;&gt;Timing&lt;/h3&gt;
+
+&lt;p&gt;Could timing be any worse? At the same time as I decide to leave Vercel so many other people around the technology world are also being laid off. It’s tough for so many people right now, but finding a full time job (that doesn’t suck) right now is hard.&lt;/p&gt;
+
+&lt;p&gt;Good luck to everyone having to do that 💚 and if I can help at all, please drop me a line.&lt;/p&gt;
+
+&lt;p&gt;At times like this its important to remember that organisations and the jobs are temporary. The people, the relationships and the connections are what last.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, I’m not looking for another full time job at this time.&lt;/p&gt;
+
+&lt;h3 id=&quot;back-to-my-roots&quot;&gt;Back to my roots&lt;/h3&gt;
+
+&lt;p&gt;Before GitHub, there was Mozilla and before Mozilla there was open source work at a few different places. There was Plone (which is still going) and Django (still awesome) and Python (still my favourite language).&lt;/p&gt;
+
+&lt;p&gt;In those days had young daughters, was just starting my career and learning so much that it was tough. I quickly had to take jobs to pay the bills, do consulting and the thought of going a month without income was really hard and stressful. I’m sure many of you can relate to this 😢&lt;/p&gt;
+
+&lt;p&gt;But these days thanks to places like Mozilla and GitHub (and Microsoft for buying GitHub) the situation is different. I’m more secure financially and that gives me the freedom to do what I want in a work situation.&lt;/p&gt;
+
+&lt;h3 id=&quot;so&quot;&gt;So…&lt;/h3&gt;
+
+&lt;p&gt;I see this as an amazing opportunity in life that I haven’t had before. So over the next while:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Primarily: &lt;strong&gt;I’ll be focusing on missions I care about, the environment, cycling etc.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;I’ll be aiming to build some projects and products.&lt;/li&gt;
+  &lt;li&gt;Consulting, advising and supporting where I can.&lt;/li&gt;
+  &lt;li&gt;Avoiding on-call rotations, because they are the worst.&lt;/li&gt;
+  &lt;li&gt;Spending a lot of time working on my running, cycling and hiking.&lt;/li&gt;
+  &lt;li&gt;Blogging a lot more.&lt;/li&gt;
+  &lt;li&gt;Connecting more with people.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s it, it’s all about the mission and lifestyle.&lt;/p&gt;
+
+&lt;p&gt;That’s why I’m not looking for work right now, unless it’s something super awesome or special or I get to work closely with someone amazing from my past 👋 If so, drop me a line.&lt;/p&gt;
+
+</content>
+</entry>
 
 <entry>
 <title>No we don't need a third bridge</title>
@@ -859,33 +913,6 @@
 
 &lt;p&gt;Generally the Kihei and Lahaina areas are for tourists. Sandy beaches, no rain, no wind. That’s not the part of Maui that I love. The north shore of west Maui and the east side of Maui are beautiful, wild, remote and just perfect.&lt;/p&gt;
 
-</content>
-</entry>
-
-<entry>
-<title>Panniers</title>
-<link href="https://mckay.pub/2022-05-17-panniers/"/>
-<updated>2022-05-17T00:00:00+00:00</updated>
-<id>https://mckay.pub/panniers</id>
-<content type="html">&lt;p&gt;For my &lt;a href=&quot;https://mckay.pub/2022-04-24-first-trip/&quot;&gt;first trip&lt;/a&gt; I used &lt;a href=&quot;https://www.mec.ca/en/product/5047-621/Division-Double-Pannier&quot;&gt;these panniers&lt;/a&gt; from MEC that were on my wife’s bike already. There was a few downsides I discovered with these panniers:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;They aren’t that big.&lt;/li&gt;
-  &lt;li&gt;They aren’t waterproof.&lt;/li&gt;
-  &lt;li&gt;The velcro to hold it down doesn’t always stick.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;They are fine for the trips my wife does, to and from school which takes 10 minutes. They hold up to the worst Vancouver rain for 10 minutes. However 8 hours of rain is another story, they got wet inside. Plus the velcro didn’t stay shut and then I worried about things falling out.&lt;/p&gt;
-
-&lt;p&gt;So I ended up with &lt;a href=&quot;https://waterflyshop.com/products/waterfly-bike-pannier-bag&quot;&gt;these panniers&lt;/a&gt;. They are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bigger, holding 25L according to the spec.&lt;/li&gt;
-  &lt;li&gt;Waterproof, although I haven’t had them in 8 hours of rain yet.&lt;/li&gt;
-  &lt;li&gt;Will stay closed thanks to lots of clips.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The downside is that they are not light.&lt;/p&gt;
-
-&lt;p&gt;On my first trip I was able to get all my usual gear in and have space for more. The sidepockets were really helpful for storing phones and tools in. So far, quite happy.&lt;/p&gt;
 </content>
 </entry>
 
