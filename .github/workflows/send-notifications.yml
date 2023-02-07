@@ -1,0 +1,18 @@
+name: Trigger notifications
+
+on:
+  schedule:
+  - cron: '25 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  notification:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send Notifications
+      env:
+        KEY: ${{ secrets.KEY }} 
+      run: |
+        curl -X POST "https://notifications.clearwind.ca/rss/parse/b9d57930-e2e9-4095-b33c-e21e83af9957" -F "key=$KEY" > out.txt
+        cat out.txt
