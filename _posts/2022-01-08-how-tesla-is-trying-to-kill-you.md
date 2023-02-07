@@ -5,6 +5,10 @@ categories: General
 blog: andy-mckay
 ---
 
+**Update:** a couple of months after this post, Tesla released an update. You can now pin 4 key functions to the bottom bar of the screen. We've got windscreen wipers and defrost down there.
+
+**Update:** recently Tesla updated it again and now sometimes music options will appear to the left of the pinned functions, meaning sometimes the windscreen wiper is right where you want it. Sometimes it isn't.
+
 There is one fundamental thing about driving a car: don't hurt or kill anyone. There's a bunch of other things, but that one is key.
 
 A recent update from Tesla has broken a bunch of things that means driving my Tesla is way my dangerous and I'm more likely to get into accident. That's bad for me and you.
