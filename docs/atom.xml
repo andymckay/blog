@@ -3,12 +3,34 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-02-08T18:43:52+00:00</updated>
+<updated>2023-02-08T19:26:26+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Actions, IPv6 and Fly.io</title>
+<link href="https://mckay.pub/2023-02-08-actions-ipv6/"/>
+<updated>2023-02-08T00:00:00+00:00</updated>
+<id>https://mckay.pub/actions-ipv6</id>
+<content type="html">I stood up a service on fly.io as a subdomain of an existing site. You can do this by adding a CNAME record to your DNS pointing to the fly.io instance. In this case [clearwind.ca](https://clearwind.ca) is managed on Google Domains and currently points to GitHub pages site. Then [notifications.clearwind.ca](https://notifications.clearwind.ca) is a fly.io instance. 
+
+When you do this on the dashboard, you&apos;ll get a page that looks like this:
+
+&lt;img src=&quot;/files/2flyio-ipv6.png&quot;&gt;
+
+Added it all in, waited for DNS to update and it all worked. However, when I tried to hit using `wget` or `curl` in GitHub Action, I kept hitting: 
+
+```
+Connecting to notifications.clearwind.ca (notifications.clearwind.ca)|2a09:8280:1::db06|:443... failed: Network is unreachable.
+```
+
+It&apos;s correctly resolved the IPv6 domain, so I wasn&apos;t quite sure what the problem was. I couldn&apos;t spot anything in the Actions documentation. In the end it was simple as adding in the IPv4 address for the domain. That isn&apos;t shown on the fly.io dashboard, but you can find it in the `Dashboard` &gt; `Overview` &gt; `Application` &gt; `IP addresses` section.
+
+In my case adding in an A name to that IP address fixed the issue and `curl` and `wget` worked as expected. Why fly.io is doing this is [covered here](https://community.fly.io/t/announcement-shared-anycast-ipv4/9384).</content>
+</entry>
 
 <entry>
 <title>New blog - Beyond cars</title>
@@ -710,96 +732,6 @@
 
 &lt;p&gt;Even though it did end up being pretty crap, I will miss the Raven and I think Deep Cove will be worse because of it’s loss.&lt;/p&gt;
 
-</content>
-</entry>
-
-<entry>
-<title>Third Trip - South Vancouver Island</title>
-<link href="https://mckay.pub/2022-06-07-south-vancouver-island/"/>
-<updated>2022-06-07T00:00:00+00:00</updated>
-<id>https://mckay.pub/south-vancouver-island</id>
-<content type="html">&lt;p&gt;A couple of weeks after my &lt;a href=&quot;https://mckay.pub/2022-05-17-second-trip/&quot;&gt;second trip&lt;/a&gt;, it was time to head out on my second trip. I’ve been finding long trips to other countries expensive and hard to organize and I absolutely love British Columbia, so I decided just to spend more time here.&lt;/p&gt;
-
-&lt;p&gt;My friend mentioned the &lt;a href=&quot;https://www.cowichancrusher.com/&quot;&gt;Cowichan Crusher&lt;/a&gt; fondo and my course was set. I had a few days spare before the &lt;a href=&quot;https://www.valleygranfondo.com/&quot;&gt;Valley Fondo&lt;/a&gt;, so didn’t want to go too crazy so instead went to southern Vancouver Island.&lt;/p&gt;
-
-&lt;p&gt;For this trip I planned on camping, so went with full gear.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-1-deep-cover-to-lake-cowichan&quot;&gt;Day 1: Deep Cover to Lake Cowichan&lt;/h3&gt;
-
-&lt;p&gt;Let’s warm up for the Fondo by doing a 120km ride.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7218875101&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;It turns out this route is pretty straightforward, avoiding the highway is still a struggle and there’s still choke points where you have to go on the highway north of Cedar, around Ladysmith and near the turn off to Lake Cowichan. At this point I did not know about the &lt;a href=&quot;https://www.cvrd.ca/121/Cowichan-Valley-Trail&quot;&gt;Cowichan Valley Trail&lt;/a&gt; which goes from Duncan to Lake Cowichan (and more), if you go this way look it up to avoid roads.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-2-cowichan-crusher&quot;&gt;Day 2: Cowichan Crusher&lt;/h3&gt;
-
-&lt;p&gt;Turns out it’s not 100+km, but actually 91km. The route was published on the Friday night and listed over 1760m of elevation, but it was only 1084m.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7224179380&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;It was an out and back along the south side of Lake Cowichan. Started off with a bit of road, then wide logging roads and undulating hills. At 40km there was a loop and an insane hill that was really steep. I now have 38-42 gearing and was struggling up it. When I saw people walking at the same speed I was grinding, I eventually swallowed my pride and walked up the last bit. The slope down was even steeper.&lt;/p&gt;
-
-&lt;p&gt;It’s a small event that was fun. I didn’t focus on trying to do amazing, just have some fun and get some gravel in. Of course, it was a race and there were other people so soon my racing instinct took over.&lt;/p&gt;
-
-&lt;p&gt;I was able to ditch all my gear at the start so didn’t have to lug it around. After a pub lunch with a friend, I went to my campsite and promptly got lost on the way there. So ended up over 118km.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7229659808&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Once I got to the campsite, it was lovely.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3243.JPG&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At this point I had a bit of a problem. My original plan was to head to Port Renfrew, then Sooke, then back to Lake Cowichan and home by Wednesday with two rest days before the Valley Fondo. There were two problems: the forecast was a lot of rain and I had many sores from two long days (not going to go into details there, suffice to say I was in pain).&lt;/p&gt;
-
-&lt;h3 id=&quot;day-3-lets-try-going-to-nanaimo&quot;&gt;Day 3: Let’s try going to Nanaimo&lt;/h3&gt;
-
-&lt;p&gt;Based on how I felt I reluctantly decided to head home. I felt this was the second time I’d failed at a full Vancouver Island trip, but I wanted my body to recover before the Fondo. But I thought I’d add a twist. Instead of repeating day 1 and doing the highway, I’d try a new route - this one.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/lake-cowichan-to-nanaimo.png&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This route was spectacular. Soaring mountains, rivers, a road that turned into a logging road and got narrowers. Waterfalls, bear poop, deer and no people. And it went up and up and got smaller and narrower. And steeper. Then it became unrideable. For a long time. Then I was fording streams, then trees were across the road. Then snow, deep snow.&lt;/p&gt;
-
-&lt;p&gt;This was before it went really wrong:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3270.JPG&quot; height=&quot;400&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I hadn’t ridden my bike for about an hour when I had to make a decision. I was aiming for Nanaimo but had 62km to go and was in snow and getting pretty lost. I had all the gear to camp out, but realised I was unprepared and lacking information on where I was going. It’s well and good camping, but if you are going the wrong way, it could go very wrong.&lt;/p&gt;
-
-&lt;p&gt;I decided to turn back to Lake Cowichan. Oh but on the way, my tubeless tyre sprung a leak. It was right on the rim, so I think the rim seal (if that’s a thing failed). My repair kit didn’t work so I pulled the tyre off and stuffed in a tube. I only had one spare tube, so was in for a long walk if anything else failed.&lt;/p&gt;
-
-&lt;p&gt;After and 7 hours and 102km 1,259m elevation I got back to a cheap hotel - I needed a hot shower and couldn’t face another 20km+ to the campsite.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7229660119&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Sitting in the warm pub, absolutely wiped and very, very sore I realised I’d missed a turning. That turning would have lead me along a contour line, to the top of a valley and down most of the rest of the way. If I’d carried on going I would have just ended up at top of a mountain.&lt;/p&gt;
-
-&lt;p&gt;Lesson learned, research and get good maps for when you go off on logging roads.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-4-lake-cowichan-to-deep-cove-the-boring-way&quot;&gt;Day 4: Lake Cowichan to Deep Cove, the boring way&lt;/h3&gt;
-
-&lt;p&gt;Y’know, following roads and trails that are well established. I did give up at Park Royal and my wife met me, I was wiped. It was still a 115km day so I averaged 100km+ each day and some decent elevation. This is a higher average distance each day than my previous 2 trips and I felt it in many ways.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7235049728&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Highlight was that I found the &lt;a href=&quot;https://www.cvrd.ca/121/Cowichan-Valley-Trail&quot;&gt;Cowichan Valley Trail&lt;/a&gt; which goes from Lake Cowichan straight into Duncan on a old train line. It’s fast easy and delightful 25km+ of trail that I’d recommend to anyone going that way. I was able to stop in Duncan and pick up some tubes from a local bike shop and then work my way up the coast.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I should carry more than one spare tube.&lt;/li&gt;
-  &lt;li&gt;Definitely research logging roads more and have a better map than just Google maps.&lt;/li&gt;
-  &lt;li&gt;I enjoyed camping so much the second night, I wish I’d camped the third night too. I’m bored of hotels and the camping was delightful - at the time my brain was just focused on the first place to crash.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My five day trip got shortened by a single day by adding an absolutely epic exploration day by accident, so the trip was pretty good. I don’t feel bad I didn’t get to Nanaimo that way, it was a super exciting and interesting ride. I probably wouldnt do it again that way though.&lt;/p&gt;
-
-&lt;p&gt;Just to note that after day 2 I did adjust my seat slightly and that seemed to help, but it did take a couple of days of not riding for things to heal.&lt;/p&gt;
 </content>
 </entry>
 
