@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-02-08T23:44:15+00:00</updated>
+<updated>2023-02-08T23:53:55+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;When you do this on the dashboard, you’ll get a page that looks like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/files/2flyio-ipv6.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/files/flyio-ipv6.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Added it all in, waited for DNS to update and it all worked. However, when I tried to hit using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt; in GitHub Action, I kept hitting:&lt;/p&gt;
 
