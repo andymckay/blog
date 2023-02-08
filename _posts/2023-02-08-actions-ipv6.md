@@ -9,7 +9,7 @@ I stood up a service on fly.io as a subdomain of an existing site. You can do th
 
 When you do this on the dashboard, you'll get a page that looks like this:
 
-<img src="/files/2flyio-ipv6.png">
+<img src="/files/flyio-ipv6.png">
 
 Added it all in, waited for DNS to update and it all worked. However, when I tried to hit using `wget` or `curl` in GitHub Action, I kept hitting: 
 
