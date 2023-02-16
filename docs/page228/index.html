@@ -20,23 +20,18 @@
 <section>
 <article>
 
-<div class="meta">Feb 08, 2023</div>
-<h2><a href="/2023-02-08-actions-ipv6/" class="posturl">Actions, IPv6 and Fly.io</a></h2>
+<div class="meta">Feb 09, 2023</div>
+<h2><a href="/2023-02-09-django-still-awesome/" class="posturl">Django - still awesome</a></h2>
 <hr class="florished">
-<p>I stood up a service on fly.io as a subdomain of an existing site. You can do this by adding a CNAME record to your DNS pointing to the fly.io instance. In this case <a href="https://clearwind.ca">clearwind.ca</a> is managed on Google Domains and currently points to GitHub pages site. Then <a href="https://notifications.clearwind.ca">notifications.clearwind.ca</a> is a fly.io instance.</p>
+<p>I first started using Django in 2008. That’s forever ago in internet terms, as a I left Zope and Plone for something better. Later on I got a job at Mozilla doing Django full time, but then became a Manager and then moved on. I haven’t written Django for anything more than quick side projects for a very long time.</p>
 
-<p>When you do this on the dashboard, you’ll get a page that looks like this:</p>
+<p>But in the last couple of weeks I’ve stood up a couple of projects on Django. Honestly its been an experience in learning and remembering how this stuff works. It’s been a lot of fun. I’ve stood up two Django sites since then and it’s as I remember, just better.</p>
 
-<p><img src="/files/flyio-ipv6.png" /></p>
+<p>I’m a big fan of making exciting things with boring technology and after all this time Django is one of those “boring” technologies that just works really well.</p>
 
-<p>Added it all in, waited for DNS to update and it all worked. However, when I tried to hit using <code class="language-plaintext highlighter-rouge">wget</code> or <code class="language-plaintext highlighter-rouge">curl</code> in GitHub Action, I kept hitting:</p>
+<p>Still a fan and that’s a credit to the people and the community that have kept Django going. Well done to all of you.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Connecting to notifications.clearwind.ca (notifications.clearwind.ca)|2a09:8280:1::db06|:443... failed: Network is unreachable.
-</code></pre></div></div>
-
-<p>It’s correctly resolved the IPv6 domain, so I wasn’t quite sure what the problem was. I couldn’t spot anything in the Actions documentation. In the end it was simple as adding in the IPv4 address for the domain. That isn’t shown on the fly.io dashboard, but you can find it in the <code class="language-plaintext highlighter-rouge">Dashboard</code> &gt; <code class="language-plaintext highlighter-rouge">Overview</code> &gt; <code class="language-plaintext highlighter-rouge">Application</code> &gt; <code class="language-plaintext highlighter-rouge">IP addresses</code> section.</p>
-
-<p>In my case adding in an A name to that IP address fixed the issue and <code class="language-plaintext highlighter-rouge">curl</code> and <code class="language-plaintext highlighter-rouge">wget</code> worked as expected. Why fly.io is doing this is <a href="https://community.fly.io/t/announcement-shared-anycast-ipv4/9384">covered here</a>.</p>
+<p>Still prefer to Rails 😀</p>
 
 
 </article>
