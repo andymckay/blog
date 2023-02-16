@@ -26,7 +26,7 @@ I peak at the marathon, it ruins my legs and I stop running. The running bites i
 
 You can see my fitness change here 👇
 
-<img src="/files/fitness-2023.png">
+<img src="/files/fitness-2023.png" width="400px">
 
 Those circles are the BMO Marathon and the Whistler Fondo respectively. You can see the build up before hand, the inconsistency inbetween and then the drop at the end.
 
