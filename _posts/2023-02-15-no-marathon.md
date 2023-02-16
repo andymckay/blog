@@ -16,7 +16,7 @@ The last 3 years my goal has to be do marathons and also long 160km+ bike races.
 * July: **I hate running, I'm never running again.** I can't catch up with the cyclists. I'm off my diet and gaining weight.
 * August: Wow the mountains are amazing I'm going hiking. Forget running and cycling.
 * September: Big bike races. I hate cycling.
-* October, November, December: I've failed at cyling and running and I'm in a funk. Only 3 months till starts again.
+* October, November, December: I've failed at cyling and running and I'm in a funk. Only 3 months till the cycle starts again.
 
 I peak at the marathon, it ruins my legs and I stop running. The running bites into my cycling and I fail at that. The thing is:
 * I've not gotten to the point where marathons aren't destroying me.
