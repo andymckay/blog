@@ -3,12 +3,57 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-02-09T21:24:34+00:00</updated>
+<updated>2023-02-16T04:38:42+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>No marathons this year</title>
+<link href="https://mckay.pub/2023-02-15-no-marathon/"/>
+<updated>2023-02-15T00:00:00+00:00</updated>
+<id>https://mckay.pub/no-marathon</id>
+<content type="html">&lt;p&gt;The last 3 years my goal has to be do marathons and also long 160km+ bike races. But I’ve noticed this has produced a pattern in my behaviour that I’d like to break. The goal marathon for me has been the Vancouver BMO Marathon in May and we start training in January. So my years goes like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January: I’m unfit and I’ve eaten too much, time to get into shape and train.&lt;/li&gt;
+  &lt;li&gt;February: Ugh, the worst time.&lt;/li&gt;
+  &lt;li&gt;March: I’m doing 20km training runs and feeling good.&lt;/li&gt;
+  &lt;li&gt;April: I’m doing 30km training runs and feeling great. I’m not cycling enough and the cycling clubs have started.&lt;/li&gt;
+  &lt;li&gt;May: Marathon. Marathons hurt, why am I doing this? I hate it. I’m falling behind on cycling. My legs hurt.&lt;/li&gt;
+  &lt;li&gt;June: &lt;strong&gt;I hate running, I’m never running again.&lt;/strong&gt; I’m behind on cycling.&lt;/li&gt;
+  &lt;li&gt;July: &lt;strong&gt;I hate running, I’m never running again.&lt;/strong&gt; I can’t catch up with the cyclists. I’m off my diet and gaining weight.&lt;/li&gt;
+  &lt;li&gt;August: Wow the mountains are amazing I’m going hiking. Forget running and cycling.&lt;/li&gt;
+  &lt;li&gt;September: Big bike races. I hate cycling.&lt;/li&gt;
+  &lt;li&gt;October, November, December: I’ve failed at cyling and running and I’m in a funk. Only 3 months till starts again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I peak at the marathon, it ruins my legs and I stop running. The running bites into my cycling and I fail at that. The thing is:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’ve not gotten to the point where marathons aren’t destroying me.&lt;/li&gt;
+  &lt;li&gt;Running and cycling both take up lots of time to train a lot.&lt;/li&gt;
+  &lt;li&gt;My motivation drops off a cliff after the marathon.&lt;/li&gt;
+  &lt;li&gt;I actually enjoy the marathon training, 20-30km distances feel good and I can feel the improvement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can see my fitness change here 👇&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/fitness-2023.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Those circles are the BMO Marathon and the Whistler Fondo respectively. You can see the build up before hand, the inconsistency inbetween and then the drop at the end.&lt;/p&gt;
+
+&lt;p&gt;This year I’m going to try to be more balanced and see if I can:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Just do half marathons, but increase my time regularly instead of aiming for longer distances.&lt;/li&gt;
+  &lt;li&gt;Be more balanced, with cycling, running, weights and hiking.&lt;/li&gt;
+  &lt;li&gt;Improve and maintain a base level of fitness instead of feeling like I have to climb out of a hole every winter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And maybe a triathlon.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Django - still awesome</title>
@@ -696,31 +741,6 @@
 &lt;p&gt;Just for the fuel alone, using the Jetboil meant I could carry one 200g tank of fuel for 5 days of hiking. I would normally carry one &lt;strong&gt;large&lt;/strong&gt; fuel tank, at least 500g+ (haven’t got a full one to weigh). Because the old stove is that inefficient.&lt;/p&gt;
 
 &lt;p&gt;I was able to carry less and lighter, saving myself carrying multiple items and at least 500g. Over half the people on the trail, if not more, had a Jetboil or similar system.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>A Watch</title>
-<link href="https://mckay.pub/2022-06-08-a-watch/"/>
-<updated>2022-06-08T00:00:00+00:00</updated>
-<id>https://mckay.pub/a-watch</id>
-<content type="html">&lt;p&gt;On my racing bike I have a Wahoo Element Bolt and sensors for speed, cadence and power. On my gravel bike I have none of that.&lt;/p&gt;
-
-&lt;p&gt;As I started doing longer bike trips I realised I didn’t really want all that information. I don’t care about speed, just the time and how long it is to my destination. I want to enjoy the ride. I don’t want to maintain an average speed, or care about my power.&lt;/p&gt;
-
-&lt;p&gt;These trips are for enjoying the ride. So I started using my watch that I use for running and hiking instead to record the trips. The advantages:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The battery lasts for ever&lt;/li&gt;
-  &lt;li&gt;I have to manually look at my wrist to see information&lt;/li&gt;
-  &lt;li&gt;I have only the information I care about and nothing else&lt;/li&gt;
-  &lt;li&gt;A few less gadgets to worry about&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’ve been using the &lt;a href=&quot;https://coros.com/pace2&quot;&gt;Coros Pace 2&lt;/a&gt; for a while now and love it. It offers “20 Days For Regular Use/30 Hours In Full GPS Mode”. I’m not sure about that, but I haven’t had to charge it on any trip so far.&lt;/p&gt;
-
-&lt;p&gt;Controls are two buttons which are easy to operate in the cold, rain or when you are tired. It does what I want, records activity and tells me the information I need. Would highly recommend if you want something simple.&lt;/p&gt;
-
-&lt;p&gt;In comparison my Apple Watch died before I completed a marathon (admittedly a long one up a mountain). The Apple Watch was so complicated it did random stuff and was hard to read and operate. In the cold, rain or when sweaty it would be so hard to use.&lt;/p&gt;
 </content>
 </entry>
 
