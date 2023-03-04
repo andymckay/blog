@@ -12,17 +12,17 @@ Since curlers were kicked out of the North Shore Winter Club, there are no curli
 |-|-|-|
 | Vancouver | 662,248 | 3 |
 | Surrey | 568,322 | 2 |
-| Burnaby | 249,125 | 0 |
+| **Burnaby** | **249,125** | **0** |
 | Richmond | 209,937 | 1 |
 | Coquitlam | 148,625 | 1  |
 | Township of Langley | 132,603 | 0 |
 | Delta | 108,455 | 1 | 
 | Maple Ridge | 90,990 | 1 | 
-| District of North Vancouver | 88,168 | 0 |
+| **District of North Vancouver** | **88,168** | **0** |
 | New Westminster | 78,916 | 1 |
 | Port Coquitlam | 61,498 | 0 |
-| City of North Vancouver | 58,120 | 0 | 
-| West Vancouver | 44,122 | 0 |
+| **City of North Vancouver** | **58,120** | **0** | 
+| **West Vancouver** | **44,122** | **0** |
 | Port Moody | 33,535 | 1 |
 | City of Langley | 28,963 | 1 |
 | White Rock | 21,939 | 1 |
