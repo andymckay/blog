@@ -40,11 +40,9 @@ With zero curling rinks, Burnaby is a standout, however with curling rinks in Va
 
 With a combined population of 190,410 for West Vancouver, District of North Vancouver and the City of North Vancouver, there are 0 curling rinks.
 
-Most of this data is from [Curling Canada website](https://www.curling.ca/about-curling/getting-started-in-curling/find-a-curling-centre/) which has several inaccuracies, unfortunately.
+Most of this data is from [Curling Canada website](https://www.curling.ca/about-curling/getting-started-in-curling/find-a-curling-centre/) which has several inaccuracies, unfortunately 👇
 
-Notes.
-
-* The [Glanford Curling Club](http://www.glanfordcurling.com/) is in Ontario, not Coquitlam sorry Curling Canada, got that one wrong.
+* The [Glanford Curling Club](http://www.glanfordcurling.com/) is in Ontario, not Coquitlam. Sorry Curling Canada, you got that one wrong.
 * The [Delta Thistle Curling Club](https://deltathistle.ca/) is not listed on the Curling Canada site.
 * The [North Shore Winter Club](http://www.nswc.ca/curling.html) does not have curling.
 * The [Hollyburn Country Club](https://www.hollyburn.org/nor) does not have curling. 
