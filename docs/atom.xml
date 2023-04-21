@@ -3,12 +3,57 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-03-04T00:41:15+00:00</updated>
+<updated>2023-04-17T17:22:42+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>What I'm up to</title>
+<link href="https://mckay.pub/2023-04-17-what-im-up-to/"/>
+<updated>2023-04-17T00:00:00+00:00</updated>
+<id>https://mckay.pub/what-im-up-to</id>
+<content type="html">&lt;p&gt;Following up on my &lt;a href=&quot;https://mckay.pub/2023-02-03-whats-next/&quot;&gt;what’s next&lt;/a&gt; I wanted to post a little about what I have been doing.&lt;/p&gt;
+
+&lt;h2 id=&quot;actions-analyser&quot;&gt;Actions Analyser&lt;/h2&gt;
+
+&lt;p&gt;This is a &lt;a href=&quot;https://analyser.clearwind.ca/&quot;&gt;hosted way to dive into your Actions billing reports&lt;/a&gt; and find out some important infomation like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;which repository in my organisation is consuming the most minutes&lt;/li&gt;
+  &lt;li&gt;which workflow within a repository is consuming the most minutes&lt;/li&gt;
+  &lt;li&gt;whats the change month over month&lt;/li&gt;
+  &lt;li&gt;variability in billings of workflows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s completely free, you should check it out if you get an Actions bill and aren’t sure where the money is going.&lt;/p&gt;
+
+&lt;h2 id=&quot;service-catalog&quot;&gt;Service Catalog&lt;/h2&gt;
+
+&lt;p&gt;This is an &lt;a href=&quot;https://github.com/clearwind-ca/service-catalog&quot;&gt;open source project&lt;/a&gt; to provide a way to track teams, applications and tools across an organisation. A similar tool was used a lot at GitHub and was being built at Vercel when I was there.&lt;/p&gt;
+
+&lt;p&gt;Combined with things like &lt;a href=&quot;https://github.com/andymckay/service-status-cli&quot;&gt;service status cli&lt;/a&gt;, my goal is to provide tooling to make services more robust and transparent when they go wrong.&lt;/p&gt;
+
+&lt;p&gt;Lots to do here before we can hit anything like an initial release, but it’s a fun project so far.&lt;/p&gt;
+
+&lt;h2 id=&quot;contracting&quot;&gt;Contracting&lt;/h2&gt;
+
+&lt;p&gt;I’ve gotten back into &lt;a href=&quot;https://clearwind.ca&quot;&gt;contracting&lt;/a&gt; with my first project for an awesome local client in a very long time. It’s converting Excel spreadsheets for some business needs and doing it all in the browser. I’ll write up a blog post on that soon, but doing it client side in the browser has been such a win for this project.&lt;/p&gt;
+
+&lt;p&gt;I’m open to more contracting or consulting opportunities, so if you know of any, please &lt;a href=&quot;mailto:andy@mckay.pub&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;beyond-cars&quot;&gt;Beyond cars&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://beyondcars.ca/&quot;&gt;Beyond cars is a blog to advocate for cycling&lt;/a&gt;, mostly focused on BC. But hopefully relevant everywhere. This has been fun, there’s so much to write on the subject and my list of things to write about is bigger than I can keep up with.&lt;/p&gt;
+
+&lt;h2 id=&quot;overall&quot;&gt;Overall&lt;/h2&gt;
+
+&lt;p&gt;A few months into this new phase of life, I’m enjoying things but realise that a lot of things have changed since I last did this. Back then I was heavily involved in Plone, Django and Python communities. The result was I received lots of contracts, opportunities and connections.&lt;/p&gt;
+
+&lt;p&gt;At the moment I feel quite disconnected from those communities and hence oppportunities. This is something I’m going to have to work on.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Number of curling clubs by Vancouver municipality</title>
@@ -759,51 +804,6 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
-</entry>
-
-<entry>
-<title>Fourth Trip - Stein Valley</title>
-<link href="https://mckay.pub/2022-06-25-stein-valley/"/>
-<updated>2022-06-25T00:00:00+00:00</updated>
-<id>https://mckay.pub/stein-valley</id>
-<content type="html">&lt;p&gt;One of my favourite places in BC is the &lt;a href=&quot;https://bcparks.ca/explore/parkpgs/stein_val/&quot;&gt;Stein Valley Nlaka’pamux Heritage Park&lt;/a&gt;, located by Lytton, BC. It’s special for a couple of reasons. It’s one of the only large unlogged watersheds &lt;a href=&quot;https://en.wikipedia.org/wiki/Stein_River&quot;&gt;left in BC&lt;/a&gt;. It’s much warmer than everywhere else, making it ideal for trips when you want to avoid rain, or weather elsewhere is crappy.&lt;/p&gt;
-
-&lt;p&gt;The park is big, with one main trail that comes in from the west side of the Fraser River and goes up to the Stein Lake, 50km+ away. This means there is really only one main trail and route in the park with not many options until you get up to the lake. Once you get up the lake passes and trails exist through over to the west to Blowdown Creek etc. This is serious alpine wilderness hiking, which unfortunately I haven’t been able to do.&lt;/p&gt;
-
-&lt;p&gt;Our plan was to head up for three days and enjoy the weather. It was also a trial for the West Coast Trail trip as I haven’t back packed in a while… instead using a bike.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-one-heading-up-the-stein&quot;&gt;Day one: heading up the Stein&lt;/h3&gt;
-
-&lt;p&gt;The entry to the Stein means going through Lytton and seeing first hand the devastation of the heat dome last year. The scarred and twisted remains of the centre of the town are just heartbreaking. It’s no exaggeration to say that the town is just gone.&lt;/p&gt;
-
-&lt;p&gt;To get to the Stein you can take the &lt;a href=&quot;https://www2.gov.bc.ca/gov/content/transportation/passenger-travel/water-travel/inland-ferries/lytton-reaction-ferry&quot;&gt;reaction ferry&lt;/a&gt; across the river. Except because of flooding and high snow melt, the ferry was closed. The ramp to get onto the ferry was flooded.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7293015309&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;There are two choices left; the rail bridge to the south of Lytton and then an 8km hike up to the park trailhead or the suspension bridge and a ~2km hike. We went for the latter. It looks like this and with a 30km+ wind howling up the Fraser it made an interesting crossing while carrying a large backpack.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3377.png&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The rest of the hike was pretty straightforward, beautiful forests by a raging river. Pictographs carved on rock and lots of camping sites in 28c sunny weather, sounds pretty good to me.&lt;/p&gt;
-
-&lt;p&gt;We camped at Devils Staircase campground, which isn’t a staircase and isn’t really hard or devilish.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-two-leaving-the-stein&quot;&gt;Day two: leaving the Stein&lt;/h3&gt;
-
-&lt;p&gt;The plan for day two was to head further into the Stein, without our backpacks. We set off heading north and hit a snag. About 1km north of the campground the trail is badly washed out with a gully of death leading right down to the river.&lt;/p&gt;
-
-&lt;p&gt;It was seriously steep, seriously sketchy and with a very large penalty if you slipped. I just wasn’t comfortable crossing, I tried and nearly lost it.&lt;/p&gt;
-
-&lt;p&gt;So at that point, we headed back, packed up and reluctantly headed out of the Stein Valley and found a gin and tonic instead.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7293015342&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;As it turns out in almost 30c heat, hiking up hills with 40lb+ backpacks and crossing the suspension bridge of doom was enough to wipe us out. Getting back to the car, we definitely felt like we’d done a good hike and we enjoyed our gin and tonic.&lt;/p&gt;
-
-&lt;p&gt;I still have the ambition to get to the Stein Lake and do the Stein Valley traverse, ideally by crossing over from Blowdown Creek or Lizzie Pass. But not this weekend.&lt;/p&gt;
 </content>
 </entry>
 
