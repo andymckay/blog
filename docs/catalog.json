@@ -2,5 +2,6 @@
   "name": "Blog",
   "description": "Personal Blog.",
   "type": "Website",
-  "priority": 8
+  "priority": 8,
+  "events": ["deployments"]
 }
