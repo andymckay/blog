@@ -3,12 +3,78 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-04-28T21:54:12+00:00</updated>
+<updated>2023-05-15T22:38:38+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Service catalog</title>
+<link href="https://mckay.pub/2023-05-15-service-catalog/"/>
+<updated>2023-05-15T00:00:00+00:00</updated>
+<id>https://mckay.pub/service-catalog</id>
+<content type="html">&lt;p&gt;When I joined the on-call rotation at GitHub as we &lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;launched GitHub Actions&lt;/a&gt;, being on-call was something that was pretty new to me. I learnt a lot and had some amazing experienced colleagues who taught me a lot and there’s still so much to learn.&lt;/p&gt;
+
+&lt;p&gt;At one point we can probably estimate GitHub had about 800 developers working &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.&lt;/p&gt;
+
+&lt;p&gt;Navigating and understanding your services, teams and dashboards in an organization is hard. Repeatedly I’ve spoken to organizations building this internally.&lt;/p&gt;
+
+&lt;p&gt;Some of the problems you might have 👇&lt;/p&gt;
+
+&lt;h2 id=&quot;navigating-your-engineering-services&quot;&gt;Navigating your engineering services&lt;/h2&gt;
+
+&lt;p&gt;As the size, speed and scale of your organization grows just navigating the teams grows harder. New people who join the company can struggle to find who does what and what’s important. Veterans struggle to keep up with changes.&lt;/p&gt;
+
+&lt;p&gt;What do those teams do? Who’s on the teams? Where do they hang out and communicate? What dashboards do they have?&lt;/p&gt;
+
+&lt;p&gt;If your answer is a document somewhere, a wiki, or so-on, I bet it’s not up to date. The moment those documents land (I’ve written a few), they are out of date.&lt;/p&gt;
+
+&lt;h2 id=&quot;quality-of-your-services&quot;&gt;Quality of your services&lt;/h2&gt;
+
+&lt;p&gt;So you’ve got a series of services that make up your product. Those will be spread out across the organisation with different ideas and leaders. Spreading ideas and information out across those services and teams is hard.&lt;/p&gt;
+
+&lt;p&gt;Tools like Datadog, Splunk etc, are available to crunch all the run time information and provide you with good information about how users are using your service.&lt;/p&gt;
+
+&lt;p&gt;But there are other metrics and measurements within an organisation that you need to make sure are kept up to date. How many security issues are there on the service? Are they being dealt with quickly? Are legal requirements satisified? Has the team got on-call rotation setup? And so on.&lt;/p&gt;
+
+&lt;p&gt;In a large organization you want to ensure that teams are ready to deal with problems before its too late.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-we-fix-a-problem&quot;&gt;How do we fix a problem?&lt;/h2&gt;
+
+&lt;p&gt;Most of the time when something went wrong at GitHub we’d go through a progression that looked like this, in roughly this order:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What just got deployed?&lt;/li&gt;
+  &lt;li&gt;What got migrated or transitioned?&lt;/li&gt;
+  &lt;li&gt;What just got turned on or off?&lt;/li&gt;
+  &lt;li&gt;What external services we depend on are having problems?&lt;/li&gt;
+  &lt;li&gt;What are users doing to the site?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In an incident your time to mitigate is really important and you need concise and clear information as soon as you can. Cognitive overload, lack of clarity in an incident slows everything down and causes stress and anxiety.&lt;/p&gt;
+
+&lt;p&gt;Even just knowing the key deployments and releases over the last hour and then the right teams to contact about those changes reduces the time to mitigate incidents the majority of the time.&lt;/p&gt;
+
+&lt;h2 id=&quot;service-catalog-release&quot;&gt;Service catalog release&lt;/h2&gt;
+
+&lt;p&gt;Over the last while I’ve been building a tool to do this. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all it’s free, open source and available for anyone to us straightaway.&lt;/p&gt;
+
+&lt;p&gt;Check it out here 👉 https://github.com/clearwind-ca/service-catalog&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;files/catalog-services-may-15.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Watch this space for some more articles about it and if you are interested in using this, &lt;a href=&quot;https://clearwind.ca/&quot;&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This is an estimate, I don’t have the numbers and can’t remember the exact number 🤷‍♂ &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+</entry>
 
 <entry>
 <title>Trespassing in the US</title>
@@ -576,79 +642,6 @@
 &lt;p&gt;At this point I started realising I could land this in under 5 hours, at an average pace over 30km/h… and I did hitting PRs on most of the route.&lt;/p&gt;
 
 &lt;p&gt;This one felt good and I’d love to come back and do it again.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>Sixth Trip - Mt. Frosty</title>
-<link href="https://mckay.pub/2022-07-14-mt-frosty/"/>
-<updated>2022-07-14T00:00:00+00:00</updated>
-<id>https://mckay.pub/mt-frosty</id>
-<content type="html">&lt;p&gt;On Sunday I competed in my second Okanagan Gran Fondo. It was really good and I improved greatly on my time from last year, chopping off almost 30 minutes and completing my first Fondo at over 30km an hour. On Sunday my wife dropped me off in Manning Park on the way home so I could climb Mt. Frosty, the tallest peak in Manning Park.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-1-windy-joe&quot;&gt;Day 1: Windy Joe&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;11.92km, 685m elevation, 5hr 19min&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We hiked up to Windy Joe and then out to the Pacific Crest Trail campsite:&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7463885716&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Windy Joe is a cool old fire lookout station on top of a hill. It was a nice hike, but there are many, many logs across the paths and navigating them with a backpack is a challenge. It was also hot hitting 35c around midday according to our thermometer.&lt;/p&gt;
-
-&lt;p&gt;So normally it wouldn’t be challenging but with the heat and logs, we were happy to camp in what turned out to be a beautiful spot with a fabulous view up the valley towards Mt Frosty.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3585.JPG&quot; height=&quot;600&quot; /&gt;
-&lt;cite&gt;The hut on top of Windy Joe&lt;cite&gt;&lt;/cite&gt;&lt;/cite&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3591.JPG&quot; height=&quot;600&quot; /&gt;
-&lt;cite&gt;We are heading up that mountain tomorrow&lt;cite&gt;&lt;/cite&gt;&lt;/cite&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;day-2-mt-frosty&quot;&gt;Day 2: Mt Frosty&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;11.88km, 1,011m elevation, 8hr 7min&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This was the big one, up and over &lt;a href=&quot;https://en.wikipedia.org/wiki/Frosty_Mountain&quot;&gt;Mt Frosty&lt;/a&gt;, at 2,426m the tallest mountain in &lt;a href=&quot;https://bcparks.ca/explore/parkpgs/ecmanning/&quot;&gt;Manning Park&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7463886069&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;The trail just goes up continually without almost any breaks, up into the alpine and snow. We had stunning hot weather and amazing views every single way as plants bloomed in the alpine. Parts of the trail were obscured by snow, so we put spikes on, got the poles out and hiked up the side of the mountain as it got windier and windier.&lt;/p&gt;
-
-&lt;p&gt;The view from the top is just amazing and every time I hike mountains like this, I find no matter what pictures I take, they are completely inadequate.&lt;/p&gt;
-
-&lt;p&gt;At the top there’s a path across the ridge to the top, or down to the campsite. So we dropped bags and headed up to the top for the view.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3639.JPG&quot; width=&quot;600&quot; /&gt;
-&lt;cite&gt;Top is up there&lt;/cite&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3649.png&quot; width=&quot;600&quot; /&gt;
-&lt;cite&gt;Top of Mt. Frosty&lt;/cite&gt;&lt;/p&gt;
-
-&lt;p&gt;Coming down was a lot of snow on the other side as we made our way down the to the campsite for the night. We all got sunburnt and wowed at the views.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-3-frosty-creek-camp&quot;&gt;Day 3: Frosty Creek Camp&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;9.69km, 2hr 33min&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The camp at Frosty Creek is ok, but you can tell this side of the mountain is more popular and gets more visitors as it wasn’t in as good shape. Anyway this is a short and lovely hike down into the valley.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7463885584&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;I always ❤️ coming down into the valley after a hike up a mountain, the thick air with lush vegetation full of animals. It’s just such a contrast to being on the top of a windswept mountain.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/IMG_3664.JPG&quot; height=&quot;600&quot; /&gt;
-&lt;cite&gt;Lightening Lakes&lt;/cite&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;A fantastic hike that just caused me a bit of anxiety because I’m not great with heights and being on top of windblown ridge with deadly drops on either side isn’t my happy place. Some people do this in one day, in fact one of our party did when she ran the &lt;a href=&quot;https://raceroster.com/events/2022/57012/frosty-mountain-50k-27k-and-13k&quot;&gt;Frosty Mountain race&lt;/a&gt;. I think anyone who does that is bad ass. I was happy to do it at a leisurely pace.&lt;/p&gt;
-
-&lt;p&gt;I’ve found that now I’ve got a clearly defined set of gear it was super easy to pack, go through my checklist and get going on a hike, so that’s great.&lt;/p&gt;
-
-&lt;p&gt;A fantastic way to end my sabbatical.&lt;/p&gt;
 </content>
 </entry>
 
