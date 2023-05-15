@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-05-15T22:38:38+00:00</updated>
+<updated>2023-05-15T22:52:15+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -17,33 +17,33 @@
 <id>https://mckay.pub/service-catalog</id>
 <content type="html">&lt;p&gt;When I joined the on-call rotation at GitHub as we &lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;launched GitHub Actions&lt;/a&gt;, being on-call was something that was pretty new to me. I learnt a lot and had some amazing experienced colleagues who taught me a lot and there’s still so much to learn.&lt;/p&gt;
 
-&lt;p&gt;At one point we can probably estimate GitHub had about 800 developers working &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.&lt;/p&gt;
+&lt;p&gt;At one point GitHub had over 500 developers working &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.&lt;/p&gt;
 
-&lt;p&gt;Navigating and understanding your services, teams and dashboards in an organization is hard. Repeatedly I’ve spoken to organizations building this internally.&lt;/p&gt;
+&lt;p&gt;Navigating and understanding your services, teams and dashboards in an organization is hard, it was at GitHub. Repeatedly I’ve spoken to organizations building tooling to solve this internally.&lt;/p&gt;
 
-&lt;p&gt;Some of the problems you might have 👇&lt;/p&gt;
+&lt;p&gt;Some of the problems you might have in your engineering organization 👇&lt;/p&gt;
 
-&lt;h2 id=&quot;navigating-your-engineering-services&quot;&gt;Navigating your engineering services&lt;/h2&gt;
+&lt;h3 id=&quot;navigating-your-engineering-services&quot;&gt;Navigating your engineering services&lt;/h3&gt;
 
 &lt;p&gt;As the size, speed and scale of your organization grows just navigating the teams grows harder. New people who join the company can struggle to find who does what and what’s important. Veterans struggle to keep up with changes.&lt;/p&gt;
 
 &lt;p&gt;What do those teams do? Who’s on the teams? Where do they hang out and communicate? What dashboards do they have?&lt;/p&gt;
 
-&lt;p&gt;If your answer is a document somewhere, a wiki, or so-on, I bet it’s not up to date. The moment those documents land (I’ve written a few), they are out of date.&lt;/p&gt;
+&lt;p&gt;If your answer is a document somewhere, a wiki, or so-on. The moment those documents are finished they are out of date.&lt;/p&gt;
 
-&lt;h2 id=&quot;quality-of-your-services&quot;&gt;Quality of your services&lt;/h2&gt;
+&lt;h3 id=&quot;quality-of-your-services&quot;&gt;Quality of your services&lt;/h3&gt;
 
 &lt;p&gt;So you’ve got a series of services that make up your product. Those will be spread out across the organisation with different ideas and leaders. Spreading ideas and information out across those services and teams is hard.&lt;/p&gt;
 
 &lt;p&gt;Tools like Datadog, Splunk etc, are available to crunch all the run time information and provide you with good information about how users are using your service.&lt;/p&gt;
 
-&lt;p&gt;But there are other metrics and measurements within an organisation that you need to make sure are kept up to date. How many security issues are there on the service? Are they being dealt with quickly? Are legal requirements satisified? Has the team got on-call rotation setup? And so on.&lt;/p&gt;
+&lt;p&gt;But there are other metrics and measurements within an organisation that you need to make sure are kept up to date. How many security issues are there on the service? Are they being dealt with quickly? Are legal requirements satisified? Is the team within compliance? Has the team got on-call rotation setup?&lt;/p&gt;
 
-&lt;p&gt;In a large organization you want to ensure that teams are ready to deal with problems before its too late.&lt;/p&gt;
+&lt;p&gt;In a large organization you want to ensure that teams are meeting their goals before incidents happen.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-do-we-fix-a-problem&quot;&gt;How do we fix a problem?&lt;/h2&gt;
+&lt;h3 id=&quot;how-do-we-fix-a-problem&quot;&gt;How do we fix a problem?&lt;/h3&gt;
 
-&lt;p&gt;Most of the time when something went wrong at GitHub we’d go through a progression that looked like this, in roughly this order:&lt;/p&gt;
+&lt;p&gt;Most of the time when an incident happened at GitHub we’d go through a progression that looked like this, in roughly this order:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;What just got deployed?&lt;/li&gt;
   &lt;li&gt;What got migrated or transitioned?&lt;/li&gt;
@@ -52,19 +52,21 @@
   &lt;li&gt;What are users doing to the site?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In an incident your time to mitigate is really important and you need concise and clear information as soon as you can. Cognitive overload, lack of clarity in an incident slows everything down and causes stress and anxiety.&lt;/p&gt;
+&lt;p&gt;In an incident you need concise and clear information as soon as you can to reduce your time to mitigation. Cognitive overload and lack of clarity in an incident slows everything down.&lt;/p&gt;
 
-&lt;p&gt;Even just knowing the key deployments and releases over the last hour and then the right teams to contact about those changes reduces the time to mitigate incidents the majority of the time.&lt;/p&gt;
+&lt;p&gt;Even just knowing the key deployments and releases over the last hour and then the correct teams to contact - reduces the time to mitigate incidents the majority of the time.&lt;/p&gt;
 
-&lt;h2 id=&quot;service-catalog-release&quot;&gt;Service catalog release&lt;/h2&gt;
+&lt;h3 id=&quot;service-catalog-release&quot;&gt;Service catalog release&lt;/h3&gt;
 
-&lt;p&gt;Over the last while I’ve been building a tool to do this. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all it’s free, open source and available for anyone to us straightaway.&lt;/p&gt;
+&lt;p&gt;Over the last while I’ve been building a tool to do these things. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all, it’s free, open source and available for anyone to use straightaway.&lt;/p&gt;
 
 &lt;p&gt;Check it out here 👉 https://github.com/clearwind-ca/service-catalog&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;files/catalog-services-may-15.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Watch this space for some more articles about it and if you are interested in using this, &lt;a href=&quot;https://clearwind.ca/&quot;&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
