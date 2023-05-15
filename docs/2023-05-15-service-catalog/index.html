@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Andy McKay :: Service catalog</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/pygments.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+<link rel="alternate" href="/atom.xml" type="application/atom+xml">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<div id="main">
+<header>
+  <h1><a href="/">Andy McKay</a></h1>
+</header>
+<section>
+<article>
+<div class="meta">May 15, 2023</div>
+<h2><a href="/2023-05-15-service-catalog/">Service catalog</a></h2>
+<hr class="florished">
+<p>When I joined the on-call rotation at GitHub as we <a href="https://docs.github.com/en/actions">launched GitHub Actions</a>, being on-call was something that was pretty new to me. I learnt a lot and had some amazing experienced colleagues who taught me a lot and there’s still so much to learn.</p>
+
+<p>At one point we can probably estimate GitHub had about 800 developers working <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.</p>
+
+<p>Navigating and understanding your services, teams and dashboards in an organization is hard. Repeatedly I’ve spoken to organizations building this internally.</p>
+
+<p>Some of the problems you might have 👇</p>
+
+<h2 id="navigating-your-engineering-services">Navigating your engineering services</h2>
+
+<p>As the size, speed and scale of your organization grows just navigating the teams grows harder. New people who join the company can struggle to find who does what and what’s important. Veterans struggle to keep up with changes.</p>
+
+<p>What do those teams do? Who’s on the teams? Where do they hang out and communicate? What dashboards do they have?</p>
+
+<p>If your answer is a document somewhere, a wiki, or so-on, I bet it’s not up to date. The moment those documents land (I’ve written a few), they are out of date.</p>
+
+<h2 id="quality-of-your-services">Quality of your services</h2>
+
+<p>So you’ve got a series of services that make up your product. Those will be spread out across the organisation with different ideas and leaders. Spreading ideas and information out across those services and teams is hard.</p>
+
+<p>Tools like Datadog, Splunk etc, are available to crunch all the run time information and provide you with good information about how users are using your service.</p>
+
+<p>But there are other metrics and measurements within an organisation that you need to make sure are kept up to date. How many security issues are there on the service? Are they being dealt with quickly? Are legal requirements satisified? Has the team got on-call rotation setup? And so on.</p>
+
+<p>In a large organization you want to ensure that teams are ready to deal with problems before its too late.</p>
+
+<h2 id="how-do-we-fix-a-problem">How do we fix a problem?</h2>
+
+<p>Most of the time when something went wrong at GitHub we’d go through a progression that looked like this, in roughly this order:</p>
+<ul>
+  <li>What just got deployed?</li>
+  <li>What got migrated or transitioned?</li>
+  <li>What just got turned on or off?</li>
+  <li>What external services we depend on are having problems?</li>
+  <li>What are users doing to the site?</li>
+</ul>
+
+<p>In an incident your time to mitigate is really important and you need concise and clear information as soon as you can. Cognitive overload, lack of clarity in an incident slows everything down and causes stress and anxiety.</p>
+
+<p>Even just knowing the key deployments and releases over the last hour and then the right teams to contact about those changes reduces the time to mitigate incidents the majority of the time.</p>
+
+<h2 id="service-catalog-release">Service catalog release</h2>
+
+<p>Over the last while I’ve been building a tool to do this. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all it’s free, open source and available for anyone to us straightaway.</p>
+
+<p>Check it out here 👉 https://github.com/clearwind-ca/service-catalog</p>
+
+<p><img src="files/catalog-services-may-15.png" width="500px" /></p>
+
+<p>Watch this space for some more articles about it and if you are interested in using this, <a href="https://clearwind.ca/">drop me a line</a>.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is an estimate, I don’t have the numbers and can’t remember the exact number 🤷‍♂ <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<div id="navigation">
+  <a href="/2023-04-20-wild-camping-in-us/">&laquo; older</a>
+  
+</div>
+
+</article>
+</section>
+<footer>
+<div id="thefooter">
+  <p>
+    <a href="/">Home</a> &bull;
+    <a href="/archives/">Archives</a>
+  </p>
+  <p>
+    I used to work at <a href="https://github.com">GitHub</a> and <a href="https://www.mozilla.com">Mozilla</a>.<br />
+    <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> &bull;
+    <a href="https://mckay.pub/atom.xml">RSS</a><br />
+    <a href="https://mastodon.social/@andymckay">Mastodon</a> &bull;
+    <a href="https://www.linkedin.com/in/anmckay/">Linkedin</a> &bull;
+    <a href="https://github.com/andymckay">GitHub</a><br />
+  </p>
+</div>
+</footer>
+</div>
+</body>
+</html>
