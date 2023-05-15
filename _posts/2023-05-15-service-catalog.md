@@ -9,9 +9,9 @@ When I joined the on-call rotation at GitHub as we [launched GitHub Actions](htt
 
 At one point we can probably estimate GitHub had about 800 developers working [^1] on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.
 
-Navigating and understanding your services, teams and dashboards in an organization is hard. Repeatedly I've spoken to organizations building this internally.
+Navigating and understanding your services, teams and dashboards in an organization is hard, it was at GitHub. Repeatedly I've spoken to organizations building tooling to solve this internally.
 
-Some of the problems you might have 👇
+Some of the problems you might have in your engineering organization 👇
 
 ## Navigating your engineering services
 
