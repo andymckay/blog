@@ -48,9 +48,9 @@ Even just knowing the key deployments and releases over the last hour and then t
 
 Over the last while I've been building a tool to do these things. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all, it's free, open source and available for anyone to use straightaway.
 
-Check it out here 👉 https://github.com/clearwind-ca/service-catalog
+Check it out here 👉 <a href="https://github.com/clearwind-ca/service-catalog">https://github.com/clearwind-ca/service-catalog</a>
 
-<img src="files/catalog-services-may-15.png" width="500px">
+<img src="/files/catalog-services-may-15.png" width="500px">
 
 Watch this space for some more articles about it and if you are interested in using this, [drop me a line](https://clearwind.ca/).
 
