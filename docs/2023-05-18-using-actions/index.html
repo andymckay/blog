@@ -43,20 +43,20 @@
 
 <p>In the service catalog we create a health check for <code class="language-plaintext highlighter-rouge">Log4J</code>. The service catalog will send a <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch">repository_dispatch</a> on a schedule defined in the catalog for this check.</p>
 
-<p>In GitHub we’ll write an Action to grab the repository, scan it and send the result back to the service catalog.</p>
+<p>In GitHub we’ll write an Action to grab the repository, scan it and send the result back to the catalog.</p>
 
 <p>Here’s how that Action would look:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  log4j:
     env:
       # We'll need this to write back to the catalog.
-      SERVICE_CATALOG_TOKEN: $
+      SERVICE_CATALOG_TOKEN: $\{\{ secrets.SERVICE_CATALOG_TOKEN \}\}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
         # Grab the repository for the service that the catalog has sent to us.
-        repository: $
+        repository: $\{\{ github.event.client_payload.repository \}\}
     - run: |
         # Grab a log4jscanner.
         wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
@@ -80,7 +80,7 @@
     - uses: clearwind-ca/send-result@main 
 </code></pre></div></div>
 
-<p>Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action <code class="language-plaintext highlighter-rouge">clearwind-ca/send-result</code> that sends the results to the service catalog.</p>
+<p>Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action <a href="github.com/clearwind-ca/send-result">clearwind-ca/send-result</a> that sends the results to the catalog.</p>
 
 <p>Here’s a little chart:</p>
 
@@ -108,7 +108,7 @@
   <li>There are thousands of <a href="https://github.com/marketplace?category=&amp;query=&amp;type=actions&amp;verification=">re-usable Actions within the GitHub Marketplace</a> that we can use to do these checks.</li>
 </ul>
 
-<p>Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don’t want to use Actions? That’s cool, there’s an API for the Catalog that let’s you go down a different path if you like.</p>
+<p>Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don’t want to use Actions? That’s cool, there’s an API for the catalog that let’s you go down a different path if you like.</p>
 
 <p>–</p>
 
