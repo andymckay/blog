@@ -24,7 +24,7 @@ So let's take an example, scanning all our services to ensure no one is vulnerab
 
 In the service catalog we create a health check for `Log4J`. The service catalog will send a [repository_dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch) on a schedule defined in the catalog for this check.
 
-In GitHub we'll write an Action to grab the repository, scan it and send the result back to the service catalog.
+In GitHub we'll write an Action to grab the repository, scan it and send the result back to the catalog.
 
 Here's how that Action would look:
 
@@ -62,7 +62,7 @@ Here's how that Action would look:
     - uses: clearwind-ca/send-result@main 
 ```
 
-Most of this code is running the log4j scanner and finding the vulnerable files. At the end there's a simple Action [clearwind-ca/send-result](github.com/clearwind-ca/send-result) that sends the results to the service catalog.
+Most of this code is running the log4j scanner and finding the vulnerable files. At the end there's a simple Action [clearwind-ca/send-result](github.com/clearwind-ca/send-result) that sends the results to the catalog.
 
 Here's a little chart:
 
@@ -89,7 +89,7 @@ The great parts about this approach are:
 * GitHub Actions have great secret management, so you can store secrets for other services. That allows you to query other services like Slack, Pager Duty and so on.
 * There are thousands of [re-usable Actions within the GitHub Marketplace](https://github.com/marketplace?category=&query=&type=actions&verification=) that we can use to do these checks.
 
-Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don't want to use Actions? That's cool, there's an API for the Catalog that let's you go down a different path if you like.
+Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don't want to use Actions? That's cool, there's an API for the catalog that let's you go down a different path if you like.
 
 --
 
