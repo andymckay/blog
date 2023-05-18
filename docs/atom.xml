@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-05-15T22:52:15+00:00</updated>
+<updated>2023-05-16T19:58:03+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -60,9 +60,9 @@
 
 &lt;p&gt;Over the last while I’ve been building a tool to do these things. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all, it’s free, open source and available for anyone to use straightaway.&lt;/p&gt;
 
-&lt;p&gt;Check it out here 👉 https://github.com/clearwind-ca/service-catalog&lt;/p&gt;
+&lt;p&gt;Check it out here 👉 &lt;a href=&quot;https://github.com/clearwind-ca/service-catalog&quot;&gt;https://github.com/clearwind-ca/service-catalog&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;files/catalog-services-may-15.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/files/catalog-services-may-15.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Watch this space for some more articles about it and if you are interested in using this, &lt;a href=&quot;https://clearwind.ca/&quot;&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
 
