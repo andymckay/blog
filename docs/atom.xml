@@ -3,12 +3,117 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-05-16T19:58:03+00:00</updated>
+<updated>2023-05-18T18:18:04+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Service catalog - Using Actions</title>
+<link href="https://mckay.pub/2023-05-18-using-actions/"/>
+<updated>2023-05-18T00:00:00+00:00</updated>
+<id>https://mckay.pub/using-actions</id>
+<content type="html">&lt;p&gt;As part of the &lt;a href=&quot;https://github.com/clearwind-ca/service-catalog&quot;&gt;service catalog&lt;/a&gt; (see &lt;a href=&quot;https://mckay.pub/2023-05-15-service-catalog/&quot;&gt;announcement&lt;/a&gt;) we want to be able to measure the “quality or readiness” of a service.&lt;/p&gt;
+
+&lt;p&gt;Quality or readiness of a service tends to be different from code quality, although they might be overlap. Ideas of readiness could include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Does the team specify a place for bugs or feedback?&lt;/li&gt;
+  &lt;li&gt;Does the team specify an on-call rotation?&lt;/li&gt;
+  &lt;li&gt;Is the team keeping on top of security issues?&lt;/li&gt;
+  &lt;li&gt;Is the service meeting legal obligations or compliance?&lt;/li&gt;
+  &lt;li&gt;Is the service vulnerable to urgent security problems?&lt;/li&gt;
+  &lt;li&gt;Does the team have appropriate metrics and dashboard?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These questions and more are defined by the organization and different for every organization. Trying to code all those situations and questions is not within the service catalog’s goal.&lt;/p&gt;
+
+&lt;p&gt;So we need to find a way to allow customers to be able to create and code health checks, while avoiding running arbitrary code in the service catalog &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. For this, GitHub Actions came to the rescue.&lt;/p&gt;
+
+&lt;p&gt;So let’s take an example, scanning all our services to ensure no one is vulnerable to the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-44228&quot;&gt;Log4J vulnerability&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the service catalog we create a health check for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Log4J&lt;/code&gt;. The service catalog will send a &lt;a href=&quot;https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch&quot;&gt;repository_dispatch&lt;/a&gt; on a schedule defined in the catalog for this check.&lt;/p&gt;
+
+&lt;p&gt;In GitHub we’ll write an Action to grab the repository, scan it and send the result back to the service catalog.&lt;/p&gt;
+
+&lt;p&gt;Here’s how that Action would look:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  log4j:
+    env:
+      # We&apos;ll need this to write back to the catalog.
+      SERVICE_CATALOG_TOKEN: $
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        # Grab the repository for the service that the catalog has sent to us.
+        repository: $
+    - run: |
+        # Grab a log4jscanner.
+        wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
+        tar -zxf log4jscanner-v0.5.0-linux-amd64.tar.gz
+        cd log4jscanner
+        ./log4jscanner $GITHUB_WORKSPACE &amp;gt;&amp;gt; /tmp/log4j.results
+        
+        # Write some annotations in the Action log and a JSON file
+        # ready to send back to the catalog.
+        if test -s &quot;/tmp/log4j.results&quot;; then
+          contents=$(cat /tmp/log4j.results)
+          echo &quot;::error::Vulnerable files found&quot;
+          printf &apos;{&quot;result&quot;: &quot;fail&quot;, &quot;message&quot;: &quot;Vulnerable file(s) found: `%s`&quot;}&apos; $contents &amp;gt;&amp;gt; /tmp/service-catalog-result.json
+        else
+          echo &quot;::notice::All good, no vulnerable files found&quot;
+          printf &apos;{&quot;result&quot;: &quot;pass&quot;}&apos; &amp;gt;&amp;gt; /tmp/service-catalog-result.json
+        fi
+        echo `cat /tmp/service-catalog-result.json`
+
+    # Send the result back
+    - uses: clearwind-ca/send-result@main 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clearwind-ca/send-result&lt;/code&gt; that sends the results to the service catalog.&lt;/p&gt;
+
+&lt;p&gt;Here’s a little chart:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+  ┌────────────────┐
+  │ Service        │
+  │                ◄──────────┐
+  └────────────────┘          │
+                              │
+  ┌────────────────┐   ┌──────┴─────────┐            ┌───────────────────┐
+  │ Health check   │   │ Health check   │ Dispatch   │ GitHub Action     │
+  │                ◄───┤ Result         ├────────────►                   │
+  └────────────────┘   └──────▲─────────┘            └──────┬────────────┘
+                              │                             │
+                              └─────────────────────────────┘
+                                    Pass, fail response
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The great parts about this approach are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Grabbing and running arbitrary code is now sandboxed with GitHub Actions.&lt;/li&gt;
+  &lt;li&gt;The code and information about the code is on GitHub anyway (issue, repositories etc) so doing the work on GitHub makes sense.&lt;/li&gt;
+  &lt;li&gt;GitHub Actions have great secret management, so you can store secrets for other services. That allows you to query other services like Slack, Pager Duty and so on.&lt;/li&gt;
+  &lt;li&gt;There are thousands of &lt;a href=&quot;https://github.com/marketplace?category=&amp;amp;query=&amp;amp;type=actions&amp;amp;verification=&quot;&gt;re-usable Actions within the GitHub Marketplace&lt;/a&gt; that we can use to do these checks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don’t want to use Actions? That’s cool, there’s an API for the Catalog that let’s you go down a different path if you like.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;We could also do this by allowing custom code to be run in the catalog, however this has its own share of problems. Access to repositories, secret management, resource utilization, ease of upgrades and so on. Better to use an external service. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+</entry>
 
 <entry>
 <title>Service catalog</title>
@@ -596,54 +701,6 @@
 &lt;p&gt;Lisa Muri is confusing, because she’s extremely good at talking and confusing the issue. But when I’ve listened to her I found undertones of being obstructionist, unhelpful and blaming others. Lisa has been a councillor for 25+ years and plays politics well - if you don’t want anything to change in North Vancouver she’s your candidate.&lt;/p&gt;
 
 &lt;p&gt;Peter Teevan? Well a life long worker in finance at automative dealerships wants to build a 6 lane each way multi level replacement to the Ironworkers Memorial bridge. One more lane will fix it, bro.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>Valley Fondo, Cowichan Crusher and Penticton Fondo</title>
-<link href="https://mckay.pub/2022-07-14-some-bike-races/"/>
-<updated>2022-07-14T00:00:00+00:00</updated>
-<id>https://mckay.pub/some-bike-races</id>
-<content type="html">&lt;p&gt;Some of the bike races I did this year, so far&lt;/p&gt;
-
-&lt;h3 id=&quot;valley-fondo&quot;&gt;Valley Fondo&lt;/h3&gt;
-
-&lt;p&gt;I registered for the this Fondo in 2020 so my registration was a roll-over from that.&lt;/p&gt;
-
-&lt;p&gt;Normally this starts in the middle of Fort Langley, but this time it started in a muddy field nearby.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7255284868&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;I found this race tough for a few reasons:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I forgot to take pills that control my heart rate and so had to stop a couple of times&lt;/li&gt;
-  &lt;li&gt;My back started to hurt really early in the race and didn’t get better&lt;/li&gt;
-  &lt;li&gt;I got some good drafts, but struggled on hills and lost groups&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Overall, I find the race goes around nice parts of the valley. But I struggled to get a real sense of where I was, where I was going and so on. It just felt like I was cycling around in circles (I was). I was extremely glad that this race finished quite short.&lt;/p&gt;
-
-&lt;p&gt;I’d probably not do this race again.&lt;/p&gt;
-
-&lt;h3 id=&quot;cowichan-crusher&quot;&gt;Cowichan Crusher&lt;/h3&gt;
-
-&lt;p&gt;I registered for this at the last minute and made it into a camping trip and did 120km the day before to get there. Most of the information is over in &lt;a href=&quot;https://mckay.pub/2022-06-07-south-vancouver-island/&quot;&gt;this post&lt;/a&gt;. It’s nice to do a gravel race for a change and I wasn’t aiming for anything good here, just to have fun.&lt;/p&gt;
-
-&lt;h3 id=&quot;okanagan-fondo&quot;&gt;Okanagan Fondo&lt;/h3&gt;
-
-&lt;p&gt;Another hold over from 2020, this is my second time doing this Fondo. It happens to fall the day after my birthday and I really enjoy the Okanagan. After my experience in the Valley Fondo and my complete lack of cycling with Steed this year, I expected to go into this one and struggle.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7448317184&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;It turns out I didn’t struggle this time. My back didn’t hurt until about 140km or so, usual for a long bike ride. My heart stayed under control and the weather was good. All the way south I was able to get into good groups and share pulling with some good drafts.&lt;/p&gt;
-
-&lt;p&gt;I was saving some energy for the hill at 110km, because that totally destroyed me last time and after that I was spent. Not so this time, it was tough, but nowhere as near as bad as I remembered. It did cause my average speed to drop below 32km/h, but as I approached and passed the observatory, I was able to start increasing my average speed above 30km a bit.&lt;/p&gt;
-
-&lt;p&gt;At this point I started realising I could land this in under 5 hours, at an average pace over 30km/h… and I did hitting PRs on most of the route.&lt;/p&gt;
-
-&lt;p&gt;This one felt good and I’d love to come back and do it again.&lt;/p&gt;
 </content>
 </entry>
 

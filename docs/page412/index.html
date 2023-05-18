@@ -20,66 +20,103 @@
 <section>
 <article>
 
-<div class="meta">May 15, 2023</div>
-<h2><a href="/2023-05-15-service-catalog/" class="posturl">Service catalog</a></h2>
+<div class="meta">May 18, 2023</div>
+<h2><a href="/2023-05-18-using-actions/" class="posturl">Service catalog - Using Actions</a></h2>
 <hr class="florished">
-<p>When I joined the on-call rotation at GitHub as we <a href="https://docs.github.com/en/actions">launched GitHub Actions</a>, being on-call was something that was pretty new to me. I learnt a lot and had some amazing experienced colleagues who taught me a lot and there’s still so much to learn.</p>
+<p>As part of the <a href="https://github.com/clearwind-ca/service-catalog">service catalog</a> (see <a href="https://mckay.pub/2023-05-15-service-catalog/">announcement</a>) we want to be able to measure the “quality or readiness” of a service.</p>
 
-<p>At one point GitHub had over 500 developers working <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.</p>
+<p>Quality or readiness of a service tends to be different from code quality, although they might be overlap. Ideas of readiness could include:</p>
 
-<p>Navigating and understanding your services, teams and dashboards in an organization is hard, it was at GitHub. Repeatedly I’ve spoken to organizations building tooling to solve this internally.</p>
-
-<p>Some of the problems you might have in your engineering organization 👇</p>
-
-<h3 id="navigating-your-engineering-services">Navigating your engineering services</h3>
-
-<p>As the size, speed and scale of your organization grows just navigating the teams grows harder. New people who join the company can struggle to find who does what and what’s important. Veterans struggle to keep up with changes.</p>
-
-<p>What do those teams do? Who’s on the teams? Where do they hang out and communicate? What dashboards do they have?</p>
-
-<p>If your answer is a document somewhere, a wiki, or so-on. The moment those documents are finished they are out of date.</p>
-
-<h3 id="quality-of-your-services">Quality of your services</h3>
-
-<p>So you’ve got a series of services that make up your product. Those will be spread out across the organisation with different ideas and leaders. Spreading ideas and information out across those services and teams is hard.</p>
-
-<p>Tools like Datadog, Splunk etc, are available to crunch all the run time information and provide you with good information about how users are using your service.</p>
-
-<p>But there are other metrics and measurements within an organisation that you need to make sure are kept up to date. How many security issues are there on the service? Are they being dealt with quickly? Are legal requirements satisified? Is the team within compliance? Has the team got on-call rotation setup?</p>
-
-<p>In a large organization you want to ensure that teams are meeting their goals before incidents happen.</p>
-
-<h3 id="how-do-we-fix-a-problem">How do we fix a problem?</h3>
-
-<p>Most of the time when an incident happened at GitHub we’d go through a progression that looked like this, in roughly this order:</p>
 <ul>
-  <li>What just got deployed?</li>
-  <li>What got migrated or transitioned?</li>
-  <li>What just got turned on or off?</li>
-  <li>What external services we depend on are having problems?</li>
-  <li>What are users doing to the site?</li>
+  <li>Does the team specify a place for bugs or feedback?</li>
+  <li>Does the team specify an on-call rotation?</li>
+  <li>Is the team keeping on top of security issues?</li>
+  <li>Is the service meeting legal obligations or compliance?</li>
+  <li>Is the service vulnerable to urgent security problems?</li>
+  <li>Does the team have appropriate metrics and dashboard?</li>
 </ul>
 
-<p>In an incident you need concise and clear information as soon as you can to reduce your time to mitigation. Cognitive overload and lack of clarity in an incident slows everything down.</p>
+<p>These questions and more are defined by the organization and different for every organization. Trying to code all those situations and questions is not within the service catalog’s goal.</p>
 
-<p>Even just knowing the key deployments and releases over the last hour and then the correct teams to contact - reduces the time to mitigate incidents the majority of the time.</p>
+<p>So we need to find a way to allow customers to be able to create and code health checks, while avoiding running arbitrary code in the service catalog <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. For this, GitHub Actions came to the rescue.</p>
 
-<h3 id="service-catalog-release">Service catalog release</h3>
+<p>So let’s take an example, scanning all our services to ensure no one is vulnerable to the <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-44228">Log4J vulnerability</a>.</p>
 
-<p>Over the last while I’ve been building a tool to do these things. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all, it’s free, open source and available for anyone to use straightaway.</p>
+<p>In the service catalog we create a health check for <code class="language-plaintext highlighter-rouge">Log4J</code>. The service catalog will send a <a href="https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch">repository_dispatch</a> on a schedule defined in the catalog for this check.</p>
 
-<p>Check it out here 👉 <a href="https://github.com/clearwind-ca/service-catalog">https://github.com/clearwind-ca/service-catalog</a></p>
+<p>In GitHub we’ll write an Action to grab the repository, scan it and send the result back to the service catalog.</p>
 
-<p><img src="/files/catalog-services-may-15.png" width="500px" /></p>
+<p>Here’s how that Action would look:</p>
 
-<p>Watch this space for some more articles about it and if you are interested in using this, <a href="https://clearwind.ca/">drop me a line</a>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  log4j:
+    env:
+      # We'll need this to write back to the catalog.
+      SERVICE_CATALOG_TOKEN: $
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        # Grab the repository for the service that the catalog has sent to us.
+        repository: $
+    - run: |
+        # Grab a log4jscanner.
+        wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
+        tar -zxf log4jscanner-v0.5.0-linux-amd64.tar.gz
+        cd log4jscanner
+        ./log4jscanner $GITHUB_WORKSPACE &gt;&gt; /tmp/log4j.results
+        
+        # Write some annotations in the Action log and a JSON file
+        # ready to send back to the catalog.
+        if test -s "/tmp/log4j.results"; then
+          contents=$(cat /tmp/log4j.results)
+          echo "::error::Vulnerable files found"
+          printf '{"result": "fail", "message": "Vulnerable file(s) found: `%s`"}' $contents &gt;&gt; /tmp/service-catalog-result.json
+        else
+          echo "::notice::All good, no vulnerable files found"
+          printf '{"result": "pass"}' &gt;&gt; /tmp/service-catalog-result.json
+        fi
+        echo `cat /tmp/service-catalog-result.json`
+
+    # Send the result back
+    - uses: clearwind-ca/send-result@main 
+</code></pre></div></div>
+
+<p>Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action <code class="language-plaintext highlighter-rouge">clearwind-ca/send-result</code> that sends the results to the service catalog.</p>
+
+<p>Here’s a little chart:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  ┌────────────────┐
+  │ Service        │
+  │                ◄──────────┐
+  └────────────────┘          │
+                              │
+  ┌────────────────┐   ┌──────┴─────────┐            ┌───────────────────┐
+  │ Health check   │   │ Health check   │ Dispatch   │ GitHub Action     │
+  │                ◄───┤ Result         ├────────────►                   │
+  └────────────────┘   └──────▲─────────┘            └──────┬────────────┘
+                              │                             │
+                              └─────────────────────────────┘
+                                    Pass, fail response
+</code></pre></div></div>
+
+<p>The great parts about this approach are:</p>
+
+<ul>
+  <li>Grabbing and running arbitrary code is now sandboxed with GitHub Actions.</li>
+  <li>The code and information about the code is on GitHub anyway (issue, repositories etc) so doing the work on GitHub makes sense.</li>
+  <li>GitHub Actions have great secret management, so you can store secrets for other services. That allows you to query other services like Slack, Pager Duty and so on.</li>
+  <li>There are thousands of <a href="https://github.com/marketplace?category=&amp;query=&amp;type=actions&amp;verification=">re-usable Actions within the GitHub Marketplace</a> that we can use to do these checks.</li>
+</ul>
+
+<p>Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don’t want to use Actions? That’s cool, there’s an API for the Catalog that let’s you go down a different path if you like.</p>
 
 <p>–</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>This is an estimate, I don’t have the numbers and can’t remember the exact number 🤷‍♂ <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>We could also do this by allowing custom code to be run in the catalog, however this has its own share of problems. Access to repositories, secret management, resource utilization, ease of upgrades and so on. Better to use an external service. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
