@@ -29,16 +29,17 @@ In GitHub we'll write an Action to grab the repository, scan it and send the res
 Here's how that Action would look:
 
 ```
+{% raw %}
   log4j:
     env:
       # We'll need this to write back to the catalog.
-      SERVICE_CATALOG_TOKEN: $\{\{ secrets.SERVICE_CATALOG_TOKEN \}\}
+      SERVICE_CATALOG_TOKEN: ${{ secrets.SERVICE_CATALOG_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
         # Grab the repository for the service that the catalog has sent to us.
-        repository: $\{\{ github.event.client_payload.repository \}\}
+        repository: ${{ github.event.client_payload.repository }}
     - run: |
         # Grab a log4jscanner.
         wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
@@ -59,7 +60,8 @@ Here's how that Action would look:
         echo `cat /tmp/service-catalog-result.json`
 
     # Send the result back
-    - uses: clearwind-ca/send-result@main 
+    - uses: clearwind-ca/send-result@main
+{% endraw %}
 ```
 
 Most of this code is running the log4j scanner and finding the vulnerable files. At the end there's a simple Action [clearwind-ca/send-result](github.com/clearwind-ca/send-result) that sends the results to the catalog.
