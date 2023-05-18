@@ -47,16 +47,17 @@
 
 <p>Here’s how that Action would look:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  log4j:
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+  log4j:
     env:
       # We'll need this to write back to the catalog.
-      SERVICE_CATALOG_TOKEN: $\{\{ secrets.SERVICE_CATALOG_TOKEN \}\}
+      SERVICE_CATALOG_TOKEN: ${{ secrets.SERVICE_CATALOG_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
         # Grab the repository for the service that the catalog has sent to us.
-        repository: $\{\{ github.event.client_payload.repository \}\}
+        repository: ${{ github.event.client_payload.repository }}
     - run: |
         # Grab a log4jscanner.
         wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
@@ -77,7 +78,8 @@
         echo `cat /tmp/service-catalog-result.json`
 
     # Send the result back
-    - uses: clearwind-ca/send-result@main 
+    - uses: clearwind-ca/send-result@main
+
 </code></pre></div></div>
 
 <p>Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action <a href="github.com/clearwind-ca/send-result">clearwind-ca/send-result</a> that sends the results to the catalog.</p>

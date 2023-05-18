@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-05-18T18:29:56+00:00</updated>
+<updated>2023-05-18T18:38:23+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -40,16 +40,17 @@
 
 &lt;p&gt;Here’s how that Action would look:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  log4j:
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+  log4j:
     env:
       # We&apos;ll need this to write back to the catalog.
-      SERVICE_CATALOG_TOKEN: $\{\{ secrets.SERVICE_CATALOG_TOKEN \}\}
+      SERVICE_CATALOG_TOKEN: ${{ secrets.SERVICE_CATALOG_TOKEN }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
         # Grab the repository for the service that the catalog has sent to us.
-        repository: $\{\{ github.event.client_payload.repository \}\}
+        repository: ${{ github.event.client_payload.repository }}
     - run: |
         # Grab a log4jscanner.
         wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
@@ -70,7 +71,8 @@
         echo `cat /tmp/service-catalog-result.json`
 
     # Send the result back
-    - uses: clearwind-ca/send-result@main 
+    - uses: clearwind-ca/send-result@main
+
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action &lt;a href=&quot;github.com/clearwind-ca/send-result&quot;&gt;clearwind-ca/send-result&lt;/a&gt; that sends the results to the catalog.&lt;/p&gt;
