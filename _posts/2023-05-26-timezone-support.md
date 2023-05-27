@@ -76,7 +76,7 @@ The date and time will be stored in the database as `UTC` as nature intended. Bu
 
 ### Gotchas
 
-To show the date in `UTC` in a template, I used the `utc` filter. You can also use the `{% timezone None %}` (as <a href="https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/">documented</a>) or `localtime`. Otherwise Django was being smart and trying to convert into the timezone for me.
+To show the date in `UTC` in a template, I used the `utc` filter. You can also use the `{% raw %}{% timezone None %}{% endraw %}` (as <a href="https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/">documented</a>) or `localtime`. Otherwise Django was being smart and trying to convert into the timezone for me.
 
 A model has `default=datetime.now` on it, meaning a HTML form defaulted to showing the time in `UTC`. This was simple to fix in the view, because when the view was being called, the middleware (see above) had been called, allowing us to know the users timezone. So then in the view, I simply switched to the users timezone:
 
