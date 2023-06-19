@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Trip report - Stein Valley
 categories: trips
