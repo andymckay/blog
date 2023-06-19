@@ -28,7 +28,7 @@ simple typos can exist in your testing.</p>
 
 <p>As an example, in this library, there’s a method <code>from_nonce</code>. If you just mock the object, then you can typo the method and it continues like normal:</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="gp">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="n">mock</span><span class="p">.</span><span class="nf">patch</span><span class="p">(</span><span class="sh">'</span><span class="s">braintree.CreditCard</span><span class="sh">'</span><span class="p">)</span> <span class="k">as</span> <span class="n">mocked</span><span class="p">:</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="n">mock</span><span class="p">.</span><span class="nf">patch</span><span class="p">(</span><span class="sh">'</span><span class="s">braintree.CreditCard</span><span class="sh">'</span><span class="p">)</span> <span class="k">as</span> <span class="n">mocked</span><span class="p">:</span>
 <span class="p">...</span>   <span class="k">assert</span> <span class="n">mocked</span><span class="p">.</span><span class="n">from_none</span>
 <span class="bp">...</span></code></pre></figure>
 
@@ -36,7 +36,7 @@ simple typos can exist in your testing.</p>
 
 <p>The better way is to pass <a href="https://docs.python.org/3/library/unittest.mock.html#the-mock-class">the object to the Mock call</a> as <code>spec</code>. Then only methods on the object can be called, for example:</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="gp">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="n">mock</span><span class="p">.</span><span class="nf">patch</span><span class="p">(</span><span class="sh">'</span><span class="s">braintree.CreditCard</span><span class="sh">'</span><span class="p">,</span> <span class="n">spec</span><span class="o">=</span><span class="n">braintree</span><span class="p">.</span><span class="n">CreditCard</span><span class="p">)</span> <span class="k">as</span> <span class="n">mocked</span><span class="p">:</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="n">mock</span><span class="p">.</span><span class="nf">patch</span><span class="p">(</span><span class="sh">'</span><span class="s">braintree.CreditCard</span><span class="sh">'</span><span class="p">,</span> <span class="n">spec</span><span class="o">=</span><span class="n">braintree</span><span class="p">.</span><span class="n">CreditCard</span><span class="p">)</span> <span class="k">as</span> <span class="n">mocked</span><span class="p">:</span>
 <span class="p">...</span>   <span class="k">assert</span> <span class="n">mocked</span><span class="p">.</span><span class="n">from_none</span>
 <span class="bp">...</span>
 <span class="nc">Traceback </span><span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>

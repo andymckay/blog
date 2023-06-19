@@ -20,101 +20,10 @@
 <section>
 <article>
 
-<div class="meta">May 26, 2023</div>
-<h2><a href="/2023-05-26-timezone-support/" class="posturl">Service catalog - Timezone support</a></h2>
+<div class="meta">Jun 19, 2023</div>
+<h2><a href="/2023-06-19-stein-valley/" class="posturl">Stein Valley</a></h2>
 <hr class="florished">
-<p>When you are in an incident that’s causing impact to your customers, you’ll be looking at data in multiple sources. From events on GitHub, messages on Slack, logs in Splunk, graphs in Datadog and on and on. At the time of an incident there’s a lot going on and one thing that always caused a bit more cognitive stress for me was calculating when everything happened. To add to this, you might be working with people who are in diverse time zones. Most services (thank goodness) these days log in UTC and the service catalog is no exception, logging things in UTC.</p>
 
-<p>To make life just that bit easier, the <a href="https://github.com/clearwind-ca/service-catalog/releases/tag/0.1.3">service catalog now allows you to set a timezone</a> and whenever you see a date, you’ll see it 3 different ways:</p>
-<ul>
-  <li>The time relative to now</li>
-  <li>The time in UTC</li>
-  <li>The time in your timezone</li>
-</ul>
-
-<p>Here’s an example:</p>
-
-<p><img src="/files/service-catalog-times.png" /></p>
-
-<p>This may seem like a small thing, but this, along with the little <code>copy to clipboard</code> make it easier to communicate and understand what happened. Since the service catalog can capture important arbitrary events, such as deployments, migrations, releases, feature flag changes in catalog events, it’s easy to establish a timeline of what happened.</p>
-
-<p>It’s been a while since I’ve done Django and this was a good learning experience through the timezone support which has been added over the years, and as usual was done really well. There’s a few things I’m going to highlight that I thought were good, but this document <a href="https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/">covers all the basics</a>.</p>
-
-<h3 id="settings">Settings</h3>
-
-<p>You should have <code class="language-plaintext highlighter-rouge">TIME_ZONE</code> set to <code class="language-plaintext highlighter-rouge">UTC</code> and <code class="language-plaintext highlighter-rouge">USE_TZ</code> set to <code class="language-plaintext highlighter-rouge">True</code>. I’ve worked on projects where the timestamp in the database is not in <code class="language-plaintext highlighter-rouge">UTC</code> and it just made me cry. Just leave this as <code class="language-plaintext highlighter-rouge">UTC</code> and never change it. There is only one timezone that data should ever be stored and it should always be <code class="language-plaintext highlighter-rouge">UTC</code>. Just don’t change that.</p>
-
-<h3 id="letting-users-pick-a-timezone">Letting users pick a timezone</h3>
-
-<p>You’ll probably have to make a <a href="https://docs.djangoproject.com/en/4.2/topics/auth/customizing/#extending-the-existing-user-model">user profile</a> you ask the user for their timezone and then attach it to the user. The service catalog is tightly coupled to GitHub. In GitHub you also get to specify your timezone, but the <a href="https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user">REST API</a> doesn’t include this information <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
-
-<p>If you are looking for a list of all the timezones, then the <a href="https://docs.python.org/3/library/zoneinfo.html">zoneinfo&lt;/apy&gt; package has you covered, no need to use <a href="https://pypi.org/project/pytz/">pytz</a> anymore.</a></p>
-
-<p>With a model like this:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zones</span> <span class="o">=</span> <span class="nf">sorted</span><span class="p">(</span><span class="n">zoneinfo</span><span class="p">.</span><span class="nf">available_timezones</span><span class="p">())</span>
-
-
-<span class="k">class</span> <span class="nc">Profile</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
-    <span class="n">TIMEZONE_CHOICES</span> <span class="o">=</span> <span class="nf">zip</span><span class="p">(</span><span class="n">zones</span><span class="p">,</span> <span class="n">zones</span><span class="p">)</span>
-    <span class="n">user</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">OneToOneField</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">on_delete</span><span class="o">=</span><span class="n">models</span><span class="p">.</span><span class="n">CASCADE</span><span class="p">)</span>
-    <span class="n">timezone</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span> <span class="n">choices</span><span class="o">=</span><span class="n">TIMEZONE_CHOICES</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="sh">"</span><span class="s">UTC</span><span class="sh">"</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>You’ll quickly have a nice form for the users.</p>
-
-<h3 id="using-that-timezone">Using that timezone</h3>
-
-<p>Again, as noted in that document, you’ll want to activate the timezone for that user as they hit the site.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">TimezoneMiddleware</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
-
-    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
-        <span class="n">tzname</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">session</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="sh">"</span><span class="s">tz</span><span class="sh">"</span><span class="p">)</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">tzname</span><span class="p">:</span>
-            <span class="k">try</span><span class="p">:</span>
-                <span class="n">tzname</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">user</span><span class="p">.</span><span class="n">profile</span><span class="p">.</span><span class="n">timezone</span>
-            <span class="nf">except </span><span class="p">(</span><span class="nb">AttributeError</span><span class="p">):</span>
-                <span class="k">pass</span>
-
-        <span class="c1"># You've got settings.TIME_ZONE set to "UTC" right? So that becomes the default.
-</span>        <span class="n">tzname</span> <span class="o">=</span> <span class="n">tzname</span> <span class="ow">or</span> <span class="n">settings</span><span class="p">.</span><span class="n">TIME_ZONE</span>
-        <span class="n">timezone</span><span class="p">.</span><span class="nf">activate</span><span class="p">(</span><span class="n">zoneinfo</span><span class="p">.</span><span class="nc">ZoneInfo</span><span class="p">(</span><span class="n">tzname</span><span class="p">))</span>
-
-        <span class="c1"># Stuff into the session for the next request.
-</span>        <span class="n">request</span><span class="p">.</span><span class="n">session</span><span class="p">[</span><span class="sh">"</span><span class="s">tz</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">tzname</span>
-        <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>This is a pretty simplified middleware that activates the timezone and stuffs it in the session. So what’s this going to do?</p>
-
-<p>The date and time will be stored in the database as <code class="language-plaintext highlighter-rouge">UTC</code> as nature intended. But whenever it’s shown to a user, it will be translated into their timezone. When you have a form, users enter the date and time in their timezone and Django stores it as UTC. This is pretty much exactly what you want in a web site.</p>
-
-<h3 id="gotchas">Gotchas</h3>
-
-<p>To show the date in <code class="language-plaintext highlighter-rouge">UTC</code> in a template, I used the <code class="language-plaintext highlighter-rouge">utc</code> filter. You can also use the <code class="language-plaintext highlighter-rouge">{% timezone None %}</code> (as <a href="https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/">documented</a>) or <code class="language-plaintext highlighter-rouge">localtime</code>. Otherwise Django was being smart and trying to convert into the timezone for me.</p>
-
-<p>A model has <code class="language-plaintext highlighter-rouge">default=datetime.now</code> on it, meaning a HTML form defaulted to showing the time in <code class="language-plaintext highlighter-rouge">UTC</code>. This was simple to fix in the view, because when the view was being called, the middleware (see above) had been called, allowing us to know the users timezone. So then in the view, I simply switched to the users timezone:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        <span class="n">form</span> <span class="o">=</span> <span class="nc">EventForm</span><span class="p">()</span>
-        <span class="n">form</span><span class="p">.</span><span class="n">fields</span><span class="p">[</span><span class="sh">"</span><span class="s">start</span><span class="sh">"</span><span class="p">].</span><span class="n">initial</span> <span class="o">=</span> <span class="n">timezone</span><span class="p">.</span><span class="nf">now</span><span class="p">()</span>
-</code></pre></div></div>
-
-<p>All this is well and good for the web interface, but what about the API? API’s should always be in <code class="language-plaintext highlighter-rouge">UTC</code> and again that’s something non-negotiable in my opinion. In the middleware, if the request is coming into an API endpoint (it’s using Django Rest Framework) then the timezone just remains as UTC.</p>
-
-<h3 id="conclusion">Conclusion</h3>
-
-<p>That’s it, nothing to revolutionary in this post, but just a pile of stuff that’s builtin to Django and just gets it right in my opinion.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>I couldn’t spot it in GraphQL either, sometimes the two aren’t in sync so it might be there, couldn’t find it though. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
 
 </article>

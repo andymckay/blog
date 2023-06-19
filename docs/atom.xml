@@ -3,12 +3,21 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-05-27T00:08:32+00:00</updated>
+<updated>2023-06-19T18:28:34+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Stein Valley</title>
+<link href="https://mckay.pub/2023-06-19-stein-valley/"/>
+<updated>2023-06-19T00:00:00+00:00</updated>
+<id>https://mckay.pub/stein-valley</id>
+<content type="html">
+</content>
+</entry>
 
 <entry>
 <title>Service catalog - Timezone support</title>
@@ -695,78 +704,6 @@
 
 &lt;p&gt;That’s why I’m not looking for work right now, unless it’s something super awesome or special or I get to work closely with someone amazing from my past 👋 If so, drop me a line.&lt;/p&gt;
 
-</content>
-</entry>
-
-<entry>
-<title>No we don't need a third bridge</title>
-<link href="https://mckay.pub/2023-01-30-third-bridge/"/>
-<updated>2023-01-30T00:00:00+00:00</updated>
-<id>https://mckay.pub/third-bridge</id>
-<content type="html">&lt;p&gt;It seems odd that we’d have to say this, but we don’t need a third bridge to Vancouver in North Vancouver. Yet apparently &lt;a href=&quot;https://www.nsnews.com/opinion/almost-two-thirds-of-north-shore-readers-say-a-new-bridge-is-needed-6423723&quot;&gt;this article&lt;/a&gt; suggests that two thirds of readers say they do.&lt;/p&gt;
-
-&lt;h2 id=&quot;its-the-easy-choice&quot;&gt;It’s the easy choice&lt;/h2&gt;
-
-&lt;p&gt;There’s people in cars everywhere, we build roads, bridges and car parks and so on. When you see traffic congestion it’s simple to just want to build more infrastructure. Build more roads and bridges and the traffic will get better right? Nope.&lt;/p&gt;
-
-&lt;p&gt;Remember this is the community that has seen $250 million invested in the interchange at Mountain Highway and traffic has just gotten worse and worse since.&lt;/p&gt;
-
-&lt;p&gt;The easy choice is the wrong one.&lt;/p&gt;
-
-&lt;h2 id=&quot;where-would-it-actually-go&quot;&gt;Where would it actually go?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/options.png&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://vancouversun.com/news/local-news/a-look-at-six-possible-routes-for-rapid-transit-across-burrard-inlet&quot;&gt;This article discusses some routes&lt;/a&gt; and breaks them down into bridges and tunnels. The tunnels are all around Stanley Park, because no-one wants to knock the tress down in the park. Well some people do, but let’s assumes that’s politically unpalatble.&lt;/p&gt;
-
-&lt;p&gt;The bridges are all around Second Narrows, because it’s a shorter and easier bridge to build with some houses and industrial land on either side. Industrial land is much easier to rezone.&lt;/p&gt;
-
-&lt;p&gt;Let’s have a tunnel! There have been so many tunnels proposed, but it’s really expensive and hard. Burrard Inlet gets to 66m deep. If you build a tunnel, you have to build the infrastructure to get to it, which brings to my next point…&lt;/p&gt;
-
-&lt;h2 id=&quot;what-would-it-need-on-either-side&quot;&gt;What would it need on either side?&lt;/h2&gt;
-
-&lt;p&gt;Expand around the Second Narrows? On the north side you hit the highway going north and the “cut” which is constrained to a couple of lanes each way. There isn’t really room to grow there. Highway 1 is 2 to 3 lanes across the North Shore, so widening that would require a vast re-allocation of land. On the south side you hit Cassiar tunnel which is going to be really hard and expensive to expand and then it goes on through the rest of Vancouver.&lt;/p&gt;
-
-&lt;p&gt;Expand around Lions Gate? At the south end you’ll just drop a pile of traffic into downtown, because downtown isn’t struggling with too many cars already. On the north side the traffic currently goes left, towards Park Royal or right towards Marine Drive. Neither of which can take more load, so those will need changing and possibly build more of a highway up to Highway 1.&lt;/p&gt;
-
-&lt;p&gt;Somewhere in the middle, near the Seabus? So how would the traffic get there? Would we have to turn Lonsdale into a highway to connect up Highway 1? Where on earth would a highway landing in East Vancouver go?&lt;/p&gt;
-
-&lt;p&gt;If you increase the bridge capacity, you have to increase the capacity around it.&lt;/p&gt;
-
-&lt;h2 id=&quot;its-cheaper-than-transit&quot;&gt;It’s cheaper than transit&lt;/h2&gt;
-
-&lt;p&gt;The cost of the Skytrain is roughly $500 million per km for the Broadway Skytrain construction. &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; I’m no expert but that seems really expensive, but I’m not an expert on why it costs that much.  A suggested line across the North Shore and then to downtown at 20km could be roughly in the $10 billion price range. But it’s probably more expensive due to the bridge. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;The cost of the Massey Tunnel replacement is $4.15 billion, the suggested bridge replacement was $2.7 billion. &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s not really worth trying to compare a 20km rapid transit line to a bridge that is 629m long, but let’s be clear: road infrastructure is expensive to build, expensive to maintain &lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and involves zero user fees. Don’t be fooled that it’s cheap to build or maintain.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-next&quot;&gt;What next&lt;/h2&gt;
-
-&lt;p&gt;The only way out of this problem, for many reasons I haven’t covered, including climate change, accessibility, climate change, health, increasing density and so on is to increase our investments in alternative forms of transport. From active transport like cycling to public transit like buses and trains. No city has solved this by building more bridges. And it will look like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/portland.png&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Do you really want to live in a place like that (sorry Portland)?&lt;/p&gt;
-
-&lt;p&gt;The saddest part of the article “less than 18 per cent – indicated they’d need more information to have an informed opinion on the topic.”. It’s not just that people have this opinion, it’s that they don’t want to learn more about it.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;https://www.theglobeandmail.com/canada/article-why-canada-gets-less-for-more-when-it-comes-to-building-transit-2/ &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;https://dailyhive.com/vancouver/north-shore-city-councils-rapid-transit-translink-approval-plan &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;https://vancouversun.com/news/local-news/b-c-to-make-announcement-on-george-massey-tunnel-replacement &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;https://www.lakecountry.bc.ca/en/news/you-asked-why-does-road-maintenance-cost-so-much.aspx (I can’t find a number yet for how much BC spends on this.) &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </content>
 </entry>
 
