@@ -29,13 +29,13 @@ The trail bus is the expensive part of the whole trip, if you've got more people
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9229033558"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-Perhaps one of the more confusing naming schemes out there, but this was China beach to China beach. The trail bus dropped me off at around 8:30 and after a quick repack, I took off for the first campsite, 9km north along the trail. The weather was just great for this day, nice and sunny with a light breeze coming off the sea.
+Perhaps one of the more confusing naming schemes out there, but this was China beach to Chin beach. The trail bus dropped me off at around 8:30 and after a quick repack, I took off for the first campsite, 9km north along the trail. The weather was just great for this day, nice and sunny with a light breeze coming off the sea.
 
 The trail follows the coast and so you get the absolute delight that is the west coast, mild temperatures, lovely beaches and so on. I hit the first campsite, 9km in at about 11am or so, which is way to early to camp. At that point I decided to just press on the next 11km - knowing that the next 11km was some of the hardest on the trail.
 
 I would have settled for a campsite earlier than Chin beach, at 21km (according to the map [^3]), the last few km were a hard push. The terrain is just continuously steep up and down as the trail goes up and down each creek. I gained almost 1000m, but ended up at sea level. The terrain is steep and also dry and dusty and technical to walk up and down.
 
-Every campsite has tent pads, which for people with hiking pole tents, like me, not idea. Fortunately that first night I found a lovely pad free spot with a good place for my hammock on the beach. I was very happy and tired.
+Every campsite has tent pads, which for people with hiking pole tents, like me, not ideal. Fortunately that first night I found a lovely pad free spot with a good place for my hammock on the beach. I was very happy and tired.
 
 <img src="/files/IMG_0191.JPG" width="400px" />
 
