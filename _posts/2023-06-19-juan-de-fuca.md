@@ -79,7 +79,7 @@ Everyone is going to compare this to the West Coast Trail, because it's right th
 
 The main difference is beaches, once you've got past Walbran Creek (if you are heading north), then you'll find lots and lots of beach and flat hiking. That's because as you go further north, the coast is no longer protected by the Olympic peninsula and over the millennia, waves crashing in off the Pacific have created fantastic beaches to explore.
 
-This marked the end of my boots. I bought some Scarpa last year and they have completely fallen apart. There were holes all the way through both sides, at the end of each beach I had to stop and empty the beach out of my boots. A post about my new boots soon.
+This marked the end of my boots. I bought Scarpa boots last year and they have completely fallen apart. There were holes all the way through both sides, at the end of each beach I had to stop and empty the beach out of my boots. A post about my new boots soon.
 
 This was also my first trip with 100% homemade meals, they worked pretty well and helped me save money without having to buy expensive pre-made dehydrated meals. Will post about that soon also.
 
