@@ -37,7 +37,7 @@ I would have settled for a campsite earlier than Chin beach, at 21km (according 
 
 Every campsite has tent pads, which for people with hiking pole tents, like me, not idea. Fortunately that first night I found a lovely pad free spot with a good place for my hammock on the beach. I was very happy and tired.
 
-<img src="/files/IMG_0191.JPG" width="400px"/>
+<img src="/files/IMG_0191.JPG" width="400px" />
 
 ### Day 2: Chin beach to Little Kuitsche Creek
 
@@ -45,7 +45,7 @@ Every campsite has tent pads, which for people with hiking pole tents, like me, 
 * **Time:** 5h 07m
 * **Elevation:** 552 up 📈 and the same down 📉
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9229033403">
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9229033403"></div>
 
 On day two, I noticed that I'd overdone it on day one and I had a slow and sluggish start to the day, but was still able to press on and glad when I finished. This day was easier than yesterday, mostly. It still starts off tough with lots of up and down and then a reasonable sized (200m) hill.
 
