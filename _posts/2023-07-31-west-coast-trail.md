@@ -39,6 +39,8 @@ This was a tough, wet and hard day. It stopped raining at the end, so fortunatel
 
 We heard there were 4 evacuations from Thrashers and 2 from Walbran - damaged ankles, damaged wrists, and hypothermia.
 
+**Note:** last year the exact same watch recorded 13.35km for this exact same part of the trail. I'm not sure where the extra 5km or so came from 🤷‍♂
+
 ### Day two: Camper Bay to Walbran
 
 *12.35km in 7h 47m*
@@ -55,14 +57,12 @@ Arriving at Walbran was wonderful, the sun had come through after 2 days of rain
 
 *12.43km in 5h*
 
-This was planned as easier day. Most days we were up and moving by around 7:30am, so we'd planned to be done after lunch and have a bit of a rest day to relax. It started off with a fog bank rolling in, which meant that we didn't get much of a view, but it was still beautiful.
+This was planned as an easier day. Most days we were up and moving by around 7:30am, so we'd aimed to be done after lunch and have a bit of a rest day to relax. It started off with a fog bank rolling in, which meant that we didn't get much of a view, but it was still beautiful.
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741448"></div><script src="https://strava-embeds.com/embed.js"></script>
 
 
 There's a small inland bit around Carmanah lighthouse, but most of this part of the trail is beach walking. Last year the lighthouses were closed, so I was glad to be able to go and checkout the lighthouse grounds. Unfortunately the view was just fog 😢
-
-<img src="/files/IMG_5430.jpeg" width="400">
 
 By the time we got to Cribbs the sun had come out. We set up our tents on the beach and then basically enjoyed the sun - and we got a bit sunburnt 😀
 
