@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2023-06-22T02:29:36+00:00</updated>
+<updated>2023-06-22T02:37:57+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;All GitHub infrastructure was managed in GitHub. Configuration for services were stored in Git. To change something, you created a pull request with the changes. It would get reviewed by the appropriate teams. When the pull request is merged, then CI would kick off a new deployment with the changes.&lt;/p&gt;
 
-&lt;p&gt;Putting everything into GitHub providing a consistent interface that everyone understood, a consistent notification and review interface, an audit log and so on. This would be consistent across all the tooling. The power of this consistency here can’t be understated. If you don’t use this approach you are stuck on the learning curve as you figure out the UI, the API, the terminology and so on. That’s removed by having it all in place.&lt;/p&gt;
+&lt;p&gt;Putting everything into GitHub providing a consistent interface that everyone understood, a consistent notification and review interface, an audit log and so on. This would be consistent across all the tooling. The power of this consistency here can’t be understated. If you don’t use this approach you are stuck on the learning curve as you figure out the UI, the API, the terminology and so on. That’s removed by having it all in one place.&lt;/p&gt;
 
 &lt;p&gt;Of course, it’s not perfect since often tooling needs to be built to allow this to happen. File formats and configuration will vary across teams and tools, so sometimes it’s not completely obvious what changes need to be made. Sometimes deploys would happen automatically, sometimes you need to run commands - that sort of thing.&lt;/p&gt;
 
