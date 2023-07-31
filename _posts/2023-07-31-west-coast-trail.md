@@ -116,4 +116,4 @@ Everything I said last time <a href="https://mckay.pub/2022-06-25-west-coast-tra
 
 I would do it every year if the opportunity came up. If I had to make a choice between this trail and another one in the world, I'd like to explore more of the world. Living nearby and it being relatively easy for me to organise, makes it a tempting thing to just keep doing again and again.
 
-
+Waking up at home on Sunday morning, I missed not being on the West Coast Trail. Missed waking up in my tent, making my breakfast, sitting watching the whales from the beach and looking forward to a day of hiking. That's probably a good sign that I enjoyed my trip.
