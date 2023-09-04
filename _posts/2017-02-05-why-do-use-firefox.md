@@ -25,7 +25,7 @@ The evidence tells me that Firefox **must offer some benefits or value beyond ju
 
 So what does keep you using Firefox?
 
-<b>Update:</b> this blog post has more attention than usual, so if you want to contact me, try: <a href="mailto:andy@mckay.pub">andy@mckay.pub</a> or <a href="https://twitter.com/andymckay">@andymckay</a>. Thanks.
+<b>Update:</b> this blog post has more attention than usual, so if you want to contact me, try: <a href="mailto:andy@mckay.pub">andy@mckay.pub</a>. Thanks.
 
 <hr>
 

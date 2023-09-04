@@ -25,11 +25,9 @@ Braking is fundamental to **NOT KILLING PEOPLE**.
 
 There used to be a button on the screen to turn on, off windscreen wipers. The button was in the same place and would bring up more options. The button was close to the driver and you got trained to find it if you drove in wet weather, like in Vancouver.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Depends on easy I guess. This button here was useful. Now its buried. <a href="https://t.co/X9xSW0N8st">pic.twitter.com/X9xSW0N8st</a></p>&mdash; Andy McKay (@andymckay) <a href="https://twitter.com/andymckay/status/1478472132464033793?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
 That button is gone.
 
-You can get to it by pressing the stalk, but that also triggers the wipers to wipe. There are multiple situtations where you might not want to do that.
+You can get to it by pressing the stalk, but that also triggers the wipers to wipe. There are multiple situations where you might not want to do that.
 
 But don't auto wipers in the Tesla work? No. They are shit. Just don't even try.
 
@@ -58,3 +56,5 @@ People complain about other things in the update, how it seems unfinished, acces
 But losing access to brakes, harder access to wipers and defogging is critical to **NOT KILLING PEOPLE**.
 
 You can really see an update by people who don't seem to drive a car in anything other than perfect California weather.
+
+**Update:** a few months later Telsa let you move a few buttons down to the bottom bar. We've got windscreen wipers, front defrost and rear defrost there. I've had to show other Tesla drivers how to do that.

@@ -21,7 +21,7 @@ blog: andy-mckay
 
 <p>Using the same technologies for building websites, mobile applications and desktop applications is incredibly helpful. You get to use the same tool chain throughout. That means you can move developers between projects quickly and tools that developers are already familiar with can be used. That makes your developers far more productive.</p>
 
-<p>Got a common JavaScript library that you use for all your websites? Re-use it. Unless its <a href="http://twitter.com/andymckay/status/10743307503">jQuery</a>.</p>
+<p>Got a common JavaScript library that you use for all your websites? Re-use it. Unless its jQuery.</p>
 
 <h3>Re-use skills</h3>
 

@@ -9,9 +9,7 @@ A bit ago was my fifth Gran Frondo, <a href="https://mckay.pub/2018-09-09-fourth
 
 Last year I dropped 25 minutes off my time and that made me really happy. This year my goal was 4 hours. This was just an aribtrary number, but it was also based on an attempt to qualify for the 2020 version of this race which is a UCI World Cup Event.
 
-Up to May I was almost continually running with the <a href="https://www.strava.com/activities/2344462557/overview">BMO Half Marathon</a> in May which I did in 2h 08m. In March, April and May I was running up to average of 40km a week.  I guess I was kind excited by that:
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2:08:42 for my first half marathon - woot! Next year the full deal. <a href="https://t.co/uwBDROsGSD">pic.twitter.com/uwBDROsGSD</a></p>&mdash; Destroy all cars (@andymckay) <a href="https://twitter.com/andymckay/status/1125131691234811904?ref_src=twsrc%5Etfw">May 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Up to May I was almost continually running with the <a href="https://www.strava.com/activities/2344462557/overview">BMO Half Marathon</a> in May which I did in 2h 08m. In March, April and May I was running up to average of 40km a week.  I guess I was kind excited by that.
 
 Because I focused a lot on running this year, my riding patterns changed a lot.
 
@@ -64,9 +62,7 @@ The result? <a href="https://www.strava.com/activities/2688389229">I ended up cr
 
 <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2688389229/embed/a40d29d1cc807aa0cb7d36fb4cb6830e9eca7f4c'></iframe>
 
-Actually I guess I was pretty happy with it:
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fuck yeah! Fastest time yet 4:16 <a href="https://t.co/DSdOEe33NG">pic.twitter.com/DSdOEe33NG</a></p>&mdash; Destroy all cars (@andymckay) <a href="https://twitter.com/andymckay/status/1170415223066386432?ref_src=twsrc%5Etfw">September 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Actually I guess I was pretty happy with it.
 
 I did not qualify for the World Cup race for next year, but I've signed up again to do the normal race.
 
