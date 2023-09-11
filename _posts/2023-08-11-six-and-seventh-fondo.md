@@ -5,7 +5,7 @@ categories: cycling
 blog: andy-mckay
 ---
 
-I've done the Whislter Gran Fondo a few times (first, second, third, fourth and fifth), but despite the misleading title, they aren't the only Fondo's I've done. Anyways, this week I completed my seventh Gran Fondo and realised I didn't write about last years. So here goes.
+I've done the Whislter Gran Fondo a few times ([first](https://mckay.pub/2015-09-12-gran-fondo/), [second](https://mckay.pub/2016-11-03-second-fondo/), [third](https://mckay.pub/2017-09-10-third-fondo/), [fourth](https://mckay.pub/2018-09-09-fourth-fondo/) and [fifth](https://mckay.pub/2019-09-20-fifth-fondo/)). This week I completed my seventh Whistler Gran Fondo and realised I didn't write about last years. So here goes.
 
 ### Sixth Gran Fondo (2022)
 
