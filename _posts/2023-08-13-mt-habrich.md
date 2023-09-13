@@ -15,11 +15,11 @@ As it turns out Sky Pilot is a "serious mountain" involving things like creavass
 
 So on the [Juan de Fuca](https://mckay.pub/2023-06-20-juan-de-fuca/) trail by boots just fell apart. I was annoyed that they only lasted a year, so decided to get some solid boots. So I got some serious [Zamberlan boots](https://www.mec.ca/en/product/5024-148/996-vioz-gore-tex-backpacking-boots) and everyone I know who had them loved them... once they broke them in.
 
-No matter what I do I couldn't seem to break them in and get blisters. So witness my first bike hike with them:
+No matter what I do I couldn't seem to break them in and get blisters. So witness my first hike with them:
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9395027270"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-I had to turn 5km with big blisters on my heels. They'd been hurting for a while and I'd tried many different socks and tried a heel lock with my laces, to no avail. Knowning that I had to prepare my heels for the [West Coast Trail](https://mckay.pub/2023-07-31-west-coast-trail/), I had to call it quits. Annoyed on the way home and stopped at MEC and bought some light trail Solomon boots. I completed the whole West Coast Trail in 6 days with zero blisters in those boots.
+I had to turn back at 5km with big blisters on my heels. They'd been hurting for a while and I'd tried many different socks and a heel lock with my laces, to no avail. Knowning that I had to keep my heels in good shape for the [West Coast Trail](https://mckay.pub/2023-07-31-west-coast-trail/), I had to call it quits. Annoyed on the way home, I stopped at MEC and bought some light trail Solomon boots. I completed the whole West Coast Trail in 6 days with zero blisters in those new boots.
 
 ### Second attempt
 
