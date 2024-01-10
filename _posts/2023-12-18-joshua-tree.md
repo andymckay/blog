@@ -43,7 +43,7 @@ There were horses. This was a nicer hike deeper into the desert with more Joshua
 
 One of obligatory night time photos 👇
 
-<img src="/files/IMG_0591.jpeg" width="400px">
+<img src="/files/IMG_0591.jpeg" width="800px">
 
 Was getting colder overnight, I was feeling it, but still doing ok.
 
@@ -73,7 +73,7 @@ This is so different to the desert, the heat and the fauna. It's much drier but 
 
 We made the second tram up at 10:15am, then spoke to the super nice ranger to get our permit and then set off. But because of the time of year, we ended back at the tram just as darkness was falling. It was close.
 
-<img src="/files/IMG_6098.jpeg" width="400px">
+<img src="/files/IMG_6098.jpeg" width="800px">
 
 The trail had ice bits on it where streams crossed, but overall it was clear and I didn't need spikes at all.
 
