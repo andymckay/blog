@@ -14,6 +14,10 @@ For this trip I made a couple of additions to my gear because I was concerned ab
 * I finally got a puffy style jacket to keep me warm, I've seen these on a bunch of trails and always thought they were a bit weird, preferring layers instead. Would recommend.
 * I got a sleeping bag liner which adds another 15c to the sleeping bag range. Would also recommend.
 
+## Day 1
+
+Organizing, car rental, fuel and food stock up - that sort of thing.
+
 ## Day 2
 
 Our first hike was in Joshua Tree from the Blackrock campground. A 13km hike up over two small peaks, this was mostly our just breaking in hike.
@@ -73,7 +77,7 @@ We made the second tram up at 10:15am, then spoke to the super nice ranger to ge
 
 The trail had ice bits on it where streams crossed, but overall it was clear and I didn't need spikes at all.
 
-It just felt so much like it's own little ecosystem up there at 3,000m and I ❤️ it. Would do again. Also the highest mountain I've peaked (higher than Machu Pichu, 3x higher than Seymour, 1.5x higher than Mt Rohr etc) even though I didn't do all the elevation in one go.
+It just felt so much like it's own little ecosystem up there at 3,000m and I ❤️ it. Would do again. Also the highest mountain I've peaked (3x higher than Seymour, 1.5x higher than Mt Rohr) even though I didn't do all the elevation in one go.
 
 --
 
