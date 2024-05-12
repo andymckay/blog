@@ -3,12 +3,48 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-01-10T01:24:03+00:00</updated>
+<updated>2024-05-12T20:57:32+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Hike - South Needle via Lynn Peak</title>
+<link href="https://mckay.pub/2024-05-12-south-needle/"/>
+<updated>2024-05-12T00:00:00+00:00</updated>
+<id>https://mckay.pub/south-needle</id>
+<content type="html">&lt;p&gt;Peaks bagged 👇&lt;/p&gt;
+
+&lt;p&gt;✅ Lynn Peak
+✅ Rice Peak
+✅ South Needle&lt;/p&gt;
+
+&lt;p class=&quot;sup&quot;&gt;&lt;a href=&quot;/files/peaks-bagged.html&quot;&gt;List of 2024 peaks bagged&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr class=&quot;flourished&quot; /&gt;
+
+&lt;p&gt;Instead of aiming for more bike races or longer runs, this year I’ve set my sights somewhere slightly different. Instead I’m going to try and bag all the peaks in North Vancouver, as defined by the &lt;a href=&quot;https://www.baggerchallenge.ca/peaks&quot;&gt;Peak Baggers group&lt;/a&gt;. Unfortunately that group requires Facebook and I refuse to use that site so I’ve &lt;a href=&quot;/files/peaks-bagged.html&quot;&gt;got my own list going&lt;/a&gt;. It’s a big list.&lt;/p&gt;
+
+&lt;p&gt;It’s still early in the year for any of the higher North or West Vancouver peaks. Most people are doing Gambier, Bowen and Anvil. Hills I might do at some point, but don’t really interest me as much as the big ones on the mainland. So I thought yesterday I’d take a stab at the Needles in Lynn Valley, because they are lower than most of the other peaks and aren’t as likely to be covered in snow and ice. I tried to get to South Needle last year and was turned around by snow and ice that made it really hard to hike.&lt;/p&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;11389460096&quot; data-style=&quot;standard&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This year, getting up to the first couple of peaks was relatively straightforward and there wasn’t any snow. Between those peaks and the South Needle there were patches of snow but nothing too bad and up to the South Needle at 1163m. The hike there is great, at times you are walking on tree lined ridge with huge tree lined steep slopes on each side. The trail has really steep parts and there was just one bit on the South Needle where my nervousness with heights hit me - a small rock outcropping with a 100% chance of death if you slip.&lt;/p&gt;
+
+&lt;p&gt;At the top the north side and the Middle Needle was all snow and ice covered. I met a group up there who tried to go towards Middle Needle and saw the steep slope with big drops covered in snow, ice, all in various stages of melting and turned back. They had better gear than me (I just had crampons) so I knew that was not going to happen.&lt;/p&gt;
+
+&lt;p&gt;On the way down, I went down the Hydraulic Creek trail, which is really steep. Just looking at the elevation change on Strava 👆 makes this clear.&lt;/p&gt;
+
+&lt;p&gt;Then it was either back out along the road through the Seymour Demonstration Forest, or even further by heading over to Fishermans Trail and coming out at the top of Riverside drive. I’ve run and cycled that trail a lot and forgotten how boring and long it was.&lt;/p&gt;
+
+&lt;p&gt;An amazing hike with amazing views, it was a shame I couldn’t get the other two needles in but I can get those from the Coliseum mountain side another time.&lt;/p&gt;
+
+&lt;p&gt;So there it goes, my first attempt at trying to bag all the peaks with a couple of relatively easy ones. Let’s see how it goes!&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Trip - Joshua Tree</title>
@@ -941,74 +977,6 @@
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;We could also do this by allowing custom code to be run in the catalog, however this has its own share of problems. Access to repositories, secret management, resource utilization, ease of upgrades and so on. Better to use an external service. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</content>
-</entry>
-
-<entry>
-<title>Service catalog</title>
-<link href="https://mckay.pub/2023-05-15-service-catalog/"/>
-<updated>2023-05-15T00:00:00+00:00</updated>
-<id>https://mckay.pub/service-catalog</id>
-<content type="html">&lt;p&gt;When I joined the on-call rotation at GitHub as we &lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;launched GitHub Actions&lt;/a&gt;, being on-call was something that was pretty new to me. I learnt a lot and had some amazing experienced colleagues who taught me a lot and there’s still so much to learn.&lt;/p&gt;
-
-&lt;p&gt;At one point GitHub had over 500 developers working &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; on the site and all the parts, spread out across the globe. It also interacted with teams at other companies, such as Microsoft and the Azure teams.&lt;/p&gt;
-
-&lt;p&gt;Navigating and understanding your services, teams and dashboards in an organization is hard, it was at GitHub. Repeatedly I’ve spoken to organizations building tooling to solve this internally.&lt;/p&gt;
-
-&lt;p&gt;Some of the problems you might have in your engineering organization 👇&lt;/p&gt;
-
-&lt;h3 id=&quot;navigating-your-engineering-services&quot;&gt;Navigating your engineering services&lt;/h3&gt;
-
-&lt;p&gt;As the size, speed and scale of your organization grows just navigating the teams grows harder. New people who join the company can struggle to find who does what and what’s important. Veterans struggle to keep up with changes.&lt;/p&gt;
-
-&lt;p&gt;What do those teams do? Who’s on the teams? Where do they hang out and communicate? What dashboards do they have?&lt;/p&gt;
-
-&lt;p&gt;If your answer is a document somewhere, a wiki, or so-on. The moment those documents are finished they are out of date.&lt;/p&gt;
-
-&lt;h3 id=&quot;quality-of-your-services&quot;&gt;Quality of your services&lt;/h3&gt;
-
-&lt;p&gt;So you’ve got a series of services that make up your product. Those will be spread out across the organisation with different ideas and leaders. Spreading ideas and information out across those services and teams is hard.&lt;/p&gt;
-
-&lt;p&gt;Tools like Datadog, Splunk etc, are available to crunch all the run time information and provide you with good information about how users are using your service.&lt;/p&gt;
-
-&lt;p&gt;But there are other metrics and measurements within an organisation that you need to make sure are kept up to date. How many security issues are there on the service? Are they being dealt with quickly? Are legal requirements satisified? Is the team within compliance? Has the team got on-call rotation setup?&lt;/p&gt;
-
-&lt;p&gt;In a large organization you want to ensure that teams are meeting their goals before incidents happen.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-do-we-fix-a-problem&quot;&gt;How do we fix a problem?&lt;/h3&gt;
-
-&lt;p&gt;Most of the time when an incident happened at GitHub we’d go through a progression that looked like this, in roughly this order:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;What just got deployed?&lt;/li&gt;
-  &lt;li&gt;What got migrated or transitioned?&lt;/li&gt;
-  &lt;li&gt;What just got turned on or off?&lt;/li&gt;
-  &lt;li&gt;What external services we depend on are having problems?&lt;/li&gt;
-  &lt;li&gt;What are users doing to the site?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In an incident you need concise and clear information as soon as you can to reduce your time to mitigation. Cognitive overload and lack of clarity in an incident slows everything down.&lt;/p&gt;
-
-&lt;p&gt;Even just knowing the key deployments and releases over the last hour and then the correct teams to contact - reduces the time to mitigate incidents the majority of the time.&lt;/p&gt;
-
-&lt;h3 id=&quot;service-catalog-release&quot;&gt;Service catalog release&lt;/h3&gt;
-
-&lt;p&gt;Over the last while I’ve been building a tool to do these things. The service catalog is tightly integrated into GitHub and GitHub Actions. Best of all, it’s free, open source and available for anyone to use straightaway.&lt;/p&gt;
-
-&lt;p&gt;Check it out here 👉 &lt;a href=&quot;https://github.com/clearwind-ca/service-catalog&quot;&gt;https://github.com/clearwind-ca/service-catalog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/catalog-services-may-15.png&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Watch this space for some more articles about it and if you are interested in using this, &lt;a href=&quot;https://clearwind.ca/&quot;&gt;drop me a line&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;–&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;This is an estimate, I don’t have the numbers and can’t remember the exact number 🤷‍♂ &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
