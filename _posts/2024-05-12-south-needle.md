@@ -5,8 +5,8 @@ categories: hikes
 blog: andy-mckay
 ---
 
-✅ Lynn Peak ✅ Rice Peak ✅ South Needle
-<p class="sup"><a href="/files/peaks-bagged.html">ℹ️ List of 2024 peaks bagged</a>.</p>
+Bagged: ✅ Lynn Peak ✅ Rice Peak ✅ South Needle
+<p>ℹ️ <a href="/files/peaks-bagged.html">List of 2024 peaks bagged</a>.</p>
 
 <hr class="florished">
 
