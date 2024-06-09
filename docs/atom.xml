@@ -3,12 +3,40 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-05-12T21:22:47+00:00</updated>
+<updated>2024-05-20T19:47:42+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Mt Gardner</title>
+<link href="https://mckay.pub/2024-05-20-gardner/"/>
+<updated>2024-05-20T00:00:00+00:00</updated>
+<id>https://mckay.pub/gardner</id>
+<content type="html">&lt;p&gt;Bagged: ✅ Mt. Gardner ❌ Suicide Bluffs ❌ de Pencier&lt;/p&gt;
+&lt;p&gt;ℹ️ &lt;a href=&quot;/files/peaks-bagged.html&quot;&gt;List of 2024 peaks bagged&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr class=&quot;florished&quot; /&gt;
+
+&lt;p&gt;On Saturday with a couple of friends we did Mt. Gardner on Bowen Island. It’s one of the lower peaks and guaranteed to be snow free. We hopped on the ferry, parked at the south west end and then went up the hike.&lt;/p&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;11441621211&quot; data-style=&quot;standard&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Honestly it’s a pretty straightforward hike, a few steep parts. At the top the true summit is pretty rubbish, so head north to the telecommunication towers for a better view. All we saw was mist and cloud as the weather closed in. We hiked all the way down in the rain which of course stopped, right as we completed the hike.&lt;/p&gt;
+
+&lt;p&gt;On Sunday I aimed to do Suicide Bluffs and de Pencier. I figured at 1,100m odd they’d be snow free or at least less snow, especially considering my experience on South Needle (similar elevation) the week before. How different it was. About 15 minutes after leaving the parking lot, we were facing continual snow and had our spikes on.&lt;/p&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;11449574600&quot; data-style=&quot;standard&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Suicide bluffs trail was deep snow, something we were not prepared for. There’s no trail visible, no markings and without snow shoes we were getting very wet. We turned back quite quickly, not wanting to venture anywhere near unstable snow or cornices. We then thought about de Pencier so headed over that way and faced similar deep snow.&lt;/p&gt;
+
+&lt;p&gt;At this point it started raining and was cold. So knowing that these peaks are something I do regularly during the summer and will come back to, decided to call it quits. A little disappointing, but the amount of snow still up there was surprising. Going to be another couple of weeks before those are easy to do.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Hike - South Needle via Lynn Peak</title>
@@ -867,113 +895,6 @@
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;I couldn’t spot it in GraphQL either, sometimes the two aren’t in sync so it might be there, couldn’t find it though. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</content>
-</entry>
-
-<entry>
-<title>Service catalog - Using Actions</title>
-<link href="https://mckay.pub/2023-05-18-using-actions/"/>
-<updated>2023-05-18T00:00:00+00:00</updated>
-<id>https://mckay.pub/using-actions</id>
-<content type="html">&lt;p&gt;As part of the &lt;a href=&quot;https://github.com/clearwind-ca/service-catalog&quot;&gt;service catalog&lt;/a&gt; (see &lt;a href=&quot;https://mckay.pub/2023-05-15-service-catalog/&quot;&gt;announcement&lt;/a&gt;) we want to be able to measure the “quality or readiness” of a service.&lt;/p&gt;
-
-&lt;p&gt;Quality or readiness of a service tends to be different from code quality, although they might be overlap. Ideas of readiness could include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Does the team specify a place for bugs or feedback?&lt;/li&gt;
-  &lt;li&gt;Does the team specify an on-call rotation?&lt;/li&gt;
-  &lt;li&gt;Is the team keeping on top of security issues?&lt;/li&gt;
-  &lt;li&gt;Is the service meeting legal obligations or compliance?&lt;/li&gt;
-  &lt;li&gt;Is the service vulnerable to urgent security problems?&lt;/li&gt;
-  &lt;li&gt;Does the team have appropriate metrics and dashboard?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These questions and more are defined by the organization and different for every organization. Trying to code all those situations and questions is not within the service catalog’s goal.&lt;/p&gt;
-
-&lt;p&gt;So we need to find a way to allow customers to be able to create and code health checks, while avoiding running arbitrary code in the service catalog &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. For this, GitHub Actions came to the rescue.&lt;/p&gt;
-
-&lt;p&gt;So let’s take an example, scanning all our services to ensure no one is vulnerable to the &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2021-44228&quot;&gt;Log4J vulnerability&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the service catalog we create a health check for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Log4J&lt;/code&gt;. The service catalog will send a &lt;a href=&quot;https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch&quot;&gt;repository_dispatch&lt;/a&gt; on a schedule defined in the catalog for this check.&lt;/p&gt;
-
-&lt;p&gt;In GitHub we’ll write an Action to grab the repository, scan it and send the result back to the catalog.&lt;/p&gt;
-
-&lt;p&gt;Here’s how that Action would look:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-  log4j:
-    env:
-      # We&apos;ll need this to write back to the catalog.
-      SERVICE_CATALOG_TOKEN: ${{ secrets.SERVICE_CATALOG_TOKEN }}
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        # Grab the repository for the service that the catalog has sent to us.
-        repository: ${{ github.event.client_payload.repository }}
-    - run: |
-        # Grab a log4jscanner.
-        wget https://github.com/google/log4jscanner/releases/download/v0.5.0/log4jscanner-v0.5.0-linux-amd64.tar.gz
-        tar -zxf log4jscanner-v0.5.0-linux-amd64.tar.gz
-        cd log4jscanner
-        ./log4jscanner $GITHUB_WORKSPACE &amp;gt;&amp;gt; /tmp/log4j.results
-        
-        # Write some annotations in the Action log and a JSON file
-        # ready to send back to the catalog.
-        if test -s &quot;/tmp/log4j.results&quot;; then
-          contents=$(cat /tmp/log4j.results)
-          echo &quot;::error::Vulnerable files found&quot;
-          printf &apos;{&quot;result&quot;: &quot;fail&quot;, &quot;message&quot;: &quot;Vulnerable file(s) found: `%s`&quot;}&apos; $contents &amp;gt;&amp;gt; /tmp/service-catalog-result.json
-        else
-          echo &quot;::notice::All good, no vulnerable files found&quot;
-          printf &apos;{&quot;result&quot;: &quot;pass&quot;}&apos; &amp;gt;&amp;gt; /tmp/service-catalog-result.json
-        fi
-        echo `cat /tmp/service-catalog-result.json`
-
-    # Send the result back
-    - uses: clearwind-ca/send-result@main
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Most of this code is running the log4j scanner and finding the vulnerable files. At the end there’s a simple Action &lt;a href=&quot;github.com/clearwind-ca/send-result&quot;&gt;clearwind-ca/send-result&lt;/a&gt; that sends the results to the catalog.&lt;/p&gt;
-
-&lt;p&gt;Here’s a little chart:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-  ┌────────────────┐
-  │ Service        │
-  │                ◄──────────┐
-  └────────────────┘          │
-                              │
-  ┌────────────────┐   ┌──────┴─────────┐            ┌───────────────────┐
-  │ Health check   │   │ Health check   │ Dispatch   │ GitHub Action     │
-  │                ◄───┤ Result         ├────────────►                   │
-  └────────────────┘   └──────▲─────────┘            └──────┬────────────┘
-                              │                             │
-                              └─────────────────────────────┘
-                                    Pass, fail response
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The great parts about this approach are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Grabbing and running arbitrary code is now sandboxed with GitHub Actions.&lt;/li&gt;
-  &lt;li&gt;The code and information about the code is on GitHub anyway (issue, repositories etc) so doing the work on GitHub makes sense.&lt;/li&gt;
-  &lt;li&gt;GitHub Actions have great secret management, so you can store secrets for other services. That allows you to query other services like Slack, Pager Duty and so on.&lt;/li&gt;
-  &lt;li&gt;There are thousands of &lt;a href=&quot;https://github.com/marketplace?category=&amp;amp;query=&amp;amp;type=actions&amp;amp;verification=&quot;&gt;re-usable Actions within the GitHub Marketplace&lt;/a&gt; that we can use to do these checks.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Using Actions this way gives customers the chance to build these checks quickly and simply in Actions. Separation of concerns, allows us to focus on building the best thing in the catalog. And finally, don’t want to use Actions? That’s cool, there’s an API for the catalog that let’s you go down a different path if you like.&lt;/p&gt;
-
-&lt;p&gt;–&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;We could also do this by allowing custom code to be run in the catalog, however this has its own share of problems. Access to repositories, secret management, resource utilization, ease of upgrades and so on. Better to use an external service. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
