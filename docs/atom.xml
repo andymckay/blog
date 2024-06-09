@@ -3,12 +3,38 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-05-20T19:47:42+00:00</updated>
+<updated>2024-06-09T19:17:03+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>de Pencier and Black</title>
+<link href="https://mckay.pub/2024-06-09-de-pencier-black/"/>
+<updated>2024-06-09T00:00:00+00:00</updated>
+<id>https://mckay.pub/de-pencier-black</id>
+<content type="html">&lt;p&gt;Bagged: ✅ de Pencier ✅ Black Mountain&lt;/p&gt;
+&lt;p&gt;ℹ️ &lt;a href=&quot;/files/peaks-bagged.html&quot;&gt;List of 2024 peaks bagged&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr class=&quot;florished&quot; /&gt;
+
+&lt;p&gt;On Saturday I did De Pencier by hiking all the way up from Deep Cove. I could have done it from the parking lot, but it’s a good practice hike and I was able to get a ride back down, so may as well take the opportunity.&lt;/p&gt;
+
+&lt;p&gt;It’s currently snow free up to about 950m. Snow is common in shaded areas over 1000m and is constant in shaded areas over 1050m. Around Mystery Lake, Brockton chair and De Pencier itself is still snowy and  spikes highly recommended.&lt;/p&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;11606417454&quot; data-style=&quot;standard&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;On Sunday I did Black Mountain from the Cypress parking lot. A shorter hike with my sore legs was most welcome. There were some patches of snow in shaded areas, but spikes weren’t needed and it was mostly clear. On the top of Black Mountain there was no snow.&lt;/p&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;11613740810&quot; data-style=&quot;standard&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;On both hikes any snow in exposed areas was rapidly melting.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Mt Gardner</title>
@@ -798,106 +824,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;The Stein has become our first trip of year and we’ll probably do it again next year. I know I’ll be spending the long winter months looking forward to it.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>Service catalog - Timezone support</title>
-<link href="https://mckay.pub/2023-05-26-timezone-support/"/>
-<updated>2023-05-26T00:00:00+00:00</updated>
-<id>https://mckay.pub/timezone-support</id>
-<content type="html">&lt;p&gt;When you are in an incident that’s causing impact to your customers, you’ll be looking at data in multiple sources. From events on GitHub, messages on Slack, logs in Splunk, graphs in Datadog and on and on. At the time of an incident there’s a lot going on and one thing that always caused a bit more cognitive stress for me was calculating when everything happened. To add to this, you might be working with people who are in diverse time zones. Most services (thank goodness) these days log in UTC and the service catalog is no exception, logging things in UTC.&lt;/p&gt;
-
-&lt;p&gt;To make life just that bit easier, the &lt;a href=&quot;https://github.com/clearwind-ca/service-catalog/releases/tag/0.1.3&quot;&gt;service catalog now allows you to set a timezone&lt;/a&gt; and whenever you see a date, you’ll see it 3 different ways:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The time relative to now&lt;/li&gt;
-  &lt;li&gt;The time in UTC&lt;/li&gt;
-  &lt;li&gt;The time in your timezone&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here’s an example:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/service-catalog-times.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This may seem like a small thing, but this, along with the little &lt;code&gt;copy to clipboard&lt;/code&gt; make it easier to communicate and understand what happened. Since the service catalog can capture important arbitrary events, such as deployments, migrations, releases, feature flag changes in catalog events, it’s easy to establish a timeline of what happened.&lt;/p&gt;
-
-&lt;p&gt;It’s been a while since I’ve done Django and this was a good learning experience through the timezone support which has been added over the years, and as usual was done really well. There’s a few things I’m going to highlight that I thought were good, but this document &lt;a href=&quot;https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/&quot;&gt;covers all the basics&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;settings&quot;&gt;Settings&lt;/h3&gt;
-
-&lt;p&gt;You should have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TIME_ZONE&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;USE_TZ&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;True&lt;/code&gt;. I’ve worked on projects where the timestamp in the database is not in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt; and it just made me cry. Just leave this as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt; and never change it. There is only one timezone that data should ever be stored and it should always be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt;. Just don’t change that.&lt;/p&gt;
-
-&lt;h3 id=&quot;letting-users-pick-a-timezone&quot;&gt;Letting users pick a timezone&lt;/h3&gt;
-
-&lt;p&gt;You’ll probably have to make a &lt;a href=&quot;https://docs.djangoproject.com/en/4.2/topics/auth/customizing/#extending-the-existing-user-model&quot;&gt;user profile&lt;/a&gt; you ask the user for their timezone and then attach it to the user. The service catalog is tightly coupled to GitHub. In GitHub you also get to specify your timezone, but the &lt;a href=&quot;https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user&quot;&gt;REST API&lt;/a&gt; doesn’t include this information &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you are looking for a list of all the timezones, then the &lt;a href=&quot;https://docs.python.org/3/library/zoneinfo.html&quot;&gt;zoneinfo&amp;lt;/apy&amp;gt; package has you covered, no need to use &lt;a href=&quot;https://pypi.org/project/pytz/&quot;&gt;pytz&lt;/a&gt; anymore.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;With a model like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;zones&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zoneinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;available_timezones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Profile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;TIMEZONE_CHOICES&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;zip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zones&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OneToOneField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on_delete&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CASCADE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;timezone&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;CharField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;choices&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TIMEZONE_CHOICES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;UTC&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You’ll quickly have a nice form for the users.&lt;/p&gt;
-
-&lt;h3 id=&quot;using-that-timezone&quot;&gt;Using that timezone&lt;/h3&gt;
-
-&lt;p&gt;Again, as noted in that document, you’ll want to activate the timezone for that user as they hit the site.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TimezoneMiddleware&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_response&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__call__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;profile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timezone&lt;/span&gt;
-            &lt;span class=&quot;nf&quot;&gt;except &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;AttributeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
-
-        &lt;span class=&quot;c1&quot;&gt;# You&apos;ve got settings.TIME_ZONE set to &quot;UTC&quot; right? So that becomes the default.
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TIME_ZONE&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;timezone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;activate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;zoneinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ZoneInfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-
-        &lt;span class=&quot;c1&quot;&gt;# Stuff into the session for the next request.
-&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tzname&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get_response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This is a pretty simplified middleware that activates the timezone and stuffs it in the session. So what’s this going to do?&lt;/p&gt;
-
-&lt;p&gt;The date and time will be stored in the database as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt; as nature intended. But whenever it’s shown to a user, it will be translated into their timezone. When you have a form, users enter the date and time in their timezone and Django stores it as UTC. This is pretty much exactly what you want in a web site.&lt;/p&gt;
-
-&lt;h3 id=&quot;gotchas&quot;&gt;Gotchas&lt;/h3&gt;
-
-&lt;p&gt;To show the date in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt; in a template, I used the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utc&lt;/code&gt; filter. You can also use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% timezone None %}&lt;/code&gt; (as &lt;a href=&quot;https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/&quot;&gt;documented&lt;/a&gt;) or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localtime&lt;/code&gt;. Otherwise Django was being smart and trying to convert into the timezone for me.&lt;/p&gt;
-
-&lt;p&gt;A model has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;default=datetime.now&lt;/code&gt; on it, meaning a HTML form defaulted to showing the time in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt;. This was simple to fix in the view, because when the view was being called, the middleware (see above) had been called, allowing us to know the users timezone. So then in the view, I simply switched to the users timezone:&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        &lt;span class=&quot;n&quot;&gt;form&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;EventForm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;form&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fields&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;initial&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;timezone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;All this is well and good for the web interface, but what about the API? API’s should always be in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UTC&lt;/code&gt; and again that’s something non-negotiable in my opinion. In the middleware, if the request is coming into an API endpoint (it’s using Django Rest Framework) then the timezone just remains as UTC.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;That’s it, nothing to revolutionary in this post, but just a pile of stuff that’s builtin to Django and just gets it right in my opinion.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;I couldn’t spot it in GraphQL either, sometimes the two aren’t in sync so it might be there, couldn’t find it though. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </content>
 </entry>
 
