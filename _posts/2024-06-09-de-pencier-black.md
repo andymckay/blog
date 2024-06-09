@@ -16,7 +16,7 @@ It's currently snow free up to about 950m. Snow is common in shaded areas over 1
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11606417454" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-On Sunday I did Black Mountain from the Cypress parking lot. A shorter hike with my sore legs was most welcome. There were some patches of snow in shaded areas, but spikes weren'et needed and it was mostly clear. On the top of Black Mountain there was no snow.
+On Sunday I did Black Mountain from the Cypress parking lot. A shorter hike with my sore legs was most welcome. There were some patches of snow in shaded areas, but spikes weren't needed and it was mostly clear. On the top of Black Mountain there was no snow.
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11613740810" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
 
