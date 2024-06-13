@@ -44,7 +44,7 @@ Then select `All activity`:
 
 If you get a lot of GitHub notifications, this might be a chance to try [prioritizing your notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications)
 
-On Mastodon follow the [@vanpyz](https://hachyderm.io/@vanpyz) account.
+On Mastodon follow the [@vanpy](https://hachyderm.io/@vanpy) account.
 
 That's it.
 
