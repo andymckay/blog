@@ -41,7 +41,7 @@ Go to [vancouver/vanpy](https://github.com/vancouver/vanpy) and click on the <co
 
 Then select `All activity`:
 
-<img src="/files/vanpy-watch-all.png" width="800px" />
+<img src="/files/vanpy-watch-all.png" width="400px" />
 
 If you get a lot of GitHub notifications, this might be a chance to try [prioritizing your notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications)
 
