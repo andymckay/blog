@@ -5,7 +5,7 @@ categories: python
 blog: andy-mckay
 ---
 
-tl:dr; Meetup is [increasing prices](https://www.meetup.com/blog/new-organizer-pricing-key-improvements/) so the costs for the [Python User Group](https://www.meetup.com/vanpyz/) will be over $700 CAD a year. We are closing our Meetup account and moving to [GitHub](https://github.com/vancouver/vanpy) before July 7th 2024.
+Summary: Meetup is [increasing prices](https://www.meetup.com/blog/new-organizer-pricing-key-improvements/) so the costs for the [Python User Group](https://www.meetup.com/vanpyz/) will be over $700 CAD a year. **We are closing our Meetup account and moving to [GitHub](https://github.com/vancouver/vanpy) before July 7th 2024**.
 
 <hr>
 
@@ -31,7 +31,7 @@ No - **fuck you Meetup**. That's not what this community is about. So just to be
 
 It's free and it will be for a long time yet. It does all the things we need. Everyone has an account there.
 
-*We will* lose people, *we will* lose visibility and I think pretty much anyone else can take over the meetup.
+*We will* lose people, *we will* lose visibility and I think pretty much anyone else can take over the old group on Meetup. It's like Meetup is holding us hostage.
 
 ## What next?
 
@@ -39,7 +39,7 @@ Go to [vancouver/vanpy](https://github.com/vancouver/vanpy) and click on the <co
 
 <img src="/files/vanpy-watch.png" width="800px" />
 
-If you get a lot of GitHub notifications, might be a chance to try [prioritizing your notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications)
+If you get a lot of GitHub notifications, this might be a chance to try [prioritizing your notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications)
 
 On Mastodon follow the [https://hachyderm.io/@vanpy](hachyderm.io/@vanpyz) account.
 
