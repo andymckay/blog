@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-06-13T02:55:28+00:00</updated>
+<updated>2024-06-13T03:03:34+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -15,9 +15,9 @@
 <link href="https://mckay.pub/2024-06-12-leaving-meetup/"/>
 <updated>2024-06-12T00:00:00+00:00</updated>
 <id>https://mckay.pub/leaving-meetup</id>
-<content type="html">&lt;p&gt;tl:dr; Meetup is &lt;a href=&quot;https://www.meetup.com/blog/new-organizer-pricing-key-improvements/&quot;&gt;increasing prices&lt;/a&gt; so the costs for the &lt;a href=&quot;https://www.meetup.com/vanpyz/&quot;&gt;Python User Group&lt;/a&gt; will be over $700 CAD a year. We are closing our Meetup account and moving to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;GitHub&lt;/a&gt; before July 7th 2024.&lt;/p&gt;
+<content type="html">&lt;p&gt;Summary: Meetup is &lt;a href=&quot;https://www.meetup.com/blog/new-organizer-pricing-key-improvements/&quot;&gt;increasing prices&lt;/a&gt; so the costs for the &lt;a href=&quot;https://www.meetup.com/vanpyz/&quot;&gt;Python User Group&lt;/a&gt; will be over $700 CAD a year. &lt;strong&gt;We are closing our Meetup account and moving to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;GitHub&lt;/a&gt; before July 7th 2024&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;–&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;what-do-we-need&quot;&gt;What do we need?&lt;/h2&gt;
 
@@ -41,7 +41,7 @@
 
 &lt;p&gt;It’s free and it will be for a long time yet. It does all the things we need. Everyone has an account there.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;We will&lt;/em&gt; lose people, &lt;em&gt;we will&lt;/em&gt; lose visibility and I think pretty much anyone else can take over the meetup.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We will&lt;/em&gt; lose people, &lt;em&gt;we will&lt;/em&gt; lose visibility and I think pretty much anyone else can take over the old group on Meetup. It’s like Meetup is holding us hostage.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-next&quot;&gt;What next?&lt;/h2&gt;
 
@@ -49,19 +49,19 @@
 
 &lt;p&gt;&lt;img src=&quot;/files/vanpy-watch.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you get a lot of GitHub notifications, might be a chance to try &lt;a href=&quot;https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications&quot;&gt;prioritizing your notifications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you get a lot of GitHub notifications, this might be a chance to try &lt;a href=&quot;https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications&quot;&gt;prioritizing your notifications&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;On Mastodon follow the &lt;a href=&quot;hachyderm.io/@vanpyz&quot;&gt;https://hachyderm.io/@vanpy&lt;/a&gt; account.&lt;/p&gt;
 
 &lt;p&gt;That’s it.&lt;/p&gt;
 
-&lt;h2 id=&quot;psf&quot;&gt;PSF&lt;/h2&gt;
+&lt;h2 id=&quot;the-python-software-foundation&quot;&gt;The Python Software Foundation&lt;/h2&gt;
 
 &lt;p&gt;The PSF has a grant program to get Meetup costs paid for. I applied for that in November 2023 (yep &lt;strong&gt;8 months ago&lt;/strong&gt;) and still haven’t been added into the PSF program. At the last discord Q&amp;amp;A I think I heard that the person who as able to do this was on holiday (or something like that). I’m sorry for other user groups in this situation.&lt;/p&gt;
 
-&lt;p&gt;I’m not sure what’s happened there with the PSF grants program but I’m not gonna keep waiting for whatever is happening to sort itself out. Honestly it should probably spend it on something better than Meetup anyways.&lt;/p&gt;
+&lt;p&gt;I’m not sure what’s happened there with the PSF grants program but I’m not gonna keep waiting for whatever is happening to sort itself out. Perhaps there’s better places for the PSF grants than funding Meetup.&lt;/p&gt;
 
-&lt;p&gt;–&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I have charged for conferences, but those are big and require money to put on.&lt;/p&gt;
 </content>
