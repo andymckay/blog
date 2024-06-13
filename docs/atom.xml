@@ -3,12 +3,69 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-06-09T19:33:23+00:00</updated>
+<updated>2024-06-13T02:55:28+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Vancouver Python User Group Changes</title>
+<link href="https://mckay.pub/2024-06-12-leaving-meetup/"/>
+<updated>2024-06-12T00:00:00+00:00</updated>
+<id>https://mckay.pub/leaving-meetup</id>
+<content type="html">&lt;p&gt;tl:dr; Meetup is &lt;a href=&quot;https://www.meetup.com/blog/new-organizer-pricing-key-improvements/&quot;&gt;increasing prices&lt;/a&gt; so the costs for the &lt;a href=&quot;https://www.meetup.com/vanpyz/&quot;&gt;Python User Group&lt;/a&gt; will be over $700 CAD a year. We are closing our Meetup account and moving to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;GitHub&lt;/a&gt; before July 7th 2024.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;h2 id=&quot;what-do-we-need&quot;&gt;What do we need?&lt;/h2&gt;
+
+&lt;p&gt;We need somewhere to organise activities and talks, announce events and communicate with the community. These are pretty simple and straightforward requirements. We’ve actually been doing a bunch of these things GitHub anyway.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-not-meetup&quot;&gt;Why not Meetup?&lt;/h2&gt;
+
+&lt;p&gt;Meetup has been costing it’s organisers about $37 CAD a month for ages and has just increased it’s price to over $60 a month. The minimal functionality Meetup provides is not worth it. This was not optional price raise, there was no grandfathering in of old Meetups.&lt;/p&gt;
+
+&lt;p&gt;When talking to the former organizer Bryan Chow about this, he resisted moving off Meetup and saving himself money because of how hard it is get off of Meetup. Since we can’t get an export of emails out of Meetup, we know that any shift to a new platform will cost us users, probably most of it.&lt;/p&gt;
+
+&lt;p&gt;A price rise of that amount for features that suck or should be free is unacceptable. Plus, I’m retiring and don’t want to spend my money on Meetup. It also means it’s really hard to either get anyone else to run it - no-one wants to take on this money.&lt;/p&gt;
+
+&lt;p&gt;Also, here’s the first question Meetup asks when I decide to cancel:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/fuck-you-meetup.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No - &lt;strong&gt;fuck you Meetup&lt;/strong&gt;. That’s not what this community is about. So just to be clear &lt;strong&gt;I will never charge people to come to a simple Python meetup&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-github&quot;&gt;Why GitHub?&lt;/h2&gt;
+
+&lt;p&gt;It’s free and it will be for a long time yet. It does all the things we need. Everyone has an account there.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We will&lt;/em&gt; lose people, &lt;em&gt;we will&lt;/em&gt; lose visibility and I think pretty much anyone else can take over the meetup.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-next&quot;&gt;What next?&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;vancouver/vanpy&lt;/a&gt; and click on the &lt;code&gt;Watch&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/vanpy-watch.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you get a lot of GitHub notifications, might be a chance to try &lt;a href=&quot;https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications&quot;&gt;prioritizing your notifications&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On Mastodon follow the &lt;a href=&quot;hachyderm.io/@vanpyz&quot;&gt;https://hachyderm.io/@vanpy&lt;/a&gt; account.&lt;/p&gt;
+
+&lt;p&gt;That’s it.&lt;/p&gt;
+
+&lt;h2 id=&quot;psf&quot;&gt;PSF&lt;/h2&gt;
+
+&lt;p&gt;The PSF has a grant program to get Meetup costs paid for. I applied for that in November 2023 (yep &lt;strong&gt;8 months ago&lt;/strong&gt;) and still haven’t been added into the PSF program. At the last discord Q&amp;amp;A I think I heard that the person who as able to do this was on holiday (or something like that). I’m sorry for other user groups in this situation.&lt;/p&gt;
+
+&lt;p&gt;I’m not sure what’s happened there with the PSF grants program but I’m not gonna keep waiting for whatever is happening to sort itself out. Honestly it should probably spend it on something better than Meetup anyways.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I have charged for conferences, but those are big and require money to put on.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>de Pencier and Black</title>
@@ -750,80 +807,6 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
-</entry>
-
-<entry>
-<title>Trip report - Stein Valley</title>
-<link href="https://mckay.pub/2023-06-19-stein-valley/"/>
-<updated>2023-06-19T00:00:00+00:00</updated>
-<id>https://mckay.pub/stein-valley</id>
-<content type="html">&lt;p&gt;May in Vancouver means that many mountains are still covered in snow and its not good snow. Layers of mucky half melted snow and ice that’s hard to walk on, with repeated fall throughs and such. Other places tend to be not quite warm enough yet, so my friend and I kick started our backpacking with &lt;a href=&quot;https://bcparks.ca/explore/parkpgs/stein_val/&quot;&gt;a trip to the Stein&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Again, the main reason for doing the Stein in May is that it’s really warm. Like hot. It’s way too hot to do in the summer. With temperatures in May around 30c, it’s amazing. Once you get into the trees, by that raging river, it’s somewhere special.&lt;/p&gt;
-
-&lt;p&gt;We went there in &lt;a href=&quot;https://mckay.pub/2022-06-25-stein-valley/&quot;&gt;June last year&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-one-heading-into-the-stein&quot;&gt;Day one: Heading into the Stein&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Distance:&lt;/strong&gt; 8.58km&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; 3h 35m&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Elevation:&lt;/strong&gt; 303m&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;9109569545&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;The downside of going at this time of year is that the spring melt is in full swing. The quick rapid rise in temperature caused a lot of melt and once again we had to take the pipeline bridge across into the valley.&lt;/p&gt;
-
-&lt;p&gt;Once again the heat and lack of shade for that 4km until you get into the Stein valley properly is quite intense and something that really drained us. This year we were carrying much &lt;a href=&quot;https://mckay.pub/2022-06-25-packing-light/&quot;&gt;smaller and lighter backpacks fortunately&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Again we camped at Devils Staircase campground, again with no-one else there. Last year we tried heading further north into the Stein, but hit a problem 1km north with a gully that was badly washed out that I just couldn’t cross. This year I went on ahead and it was much more doable - so we knew were good to go for the next day and head further into the Stein.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-two-devils-staircase-to-the-suspension-bridge&quot;&gt;Day two: Devils Staircase to the Suspension bridge&lt;/h3&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;9116469041&quot;&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Distance:&lt;/strong&gt; 19.58km&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; 7h 38m&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Elevation:&lt;/strong&gt; 617m&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’ve always wanted to get as far up the Stein Valley as I could, but something always prevented this. So with the goal in mind of getting to the suspension bridge we consolidated into one light backpack with suitable supplies and head off to the suspension bridge, 20km up the valley.&lt;/p&gt;
-
-&lt;p&gt;This was a wonderful day of hiking with light backpacks and exploring parts of the valley I’d never visited before. There were parts of this valley that were just fabulous.&lt;/p&gt;
-
-&lt;p&gt;We saw this beauty in a tree, we think its a &lt;a href=&quot;https://en.wikipedia.org/wiki/Pacific_marten&quot;&gt;Pacific Marten&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/pacific-marten-1.png&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/pacific-marten-2.png&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At the top there are a few washouts that resulted in a bit of treacherous scrambling, but nothing too bad.&lt;/p&gt;
-
-&lt;p&gt;We then reached the suspension bridge and that’s as far as you can go since its closed from beyond there as a result of damage in the 2021 floods (&lt;a href=&quot;https://bcparks.ca/stein-valley-nlakapamux-heritage-park/&quot;&gt;as per the website&lt;/a&gt;). I’m not sure if it will ever open again, but if it does the Stein Traverse is still high on my bucket list.&lt;/p&gt;
-
-&lt;p&gt;We returned back to the Devils Staircase campground and found we were joined by a couple of other campers for the night.&lt;/p&gt;
-
-&lt;h3 id=&quot;day-three-leaving-the-stein&quot;&gt;Day three: Leaving the Stein&lt;/h3&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;9120298291&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Distance:&lt;/strong&gt; 7.94km&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2h 19m&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Elevation:&lt;/strong&gt; 263m&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On the last day, we woke up to a little bit of moisture in the air. There were even a couple of raindrops. The valley just became green and alive and vibrant, such a change from the heat beaten land before.&lt;/p&gt;
-
-&lt;p&gt;Light backpacks and just 6c weather made for a nice hike back out of the valley, across the bridge and back to the car. It only took just over 2 hours to complete. In comparison, last year when we did this in what felt like blazing heat took 3.5 hours, with lots of stopping.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The Stein has become our first trip of year and we’ll probably do it again next year. I know I’ll be spending the long winter months looking forward to it.&lt;/p&gt;
 </content>
 </entry>
 
