@@ -25,7 +25,7 @@ Also, here's the first question Meetup asks when I decide to cancel:
 
 <img src="/files/fuck-you-meetup.png" width="800px" />
 
-No - **fuck you Meetup**. I'm never charging people to come to a simple Python meetup. This is what Meetup thinks of you all.
+No - **fuck you Meetup**. That's not what this community is about. So just to be clear **I will never charge people to come to a simple Python meetup**.
 
 ## Why GitHub?
 
@@ -50,3 +50,7 @@ That's it.
 The PSF has a grant program to get Meetup costs paid for. I applied for that in November 2023 (yep **8 months ago**) and still haven't been added into the PSF program. At the last discord Q&A I think I heard that the person who as able to do this was on holiday (or something like that). I'm sorry for other user groups in this situation.
 
 I'm not sure what's happened there with the PSF grants program but I'm not gonna keep waiting for whatever is happening to sort itself out. Honestly it should probably spend it on something better than Meetup anyways.
+
+--
+
+**Note:** I have charged for conferences, but those are big and require money to put on.
