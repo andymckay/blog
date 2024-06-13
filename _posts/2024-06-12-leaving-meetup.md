@@ -7,7 +7,6 @@ blog: andy-mckay
 
 Summary: Meetup is [increasing prices](https://www.meetup.com/blog/new-organizer-pricing-key-improvements/) so the costs for the [Python User Group](https://www.meetup.com/vanpyz/) will be over $700 CAD a year. **We are closing our Meetup account and moving to [GitHub](https://github.com/vancouver/vanpy) before July 7th 2024**.
 
-<hr>
 
 ## What do we need?
 
@@ -15,7 +14,7 @@ We need somewhere to organise activities and talks, announce events and communic
 
 ## Why not Meetup?
 
-Meetup has been costing it's organisers about $37 CAD a month for ages and has just increased it's price to over $60 a month. The minimal functionality Meetup provides is not worth it. This was not optional price raise, there was no grandfathering in of old Meetups.
+Meetup has been costing it's organisers about $37 CAD a month for ages and has just increased it's price to over $60 CAD a month. The minimal functionality Meetup provides is not worth it. This was not optional price raise, there was no grandfathering in of old Meetups.
 
 When talking to the former organizer Bryan Chow about this, he resisted moving off Meetup and saving himself money because of how hard it is get off of Meetup. Since we can't get an export of emails out of Meetup, we know that any shift to a new platform will cost us users, probably most of it.
 
@@ -54,7 +53,5 @@ That's it.
 The PSF has a grant program to get Meetup costs paid for. I applied for that in November 2023 (yep **8 months ago**) and still haven't been added into the PSF program. At the last discord Q&A I think I heard that the person who as able to do this was on holiday (or something like that). I'm sorry for other user groups in this situation.
 
 I'm not sure what's happened there with the PSF grants program but I'm not gonna keep waiting for whatever is happening to sort itself out. Perhaps there's better places for the PSF grants than funding Meetup.
-
-<hr>
 
 **Note:** I have charged for conferences, but those are big and require money to put on.
