@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-06-13T03:03:34+00:00</updated>
+<updated>2024-06-13T03:13:13+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -48,6 +48,10 @@
 &lt;p&gt;Go to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;vancouver/vanpy&lt;/a&gt; and click on the &lt;code&gt;Watch&lt;/code&gt; button:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/files/vanpy-watch.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;All activity&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/vanpy-watch-all.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you get a lot of GitHub notifications, this might be a chance to try &lt;a href=&quot;https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications&quot;&gt;prioritizing your notifications&lt;/a&gt;&lt;/p&gt;
 
