@@ -10,7 +10,7 @@ Summary: Meetup is [increasing prices](https://www.meetup.com/blog/new-organizer
 
 ## What do we need?
 
-We need somewhere to organise activities and talks, announce events and communicate with the community. These are pretty simple and straightforward requirements. We've actually been doing a bunch of these things GitHub anyway.
+We need somewhere to organise activities and talks, announce events and communicate with the community. These are pretty simple and straightforward requirements. We've actually been doing a bunch of these things using GitHub anyway.
 
 ## Why not Meetup?
 
