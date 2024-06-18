@@ -7,7 +7,7 @@ blog: andy-mckay
 
 In recent years I've upgraded some of my gear as I get more into backpacking, with things like a [new tent](https://mckay.pub/2022-04-04-a-tent/), [sleeping bag](https://mckay.pub/2022-04-05-sleeping-bag/) and so on. One thing I hadn't done was look seriously at my backpack which I'd just bought at MEC for a trip around Europe because it seemed ok. I was thinking I needed something lighter and more comfortable. So I went to [Valhalla Pure Outfitters](https://vpo.ca/) (there's one in North Vancouver now) and one of my old running mates works there and was able to give me some great detailed advice. And here's what I got: the [Osprey Talon Velocity 30L](https://www.osprey.com/talontm-velocity-30?color=Dark%2520Charcoal%2520Tumbleweed%2520Yellow) and I 💚 it.
 
-<img src="/files/talon.png">
+<img src="/files/talon.png" height="400px">
 
 There's attention to detail on this pack that I've not seen on any of my other bags. All the straps have bits to stop them flapping. The side pockets can be accessed from the top and side - its easy to reach around and grab something without taking it off. The front straps are wide meaning its comfortable against my body.
 
