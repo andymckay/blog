@@ -9,11 +9,11 @@ In recent years I've upgraded some of my gear as I get more into backpacking, wi
 
 <img src="/files/talon.png">
 
-There's attention to detail on this pack that I've not had on any of my other bags. All the straps have bits to stop them flapping. The side pockets can be accessed from the top and side - its easy to reach around and grab something without taking it off. The front straps are wide meaning its comfy against my body.
+There's attention to detail on this pack that I've not seen on any of my other bags. All the straps have bits to stop them flapping. The side pockets can be accessed from the top and side - its easy to reach around and grab something without taking it off. The front straps are wide meaning its comfortable against my body.
 
 Most importantly, this backpack is well fitting and barely feels like I'm carrying any weight at all. The slim but tall profile means that my centre of gravity is close to be body. Weight is well distributed onto my hips. Honestly a lot of time it feels like I'm barely carrying any weight. I've done multiple 5+ hour hikes with it so far and haven't really noticed the weight.
 
-There's enough space that I can carry all my day gear, the ten essentials, all my overnight gear and spare clothes and food in it with ease. I could see myself doing a 4-5 night backpack with this bag. It has been a game changer. It turns out it's not super light at 990g (but that's 160g lighter than my last) but its so well designed and comfortable, I can't imagine wanting anything else at this point.
+There's enough space that I can carry all my day gear, the ten essentials, all my overnight gear and spare clothes and food in it with ease. It has been a game changer. It turns out it's not super light at 990g (but that's 160g lighter than my last) but it's so well designed and comfortable, I can't imagine wanting anything else at this point.
 
 This has enabled me to easily carry emergency overnight gear on all my hikes, without any penalty. Even if I don't plan on staying overnight, I can now comfortably hike the North Shore knowing that if a problem occurs, or I just run out of light, I can just settle in for the night and resume my hike the next day. That feels like the safest way to hike and that's why I'm really happy with this pack.
 
