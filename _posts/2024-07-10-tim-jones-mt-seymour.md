@@ -6,7 +6,7 @@ blog: andy-mckay
 ---
 
 Bagged: ✅ 2️⃣ Pump Peak, ✅ Tim Jones Peak, ✅ Mt Seymour
-Mountain lakes swum: 1️⃣
+<p>Mountain lakes swum: 1️⃣</p>
 <p>ℹ️ <a href="/files/peaks-bagged.html">List of 2024 peaks bagged</a>.</p>
 
 <hr class="florished">
