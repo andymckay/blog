@@ -14,7 +14,7 @@ On the weekend I was in Silver Star resort, so did some hiking on Silver Star Mo
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11824384416" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-It was hot and the hike up was surrounded with lovely wildflowers. Going into the provincial park side wasn't much to speak of, long trails with no people, no views, tress on every side, boggy and with bugs. The Black Prince cabin was neat though. Overall it was nice to get a lot of kms on new boots and it was pretty and sunny.
+It was hot and the hike up was surrounded with lovely wildflowers. Going into the provincial park side wasn't much to speak of, long trails with no people, no views, trees on every side, boggy and with bugs. The Black Prince cabin was neat though. Overall it was nice to get a lot of kms on new boots and it was pretty and sunny.
 
 Given that Silver Star hiking trails are very few, since its mostly for mountain bikers, and then they charge you to hike - I wouldn't recommend it as a hiker.
 
