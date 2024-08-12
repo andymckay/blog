@@ -11,7 +11,7 @@ A hashtag called #JasperStrong went around on social media and I'm more just #Ja
 
 For context, Alberta has the largest emissions of green house gases in Canada. 
 
-<img src="/files/ghg-emissions.png">
+<img src="/files/ghg-emissions.png" width="400px">
 
 It's oil and gas industry is huge and is exporting oil and gas around the world. The Trans Mountain pipeline that Canadians tax payers paid [$34 billion](https://www.theglobeandmail.com/business/article-canada-trans-mountain-pipeline-expansion/) for terminates very close to my house and will be pumping out fossil fuels for many decades to come.
 
