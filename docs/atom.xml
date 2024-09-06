@@ -3,12 +3,52 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-09-05T20:40:54+00:00</updated>
+<updated>2024-09-06T13:39:42+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Another Tent</title>
+<link href="https://mckay.pub/2024-09-06-another-tent/"/>
+<updated>2024-09-06T00:00:00+00:00</updated>
+<id>https://mckay.pub/another-tent</id>
+<content type="html">&lt;p&gt;A couple of years ago I &lt;a href=&quot;https://mckay.pub/2022-04-04-a-tent/&quot;&gt;got a tent&lt;/a&gt;. It had its problems and I needed another one. There were some problems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It’s not as easy to setup as I thought.&lt;/li&gt;
+  &lt;li&gt;It’s not freestanding.&lt;/li&gt;
+  &lt;li&gt;It doesn’t cope well with wind.&lt;/li&gt;
+  &lt;li&gt;It sometimes doesn’t cope well with humid climates, like this one.&lt;/li&gt;
+  &lt;li&gt;Using hiking poles for the tent poles isn’t as good as an idea as I thought.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The wind can be a problem, in wind and rain it could be really bad. In windy places, I found the tent is like a big wind sock especially when it hits the side of the tent. This is due to having a pole at each end and no rigidity in-between.&lt;/p&gt;
+
+&lt;p&gt;Being held up by hiking poles wasn’t the weight or space saving I thought it would be. Long thin poles are easy to put anywhere. They don’t weigh much (200g). Being able to use poles for a day hike and leave your tent up is quite useful. Also, losing or breaking a pole hiking now has bad consequences.&lt;/p&gt;
+
+&lt;p&gt;The deal breaker is not being freestanding. The tent requires well anchored tent pegs at the front and back to provide tension for the poles to stay up. This makes it hard to put up and won’t stay up well in: sand (beaches on the West Coast Trail), places with wooden pads (Garibaldi, Manning), mountain tops with no soil (Seymour, Golden Ears). Places I wanted to go.&lt;/p&gt;
+
+&lt;p&gt;So time for another tent. Enter the Big Agnes 
+&lt;a href=&quot;https://www.bigagnes.com/collections/ultralight-tents/products/fly-creek-hv-ul1-solution-dye&quot;&gt;Fly Creek HV UL1 tent&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This tent is great for three seasons, easier to put up, light weight and more rigid and able to cope with the wind and semi freestanding.&lt;/p&gt;
+
+&lt;p&gt;It’s semi freestanding because the fly requires pegs to hold away from the main, but that’s pretty common.&lt;/p&gt;
+
+&lt;p&gt;Yes it is 200g or so heavier than my Tarp Tent, which sucks, but being able to go to toilet without it falling down is a huge win for me. This happened to me on the West Coast Trail.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/big-agnes.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So far I’m extremely happy with this tent, in Garibaldi with some strong gusts of wind, it was nice and solid. In wet weather at Elsay Lake it was fine. It’s well designed and thought out. Really can’t spot any problems with yet.&lt;/p&gt;
+
+&lt;p&gt;It’s actually smaller than the Tarp Tent and that’s good, it’s easier to pitch. It fits me and my sleeping pad and gear just fine.&lt;/p&gt;
+
+&lt;p&gt;Big 👍 from me, so far.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Elsay Lake</title>
@@ -351,63 +391,6 @@
 &lt;p&gt;Most of the way down I was wondering if I’d chosen the wrong year to track and bag so many peaks. July to September is going to be &lt;strong&gt;busy&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I’ve removed peaks below 1,000m on Gambier, Anvil and Bowen (apart from the one I did) because they just don’t interest me. Others might do them but I won’t be.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>Vancouver Python User Group Changes</title>
-<link href="https://mckay.pub/2024-06-12-leaving-meetup/"/>
-<updated>2024-06-12T00:00:00+00:00</updated>
-<id>https://mckay.pub/leaving-meetup</id>
-<content type="html">&lt;p&gt;Summary: Meetup is &lt;a href=&quot;https://www.meetup.com/blog/new-organizer-pricing-key-improvements/&quot;&gt;increasing prices&lt;/a&gt; so the costs for the &lt;a href=&quot;https://www.meetup.com/vanpyz/&quot;&gt;Python User Group&lt;/a&gt; will be over $700 CAD a year. &lt;strong&gt;We are closing our Meetup account and moving to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;GitHub&lt;/a&gt; before July 7th 2024&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-do-we-need&quot;&gt;What do we need?&lt;/h2&gt;
-
-&lt;p&gt;We need somewhere to organise activities and talks, announce events and communicate with the community. These are pretty simple and straightforward requirements. We’ve actually been doing a bunch of these things using GitHub anyway.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-not-meetup&quot;&gt;Why not Meetup?&lt;/h2&gt;
-
-&lt;p&gt;Meetup has been costing it’s organisers about $37 CAD a month for ages and has just increased it’s price to over $60 CAD a month. The minimal functionality Meetup provides is not worth it. This was not optional price raise, there was no grandfathering in of old Meetups.&lt;/p&gt;
-
-&lt;p&gt;When talking to the former organizer Bryan Chow about this, he resisted moving off Meetup and saving himself money because of how hard it is get off of Meetup. Since we can’t get an export of emails out of Meetup, we know that any shift to a new platform will cost us users, probably most of it.&lt;/p&gt;
-
-&lt;p&gt;A price rise of that amount for features that suck or should be free is unacceptable. Plus, I’m retiring and don’t want to spend my money on Meetup. It also means it’s really hard to either get anyone else to run it - no-one wants to take on this money.&lt;/p&gt;
-
-&lt;p&gt;Also, here’s the first question Meetup asks when I decide to cancel:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/fuck-you-meetup.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No - &lt;strong&gt;fuck you Meetup&lt;/strong&gt;. That’s not what this community is about. So just to be clear &lt;strong&gt;I will never charge people to come to a simple Python meetup&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-github&quot;&gt;Why GitHub?&lt;/h2&gt;
-
-&lt;p&gt;It’s free and it will be for a long time yet. It does all the things we need. Everyone has an account there.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;We will&lt;/em&gt; lose people, &lt;em&gt;we will&lt;/em&gt; lose visibility and I think pretty much anyone else can take over the old group on Meetup. It’s like Meetup is holding us hostage.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-next&quot;&gt;What next?&lt;/h2&gt;
-
-&lt;p&gt;Go to &lt;a href=&quot;https://github.com/vancouver/vanpy&quot;&gt;vancouver/vanpy&lt;/a&gt; and click on the &lt;code&gt;Watch&lt;/code&gt; button:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/vanpy-watch.png&quot; width=&quot;800px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;All activity&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/vanpy-watch-all.png&quot; width=&quot;400px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you get a lot of GitHub notifications, this might be a chance to try &lt;a href=&quot;https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/customizing-a-workflow-for-triaging-your-notifications&quot;&gt;prioritizing your notifications&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;On Mastodon follow the &lt;a href=&quot;https://hachyderm.io/@vanpy&quot;&gt;@vanpy&lt;/a&gt; account.&lt;/p&gt;
-
-&lt;p&gt;That’s it.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-python-software-foundation&quot;&gt;The Python Software Foundation&lt;/h2&gt;
-
-&lt;p&gt;The PSF has a grant program to get Meetup costs paid for. I applied for that in November 2023 (yep &lt;strong&gt;8 months ago&lt;/strong&gt;) and still haven’t been added into the PSF program. At the last discord Q&amp;amp;A I think I heard that the person who as able to do this was on holiday (or something like that). I’m sorry for other user groups in this situation.&lt;/p&gt;
-
-&lt;p&gt;I’m not sure what’s happened there with the PSF grants program but I’m not gonna keep waiting for whatever is happening to sort itself out. Perhaps there’s better places for the PSF grants than funding Meetup.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I have charged for conferences, but those are big and require money to put on.&lt;/p&gt;
 </content>
 </entry>
 
