@@ -45,7 +45,7 @@
 
 <h3 id="letting-users-pick-a-timezone">Letting users pick a timezone</h3>
 
-<p>You’ll probably have to make a <a href="https://docs.djangoproject.com/en/4.2/topics/auth/customizing/#extending-the-existing-user-model">user profile</a> you ask the user for their timezone and then attach it to the user. The service catalog is tightly coupled to GitHub. In GitHub you also get to specify your timezone, but the <a href="https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user">REST API</a> doesn’t include this information <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+<p>You’ll probably have to make a <a href="https://docs.djangoproject.com/en/4.2/topics/auth/customizing/#extending-the-existing-user-model">user profile</a> you ask the user for their timezone and then attach it to the user. The service catalog is tightly coupled to GitHub. In GitHub you also get to specify your timezone, but the <a href="https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user">REST API</a> doesn’t include this information <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.</p>
 
 <p>If you are looking for a list of all the timezones, then the <a href="https://docs.python.org/3/library/zoneinfo.html">zoneinfo&lt;/apy&gt; package has you covered, no need to use <a href="https://pypi.org/project/pytz/">pytz</a> anymore.</a></p>
 
@@ -109,7 +109,7 @@
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p>I couldn’t spot it in GraphQL either, sometimes the two aren’t in sync so it might be there, couldn’t find it though. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>

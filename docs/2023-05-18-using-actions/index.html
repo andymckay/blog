@@ -37,7 +37,7 @@
 
 <p>These questions and more are defined by the organization and different for every organization. Trying to code all those situations and questions is not within the service catalog’s goal.</p>
 
-<p>So we need to find a way to allow customers to be able to create and code health checks, while avoiding running arbitrary code in the service catalog <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. For this, GitHub Actions came to the rescue.</p>
+<p>So we need to find a way to allow customers to be able to create and code health checks, while avoiding running arbitrary code in the service catalog <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>. For this, GitHub Actions came to the rescue.</p>
 
 <p>So let’s take an example, scanning all our services to ensure no one is vulnerable to the <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-44228">Log4J vulnerability</a>.</p>
 
@@ -116,7 +116,7 @@
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:1" role="doc-endnote">
+    <li id="fn:1">
       <p>We could also do this by allowing custom code to be run in the catalog, however this has its own share of problems. Access to repositories, secret management, resource utilization, ease of upgrades and so on. Better to use an external service. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
