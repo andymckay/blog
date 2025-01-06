@@ -51,13 +51,13 @@
 
 <p>With a model like this:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zones</span> <span class="o">=</span> <span class="nf">sorted</span><span class="p">(</span><span class="n">zoneinfo</span><span class="p">.</span><span class="nf">available_timezones</span><span class="p">())</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">zones</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">zoneinfo</span><span class="p">.</span><span class="n">available_timezones</span><span class="p">())</span>
 
 
 <span class="k">class</span> <span class="nc">Profile</span><span class="p">(</span><span class="n">models</span><span class="p">.</span><span class="n">Model</span><span class="p">):</span>
-    <span class="n">TIMEZONE_CHOICES</span> <span class="o">=</span> <span class="nf">zip</span><span class="p">(</span><span class="n">zones</span><span class="p">,</span> <span class="n">zones</span><span class="p">)</span>
-    <span class="n">user</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">OneToOneField</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">on_delete</span><span class="o">=</span><span class="n">models</span><span class="p">.</span><span class="n">CASCADE</span><span class="p">)</span>
-    <span class="n">timezone</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="nc">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span> <span class="n">choices</span><span class="o">=</span><span class="n">TIMEZONE_CHOICES</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="sh">"</span><span class="s">UTC</span><span class="sh">"</span><span class="p">)</span>
+    <span class="n">TIMEZONE_CHOICES</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">zones</span><span class="p">,</span> <span class="n">zones</span><span class="p">)</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">OneToOneField</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">on_delete</span><span class="o">=</span><span class="n">models</span><span class="p">.</span><span class="n">CASCADE</span><span class="p">)</span>
+    <span class="n">timezone</span> <span class="o">=</span> <span class="n">models</span><span class="p">.</span><span class="n">CharField</span><span class="p">(</span><span class="n">max_length</span><span class="o">=</span><span class="mi">255</span><span class="p">,</span> <span class="n">choices</span><span class="o">=</span><span class="n">TIMEZONE_CHOICES</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s">"UTC"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>You’ll quickly have a nice form for the users.</p>
@@ -67,24 +67,24 @@
 <p>Again, as noted in that document, you’ll want to activate the timezone for that user as they hit the site.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">TimezoneMiddleware</span><span class="p">:</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">get_response</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span> <span class="o">=</span> <span class="n">get_response</span>
 
-    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
-        <span class="n">tzname</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">session</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="sh">"</span><span class="s">tz</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">):</span>
+        <span class="n">tzname</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">session</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"tz"</span><span class="p">)</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">tzname</span><span class="p">:</span>
             <span class="k">try</span><span class="p">:</span>
                 <span class="n">tzname</span> <span class="o">=</span> <span class="n">request</span><span class="p">.</span><span class="n">user</span><span class="p">.</span><span class="n">profile</span><span class="p">.</span><span class="n">timezone</span>
-            <span class="nf">except </span><span class="p">(</span><span class="nb">AttributeError</span><span class="p">):</span>
+            <span class="k">except</span> <span class="p">(</span><span class="nb">AttributeError</span><span class="p">):</span>
                 <span class="k">pass</span>
 
         <span class="c1"># You've got settings.TIME_ZONE set to "UTC" right? So that becomes the default.
 </span>        <span class="n">tzname</span> <span class="o">=</span> <span class="n">tzname</span> <span class="ow">or</span> <span class="n">settings</span><span class="p">.</span><span class="n">TIME_ZONE</span>
-        <span class="n">timezone</span><span class="p">.</span><span class="nf">activate</span><span class="p">(</span><span class="n">zoneinfo</span><span class="p">.</span><span class="nc">ZoneInfo</span><span class="p">(</span><span class="n">tzname</span><span class="p">))</span>
+        <span class="n">timezone</span><span class="p">.</span><span class="n">activate</span><span class="p">(</span><span class="n">zoneinfo</span><span class="p">.</span><span class="n">ZoneInfo</span><span class="p">(</span><span class="n">tzname</span><span class="p">))</span>
 
         <span class="c1"># Stuff into the session for the next request.
-</span>        <span class="n">request</span><span class="p">.</span><span class="n">session</span><span class="p">[</span><span class="sh">"</span><span class="s">tz</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">tzname</span>
-        <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+</span>        <span class="n">request</span><span class="p">.</span><span class="n">session</span><span class="p">[</span><span class="s">"tz"</span><span class="p">]</span> <span class="o">=</span> <span class="n">tzname</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_response</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p>This is a pretty simplified middleware that activates the timezone and stuffs it in the session. So what’s this going to do?</p>
@@ -97,8 +97,8 @@
 
 <p>A model has <code class="language-plaintext highlighter-rouge">default=datetime.now</code> on it, meaning a HTML form defaulted to showing the time in <code class="language-plaintext highlighter-rouge">UTC</code>. This was simple to fix in the view, because when the view was being called, the middleware (see above) had been called, allowing us to know the users timezone. So then in the view, I simply switched to the users timezone:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        <span class="n">form</span> <span class="o">=</span> <span class="nc">EventForm</span><span class="p">()</span>
-        <span class="n">form</span><span class="p">.</span><span class="n">fields</span><span class="p">[</span><span class="sh">"</span><span class="s">start</span><span class="sh">"</span><span class="p">].</span><span class="n">initial</span> <span class="o">=</span> <span class="n">timezone</span><span class="p">.</span><span class="nf">now</span><span class="p">()</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        <span class="n">form</span> <span class="o">=</span> <span class="n">EventForm</span><span class="p">()</span>
+        <span class="n">form</span><span class="p">.</span><span class="n">fields</span><span class="p">[</span><span class="s">"start"</span><span class="p">].</span><span class="n">initial</span> <span class="o">=</span> <span class="n">timezone</span><span class="p">.</span><span class="n">now</span><span class="p">()</span>
 </code></pre></div></div>
 
 <p>All this is well and good for the web interface, but what about the API? API’s should always be in <code class="language-plaintext highlighter-rouge">UTC</code> and again that’s something non-negotiable in my opinion. In the middleware, if the request is coming into an API endpoint (it’s using Django Rest Framework) then the timezone just remains as UTC.</p>
