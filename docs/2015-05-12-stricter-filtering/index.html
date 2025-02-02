@@ -54,21 +54,21 @@ DELETE http://example.com/api/products?categry=clothing
 <p>That’s really going to ruin your day. <a href="https://twitter.com/kumar303/">Kumar</a> rightly
 complained about this so I threw in a simple filter to stop that.</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="n">rest_framework.exceptions</span> <span class="kn">import</span> <span class="n">ParseError</span>
-<span class="kn">from</span> <span class="n">rest_framework.filters</span> <span class="kn">import</span> <span class="n">DjangoFilterBackend</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">rest_framework.exceptions</span> <span class="kn">import</span> <span class="n">ParseError</span>
+<span class="kn">from</span> <span class="nn">rest_framework.filters</span> <span class="kn">import</span> <span class="n">DjangoFilterBackend</span>
 
 <span class="k">class</span> <span class="nc">StrictQueryFilter</span><span class="p">(</span><span class="n">DjangoFilterBackend</span><span class="p">):</span>
 
-    <span class="k">def</span> <span class="nf">filter_queryset</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">,</span> <span class="n">view</span><span class="p">):</span>
-        <span class="n">requested</span> <span class="o">=</span> <span class="nf">set</span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">QUERY_PARAMS</span><span class="p">.</span><span class="nf">keys</span><span class="p">())</span>
-        <span class="n">allowed</span> <span class="o">=</span> <span class="nf">set</span><span class="p">(</span><span class="nf">getattr</span><span class="p">(</span><span class="n">view</span><span class="p">,</span> <span class="sh">'</span><span class="s">filter_fields</span><span class="sh">'</span><span class="p">,</span> <span class="p">[]))</span>
-        <span class="n">difference</span> <span class="o">=</span> <span class="n">requested</span><span class="p">.</span><span class="nf">difference</span><span class="p">(</span><span class="n">allowed</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">filter_queryset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">,</span> <span class="n">view</span><span class="p">):</span>
+        <span class="n">requested</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">request</span><span class="p">.</span><span class="n">QUERY_PARAMS</span><span class="p">.</span><span class="n">keys</span><span class="p">())</span>
+        <span class="n">allowed</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">view</span><span class="p">,</span> <span class="s">'filter_fields'</span><span class="p">,</span> <span class="p">[]))</span>
+        <span class="n">difference</span> <span class="o">=</span> <span class="n">requested</span><span class="p">.</span><span class="n">difference</span><span class="p">(</span><span class="n">allowed</span><span class="p">)</span>
         <span class="k">if</span> <span class="n">difference</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="nc">ParseError</span><span class="p">(</span>
-                <span class="n">detail</span><span class="o">=</span><span class="sh">'</span><span class="s">Incorrect query parameters: </span><span class="sh">'</span> <span class="o">+</span> <span class="sh">'</span><span class="s">,</span><span class="sh">'</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="n">difference</span><span class="p">))</span>
+            <span class="k">raise</span> <span class="n">ParseError</span><span class="p">(</span>
+                <span class="n">detail</span><span class="o">=</span><span class="s">'Incorrect query parameters: '</span> <span class="o">+</span> <span class="s">','</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">difference</span><span class="p">))</span>
 
-        <span class="nf">return </span><span class="p">(</span><span class="nf">super</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">__class__</span><span class="p">,</span> <span class="n">self</span><span class="p">)</span>
-                <span class="p">.</span><span class="nf">filter_queryset</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">,</span> <span class="n">view</span><span class="p">))</span></code></pre></figure>
+        <span class="k">return</span> <span class="p">(</span><span class="nb">super</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">__class__</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+                <span class="p">.</span><span class="n">filter_queryset</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">queryset</span><span class="p">,</span> <span class="n">view</span><span class="p">))</span></code></pre></figure>
 
 <p>Once it’s done alter: <code class="language-plaintext highlighter-rouge">DEFAULT_FILTER_BACKENDS</code> to point to that and make sure your <a href="http://www.django-rest-framework.org/api-guide/filtering/#api-guide">filter_fields</a> are correct.</p>
 

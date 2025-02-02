@@ -28,40 +28,40 @@
 
 <p>Anyway, I wanted to keep my tests clean in the future, so I added a registration step for mocks. Here’s a simplified version:</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
-    <span class="n">self</span><span class="p">.</span><span class="n">mocks</span> <span class="o">=</span> <span class="p">{}</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">mocks</span> <span class="o">=</span> <span class="p">{}</span>
 
-    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">registered_mocks</span><span class="p">.</span><span class="nf">items</span><span class="p">():</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">mocks</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="nc">OurMock</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">spec</span><span class="o">=</span><span class="n">obj</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">obj</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">registered_mocks</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">mocks</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">OurMock</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">spec</span><span class="o">=</span><span class="n">obj</span><span class="p">)</span>
 
-    <span class="n">self</span><span class="p">.</span><span class="nf">addCleanup</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">cleanUpMocks</span><span class="p">)</span></code></pre></figure>
+    <span class="bp">self</span><span class="p">.</span><span class="n">addCleanup</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">cleanUpMocks</span><span class="p">)</span></code></pre></figure>
 
 <p><code class="language-plaintext highlighter-rouge">OurMock</code> is a special mock that registers all the mocks registered against it. This pattern is pretty specific to the type of object I’m mocking in the tests:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">OurMock</span><span class="p">(</span><span class="n">mock</span><span class="p">.</span><span class="n">Mock</span><span class="p">):</span>
 
-    <span class="k">def</span> <span class="nf">__getattr__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">name</span><span class="p">.</span><span class="nf">startswith</span><span class="p">(</span><span class="sh">'</span><span class="s">_</span><span class="sh">'</span><span class="p">):</span>
-            <span class="nf">setattr</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="sh">'</span><span class="s">_registered</span><span class="sh">'</span><span class="p">,</span> <span class="p">[])</span>
-            <span class="n">self</span><span class="p">.</span><span class="n">_registered</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nf">super</span><span class="p">(</span><span class="n">OurMock</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__getattr__</span><span class="p">(</span><span class="n">name</span><span class="p">)</span></code></pre></figure>
+    <span class="k">def</span> <span class="nf">__getattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">name</span><span class="p">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">'_'</span><span class="p">):</span>
+            <span class="nb">setattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s">'_registered'</span><span class="p">,</span> <span class="p">[])</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_registered</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">super</span><span class="p">(</span><span class="n">OurMock</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__getattr__</span><span class="p">(</span><span class="n">name</span><span class="p">)</span></code></pre></figure>
 
 <p>Then on <code class="language-plaintext highlighter-rouge">cleanUp</code>:</p>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">cleanUpMocks</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">mocks</span><span class="p">.</span><span class="nf">items</span><span class="p">():</span>
-        <span class="k">for</span> <span class="n">call</span> <span class="ow">in</span> <span class="nf">getattr</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="sh">'</span><span class="s">_registered</span><span class="sh">'</span><span class="p">,</span> <span class="p">[]):</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="nf">getattr</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">call</span><span class="p">).</span><span class="n">called</span><span class="p">:</span>
-                <span class="k">raise</span> <span class="nc">MockError</span><span class="p">(</span><span class="sh">'</span><span class="s">{0}.{1} registered but not called.</span><span class="sh">'</span>
-                                <span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">registered_mocks</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">__name__</span><span class="p">,</span> <span class="n">call</span><span class="p">))</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">cleanUpMocks</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">mocks</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">call</span> <span class="ow">in</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="s">'_registered'</span><span class="p">,</span> <span class="p">[]):</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">call</span><span class="p">).</span><span class="n">called</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="n">MockError</span><span class="p">(</span><span class="s">'{0}.{1} registered but not called.'</span>
+                                <span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">registered_mocks</span><span class="p">[</span><span class="n">k</span><span class="p">].</span><span class="n">__name__</span><span class="p">,</span> <span class="n">call</span><span class="p">))</span></code></pre></figure>
 
 <p>So a test now reads:</p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Test</span><span class="p">(</span><span class="n">tests</span><span class="p">.</span><span class="n">TestCase</span><span class="p">):</span>
-    <span class="n">self</span><span class="p">.</span><span class="n">registered_mocks</span> <span class="o">=</span> <span class="p">{</span><span class="sh">'</span><span class="s">some</span><span class="sh">'</span><span class="p">:</span> <span class="nb">object</span><span class="p">}</span>
+    <span class="bp">self</span><span class="p">.</span><span class="n">registered_mocks</span> <span class="o">=</span> <span class="p">{</span><span class="s">'some'</span><span class="p">:</span> <span class="nb">object</span><span class="p">}</span>
 
-    <span class="k">def</span> <span class="nf">test_ok</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">mocks</span><span class="p">[</span><span class="sh">'</span><span class="s">some</span><span class="sh">'</span><span class="p">].</span><span class="n">create</span><span class="p">.</span><span class="n">return_value</span> <span class="o">=</span> <span class="nf">something</span><span class="p">()</span></code></pre></figure>
+    <span class="k">def</span> <span class="nf">test_ok</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">mocks</span><span class="p">[</span><span class="s">'some'</span><span class="p">].</span><span class="n">create</span><span class="p">.</span><span class="n">return_value</span> <span class="o">=</span> <span class="n">something</span><span class="p">()</span></code></pre></figure>
 
 <p>In this example: <em>create</em> is in the list of <em>_registered</em> on the Mock. When the test completes we check it got called. If you run that test without anything else, it will fail because the mock never actually got called.</p>
 

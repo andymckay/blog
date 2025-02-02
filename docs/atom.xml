@@ -3,7 +3,7 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2024-12-04T21:28:12+00:00</updated>
+<updated>2025-01-06T21:56:02+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
@@ -11,11 +11,78 @@
 </author>
 
 <entry>
+<title>Phone plans in Canada</title>
+<link href="https://mckay.pub/2025-01-06-changing-phone-plans/"/>
+<updated>2025-01-06T00:00:00+00:00</updated>
+<id>https://mckay.pub/changing-phone-plans</id>
+<content type="html">&lt;p&gt;If you aren’t in a phone contract, you should look at changing phone companies every year or so. Otherwise, you’ll just be getting screwed by Canadian phone companies that are not going to improve your plans.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It’s easy to switch phone companies, keep your existing phone number and it’s the only way to get a better deal.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-it-works&quot;&gt;How it works&lt;/h1&gt;
+
+&lt;p&gt;All the big pre-paid companies are really backed by the major networks. Koodo and Public Mobile uses Telus networks. Fido uses Rogers. These companies are the ones that offer cheaper pre-paid plans and are the way to go if you don’t want to get tied into a contract.&lt;/p&gt;
+
+&lt;p&gt;Remember contracts are one-sided and designed to screw you anyway, for example: &lt;a href=&quot;https://www.cbc.ca/news/canada/toronto/rogers-bell-telus-contracts-prices-1.7369942&quot;&gt;they can go up in price&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These companies:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Use the major networks, so you get the same phone, internet coverage as the backing network.&lt;/li&gt;
+  &lt;li&gt;Can be serviced by the backing networks. For example: when I had Fido problems, I went to the Rogers store and got it fixed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Phone companies are NOT like Netflix who (as of writing) have 3 plans that are clear, stay consistent and are easy to follow &lt;a href=&quot;https://help.netflix.com/en/node/24926&quot;&gt;on one page&lt;/a&gt; and you can change between them as you need.&lt;/p&gt;
+
+&lt;p&gt;Phone companies are NOT like this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The create and remove plans continually.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;They choose&lt;/strong&gt; who gets what plan when.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is done to make it really hard to compare plans, make it possible to target particular users and to tie people into expensive plans.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-story&quot;&gt;My Story&lt;/h1&gt;
+
+&lt;h2 id=&quot;koodo-telus&quot;&gt;Koodo (Telus)&lt;/h2&gt;
+
+&lt;p&gt;I was on Koodo forever. It worked, it had enough data and I didn’t worry about it worked. In the summer I re-evaluated all my plans and subscriptions and found that I’d been on Koodo so long, I wasn’t even valid in their system anymore, it had been updated multiple times and they hadn’t updated my account (something something software developers).&lt;/p&gt;
+
+&lt;p&gt;That took a few weeks to resolve and then I was able to see the deal wasn’t that great and that better deals were available elsewhere.&lt;/p&gt;
+
+&lt;p&gt;The key point: &lt;strong&gt;In the many years with Koodo, they had never upgraded, updated or improved my account. They just left me on the same plan for all those years.&lt;/strong&gt; That’s not a good way to retain customers.&lt;/p&gt;
+
+&lt;p&gt;Annoyed by their attitude I switched to Fido.&lt;/p&gt;
+
+&lt;h2 id=&quot;fido-rogers&quot;&gt;Fido (Rogers)&lt;/h2&gt;
+
+&lt;p&gt;In September I switched to Fido. The result was more data and free UK calling for about $15 a month less. When you switch you can keep your phone number and use an eSIM to move over. The eSIM didn’t work first time, but the Rogers store fixed that.&lt;/p&gt;
+
+&lt;p&gt;After a couple of months my family in the UK told me it was easier to call on WhatsApp than a phone. So I didn’t need UK minutes anymore. No problem, I’ll switch to the cheaper plan that was advertised when I joined up.&lt;/p&gt;
+
+&lt;p&gt;That plan doesn’t exist. I can’t switch to it, even though my wife is on it. Fido won’t let me. I contacted customer support and they said &lt;strong&gt;“We think you are on a good plan and should be happy it.”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I was not happy.&lt;/p&gt;
+
+&lt;h2 id=&quot;public-mobile-telus&quot;&gt;Public Mobile (Telus)&lt;/h2&gt;
+
+&lt;p&gt;Over the holidays I switched to Public Mobile. This was done in 20 minutes while watching something on YouTube. The eSIM worked first time and the number transferred. My monthly rate went down another $15 or so a month.&lt;/p&gt;
+
+&lt;p&gt;I’m now getting more data than with Koodo or Fido, and paying 1/3 of what I was paying with Koodo in the summer.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Throughout the process, I’ve had one problem, resolved by the Rogers store in 5 minutes. I’ve kept my phone number and not had to change it. I will probably review my plan regularly. Apparently the best time to switch is August and September in the “back to school period”.&lt;/p&gt;
+
+&lt;p&gt;Summary: &lt;strong&gt;You should change companies, they are relying on you not switching to make more money.&lt;/strong&gt;&lt;/p&gt;
+</content>
+</entry>
+
+<entry>
 <title>Cinque Terre</title>
 <link href="https://mckay.pub/2024-12-04-cinque/"/>
 <updated>2024-12-04T00:00:00+00:00</updated>
 <id>https://mckay.pub/cinque</id>
-<content type="html">&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cinque_Terre&quot;&gt;Cinque Terre&lt;/a&gt; is a series of five villages on the north western Italian coastline within. The best way to visit the villages is to take the train that connects La Spezia and Genoa. The best way to get between the villages is to hike them (or take the train).&lt;/p&gt;
+<content type="html">&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cinque_Terre&quot;&gt;Cinque Terre&lt;/a&gt; is a series of five villages on the north western Italian coastline. The best way to visit the villages is to take the train that connects La Spezia and Genoa. The best way to get between the villages is to hike them (or take the train).&lt;/p&gt;
 
 &lt;p&gt;In November, I was able to hike between all five villages. Apparently the trails can often be closed and due to a rainstorm a few days early, the easiest path between the last two villages Manarola and Riomaggiore was closed. This last part “Via dell’Amore” has been closed since 2019 and was re-opened briefly in 2024.&lt;/p&gt;
 
@@ -361,34 +428,6 @@
 &lt;p&gt;It’s one of those weekends where I had grand plans of more peaks and they didn’t happen.&lt;/p&gt;
 
 &lt;p&gt;Damn.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>A backpack</title>
-<link href="https://mckay.pub/2024-06-17-a-backpack/"/>
-<updated>2024-06-17T00:00:00+00:00</updated>
-<id>https://mckay.pub/a-backpack</id>
-<content type="html">&lt;p&gt;In recent years I’ve upgraded some of my gear as I get more into backpacking, with things like a &lt;a href=&quot;https://mckay.pub/2022-04-04-a-tent/&quot;&gt;new tent&lt;/a&gt;, &lt;a href=&quot;https://mckay.pub/2022-04-05-sleeping-bag/&quot;&gt;sleeping bag&lt;/a&gt; and so on. One thing I hadn’t done was look seriously at my backpack which I’d just bought at MEC for a trip around Europe because it seemed ok. I was thinking I needed something lighter and more comfortable. So I went to &lt;a href=&quot;https://vpo.ca/&quot;&gt;Valhalla Pure Outfitters&lt;/a&gt; (there’s one in North Vancouver now) and one of my old running mates works there and was able to give me some great detailed advice. And here’s what I got: the &lt;a href=&quot;https://www.osprey.com/talontm-velocity-30?color=Dark%2520Charcoal%2520Tumbleweed%2520Yellow&quot;&gt;Osprey Talon Velocity 30L&lt;/a&gt; and I 💚 it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/talon.png&quot; height=&quot;400px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There’s attention to detail on this pack that I’ve not seen on any of my other bags. All the straps have bits to stop them flapping. The side pockets can be accessed from the top and side - its easy to reach around and grab something without taking it off. The front straps are wide meaning its comfortable against my body.&lt;/p&gt;
-
-&lt;p&gt;Most importantly, this backpack is well fitting and barely feels like I’m carrying any weight at all. The slim but tall profile means that my centre of gravity is close to be body. Weight is well distributed onto my hips. Honestly a lot of time it feels like I’m barely carrying any weight. I’ve done multiple 5+ hour hikes with it so far and haven’t really noticed the weight.&lt;/p&gt;
-
-&lt;p&gt;There’s enough space that I can carry all my day gear, the ten essentials, all my overnight gear and spare clothes and food in it with ease. It has been a game changer. It turns out it’s not super light at 990g (but that’s 160g lighter than my last) but it’s so well designed and comfortable, I can’t imagine wanting anything else at this point.&lt;/p&gt;
-
-&lt;p&gt;This has enabled me to easily carry emergency overnight gear on all my hikes, without any penalty. Even if I don’t plan on staying overnight, I can now comfortably hike the North Shore knowing that if a problem occurs, or I just run out of light, I can just settle in for the night and resume my hike the next day. That feels like the safest way to hike and that’s why I’m really happy with this pack.&lt;/p&gt;
-
-&lt;p&gt;This now means I’ve got:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;A small 5L Salomon running pack for runs.&lt;/li&gt;
-  &lt;li&gt;A small 10L Salomon running pack for day hikes.&lt;/li&gt;
-  &lt;li&gt;A 30L Osprey backpack for long hikes or a few days of backpacking.&lt;/li&gt;
-  &lt;li&gt;A 40L MEC backpack for longer backpacking trips.&lt;/li&gt;
-  &lt;li&gt;A 65L Arcteryx monster backpack for when I want to carry the world and hate myself.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
 </entry>
 
