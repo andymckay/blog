@@ -22,7 +22,7 @@ Mechanical and design problems abounded in the car that emerged over time:
 * The car would freeze into a lump and you couldn't get into the car due to the handle and window design.
 * Software would update [moving or hiding key functionality](https://mckay.pub/2022-01-08-how-tesla-is-trying-to-kill-you/)
 
-At the beginning year it was clear where Elon was heading and I was starting to look into selling the car. He'd already destroyed Twitter, a place where I had an account for 16 years. He'd repeatedly done so many terrible things in Tesla with the treatment of the workforce, safety rules, and so on that it was getting really bad. Then the support for Trump came along.
+At the beginning of 2025 it was clear where Elon was heading and I was starting to look into selling the car. He'd already destroyed Twitter, a place where I had an account for 16 years. He'd repeatedly done so many terrible things in Tesla with the treatment of the workforce, safety rules, and so on. Then the support for Trump came along.
 
 The line was crossed with the Nazi salute. Apologists keep arguing it isn't, but in the context of how he behaves like supporting Tommy Robinson, [the AfD editorial](https://www.theguardian.com/world/2024/dec/28/elon-musk-germany-afd-party), appearing at an [AfD rally and saying that](https://www.npr.org/2025/01/27/nx-s1-5276084/elon-musk-german-far-right-afd-holocaust) "frankly too much of a focus on past guilt and we need to move beyond that" it's clear where his political views lie.
 
