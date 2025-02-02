@@ -43,7 +43,7 @@ There were horses. This was a nicer hike deeper into the desert with more Joshua
 
 One of obligatory night time photos 👇
 
-<img src="/files/IMG_0591.jpeg" width="800px">
+<img src="/files/IMG_0591.jpeg" width="400px">
 
 Was getting colder overnight, I was feeling it, but still doing ok.
 
