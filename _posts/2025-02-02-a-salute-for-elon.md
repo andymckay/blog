@@ -34,4 +34,6 @@ He's part of an administration that has belittled and attacked Canada. They want
 
 At this point my car is over 6.5 years old, the money already went to Tesla. Tesla's board is trying to pay [Musk $50 billion dollars](https://www.forbes.com/sites/roberthart/2024/06/13/heres-whats-next-after-musk-claims-tesla-shareholders-approve-massive-pay-package/). But every repair, every time I use a super charger, that money goes to Tesla and a bit to Musk. Just driving around in a Tesla associates me with that person.
 
-So we took a loss, sold the car and bought a Kia EV6. Very happy with it so far. Is Kia perfect? No, no  large car company is. Tesla sent a survey after we sold it and I made my point in that survey. When they asked why I bought a Kia I replied simply "The company isn't run by a Nazi".
+So we took a loss, sold the car and bought a Kia EV6. Very happy with it so far. Is Kia perfect? No, no  large car company is. 
+
+Tesla sent a survey after we sold it, when they asked why I bought a Kia I replied simply "The company isn't run by a Nazi".
