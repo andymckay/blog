@@ -3,12 +3,63 @@
 <title>Andy McKay</title>
 <link href="https://mckay.pub/blog/andy" rel="alternate"></link>
 <link href="https://mckay.pub/blog/rss/latest/andy/" rel="self"></link>
-<updated>2025-03-28T16:17:39+00:00</updated>
+<updated>2025-04-28T16:09:32+00:00</updated>
 <id>https://mckay.pub/blog/andy</id>
 <author>
 <name>Andy McKay</name>
 <email>andy@clearwind.ca</email>
 </author>
+
+<entry>
+<title>Elections Canada</title>
+<link href="https://mckay.pub/2025-04-28-elections-canada/"/>
+<updated>2025-04-28T00:00:00+00:00</updated>
+<id>https://mckay.pub/elections-canada</id>
+<content type="html">&lt;p&gt;Today is the voting day for a Federal Election in Canada. This time I worked as a Deputy Returning Officer for &lt;a href=&quot;https://en.wikipedia.org/wiki/Elections_Canada&quot;&gt;Elections Canada&lt;/a&gt;, the non-partisan body government body that runs federal elections.&lt;/p&gt;
+
+&lt;p&gt;I wanted to get involved because elections are important and maintaining a good electoral system is something that is easy to take for granted. The repeated lies and destruction of democracy that we are seeing in the US is something that I don’t want to see here. I’m hoping that when this election is completed, transfer of power is quick, with grace and no sowing of lies or disinformation from either party.&lt;/p&gt;
+
+&lt;p&gt;Elections Canada is interesting, it’s &lt;a href=&quot;https://www.elections.ca/content.aspx?section=res&amp;amp;dir=rep/off/cou&amp;amp;document=index44&amp;amp;lang=e&quot;&gt;budget for an election is around $492 million&lt;/a&gt; so it’s costing roughly $20 per voter to maintain our federal democracy.&lt;/p&gt;
+
+&lt;p&gt;The advance voting happened over Easter weekend and there were long queues at our polling station. Of the 77k voters, over 30k voted, so that’s about 38% of voters. On election day the number of polling stations and staff dramatically increases, with 10-20x (my estimate) or more the amount of staff helping out. The result during advance voting was long lineups, frustrated voters and frazzled staff. Which of course led to questions like: why isn’t this electronic?, why isn’t this more efficient? and so on.&lt;/p&gt;
+
+&lt;p&gt;And that gets to the interesting question of how voting works in a democracy. Be it one as geographically vast as Canada, or as huge a population as India. It’s not easy.&lt;/p&gt;
+
+&lt;p&gt;Elections Canada has &lt;a href=&quot;https://en.wikipedia.org/wiki/Elections_Canada#Appointments_and_staff&quot;&gt;permanent staff of 500&lt;/a&gt; which rises to 235,000 during an election. Once the writ is dropped (the election announced) to election day the &lt;a href=&quot;https://en.wikipedia.org/wiki/Elections_in_Canada&quot;&gt;minimum is 36 days&lt;/a&gt;.  There is a &lt;a href=&quot;https://www.elections.ca/content.aspx?section=abo&amp;amp;dir=oec&amp;amp;document=p2&amp;amp;lang=e&quot;&gt;planning and readiness phase that Elections Canada&lt;/a&gt; gets into, so that when the writ drops, it’s ready to go. But that’s a huge scaling of people and staff.&lt;/p&gt;
+
+&lt;p&gt;So that got me thinking about the system. How do you build a system that can scale from 500 people to 235,000 people? How do you ensure over 27 million people are able to vote across this vast country? How do you ensure its transparent, yet private and secure? How do you ensure it’s free from corruption and interference?&lt;/p&gt;
+
+&lt;p&gt;Elections aren’t like everything else and efficiency isn’t necessarily a key tenant. Let me give you one example, in the current election process casting a ballot goes like this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Deputy Returning Officer hands you a ballot with their initials and poll number written in pen on the back.&lt;/li&gt;
+  &lt;li&gt;You go behind a screen and mark the candidate of your choice.&lt;/li&gt;
+  &lt;li&gt;You fold the ballot up so no-one can see the ballot and then hand it back to the Deputy Returning Officer.&lt;/li&gt;
+  &lt;li&gt;The Deputy Returning Officer tears off the counterfoil and checks the number, then hands the ballot back to you.&lt;/li&gt;
+  &lt;li&gt;You place it in the box.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is not the most efficient system, but then ask yourself some questions like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How do you ensure that only one ballot goes in the box?&lt;/li&gt;
+  &lt;li&gt;How do you ensure that the ballot that goes in the box is the one you gave to the voter?&lt;/li&gt;
+  &lt;li&gt;How do you ensure that Deputy Returning Officer isn’t corrupt and manipulating the ballots?
+…and so on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And all of a sudden the ideas you’ve got in your head about how to speed it up, start to get a bit more complicated. I’m sure there are ways to make it faster, but you’ve just got a bunch more scenarios to think through first.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve gotten past things like security, privacy and interference, then remember scale. You’ve got to scale this rapidly and for a large number of people across multiple languages and situation. Any system has to be easy to understand and be trained on in a couple of hours for so many people. It’s got to be flexible.&lt;/p&gt;
+
+&lt;p&gt;You’ve got to have the polling stations, but what about long term care homes, people sick in hospital, prisoners. People stuck in &lt;a href=&quot;https://www.cbc.ca/news/canada/north/poll-workers-fly-helicopter-west-dawson-voters-1.7516049&quot;&gt;remote areas in the Yukon&lt;/a&gt;. Any system has to be simple, robust and flexible as well.&lt;/p&gt;
+
+&lt;p&gt;It’s pretty impressive, even if it can be frustratingly people intensive.&lt;/p&gt;
+
+&lt;p&gt;I mentioned India, because it has 969 million eligible votes and by law each voter can be no more that 2km away from a polling both.
+So that mean one team had to do a two day trip into the forest so &lt;a href=&quot;https://www.aljazeera.com/gallery/2024/5/8/an-election-booth-inside-a-forest-in-india-for-just-one-voter&quot;&gt;that they could get the vote of one monk&lt;/a&gt;. Voting in India &lt;a href=&quot;https://apnews.com/article/india-election-2024-explainer-41d7aa3131dc0c7e0df1ea4be6b6a4c7&quot;&gt;takes months just due to its scale&lt;/a&gt; and is a whole other scale.&lt;/p&gt;
+
+&lt;p&gt;Overall I’m glad to have helped take part in making democracy work, tonight I head off to help in the counting process. I’ll probably get involved again.&lt;/p&gt;
+</content>
+</entry>
 
 <entry>
 <title>Mueller Hut</title>
@@ -433,35 +484,6 @@
 &lt;p&gt;Anyways, it’s done I’ll never go back and I can now definitely start crossing off mountains I will never, ever do. I’m no longer sure I’ll do all the peaks on the North Shore or even want to do this anymore, we’ll see.&lt;/p&gt;
 
 &lt;p&gt;One up side, because I did this with a full backpack on a hot day and took a longer route by exiting… I burnt through what I think is a record 6,309 calories, over 12 hours for one of my biggest single day efforts ever. I was a wreck.&lt;/p&gt;
-</content>
-</entry>
-
-<entry>
-<title>Goat Mountain, Goat Ridge Peak</title>
-<link href="https://mckay.pub/2024-07-13-goat/"/>
-<updated>2024-07-13T00:00:00+00:00</updated>
-<id>https://mckay.pub/goat</id>
-<content type="html">&lt;p&gt;Bagged: ✅ Goat Mountain, ✅ Goat Ridge Peak&lt;/p&gt;
-&lt;p&gt;ℹ️ &lt;a href=&quot;/files/peaks-bagged.html&quot;&gt;List of 2024 peaks bagged&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr class=&quot;florished&quot; /&gt;
-
-&lt;p&gt;Goat Mountain is relatively straightforward, but has very steep paths up it. Some of those steep parts have chains, others do not.&lt;/p&gt;
-
-&lt;p&gt;From there it’s a hike around the ridge to Goat Ridge Peak. This is through heather, blueberry bushes and small trees, with many patches of snow causing streams and waterfalls. This is one of the most beautiful hikes I’ve done this year with absolutely amazing views. Would recommend.&lt;/p&gt;
-
-&lt;p&gt;But I wasn’t alone. With clear and recent bear footprints in the snow and the mud. Not surprising given the number of blueberry bushes that will be perfect bear food soon.&lt;/p&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;11873068247&quot; data-style=&quot;standard&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;What started out as a relatively easy hike, soon turned into something that I struggled with. My heart rate was climbing fast, I was tired and felt more wiped than I have in a long time. The feeling was similar to when I struggled on &lt;a href=&quot;https://mckay.pub/2023-08-18-mt-frosty/&quot;&gt;Mt Frosty&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The hike across the peak is very exposed and I was in the mid-day sun at that point for quite a while, working my way across snow. I was tired, dehydrated and had lost a lot of electrolytes which I hadn’t replaced.&lt;/p&gt;
-
-&lt;p&gt;Then I pulled a muscle climbing down some quite vertical sections.&lt;/p&gt;
-
-&lt;p&gt;By the time I got back to the gondola I was thoroughly drained and tired. Currently I’m doubting if I can actually complete my goal, not only are some peaks really hard (and look very intimidating from up high), but I really questioned by fitness today. At this point I think I’m gonna have to make doing all the peaks a 2024 and 2025 goal.&lt;/p&gt;
 </content>
 </entry>
 
