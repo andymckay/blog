@@ -21,7 +21,7 @@ Spent some time chatting to and helping a couple who were on their *first backpa
 
 ### Day Two: Camper Bay to Cribbs south side
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495517267" data-style="standard" data-from-embed="false"></div>
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495517267" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
 
 This is the hardest day I've done on the West Coast Trail. I started raining the evening before and did not stop. Over 75mm of rain was coming down over 24 hours. So my options were sit in a tent and wait it out (something a lot of people did) or just go for it. I just went for it and kept going. Once you are wet, may as well stay wet right?
 
@@ -37,9 +37,9 @@ I got my tent up in the wind in rain and took a nap. Apart from my sleeping gear
 
 ### Day Three: Cribbs south side to Tsocowis Creek
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495517241" data-style="standard" data-from-embed="false"></div>
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495517241" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495433867" data-style="standard" data-from-embed="false"></div>
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495433867" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
 
 The sun never really came out and everything was wet and damp, what is there to do but walk. So walk I did. Cribbs creek had gone down so that crossing twice here just meant water splashing up to the knees. On the beaches there were regularly creeks to cross so my boots never dried out until I got home. Everyone camps at Tsusiat, so I went further and decided to stop somewhere different at Tsocowis. It was raining a little bit for 10 minutes here and there throughout the day, nothing too bad.
 
@@ -49,7 +49,7 @@ The sun came out again when I camped and for a couple of hours I tried to dry th
 
 ### Day Four: Tsocowis Creek to Pachena Bay
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495517156" data-style="standard" data-from-embed="false"></div>
+<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="15495517156" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
 
 I was a day ahead of schedule and didn't have a problem with that. The walk from here to Pachena is very nice and straightforward - apart from a recent mudslide near Michigan which has made it a muddy mess to access.
 
