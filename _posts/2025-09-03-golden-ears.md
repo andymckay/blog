@@ -29,6 +29,6 @@ There isn't much more to do at the top of the ridge than head back down, so we d
 
 Not much to say about the downhill, other than its steep 🤷‍♂
 
---
+Overall, stunning views and would do again. Highlighted the tent (little red arrow) as seen from near the summit, looking down onto the ridge 👇
 
-Overall, stunning views and would do again.
+<img src="/files/IMG_2658.jpeg" width="600px">
