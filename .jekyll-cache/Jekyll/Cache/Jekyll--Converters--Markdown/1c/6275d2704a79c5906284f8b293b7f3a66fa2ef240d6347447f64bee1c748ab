@@ -1,5 +1,0 @@
-I"Œ<p>A slightly kinder post than <a href="http://www.rubyinside.com/zed-shaw-goes-nuclear-on-our-community-683.html">Zed's rant</a> called <a href="http://groups.google.com/group/comp.lang.lisp/msg/f2c33661b80ba302">Rails is shitty</a>.</p>
-<p>As <a href="http://plope.com/Members/chrism/rails_gets_the_treatment">Chris</a> said this exact stuff has been leveled at Zope 2. A while back I was doing why move to Django over Rails and the answer for me was simple "Ruby is magic. Rails is more magic. Ruby on Rails is magic squared".</p>
-<p>Their assertion that there is no planning in Rails, just stuffing hacks out with a very short time frame in mind feels right, although I'm sure that's not the case. All I really want is someone to clean up the insanity in there. Just simple things like <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#M001013">select_date</a> which is unbound date widget and <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#M001009">date_select</a> which is a bound date widget. I think or perhaps I got them the wrong way round. Turns out both of them suck completely anyway.</p>
-
-:ET

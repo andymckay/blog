@@ -1,6 +1,0 @@
-I"«<p><a href="http://www.apigee.com/">Apigee</a> is a new service from Sonoa systems that acts as proxy for API's. That provides:</p>
-<blockquote>Analytics and Protection for APIs and Mashups</blockquote>
-<p>It does this by creating a proxy that all your requests go through and doing work on those proxies. This is a really interesting idea since API's are the one area of technology that are essentially unmeasured. All other forms of web traffic are easily measured, but rarely API's.</p>
-<p>But I'd hate to use a proxy simply because: when the proxy goes down, your API goes down. <a href="https://mckay.pub/blog/andy/2093/">Everything</a> <a href="http://www.techcrunch.com/2009/07/02/google-app-engine-broken-for-4-hours-and-counting/">goes down</a>. There's of course added latency,  security is not a huge concern, but SSL isn't an option. Unless of course the proxy get's taken over.</p>
-<p>Ideally if I could install that proxy locally, I'd remove this problem - and perhaps this is Apigee's monetization plan.  For example, I've pretty much assumed that in <a href="http://www.areciboapp.com">Arecibo</a>, our servers can go down and that this will not leave your site in-operable.</p>
-:ET
