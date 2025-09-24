@@ -1,5 +1,0 @@
-plugins: [jekyll-paginate]
-permalink: /:year-:month-:day-:title/
-paginate: 1
-highlighter: rouge
-keep_files: ['CNAME', '404.html']

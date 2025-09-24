@@ -1,8 +1,0 @@
----
-layout: post
-title: No Django logging framework?
-categories: Django
-old: 2020
-blog: andy-mckay
----
-<p>It seems a rather big omission, so if I've missed it my apologies. But there doesn't seem to be any standard logging framework in Django, it's in the write your own land. So I've got a module, simpletempates that I put out there (don't think anyone uses it) and that sometimes wants to tell the person developing the site things like your template is not compiling or cannot be found, useful stuff. There isn't any standard way of doing this as far as I can tell. Just found lots of posts on "wouldn't it be nice if...".</p>

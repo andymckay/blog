@@ -1,9 +1,0 @@
----
-layout: post
-title: Back to Canada date
-categories: England
-old: 2129
-blog: andy-mckay
----
-<p>A couple of days ago we booked tickets back to Canada. Which means around the 19th of December, I'll be home. Part of me is slightly worried that without a house and a job I might feel a little out of sorts. But that's the easy part. We have lots of friends and family there and that's the important part.</p>
-<p>All we have to do now is sell or get rid of our junk and ship the rest back. Shipping prices seem to have jumped dramatically, probably something to do with those oil prices...</p>

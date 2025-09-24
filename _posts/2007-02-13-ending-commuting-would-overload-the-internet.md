@@ -1,8 +1,0 @@
----
-layout: post
-title: Ending commuting would overload the internet
-categories: General
-old: 1914
-blog: andy-mckay
----
-<p>If everyone was telecommuting this would cause a huge load on the internet. We can see this already in the UK with limiting by all the providers, because everyone goes through BT. The internet will reduce commuting and help the environment, it can be a key player.</p>  <blockquote>Many companies and government agencies are counting on legions of teleworkers to keep their operations running in the event of an influenza pandemic. But those plans may quickly fall apart as millions of people turn to the Internet for news and even entertainment, potentially producing a bandwidth-choking surge in online traffic. </blockquote> <cite>Link: <a href="http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9011125" target="_blank">http://www.computerworld.com/action/article.do?command=viewArticleBasic&amp;articleId=9011125</a>&nbsp;Via: Slashdot</cite>

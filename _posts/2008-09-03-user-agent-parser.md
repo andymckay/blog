@@ -1,8 +1,0 @@
----
-layout: post
-title: User agent parser
-categories: Python
-old: 2118
-blog: andy-mckay
----
-<p>I've posted I was looking for a user agent parser in Python. Yay I found one. I ended up at the <a href="http://browsers.garykeith.com/index.asp">browsercaps project</a> which looks like its probably the biggest and most conclusive list of user agents out there. From that I found a <a href="http://www.djangosnippets.org/snippets/267/">Django snippet</a> and there we go an excellent user agent parser in a few mins. Only slight problem seems to be the time taken to run the parser, but I might move that to an extra process anyway.</p>

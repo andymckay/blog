@@ -1,9 +1,0 @@
----
-layout: post
-title: Snowy mountains
-categories: Canada
-old: 2289
-blog: andy-mckay
----
-<img src="http://farm6.static.flickr.com/5202/5195970734_bbe61b866b_z.jpg">
-<p>I wish we'd had our proper camera with us. More on <a href="http://www.flickr.com/photos/43096515@N00/">Flickr</a></p>

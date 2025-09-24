@@ -1,8 +1,0 @@
----
-layout: post
-title: Blue Fountain wins an award
-categories: General
-old: 1886
-blog: andy-mckay
----
-<p>Congratulations for Blue Fountain. The best write up is <a href="http://www.cottee.org/articles/2006/12/08/we-won-an-award-aka-ruby-and-python-right-bang-in-the-enterprise" target="_blank">here</a>, I should say &quot;we won...&quot; but I had absolutely nothing to do with this one.</p>  <blockquote>It monitors incoming signals for any anomalies, transmits warnings to a bunch of alarms wired throughout the factory, has a parallel system working in backup and runs matching between Futaba data and Toyota data to clarify the end of month invoices between the two companies. It provides status screens for both those in Futaba and those in Toyota. It works day and night with the Toyota shifts and has a weeks break during Toyota shutdown in the summer and at Christmas during which times we usually prepare it for it&#39;s next incarnation.</blockquote>
