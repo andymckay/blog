@@ -1,0 +1,139 @@
+---
+layout: post
+title: Maui
+categories: trips, biking, multi-day
+
+---
+
+A couple of weeks after my <a href="/2022-04-24-first-trip.html">first trip</a> it was time to head out on my second trip. The weather in Vancouver and British Columbia has been unseasonably cold and very frustrating. I wanted to go somewhere warm. There are lots of choices, but all of sudden they all got really expensive. On a whim I found a cheap flight to Maui and off I went.
+
+### Changes from my first trip
+
+This trip had a few differences: I was flying, Maui is really warm, I was never staying anywhere too remote. For this reason I decided not to pack stove, cooking gear, or food. I could live without a good cup of tea for a week. This meant I could remove my frame bag.
+
+My wife also pointed out that we had an air mattress that compacted smaller and it fit nicely into my <a href="/2022-05-17-panniers.html">new panniers</a>, meaning I could take one dry bag less as well.
+
+It turns out camping is really hard to find in Maui. Covid has meant that availability is limited and some have just closed. Here's the "official" campsites that are left (excluding walk in ones at the top of Haleakala):
+
+<img src="/files/camping-maui.png" width="400px">
+<cite><a href="https://www.google.com/maps/@20.6704429,-156.5285182,10.41z/data=!4m2!10m1!1e1">Google map</a></cite>
+
+If you search for campsites on Maui you might find more including state parks that are "good for camping". You'll probably also find lots of websites saying you can camp on any beach as long as you have a fishing rod.
+
+Some of these places are better than other. The road either side of Lahaina certainly had lots of cars and tents parked up camping on beaches and space for others. So you probably could camp there.
+
+Personally, I'm worried enough generally about safety in the US from private property to people with guns that I didn't feel comfortable doing that based on what some random websites say.
+
+In the end I could only get a total of 3 nights camping out of my 7 there. I would have liked more, but it resulted in me getting in the rides I wanted so it's not so bad. If like me, you want to camp in campsites with facilities and less worries - book early. The resulting trip and locations I stayed in is a result of booking late and trying to avoid the expensive areas.
+
+### Day 1: Jet lag and assemble bike
+
+I stayed in Kahului, assembled my bike after a 10:30pm arrival the night before. Most hotels will not store bike boxes or anything overnight, but I did persuade one nice person at the hotel to do it for me (cost a bit in tips).
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7110978753/embed/5cd626998d8e95ebbfab65f71002802ad2c22b23'></iframe>
+
+This was just a quick shake out ride and then a visit to Walmart to stock up on groceries.
+
+### Day 2: Kahului to Olowalu
+
+The first long ride, ending up with campsite and a beach in Olowalu.
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7121391240/embed/73b811f333e399e90f3795b6eccd0260a273df53'></iframe>
+
+<img src="/files/IMG_2052.JPG" width="400">
+
+I absolutely loved this ride. It was gorgeous, very sunny and unbelieveably windy.
+
+There's a big hill coming out of Kahului - its always good to start with the hill and get it out of the way. The village of <a href="https://www.google.com/maps/place/Kahakuloa,+HI+96793,+USA/@21.0009245,-156.5628451,15z/data=!3m1!4b1!4m8!1m2!10m1!1e1!3m4!1s0x7eab2bdab3f68513:0x65c8e7836e04e78!8m2!3d21.0009085!4d-156.55406">Kahakuloa</a> marks the transition from the hill - it's a good place for drinks and banana bread and has spectacular scenery.
+
+The next section is all cliff side roads, with fantastic views. At the beginning the road gets very, very narrow but does soon even out.
+
+The last big transition is around <a href="https://www.google.com/maps/place/D.T.+Fleming+Park/@21.0058175,-156.6468452,14.43z/data=!4m8!1m2!10m1!1e1!3m4!1s0x7eaad5c776457c77:0x9160a3ac662334d7!8m2!3d21.0048584!4d-156.6513703">DT Fleming Park</a> where it turns into a highway with a wide shoulder. This is a good place to stop for toilet and water top up before cruising down the highway for the rest.
+
+
+### Day 3: Olowalu to Kihei
+
+In the morning I had to make a decision, to try <a href="https://www.google.com/maps/dir/Olowalu+Beach,+Hawaii+96761,+United+States/Haleakala+Crater,+Hawaii,+USA/@20.7946001,-156.5663247,11z/data=!4m14!4m13!1m5!1m1!1s0x7954d620a4d0104d:0x6a34602b0ffa082e!2m2!1d-156.6156274!2d20.8090713!1m5!1m1!1s0x7954c811eeb96541:0x864843523f88c0bc!2m2!1d-156.2535131!2d20.7096826!3e1">Haleakala Crater</a> or not. I felt that if I did that, I would absolutely wipe myself out for a couple of days. I was also feeling tired from my previous days ride. Jet lag, or first big exercise since my marathon? Not sure, but I decided to pass.
+
+In the end I took a leisurely ride from Olowalu over to Kihei and had a nice lunch and layabout.
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7122582736/embed/a5602855ad48294a11ca7d3487719d7ac0222f26'></iframe>
+
+This was a flat ride, a good chunk on a busy highway. It also had brutal headwinds that seemed to change and hit me each way. At one point I just gave up riding and walked my bike along the sandy beach instead, tough life.
+
+<img src="/files/IMG_2081.JPG" width="400">
+
+### Day 4: Olowalu to Kahului
+
+The big ride was coming up, around Hana and I'd got a hotel back in Kahului to act as the launch point. So I wanted this day to be relatively quiet as well, but I did some of the simple short 20km route yesterday and it wasn't that fun.
+
+So instead I went the long way back to Kahului and reversed my route from the day before. Why the heck not, it was gorgeous. This time I got to stop at some different places on the way and it was just as amazing.
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7127821053/embed/4ed5c263f566ddae06399b7d295827833db5688f'></iframe>
+
+There is one hill that almost defeated me, called "The Wall" which <a href="https://www.strava.com/activities/7127821053/segments/2959625694434573968">Strava shows as 15.8%</a> but feels more like 18%.
+
+<img src="/files/IMG_2120.JPG" width="400">
+
+### Day 5: Kahului to Kipahulu
+
+This was the big one that I'd been looking forward to. I'd been lucky enough to get a campsite a Kipahulu, which is down in Haleakala National Park and half way around east Maui.
+
+I ❤️ the east side of Maui and was looking forward to this.
+
+**Note:** A lot of people recommend doing this counter clockwise to avoid tourist traffic heading out to Hana. I did this clockwise because the week before the road near <a href="https://www.google.com/maps/place/Kaupo,+HI+96790,+USA/@20.6364922,-156.1309922,15z/data=!3m1!4b1!4m8!1m2!10m1!1e1!3m4!1s0x7954ba30cdccfdb5:0xcfee263a13947dc3!8m2!3d20.6364792!4d-156.1222243">Kaupo</a> has been washed out and it was impassable. I wanted to ensure that I didn't cycle counter clockwise, get to Kaupo and then be stuck and have to do a 170km diversion to get to my campsite.
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138008219/embed/5df4b9d3bbf2ef1ee38149d9ec0d8159eb4b726d'></iframe>
+
+The first part of the road until it gets into the "road to Hana" is mostly forgettable and a bit hilly. But then it turns into the most magnificient road ever. It generally flows really nicely and provides comfortable riding with amazing views.
+
+The tourists are annoying as air conditioned tourists fight to pass each other in their rented SUVs that are far too big for the road and then park at each stop. But they didn't really get in the way of riding and because they weren't going fast generally were safe to be around.
+
+There's a wonderful drink and snack stop at Halfway to Hana that kindly filled up all my water bottles. After that you've got a long climb, so its good to fill up.
+
+Most tourists run around at Hana, but that's such a shame. The road down to Kipahulu just gets better.
+
+The campsite is spectacular and it was basically empty. I had a nice chat with the camp manager and in the past the camp was repeatedly overrun with people that were abusing the site. So they've introduced reservations and limited the number of visitors. If you can get a spot it's worth it, amazing campsite.
+
+<img src="/files/IMG_2177.JPG" width="400">
+
+Wouldn't be a visit to the national park without a hike up to the waterfalls that evening would it?
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138007945/embed/8aba46fa2f77129d77cae7ca9f1aad5323ea7d90'></iframe>
+
+This was a tiring day, on top of a good ride yesterday and I slept well.
+
+### Day 6: Kipahulu to Kahului
+
+The road was open. Funnily enough there were a few rental cars that really shouldn't have been there either, but that's always the way. This was another amazing ride.
+
+The road is advertised as four wheel drive only. It's just fine for a bike. A road bike would probably be ok, just take it easy on the gravelly bits.
+
+It starts with being close to the sea and beaches. Then it starts to open out and you get to climb. And climb. And climb. Many short steep sections. There is no water for 45km and 1,000 meters and it was getting up to 28c.
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138008275/embed/f53b039a252167d21f91c1166f0f405e3de2d203'></iframe>
+
+This where I started to struggle. But I just rested a few times and enjoyed the remoteness. On one side you had the sea, the other the volcano stretching up with the observatory on top.
+
+<img src="/files/IMG_2238.JPG" width="400">
+
+At about 45km you get to the Maui Winery and general store that sold water and food. It was a most welcome sight.
+
+Unfortunately the climbing doesn't stop until you reach the road that branches off to Haleakala. I didn't take that and instead cruised dow the hill into Kahului - a nice chance to get my average speed up.
+
+### Day 7: Recovery and fly home
+
+I needed a break, my legs hurt, I was a bit sunburnt (no rain at all) and tired. So I packed my bike and lay on the beach drinking a beer and reading a book for a few hours before heading home.
+
+### Conclusion
+
+Maui isn't a big island and accomodation is a problem. If I did it again, I'd probably aim for a week in an apartment somewhere like Kihei and just use that as a base. Do west Maui in one day, then spend a day on the beach. Then do the volcano, then a day on the beach. That sort of thing.
+
+The winds are really, really strong. I'm glad I left my frame bag at home, it would have provided more surface area for the wind to catch. It was hard enough as it was. Minimize your surface area for the wind.
+
+Generally the Kihei and Lahaina areas are for tourists. Sandy beaches, no rain, no wind. That's not the part of Maui that I love. The north shore of west Maui and the east side of Maui are beautiful, wild, remote and just perfect.
+
+
+
+
+

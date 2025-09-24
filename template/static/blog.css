@@ -1,0 +1,86 @@
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+    font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Fertigo;
+    src: url(Fertigo_PRO.otf) format("opentype");
+}
+
+@font-face {
+    font-family: DroidSans;
+    src: url(DroidSans.ttf) format("truetype");
+}
+
+body {
+    font-family: DroidSans;
+    line-height: 1.6em;
+    font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Fertigo;
+}
+
+.flex-auto {
+    flex: 0 0 auto;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+
+/* Pagination */
+
+.blog-pagination {
+    margin-bottom: 4rem;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #727272;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+p.card-text {
+    font-size: 0.9em;
+}
+
+.date {
+    font-size: 0.9em;
+}
+
+h3 {
+    font-size: 1.2em;
+}

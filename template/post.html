@@ -1,0 +1,37 @@
+{% extends "template.html" %} {% block title %} | {{ content.meta.title }}{% endblock %} {% block header %}
+<meta property="og:image:width" content="600" />
+<meta property="og:image" content="{{ content.strava_image_url() }}" />
+<meta property="og:title" content=" {{ content.meta.title }}" />
+<meta property="og:url" content="https://mckay.pub/{{ content.url() }}" /> {% endblock %}{% block content %}
+<div class="mb-4">
+    {% for category in content.meta.categories %}
+    <a href="/{{ category|lower }}.html" class="btn btn-outline-secondary">{{ category }}</a> {% endfor %}
+</div>
+<div class="row g-5">
+    <div class="col-lg-8 px-4">
+        <div class="border-bottom border-secondary">
+            <h2>{{ content.meta.title }}</h2>
+            <p class="text-secondary">{{ content.nice_date() }}</p>
+        </div>
+        <p class="my-3 ">
+            {{ content.html }}
+        </p>
+    </div>
+    <div class="col-lg-4 px-4 p-4 mb-4">
+        {% if content.strava_image_url() %}
+        <div class="bg-body-tertiary rounded mb-4 p-4">
+            <h4 class="fst-italic ">Highlight</h4>
+            <img src="{{ content.strava_image_url() }}" width="310" style="object-fit: cover">
+        </div>
+        {% endif %}
+        <div class=" bg-body-tertiary rounded mb-4 p-4 ">
+            <h4 class="fst-italic ">About</h4>
+            <p>Grumpy Old Hiker is a blog about hiking, backpacking, and the outdoors. Proud Canadian 🇨🇦</p>
+            <p>
+                <a href="/about.html ">Read more...</a>
+            </p>
+        </div>
+        {% include "sidebar.html" %}
+    </div>
+</div>
+{% endblock %}

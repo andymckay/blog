@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Andy McKay</title>
+    <updated>{{ now }}</updated>
+    <id>https://mckay.pub/</id>
+    <author>
+        <name>Andy McKay</name>
+        <email>andy@mckay.pub</email>
+    </author>
+    {% for post in posts %}
+    <entry>
+        <title>{{ post.meta.title }}</title>
+        <link href="https://mckay.pub/{{ post.url() }}"/>
+        <published>{{ post.date_xml() }}</published>
+        <id>https://mckay.pub/{{ post.url() }}</id>
+        <content type="html">
+            {{ post.html|escape }}
+        </content>
+    </entry>
+    {% endfor %}
+</feed>

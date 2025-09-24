@@ -1,0 +1,42 @@
+{% extends "template.html" %} {% block content %}
+<div class="rounded text-body-emphasis col-md-12">
+    <div class="row g-0 border rounded overflow-hidden bg-body-secondary flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <h2>{{ first.meta.title }}</h2>
+            <p class="lead my-3">
+                {{ first.lead_in() }}
+            </p>
+            <p class="lead mb-0">
+                <a href="{{ first.url()}}" class="text-body-emphasis fw-bold">Continue reading...</a>
+            </p>
+        </div>
+        <div class="col-auto">
+            {% set url = first.strava_image_url() %} {% if url %} <img height="250" width="500" class="bd-placeholder-img" style="object-fit: cover" src="{{ url }}"> {% endif %}
+        </div>
+    </div>
+</div>
+
+{% for row in post_rows %}
+<div class="row mb-2">
+    {% set post = row[0] %} {% include "post-listing.html" %} {% if row|length > 1 %}{% set post = row[1] %} {% include "post-listing.html" %}{% endif %}
+</div>
+{% endfor %}
+<div class="row mb-2">
+    <div class="col-md-6">
+        <h4 class="fst-italic border-bottom border-secondary">Gear</h4>
+        <ul>
+            {% for post in gear_posts %}
+            <li><a href="/{{ post.url() }}">{{ post.meta.title }}</a> {% if "Using" in post.meta.categories %} <span class="btn btn-success btn-sm">using</span> {% endif %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h4 class="fst-italic border-bottom border-secondary">About</h4>
+        <p>Grumpy Old Hiker is a blog about hiking, backpacking, and the outdoors. Proud Canadian 🇨🇦</p>
+        <p>
+            <a href="/about.html ">Read more...</a>
+        </p>
+    </div>
+</div>
+
+{% endblock %}

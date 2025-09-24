@@ -1,0 +1,16 @@
+<div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">{{ post.meta.title }}</h3>
+            <div class="mb-1 text-body-secondary date">{{ post.nice_date() }}</div>
+            <p class="card-text mb-auto">{{ post.lead_in() }} </p> <a href="/{{ post.url() }}" class="icon-link gap-1 icon-link-hover stretched-link">
+                                Continue reading
+                                <svg class="bi" aria-hidden="true"><use
+                                        xlink:href="#chevron-right"></use></svg>
+                            </a>
+        </div>
+        <div class="col-auto">
+            {% set url = post.strava_image_url() %} {% if url %} <img height="250" width="200" class="bd-placeholder-img" style="object-fit: cover" src="{{ url }}"> {% endif %}
+        </div>
+    </div>
+</div>

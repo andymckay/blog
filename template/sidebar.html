@@ -1,0 +1,6 @@
+{% if content.toc|length > 35 %}
+<div class="p-4">
+    <h4 class="fst-italic">Contents</h4>
+    {{ content.toc }}
+</div>
+{% endif %}

@@ -1,0 +1,12 @@
+{% extends "template.html" %} {% block title %} | {{ content.meta.title }}{% endblock %} {% block content %}
+<div class="row g-5">
+    <div class="col-lg-8 px-4">
+        <p class="my-3" id="404"></p>
+        <p class="my-3 ">
+            {{ content.html }}
+        </p>
+    </div>
+</div>
+{% endblock %} {% block script %}
+<script src="/static/404-redirect.js"></script>
+{% endblock %}
