@@ -120,7 +120,7 @@ def build():
     templates["atom"] = template.get_template("atom.xml")
 
     def write(target, __template, **kwargs):
-        with open(os.path.join("output", target), "w") as f:
+        with open(os.path.join("docs", target), "w") as f:
             t = templates[__template]
             f.write(t.render(**kwargs))
 
@@ -216,13 +216,13 @@ def build():
     }
     write("atom.xml", "atom", **context)
 
-    os.makedirs("output/static", exist_ok=True)
+    os.makedirs("docs/static", exist_ok=True)
     for filename in os.listdir("template/static"):
         if os.path.isdir(os.path.join("template/static", filename)):
             continue
         shutil.copy(
             os.path.join("template/static", filename),
-            os.path.join("output/static", filename),
+            os.path.join("docs/static", filename),
         )
     
     print("Build complete.")
@@ -231,7 +231,7 @@ def build():
 class Handler(FileSystemEventHandler):
     @staticmethod
     def on_any_event(event):
-        if event.src_path.find("new-blog/output") > -1:
+        if event.src_path.find("blog/docs") > -1:
             return
         elif event.is_directory:
             return
@@ -255,10 +255,10 @@ if __name__ == "__main__":
         observer.join()
 
     if len(sys.argv) > 1 and sys.argv[1] == "--clean":
-        for filename in os.listdir("output"):
+        for filename in os.listdir("docs"):
             if filename.endswith(".html"):
-                os.remove(os.path.join("output", filename))
-        print("Cleaned output directory.")
+                os.remove(os.path.join("docs", filename))
+        print("Cleaned docs directory.")
 
     else:
         build()
