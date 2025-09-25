@@ -104,9 +104,6 @@ def getContent(filename, meta):
         return Page(filename=filename, meta=meta)   
     if meta["layout"] == "notfound":
         return NotFound(filename=filename, meta=meta)  
-    
-def double_posts(posts):
-    return [posts[i : i + 2] for i in range(0, len(posts), 2)]
 
 def sort_posts(posts):
     posts.sort(key=lambda post: post.date().strftime('%Y-%m-%d'), reverse=True)
@@ -186,14 +183,14 @@ def build():
     for category in sorted(categories):
         context = {
             "category": category,
-            "post_rows": double_posts(sort_posts(categories[category]))
+            "posts": sort_posts(categories[category])
         }
         write(category.lower() + ".html", "category", **context)
 
     context = {
-        "first": posts[0],
-        "post_rows": double_posts(posts[1:5]), 
-        "gear_posts": sort_posts(categories["Gear"])
+        "posts": posts[:3],
+        "hike_posts": sort_posts(categories["Hiking"][:10]),
+        "gear_posts": sort_posts(categories["Gear"][:10])
     }
     write("index.html", "index", **context)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golden Ears
-categories: trips, steep, multi-day
+categories: trips, steep, multi-day, hiking
 
 ---
 
@@ -31,4 +31,4 @@ Not much to say about the downhill, other than its steep 🤷‍♂
 
 Overall, stunning views and would do again. Highlighted the tent (little red arrow) as seen from near the summit, looking down onto the ridge 👇
 
-<img src="/files/IMG_2658.jpeg" width="600px">
+<img src="/files/IMG_2658.jpeg" class="img-fluid">

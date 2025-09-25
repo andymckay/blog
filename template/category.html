@@ -3,8 +3,4 @@
     <a href="/{{ category|lower }}.html" class="btn btn-outline-secondary">{{ category }}</a>
 </div>
 
-{% for row in post_rows %}
-<div class="row mb-2">
-    {% set post = row[0] %} {% include "post-listing.html" %} {% if row|length > 1 %}{% set post = row[1] %} {% include "post-listing.html" %}{% endif %}
-</div>
-{% endfor %} {% endblock %}
+{% for post in posts %} {% include "post-listing.html" %} {% endfor %} {% endblock %}

@@ -15,6 +15,8 @@ After an hour of that you hit a steep boulder field full of lava rock. It's a re
 
 As someone with a fear of vertical drops, there were no problems on this hike - until the view at the end. Get to the top and you are on the crater with a fantastic view and steep vertical drops. A few muinutes there was enough.
 
+<img src="https://dgtzuqphqg23d.cloudfront.net/Lgp9S3Cz8qN_8MVLTdriO8exaaBzeOfdbPBNIdbg5qE-768x231.jpg" class="img-fluid">
+
 <hr>
 
 As a brief snapshot into life in these areas, everyone we met on the trail was lovely. However we were approached by people wanting us to join (presumably Christian) morning service, many Trump flags and stickers and some guy sitting outside an ice cream shop asking us to vote Trump. Sigh.

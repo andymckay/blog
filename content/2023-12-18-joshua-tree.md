@@ -2,7 +2,7 @@
 layout: post
 title: Joshua Tree
 categories: trips, hiking
-
+image: /files/IMG_0524.jpeg
 ---
 
 In my new job I had five days of vacation to spend by the end of the year. So I took a week and went to Palm Springs and then to Joshua Tree with a friend. The original plan was a few days in Joshua Tree National Park followed by a day or two in Mojave Desert with overnights each way in Palm Springs.
