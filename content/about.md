@@ -3,4 +3,4 @@ layout: page
 title: About this blog
 ---
 
-Grumpy Old Hiker is a blog about hiking, backpacking, and the outdoors. Proud Canadian 🇨🇦
+This is a blog about hiking and the outdoors in general. I'm a grumpy old hiker, based in North Vancouver, BC. I spend time backpacking if I can, in BC and around the world.
