@@ -1,7 +1,4 @@
 {% extends "template.html" %} {% block title %} | {{ content.meta.title }}{% endblock %} {% block content %}
-<div class="mb-4">
-    <a href="/" class="btn btn-primary">Home</a>
-</div>
 <div class="row g-5">
     <div class="col-lg-8 px-4">
         <div class="border-bottom border-secondary">
@@ -10,16 +7,6 @@
         <p class="my-3 ">
             {{ content.html }}
         </p>
-    </div>
-    <div class="col-lg-4 px-4 p-4 mb-4">
-        <div class="p-4">
-            <h4 class="fst-italic ">Follow</h4>
-            <p>
-                <a href="#">Strava</a><br/>
-                <a href="#">Bluesky</a><br/>
-                <a href="#">RSS</a><br/>
-            </p>
-        </div>
     </div>
 </div>
 {% endblock %}
