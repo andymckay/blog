@@ -12,13 +12,10 @@ import time
 from stravalib import Client as StravaClient
 import json
 import os
-from dotenv import load_dotenv
 
 json_path = os.path.join(".strava.json")
 with open(json_path, "r") as f:
     token_refresh = json.load(f)
-
-load_dotenv()
 
 client = StravaClient(
     access_token=token_refresh["access_token"],
@@ -256,6 +253,21 @@ if __name__ == "__main__":
             if filename.endswith(".html"):
                 os.remove(os.path.join("docs", filename))
         print("Cleaned docs directory.")
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--new-post":
+        today = datetime.datetime.today()
+        filename = today.strftime('%Y-%m-%d') + "-post.md"
+        with open("content/" + filename, "w") as f:
+            f.write("""
+---
+layout: post
+title:
+categories:
+---
+
+Text goes here.
+""")
+        print("New post: content/" + filename, "created.")
 
     else:
         build()

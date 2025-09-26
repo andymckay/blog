@@ -1,0 +1,6 @@
+markdown
+pyyaml
+bs4
+stravalib
+jinja2
+watchdog

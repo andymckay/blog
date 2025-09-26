@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Fly Creek HV UL1 Tent
+title: Big Agnes Fly Creek UL1 Tent
 categories: gear, using
-image: /files/IMG_2653.jpeg
+image: /files/fly-creek-ul1.jpg
 ---
 
 A couple of years ago I [got a tent](/2022-04-04-a-tent.html). It had its problems and I needed another one. There were some problems:
@@ -22,6 +22,8 @@ The deal breaker is not being freestanding. The tent requires well anchored tent
 So time for another tent. Enter the Big Agnes 
 [Fly Creek HV UL1 tent](https://www.bigagnes.com/collections/ultralight-tents/products/fly-creek-hv-ul1-solution-dye).
 
+<div class="alert alert-warning">🚨 Big Agnes is a US company 🤦‍♂, so Canadian 🇨🇦 buyers beware. I bought this before the current administration.</div>
+
 This tent is great for three seasons, easier to put up, light weight and more rigid and able to cope with the wind and semi freestanding.
 
 It's semi freestanding because the fly requires pegs to hold away from the main, but that's pretty common.
@@ -35,3 +37,5 @@ So far I'm extremely happy with this tent, in Garibaldi with some strong gusts o
 It's actually smaller than the Tarp Tent and that's good, it's easier to pitch. It fits me and my sleeping pad and gear just fine.
 
 Big 👍 from me, so far.
+
+Total weight as carried - fly and inner sheet, poles, pegs with bag for each: <code>913g</code>
