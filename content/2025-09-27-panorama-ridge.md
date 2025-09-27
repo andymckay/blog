@@ -42,7 +42,7 @@ I was able to have a nice swim in the lake, sunbathe and be back at Helm Creek i
 
 This is a pretty straightforward hike out, due it being downhill pretty much all the way it passed really quickly. I enjoyed the sun rising and seeing the sunlight come in through the trees as I made my way down. It only took 1h 46m for me to get back to the car. Then it was drive out on the 8km of unpaved road to Function Junction feeling pretty happy and satisfied. This would be a nice opportunity to divert over to Cheakamus Lake if you fancied another mountain lake swim.
 
----
+### Summary
 
 Overall a great hike with **amazing** views, but concerns about the overcrowding. I'd happily consider doing this in one day, or perhaps a loop up from one end to the other taking in Black Tusk next time.
 
