@@ -3,6 +3,7 @@
 layout: post
 title: Panorama Ridge
 categories: hiking, canada, BC, overnight
+image: /files/IMG_2814.jpeg
 ---
 
 For some reason Panorama Ridge has been on my list for a long time, but I haven't gone. Partly it was confusion on my part about how to get up to Panorama Ridge and how long the trail actually. Turns out it's really easy to get to and well worth it. Unfortunately judging by the numbers of people I saw and the posts on <code>/r/vancouverhiking</code> it looks like it's getting overwhelmed by people, rather like Joffre Lakes.
