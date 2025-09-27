@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Juan de Fuca
-categories: trips, hiking, multi-day
+categories: hiking, overnight
 
 ---
 

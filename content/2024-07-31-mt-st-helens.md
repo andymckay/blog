@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mt. St. Helens
-categories: trips, hiking
+categories: hiking
 
 ---
 

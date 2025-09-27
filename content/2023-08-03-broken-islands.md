@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Broken Islands
-categories: trips, kayaking, multi-day
+categories: kayaking, overnight
 
 ---
 

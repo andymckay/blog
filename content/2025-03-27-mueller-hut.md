@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mueller Hut
-categories: trips, hiking, steep
+categories: hiking, steep
 
 ---
 

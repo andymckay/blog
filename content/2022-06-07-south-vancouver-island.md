@@ -1,7 +1,7 @@
 ---
 layout: post
 title: South Vancouver Island
-categories: trips, biking, multi-day
+categories: biking, overnight
 
 ---
 

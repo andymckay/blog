@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Joshua Tree
-categories: trips, hiking
+categories: hiking
 image: /files/IMG_0524.jpeg
 ---
 

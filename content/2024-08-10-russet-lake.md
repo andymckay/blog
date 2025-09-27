@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Russet Lake
-categories: trips, hiking, multi-trip
+categories: hiking, overnight
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vancouver island
-categories: trips, biking, multi-day
+categories: biking, overnight
 
 ---
 

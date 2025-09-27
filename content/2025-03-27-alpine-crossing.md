@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alpine crossing
-categories: trips, hiking, multi-day
+categories: hiking, overnight
 
 ---
 

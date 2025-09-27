@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Elsay Lake
-categories: trips, hiking, multi-day
+categories: hiking, overnight
 
 ---
 

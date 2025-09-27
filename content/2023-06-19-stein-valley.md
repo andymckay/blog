@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Stein Valley
-categories: trips, hiking, multi-day
+categories: hiking, overnight
 
 ---
 

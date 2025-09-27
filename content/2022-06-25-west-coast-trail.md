@@ -1,7 +1,7 @@
 ---
 layout: post
 title: West Coast Trail
-categories: trips, hiking, multi-day
+categories: hiking, overnight
 
 ---
 

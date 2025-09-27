@@ -1,7 +1,7 @@
 ---
 layout: post
 title: West Coast Trail
-categories: trips
+categories: overnight
 blog: andy-mckay
 ---
 

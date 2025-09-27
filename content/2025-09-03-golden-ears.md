@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golden Ears
-categories: trips, steep, multi-day, hiking
+categories: steep, overnight, hiking
 
 ---
 
@@ -20,6 +20,8 @@ The ridge is about 1,390m elevation and at this point there's an emergency shelt
 We then attempted the summit, but at about 50m elevation from the top, I was feeling a bit woozy and uncomfortable. At that point I decided to sit on a ledge and enjoy the view while my friends summitted. No regrets, exposure and vertical climbing is just not my thing.
 
 There were no bugs and the camping on the ridge was just amazing.
+
+<img src="/files/IMG_2670.jpeg" class="img-fluid"/>
 
 ### Day 2: Golden Ears Ridge 👉 Alouette Lake
 

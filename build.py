@@ -35,9 +35,12 @@ class Content:
         self.toc = toc
         self.category = category
 
-    def url(self):
+    def target_filename(self):
         return self.filename.replace(".md", ".html")
-    
+
+    def url(self):
+        return self.target_filename()
+
 class Post(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
         super().__init__(filename, meta, body, html, toc, category)
@@ -102,21 +105,38 @@ def getContent(filename, meta):
     if meta["layout"] == "notfound":
         return NotFound(filename=filename, meta=meta)  
 
+def capitalize(text):
+    return text[0].upper() + text[1:]
+
 def sort_posts(posts):
     posts.sort(key=lambda post: post.date().strftime('%Y-%m-%d'), reverse=True)
     return posts
-    
-def build():
-    template = jinja2.Environment(loader=jinja2.FileSystemLoader("template"))
-    templates = {}
+
+template = jinja2.Environment(loader=jinja2.FileSystemLoader("template"))
+templates = {}
+
+def filtered_posts(posts):
+    earliest = datetime.datetime.strptime(
+        "-".join("2025-09-04".split("-", 3)[:3]), "%Y-%m-%d"
+    ).date()
+
+    filtered = []
+    for post in posts:
+        if post.date() > earliest:
+            print("Adding post", post.meta["title"], "to feed.")
+            filtered.append(post)
+
+    return filtered
+
+def write(target, __template, **kwargs):
+    with open(os.path.join("docs", target), "w") as f:
+        t = templates[__template]
+        f.write(t.render(**kwargs))
+
+def get_content():
     for name in ["post", "category", "index", "page", "404"]:
         templates[name] = template.get_template(f"{name}.html")
     templates["atom"] = template.get_template("atom.xml")
-
-    def write(target, __template, **kwargs):
-        with open(os.path.join("docs", target), "w") as f:
-            t = templates[__template]
-            f.write(t.render(**kwargs))
 
     print("Building site...")
     categories = {}
@@ -164,16 +184,23 @@ def build():
 
         if content.meta.get("categories"):
             content.meta["categories"] = [
-                c.strip().capitalize() for c in content.meta["categories"].split(",")
+                capitalize(c.strip()) for c in content.meta["categories"].split(",")
             ]
             for category in content.meta["categories"]:
                 categories.setdefault(category, [])
                 categories[category].append(content)
 
-        write(filename.replace(".md", ".html"), content.template, content=content)
-
         if isinstance(content, Post):
             posts.append(content)
+    
+    posts = sort_posts(posts)
+    return posts, categories
+
+
+def build():
+    posts, categories=get_content()
+    for content in posts:
+        write(content.target_filename(), content.template, content=content)
     
     posts = sort_posts(posts)
 
@@ -190,19 +217,6 @@ def build():
         "gear_posts": sort_posts(categories["Gear"][:10])
     }
     write("index.html", "index", **context)
-
-    def filtered_posts(posts):
-        earliest = datetime.datetime.strptime(
-            "-".join("2025-09-04".split("-", 3)[:3]), "%Y-%m-%d"
-        ).date()
-
-        filtered = []
-        for post in posts:
-            if post.date() > earliest:
-                print("adding post", post.meta["title"])
-                filtered.append(post)
-
-        return filtered
 
     context = {
         "now": datetime.datetime.now(datetime.timezone.utc).isoformat(),
@@ -253,6 +267,13 @@ if __name__ == "__main__":
             if filename.endswith(".html"):
                 os.remove(os.path.join("docs", filename))
         print("Cleaned docs directory.")
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--list-categories":
+        posts, categories = get_content()
+        for category in sorted(categories.keys()):
+            print(category)
+            for post in sort_posts(categories[category]):
+                print("  ", post.filename)
 
     if len(sys.argv) > 1 and sys.argv[1] == "--new-post":
         today = datetime.datetime.today()
