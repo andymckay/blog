@@ -1,7 +1,7 @@
 ---
 layout: post
 title: West Coast Trail
-categories: overnight
+categories: overnight, canada, BC
 blog: andy-mckay
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alpine crossing
-categories: hiking, overnight
+categories: hiking, overnight, New Zealand
 
 ---
 

@@ -1,17 +1,23 @@
+import http
 import os
+import socketserver
 import markdown
 import yaml
 import jinja2
 import shutil
 import datetime
 import sys
+import json
+import http.server
+import time
 from bs4 import BeautifulSoup
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import time
+
 from stravalib import Client as StravaClient
-import json
-import os
+
+
+
 
 json_path = os.path.join(".strava.json")
 with open(json_path, "r") as f:
@@ -25,7 +31,8 @@ client = StravaClient(
 
 with open("images.json", "r") as f:
     images = json.load(f)
-    
+
+
 class Content:
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
         self.filename = filename
@@ -40,6 +47,7 @@ class Content:
 
     def url(self):
         return self.target_filename()
+
 
 class Post(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
@@ -57,7 +65,9 @@ class Post(Content):
     def lead_in(self):
         if self.meta.get("lead_in"):
             return self.meta["lead_in"]
-        words = BeautifulSoup(self.html, features="html.parser").get_text().strip().split()
+        words = (
+            BeautifulSoup(self.html, features="html.parser").get_text().strip().split()
+        )
         return " ".join(words[:15]) + "..."
 
     def date_xml(self):
@@ -66,10 +76,10 @@ class Post(Content):
     def strava_image_url(self):
         if self.meta.get("image"):
             return self.meta["image"]
-        
+
         if self.filename in images:
             return images[self.filename]
-        
+
         print("Fetching Strava image for", self.filename)
         soup = BeautifulSoup(self.html, features="html.parser")
         url = None
@@ -87,33 +97,49 @@ class Post(Content):
         with open("images.json", "w") as f:
             json.dump(images, f, indent=2)
 
+
 class Page(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
         super().__init__(filename, meta, body, html, toc, category)
         self.template = "page"
+
 
 class NotFound(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
         super().__init__(filename, meta, body, html, toc, category)
         self.template = "404"
 
+
 def getContent(filename, meta):
     if meta["layout"] == "post":
         return Post(filename=filename, meta=meta)
     if meta["layout"] == "page":
-        return Page(filename=filename, meta=meta)   
+        return Page(filename=filename, meta=meta)
     if meta["layout"] == "notfound":
-        return NotFound(filename=filename, meta=meta)  
+        return NotFound(filename=filename, meta=meta)
+
 
 def capitalize(text):
-    return text[0].upper() + text[1:]
+    if text:
+        return text[0].upper() + text[1:]
+    return text
+
 
 def sort_posts(posts):
-    posts.sort(key=lambda post: post.date().strftime('%Y-%m-%d'), reverse=True)
+    posts.sort(key=lambda post: post.date().strftime("%Y-%m-%d"), reverse=True)
     return posts
 
-template = jinja2.Environment(loader=jinja2.FileSystemLoader("template"))
+
+env = jinja2.Environment(loader=jinja2.FileSystemLoader("template"))
 templates = {}
+
+
+def category_url(category):
+    return category.lower().replace(" ", "-") + ".html"
+
+
+env.filters["category_url"] = category_url
+
 
 def filtered_posts(posts):
     earliest = datetime.datetime.strptime(
@@ -128,15 +154,17 @@ def filtered_posts(posts):
 
     return filtered
 
+
 def write(target, __template, **kwargs):
     with open(os.path.join("docs", target), "w") as f:
         t = templates[__template]
         f.write(t.render(**kwargs))
 
+
 def get_content():
     for name in ["post", "category", "index", "page", "404"]:
-        templates[name] = template.get_template(f"{name}.html")
-    templates["atom"] = template.get_template("atom.xml")
+        templates[name] = env.get_template(f"{name}.html")
+    templates["atom"] = env.get_template("atom.xml")
 
     print("Building site...")
     categories = {}
@@ -151,7 +179,7 @@ def get_content():
                 content = f.read()
                 isHeader = False
                 foundHeader = False
-                
+
                 header, body = [], []
                 for line in content.splitlines():
                     if line.startswith("---") and not foundHeader:
@@ -171,7 +199,7 @@ def get_content():
                     print(f"Error processing YAML in {filename}: {e}")
                     continue
 
-                content = getContent(filename=filename, meta=meta) 
+                content = getContent(filename=filename, meta=meta)
 
                 try:
                     md = markdown.Markdown(extensions=["toc"])
@@ -192,35 +220,32 @@ def get_content():
 
         if isinstance(content, Post):
             posts.append(content)
-    
+
     posts = sort_posts(posts)
     return posts, categories
 
 
 def build():
-    posts, categories=get_content()
+    posts, categories = get_content()
     for content in posts:
         write(content.target_filename(), content.template, content=content)
-    
+
     posts = sort_posts(posts)
 
     for category in sorted(categories):
-        context = {
-            "category": category,
-            "posts": sort_posts(categories[category])
-        }
-        write(category.lower() + ".html", "category", **context)
+        context = {"category": category, "posts": sort_posts(categories[category])}
+        write(category_url(category), "category", **context)
 
     context = {
         "posts": posts[:3],
         "hike_posts": sort_posts(categories["Hiking"][:10]),
-        "gear_posts": sort_posts(categories["Gear"][:10])
+        "gear_posts": sort_posts(categories["Gear"][:10]),
     }
     write("index.html", "index", **context)
 
     context = {
         "now": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "posts": filtered_posts(posts)
+        "posts": filtered_posts(posts),
     }
     write("atom.xml", "atom", **context)
 
@@ -232,7 +257,7 @@ def build():
             os.path.join("template/static", filename),
             os.path.join("docs/static", filename),
         )
-    
+
     print("Build complete.")
 
 
@@ -277,9 +302,10 @@ if __name__ == "__main__":
 
     if len(sys.argv) > 1 and sys.argv[1] == "--new-post":
         today = datetime.datetime.today()
-        filename = today.strftime('%Y-%m-%d') + "-post.md"
+        filename = today.strftime("%Y-%m-%d") + "-post.md"
         with open("content/" + filename, "w") as f:
-            f.write("""
+            f.write(
+                """
 ---
 layout: post
 title:
@@ -287,8 +313,17 @@ categories:
 ---
 
 Text goes here.
-""")
+"""
+            )
         print("New post: content/" + filename, "created.")
 
+    if len(sys.argv) > 1 and sys.argv[1] == "--serve":
+        Handler = http.server.SimpleHTTPRequestHandler
+        os.chdir("docs")
+        with socketserver.TCPServer(("", 8000), Handler) as httpd:
+            httpd.serve_forever()
+        os.chdir("..")
+
     else:
+        print("Arguments: --watch, --clean, --list-categories, --new-post, --serve")
         build()

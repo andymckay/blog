@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vancouver island
-categories: biking, overnight
+categories: biking, overnight, canada, BC
 
 ---
 

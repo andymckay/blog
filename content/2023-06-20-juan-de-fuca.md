@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Juan de Fuca
-categories: hiking, overnight
+categories: hiking, overnight, canada, BC
 
 ---
 

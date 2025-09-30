@@ -1,7 +1,7 @@
 ---
 layout: post
 title: South Needle via Lynn Peak
-categories: hiking
+categories: hiking, canada, BC
 
 ---
 

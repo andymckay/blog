@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Silver Star, Mt. Fromme
-categories: hiking
+categories: hiking, canada, BC
 
 ---
 

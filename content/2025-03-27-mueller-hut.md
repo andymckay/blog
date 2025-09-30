@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mueller Hut
-categories: hiking, steep
+categories: hiking, steep, New Zealand
 
 ---
 

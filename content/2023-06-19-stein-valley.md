@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Stein Valley
-categories: hiking, overnight
+categories: hiking, overnight, canada, BC
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mount Strachan
-categories: hike
+categories: hike, BC
 blog: andy-mckay
 ---
 

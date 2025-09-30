@@ -1,7 +1,7 @@
 ---
 layout: post
 title: South Vancouver Island
-categories: biking, overnight
+categories: biking, overnight, canada, BC
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: de Pencier and Black
-categories: hike
+categories: hike, canada, BC
 blog: andy-mckay
 ---
 

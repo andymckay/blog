@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pump Peak, Tim Jones Peak, Mt. Seymour
-categories: hiking
+categories: hiking, canada, BC
 
 ---
 

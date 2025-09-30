@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golden Ears
-categories: steep, overnight, hiking
+categories: steep, overnight, hiking, canada, BC
 
 ---
 

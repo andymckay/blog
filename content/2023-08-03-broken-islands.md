@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Broken Islands
-categories: kayaking, overnight
+categories: kayaking, overnight, canada, BC
 
 ---
 

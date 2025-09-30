@@ -1,7 +1,7 @@
 ---
 layout: post
 title: West Coast Trail
-categories: hiking, overnight
+categories: hiking, overnight, canada, BC
 
 ---
 

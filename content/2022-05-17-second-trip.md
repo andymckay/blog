@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maui
-categories: biking, overnight
+categories: biking, overnight, US
 
 ---
 

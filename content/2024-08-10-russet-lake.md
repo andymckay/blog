@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Russet Lake
-categories: hiking, overnight
+categories: hiking, overnight, canada, BC
 
 ---
 

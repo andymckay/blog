@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Elsay Lake
-categories: hiking, overnight
+categories: hiking, overnight, canada, BC
 
 ---
 

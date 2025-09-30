@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pump Peak, Suicide Bluffs and Hollyburn
-categories: hike
+categories: hike, canada, BC
 blog: andy-mckay
 ---
 

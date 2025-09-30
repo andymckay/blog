@@ -7,7 +7,7 @@
 <meta property="og:url" content="https://mckay.pub/{{ content.url() }}" /> {% endblock %}{% block content %}
 <div class="mb-4">
     {% for category in content.meta.categories %}
-    <a href="/{{ category|lower }}.html" class="btn btn-outline-secondary">{{ category }}</a> {% endfor %}
+    <a href="/{{ category|category_url }}" class="btn btn-outline-secondary">{{ category }}</a> {% endfor %}
 </div>
 <div class="row g-5">
     <div class="col-lg-8 px-4">

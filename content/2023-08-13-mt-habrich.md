@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mt Habrich
-categories: hiking, steep
+categories: hiking, steep, canada, BC
 
 ---
 

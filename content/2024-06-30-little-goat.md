@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Grouse, Dam and Little Goat
-categories: hiking
+categories: hiking, canada, BC
 
 ---
 
