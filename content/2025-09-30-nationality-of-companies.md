@@ -670,7 +670,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 |Country|Count|
 |-|-|
-| |237|
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
