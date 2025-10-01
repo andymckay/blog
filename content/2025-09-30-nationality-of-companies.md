@@ -115,7 +115,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Canadian Canine|Canada 🇨🇦|[Website](https://www.canadiancanine.com/)|
 |✅|Canadian Heritage Roasting Co.|Canada 🇨🇦|[Website](https://www.chrcoffee.com/)|
 |✅|Canadian Map Makers|Canada 🇨🇦|[Website](https://www.canadianmapmakers.com/)|
-|✅|Canadian River Supply|Canada 🇨🇦|[Website]()|
+|✅|Canadian River Supply|Canada 🇨🇦|[Website](https://)|
 |✅|Cannon Paddles|Canada 🇨🇦|[Website](https://www.cannon-paddles.com/)|
 |❌|Cannondale|United States 🇺🇸|[Website](https://www.cannondale.com/)|
 |✅|Care Plus|Netherlands 🇳🇱|[Website](https://www.careplus.nl/)|
@@ -214,65 +214,65 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Fritschi|Switzerland 🇨🇭|[Website](https://www.fritschi.swiss/)|
 |✅|Fuza Wool - Nepal|Nepal 🇳🇵|[Website](https://www.fuzawool.com/)|
 |✅|G3|Canada 🇨🇦|[Website](https://g3gear.com/)|
-|✅|Galerie au Chocolat|Canada 🇨🇦|[Website](galerieauchocolat.ca)|
+|✅|Galerie au Chocolat|Canada 🇨🇦|[Website](https://galerieauchocolat.ca)|
 |❌|Garmin|United States 🇺🇸|[Website](https://www.garmin.com/)|
 |❌|GCI Outdoor|United States 🇺🇸|[Website](https://www.gcioutdoor.com/)|
 |❌|Gear Aid|United States 🇺🇸|[Website](https://gearaid.com/)|
-|✅|Gem Trek Publishing|Canada 🇨🇦|[Website](gemtrek.com)|
-|❌|Ghost|United States 🇺🇸|[Website](ghostlifestyle.com)|
-|❌|Girlfriend Collective|United States 🇺🇸|[Website](girlfriend.com)|
-|❌|Giro|United States 🇺🇸|[Website](giro.com)|
-|❌|Gladding Braided Products|United States 🇺🇸|[Website](gladdingbraided.com)|
+|✅|Gem Trek Publishing|Canada 🇨🇦|[Website](https://gemtrek.com)|
+|❌|Ghost|United States 🇺🇸|[Website](https://ghostlifestyle.com)|
+|❌|Girlfriend Collective|United States 🇺🇸|[Website](https://girlfriend.com)|
+|❌|Giro|United States 🇺🇸|[Website](https://giro.com)|
+|❌|Gladding Braided Products|United States 🇺🇸|[Website](https://gladdingbraided.com)|
 |✅|Glerups|Denmark 🇩🇰|[Website](https://glerups.com/)|
 |❌|Go-Girl|United States 🇺🇸|[Website](https://www.gogirlusa.com/)|
 |❌|Goal Zero|United States 🇺🇸|[Website](https://www.goalzero.com/)|
 |❌|Gogglesoc|United States 🇺🇸|[Website](https://www.gogglesoc.com/)|
 |❌|Good To Go|United States 🇺🇸|[Website](https://www.goodtogo.com/)|
 |❌|Goodr|United States 🇺🇸|[Website](https://www.goodr.com/)|
-|❌|Goodyear|United States 🇺🇸|[Website](goodyear.com)|
+|❌|Goodyear|United States 🇺🇸|[Website](https://goodyear.com)|
 |❌|GoPro|United States 🇺🇸|[Website](https://gopro.com/)|
-|❌|Gordini|United States 🇺🇸|[Website](gordiniusa.com)|
+|❌|Gordini|United States 🇺🇸|[Website](https://gordiniusa.com)|
 |❌|Grand Trunk, LLC|United States 🇺🇸|[Website](https://www.grandtrunk.com/)|
 |✅|Grangers|United Kingdom 🇬🇧|[Website](https://www.grangers.co.uk/)|
 |✅|Gransfors Bruk|Sweden 🇸🇪|[Website](https://www.gransforsbruk.com/)|
 |✅|Grayl|Canada 🇨🇦|[Website](https://www.grayl.com/)|
-|✅|Green Beaver|Canada 🇨🇦|[Website](greenbeaver.com)|
+|✅|Green Beaver|Canada 🇨🇦|[Website](https://greenbeaver.com)|
 |❌|Gregory|United States 🇺🇸|[Website](https://www.gregorypacks.com/)|
 |✅|Grey Owl|Canada 🇨🇦|[Website](https://www.greyowl.ca/)|
 |✅|Grisport|Canada 🇨🇦|[Website](https://www.grisport.ca/)|
-|✅|Grivel|Italy 🇮🇹|[Website](grivel.com)|
-|❌|GSI|United States 🇺🇸|[Website](gsioutdoors.com)|
+|✅|Grivel|Italy 🇮🇹|[Website](https://grivel.com)|
+|❌|GSI|United States 🇺🇸|[Website](https://gsioutdoors.com)|
 |❌|GSI Outdoors|United States 🇺🇸|[Website](https://gsioutdoors.com/)|
-|❌|GU|United States 🇺🇸|[Website](guenergy.com)|
+|❌|GU|United States 🇺🇸|[Website](https://guenergy.com)|
 |✅|GuideMaps Squamish|Canada 🇨🇦|[Website](https://guidemapssquamish.com/)|
 |✅|HanWag|Germany 🇩🇪|[Website](https://www.hanwag.com/)|
 |✅|Happy Yak|Canada 🇨🇦|[Website](https://www.happyyak.ca/)|
-|✅|Heat Holders|United Kingdom 🇬🇧|[Website](heatholders.com)|
+|✅|Heat Holders|United Kingdom 🇬🇧|[Website](https://heatholders.com)|
 |✅|Helinox|South Korea 🇰🇷|[Website](https://helinox.com/)|
 |✅|Helle|Norway 🇳🇴|[Website](https://www.helle.no/)|
 |❌|Hennessy Hammock|United States 🇺🇸|[Website](https://www.hennessyhammock.com/)|
 |✅|Heritage House Pub.|Canada 🇨🇦|[Website](https://www.heritagehouse.ca/)|
-|❌|Heroclip|United States 🇺🇸|[Website](heroclip.com)|
-|✅|Herschel|Canada 🇨🇦|[Website](herschel.com)|
+|❌|Heroclip|United States 🇺🇸|[Website](https://heroclip.com)|
+|✅|Herschel|Canada 🇨🇦|[Website](https://herschel.com)|
 |✅|Hestra|Sweden 🇸🇪|[Website](https://www.hestragloves.com/)|
-|✅|Hillsound|Canada 🇨🇦|[Website](hillsound.ca)|
+|✅|Hillsound|Canada 🇨🇦|[Website](https://hillsound.ca)|
 |✅|Hillsound Equipment|Canada 🇨🇦|[Website](https://www.hillsound.com/)|
 |✅|Hoka|France 🇫🇷|[Website](https://www.hokasport.com/)|
 |❌|Honey Stinger|United States 🇺🇸|[Website](https://www.honeystinger.com/)|
-|✅|Hornby Organic|Canada 🇨🇦|[Website](hornbyorganic.com)|
-|✅|Houdini|Sweden 🇸🇪|[Website](houdinisportswear.com)|
-|✅|Hultafors|Sweden 🇸🇪|[Website](hultafors.com)|
+|✅|Hornby Organic|Canada 🇨🇦|[Website](https://hornbyorganic.com)|
+|✅|Houdini|Sweden 🇸🇪|[Website](https://houdinisportswear.com)|
+|✅|Hultafors|Sweden 🇸🇪|[Website](https://hultafors.com)|
 |✅|Hults Bruk|Sweden 🇸🇪|[Website](https://www.hultsbruk.se/)|
 |❌|HumanGear|United States 🇺🇸|[Website](https://humangear.com/)|
-|❌|Humangear|United States 🇺🇸|[Website](humangear.com)|
+|❌|Humangear|United States 🇺🇸|[Website](https://humangear.com)|
 |❌|Hydrapak|United States 🇺🇸|[Website](https://www.hydrapak.com/)|
 |❌|Hydro Flask|United States 🇺🇸|[Website](https://www.hydroflask.com/)|
 |✅|Icebreaker|New Zealand 🇳🇿|[Website](https://www.icebreaker.com/)|
-|✅|icebreaker|New Zealand 🇳🇿|[Website](icebreaker.com)|
-|✅|Icebug|Sweden 🇸🇪|[Website](icebug.com)|
+|✅|icebreaker|New Zealand 🇳🇿|[Website](https://icebreaker.com)|
+|✅|Icebug|Sweden 🇸🇪|[Website](https://icebug.com)|
 |❌|Icelantic Skis|United States 🇺🇸|[Website](https://icelanticskis.com/)|
-|❌|Igloo|United States 🇺🇸|[Website](igloocoolers.com)|
-|❌|Ignik|United States 🇺🇸|[Website](ignik.com)|
+|❌|Igloo|United States 🇺🇸|[Website](https://igloocoolers.com)|
+|❌|Ignik|United States 🇺🇸|[Website](https://ignik.com)|
 |✅|Ilse Jacobsen|Denmark 🇩🇰|[Website](https://www.ilsejacobsen.com/)|
 |❌|Incrediwear|United States 🇺🇸|[Website](https://www.incrediwear.com/)|
 |❌|Indosole|United States 🇺🇸|[Website](https://www.indosole.com/)|
@@ -281,217 +281,217 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|inReach|United States 🇺🇸|[Website](https://explore.garmin.com/)|
 |❌|Intuition|United States 🇺🇸|[Website](https://www.intuitionsports.com/)|
 |✅|Inuikii|Switzerland 🇨🇭|[Website](https://www.inuikii.com/)|
-|✅|IXS|Switzerland 🇨🇭|[Website](ixs.com)|
-|✅|J.B. Field's|Canada 🇨🇦|[Website](jbfields.ca)|
-|❌|Jagwire|United States 🇺🇸|[Website](jagwire.com)|
-|✅|JetBlack|Australia 🇦🇺|[Website](jetblackcycling.com)|
+|✅|IXS|Switzerland 🇨🇭|[Website](https://ixs.com)|
+|✅|J.B. Field's|Canada 🇨🇦|[Website](https://jbfields.ca)|
+|❌|Jagwire|United States 🇺🇸|[Website](https://jagwire.com)|
+|✅|JetBlack|Australia 🇦🇺|[Website](https://jetblackcycling.com)|
 |❌|Jetboil|United States 🇺🇸|[Website](https://www.jetboil.com/)|
 |✅|Julbo|France 🇫🇷|[Website](https://www.julbo.com/)|
-|❌|K-Edge|United States 🇺🇸|[Website](k-edge.com)|
-|❌|K2|United States 🇺🇸|[Website](k2sports.com)|
+|❌|K-Edge|United States 🇺🇸|[Website](https://k-edge.com)|
+|❌|K2|United States 🇺🇸|[Website](https://k2sports.com)|
 |❌|Kahtoola|United States 🇺🇸|[Website](https://www.kahtoola.com/)|
 |❌|Kahuna Paddleboards|United States 🇺🇸|[Website](https://kahunapaddleboards.com/)|
-|✅|Kajak Sport|Finland 🇫🇮|[Website](kajaksport.com)|
-|✅|Kamik|Canada 🇨🇦|[Website](kamik.com)|
-|❌|Kammok|United States 🇺🇸|[Website](kammok.com)|
+|✅|Kajak Sport|Finland 🇫🇮|[Website](https://kajaksport.com)|
+|✅|Kamik|Canada 🇨🇦|[Website](https://kamik.com)|
+|❌|Kammok|United States 🇺🇸|[Website](https://kammok.com)|
 |❌|Karakoram|United States 🇺🇸|[Website](https://karakorambindings.com/)|
 |✅|Kari Traa|Norway 🇳🇴|[Website](https://www.karitraa.com/)|
-|✅|Karpos|Italy 🇮🇹|[Website](karpos-outdoor.com)|
+|✅|Karpos|Italy 🇮🇹|[Website](https://karpos-outdoor.com)|
 |✅|Katadyn|Switzerland 🇨🇭|[Website](https://www.katadyn.com/)|
-|✅|Kathmandu|New Zealand 🇳🇿|[Website](kathmandu.com.au)|
+|✅|Kathmandu|New Zealand 🇳🇿|[Website](https://kathmandu.com.au)|
 |✅|Kayland|Italy 🇮🇹|[Website](https://www.kayland.com/)|
 |❌|Keen|United States 🇺🇸|[Website](https://www.keenfootwear.com/)|
 |✅|Kelly Kettle|Ireland 🇮🇪|[Website](https://www.kellykettle.ie/)|
-|❌|Kershaw|United States 🇺🇸|[Website](kershaw.kaiusa.com)|
-|✅|Kids Ride Shotgun|Australia 🇦🇺|[Website](kidsrideshotgun.com)|
+|❌|Kershaw|United States 🇺🇸|[Website](https://kershaw.kaiusa.com)|
+|✅|Kids Ride Shotgun|Australia 🇦🇺|[Website](https://kidsrideshotgun.com)|
 |❌|Kinco|United States 🇺🇸|[Website](https://www.kinco.com/)|
 |❌|Klean Kanteen|United States 🇺🇸|[Website](https://www.kleankanteen.com/)|
-|✅|KMC|Taiwan 🇹🇼|[Website](kmcchain.com)|
+|✅|KMC|Taiwan 🇹🇼|[Website](https://kmcchain.com)|
 |❌|Knife & Axe|United States 🇺🇸|[Website](https://www.knifeandaxe.com/)|
 |❌|Knockaround|United States 🇺🇸|[Website](https://www.knockaround.com/)|
-|✅|Knog|Australia 🇦🇺|[Website](knog.com.au)|
-|✅|Kodiak|Canada 🇨🇦|[Website](kodiakgroup.com)|
+|✅|Knog|Australia 🇦🇺|[Website](https://knog.com.au)|
+|✅|Kodiak|Canada 🇨🇦|[Website](https://kodiakgroup.com)|
 |✅|Kodiak Wildlife Products|Canada 🇨🇦|[Website](https://www.kodiakwildlifeproducts.com/)|
 |❌|Kokatat|United States 🇺🇸|[Website](https://www.kokatat.com/)|
-|❌|Kokopelli|United States 🇺🇸|[Website](kokopellirafts.com)|
+|❌|Kokopelli|United States 🇺🇸|[Website](https://kokopellirafts.com)|
 |❌|Kokopelli Packraft|United States 🇺🇸|[Website](https://www.kokopellipackraft.com/)|
-|✅|Kombi|Canada 🇨🇦|[Website](kombi.com)|
+|✅|Kombi|Canada 🇨🇦|[Website](https://kombi.com)|
 |✅|Kombi Canada|Canada 🇨🇦|[Website](https://kombica.com/)|
-|✅|Komperdell|Austria 🇦🇹|[Website](komperdell.com)|
+|✅|Komperdell|Austria 🇦🇹|[Website](https://komperdell.com)|
 |✅|Kootenay GoodLife Publishing|Canada 🇨🇦|[Website](https://www.kootenaygoodlifepublishing.com/)|
 |✅|Kootenay Life|Canada 🇨🇦|[Website](https://www.kootenaylife.com/)|
 |❌|Kuhl|United States 🇺🇸|[Website](https://www.kuhl.com/)|
 |✅|Kupilka|Finland 🇫🇮|[Website](https://www.kupilka.com/)|
 |✅|KV+ Canada|Canada 🇨🇦|[Website](https://kvcanada.com/)|
 |✅|La Sportiva|Italy 🇮🇹|[Website](https://www.lasportiva.com/)|
-|✅|Laid Back Snacks|Canada 🇨🇦|[Website](laidbacksnacks.com)|
-|❌|LARQ|United States 🇺🇸|[Website](livelarq.com)|
+|✅|Laid Back Snacks|Canada 🇨🇦|[Website](https://laidbacksnacks.com)|
+|❌|LARQ|United States 🇺🇸|[Website](https://livelarq.com)|
 |✅|Lasting Merino|Czech Republic 🇨🇿|[Website](https://www.lasting.cz/)|
 |❌|Leatherman|United States 🇺🇸|[Website](https://www.leatherman.com/)|
 |✅|Leki|Germany 🇩🇪|[Website](https://www.leki.com/)|
-|✅|Lenz|Austria 🇦🇹|[Website](lenzproducts.com)|
+|✅|Lenz|Austria 🇦🇹|[Website](https://lenzproducts.com)|
 |✅|Lenz Canada|Canada 🇨🇦|[Website](https://www.lenzproducts.com/)|
 |❌|Level Six|United States 🇺🇸|[Website](https://www.levelsix.com/)|
-|❌|Lezyne|United States 🇺🇸|[Website](lezyne.com)|
+|❌|Lezyne|United States 🇺🇸|[Website](https://lezyne.com)|
 |✅|Life Straw|Switzerland 🇨🇭|[Website](https://www.lifestraw.com/)|
-|✅|LifeStraw|Switzerland 🇨🇭|[Website](lifestraw.com)|
-|✅|Lifeventure|United Kingdom 🇬🇧|[Website](lifeventure.com)|
+|✅|LifeStraw|Switzerland 🇨🇭|[Website](https://lifestraw.com)|
+|✅|Lifeventure|United Kingdom 🇬🇧|[Website](https://lifeventure.com)|
 |✅|Light My Fire|Sweden 🇸🇪|[Website](https://www.lightmyfire.com/)|
 |❌|LokSak|United States 🇺🇸|[Website](https://www.loksak.com/)|
-|❌|Loksak|United States 🇺🇸|[Website](loksak.com)|
-|✅|Look|France 🇫🇷|[Website](lookcycle.com)|
-|✅|LORPEN|Spain 🇪🇸|[Website](lorpen.com)|
-|✅|Louis Garneau|Canada 🇨🇦|[Website](garneau.com)|
+|❌|Loksak|United States 🇺🇸|[Website](https://loksak.com)|
+|✅|Look|France 🇫🇷|[Website](https://lookcycle.com)|
+|✅|LORPEN|Spain 🇪🇸|[Website](https://lorpen.com)|
+|✅|Louis Garneau|Canada 🇨🇦|[Website](https://garneau.com)|
 |✅|Lowa|Germany 🇩🇪|[Website](https://www.lowa.de/)|
 |✅|Lowe Alpine|United Kingdom 🇬🇧|[Website](https://www.lowealpine.com/)|
 |❌|Luci Lights|United States 🇺🇸|[Website](https://www.mylucilight.com/)|
-|❌|Luminaid|United States 🇺🇸|[Website](luminaid.com)|
-|✅|Lupine|Germany 🇩🇪|[Website](lupine.de)|
+|❌|Luminaid|United States 🇺🇸|[Website](https://luminaid.com)|
+|✅|Lupine|Germany 🇩🇪|[Website](https://lupine.de)|
 |❌|Macks|United States 🇺🇸|[Website](https://www.mackspacks.com/)|
 |❌|Mad Rock|United States 🇺🇸|[Website](https://www.madrock.com/)|
 |✅|Madshus|Norway 🇳🇴|[Website](https://www.madshus.com/)|
-|✅|Magicshine|China 🇨🇳|[Website](magicshine.com)|
-|❌|Magnum|United States 🇺🇸|[Website](magnumboots.com)|
+|✅|Magicshine|China 🇨🇳|[Website](https://magicshine.com)|
+|❌|Magnum|United States 🇺🇸|[Website](https://magnumboots.com)|
 |❌|Malone Auto Racks|United States 🇺🇸|[Website](https://www.maloneautoracks.com/)|
 |✅|Mammut|Switzerland 🇨🇭|[Website](https://www.mammut.com/)|
-|✅|Maplus|Italy 🇮🇹|[Website](maplus.it)|
-|✅|Marker|Austria 🇦🇹|[Website](marker.net)|
+|✅|Maplus|Italy 🇮🇹|[Website](https://maplus.it)|
+|✅|Marker|Austria 🇦🇹|[Website](https://marker.net)|
 |✅|Marker Bindings & Helmets|Austria 🇦🇹|[Website](https://www.marker.net/)|
 |❌|Marmot|United States 🇺🇸|[Website](https://www.marmot.com/)|
-|❌|Matador|United States 🇺🇸|[Website](matadorup.com)|
-|✅|Maxxis|Taiwan 🇹🇼|[Website](maxxis.com)|
-|✅|MEC|Canada 🇨🇦|[Website](mec.ca)|
+|❌|Matador|United States 🇺🇸|[Website](https://matadorup.com)|
+|✅|Maxxis|Taiwan 🇹🇼|[Website](https://maxxis.com)|
+|✅|MEC|Canada 🇨🇦|[Website](https://mec.ca)|
 |❌|Med Spec|United States 🇺🇸|[Website](https://medspec.com/)|
 |✅|Mephisto|France 🇫🇷|[Website](https://www.mephisto.com/)|
 |❌|Merrell|United States 🇺🇸|[Website](https://www.merrell.com/)|
 |❌|Metolius|United States 🇺🇸|[Website](https://www.metoliusclimbing.com/)|
-|❌|Miir|United States 🇺🇸|[Website](miir.com)|
-|❌|Mirrycle|United States 🇺🇸|[Website](mirrycle.com)|
+|❌|Miir|United States 🇺🇸|[Website](https://miir.com)|
+|❌|Mirrycle|United States 🇺🇸|[Website](https://mirrycle.com)|
 |✅|Mizuno|Japan 🇯🇵|[Website](https://www.mizunousa.com/)|
 |❌|Moment Skis|United States 🇺🇸|[Website](https://www.momentskis.com/)|
-|✅|Moneysworth|Canada 🇨🇦|[Website](moneysworth.com)|
+|✅|Moneysworth|Canada 🇨🇦|[Website](https://moneysworth.com)|
 |✅|Mono|Canada 🇨🇦|[Website](https://www.monousa.com/)|
 |✅|Mons Royale|New Zealand 🇳🇿|[Website](https://www.monsroyale.com/)|
 |❌|Montrail|United States 🇺🇸|[Website](https://www.mountainwarehouse.com/)|
-|✅|Mora|Sweden 🇸🇪|[Website](moraofsweden.com)|
+|✅|Mora|Sweden 🇸🇪|[Website](https://moraofsweden.com)|
 |✅|Mora - Morakniv|Sweden 🇸🇪|[Website](https://www.morakniv.se/)|
-|❌|Motorola|United States 🇺🇸|[Website](motorola.com)|
-|✅|Mountain Coffee Co.|Canada 🇨🇦|[Website](mountaincoffeeco.com)|
+|❌|Motorola|United States 🇺🇸|[Website](https://motorola.com)|
+|✅|Mountain Coffee Co.|Canada 🇨🇦|[Website](https://mountaincoffeeco.com)|
 |❌|Mountain Hardwear|United States 🇺🇸|[Website](https://www.mountainhardwear.com/)|
 |❌|Mountain House|United States 🇺🇸|[Website](https://www.mountainhouse.com/)|
 |❌|Mountaineers Books|United States 🇺🇸|[Website](https://www.mountaineersbooks.org/)|
 |❌|Mr. Zogs|United States 🇺🇸|[Website](https://www.mrzogs.com/)|
 |❌|MSR|United States 🇺🇸|[Website](https://www.msrgear.com/)|
-|✅|Muc-Off|United Kingdom 🇬🇧|[Website](muc-off.com)|
+|✅|Muc-Off|United Kingdom 🇬🇧|[Website](https://muc-off.com)|
 |❌|Muck|United States 🇺🇸|[Website](https://www.muckbootcompany.com/)|
-|✅|Mucky Nutz|United Kingdom 🇬🇧|[Website](muckynutz.com)|
+|✅|Mucky Nutz|United Kingdom 🇬🇧|[Website](https://muckynutz.com)|
 |❌|Mueller|United States 🇺🇸|[Website](https://www.muellersportsmed.com/)|
-|✅|Must Do Canada|Canada 🇨🇦|[Website](mustdocanada.com)|
-|✅|Mustang Survival|Canada 🇨🇦|[Website](mustangsurvival.com)|
+|✅|Must Do Canada|Canada 🇨🇦|[Website](https://mustdocanada.com)|
+|✅|Mustang Survival|Canada 🇨🇦|[Website](https://mustangsurvival.com)|
 |✅|Mustang Survival Co.|Canada 🇨🇦|[Website](https://www.mustangsurvival.com/)|
 |❌|Mystery Ranch|United States 🇺🇸|[Website](https://www.mysteryranch.com/)|
 |❌|Nalgene|United States 🇺🇸|[Website](https://www.nalgene.com/)|
 |✅|Naot|Israel 🇮🇱|[Website](https://www.naot.com/)|
 |❌|Nathan|United States 🇺🇸|[Website](https://www.nathansports.com/)|
-|❌|National Molding|United States 🇺🇸|[Website](nationalmolding)|
+|❌|National Molding|United States 🇺🇸|[Website](https://nationalmolding)|
 |❌|Natrapel|United States 🇺🇸|[Website](https://www.natrapel.com/)|
 |❌|Naya Water Gear|United States 🇺🇸|[Website](https://www.nayawatergear.com/)|
-|❌|Nemo|United States 🇺🇸|[Website](nemoequipment.com)|
+|❌|Nemo|United States 🇺🇸|[Website](https://nemoequipment.com)|
 |❌|NEMO Equipment|United States 🇺🇸|[Website](https://www.nemoequipment.com/)|
 |❌|New Balance|United States 🇺🇸|[Website](https://www.newbalance.com/)|
-|✅|Nexus|Canada 🇨🇦|[Website](nexusoutdoor.com)|
+|✅|Nexus|Canada 🇨🇦|[Website](https://nexusoutdoor.com)|
 |❌|Nike|United States 🇺🇸|[Website](https://about.nike.com/)|
-|✅|Nikwax|United Kingdom 🇬🇧|[Website](nikwax.com)|
+|✅|Nikwax|United Kingdom 🇬🇧|[Website](https://nikwax.com)|
 |✅|Nikwax Waterproofing|United Kingdom 🇬🇧|[Website](https://www.nikwax.com/)|
-|❌|Nite Ize|United States 🇺🇸|[Website](niteize.com)|
+|❌|Nite Ize|United States 🇺🇸|[Website](https://niteize.com)|
 |❌|Nite-Ize|United States 🇺🇸|[Website](https://www.niteize.com/)|
-|❌|Noble|United States 🇺🇸|[Website](nobleoutfitters.com)|
+|❌|Noble|United States 🇺🇸|[Website](https://nobleoutfitters.com)|
 |❌|Nocs Provisions|United States 🇺🇸|[Website](https://www.nocsprovisions.com/)|
 |❌|Nomadix|United States 🇺🇸|[Website](https://www.nomadixgoods.com/)|
-|✅|Norda|Canada 🇨🇦|[Website](norda.com)|
-|✅|Nordica|Italy 🇮🇹|[Website](nordica.com)|
-|❌|Norfolk|United States 🇺🇸|[Website](norfolkoutfitters.com)|
+|✅|Norda|Canada 🇨🇦|[Website](https://norda.com)|
+|✅|Nordica|Italy 🇮🇹|[Website](https://nordica.com)|
+|❌|Norfolk|United States 🇺🇸|[Website](https://norfolkoutfitters.com)|
 |✅|Norrona|Norway 🇳🇴|[Website](https://www.norrona.com/)|
-|✅|North Water|Canada 🇨🇦|[Website](northwater.com)|
-|❌|NoSo Patches|United States 🇺🇸|[Website](nosopatches.com)|
+|✅|North Water|Canada 🇨🇦|[Website](https://northwater.com)|
+|❌|NoSo Patches|United States 🇺🇸|[Website](https://nosopatches.com)|
 |✅|Nova Craft Canoe|Canada 🇨🇦|[Website](https://www.novacraft.com/)|
-|❌|NRS|United States 🇺🇸|[Website](nrs.com)|
+|❌|NRS|United States 🇺🇸|[Website](https://nrs.com)|
 |✅|NRS Canada|Canada 🇨🇦|[Website](https://www.nrs.com/)|
 |❌|nuun|United States 🇺🇸|[Website](https://www.nuunlife.com/)|
-|❌|Nuun|United States 🇺🇸|[Website](nuunlife.com)|
-|✅|OAC Skis|Canada 🇨🇦|[Website](oacskis.com)|
+|❌|Nuun|United States 🇺🇸|[Website](https://nuunlife.com)|
+|✅|OAC Skis|Canada 🇨🇦|[Website](https://oacskis.com)|
 |❌|Oakley|United States 🇺🇸|[Website](https://www.oakley.com/)|
-|✅|Oatworthy|Canada 🇨🇦|[Website](oatworthy.com)|
+|✅|Oatworthy|Canada 🇨🇦|[Website](https://oatworthy.com)|
 |❌|Oboz|United States 🇺🇸|[Website](https://obozfootwear.com/)|
 |✅|Odlo|Switzerland 🇨🇭|[Website](https://www.odlo.com/)|
-|❌|Old Town|United States 🇺🇸|[Website](oldtowncanoe.com)|
+|❌|Old Town|United States 🇺🇸|[Website](https://oldtowncanoe.com)|
 |❌|Old Town Canoes & Kayaks|United States 🇺🇸|[Website](https://www.oldtowncanoe.com/)|
 |❌|Olukai|United States 🇺🇸|[Website](https://www.olukai.com/)|
 |✅|ON|Switzerland 🇨🇭|[Website](https://www.on-running.com/)|
-|✅|On|Switzerland 🇨🇭|[Website](on-running.com)|
+|✅|On|Switzerland 🇨🇭|[Website](https://on-running.com)|
 |✅|On Running|Switzerland 🇨🇭|[Website](https://www.on-running.com/)|
-|✅|OneUp|Canada 🇨🇦|[Website](oneupcomponents.com)|
-|❌|OnGuard|United States 🇺🇸|[Website](onguardlock.com)|
+|✅|OneUp|Canada 🇨🇦|[Website](https://oneupcomponents.com)|
+|❌|OnGuard|United States 🇺🇸|[Website](https://onguardlock.com)|
 |❌|OnSight Equipment|United States 🇺🇸|[Website](https://www.onsightequipment.com/)|
-|❌|Oofos|United States 🇺🇸|[Website](oofos.com)|
-|❌|Ooni|United States 🇺🇸|[Website](ooni.com)|
-|✅|Opinel|France 🇫🇷|[Website](opinel.com)|
+|❌|Oofos|United States 🇺🇸|[Website](https://oofos.com)|
+|❌|Ooni|United States 🇺🇸|[Website](https://ooni.com)|
+|✅|Opinel|France 🇫🇷|[Website](https://opinel.com)|
 |✅|Opinel Knives|France 🇫🇷|[Website](https://www.opinel.com/)|
 |✅|Optimus|Sweden 🇸🇪|[Website](https://www.optimuscamping.com/)|
-|✅|Orage|Canada 🇨🇦|[Website](orage.com)|
-|✅|Original Bug Shirt Company|Canada 🇨🇦|[Website](bugshirt.com)|
+|✅|Orage|Canada 🇨🇦|[Website](https://orage.com)|
+|✅|Original Bug Shirt Company|Canada 🇨🇦|[Website](https://bugshirt.com)|
 |❌|OrthoFeet|United States 🇺🇸|[Website](https://www.orthofeet.com/)|
-|✅|Ortlieb|Germany 🇩🇪|[Website](ortlieb.com)|
+|✅|Ortlieb|Germany 🇩🇪|[Website](https://ortlieb.com)|
 |✅|Ortovox|Germany 🇩🇪|[Website](https://www.ortovox.com/)|
 |❌|Osprey|United States 🇺🇸|[Website](https://www.osprey.com/)|
 |✅|Ossur|Iceland 🇮🇸|[Website](https://www.ossur.com/)|
 |❌|Outdoor Research|United States 🇺🇸|[Website](https://www.outdoorresearch.com/)|
-|❌|Outdoor Voices|United States 🇺🇸|[Website](outdoorvoices.com)|
-|✅|Outland Living|Canada 🇨🇦|[Website](outlandliving.com)|
-|❌|Outside Inside|United States 🇺🇸|[Website](outsideinside.com)|
+|❌|Outdoor Voices|United States 🇺🇸|[Website](https://outdoorvoices.com)|
+|✅|Outland Living|Canada 🇨🇦|[Website](https://outlandliving.com)|
+|❌|Outside Inside|United States 🇺🇸|[Website](https://outsideinside.com)|
 |❌|PackTowl|United States 🇺🇸|[Website](https://www.packtowl.com/)|
-|✅|Pacsafe|Australia 🇦🇺|[Website](pacsafe.com)|
-|❌|Park Tool|United States 🇺🇸|[Website](parktool.com)|
-|✅|Parkhurst|Canada 🇨🇦|[Website](parkhurst.com)|
+|✅|Pacsafe|Australia 🇦🇺|[Website](https://pacsafe.com)|
+|❌|Park Tool|United States 🇺🇸|[Website](https://parktool.com)|
+|✅|Parkhurst|Canada 🇨🇦|[Website](https://parkhurst.com)|
 |❌|Patagonia|United States 🇺🇸|[Website](https://www.patagonia.com/)|
 |❌|Pearl Izumi|United States 🇺🇸|[Website](https://www.pearlizumi.com/)|
-|✅|Peaty's|United Kingdom 🇬🇧|[Website](peatys.co.uk)|
+|✅|Peaty's|United Kingdom 🇬🇧|[Website](https://peatys.co.uk)|
 |❌|Pedifix|United States 🇺🇸|[Website](https://www.pedifix.com/)|
-|❌|Pedros|United States 🇺🇸|[Website](pedros.com)|
-|❌|Pelican|United States 🇺🇸|[Website](pelican.com)|
+|❌|Pedros|United States 🇺🇸|[Website](https://pedros.com)|
+|❌|Pelican|United States 🇺🇸|[Website](https://pelican.com)|
 |❌|Pelican Products|United States 🇺🇸|[Website](https://www.pelican.com/)|
-|❌|Peppermint|United States 🇺🇸|[Website](peppermint.com)|
+|❌|Peppermint|United States 🇺🇸|[Website](https://peppermint.com)|
 |✅|Petzl|France 🇫🇷|[Website](https://www.petzl.com/)|
 |❌|Petzl America Pro|United States 🇺🇸|[Website](https://www.petzl.com/)|
-|✅|PiActive|Canada 🇨🇦|[Website](piactive.com)|
+|✅|PiActive|Canada 🇨🇦|[Website](https://piactive.com)|
 |✅|Picture Organic Clothing|France 🇫🇷|[Website](https://www.picture-organic-clothing.com/)|
 |✅|Pieps|Austria 🇦🇹|[Website](https://www.pieps.com/)|
-|✅|Pirelli|Italy 🇮🇹|[Website](pirelli.com)|
+|✅|Pirelli|Italy 🇮🇹|[Website](https://pirelli.com)|
 |❌|Pistil|United States 🇺🇸|[Website](https://www.pistilbags.com/)|
-|❌|Planet Bike|United States 🇺🇸|[Website](planetbike.com)|
+|❌|Planet Bike|United States 🇺🇸|[Website](https://planetbike.com)|
 |❌|Platypus|United States 🇺🇸|[Website](https://www.platy.com/)|
-|✅|POC|Sweden 🇸🇪|[Website](pocsports.com)|
-|✅|Polar|Finland 🇫🇮|[Website](polar.com)|
-|❌|Polar Bottle|United States 🇺🇸|[Website](polarbottle.com)|
-|❌|Polar Joe|United States 🇺🇸|[Website](polarjoe.com)|
-|✅|Polygon|Indonesia 🇮🇩|[Website](polygonbikes.com)|
-|✅|Pomoca|Switzerland 🇨🇭|[Website](pomoca.com)|
-|❌|Portland Design Works|United States 🇺🇸|[Website](pdwbike.com)|
+|✅|POC|Sweden 🇸🇪|[Website](https://pocsports.com)|
+|✅|Polar|Finland 🇫🇮|[Website](https://polar.com)|
+|❌|Polar Bottle|United States 🇺🇸|[Website](https://polarbottle.com)|
+|❌|Polar Joe|United States 🇺🇸|[Website](https://polarjoe.com)|
+|✅|Polygon|Indonesia 🇮🇩|[Website](https://polygonbikes.com)|
+|✅|Pomoca|Switzerland 🇨🇭|[Website](https://pomoca.com)|
+|❌|Portland Design Works|United States 🇺🇸|[Website](https://pdwbike.com)|
 |❌|Prana|United States 🇺🇸|[Website](https://www.prana.com/)|
-|✅|Prana Organic|Canada 🇨🇦|[Website](pranaorganic.com)|
+|✅|Prana Organic|Canada 🇨🇦|[Website](https://pranaorganic.com)|
 |✅|Primus|Sweden 🇸🇪|[Website](https://www.primus.eu/)|
 |❌|Princeton Tec|United States 🇺🇸|[Website](https://www.princetontec.com/)|
-|❌|Pro-Tec Athletics|United States 🇺🇸|[Website](pro-tecathletics.com)|
-|❌|Probar|United States 🇺🇸|[Website](probar.com)|
+|❌|Pro-Tec Athletics|United States 🇺🇸|[Website](https://pro-tecathletics.com)|
+|❌|Probar|United States 🇺🇸|[Website](https://probar.com)|
 |❌|Probar, LLC|United States 🇺🇸|[Website](https://www.probar.com/)|
-|❌|Prohands|United States 🇺🇸|[Website](prohands.net)|
+|❌|Prohands|United States 🇺🇸|[Website](https://prohands.net)|
 |❌|Propet|United States 🇺🇸|[Website](https://www.propetusa.com/)|
 |✅|Pukka|United Kingdom 🇬🇧|[Website](https://www.pukkaherbs.com/)|
 |✅|Pyranha|United Kingdom 🇬🇧|[Website](https://www.pyranha.com/)|
 |✅|Rab|United Kingdom 🇬🇧|[Website](https://rab.equipment/)|
 |✅|Raincoast Books|Canada 🇨🇦|[Website](https://www.raincoast.com/)|
-|✅|Raincoast Trading|Canada 🇨🇦|[Website](raincoasttrading.com)|
-|✅|Rangeland|Canada 🇨🇦|[Website](rangeland.ca)|
+|✅|Raincoast Trading|Canada 🇨🇦|[Website](https://raincoasttrading.com)|
+|✅|Rangeland|Canada 🇨🇦|[Website](https://rangeland.ca)|
 |✅|Red Pine Outdoor Equipment Inc.|Canada 🇨🇦|[Website](https://www.redpineoutdoor.com/)|
 |✅|Redback|Australia 🇦🇺|[Website](https://www.redbackboots.com.au/)|
 |✅|Redback Boots Australia|Australia 🇦🇺|[Website](https://www.redbackboots.com.au/)|
@@ -670,6 +670,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 |Country|Count|
 |-|-|
+| |237|
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
