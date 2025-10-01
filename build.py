@@ -176,7 +176,6 @@ def get_content():
 
     for filename in files:
         if filename.endswith(".md"):
-            print(filename)
             with open(os.path.join("content", filename), "r") as f:
                 content = f.read()
                 isHeader = False
@@ -222,8 +221,7 @@ def get_content():
 
         if isinstance(content, Post):
             posts.append(content)
-
-        if isinstance(content, Page):
+        else:
             pages.append(content)
 
     posts = sort_posts(posts)
