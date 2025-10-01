@@ -65,7 +65,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Atomic|Austria 🇦🇹|[Website](https://www.atomic.com/)|
 |✅|Auclair|Canada 🇨🇦|[Website](https://auclair.com/)|
 |❌|Axiom|United States 🇺🇸|[Website](https://axiomgear.com/)|
-|✅|B Daehlie|Norway 🇳🇴|[Website](https://www.daehlie.com/)|
 |❌|Backcountry Access|United States 🇺🇸|[Website](https://www.backcountryaccess.com/)|
 |✅|Backcountry Skiing Canada|Canada 🇨🇦|[Website](https://www.backcountryskiingcanada.com/)|
 |❌|Backpacker’s Pantry|United States 🇺🇸|[Website](https://backpackerspantry.com/)|
@@ -79,6 +78,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|BearVault|United States 🇺🇸|[Website](https://www.bearvault.com/)|
 |✅|BeaverWax|Canada 🇨🇦|[Website](https://www.beaverwax.com/)|
 |❌|Ben’s|United States 🇺🇸|[Website](https://www.bens.com/)|
+|✅|Berghaus|United Kingdom 🇬🇧|[Website](https://www.berghaus.com/)|
 |❌|Big Agnes|United States 🇺🇸|[Website](https://www.bigagnes.com/)|
 |❌|BiKase|United States 🇺🇸|[Website](https://www.bikase.com/)|
 |✅|Billabong|Australia 🇦🇺|[Website](https://www.billabong.com.au/)|
@@ -153,6 +153,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Current Designs|United States 🇺🇸|[Website](https://www.currentdesigns.com/)|
 |✅|Currex|Germany 🇩🇪|[Website](https://www.currex.com/)|
 |✅|Cushcore|Canada 🇨🇦|[Website](https://cushcore.com/)|
+|✅|Daehlie|Norway 🇳🇴|[Website](https://www.dahlie.com/)|
 |❌|Dahlgren|United States 🇺🇸|[Website](https://www.dahlgrenseaplanes.com/)|
 |❌|Dakine|United States 🇺🇸|[Website](https://www.dakine.com/)|
 |✅|Dalbello|Italy 🇮🇹|[Website](https://www.dalbello.it/)|
@@ -697,5 +698,5 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇸🇪 Sweden|18|
 |🇨🇭 Switzerland|17|
 |🇹🇼 Taiwan|3|
-|🇬🇧 United Kingdom|22|
+|🇬🇧 United Kingdom|23|
 |🇺🇸 United States|331|
