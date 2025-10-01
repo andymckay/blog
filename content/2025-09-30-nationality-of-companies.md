@@ -215,7 +215,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Fuza Wool - Nepal|Nepal 🇳🇵|[Website](https://www.fuzawool.com/)|
 |✅|G3|Canada 🇨🇦|[Website](https://g3gear.com/pages/about-us)|
 |✅|Galerie au Chocolat|Canada 🇨🇦|[Website](galerieauchocolat.ca)|
-|✅|Garmin|Switzerland 🇨🇭|[Website](https://www.garmin.com/en-US/company/about-garmin/)|
+|❌|Garmin|United States 🇺🇸|[Website](https://www.garmin.com/en-US/company/about-garmin/)|
 |❌|GCI Outdoor|United States 🇺🇸|[Website](https://www.gcioutdoor.com/pages/about-us)|
 |❌|Gear Aid|United States 🇺🇸|[Website](https://gearaid.com/pages/about-us)|
 |✅|Gem Trek Publishing|Canada 🇨🇦|[Website](gemtrek.com)|
@@ -694,7 +694,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇰🇷 South Korea|3|
 |🇪🇸 Spain|4|
 |🇸🇪 Sweden|18|
-|🇨🇭 Switzerland|18|
+|🇨🇭 Switzerland|17|
 |🇹🇼 Taiwan|3|
 |🇬🇧 United Kingdom|22|
-|🇺🇸 United States|330|
+|🇺🇸 United States|331|
