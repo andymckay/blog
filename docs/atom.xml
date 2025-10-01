@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-10-01T03:46:31.385327+00:00</updated>
+    <updated>2025-10-01T03:58:10.476803+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -316,12 +316,6 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
-&lt;td&gt;Backpackers Pantry&lt;/td&gt;
-&lt;td&gt;United States 🇺🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.backpackerspantry.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;Backpacker’s Pantry&lt;/td&gt;
 &lt;td&gt;United States 🇺🇸&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://backpackerspantry.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
@@ -495,30 +489,6 @@
 &lt;td&gt;&lt;a href=&#34;https://boodywear.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;Boreal&lt;/td&gt;
-&lt;td&gt;Spain 🇪🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.boreal-shoes.com/en/about&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;Boreal (Spain)&lt;/td&gt;
-&lt;td&gt;Spain 🇪🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.boreal-shoes.com/en/about&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;Boreal Designs&lt;/td&gt;
-&lt;td&gt;Canada 🇨🇦&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.borealdesigns.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;Boréal Designs&lt;/td&gt;
-&lt;td&gt;Canada 🇨🇦&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.borealdesigns.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;Bote&lt;/td&gt;
 &lt;td&gt;United States 🇺🇸&lt;/td&gt;
@@ -595,12 +565,6 @@
 &lt;td&gt;CamelBak&lt;/td&gt;
 &lt;td&gt;United States 🇺🇸&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.camelbak.com/en/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;❌&lt;/td&gt;
-&lt;td&gt;Camp&lt;/td&gt;
-&lt;td&gt;United States 🇺🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.camp-usa.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
@@ -898,12 +862,6 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
-&lt;td&gt;Darn Tough Socks&lt;/td&gt;
-&lt;td&gt;United States 🇺🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://darntough.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;Deadpoint Climbing Co.&lt;/td&gt;
 &lt;td&gt;United States 🇺🇸&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://deadpointclimbing.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
@@ -1035,16 +993,10 @@
 &lt;td&gt;&lt;a href=&#34;https://enlightenedequipment.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;❌&lt;/td&gt;
-&lt;td&gt;Eno&lt;/td&gt;
-&lt;td&gt;United States 🇺🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.eno.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
 &lt;td&gt;ENO&lt;/td&gt;
-&lt;td&gt;United States 🇺🇸&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.eno.com/pages/about-us&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Canada 🇨🇦&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://enonation.ca/collections/hammocks&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
@@ -3963,7 +3915,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇨🇦 Canada&lt;/td&gt;
-&lt;td&gt;108&lt;/td&gt;
+&lt;td&gt;107&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇨🇳 China&lt;/td&gt;
@@ -4043,7 +3995,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇪🇸 Spain&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇸🇪 Sweden&lt;/td&gt;
@@ -4063,7 +4015,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
-&lt;td&gt;335&lt;/td&gt;
+&lt;td&gt;330&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

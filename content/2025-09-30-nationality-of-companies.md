@@ -68,7 +68,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|B Daehlie|Norway 🇳🇴|[Website](https://www.daehlie.com/en/about/)|
 |❌|Backcountry Access|United States 🇺🇸|[Website](https://www.backcountryaccess.com/pages/about-us)|
 |✅|Backcountry Skiing Canada|Canada 🇨🇦|[Website](https://www.backcountryskiingcanada.com/)|
-|❌|Backpackers Pantry|United States 🇺🇸|[Website](https://www.backpackerspantry.com/pages/about-us)|
 |❌|Backpacker’s Pantry|United States 🇺🇸|[Website](https://backpackerspantry.com/pages/about-us)|
 |✅|Backroad Mapbooks|Canada 🇨🇦|[Website](https://www.backroadmapbooks.com/)|
 |✅|Baffin|Canada 🇨🇦|[Website](https://www.baffin.com/pages/about-us)|
@@ -98,10 +97,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Body Glide|United States 🇺🇸|[Website](https://www.bodyglide.com/pages/about-us)|
 |❌|Bogs|United States 🇺🇸|[Website](https://www.boggsfootwear.com/pages/about-us)|
 |✅|Boody|Australia 🇦🇺|[Website](https://boodywear.com/pages/about-us)|
-|✅|Boreal|Spain 🇪🇸|[Website](https://www.boreal-shoes.com/en/about)|
-|✅|Boreal (Spain)|Spain 🇪🇸|[Website](https://www.boreal-shoes.com/en/about)|
-|✅|Boreal Designs|Canada 🇨🇦|[Website](https://www.borealdesigns.com/)|
-|✅|Boréal Designs|Canada 🇨🇦|[Website](https://www.borealdesigns.com/)|
 |❌|Bote|United States 🇺🇸|[Website](https://www.bote.com/pages/about-us)|
 |✅|Bottle Bright|United Kingdom 🇬🇧|[Website](https://bottlebright.co.uk/pages/about-us)|
 |✅|Bridgedale|United Kingdom 🇬🇧|[Website](https://www.bridgedale.com/pages/about-us)|
@@ -115,7 +110,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Bushnell Performance Optics|United States 🇺🇸|[Website](https://www.bushnell.com/about-us)|
 |❌|Cablz|United States 🇺🇸|[Website](https://www.cablz.com/pages/about)|
 |❌|CamelBak|United States 🇺🇸|[Website](https://www.camelbak.com/en/about-us)|
-|❌|Camp|United States 🇺🇸|[Website](https://www.camp-usa.com/)|
 |❌|Camp USA|United States 🇺🇸|[Website](https://www.campusa.com/)|
 |❌|Campsuds|United States 🇺🇸|[Website](https://www.campsuds.com/pages/about-us)|
 |✅|Canadian Canine|Canada 🇨🇦|[Website](https://www.canadiancanine.com/)|
@@ -165,7 +159,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Dalbello Ski Boots|Italy 🇮🇹|[Website](https://www.dalbello.it/)|
 |❌|Danner|United States 🇺🇸|[Website](https://www.danner.com/pages/about-us)|
 |❌|Darn Tough|United States 🇺🇸|[Website](https://darntough.com/pages/about-us)|
-|❌|Darn Tough Socks|United States 🇺🇸|[Website](https://darntough.com/pages/about-us)|
 |❌|Deadpoint Climbing Co.|United States 🇺🇸|[Website](https://deadpointclimbing.com/pages/about-us)|
 |❌|DeFeet|United States 🇺🇸|[Website](https://defeet.com/pages/about)|
 |❌|Defense Aerosols|United States 🇺🇸|[Website](https://defenseaerosols.com/pages/about-us)|
@@ -188,8 +181,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Edelrid|Germany 🇩🇪|[Website](https://edelrid.de/en/company)|
 |✅|Elan|Slovenia 🇸🇮|[Website](https://www.elan-skis.com/about-us)|
 |❌|Enlightened Equipment|United States 🇺🇸|[Website](https://enlightenedequipment.com/pages/about-us)|
-|❌|Eno|United States 🇺🇸|[Website](https://www.eno.com/pages/about-us)|
-|❌|ENO|United States 🇺🇸|[Website](https://www.eno.com/pages/about-us)|
+|✅|ENO|Canada 🇨🇦|[Website](https://enonation.ca/collections/hammocks)|
 |✅|Ergon|Germany 🇩🇪|[Website](https://ergon-bike.com/en/company)|
 |✅|Esquif International Inc|Canada 🇨🇦|[Website](https://www.esquif.com/en/about-us)|
 |❌|Eureka!|United States 🇺🇸|[Website](https://eurekacamping.com/pages/about-us)|
@@ -680,7 +672,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
-|🇨🇦 Canada|108|
+|🇨🇦 Canada|107|
 |🇨🇳 China|4|
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
@@ -700,9 +692,9 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇸🇮 Slovenia|1|
 |🇿🇦 South Africa|2|
 |🇰🇷 South Korea|3|
-|🇪🇸 Spain|6|
+|🇪🇸 Spain|4|
 |🇸🇪 Sweden|18|
 |🇨🇭 Switzerland|18|
 |🇹🇼 Taiwan|3|
 |🇬🇧 United Kingdom|22|
-|🇺🇸 United States|335|
+|🇺🇸 United States|330|
