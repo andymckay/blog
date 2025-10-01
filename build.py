@@ -169,12 +169,14 @@ def get_content():
     print("Building site...")
     categories = {}
     posts = []
+    pages = []
 
     # Sort based on date in filename.
     files = os.listdir("content")
 
     for filename in files:
         if filename.endswith(".md"):
+            print(filename)
             with open(os.path.join("content", filename), "r") as f:
                 content = f.read()
                 isHeader = False
@@ -221,13 +223,19 @@ def get_content():
         if isinstance(content, Post):
             posts.append(content)
 
+        if isinstance(content, Page):
+            pages.append(content)
+
     posts = sort_posts(posts)
-    return posts, categories
+    return posts, pages, categories
 
 
 def build():
-    posts, categories = get_content()
+    posts, pages, categories = get_content()
     for content in posts:
+        write(content.target_filename(), content.template, content=content)
+
+    for content in pages:
         write(content.target_filename(), content.template, content=content)
 
     posts = sort_posts(posts)
