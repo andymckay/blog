@@ -202,7 +202,7 @@ def get_content():
                 content = getContent(filename=filename, meta=meta)
 
                 try:
-                    md = markdown.Markdown(extensions=["toc"])
+                    md = markdown.Markdown(extensions=["toc", "tables"])
                     content.body = "\n".join(body)
                     content.html = md.convert("\n".join(body))
                     content.toc = md.toc

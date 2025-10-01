@@ -12,3 +12,7 @@ I've had this blog since 2006 and what interests me in 2025 is quite different. 
 ### The US
 
 Being a proud Canadian, I won't be travelling to the US anytime soon for any hikes. Any hikes on this site in the US are from before the current 2025 administration. I will also avoiding buying anything from the US. It sometimes happens, but I'll avoid it if I can. I will note any gear that is from the US.
+
+### Contacting me
+
+The best way is to <a href="https://github.com/andymckay/blog">create an issue on GitHub, or even a pull request if you've got a problem or correction</a> on this blog. Or you can drop me an <a href="mailto:andy@mckay.pub">email if you want</a>, or hit me on my socials 👇.

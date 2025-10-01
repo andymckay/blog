@@ -4,3 +4,4 @@ bs4
 stravalib
 jinja2
 watchdog
+py-markdown-table

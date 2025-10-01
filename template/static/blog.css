@@ -84,3 +84,15 @@ p.card-text {
 h3 {
     font-size: 1.2em;
 }
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table tr td,
+table tr th {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
