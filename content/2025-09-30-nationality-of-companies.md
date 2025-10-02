@@ -1,21 +1,41 @@
 
+
 ---
+
 layout: post
+
 title: Nationality of companies
+
 categories: gear
+
 pinned: true
+
 image: /files/canada-flag.png
+
 ---
+
+
 
 If you go shopping for hiking, running or backpacking gear, you are going to see lots of gear from a wide range of companies. Most (but not all) the things for hiking and backpacking are most likely made in Asia. Anything involving fabric or sewing is like made in Thailand, Cambodia or Vietnam. China for many other things. This is pretty universal these days, with some exceptions. But the company that is making the real profit, is not from there, it's likely in the US or Europe.
 
+
+
 <div class="alert alert-primary">ℹ️ This is not a list of good or bad companies, or any reflection on their products. I only review individual products when I use them. This is just to tell the nationality of the company so you can add that to your buying decisions.</div>
+
+
 
 Unfortunately shops don't tend to disclose the ownership of companies, like they do in grocery stores. Recently when I bought a new backpack I was dismayed to find that all but 2 of the backpacks were from US companies. I bought a Deuter (German) primarily because it was awesome, but secondly because it wasn't a US company.
 
+
+
 In this list I'm going to go through a whole pile of brands and where the company is based. The gear is likely made in one of countries mentioned before, but at least we can avoid giving the corporate headquarters money.
 
+
+
 <div class="alert alert-primary">ℹ️ This list might not be perfect, it was prepared with AI and then I fact checked some and cleaned. It can be <a href="https://github.com/andymckay/blog">updated on GitHub</a>, or <a href="/about.html">drop me a line</a> and I'll try my best to keep up to date with corrections or additions.</div>
+
+
+
 
 ### <a id="companies">List of companies</a>
 
@@ -197,7 +217,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Feetures|🇺🇸 United States|<a target="_blank" href="https://www.feetures.com/" title="Website">➡️</a>|
 |✅|Fenix|🇨🇳 China|<a target="_blank" href="https://www.fenixlight.com/" title="Website">➡️</a>|
 |✅|Fenix Lighting|🇨🇳 China|<a target="_blank" href="https://www.fenixlight.com/" title="Website">➡️</a>|
-|✅|Fernwood Coffee Company|🇨🇦 Canada|<a target="_blank" href="https://www.fernwoodcoffee.com/" title="Website">➡️</a>|
+|✅|Fernwood Coffee|🇨🇦 Canada|<a target="_blank" href="https://www.fernwoodcoffee.com/" title="Website">➡️</a>|
 |✅|Fidlock|🇩🇪 Germany|<a target="_blank" href="https://fidlock.com/" title="Website">➡️</a>|
 |✅|Fido Pro Corp|🇨🇦 Canada|<a target="_blank" href="https://www.fidopro.com/" title="Website">➡️</a>|
 |✅|Fieldsheer Canada|🇨🇦 Canada|<a target="_blank" href="https://www.fieldsheer.com/" title="Website">➡️</a>|
@@ -226,7 +246,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Ghost|🇺🇸 United States|<a target="_blank" href="https://ghostlifestyle.com" title="Website">➡️</a>|
 |❌|Girlfriend Collective|🇺🇸 United States|<a target="_blank" href="https://girlfriend.com" title="Website">➡️</a>|
 |❌|Giro|🇺🇸 United States|<a target="_blank" href="https://giro.com" title="Website">➡️</a>|
-|❌|Gladding Braided Products|🇺🇸 United States|<a target="_blank" href="https://gladdingbraided.com" title="Website">➡️</a>|
+|❌|Gladding Braided|🇺🇸 United States|<a target="_blank" href="https://gladdingbraided.com" title="Website">➡️</a>|
 |✅|Glerups|🇩🇰 Denmark|<a target="_blank" href="https://glerups.com/" title="Website">➡️</a>|
 |❌|Go-Girl|🇺🇸 United States|<a target="_blank" href="https://www.gogirlusa.com/" title="Website">➡️</a>|
 |❌|GoPro|🇺🇸 United States|<a target="_blank" href="https://gopro.com/" title="Website">➡️</a>|
@@ -251,7 +271,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Heat Holders|🇬🇧 United Kingdom|<a target="_blank" href="https://heatholders.com" title="Website">➡️</a>|
 |✅|Helinox|🇰🇷 South Korea|<a target="_blank" href="https://helinox.com/" title="Website">➡️</a>|
 |✅|Helle|🇳🇴 Norway|<a target="_blank" href="https://www.helle.no/" title="Website">➡️</a>|
-|❌|Hennessy Hammock|🇺🇸 United States|<a target="_blank" href="https://www.hennessyhammock.com/" title="Website">➡️</a>|
+|✅|Hennessy Hammock|🇨🇦 Canada|<a target="_blank" href="https://www.hennessyhammock.com/" title="Website">➡️</a>|
 |✅|Heritage House Pub.|🇨🇦 Canada|<a target="_blank" href="https://www.heritagehouse.ca/" title="Website">➡️</a>|
 |❌|Heroclip|🇺🇸 United States|<a target="_blank" href="https://heroclip.com" title="Website">➡️</a>|
 |✅|Herschel|🇨🇦 Canada|<a target="_blank" href="https://herschel.com" title="Website">➡️</a>|
@@ -312,14 +332,14 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Knockaround|🇺🇸 United States|<a target="_blank" href="https://www.knockaround.com/" title="Website">➡️</a>|
 |✅|Knog|🇦🇺 Australia|<a target="_blank" href="https://knog.com.au" title="Website">➡️</a>|
 |✅|Kodiak|🇨🇦 Canada|<a target="_blank" href="https://kodiakgroup.com" title="Website">➡️</a>|
-|✅|Kodiak Wildlife Products|🇨🇦 Canada|<a target="_blank" href="https://www.kodiakwildlifeproducts.com/" title="Website">➡️</a>|
+|✅|Kodiak Wildlife|🇨🇦 Canada|<a target="_blank" href="https://www.kodiakwildlifeproducts.com/" title="Website">➡️</a>|
 |❌|Kokatat|🇺🇸 United States|<a target="_blank" href="https://www.kokatat.com/" title="Website">➡️</a>|
 |❌|Kokopelli|🇺🇸 United States|<a target="_blank" href="https://kokopellirafts.com" title="Website">➡️</a>|
 |❌|Kokopelli Packraft|🇺🇸 United States|<a target="_blank" href="https://www.kokopellipackraft.com/" title="Website">➡️</a>|
 |✅|Kombi|🇨🇦 Canada|<a target="_blank" href="https://kombi.com" title="Website">➡️</a>|
 |✅|Kombi Canada|🇨🇦 Canada|<a target="_blank" href="https://kombica.com/" title="Website">➡️</a>|
 |✅|Komperdell|🇦🇹 Austria|<a target="_blank" href="https://komperdell.com" title="Website">➡️</a>|
-|✅|Kootenay GoodLife Publishing|🇨🇦 Canada|<a target="_blank" href="https://www.kootenaygoodlifepublishing.com/" title="Website">➡️</a>|
+|✅|Kootenay GoodLife|🇨🇦 Canada|<a target="_blank" href="https://www.kootenaygoodlifepublishing.com/" title="Website">➡️</a>|
 |✅|Kootenay Life|🇨🇦 Canada|<a target="_blank" href="https://www.kootenaylife.com/" title="Website">➡️</a>|
 |❌|Kuhl|🇺🇸 United States|<a target="_blank" href="https://www.kuhl.com/" title="Website">➡️</a>|
 |✅|Kupilka|🇫🇮 Finland|<a target="_blank" href="https://www.kupilka.fi/en/" title="Website">➡️</a>|
@@ -676,7 +696,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
-|🇨🇦 Canada|108|
+|🇨🇦 Canada|109|
 |🇨🇳 China|4|
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
@@ -701,4 +721,4 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇨🇭 Switzerland|17|
 |🇹🇼 Taiwan|3|
 |🇬🇧 United Kingdom|24|
-|🇺🇸 United States|332|
+|🇺🇸 United States|331|

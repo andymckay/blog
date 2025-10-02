@@ -46,7 +46,9 @@ with open("data/brands.csv") as f:
 
 results.sort(key=lambda x: x["brand"])
 
-print("""
+out = []
+
+out.append("""
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -54,9 +56,9 @@ print("""
 for result in results:
     good = "❌" if result["country"].lower() == "united states" else "✅"
     emo = emoji[result["country"].lower()]
-    print(f'|{good}|{result["brand"]}|{emo} {result["country"]}|<a target="_blank" href="{result['url']}" title="Website">➡️</a>|')
+    out.append(f'|{good}|{result["brand"]}|{emo} {result["country"]}|<a target="_blank" href="{result['url']}" title="Website">➡️</a>|')
 
-print("""
+out.append("""
 ### Count of countries
 
 |Country|Count|
@@ -64,4 +66,15 @@ print("""
 
 for (country, count) in sorted(cnt.items()):
     emo = emoji[country.lower()]
-    print(f"|{emo} {country}|{count}|")
+    out.append(f"|{emo} {country}|{count}|")
+
+inlines = []
+with open("content/2025-09-30-nationality-of-companies.md", "r") as infile:
+    for line in infile.readlines():
+        if line.startswith("### <a id"):
+            break
+        inlines.append(line)
+
+outlines = inlines + out
+with open("content/2025-09-30-nationality-of-companies.md", "w") as outfile:
+    outfile.write("\n".join(outlines))
