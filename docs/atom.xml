@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-10-01T16:55:21.338739+00:00</updated>
+    <updated>2025-10-02T15:03:56.961013+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -297,12 +297,6 @@
 &lt;td&gt;&lt;a href=&#34;https://axiomgear.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;B Daehlie&lt;/td&gt;
-&lt;td&gt;Norway 🇳🇴&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.daehlie.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;Backcountry Access&lt;/td&gt;
 &lt;td&gt;United States 🇺🇸&lt;/td&gt;
@@ -379,6 +373,12 @@
 &lt;td&gt;Ben’s&lt;/td&gt;
 &lt;td&gt;United States 🇺🇸&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.bens.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Berghaus&lt;/td&gt;
+&lt;td&gt;United Kingdom 🇬🇧&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.berghaus.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
@@ -823,6 +823,12 @@
 &lt;td&gt;Cushcore&lt;/td&gt;
 &lt;td&gt;Canada 🇨🇦&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://cushcore.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Daehlie&lt;/td&gt;
+&lt;td&gt;Norway 🇳🇴&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dahlie.com/&#34;&gt;Website&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
@@ -4017,7 +4023,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇬🇧 United Kingdom&lt;/td&gt;
-&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
