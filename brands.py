@@ -9,7 +9,7 @@ emoji = {
     "belgium": "🇧🇪",
     "canada": "🇨🇦",
     "china": "🇨🇳",
-    "czech": "🇨🇿",
+    "czech republic": "🇨🇿",
     "denmark": "🇩🇰",
     "finland": "🇫🇮",
     "france": "🇫🇷",
@@ -22,21 +22,24 @@ emoji = {
     "japan": "🇯🇵",
     "nepal": "🇳🇵",
     "netherlands": "🇳🇱",
-    "new": "🇳🇿",
+    "new zealand": "🇳🇿",
     "norway": "🇳🇴",
     "slovenia": "🇸🇮",
-    "south": "🇰🇷",
     "spain": "🇪🇸",
     "sweden": "🇸🇪",
     "switzerland": "🇨🇭",
     "taiwan": "🇹🇼",
-    "united": "🇺🇸",
+    "united states": "🇺🇸",
+    "united kingdom": "🇬🇧",
+    "south africa": "🇿🇦",
+    "south korea": "🇰🇷",
 }
 
 results = []
 with open("data/brands.csv") as f:
     reader = csv.DictReader(f, fieldnames=["brand", "country", "url"])
-    for row in reader:
+    for (k, row) in enumerate(reader):
+        if not k: continue
         if not row["country"]: continue
         cnt.update([row["country"],])
         results.append(row)
@@ -50,7 +53,8 @@ print("""
 |-|-|-|-|""")
 for result in results:
     good = "❌" if result["country"].lower() == "united states" else "✅"
-    print(f'|{good}|{result["brand"]}|{result["country"]}|<a target="_blank" href="{result['url']}" title="Website">➡️</a>|')
+    emo = emoji[result["country"].lower()]
+    print(f'|{good}|{result["brand"]}|{emo} {result["country"]}|<a target="_blank" href="{result['url']}" title="Website">➡️</a>|')
 
 print("""
 ### Count of countries
@@ -59,4 +63,5 @@ print("""
 |-|-|""")
 
 for (country, count) in sorted(cnt.items()):
-    print(f"|{country}|{count}|")
+    emo = emoji[country.lower()]
+    print(f"|{emo} {country}|{count}|")
