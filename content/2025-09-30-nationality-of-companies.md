@@ -467,7 +467,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Picture Organic Clothing|🇫🇷 France|<a target="_blank" href="https://www.picture-organic-clothing.com/" title="Website">➡️</a>|
 |✅|Pieps|🇦🇹 Austria|<a target="_blank" href="https://www.pieps.com/" title="Website">➡️</a>|
 |✅|Pirelli|🇮🇹 Italy|<a target="_blank" href="https://pirelli.com" title="Website">➡️</a>|
-|❌|Pistil|🇺🇸 United States|<a target="_blank" href="https://www.pistilbags.com/" title="Website">➡️</a>|
+|❌|Pistil|🇺🇸 United States|<a target="_blank" href="https://pistildesigns.com" title="Website">➡️</a>|
 |❌|Planet Bike|🇺🇸 United States|<a target="_blank" href="https://planetbike.com" title="Website">➡️</a>|
 |❌|Platypus|🇺🇸 United States|<a target="_blank" href="https://www.platy.com/" title="Website">➡️</a>|
 |✅|Polar|🇫🇮 Finland|<a target="_blank" href="https://polar.com" title="Website">➡️</a>|
@@ -475,7 +475,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Polar Joe|🇺🇸 United States|<a target="_blank" href="https://polarjoe.com" title="Website">➡️</a>|
 |✅|Polygon|🇮🇩 Indonesia|<a target="_blank" href="https://polygonbikes.com" title="Website">➡️</a>|
 |✅|Pomoca|🇨🇭 Switzerland|<a target="_blank" href="https://pomoca.com" title="Website">➡️</a>|
-|❌|Portland Design Works|🇺🇸 United States|<a target="_blank" href="https://pdwbike.com" title="Website">➡️</a>|
+|❌|Portland Design Works|🇺🇸 United States|<a target="_blank" href="https://ridepdw.com/" title="Website">➡️</a>|
 |❌|Prana|🇺🇸 United States|<a target="_blank" href="https://www.prana.com/" title="Website">➡️</a>|
 |✅|Prana Organic|🇨🇦 Canada|<a target="_blank" href="https://pranaorganic.com" title="Website">➡️</a>|
 |✅|Primus|🇸🇪 Sweden|<a target="_blank" href="https://www.primus.eu/" title="Website">➡️</a>|
