@@ -16,6 +16,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 <div class="alert alert-primary">ℹ️ This list might not be perfect, it was prepared with AI and then I fact checked some and cleaned. It can be <a href="https://github.com/andymckay/blog">updated on GitHub</a>, or <a href="/about.html">drop me a line</a> and I'll try my best to keep up to date with corrections or additions.</div>
 
+
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -409,7 +410,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Noble|🇺🇸 United States|<a target="_blank" href="https://nobleoutfitters.com" title="Website">➡️</a>|
 |❌|Nocs Provisions|🇺🇸 United States|<a target="_blank" href="https://www.nocsprovisions.com/" title="Website">➡️</a>|
 |❌|Nomadix|🇺🇸 United States|<a target="_blank" href="https://www.nomadixgoods.com/" title="Website">➡️</a>|
-|✅|Norda|🇨🇦 Canada|<a target="_blank" href="https://norda.com" title="Website">➡️</a>|
+|✅|Norda Run|🇨🇦 Canada|<a target="_blank" href="https://www.nordarun.com/" title="Website">➡️</a>|
 |✅|Nordica|🇮🇹 Italy|<a target="_blank" href="https://nordica.com" title="Website">➡️</a>|
 |❌|Norfolk|🇺🇸 United States|<a target="_blank" href="https://norfolkoutfitters.com" title="Website">➡️</a>|
 |✅|Norrona|🇳🇴 Norway|<a target="_blank" href="https://www.norrona.com/" title="Website">➡️</a>|

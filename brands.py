@@ -73,6 +73,8 @@ with open("content/2025-09-30-nationality-of-companies.md", "r") as infile:
     for line in infile.readlines():
         if line.startswith("### <a id"):
             break
+        if line.endswith("\n"):
+            line = line.strip()
         inlines.append(line)
 
 outlines = inlines + out
