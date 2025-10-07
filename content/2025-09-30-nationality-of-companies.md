@@ -1,81 +1,20 @@
-
-
-
-
 ---
-
-
-
 layout: post
-
-
-
 title: Nationality of companies
-
-
-
 categories: gear
-
-
-
 pinned: true
-
-
-
 image: /files/canada-flag.png
-
-
-
 ---
-
-
-
-
-
-
 
 If you go shopping for hiking, running or backpacking gear, you are going to see lots of gear from a wide range of companies. Most (but not all) the things for hiking and backpacking are most likely made in Asia. Anything involving fabric or sewing is like made in Thailand, Cambodia or Vietnam. China for many other things. This is pretty universal these days, with some exceptions. But the company that is making the real profit, is not from there, it's likely in the US or Europe.
 
-
-
-
-
-
-
 <div class="alert alert-primary">ℹ️ This is not a list of good or bad companies, or any reflection on their products. I only review individual products when I use them. This is just to tell the nationality of the company so you can add that to your buying decisions.</div>
-
-
-
-
-
-
 
 Unfortunately shops don't tend to disclose the ownership of companies, like they do in grocery stores. Recently when I bought a new backpack I was dismayed to find that all but 2 of the backpacks were from US companies. I bought a Deuter (German) primarily because it was awesome, but secondly because it wasn't a US company.
 
-
-
-
-
-
-
 In this list I'm going to go through a whole pile of brands and where the company is based. The gear is likely made in one of countries mentioned before, but at least we can avoid giving the corporate headquarters money.
 
-
-
-
-
-
-
 <div class="alert alert-primary">ℹ️ This list might not be perfect, it was prepared with AI and then I fact checked some and cleaned. It can be <a href="https://github.com/andymckay/blog">updated on GitHub</a>, or <a href="/about.html">drop me a line</a> and I'll try my best to keep up to date with corrections or additions.</div>
-
-
-
-
-
-
-
-
-
 
 ### <a id="companies">List of companies</a>
 
@@ -112,7 +51,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Aquasphere|🇮🇹 Italy|<a target="_blank" href="https://www.aquasphere.com/" title="Website">➡️</a>|
 |✅|Aquatabs|🇬🇧 United Kingdom|<a target="_blank" href="https://www.pureriver.com/" title="Website">➡️</a>|
 |❌|Aravon|🇺🇸 United States|<a target="_blank" href="https://www.newbalance.com/" title="Website">➡️</a>|
-|✅|Arc'teryx|🇨🇦 Canada|<a target="_blank" href="https://arcteryx.com/" title="Website">➡️</a>|
+|✅|Arc'teryx|🇨🇳 China|<a target="_blank" href="https://arcteryx.com/" title="Website">➡️</a>|
 |❌|Arcade|🇺🇸 United States|<a target="_blank" href="https://www.arcadebelts.com/" title="Website">➡️</a>|
 |❌|Arcade Belts|🇺🇸 United States|<a target="_blank" href="https://www.arcadebelts.com/" title="Website">➡️</a>|
 |✅|Arena|🇮🇹 Italy|<a target="_blank" href="https://www.arenawaterinstinct.com/" title="Website">➡️</a>|
@@ -580,7 +519,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|SOG|🇺🇸 United States|<a target="_blank" href="https://www.sogknives.com/" title="Website">➡️</a>|
 |❌|SRAM|🇺🇸 United States|<a target="_blank" href="https://www.sram.com/" title="Website">➡️</a>|
 |✅|Salewa|🇮🇹 Italy|<a target="_blank" href="https://www.salewa.com/" title="Website">➡️</a>|
-|✅|Salomon|🇫🇷 France|<a target="_blank" href="https://www.salomon.com/" title="Website">➡️</a>|
+|✅|Salomon|🇨🇳 China|<a target="_blank" href="https://www.salomon.com/" title="Website">➡️</a>|
 |❌|Salsa|🇺🇸 United States|<a target="_blank" href="https://salsacycles.com/" title="Website">➡️</a>|
 |❌|SaltStick|🇺🇸 United States|<a target="_blank" href="https://www.saltstick.com/" title="Website">➡️</a>|
 |❌|Saltstick|🇺🇸 United States|<a target="_blank" href="https://www.saltstick.com/" title="Website">➡️</a>|
@@ -735,12 +674,12 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
-|🇨🇦 Canada|109|
-|🇨🇳 China|4|
+|🇨🇦 Canada|108|
+|🇨🇳 China|6|
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
 |🇫🇮 Finland|5|
-|🇫🇷 France|16|
+|🇫🇷 France|15|
 |🇩🇪 Germany|23|
 |🇮🇸 Iceland|1|
 |🇮🇩 Indonesia|1|
