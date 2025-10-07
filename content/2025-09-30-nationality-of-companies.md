@@ -1,18 +1,36 @@
 
 
+
+
 ---
+
+
 
 layout: post
 
+
+
 title: Nationality of companies
+
+
 
 categories: gear
 
+
+
 pinned: true
+
+
 
 image: /files/canada-flag.png
 
+
+
 ---
+
+
+
+
 
 
 
@@ -20,7 +38,15 @@ If you go shopping for hiking, running or backpacking gear, you are going to see
 
 
 
+
+
+
+
 <div class="alert alert-primary">ℹ️ This is not a list of good or bad companies, or any reflection on their products. I only review individual products when I use them. This is just to tell the nationality of the company so you can add that to your buying decisions.</div>
+
+
+
+
 
 
 
@@ -28,11 +54,25 @@ Unfortunately shops don't tend to disclose the ownership of companies, like they
 
 
 
+
+
+
+
 In this list I'm going to go through a whole pile of brands and where the company is based. The gear is likely made in one of countries mentioned before, but at least we can avoid giving the corporate headquarters money.
 
 
 
+
+
+
+
 <div class="alert alert-primary">ℹ️ This list might not be perfect, it was prepared with AI and then I fact checked some and cleaned. It can be <a href="https://github.com/andymckay/blog">updated on GitHub</a>, or <a href="/about.html">drop me a line</a> and I'll try my best to keep up to date with corrections or additions.</div>
+
+
+
+
+
+
 
 
 
@@ -169,7 +209,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Crazy Creek|🇺🇸 United States|<a target="_blank" href="https://www.crazycreek.com/" title="Website">➡️</a>|
 |✅|Crispi|🇮🇹 Italy|<a target="_blank" href="https://www.crispi.it/" title="Website">➡️</a>|
 |❌|Crocs|🇺🇸 United States|<a target="_blank" href="https://www.crocs.com/" title="Website">➡️</a>|
-|❌|Crocs|🇺🇸 United States|<a target="_blank" href="https://www.crocs.ca" title="Website">➡️</a>|
 |❌|Current Designs|🇺🇸 United States|<a target="_blank" href="https://www.currentdesigns.com/" title="Website">➡️</a>|
 |✅|Currex|🇩🇪 Germany|<a target="_blank" href="https://www.currex.com/" title="Website">➡️</a>|
 |✅|Cushcore|🇨🇦 Canada|<a target="_blank" href="https://cushcore.com/" title="Website">➡️</a>|
@@ -197,6 +236,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Duer|🇨🇦 Canada|<a target="_blank" href="https://www.duer.com/" title="Website">➡️</a>|
 |❌|Dunham|🇺🇸 United States|<a target="_blank" href="https://www.dunhamsshoe.com/" title="Website">➡️</a>|
 |❌|Duracell|🇺🇸 United States|<a target="_blank" href="https://www.duracell.com/" title="Website">➡️</a>|
+|✅|Durston|🇨🇦 Canada|<a target="_blank" href="https://durstongear.com/" title="Website">➡️</a>|
 |✅|Dynafit|🇩🇪 Germany|<a target="_blank" href="https://www.dynafit.com/" title="Website">➡️</a>|
 |✅|ENO|🇨🇦 Canada|<a target="_blank" href="https://enonation.ca/" title="Website">➡️</a>|
 |✅|EVOC|🇩🇪 Germany|<a target="_blank" href="https://evoc.de/" title="Website">➡️</a>|
@@ -277,8 +317,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Herschel|🇨🇦 Canada|<a target="_blank" href="https://herschel.com" title="Website">➡️</a>|
 |✅|Hestra|🇸🇪 Sweden|<a target="_blank" href="https://www.hestragloves.com/" title="Website">➡️</a>|
 |✅|Hillsound|🇨🇦 Canada|<a target="_blank" href="https://hillsound.ca" title="Website">➡️</a>|
-|✅|Hillsound Equipment|🇨🇦 Canada|<a target="_blank" href="https://www.hillsound.com/" title="Website">➡️</a>|
-|✅|Hoka|🇫🇷 France|<a target="_blank" href="https://www.hokasport.com/" title="Website">➡️</a>|
+|✅|Hoka|🇫🇷 France|<a target="_blank" href="https://www.hoka.com/en/ca/" title="Website">➡️</a>|
 |❌|Honey Stinger|🇺🇸 United States|<a target="_blank" href="https://www.honeystinger.com/" title="Website">➡️</a>|
 |✅|Hornby Organic|🇨🇦 Canada|<a target="_blank" href="https://hornbyorganic.com" title="Website">➡️</a>|
 |✅|Houdini|🇸🇪 Sweden|<a target="_blank" href="https://houdinisportswear.com" title="Website">➡️</a>|
@@ -721,4 +760,4 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇨🇭 Switzerland|17|
 |🇹🇼 Taiwan|3|
 |🇬🇧 United Kingdom|24|
-|🇺🇸 United States|331|
+|🇺🇸 United States|330|
