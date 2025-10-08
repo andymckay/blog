@@ -211,7 +211,10 @@ def get_content():
                     print(f"Error processing Markdown in {filename}: {e}")
                     continue
 
-        if content.meta.get("categories"):
+        if not content.meta.get("categories"):
+            content.meta["categories"] = []
+
+        if content.meta.get("categories", []):
             content.meta["categories"] = [
                 capitalize(c.strip()) for c in content.meta["categories"].split(",")
             ]

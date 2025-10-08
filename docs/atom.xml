@@ -1,12 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-10-08T15:10:57.067811+00:00</updated>
+    <updated>2025-10-08T21:19:13.571508+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Garmin inReach Mini 2</title>
+        <link href="https://mckay.pub/2025-10-08-inreach.html"/>
+        <published>2025-10-08T00:00:00+00:00</published>
+        <id>https://mckay.pub/2025-10-08-inreach.html</id>
+        <content type="html">
+            &lt;p&gt;When I started seriously backpacking I got a &lt;a href=&#34;https://mckay.pub/2022-04-06-tracker.html&#34;&gt;Spot Gen 4 in 2022&lt;/a&gt;. The Spot was a wonderful device that provided a level of security for me and reassurance for my wife. It allowed me to roam further and with more confidence, knowing that if things go really bad there&#39;s a button to press that would send a message for help. It made me more confident and more comfortable hiking on my own. I wouldn&#39;t have done a lot of the hikes on this blog without it.&lt;/p&gt;
+&lt;p&gt;Unfortunately the Spot had a few issues and recently it started to act erractically. The battery light would come on just an hour or so after fresh batteries were put in. Messages that I tried to send didn&#39;t seem to be going through. The one thing I need in this device is relability, everything else is secondary. Just before some big hikes, I decided I needed to replace it.&lt;/p&gt;
+&lt;div class=&#34;alert alert-warning&#34;&gt;🚨 Garmin is a US company 🤦‍♂, so Canadian 🇨🇦 buyers beware. I bought this in 2025, well aware of the companies location, but unfortunately it&#39;s the best choice.&lt;/div&gt;
+
+&lt;p&gt;One thing my wife and I decided upon is that we&#39;d like to have two way messaging in a device. For the simple reasons that when I press the SOS button, any context or information we can share is useful. For example: the difference between me pressing the SOS button because I&#39;ve broken my leg and because I&#39;ve come across another hiker with a broken leg is quite important.&lt;/p&gt;
+&lt;p&gt;So what were my options?&lt;/p&gt;
+&lt;h3 id=&#34;another-spot&#34;&gt;Another Spot?&lt;/h3&gt;
+&lt;p&gt;There were things I didn&#39;t like about the Spot Gen 4:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The battery life was good and required carrying batteries 👍&lt;/li&gt;
+&lt;li&gt;A lack of information. For example, there&#39;s no battery level indicator, just green &#34;ok&#34; and red &#34;replace&#34; 👎&lt;/li&gt;
+&lt;li&gt;No two way messaging 👎&lt;/li&gt;
+&lt;li&gt;It&#39;s rather big and bulky to strap on the outside of backpacks and the velcro strap sucked 👎&lt;/li&gt;
+&lt;li&gt;It&#39;s a US company 👎&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is a &lt;a href=&#34;https://www.findmespot.com/en-us/products-services/spot-x&#34;&gt;Spot X&lt;/a&gt; which provides two way messaging, but it seems like a Blackberry with it&#39;s keyboard. The reviews of it are not good. It&#39;s not small or light either (198.4g). If I&#39;m going to pay money to a US company, it better be good.&lt;/p&gt;
+&lt;h3 id=&#34;how-about-zoleo&#34;&gt;How about Zoleo?&lt;/h3&gt;
+&lt;p&gt;Zoleo is a Canadian company, yay 😻. The &lt;a href=&#34;https://www.zoleo.com/en-ca&#34;&gt;Zoleo&lt;/a&gt; is a bulky box with some lights, reminiscient of the Spot Gen 4. It does have two way messaging and an app. The problems with the Zoleo were that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No where local sold them, both Valhalla and MEC had none for sale. I could order online and get one in a week or more (plus shipping) 👎 👎&lt;/li&gt;
+&lt;li&gt;It looks even more big, bulky and ugly than a Spot Gen 4 👎&lt;/li&gt;
+&lt;li&gt;It isn&#39;t super light 👎 (150g)&lt;/li&gt;
+&lt;li&gt;It does have a long battery life 👍&lt;/li&gt;
+&lt;li&gt;It is a Canadian company 👍&lt;/li&gt;
+&lt;li&gt;It&#39;s a relatively cheap device ($250 CAD) 👍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The fact that I couldn&#39;t get one in time for my next hikes was the deal breaker, but I admit the thought of having another bulky box didn&#39;t fill me with joy.&lt;/p&gt;
+&lt;h3 id=&#34;how-about-just-my-phone&#34;&gt;How about just my phone?&lt;/h3&gt;
+&lt;p&gt;The iPhone 14 and upwards come with Satellite messaging. I&#39;ve used it a couple of times and it works in &lt;a href=&#34;https://support.apple.com/en-us/120930&#34;&gt;North America&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;Messages via satellite is available in the United States, Canada, and Mexico. It&#39;s free for two years after the activation of an iPhone 14 or later (all models).&lt;/blockquote&gt;
+
+&lt;p&gt;That&#39;s pretty generous and will cover 90% of my use cases, although we do travel outside of those areas frequently. I&#39;m not sure how much it costs after the two years though.&lt;/p&gt;
+&lt;p&gt;In practice however, I&#39;ve found it very finnicky to use. It didn&#39;t work well under tree cover, it didn&#39;t work on the West Coast Trail when a US cell tower could be reached (which I couldn&#39;t use), it didn&#39;t work well down in a valley surrounded by mountains.&lt;/p&gt;
+&lt;p&gt;The phone is one of the most important devices while hiking. I use it for pictures, a map, it has a weak backup flashlight (always carry a dedicated flashlight) and in an &lt;a href=&#34;https://www.cbc.ca/news/canada/british-columbia/north-shore-rescue-lifeseeker-portable-cell-tower-1.7639677&#34;&gt;emergency can be used to find you&lt;/a&gt;. But that means it&#39;s batteries run down and having a dedicated device for that emergency is important to me. But also, in an emergency I really don&#39;t want to be having to move to a spot with no trees, or turning my iPhone around to find a satellite.&lt;/p&gt;
+&lt;h3 id=&#34;garmin-inreach&#34;&gt;Garmin inReach&lt;/h3&gt;
+&lt;p&gt;If you ever see a device on the trail, it&#39;s likely a Garmin. I&#39;ve had multiple Garmin devices and I&#39;ve pretty much disliked them all. The software is terrible and Garmin will find any way to charge you more. However the inReach does everything I want:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&#39;s small and light 👍 (100g)&lt;/li&gt;
+&lt;li&gt;It&#39;s got a long battery life 👍&lt;/li&gt;
+&lt;li&gt;It has an app, and clear indicators about what&#39;s happening 👍&lt;/li&gt;
+&lt;li&gt;It is able to send messages in situations an iPhone can&#39;t 👍&lt;/li&gt;
+&lt;li&gt;It&#39;s an expensive device ($579 CAD) 👎&lt;/li&gt;
+&lt;li&gt;It&#39;s from a US company 👎&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On my first hike out, I came back raving about how much more I liked the inReach. It&#39;s small - it fit into my backpack front pockets easily. It has a screw so I can attach it to my camera mount. I can look and see how much battery life is remaining easily. Checkin messages are clearer than the Spot. &lt;/p&gt;
+&lt;p&gt;Unlike the iPhone I don&#39;t need to do a lot of manual steps to send a message. I just queue it up, clip my inReach back in and continue hiking. In a few minutes I&#39;ll get an audible notification when it&#39;s gone.&lt;/p&gt;
+&lt;p&gt;I was able to find it on sale at $399 CAD. That was still way more expensive than the other options, but let&#39;s talk about plans... 👇&lt;/p&gt;
+&lt;h3 id=&#34;the-plans&#34;&gt;The plans&lt;/h3&gt;
+&lt;p&gt;When buying a device, you need to consider the recurring plan that you need. The Spot Gen 4 was costing me ~$12 a month and there were no extra message charges, but also no two way messaging anyway. The cheapest Zoleo plan is $25 CAD a month and that includes 75 messages, with unlimited check-in messages. The cheapest Garmin plan is $10.99 CAD a month. Messages vary from 15c to 70c.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Company&lt;/th&gt;
+&lt;th&gt;Cost per month&lt;/th&gt;
+&lt;th&gt;Messages&lt;/th&gt;
+&lt;th&gt;Overall&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spot&lt;/td&gt;
+&lt;td&gt;~$12&lt;/td&gt;
+&lt;td&gt;No two way messages&lt;/td&gt;
+&lt;td&gt;👍&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zoleo&lt;/td&gt;
+&lt;td&gt;$25&lt;/td&gt;
+&lt;td&gt;75 messages per month&lt;/td&gt;
+&lt;td&gt;👎&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Garmin&lt;/td&gt;
+&lt;td&gt;$10.99&lt;/td&gt;
+&lt;td&gt;Check in message 15c, text message, 70c&lt;/td&gt;
+&lt;td&gt;👍👍&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In September I did 5 hikes with the Garmin and I overused it a bit. I sent 19 check in messages, 1 weather message, 8 text messages, so my total cost was $21.23 CAD. Those 27 messages still costs less than the Zoleo plan.&lt;/p&gt;
+&lt;p&gt;In October I plan on doing no overnight hikes, so my total cast is expected to be $10.99 CAD.&lt;/p&gt;
+&lt;p&gt;The Garmin cost $150 more than the Zoleo, but in roughly (depending upon usage) one year, the plan for the Garmin will have made up for the Zoleo cost difference. I note this calculation was helped by the Garmin being on sale.&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;I ❤️ the Garmin inReach. After four days on the Rockwall in the Rockies, my battery was at 75% and I&#39;d gotten a weather report and sent a bunch of messages to my wife. It&#39;s small, lightweight and fits perfectly in my loadout. The plan fits with my hiking schedule of busy and quiet months. I would fully recommend it. The downside is that the original unit &lt;em&gt;is expensive&lt;/em&gt; (we know it will get bashed or broken at some point) and I&#39;m paying money to a US company.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Skyline, Jasper National Park</title>
