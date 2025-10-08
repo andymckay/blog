@@ -17,6 +17,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 <div class="alert alert-primary">ℹ️ This list might not be perfect, it was prepared with AI and then I fact checked some and cleaned. It can be <a href="https://github.com/andymckay/blog">updated on GitHub</a>, or <a href="/about.html">drop me a line</a> and I'll try my best to keep up to date with corrections or additions.</div>
 
 
+
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -627,6 +628,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|VSSL Outdoor Utility Tools|🇺🇸 United States|<a target="_blank" href="https://vsslgear.com/" title="Website">➡️</a>|
 |✅|Vancouver Umbrella Inc|🇨🇦 Canada|<a target="_blank" href="https://vancouverumbrella.com/" title="Website">➡️</a>|
 |❌|Vasque|🇺🇸 United States|<a target="_blank" href="https://www.vasque.com/" title="Website">➡️</a>|
+|✅|Vaude|🇩🇪 Germany|<a target="_blank" href="https://www.vaude.ca" title="Website">➡️</a>|
 |✅|Vessi|🇨🇦 Canada|<a target="_blank" href="https://vessi.com/" title="Website">➡️</a>|
 |✅|Vibram|🇮🇹 Italy|<a target="_blank" href="https://us.vibram.com/" title="Website">➡️</a>|
 |✅|Vibram Five Fingers|🇮🇹 Italy|<a target="_blank" href="https://us.vibram.com/" title="Website">➡️</a>|
@@ -681,7 +683,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇩🇰 Denmark|3|
 |🇫🇮 Finland|5|
 |🇫🇷 France|15|
-|🇩🇪 Germany|23|
+|🇩🇪 Germany|24|
 |🇮🇸 Iceland|1|
 |🇮🇩 Indonesia|1|
 |🇮🇪 Ireland|1|
