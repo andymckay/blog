@@ -18,6 +18,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 
 
+
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -285,6 +286,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Jagwire|🇺🇸 United States|<a target="_blank" href="https://jagwire.com" title="Website">➡️</a>|
 |✅|JetBlack|🇦🇺 Australia|<a target="_blank" href="https://jetblackcycling.com" title="Website">➡️</a>|
 |❌|Jetboil|🇺🇸 United States|<a target="_blank" href="https://www.jetboil.com/" title="Website">➡️</a>|
+|✅|Joe Nimble|🇩🇪 Germany|<a target="_blank" href="https://www.joe-nimble.com/int/" title="Website">➡️</a>|
 |✅|Julbo|🇫🇷 France|<a target="_blank" href="https://www.julbo.com/" title="Website">➡️</a>|
 |❌|K-Edge|🇺🇸 United States|<a target="_blank" href="https://k-edge.com" title="Website">➡️</a>|
 |❌|K2|🇺🇸 United States|<a target="_blank" href="https://k2sports.com" title="Website">➡️</a>|
@@ -586,7 +588,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Sunski|🇺🇸 United States|<a target="_blank" href="https://www.sunski.com/" title="Website">➡️</a>|
 |❌|Superfeet|🇺🇸 United States|<a target="_blank" href="https://www.superfeet.com/" title="Website">➡️</a>|
 |❌|Survive Outdoors Longer|🇺🇸 United States|<a target="_blank" href="https://www.solgear.com/" title="Website">➡️</a>|
-|✅|Suunto|🇫🇮 Finland|<a target="_blank" href="https://www.suunto.com/" title="Website">➡️</a>|
+|✅|Suunto|🇨🇳 China|<a target="_blank" href="https://www.suunto.com/" title="Website">➡️</a>|
 |✅|Swagman|🇨🇦 Canada|<a target="_blank" href="https://www.swagman.com/" title="Website">➡️</a>|
 |✅|Sweet Protection Helmets|🇳🇴 Norway|<a target="_blank" href="https://www.sweetprotection.com/" title="Website">➡️</a>|
 |❌|Swiftwick|🇺🇸 United States|<a target="_blank" href="https://www.swiftwick.com/" title="Website">➡️</a>|
@@ -678,12 +680,12 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
 |🇨🇦 Canada|108|
-|🇨🇳 China|6|
+|🇨🇳 China|7|
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
-|🇫🇮 Finland|5|
+|🇫🇮 Finland|4|
 |🇫🇷 France|15|
-|🇩🇪 Germany|24|
+|🇩🇪 Germany|25|
 |🇮🇸 Iceland|1|
 |🇮🇩 Indonesia|1|
 |🇮🇪 Ireland|1|
