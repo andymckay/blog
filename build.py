@@ -48,6 +48,8 @@ class Content:
     def url(self):
         return self.target_filename()
 
+    def __repr__(self):
+        return self.filename
 
 class Post(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):

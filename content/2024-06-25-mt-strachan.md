@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Mount Strachan
-categories: hike, BC
-blog: andy-mckay
+categories: hiking, BC, canada
 ---
 
 Bagged: ✅ Mount Strachan

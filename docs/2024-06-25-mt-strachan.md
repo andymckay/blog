@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mount Strachan
-categories: hiking
+categories: hiking, BC, canada
 ---
 
 Bagged: ✅ Mount Strachan
