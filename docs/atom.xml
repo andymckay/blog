@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-10-11T12:29:41.954698+00:00</updated>
+    <updated>2025-10-13T20:32:05.615957+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -1744,6 +1744,12 @@
 &lt;td&gt;Jetboil&lt;/td&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.jetboil.com/&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Joe Nimble&lt;/td&gt;
+&lt;td&gt;🇩🇪 Germany&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.joe-nimble.com/int/&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
@@ -3554,7 +3560,7 @@
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
 &lt;td&gt;Suunto&lt;/td&gt;
-&lt;td&gt;🇫🇮 Finland&lt;/td&gt;
+&lt;td&gt;🇨🇳 China&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.suunto.com/&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -4078,7 +4084,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇨🇳 China&lt;/td&gt;
-&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇨🇿 Czech Republic&lt;/td&gt;
@@ -4090,7 +4096,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇫🇮 Finland&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇫🇷 France&lt;/td&gt;
@@ -4098,7 +4104,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇩🇪 Germany&lt;/td&gt;
-&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇮🇸 Iceland&lt;/td&gt;
