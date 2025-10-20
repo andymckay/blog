@@ -225,7 +225,8 @@ def get_content():
                 categories[category].append(content)
 
         if isinstance(content, Post):
-            posts.append(content)
+            if content.meta["title"]:
+                posts.append(content)
         else:
             pages.append(content)
 
