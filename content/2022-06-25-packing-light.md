@@ -36,6 +36,7 @@ Check out the <a href="/gear.html">gear page for details</a>.
 **My sleeping bag** is 530g and <a href="/2022-04-05-sleeping-bag.html">packs down super small</a>. Add in a base layer or thermal set for sleeping which weighed 315g. 
 
 **Clothes** I ended up with the following:
+
 * shorts and t-shirt for hot weather
 * pants and top for the normal west coast weather
 * pants and top for cold or very wet weather
@@ -47,6 +48,7 @@ Check out the <a href="/gear.html">gear page for details</a>.
 This means I was re-wearing clothes, but able to layer together up to 4 or 5 layers together if I really needed it. No need to carry a puffy down jacket, just use smart layers to build for the weather.
 
 **Food** is all dehydrated:
+
 * oats for breakfast
 * cliff bars and dried mango for snacks
 * dehydrated food for dinner in bags
@@ -67,6 +69,7 @@ Keep weighing things and be ruthless about what you do and don't need. You have 
 I hiked the West Coast Trail with people carrying 65lb backpacks and goggled at the stuff they brought. I think they probably felt the same too.
 
 Some examples that made me wonder:
+
 * A tent that required 18 pegs to be set up. 18!
 * A person carrying cucumber as food. Cucumber is 96% water.
 * A person carrying cans of tuna. Those cans contain water or oil and then you have to pack out the cans.

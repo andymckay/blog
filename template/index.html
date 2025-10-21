@@ -1,16 +1,16 @@
 {% extends "template.html" %} {% block content %} {% for post in posts %} {% include "post-listing.html" %} {% endfor %}
 
 <div class="row mb-2">
-    <div class="col-md-6">
+    <div class="col-md-4">
         <h4 class="fst-italic border-bottom border-secondary">Gear</h4>
         <ul>
             {% for post in gear_posts %}
-            <li><a href="/{{ post.url() }}">{{ post.meta.title }}</a> {% if "Using" in post.meta.categories %} <span class="badge bg-success">using</span> {% endif %}</li>
+            <li><a href="/{{ post.url() }}">{{ post.meta.title }}</a> {% if post.meta.pinned %} <span class="badge bg-warning">pinned</span> {% endif %} {% if "Using" in post.meta.categories %} <span class="badge bg-success">using</span> {% endif %}</li>
             {% endfor %}
         </ul>
         <p><a href="/gear.html">See more gear...</a></p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
         <h4 class="fst-italic border-bottom border-secondary">Hikes</h4>
         <ul>
             {% for post in hike_posts %}
@@ -18,6 +18,15 @@
             {% endfor %}
         </ul>
         <p><a href="/hiking.html">See more hikes...</a></p>
+    </div>
+    <div class="col-md-4">
+        <h4 class="fst-italic border-bottom border-secondary">Categories</h4>
+        <ul>
+            {% for category in categories %}
+            <li><a href="/{{ category.lower().replace(' ', '-') }}.html">{{ category }}</a></li>
+            {% endfor %}
+        </ul>
+        <p></p>
     </div>
 </div>
 

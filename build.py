@@ -127,8 +127,14 @@ def capitalize(text):
     return text
 
 
-def sort_posts(posts):
+def sort_posts(posts, pin=False):
     posts.sort(key=lambda post: post.date().strftime("%Y-%m-%d"), reverse=True)
+    if pin:
+        for post in posts[:]:
+            if post.meta.get("pinned") == True:
+                print("Moving pinned post:", post, "to the top.")
+                posts.remove(post)
+                posts.insert(0, post)
     return posts
 
 
@@ -144,6 +150,7 @@ env.filters["category_url"] = category_url
 
 
 def filtered_posts(posts):
+    # Exclude everything from the before the switch to the new blog.
     earliest = datetime.datetime.strptime(
         "-".join("2025-09-04".split("-", 3)[:3]), "%Y-%m-%d"
     ).date()
@@ -151,7 +158,6 @@ def filtered_posts(posts):
     filtered = []
     for post in posts:
         if post.date() > earliest:
-            print("Adding post", post.meta["title"], "to feed.")
             filtered.append(post)
 
     return filtered
@@ -230,9 +236,15 @@ def get_content():
         else:
             pages.append(content)
 
-    posts = sort_posts(posts)
     return posts, pages, categories
 
+
+def filtered(categories):
+    # Remove Hiking and Gear from the category listing on the front page.
+    cats = categories[:]
+    cats.remove("Hiking")
+    cats.remove("Gear")
+    return cats
 
 def build():
     posts, pages, categories = get_content()
@@ -251,7 +263,8 @@ def build():
     context = {
         "posts": posts[:3],
         "hike_posts": sort_posts(categories["Hiking"][:10]),
-        "gear_posts": sort_posts(categories["Gear"][:10]),
+        "gear_posts": sort_posts(categories["Gear"][:10], pin=True),
+        "categories": filtered(sorted(categories)),
     }
     write("index.html", "index", **context)
 
