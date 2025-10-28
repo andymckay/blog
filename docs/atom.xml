@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-10-21T06:56:24.118786+00:00</updated>
+    <updated>2025-10-28T15:50:21.068496+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Strava and elapsed time</title>
+        <link href="https://mckay.pub/2025-10-28-strava.html"/>
+        <published>2025-10-28T00:00:00+00:00</published>
+        <id>https://mckay.pub/2025-10-28-strava.html</id>
+        <content type="html">
+            &lt;p&gt;As you may have noticed, I use &lt;a href=&#34;https://www.strava.com/&#34;&gt;Strava&lt;/a&gt;, a lot. I&#39;ve been on Strava since 2014 and have saved over 3,300 activities there. A lot of my friends use Strava and I find it an excellent discovery tool for finding places to hike. But with hiking there comes a real problem - Strava highlights the &lt;em&gt;moving time&lt;/em&gt;, not the &lt;em&gt;elapsed time&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Usually when I&#39;m &lt;strong&gt;running&lt;/strong&gt;, I&#39;m mostly moving. There will be times when moving and elapsed time vary, as the run gets interrupted. But usually the two times are close. It makes sense that Strava should default to showing moving time for running 👍&lt;/p&gt;
+&lt;p&gt;When I&#39;m &lt;strong&gt;hiking&lt;/strong&gt;, I am likely moving. But I might be having a break, enjoying the view. I might be going up or down an extremely steep section that involves a lot of vertical movement, but little horizontal movement. The elapsed and moving times have large disparities. Strava shows the moving time for hiking and that&#39;s a problem 👎&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&#34;https://www.strava.com/activities/11890867390&#34;&gt;hike is on the Howe Sound Crest Trail&lt;/a&gt;, I did a lot of moving. Elapsed time is &lt;strong&gt;5 hours&lt;/strong&gt; larger than the moving time. I can assure I did not spend 5 hours sitting down. I did &lt;em&gt;a lot&lt;/em&gt; of walking.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/files/elapsed-time.png&#34; class=&#34;img-fluid&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Or &lt;a href=&#34;https://www.strava.com/activities/15562126545/overview&#34;&gt;this one&lt;/a&gt;, elapsed time is again &lt;strong&gt;5 hours&lt;/strong&gt; larger than the moving time. Again I did not spend 5 hours sitting down sipping cocktails. But if you look at &lt;a href=&#34;https://mckay.pub/2025-09-03-golden-ears.html&#34;&gt;the blog post&lt;/a&gt;, Strava highlights the moving time in the embedded frame.&lt;/p&gt;
+&lt;h3 id=&#34;why-is-this-important&#34;&gt;Why is this important?&lt;/h3&gt;
+&lt;p&gt;Hiking is, for many, a sport of exploration. You haven&#39;t hiked the trail before. You might not be sure how long you&#39;ll be, how difficult the terrain is and so on.&lt;/p&gt;
+&lt;p&gt;There&#39;s a reason why search and rescue crews like &lt;a href=&#34;https://www.northshorerescue.com/&#34;&gt;North Shore Rescue&lt;/a&gt; are busy. People underestimate how long it will take to hike something. When you underestimate the time - badly - bad things can happen. You can get caught when the weather changes. You can find yourself in darkness. Perhaps you end up tired, cold, running out of food and water. This is the sort of thing that leads to rescues being needed.&lt;/p&gt;
+&lt;p&gt;I&#39;ve made this mistake too. In 2020, my friend and I were deciding what hike to do the next day and we saw that a good friend of ours had just done Coliseum Mountain in about 5 hours. Knowing our friend and their level of fitness, we felt we had a good chance to do it in 6 hours. At &lt;a href=&#34;https://www.strava.com/activities/3989340157&#34;&gt;9 hours&lt;/a&gt; (elapsed time) my watch died, it was well over 10 hours for the entire hike.&lt;/p&gt;
+&lt;div class=&#34;strava-embed-placeholder&#34; data-embed-type=&#34;activity&#34; data-embed-id=&#34;3989340157&#34; data-style=&#34;standard&#34; data-from-embed=&#34;false&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;The problem? We had looked at moving time not elapsed time and the moving time was hugely underrated. We made it back safely. However we ran out of water and food. We were absolutely physically wiped and tired. Our emergency contacts were starting to worry. We were under prepared, but because we&#39;d started early in the day - we made it out safely.&lt;/p&gt;
+&lt;p&gt;Not everyone is so lucky.&lt;/p&gt;
+&lt;h3 id=&#34;use-multiple-sources&#34;&gt;Use multiple sources&lt;/h3&gt;
+&lt;p&gt;Of course the mistake was ours. We didn&#39;t research it properly, we just used one source. On All Trails &lt;a href=&#34;https://www.alltrails.com/trail/canada/british-columbia/coliseum-mountain&#34;&gt;Coliseum Mountain&lt;/a&gt; is more correctly listed as a 8.5 - 9.5 hour hike. If we&#39;d used more than one source, we&#39;d have been more prepared.&lt;/p&gt;
+&lt;p&gt;Strava is a useful source because it contains data on particular people and how they did on a hike. When you see a generic number on a hike &#34;it takes 5 hours&#34; who is that time based on? Is it an inflated number to impart the difficulties of the hike? Is it a number based on a slower person than me? As an example Mueller Hutwebsite states it takes &lt;a href=&#34;https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/mueller-hut-route/&#34;&gt;4 hours one way&lt;/a&gt;. I completed both ways in &lt;a href=&#34;https://www.strava.com/activities/13753905724/overview&#34;&gt;4 hours 45 minues&lt;/a&gt;, a significant difference.&lt;/p&gt;
+&lt;p&gt;Being able to correctly correlate the time a hike might take for you, by comparing to a person you know is really useful. But you&#39;ve got to be really careful and Strava doesn&#39;t make it easy. On mobile the &lt;em&gt;elapsed time&lt;/em&gt; is about 4 scrolls down from the &lt;em&gt;moving time&lt;/em&gt; and is hard to spot.&lt;/p&gt;
+&lt;h3 id=&#34;what-could-strava-do&#34;&gt;What could Strava do?&lt;/h3&gt;
+&lt;p&gt;But Strava could make a simple change. If the sport is hiking and there is a large disparity between elapsed and moving times, highlight the elapsed time first. Or put in a notice or some sort of warning for that activity. Strava already does similar changes to the time if you mark a run as a &lt;em&gt;race&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Until then Strava is an incredibly useful, but make sure you use another source and double check that you are looking at &lt;em&gt;elapsed time&lt;/em&gt; not just &lt;em&gt;moving time&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Yes, I know there are people who run up mountains and into the back country on trails they don&#39;t know. People run up mountains all the time. However hiking is generally more a sport of exploration than running is and, perhaps, the people who need guidance the most aren&#39;t crazy awesome running folk.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Rockwall</title>
