@@ -10,7 +10,7 @@ Recently I was in Costa Rica. I had hoped to do a bit of hiking there but that d
 
 However I did get to spend some time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I've enjoyed, but I found wildlife photography especially fun. There's the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place and so on.
 
-After all that, you might get a shot, you might not. We ended up with over 3,500 photographs and weened it down to 130 that we'll keep in our album. Here's five of my favourite:
+After all that, you might get a shot, you might not. We ended up with over 3,500 photographs and weened it down to 130 that we'll keep in our album. Here's some of my favourites:
 
 <div id="carousel" class="carousel slide col-md-12">
     <div class="carousel-inner">
