@@ -6,7 +6,7 @@ categories: Photos
 image: /files/IMG_3904.jpeg
 ---
 
-Recently I was in Costa Rica. I'd hoped to do a bit of hiking there, but that didn't happen for a few reasons. The places I was in didn't really have good hiking, trails were muddy and overgrown or were in the process of being developed. As I was figuring out a plan, I badly pulled a muscle in my left hip running on the beach. I didn't attempt to run or hike after that and spent the rest of the holiday in recovery.
+Recently I was in Costa Rica. I had hoped to do a bit of hiking there but that didn't happen for a few reasons. The places I was in didn't really have good hiking, trails were muddy and overgrown or were in the process of being developed. As I was figuring out a plan, I badly pulled a muscle in my left hip running on the beach. I didn't attempt to run or hike after that and spent the rest of the holiday in recovery.
 
 However I did get to spend some time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I've enjoyed, but I found wildlife photography especially fun. There's the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place and so on.
 
