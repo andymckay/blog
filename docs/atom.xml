@@ -1,12 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-10-29T19:30:34.571128+00:00</updated>
+    <updated>2025-12-26T19:33:41.915109+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Costa Rica</title>
+        <link href="https://mckay.pub/2025-12-26-costa-rica.html"/>
+        <published>2025-12-26T00:00:00+00:00</published>
+        <id>https://mckay.pub/2025-12-26-costa-rica.html</id>
+        <content type="html">
+            &lt;p&gt;Recently I was in Costa Rica. I&#39;d hoped to do a bit of hiking there, but that didn&#39;t happen for a few reasons. The places I was in didn&#39;t really have good hiking, trails were muddy and overgrown or were in the process of being developed. As I was figuring out a plan, I badly pulled a muscle in my left hip running on the beach. I didn&#39;t attempt to run or hike after that and spent the rest of the holiday in recovery.&lt;/p&gt;
+&lt;p&gt;However I did get to spend some time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I&#39;ve enjoyed, but I found wildlife photography especially fun. There&#39;s the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place and so on.&lt;/p&gt;
+&lt;p&gt;After all that, you might get a shot, you might not. We ended up with over 3,500 photographs and weened it down to 130 that we&#39;ll keep in our album. Here&#39;s five of my favourite:&lt;/p&gt;
+&lt;div id=&#34;carousel&#34; class=&#34;carousel slide col-md-12&#34;&gt;
+    &lt;div class=&#34;carousel-inner&#34;&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;a href=&#34;/files/IMG_2079.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_2079.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item active&#34;&gt;
+            &lt;a href=&#34;/files/IMG_1877.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_1877.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;a href=&#34;/files/IMG_4123.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_4123.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;a href=&#34;/files/IMG_3904.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_3904.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;carousel-item&#34;&gt;
+            &lt;a href=&#34;/files/IMG_4349.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_4349.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;prev&#34;&gt;
+        &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;next&#34;&gt;
+        &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is a hobby that also works with someone who loves hiking and spending his time outside, so expect to see more.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Strava and elapsed time</title>
