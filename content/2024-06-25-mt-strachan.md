@@ -12,7 +12,7 @@ Saturday we headed up Mount Strachan. This is a pretty easy hike, but again at a
 
 In the end we just gave up and hiked the ski runs up and down, boring but got the job done.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="11714341190" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#11714341190]
 
 We got to the peak, but the true peak (10m higher) was looking rather scary, with very steep up and downs on invisible trails across treacherous snow. At this point, like everyone else we encountered that day, we decided not to go for the other peak and turn back from the true peak.
 

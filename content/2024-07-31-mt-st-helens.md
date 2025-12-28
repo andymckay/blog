@@ -7,7 +7,7 @@ categories: hiking, US
 
 It's an active volcano and we thought it would be cool to hike up it.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="12006332708" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#12006332708]
 
 The first hour is in trees and is nice. Then it opens up onto the volcano and you climb up a ridge basically to the top. The defining features of this hike are lava rocks and ash. There are many trails up the ridge, you aim for posts that have been erected, but generally want to avoid being too close to them as that's the hardest route sometimes.
 

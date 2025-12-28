@@ -17,7 +17,7 @@ So on the [Juan de Fuca](/2023-06-20-juan-de-fuca.html) trail by boots just fell
 
 No matter what I do I couldn't seem to break them in and get blisters. So witness my first hike with them:
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9395027270"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9395027270]
 
 I had to turn back at 5km with big blisters on my heels. They'd been hurting for a while and I'd tried many different socks and a heel lock with my laces, to no avail. Knowning that I had to keep my heels in good shape for the [West Coast Trail](/2023-07-31-west-coast-trail.html), I had to call it quits. Annoyed on the way home, I stopped at MEC and bought some light trail Solomon boots. I completed the whole West Coast Trail in 6 days with zero blisters in those new boots.
 
@@ -25,7 +25,7 @@ I had to turn back at 5km with big blisters on my heels. They'd been hurting for
 
 For this one I had a meeting in the morning and got to the top of the gondola after lunch and my phone hadn't charged, leaving me with low phone battery and limited time. Not great.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9752733479"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9752733479]
 
 After you get up to point, there are many, many branches in the trail and they aren't well flagged. Basically I went the wrong way, then had to backtrack mulitple times. I found the trail and headed up it, but this cost me an hour and got me soaked due to dew on bushes.
 
@@ -42,7 +42,7 @@ In 3 hours, the last gondola would go down and in 4 it would be dark. At that po
 
 For this I was fully prepared, with all the right gear, a fully charge phone, headlamp, waterproofs and plenty of time, even if the weather wasn't as great.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9778389866"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9778389866]
 
 I hit the 1635m spot I turned around on my second attempt in approx. 1h 30 mins, half the time of last time. I then had a long ridge to go along, which looked intimidating with an intimidating pointy mountain at the end. The weather started to close in, the occassional bit of rain and dramatic clouds coming in close. On one side of the meeting visibility was about 100m, ending at cliffs as clouds rose up. The other side of the mountain was clear.
 

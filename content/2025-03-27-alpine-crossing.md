@@ -11,13 +11,13 @@ Both of these are trails in the Tongariro National Park under the towering volca
 
 I was able to book a night in the campsite at the Mangatepopo Hut. So I started from Whakapapa Village, headed up to Taranki Falls and then over to the Mangatepopo Hut where I set up camp and spent the night. The hike to the falls was lovely, lots of beautiful forest and streams with a good waterfall. The rest of the Northern Circuit I found quite boring - Mt Ngauruhoe just got slowly closer as the rest of the scenery barely changed.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="13839389346" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#13839389346]
 
 At the time the website said "The section of track between Whakapapa Village and Mangatepopo Hut is not up to our usual Great Walk standards". The standard was much higher than any hike I've been on, except maybe Stanley Park. Certainly higher than the conditions of say, the West Coast Trail. My plantar fasciitis was the worse its been at the end of this day, I hobbled around the campsite.
 
 The next day I headed up to the Alpine Crossing and the hike went from nice to epic. I loaded up with some drugs and topical muscle relaxant and went for it. Unfortunately there is a road near the Mangatepopo Hut and at first light hordes of hikes were disgorged from buses and my quite hike turned into a bit of conga line for a while.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="13847643978" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#13847643978]
 
 The hike goes up a ridge of volcanic rock up to a crater and just starts to become amazing. The crater with volcanoes on either side is something to behold, then you climb up another ridge next to the red crater. And that's where the temperature started to drop rapidly and the wind picked up. Seriously windy. It was at the point where a slight change in direction and I'd feel the wind hit me and my backpack and almost knock me off me feet.
 

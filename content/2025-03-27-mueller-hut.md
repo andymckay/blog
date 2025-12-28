@@ -13,7 +13,7 @@ The trail is straight up. The first 500m is stairs snaking up the mountain. The 
 
 <img src="https://dgtzuqphqg23d.cloudfront.net/neIepIfScZ9mWrCRNDLVPfEJOIVZX5MTlPNKBbbAhd4-768x360.jpg" class="img-fluid" />
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="13753905724" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#13753905724]
 
 At the top you hit the ridge which goes around the "back" and up towards the hut. This is all big rocks and amazing views. It also was, very, very windy and the temperature dropped dramatically. Once you've gotten up to that its a view of mountains, glaciers and just amazing scenery.
 

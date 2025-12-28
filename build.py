@@ -14,23 +14,22 @@ from bs4 import BeautifulSoup
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
+from mdstrava import StravaExtension
 from stravalib import Client as StravaClient
 
+MD_EXTENSIONS = ["toc", "tables", StravaExtension()]
 
-
-
-json_path = os.path.join(".strava.json")
-with open(json_path, "r") as f:
+with open(".strava.json", "r", encoding="utf8") as f:
     token_refresh = json.load(f)
+
+with open("images.json", "r", encoding="utf8") as f:
+    images = json.load(f)
 
 client = StravaClient(
     access_token=token_refresh["access_token"],
     refresh_token=token_refresh["refresh_token"],
     token_expires=token_refresh["expires_at"],
 )
-
-with open("images.json", "r") as f:
-    images = json.load(f)
 
 
 class Content:
@@ -50,6 +49,7 @@ class Content:
 
     def __repr__(self):
         return self.filename
+
 
 class Post(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
@@ -82,7 +82,7 @@ class Post(Content):
         if self.filename in images:
             return images[self.filename]
 
-        print("Fetching Strava image for", self.filename)
+        print("ℹ️ Fetching Strava image for", self.filename)
         soup = BeautifulSoup(self.html, features="html.parser")
         url = None
         for embed in soup.find_all("div", class_="strava-embed-placeholder"):
@@ -132,7 +132,6 @@ def sort_posts(posts, pin=False):
     if pin:
         for post in posts[:]:
             if post.meta.get("pinned") == True:
-                print("Moving pinned post:", post, "to the top.")
                 posts.remove(post)
                 posts.insert(0, post)
     return posts
@@ -174,7 +173,6 @@ def get_content():
         templates[name] = env.get_template(f"{name}.html")
     templates["atom"] = env.get_template("atom.xml")
 
-    print("Building site...")
     categories = {}
     posts = []
     pages = []
@@ -183,8 +181,9 @@ def get_content():
     files = os.listdir("content")
 
     for filename in files:
+        full_path = os.path.join("content", filename)
         if filename.endswith(".md"):
-            with open(os.path.join("content", filename), "r") as f:
+            with open(full_path, "r") as f:
                 content = f.read()
                 isHeader = False
                 foundHeader = False
@@ -205,18 +204,20 @@ def get_content():
                 try:
                     meta = yaml.safe_load("\n".join(header))
                 except Exception as e:
-                    print(f"Error processing YAML in {filename}: {e}")
+                    print(f"🔴 Error processing YAML in {filename}: {e}")
                     continue
 
                 content = getContent(filename=filename, meta=meta)
 
                 try:
-                    md = markdown.Markdown(extensions=["toc", "tables"])
+                    md = markdown.Markdown(extensions=MD_EXTENSIONS)
                     content.body = "\n".join(body)
                     content.html = md.convert("\n".join(body))
                     content.toc = md.toc
+                    print("Converted", filename)
                 except Exception as e:
-                    print(f"Error processing Markdown in {filename}: {e}")
+                    print(f"🔴 Error processing Markdown in {filename}: {e}")
+                    raise
                     continue
 
         if not content.meta.get("categories"):
@@ -246,7 +247,9 @@ def filtered(categories):
     cats.remove("Gear")
     return cats
 
+
 def build():
+    start = time.time()
     posts, pages, categories = get_content()
     for content in posts:
         write(content.target_filename(), content.template, content=content)
@@ -283,7 +286,8 @@ def build():
             os.path.join("docs/static", filename),
         )
 
-    print("Build complete.")
+    end = time.time() - start
+    print("✅ Build complete in {0:.2f} seconds.".format(end))
 
 
 class Handler(FileSystemEventHandler):
@@ -294,7 +298,7 @@ class Handler(FileSystemEventHandler):
         elif event.is_directory:
             return
         else:
-            print("Event detected:", event.event_type, "on file:", event.src_path)
+            print("ℹ️ Event detected:", event.event_type, "on file:", event.src_path)
             build()
 
 
@@ -316,7 +320,7 @@ if __name__ == "__main__":
         for filename in os.listdir("docs"):
             if filename.endswith(".html"):
                 os.remove(os.path.join("docs", filename))
-        print("Cleaned docs directory.")
+        print("ℹ️ Cleaned docs directory.")
 
     if len(sys.argv) > 1 and sys.argv[1] == "--list-categories":
         posts, categories = get_content()
@@ -340,7 +344,7 @@ categories:
 Text goes here.
 """
             )
-        print("New post: content/" + filename, "created.")
+        print("🆕 New post: content/" + filename, "created.")
 
     if len(sys.argv) > 1 and sys.argv[1] == "--serve":
         Handler = http.server.SimpleHTTPRequestHandler
@@ -350,5 +354,7 @@ Text goes here.
         os.chdir("..")
 
     else:
-        print("Arguments: --watch, --clean, --list-categories, --new-post, --serve")
+        print(
+            "ℹ️ Arguments: --watch, --clean, --list-categories, --new-post, --serve, defaulting to build."
+        )
         build()

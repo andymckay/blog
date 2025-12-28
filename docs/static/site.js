@@ -8,4 +8,7 @@ window.addEventListener("load", (event) => {
             ride: 'carousel',
         });
     }
+    for (let el of document.getElementsByClassName("strava-explanation")) {
+        el.style.display = "none";
+    }
 });

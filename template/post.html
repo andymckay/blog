@@ -15,9 +15,8 @@
             <h2>{{ content.meta.title }}</h2>
             <p class="text-secondary">{{ content.nice_date() }}</p>
         </div>
-        <p class="my-3 ">
-            {{ content.html }}
-        </p>
+        <p class="my-3 "></p>
+        <div class="post">{{ content.html }}</div>
     </div>
     <div class="col-lg-4 px-4 p-4 mb-4">
         {% if content.strava_image_url() %}

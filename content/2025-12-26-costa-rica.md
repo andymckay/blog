@@ -54,7 +54,7 @@ But Costa Rica did give me another challenge, the heat (25c at 6am was common) a
 
 Lack of safe running places meant I ended up running on the beach at Manuel Antonio, and that was when it wrong and I badly pulled my <a href="https://en.wikipedia.org/wiki/Piriformis_muscle">piriformis muscle</a>:
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="16561934698" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#16561934698]
 
 But it was pretty.
 
@@ -62,7 +62,7 @@ But it was pretty.
 
 I would have ❤️ to have spent my time in Tamarindo surfing, it's a super friendly beach that's great to learn how to surf. However hopping up onto a board and balancing riding a wave was not going to work with my pulled piriformis. So I bought a little body board and played in the small waves. Amsuingly enough on Strava, it looks something like this:
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="16751311395" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#16751311395]
 
 ### Piriformis
 

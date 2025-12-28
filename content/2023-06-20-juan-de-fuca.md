@@ -27,7 +27,7 @@ The trail bus is the expensive part of the whole trip, if you've got more people
 * **Time:** 8h 08m
 * **Elevation:** 988m up 📈 and the same down 📉
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9229033558"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9229033558]
 
 Perhaps one of the more confusing naming schemes out there, but this was China beach to Chin beach. The trail bus dropped me off at around 8:30 and after a quick repack, I took off for the first campsite, 9km north along the trail. The weather was just great for this day, nice and sunny with a light breeze coming off the sea.
 
@@ -45,7 +45,7 @@ Every campsite has tent pads, which for people with hiking pole tents, like me, 
 * **Time:** 5h 07m
 * **Elevation:** 552 up 📈 and the same down 📉
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9229033403"></div>
+[strava#9229033403]
 
 On day two, I noticed that I'd overdone it on day one and I had a slow and sluggish start to the day, but was still able to press on and glad when I finished. This day was easier than yesterday, mostly. It still starts off tough with lots of up and down and then a reasonable sized (200m) hill.
 
@@ -59,7 +59,7 @@ The campsite is not a beach campsite, its up in the trees. Water access is close
 * **Time:** 5h 05m
 * **Elevation:** 481 up 📈 and the same down 📉
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9229038107"></div>
+[strava#9229038107]
 
 This is the easiest part of the trail, but is still lots of steep up and down. There were actually a few more flat bits on this one, which was nice. It turns out, that most people doing the trail aim for four days of hiking (I combined the first two days into one by going straight to Chin beach) so that meant I kept seeing the same people on the trail and campsites, which was nice.
 

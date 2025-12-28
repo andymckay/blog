@@ -31,7 +31,7 @@ Like last year we got to the Thrasher's junction and realised that we'd have to 
 
 So we did what I did last year and went straight on inland to Camper Bay.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741591"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9545741591]
 
 That's when it really started rain. Everything became muddy and slippy and it feels more like jungle parkour with 30lb backpacks on muddy slippy trails than I hike. We didn't see a single other person until Campers.
 
@@ -47,7 +47,7 @@ We heard there were 4 evacuations from Thrashers and 2 from Walbran - damaged an
 
 This day was super hard too, it rained on and off all the time we were hiking. It features lots of logs, broken boardwalks, mud and so many of the worst ladders.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741595"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9545741595]
 
 It's not all bad - it's also got the marsh which is a lovely part of the trail. It's flat and you get a nice view across the marsh. These last two days for me are so indicative of the trail, you really get into the rainforest and it's just wonderful. Many huge old growth trees.
 
@@ -59,7 +59,7 @@ Arriving at Walbran was wonderful, the sun had come through after 2 days of rain
 
 This was planned as an easier day. Most days we were up and moving by around 7:30am, so we'd aimed to be done after lunch and have a bit of a rest day to relax. It started off with a fog bank rolling in, which meant that we didn't get much of a view, but it was still beautiful.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741448"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9545741448]
 
 
 There's a small inland bit around Carmanah lighthouse, but most of this part of the trail is beach walking. Last year the lighthouses were closed, so I was glad to be able to go and checkout the lighthouse grounds. Unfortunately the view was just fog 😢
@@ -80,7 +80,7 @@ The spacing of where to camp on the West Coast Trail remains due to the lack of 
 
 The beaches in this section are gravel and they are hard to walk on. I've got no idea how to prepare for them, there's nothing like this on any other hike. Gravel is soft and slips, because the beach is sloped consistently one way, my left knee started to hurt more on this bit.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741560"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9545741560]
 
 Again, it was foggy, limiting the views. The drought was in evidence at the waterfall, which was much, much smaller than last year. The fog didn't really lift, just coming thicker. But hey, we got to walk through the sea arch.
 
@@ -92,7 +92,7 @@ Multiple whales hung around by the campsite.
 
 Another scenic section with forest sections and some of the more gravelly beaches.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741476"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9545741476]
 
 At this point, I felt that we were full on enjoying the trail, knowing that we'd pretty much completed the trail. We chatted to people who'd been moving at the same pace as us. The sun was strong, there was no fog and we ended up camping in the forest to avoid the heat.
 
@@ -106,7 +106,7 @@ Michigan has nice views back to the headlands along the trail. It looks like suc
 
 The last easy bit of the trail. We left early and ended up at Pachena early and had to just sit on the beautiful sandy beach in the sun for a couple of hours waiting for the bus to take us home. Camping at Michigan feels like you've done the trail, but ending up on Pachena beach really is the home coming.
 
-<div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9545741348"></div><script src="https://strava-embeds.com/embed.js"></script>
+[strava#9545741348]
 
 The highlight of this part of trail are the lighthouse and sea lion rock. We got a nice chance to chat to the lighthouse keeper. Sadly there were no sea lions on the rock, they'd all migrated somewhere else.
 
