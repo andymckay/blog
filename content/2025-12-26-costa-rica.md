@@ -3,7 +3,6 @@
 layout: post
 title: Costa Rica
 categories: Photos
-image: /files/IMG_3904.jpeg
 ---
 
 Recently I was in Costa Rica. I had hoped to do a bit of hiking there but that didn't happen for a few reasons. The places I was in didn't really have good hiking, trails were muddy and overgrown or were in the process of being developed. As I was figuring out a plan, I badly pulled a muscle in my left hip running on the beach. I didn't attempt to run or hike after that and spent the rest of the holiday in recovery.

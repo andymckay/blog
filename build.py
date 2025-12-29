@@ -16,6 +16,7 @@ from watchdog.events import FileSystemEventHandler
 
 from mdstrava import StravaExtension
 from stravalib import Client as StravaClient
+from stravalib import exc
 
 MD_EXTENSIONS = ["toc", "tables", StravaExtension()]
 
@@ -30,7 +31,6 @@ client = StravaClient(
     refresh_token=token_refresh["refresh_token"],
     token_expires=token_refresh["expires_at"],
 )
-
 
 class Content:
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
@@ -88,12 +88,18 @@ class Post(Content):
         for embed in soup.find_all("div", class_="strava-embed-placeholder"):
             if embed["data-embed-type"] == "activity":
                 strava_id = embed["data-embed-id"]
-                activity = client.get_activity(strava_id)
+                
+                try:
+                    activity = client.get_activity(strava_id)
+                except exc.AccessUnauthorized:
+                    print("❌ try running `source .strava` to get the Strava credentials.")
+                    raise
+
                 try:
                     url = activity.photos.primary.urls["600"]
                     break
                 except AttributeError as e:
-                    print(f"Error fetching Strava image for {strava_id}: {e}")
+                    print(f"❌ Error fetching Strava image for {strava_id}: {e}")
 
         images[self.filename] = url
         with open("images.json", "w") as f:
