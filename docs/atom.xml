@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-12-29T00:29:54.638027+00:00</updated>
+    <updated>2025-12-29T22:52:41.245845+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -18,23 +18,29 @@
 &lt;h3 id=&#34;photography&#34;&gt;Photography&lt;/h3&gt;
 &lt;p&gt;As a result, I did get to spend more time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I&#39;ve enjoyed, but I found wildlife photography especially fun. There&#39;s the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place. After all that, you &lt;em&gt;might get a great photo, you might not&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;We ended up with over 3,500 photographs and culled it down to 130 that we&#39;ll keep in our album. Here&#39;s some of my favourites, but there are so many more good ones:&lt;/p&gt;
-&lt;div id=&#34;carousel&#34; class=&#34;carousel slide col-md-12&#34;&gt;
+&lt;p&gt;&lt;div id=&#34;carousel&#34; class=&#34;carousel slide col-md-12&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
-        &lt;div class=&#34;carousel-item&#34;&gt;
+
+        &lt;div class=&#34;carousel-item active&#34;&gt;
             &lt;a href=&#34;/files/IMG_2079.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_2079.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
-        &lt;div class=&#34;carousel-item active&#34;&gt;
+
+        &lt;div class=&#34;carousel-item&#34;&gt;
             &lt;a href=&#34;/files/IMG_1877.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_1877.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
+
         &lt;div class=&#34;carousel-item&#34;&gt;
             &lt;a href=&#34;/files/IMG_4123.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_4123.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
+
         &lt;div class=&#34;carousel-item&#34;&gt;
             &lt;a href=&#34;/files/IMG_3904.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_3904.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
+
         &lt;div class=&#34;carousel-item&#34;&gt;
             &lt;a href=&#34;/files/IMG_4349.jpeg&#34;&gt;&lt;img src=&#34;/files/IMG_4349.jpeg&#34; class=&#34;d-block w-100 img-fluid&#34;&gt;&lt;/a&gt;
         &lt;/div&gt;
+
     &lt;/div&gt;
     &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;prev&#34;&gt;
         &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
@@ -45,8 +51,7 @@
         &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
     &lt;/button&gt;
 &lt;/div&gt;
-
-&lt;p&gt;This is a hobby that works with someone who loves hiking and spending his time outside, so expect to see more.&lt;/p&gt;
+This is a hobby that works with someone who loves hiking and spending his time outside, so expect to see more.&lt;/p&gt;
 &lt;h3 id=&#34;running-in-costa-rica&#34;&gt;Running in Costa Rica&lt;/h3&gt;
 &lt;p&gt;I did some running in Costa Rica, but it wasn&#39;t easy. We spent a few days in San Jose and struggled with vast number of cars, uneven sidewalks, and little safe pedestrian infrastructure. One morning to get my distance in, I ran at 4am and also found that red lights are pretty much optional it seems at that time. It&#39;s worth noting that a 4am run in San Jose is not a thing everyone can do with some degree of personal safety, I do recognize the white male privilege there.&lt;/p&gt;
 &lt;p&gt;Running in foreign cities can be fun, it&#39;s a great way just to explore and run at random, discover new places, and change up the routine. Unfortunately for me in Costa Rica I found safe places hard, so I ran &lt;a href=&#34;https://www.strava.com/activities/16474480379&#34;&gt;around and around the pedestrian area in downtown San Jose&lt;/a&gt;, or &lt;a href=&#34;https://www.strava.com/activities/16524064581&#34;&gt;a park&lt;/a&gt;.&lt;/p&gt;

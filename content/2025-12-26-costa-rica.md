@@ -13,33 +13,12 @@ As a result, I did get to spend more time taking photographs of the amazing wild
 
 We ended up with over 3,500 photographs and culled it down to 130 that we'll keep in our album. Here's some of my favourites, but there are so many more good ones:
 
-<div id="carousel" class="carousel slide col-md-12">
-    <div class="carousel-inner">
-        <div class="carousel-item">
-            <a href="/files/IMG_2079.jpeg"><img src="/files/IMG_2079.jpeg" class="d-block w-100 img-fluid"></a>
-        </div>
-        <div class="carousel-item active">
-            <a href="/files/IMG_1877.jpeg"><img src="/files/IMG_1877.jpeg" class="d-block w-100 img-fluid"></a>
-        </div>
-        <div class="carousel-item">
-            <a href="/files/IMG_4123.jpeg"><img src="/files/IMG_4123.jpeg" class="d-block w-100 img-fluid"></a>
-        </div>
-        <div class="carousel-item">
-            <a href="/files/IMG_3904.jpeg"><img src="/files/IMG_3904.jpeg" class="d-block w-100 img-fluid"></a>
-        </div>
-        <div class="carousel-item">
-            <a href="/files/IMG_4349.jpeg"><img src="/files/IMG_4349.jpeg" class="d-block w-100 img-fluid"></a>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+[carousel]
+    /files/IMG_2079.jpeg
+    /files/IMG_1877.jpeg
+    /files/IMG_4123.jpeg
+    /files/IMG_3904.jpeg
+    /files/IMG_4349.jpeg
 
 This is a hobby that works with someone who loves hiking and spending his time outside, so expect to see more.
 

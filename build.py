@@ -14,11 +14,11 @@ from bs4 import BeautifulSoup
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-from mdstrava import StravaExtension
+from mdstrava import StravaExtension, CarouselExtension
 from stravalib import Client as StravaClient
 from stravalib import exc
 
-MD_EXTENSIONS = ["toc", "tables", StravaExtension()]
+MD_EXTENSIONS = ["toc", "tables", StravaExtension(), CarouselExtension()]
 
 with open(".strava.json", "r", encoding="utf8") as f:
     token_refresh = json.load(f)
