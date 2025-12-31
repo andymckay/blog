@@ -34,7 +34,7 @@ def update_exif(exifdata):
             exifdata[key] = {
                 "lens": tags.get('Lens', tags.get('LensModel', 'Not recorded')),
                 "model": tags.get('Model'),
-                "iso": tags.get('ISO'),
+                "iso": tags.get('ISO', tags.get('ISOSpeed', 'Not recorded')),
                 "aperture": tags.get('Aperture'),
                 "shutter": tags.get('ShutterSpeed'),
                 "description": exifdata.get(key, {}).get("description", ""),
@@ -47,5 +47,4 @@ def update_exif(exifdata):
     return exifdata
 
 if __name__=='__main__':
-    exif = get_exif()
-    update_exif(exif)
+    get_exif()

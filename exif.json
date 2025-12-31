@@ -162,7 +162,7 @@
   "/files/inreach.jpeg": {
     "lens": "Not recorded",
     "model": null,
-    "iso": null,
+    "iso": "Not recorded",
     "aperture": null,
     "shutter": null,
     "description": ""
@@ -322,7 +322,7 @@
   "/files/fly-creek-ul1.jpg": {
     "lens": "Not recorded",
     "model": null,
-    "iso": null,
+    "iso": "Not recorded",
     "aperture": null,
     "shutter": null,
     "description": ""
@@ -458,7 +458,7 @@
   "/files/c+h.jpg": {
     "lens": "Not recorded",
     "model": null,
-    "iso": null,
+    "iso": "Not recorded",
     "aperture": null,
     "shutter": null,
     "description": ""
@@ -506,7 +506,7 @@
   "/files/4T9A0159.jpeg": {
     "lens": "RF200-800mm F6.3-9 IS USM",
     "model": "Canon EOS R7",
-    "iso": null,
+    "iso": 400,
     "aperture": 9.0,
     "shutter": "1/1250",
     "description": ""
@@ -514,7 +514,7 @@
   "/files/4T9A0088.jpeg": {
     "lens": "RF200-800mm F6.3-9 IS USM",
     "model": "Canon EOS R7",
-    "iso": null,
+    "iso": 6400,
     "aperture": 9.0,
     "shutter": "1/1250",
     "description": "Wood Duck"
@@ -530,7 +530,7 @@
   "/files/4T9A0215.jpeg": {
     "lens": "RF200-800mm F6.3-9 IS USM",
     "model": "Canon EOS R7",
-    "iso": null,
+    "iso": 800,
     "aperture": 9.0,
     "shutter": "1/1250",
     "description": "Varied Thrush"
@@ -538,7 +538,7 @@
   "/files/4T9A0106.jpeg": {
     "lens": "RF200-800mm F6.3-9 IS USM",
     "model": "Canon EOS R7",
-    "iso": null,
+    "iso": 6400,
     "aperture": 9.0,
     "shutter": "1/1250",
     "description": "Song Sparrow"
@@ -546,7 +546,7 @@
   "/files/4T9A0054.jpeg": {
     "lens": "RF200-800mm F6.3-9 IS USM",
     "model": "Canon EOS R7",
-    "iso": null,
+    "iso": 6400,
     "aperture": 9.0,
     "shutter": "1/640",
     "description": "Spotted Towhee"
@@ -554,7 +554,7 @@
   "/files/4T9A0149.jpeg": {
     "lens": "RF200-800mm F6.3-9 IS USM",
     "model": "Canon EOS R7",
-    "iso": null,
+    "iso": 640,
     "aperture": 9.0,
     "shutter": "1/1250",
     "description": "Bald Eagle in nest"
