@@ -32,13 +32,14 @@ def update_exif(exifdata):
             result = subprocess.run(["exiftool", "-j", full], capture_output=1, check=True)
             tags = json.loads(result.stdout)[0]
             exifdata[key] = {
-                "lens": tags.get('Lens'),
+                "lens": tags.get('Lens', tags.get('LensModel', 'Not recorded')),
                 "model": tags.get('Model'),
                 "iso": tags.get('ISO'),
                 "aperture": tags.get('Aperture'),
                 "shutter": tags.get('ShutterSpeed'),
                 "description": exifdata.get(key, {}).get("description", ""),
             }
+            print("✅ Updated:", key)
 
     with open("exif.json", "w", encoding="utf8") as f:
         json.dump(exifdata, f, indent=2)

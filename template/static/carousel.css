@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background: var(--bs-body-bg);
 }
 
 body p {
@@ -50,8 +50,8 @@ body p {
 }
 
 .carousel-caption {
-    background: black;
-    opacity: 30%;
+    background-color: var(--bs-primary-bg-subtle);
+    opacity: 50%;
     right: 0em;
     left: 0em;
     bottom: 0em;
@@ -68,4 +68,5 @@ body p {
 
 .carousel-caption p {
     margin-bottom: 0em;
+    color: var(--bs-primary-text-emphasis);
 }

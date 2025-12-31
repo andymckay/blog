@@ -1,12 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-12-31T03:57:41.459729+00:00</updated>
+    <updated>2025-12-31T04:32:42.910828+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Maplewood Flats</title>
+        <link href="https://mckay.pub/2025-12-30-maplewood.html"/>
+        <published>2025-12-30T00:00:00+00:00</published>
+        <id>https://mckay.pub/2025-12-30-maplewood.html</id>
+        <content type="html">
+            &lt;p&gt;The Wild Bird Trust of BC has a natural space in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our camers and caught more birds than I expected. Turns it out there were some nice, but common, birds there:&lt;/p&gt;
+&lt;p&gt;&lt;div id=&#34;carousel&#34; class=&#34;carousel slide col-md-12&#34;&gt;
+    &lt;div class=&#34;carousel-inner&#34;&gt;
+
+        &lt;div class=&#34;carousel-item active&#34;&gt;
+            &lt;img src=&#34;/files/IMG_6298.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Bald Eagle&lt;/b&gt;&lt;br /&gt;
+          Canon EOS 90D &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
+          ISO: 25600 &amp;bull; Aperture: 29.0 &amp;bull; Shutter speed: 1/8000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A0149.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Bald Eagle in nest&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: None &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A0088.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Wood Duck&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: None &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A0215.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Varied Thrush&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: None &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A0106.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Song Sparrow&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: None &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A0054.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Spotted Towhee&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: None &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/640
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;prev&#34;&gt;
+        &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;next&#34;&gt;
+        &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;a href=&#34;2025-12-30-maplewood-carousel.html&#34;&gt;View in full screen&lt;/a&gt; 🔎&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Costa Rica</title>
