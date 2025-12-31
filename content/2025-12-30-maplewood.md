@@ -5,7 +5,7 @@ categories: Photos, BC, Canada
 image: /files/4T9A0149.jpeg
 ---
 
-The Wild Bird Trust of BC has a space in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our cameras and was able to see more birds than we expected. Turns it out there were some nice, rather common, birds there:
+The Wild Bird Trust of BC has a conservation area in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our cameras and was able to see more birds than we expected. Turns it out there were some nice, rather common, birds there:
 
 [carousel]
     /files/IMG_6298.jpeg
