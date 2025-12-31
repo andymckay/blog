@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2025-12-31T01:35:30.096094+00:00</updated>
+    <updated>2025-12-31T01:51:18.130142+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -24,7 +24,7 @@
         &lt;div class=&#34;carousel-item active&#34;&gt;
             &lt;img src=&#34;/files/IMG_2079.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
             
-    &lt;div class=&#34;carousel-caption d-md-block fs-6&#34;&gt;
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
         &lt;p&gt;
           &lt;b&gt;Rufous-tailed Hummingbird&lt;/b&gt;&lt;br /&gt;
           Canon EOS Rebel T7 &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
@@ -37,7 +37,7 @@
         &lt;div class=&#34;carousel-item &#34;&gt;
             &lt;img src=&#34;/files/IMG_1877.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
             
-    &lt;div class=&#34;carousel-caption d-md-block fs-6&#34;&gt;
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
         &lt;p&gt;
           &lt;b&gt;&lt;/b&gt;&lt;br /&gt;
           Canon EOS Rebel T7 &amp;bull; Canon EF-S18-135mm f/3.5-5.6 IS USM&lt;br /&gt;
@@ -50,7 +50,7 @@
         &lt;div class=&#34;carousel-item &#34;&gt;
             &lt;img src=&#34;/files/IMG_4123.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
             
-    &lt;div class=&#34;carousel-caption d-md-block fs-6&#34;&gt;
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
         &lt;p&gt;
           &lt;b&gt;Frog spawn on a leaf&lt;/b&gt;&lt;br /&gt;
           Canon EOS 90D &amp;bull; Canon EF 50mm f/2.5 Macro&lt;br /&gt;
@@ -63,7 +63,7 @@
         &lt;div class=&#34;carousel-item &#34;&gt;
             &lt;img src=&#34;/files/IMG_3904.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
             
-    &lt;div class=&#34;carousel-caption d-md-block fs-6&#34;&gt;
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
         &lt;p&gt;
           &lt;b&gt;Caiman&lt;/b&gt;&lt;br /&gt;
           Canon EOS 90D &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
@@ -76,7 +76,7 @@
         &lt;div class=&#34;carousel-item &#34;&gt;
             &lt;img src=&#34;/files/IMG_4349.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
             
-    &lt;div class=&#34;carousel-caption d-md-block fs-6&#34;&gt;
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
         &lt;p&gt;
           &lt;b&gt;Howler Monkey&lt;/b&gt;&lt;br /&gt;
           Canon EOS 90D &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
