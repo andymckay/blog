@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Maplewood Flats
-categories: Photos
+categories: Photos, BC, Canada
 image: /files/4T9A0149.jpeg
 ---
 
