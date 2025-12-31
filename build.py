@@ -17,8 +17,9 @@ from watchdog.events import FileSystemEventHandler
 from mdstrava import StravaExtension, CarouselExtension
 from stravalib import Client as StravaClient
 from stravalib import exc
+from getexif import get_exif
 
-MD_EXTENSIONS = ["toc", "tables", StravaExtension(), CarouselExtension()]
+MD_EXTENSIONS = ["toc", "tables", StravaExtension(), CarouselExtension(exifdata=get_exif())]
 
 with open(".strava.json", "r", encoding="utf8") as f:
     token_refresh = json.load(f)
@@ -105,12 +106,15 @@ class Post(Content):
         with open("images.json", "w") as f:
             json.dump(images, f, indent=2)
 
+class Carousel(Content):
+    def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
+        super().__init__(filename, meta, body, html, toc, category)
+        self.template = "carousel"
 
 class Page(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
         super().__init__(filename, meta, body, html, toc, category)
         self.template = "page"
-
 
 class NotFound(Content):
     def __init__(self, filename="", meta=None, body="", html="", toc="", category=""):
@@ -123,6 +127,8 @@ def getContent(filename, meta):
         return Post(filename=filename, meta=meta)
     if meta["layout"] == "page":
         return Page(filename=filename, meta=meta)
+    if meta["layout"] == "carousel":
+        return Carousel(filename=filename, meta=meta)
     if meta["layout"] == "notfound":
         return NotFound(filename=filename, meta=meta)
 
@@ -175,13 +181,14 @@ def write(target, __template, **kwargs):
 
 
 def get_content():
-    for name in ["post", "category", "index", "page", "404"]:
+    for name in ["post", "category", "index", "page", "carousel", "404"]:
         templates[name] = env.get_template(f"{name}.html")
     templates["atom"] = env.get_template("atom.xml")
 
     categories = {}
     posts = []
     pages = []
+    carousels = []
 
     # Sort based on date in filename.
     files = os.listdir("content")
@@ -220,7 +227,6 @@ def get_content():
                     content.body = "\n".join(body)
                     content.html = md.convert("\n".join(body))
                     content.toc = md.toc
-                    print("Converted", filename)
                 except Exception as e:
                     print(f"🔴 Error processing Markdown in {filename}: {e}")
                     raise
@@ -240,10 +246,12 @@ def get_content():
         if isinstance(content, Post):
             if content.meta["title"]:
                 posts.append(content)
+        elif isinstance(content, Carousel):
+            carousels.append(content)
         else:
             pages.append(content)
 
-    return posts, pages, categories
+    return posts, pages, categories, carousels
 
 
 def filtered(categories):
@@ -256,11 +264,8 @@ def filtered(categories):
 
 def build():
     start = time.time()
-    posts, pages, categories = get_content()
-    for content in posts:
-        write(content.target_filename(), content.template, content=content)
-
-    for content in pages:
+    posts, pages, categories, carousels = get_content()
+    for content in [*posts, *pages, *carousels]:
         write(content.target_filename(), content.template, content=content)
 
     posts = sort_posts(posts)

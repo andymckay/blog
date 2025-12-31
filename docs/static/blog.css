@@ -107,3 +107,7 @@ table tr th {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+.carousel-caption {
+    display: none !important;
+}

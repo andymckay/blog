@@ -23,7 +23,6 @@ carousel_html_start = """
 """
 
 carousel_html_end = """
-    </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -32,19 +31,25 @@ carousel_html_end = """
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+    </div>
 </div>
 """
 
 carousel_html_element = """
-        <div class="carousel-item">
-            <a href="{url}"><img src="{url}" class="d-block w-100 img-fluid"></a>
+        <div class="carousel-item {active}">
+            <img src="{url}" class="d-block w-100">
+            {caption}
         </div>
 """
 
-carousel_html_element_active = """
-        <div class="carousel-item active">
-            <a href="{url}"><img src="{url}" class="d-block w-100 img-fluid"></a>
-        </div>
+carousel_caption = """
+    <div class="carousel-caption d-none d-md-block fs-6">
+        <p>
+          <b>{description}</b><br />
+          {model} &bull; {lens}<br />
+          ISO: {iso} &bull; Aperture: {aperture} &bull; Shutter speed: {shutter}
+        </p>
+    </div>
 """
 
 class StravaExtension(Extension):
@@ -65,13 +70,21 @@ class StravaProcessor(InlineProcessor):
         return el, match.start(0), match.end(0)
 
 class CarouselExtension(Extension):
-    def extendMarkdown(self, md):
-        md.preprocessors.register(CarouselProcessor(md), "carousel", 25)
+    def __init__(self, *args, **kw):
+        self.exifdata = kw.pop("exifdata")
+        super().__init__(*args, **kw)
 
-carousel_start = re.compile("^\[carousel\]")
+    def extendMarkdown(self, md):
+        md.preprocessors.register(CarouselProcessor(md, exifdata=self.exifdata), "carousel", 25)
+
+carousel_start = re.compile(r"^\[carousel\]")
 
 class CarouselProcessor(Preprocessor):
-                            
+    
+    def __init__(self, *args, **kw):
+        self.exifdata = kw.pop("exifdata")
+        super().__init__(*args, **kw)
+
     def run(self, lines):
         in_carousel = False
         imgs = []
@@ -85,10 +98,9 @@ class CarouselProcessor(Preprocessor):
                     html = carousel_html_start
                     for (k, img) in enumerate(imgs):
                         if (img.strip()):
-                            if not(k):
-                                html += carousel_html_element_active.format(url=img)
-                            else:
-                                html += carousel_html_element.format(url=img)
+                            exif = self.exifdata.get(img.strip(), {})
+                            caption = carousel_caption.format(**exif)
+                            html += carousel_html_element.format(url=img, active="active" if not k else "", caption=caption)
                     html += carousel_html_end
                     placeholder = self.md.htmlStash.store(html.strip())
                     output.append(placeholder)
@@ -100,4 +112,5 @@ class CarouselProcessor(Preprocessor):
 
             else:
                 output.append(line)
+        
         return output
