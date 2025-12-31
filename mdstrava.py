@@ -43,7 +43,7 @@ carousel_html_element = """
 """
 
 carousel_caption = """
-    <div class="carousel-caption d-none d-md-block fs-6">
+    <div class="carousel-caption d-md-block fs-6">
         <p>
           <b>{description}</b><br />
           {model} &bull; {lens}<br />
