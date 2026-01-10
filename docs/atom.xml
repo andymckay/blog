@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-01-09T15:53:36.314910+00:00</updated>
+    <updated>2026-01-10T05:01:27.262964+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Organic Maps</title>
+        <link href="https://mckay.pub/2026-01-09-post.html"/>
+        <published>2026-01-09T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-01-09-post.html</id>
+        <content type="html">
+            &lt;p&gt;Traditional mapping apps like Apple Maps and Google Maps aren&#39;t great for backpacking. The biggest problem is that there is an assumption that you are always online with a valid network connection. &lt;/p&gt;
+&lt;p&gt;Google provides a great download option, but it can be finnicky because Google Maps wants to be online - even if the map is downloaded each and every time you open the app. I&#39;ve also had difficulty with the actual trails matching the information in the app. &lt;/p&gt;
+&lt;p&gt;Enter &lt;a href=&#34;https://organicmaps.app/&#34;&gt;Organic Maps&lt;/a&gt;. This app does a bunch of things right, is free, &lt;a href=&#34;https://github.com/organicmaps/organicmaps&#34;&gt;open source&lt;/a&gt; with over 6 million users. &lt;/p&gt;
+&lt;h3 id=&#34;offline-by-default&#34;&gt;Offline by default&lt;/h3&gt;
+&lt;p&gt;When Organic Maps looks for a map in an area, it just automatically downloads the map and saves it offline. From then on, you&#39;ve got the map available locally, it&#39;s fast with no network traffic. This means that once you&#39;ve used it in area, you&#39;ve got it &lt;em&gt;available offline&lt;/em&gt;. As an example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I opened the app when I was in Costa Rica at the hotel.&lt;/li&gt;
+&lt;li&gt;It &lt;em&gt;downloaded all of Costa Rica&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;I was set for the whole holiday. That&#39;s it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As they say &#34;...supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network&#34;&lt;/p&gt;
+&lt;p&gt;Unlike Google Maps, routing works for &lt;em&gt;walking&lt;/em&gt; when offline.&lt;/p&gt;
+&lt;h3 id=&#34;open-street-maps&#34;&gt;Open Street Maps&lt;/h3&gt;
+&lt;p&gt;By using &lt;a href=&#34;https://www.openstreetmap.org/about&#34;&gt;OpenStreetMap&lt;/a&gt; you are using a map that&#39;s open source and been built up the contributors, including partners. There are no big US corporations holding the data. The maps are of extremely high quality and contain all the trails and routes and I&#39;ve needed so far. Something wrong? You can change it.&lt;/p&gt;
+&lt;h3 id=&#34;no-data-collection-no-ads-no-tracking&#34;&gt;No data collection, no ads, no tracking&lt;/h3&gt;
+&lt;p&gt;There are no ads. There&#39;s no tracking of the user. There&#39;s no data collection at all. There is no data being sent to servers in the US.&lt;/p&gt;
+&lt;p&gt;For example Google and Apple are constantly &lt;a href=&#34;https://myactivity.google.com/product/maps?hl=en&#34;&gt;collecting all that information&lt;/a&gt; and sending it to their servers in the US (that&#39;s &lt;a href=&#34;https://electronics.howstuffworks.com/how-does-google-maps-predict-traffic.htm&#34;&gt;where traffic information comes from&lt;/a&gt;). &lt;/p&gt;
+&lt;p&gt;Given the political climate in the US, &lt;em&gt;constantly sending your location to the US might be something you&#39;d like to avoid.&lt;/em&gt; &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;And that&#39;s it, Organic Maps has become the default app for mapping for me with just a &lt;em&gt;couple of notable exceptions&lt;/em&gt;:
+* When I need to navigate a route including public transit in a new area or,
+* When I need to find a nearby restaurant, or other business, and want to see the reviews and ratings.&lt;/p&gt;
+&lt;p&gt;But if you are backpacking, driving, or navigating a new city or region? Go straight to Organic Maps, your network and battery will both thank you.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Maplewood Flats</title>
@@ -244,35 +276,25 @@
         <published>2025-10-28T00:00:00+00:00</published>
         <id>https://mckay.pub/2025-10-28-strava.html</id>
         <content type="html">
-            &lt;div class=&#34;alert alert-warning&#34;&gt;🚨 Due to ongoing threats from the US, I&#39;m not going to store personal data anywhere in the US anymore. So I&#39;m deleting my Strava account after 8 years.&lt;/div&gt;
+            &lt;div class=&#34;alert alert-warning&#34;&gt;🚨 Due to ongoing threats from the US, I&#39;m not going to store personal data anywhere in the US anymore. So I&#39;m deleting my Strava account after 8 years. This post doesn&#39;t make quite as much sense as a result, because I will no longer link to Strava.&lt;/div&gt;
 
 &lt;p&gt;As you may have noticed, I use &lt;a href=&#34;https://www.strava.com/&#34;&gt;Strava&lt;/a&gt;, a lot. I&#39;ve been on Strava since 2014 and have saved over 3,300 activities there. A lot of my friends use Strava and I find it an excellent discovery tool for finding places to hike. But with hiking there comes a real problem - Strava highlights the &lt;em&gt;moving time&lt;/em&gt;, not the &lt;em&gt;elapsed time&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;When I&#39;m &lt;strong&gt;running&lt;/strong&gt;, I&#39;m moving (mostly). There will be times when moving and elapsed time vary, as the run gets interrupted. But usually the two times are close. It makes sense that Strava should default to showing moving time for running 👍&lt;/p&gt;
 &lt;p&gt;When I&#39;m &lt;strong&gt;hiking&lt;/strong&gt;, I am likely moving. But I might be having a break, enjoying the view. I might be going up or down an extremely steep section that involves a lot of vertical movement, but little horizontal movement. The elapsed and moving times have large disparities. Strava shows the moving time for hiking and that&#39;s a problem 👎&lt;/p&gt;
-&lt;p&gt;This &lt;a href=&#34;https://www.strava.com/activities/11890867390&#34;&gt;hike is on the Howe Sound Crest Trail&lt;/a&gt;, I did a lot of moving. Elapsed time is &lt;strong&gt;5 hours&lt;/strong&gt; larger than the moving time. I can assure you, I did not spend 5 hours sitting down. I did &lt;em&gt;a lot&lt;/em&gt; of walking.&lt;/p&gt;
+&lt;p&gt;This &lt;a href=&#34;https://www.outdooractive.com/en/track/hike-track-at-july-14-2024/332885394/#caml=8hk,-kdjjkf,86ckc9,0,0&#34;&gt;hike is on the Howe Sound Crest Trail&lt;/a&gt;, I did a lot of moving. Elapsed time is &lt;strong&gt;5 hours&lt;/strong&gt; larger than the moving time. I can assure you, I did not spend 5 hours sitting down. I did &lt;em&gt;a lot&lt;/em&gt; of walking.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/files/elapsed-time.png&#34; class=&#34;img-fluid&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Or &lt;a href=&#34;https://www.strava.com/activities/15562126545/overview&#34;&gt;this one&lt;/a&gt;, elapsed time is again &lt;strong&gt;5 hours&lt;/strong&gt; larger than the moving time. Again, I did not spend 5 hours sitting down sipping cocktails. But if you look at &lt;a href=&#34;https://mckay.pub/2025-09-03-golden-ears.html&#34;&gt;the blog post&lt;/a&gt;, Strava highlights the moving time in the embedded frame.&lt;/p&gt;
+&lt;p&gt;In another example, I found the elapsed time is again &lt;strong&gt;5 hours&lt;/strong&gt; larger than the moving time. Again, I did not spend 5 hours sitting down sipping cocktails. But if you look at &lt;a href=&#34;https://mckay.pub/2025-09-03-golden-ears.html&#34;&gt;the blog post&lt;/a&gt;, Strava highlights the moving time in the embedded frame.&lt;/p&gt;
 &lt;h3 id=&#34;why-is-this-important&#34;&gt;Why is this important?&lt;/h3&gt;
 &lt;p&gt;Hiking is, for many, a sport of exploration. Perhaps you haven&#39;t hiked the trail before. You might not be sure how long you&#39;ll be, how difficult the terrain is and so on.&lt;/p&gt;
 &lt;p&gt;There&#39;s a reason why search and rescue crews like &lt;a href=&#34;https://www.northshorerescue.com/&#34;&gt;North Shore Rescue&lt;/a&gt; are busy. People underestimate how long it will take to hike something. When you underestimate the time - badly - bad things can happen. You can get caught when the weather changes. You can find yourself in darkness. Perhaps you end up tired, cold, running out of food and water. This is the sort of thing that leads to rescues being needed.&lt;/p&gt;
-&lt;p&gt;I&#39;ve made this mistake too. In 2020, my friend and I were deciding what hike to do the next day and we saw that a good friend of ours had just done Coliseum Mountain in about 5 hours. Knowing our friend and their level of fitness, we felt we had a good chance to do it in 6 hours. At &lt;a href=&#34;https://www.strava.com/activities/3989340157&#34;&gt;9 hours&lt;/a&gt; (elapsed time) my watch died, it was well over 10 hours for the entire hike.&lt;/p&gt;
-&lt;p&gt;
-&lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;3989340157&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/3989340157&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/p&gt;
+&lt;p&gt;I&#39;ve made this mistake too. In 2020, my friend and I were deciding what hike to do the next day and we saw that a good friend of ours had just done Coliseum Mountain in about 5 hours. Knowing our friend and their level of fitness, we felt we had a good chance to do it in 6 hours. At 9 hours (elapsed time) my watch died, it was well over 10 hours for the entire hike.&lt;/p&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.outdooractive.com/en/embed/332885394/js?mw=false&#34;&gt;&lt;/script&gt;
+
 &lt;p&gt;The problem? We had looked at moving time not elapsed time and the moving time was hugely underrated. We made it back safely. However we ran out of water and food. We were absolutely physically wiped and tired. Our emergency contacts were starting to worry. We were under prepared, but because we&#39;d started early in the day - we made it out safely.&lt;/p&gt;
 &lt;p&gt;Not everyone is so lucky.&lt;/p&gt;
 &lt;h3 id=&#34;use-multiple-sources&#34;&gt;Use multiple sources&lt;/h3&gt;
 &lt;p&gt;Of course the mistake was ours. We didn&#39;t research it properly, we just used one source. On All Trails &lt;a href=&#34;https://www.alltrails.com/trail/canada/british-columbia/coliseum-mountain&#34;&gt;Coliseum Mountain&lt;/a&gt; is more correctly listed as a 8.5 - 9.5 hour hike. If we&#39;d used more than one source, we&#39;d have been more prepared.&lt;/p&gt;
-&lt;p&gt;Strava is a useful source because it contains data on particular people and how they did on a hike. When you see a generic number on a hike &#34;it takes 5 hours&#34; who is that time based on? Is it an inflated number to impart the difficulties of the hike? Is it a number based on a slower person than me? As an example Mueller Hutwebsite states it takes &lt;a href=&#34;https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/mueller-hut-route/&#34;&gt;4 hours one way&lt;/a&gt;. I completed both ways in &lt;a href=&#34;https://www.strava.com/activities/13753905724/overview&#34;&gt;4 hours 45 minues&lt;/a&gt;, a significant difference.&lt;/p&gt;
+&lt;p&gt;Strava is a useful source because it contains data on particular people and how they did on a hike. When you see a generic number on a hike &#34;it takes 5 hours&#34; who is that time based on? Is it an inflated number to impart the difficulties of the hike? Is it a number based on a slower person than me? As an example Mueller Hutwebsite states it takes &lt;a href=&#34;https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/tracks/mueller-hut-route/&#34;&gt;4 hours one way&lt;/a&gt;. I completed both ways in 4 hours 45 minues, a significant difference.&lt;/p&gt;
 &lt;p&gt;Being able to correctly correlate the time a hike might take for you, by comparing to a person you know is really useful. But you&#39;ve got to be really careful and Strava doesn&#39;t make it easy. On mobile the &lt;em&gt;elapsed time&lt;/em&gt; is about 4 scrolls down from the &lt;em&gt;moving time&lt;/em&gt; and is hard to spot.&lt;/p&gt;
 &lt;h3 id=&#34;what-could-strava-do&#34;&gt;What could Strava do?&lt;/h3&gt;
 &lt;p&gt;But Strava could make a simple change. If the sport is hiking and there is a large disparity between elapsed and moving times, highlight the elapsed time first. Or put in a notice or some sort of warning for that activity. Strava already does similar changes to the time if you mark a run as a &lt;em&gt;race&lt;/em&gt;.&lt;/p&gt;
