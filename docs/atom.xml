@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-01-10T05:01:27.262964+00:00</updated>
+    <updated>2026-01-10T05:04:57.354797+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -22,20 +22,22 @@
 &lt;ul&gt;
 &lt;li&gt;I opened the app when I was in Costa Rica at the hotel.&lt;/li&gt;
 &lt;li&gt;It &lt;em&gt;downloaded all of Costa Rica&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;I was set for the whole holiday. That&#39;s it.&lt;/li&gt;
+&lt;li&gt;That&#39;s it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As they say &#34;...supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network&#34;&lt;/p&gt;
+&lt;p&gt;As they say &#34;...[it] supports 100% of features without an active Internet connection. Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any byte sent to the network&#34;&lt;/p&gt;
 &lt;p&gt;Unlike Google Maps, routing works for &lt;em&gt;walking&lt;/em&gt; when offline.&lt;/p&gt;
 &lt;h3 id=&#34;open-street-maps&#34;&gt;Open Street Maps&lt;/h3&gt;
 &lt;p&gt;By using &lt;a href=&#34;https://www.openstreetmap.org/about&#34;&gt;OpenStreetMap&lt;/a&gt; you are using a map that&#39;s open source and been built up the contributors, including partners. There are no big US corporations holding the data. The maps are of extremely high quality and contain all the trails and routes and I&#39;ve needed so far. Something wrong? You can change it.&lt;/p&gt;
 &lt;h3 id=&#34;no-data-collection-no-ads-no-tracking&#34;&gt;No data collection, no ads, no tracking&lt;/h3&gt;
 &lt;p&gt;There are no ads. There&#39;s no tracking of the user. There&#39;s no data collection at all. There is no data being sent to servers in the US.&lt;/p&gt;
 &lt;p&gt;For example Google and Apple are constantly &lt;a href=&#34;https://myactivity.google.com/product/maps?hl=en&#34;&gt;collecting all that information&lt;/a&gt; and sending it to their servers in the US (that&#39;s &lt;a href=&#34;https://electronics.howstuffworks.com/how-does-google-maps-predict-traffic.htm&#34;&gt;where traffic information comes from&lt;/a&gt;). &lt;/p&gt;
-&lt;p&gt;Given the political climate in the US, &lt;em&gt;constantly sending your location to the US might be something you&#39;d like to avoid.&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;Given the political climate in the US, &lt;em&gt;constantly sending your location to US companies on servers in the US, might be something you&#39;d like to avoid.&lt;/em&gt; &lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;And that&#39;s it, Organic Maps has become the default app for mapping for me with just a &lt;em&gt;couple of notable exceptions&lt;/em&gt;:
-* When I need to navigate a route including public transit in a new area or,
-* When I need to find a nearby restaurant, or other business, and want to see the reviews and ratings.&lt;/p&gt;
+&lt;p&gt;And that&#39;s it, Organic Maps has become the default app for mapping for me with just a &lt;em&gt;couple of notable exceptions&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When I need to navigate a route including public transit in a new area or,&lt;/li&gt;
+&lt;li&gt;When I need to find a nearby restaurant, or other business, and want to see the reviews and ratings.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;But if you are backpacking, driving, or navigating a new city or region? Go straight to Organic Maps, your network and battery will both thank you.&lt;/p&gt;
         </content>
     </entry>
