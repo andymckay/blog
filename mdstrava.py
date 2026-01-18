@@ -99,7 +99,10 @@ class CarouselProcessor(Preprocessor):
                     for (k, img) in enumerate(imgs):
                         if (img.strip()):
                             exif = self.exifdata.get(img.strip(), {})
-                            caption = carousel_caption.format(**exif)
+                            if exif:
+                                caption = carousel_caption.format(**exif)
+                            else:
+                                caption = ""    
                             html += carousel_html_element.format(url=img, active="active" if not k else "", caption=caption)
                     html += carousel_html_end
                     placeholder = self.md.htmlStash.store(html.strip())

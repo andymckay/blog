@@ -1,0 +1,17 @@
+{
+    "activity_id": "13839389346",
+    "elapsed_time_seconds": 12816,
+    "moving_time_seconds": 11304,
+    "distance_meters": 12851.0,
+    "photos": [
+        "47812769-8d02-4cc5-a5e2-c47e8a519fdd",
+        "3eca307a-b284-496f-aec9-56d0a63ef0eb",
+        "02689029-72fa-492d-a219-71225aa550c4",
+        "5e9596fe-2f2c-4ccc-b934-15335a1c8ccc",
+        "f2bbe177-77ec-4103-b8a7-b930a398be24"
+    ],
+    "max_height": 1209.0,
+    "min_height": 1072.0,
+    "elevation_gain": 488.0,
+    "elevation_loss": 415.0
+}

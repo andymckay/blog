@@ -1,0 +1,22 @@
+{
+    "activity_id": "7138008275",
+    "elapsed_time_seconds": 25168,
+    "moving_time_seconds": 18592,
+    "distance_meters": 87036.4,
+    "photos": [
+        "8FA401E9-068E-4974-822F-B71D85494487",
+        "DD379F63-6519-4B7C-813E-1F0B126E3EA2",
+        "F7FC39A3-A64D-4D08-944C-279671E53B5A",
+        "8017A2D6-0A89-46A2-881E-24CC05F69D68",
+        "6838ED3E-476D-4B37-9869-C63CACE8EBDD",
+        "A285435D-E17D-4BB3-892D-2369C3AAAC9D",
+        "A10AC1BB-D481-4BAD-975D-7C6A1FCA2784",
+        "E0889E8C-88A1-4C27-B859-9CDBA15FDFF5",
+        "8996D9E8-49DA-470C-931D-50DBB5CC773F",
+        "8DD9B047-5A73-4FFE-B2C5-73C842983903"
+    ],
+    "max_height": 945.0,
+    "min_height": 19.0,
+    "elevation_gain": 1716.0,
+    "elevation_loss": 1705.0
+}
