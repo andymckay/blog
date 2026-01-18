@@ -3,22 +3,50 @@ from markdown import Extension
 from markdown.inlinepatterns import InlineProcessor
 from markdown.preprocessors import Preprocessor
 import re
+import json
+import os
 
-strava_re = r"\[(?P<prefix>strava#)(?P<activity_number>\d+)\]"
+gpx_re = r"\[(?P<prefix>gpx#)(?P<activity_number>\d+)\]"
 
-strava_html = """
-<div class="strava-embed-placeholder" 
-       data-embed-type="activity" 
-       data-embed-id="{activity_number}" 
-       data-style="standard" 
-       data-from-embed="false">
-   </div>
-<script src="https://strava-embeds.com/embed.js"></script>
-<p class="strava-explanation"><a href="https://www.strava.com/activities/{activity_number}">View on Strava here.</a></p>
+description_html = """
+<div class="gpx">
+    <div class="row align-items-start">
+        <div class="col">
+            <h5>Distance</h5>
+            <p>{distance} km</p>
+        </div>
+        <div class="col">
+            <h5>Time</h5>
+            <p>{elapsed}</p>
+        </div>
+        <div class="col">
+            <h5>Elevation</h5>
+            <p><span title="Elevation gain">📈 {elevation_gain} m</span></p>
+        </div>
+    </div>
 """
 
+activity_html = """
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/files/gpx/{activity_id}/route.png" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            {photo}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="/files/gpx/{activity_id}/elevation.png" class="img-fluid" />
+        </div>
+    </div>
+"""
+
+gpx_end = """
+</div>"""
+
 carousel_html_start = """
-<div id="carousel" class="carousel slide col-md-12">
+<div class="carousel slide col-md-12">
     <div class="carousel-inner">
 """
 
@@ -52,19 +80,38 @@ carousel_caption = """
     </div>
 """
 
-class StravaExtension(Extension):
+class GPXExtension(Extension):
     def extendMarkdown(self, md):
-        strava_tag = StravaProcessor(strava_re, md)
-        md.inlinePatterns.register(strava_tag, "strava", 175)
+        gpx_tag = GPXProcessor(gpx_re, md)
+        md.inlinePatterns.register(gpx_tag, "gpx", 175)
 
 
-class StravaProcessor(InlineProcessor):
+def update_activity(activity):
+    activity['elapsed'] = f"{activity['elapsed_time_seconds'] // 3600}h {(activity['elapsed_time_seconds'] % 3600) // 60}m"
+    activity['moving'] = f"{activity['moving_time_seconds'] // 3600}h {(activity['moving_time_seconds'] % 3600) // 60}m"
+    activity['distance'] = f"{activity['distance_meters'] / 1000:.2f}"
+
+class GPXProcessor(InlineProcessor):
     def handleMatch(
         self, match: re.Match[str], data: str
     ) -> tuple[etree.Element | str, int, int]:
         activity_number = match.group("activity_number")
 
-        html = strava_html.format(activity_number=activity_number)
+        if not os.path.exists(f"docs/files/gpx/{activity_number}"):
+            raise ValueError(f"GPX for activity {activity_number} not found")
+        
+        activity = json.load(open(f"docs/files/gpx/{activity_number}/activity.json", "r", encoding="utf8"))
+        update_activity(activity)
+        html = description_html.format(**activity)
+        if not activity["photos"]:
+            print(f"No photos for activity {activity_number}")
+            photo = ""
+        else:
+            photo = activity["photos"][0]
+            photo = f'<img src="/files/gpx/{activity_number}/{photo}.jpg" class="img-fluid photo" />'
+        html += activity_html.format(**activity, photo=photo)
+        html += gpx_end
+
         el = etree.Element("div")
         el.text = self.md.htmlStash.store(html)
         return el, match.start(0), match.end(0)

@@ -15,7 +15,7 @@ For this trip I planned on camping, so went with full gear.
 
 Let's warm up for the Fondo by doing a 120km ride. 
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7218875101'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7218875101]
 
 It turns out this route is pretty straightforward, avoiding the highway is still a struggle and there's still choke points where you have to go on the highway north of Cedar, around Ladysmith and near the turn off to Lake Cowichan. At this point I did not know about the <a href="https://www.cvrd.ca/121/Cowichan-Valley-Trail">Cowichan Valley Trail</a> which goes from Duncan to Lake Cowichan (and more), if you go this way look it up to avoid roads.
 
@@ -23,7 +23,7 @@ It turns out this route is pretty straightforward, avoiding the highway is still
 
 Turns out it's not 100+km, but actually 91km. The route was published on the Friday night and listed over 1760m of elevation, but it was only 1084m. 
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7224179380'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7224179380]
 
 It was an out and back along the south side of Lake Cowichan. Started off with a bit of road, then wide logging roads and undulating hills. At 40km there was a loop and an insane hill that was really steep. I now have 38-42 gearing and was struggling up it. When I saw people walking at the same speed I was grinding, I eventually swallowed my pride and walked up the last bit. The slope down was even steeper.
 
@@ -31,7 +31,7 @@ It's a small event that was fun. I didn't focus on trying to do amazing, just ha
 
 I was able to ditch all my gear at the start so didn't have to lug it around. After a pub lunch with a friend, I went to my campsite and promptly got lost on the way there. So ended up over 118km.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7229659808'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7229659808]
 
 Once I got to the campsite, it was lovely.
 
@@ -57,7 +57,7 @@ I decided to turn back to Lake Cowichan. Oh but on the way, my tubeless tyre spr
 
 After and 7 hours and 102km 1,259m elevation I got back to a cheap hotel - I needed a hot shower and couldn't face another 20km+ to the campsite.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7229660119'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7229660119]
 
 Sitting in the warm pub, absolutely wiped and very, very sore I realised I'd missed a turning. That turning would have lead me along a contour line, to the top of a valley and down most of the rest of the way. If I'd carried on going I would have just ended up at top of a mountain.
 
@@ -67,7 +67,7 @@ Lesson learned, research and get good maps for when you go off on logging roads.
 
 Y'know, following roads and trails that are well established. I did give up at Park Royal and my wife met me, I was wiped. It was still a 115km day so I averaged 100km+ each day and some decent elevation. This is a higher average distance each day than my previous 2 trips and I felt it in many ways.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7235049728'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7235049728]
 
 Highlight was that I found the <a href="https://www.cvrd.ca/121/Cowichan-Valley-Trail">Cowichan Valley Trail</a> which goes from Lake Cowichan straight into Duncan on a old train line. It's fast easy and delightful 25km+ of trail that I'd recommend to anyone going that way. I was able to stop in Duncan and pick up some tubes from a local bike shop and then work my way up the coast.
 

@@ -17,7 +17,7 @@ We went there in <a href="/2022-06-25-stein-valley.html">June last year</a>.
 * **Time:** 3h 35m
 * **Elevation:** 303m
 
-[strava#9109569545]
+[gpx#9109569545]
 
 The downside of going at this time of year is that the spring melt is in full swing. The quick rapid rise in temperature caused a lot of melt and once again we had to take the pipeline bridge across into the valley.
 
@@ -27,7 +27,7 @@ Again we camped at Devils Staircase campground, again with no-one else there. La
 
 ### Day two: Devils Staircase to the Suspension bridge
 
-[strava#9116469041]
+[gpx#9116469041]
 
 * **Distance:** 19.58km
 * **Time:** 7h 38m
@@ -51,7 +51,7 @@ We returned back to the Devils Staircase campground and found we were joined by 
 
 ### Day three: Leaving the Stein
 
-[strava#9120298291]
+[gpx#9120298291]
 
 * **Distance:** 7.94km
 * **Time:** 2h 19m

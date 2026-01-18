@@ -22,7 +22,7 @@ Organizing, car rental, fuel and food stock up - that sort of thing.
 
 Our first hike was in Joshua Tree from the Blackrock campground. A 13km hike up over two small peaks, this was mostly our just breaking in hike.
 
-[strava#10380978341]
+[gpx#10380978341]
 
 It was a good hike with some nice views, but not too serious elevation. It turns out there wasn't too much else from this campsite. So we moved on the next day to the park "for reals" and Ryan campground.
 
@@ -37,7 +37,7 @@ It was cold overnight.
 
 After moving to our next campsite, Ryan Campground we did some hiking <a href="https://www.nps.gov/thingstodo/hike-lost-horse-mine.htm">around a mine or something</a>.
 
-[strava#10380978261]
+[gpx#10380978261]
 
 There were horses. This was a nicer hike deeper into the desert with more Joshua Trees (which aren't trees). Hiking out along a dry river bed (deep sand) was ugh. Was starting to get the vibes that the desert is pretty same same at this point. 
 
@@ -51,11 +51,11 @@ Was getting colder overnight, I was feeling it, but still doing ok.
 
 We didn't move campsites so were able two really good hikes in. First was a short hike <a href="https://www.nps.gov/jotr/learn/nature/barker-dam-loop.htm">around a dam</a>, although empty at the moment causes a distinct change in the flora and fauna, plus cool rocks and so on. Was pretty cool actually and our favourite hike to date.
 
-[strava#10380978219]
+[gpx#10380978219]
 
 We then had the time to do another hike and this was really good too. Had some hiking, decent elevation, abandoned mines, great rocks, some cool cacti and so on. Enjoyed this one too:
 
-[strava#10380978276]
+[gpx#10380978276]
 
 This night was really cold. I didn't look at a thermometer, but I really felt it this time, having cold legs. Woke up to ice covering the tent. That was enough of that.
 
@@ -67,7 +67,7 @@ We gave up on going to Mojave desert as we felt we'd seen the desert now, althou
 
 We took the gondola up to San Jacinto up to about 2,500m. Then we walked from there to the peak of the mountain at 3,300m over 6.5 hours.
 
-[strava#10386775996]
+[gpx#10386775996]
 
 This is so different to the desert, the heat and the fauna. It's much drier but with tall trees everywhere and absolutely stunning views out to the Pacific at the end, this was absolutely worth it and just made the whole trip worthwhile.
 

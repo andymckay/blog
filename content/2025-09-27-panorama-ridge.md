@@ -12,7 +12,7 @@ You will need day passes, or <a href="https://bcparks.ca/garibaldi-park/">campin
 
 ### Day 1: Chekamus 👉 Helm Creek
 
-[strava#15684874430]
+[gpx#15684874430]
 
 There are two main ways into this area, via Helm Creek (from the north) or via Taylor Meadows (from the south). The Helm Creek route is the furthest and comes in from Cheakamus Lake. It's not a technical trail and is an easy surface to hike on. In 8km it has almost 800m of elevation, but most of that comes in the last 6km of the hike. It starts off with steep switchbacks, but calms down after a while.
 
@@ -22,7 +22,7 @@ That night a helicopter and crew came into to take out someone who had accidenta
 
 ### Day 2: Garibaldi Day 2: Helm Creek 👉 Panorama Ridge
 
-[strava#15684943622]
+[gpx#15684943622]
 
 I left my tent and gear at Helm Creek and moved the essentials into a smaller day bag. This was a pretty common approach, some people took their tent down and just put their backpack up the bear cache. It meant a light pack to tackle Panorama Ridge. The hike up towards the trail intersection is easy going. As you approach there are big flat areas of lacva rock, right underneath Black Tusk. It reminded me of volcanoes in New Zealand and was something I hadn't really experienced in BC.
 
@@ -38,7 +38,7 @@ Mountain lakes swum in: 2️⃣
 
 ### Day 3: Helm Creek 👉 Cheakamus
 
-[strava#15684943044]
+[gpx#15684943044]
 
 This is a pretty straightforward hike out, due to it being downhill pretty much all the way, it passed really quickly. I enjoyed the sun rising and the sunlight coming in through the trees as I made my way down. It only took 1h 46m for me to get back to the car. Then it was drive out on the 8km of unpaved road to Function Junction feeling pretty happy and satisfied. This would be a nice opportunity to divert over to Cheakamus Lake if you fancied another mountain lake swim.
 

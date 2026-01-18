@@ -558,5 +558,13 @@
     "aperture": 9.0,
     "shutter": "1/1250",
     "description": "Bald Eagle in nest"
+  },
+  "/files/elbows-up.jpg": {
+    "lens": "Not recorded",
+    "model": null,
+    "iso": "Not recorded",
+    "aperture": null,
+    "shutter": null,
+    "description": ""
   }
 }

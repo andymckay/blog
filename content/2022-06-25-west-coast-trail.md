@@ -46,7 +46,7 @@ On the other side of the river you are faced with a vertical ladder to scale. Th
 
 It took me 2 and a bit hours to get to the junction to Thrashers. I was hiking at my usual comfortable speed I was doing in North Vancouver and overtaking people who started on the 8am ferry. It felt comfortable for me.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7362981527'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7362981527]
 
 At this point I would end up at Thrashers at 1pm ish and have an entire day to wait for tides to go around the coast. And I'd have to wait in the morning for the tides again. That would get me to Campers on day 2. I'm not good at waiting around and the boulder field and only part of the map marked "Very dangerous" didn't appeal. Plus, I really wanted to ensure I finished on schedule... the day after the West Coast Trail is my daughters graduation, I promised not to miss it.
 
@@ -65,7 +65,7 @@ Anyway I took the cable car across and camped at Camper Bay for the night. Met a
 
 When the sun rose, I staggered out of bed, made my tea and oats and packed up. First one out on the trail up north. For this day there were multiple places I could camp, it was more about where I wanted to finish.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7362981573'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7362981573]
 
 The section out of Camper Bay continued the trend of being broken boardwalks, mud, bog, ladders, rivers, bridges, ladders, more ladders, mud and so on. Did I mention mud? There's a lot of that. When you get to Walbran Creek, it mud comes to and end you was able to exit from the forest onto the beach for the first time.
 
@@ -93,7 +93,7 @@ Tsusiat Falls is one of the most popular camping sites on the West Coast Trail. 
 
 I headed out with some damp gear, but nothing too bad from last night heading. Cribbs was really close to Bonilla and I went through there at 9:30am, so I wasn't going to stop there. This was pretty much all on the beach and easy hiking as the sun started to work it's way through.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7362981605'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7362981605]
 
 The trail alternated with little bits inland and the beach before inland towards Nitinaht. I was feeling pretty good here still and powering along quite happily. Views were getting better and the trails were improving.
 
@@ -120,7 +120,7 @@ The rest of hike to Tsusiat was uneventful, but getting even more pretty includi
 
 Again, the number of campsites is limited, Michigan Creek is the last formal campsite. Darling River campsite is closed due to bear activity, so Michigan seemed like the best bet.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7362981453'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7362981453]
 
 This is a combination of beach and trail up on the cliffs. Probably one of the most scenic sections with views down to the rocks and bluffs and beaches. Some serious ladders and a bit of mud, but overall the trail is really good at this point. 
 
@@ -144,7 +144,7 @@ Later that night someone found the camera next to their tent. Yay 😃
 
 As you can probably tell the times are getting shorter and shorter for similar distances. The differences in the trail, the quality of the infrastructure and the quality of the trail is like night and day. If the first day is a hike on the hardest North shore trail, this is a walk on Stanley Park. It's mostly in great condition.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7362971051'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7362971051]
 
 There was another bear sighting, which ran off quickly once it spotted me. Sea lion rock is awesome and is a few rocks full of sea lions. Was as advertised.
 

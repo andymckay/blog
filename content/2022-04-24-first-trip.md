@@ -13,7 +13,7 @@ To get to the start of this ride is a multi-day ride. This was an ambitious choi
 
 ### Day 1: Deep cove to Sechelt
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/6999072231/embed/310cc95eacba23cadd6e7b516255b681f8e049b5'></iframe>
+[gpx#6999072231]
 
 A good ride to the Horseshoe bay ferry. Was nice to see friends on the way. Waiting at the ferry for two hours really cooled me down though 😢
 
@@ -27,7 +27,7 @@ I also put my food in a dry bag up a tree, because they've removed all bear proo
 
 ### Day 2: Sechelt to Comox
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7004944540/embed/3458e9256de0f65fa111ca292a8dde7612e8e9c5'></iframe>
+[gpx#7004944540]
 
 **Note:** missing from Strava is the first 10km that I forgot to record from the campsite.
 
@@ -45,7 +45,7 @@ It was at this point I made a decision to spend a night in Comox at a hotel and 
 
 ### Day 3: Comox to Parksville
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7009588975/embed/a5d7e73a0f16fdb94184a4c64000b80528449490'></iframe>
+[gpx#7009588975]
 
 So instead of north, I aimed south and made plans with a friend to stay on Salt Spring island on the way back. Cape Scott and northern Vancouver island will still be there for another time.
 
@@ -53,7 +53,7 @@ This was a wonderful day, great riding in the sun on the quiet coastal road. The
 
 That trail was fun, but also got into some pretty narrow and steep singletrack that I wasn't ready for on my heavily loaded bike, I had to walk a bunch of it. Then got to the top and found that the <a href="https://bcparks.ca/explore/parkpgs/englishman_rv/">campground was closed</a>. Normally that would be fine, but the water was turned off and it was a long walk to purify some. It was also an extremely mosquito infested campground.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7010049726/embed/1e3b9a2da4660ec3bb670f52b7541087b481edb1'></iframe>
+[gpx#7010049726]
 
 So I cycled back down to Parksville and stayed at the <a href="https://bcparks.ca/explore/parkpgs/rathtrevor/">absolutely amazing Rathtrevor Beach</a> campsite. It was so much better and glad I got the ride up the trails and then stayed at an amazing campsite.
 
@@ -63,7 +63,7 @@ At this point after 60km, 90km and 110km days... I was glad I was not heading to
 
 ### Day 4: Parksville to Salt Spring
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7015146276/embed/cbd203b7c1be7748c0e8a0a7a9b25fa34bcec25e'></iframe>
+[gpx#7015146276]
 
 Another lovely day with sun, getting cloudier towards the end, but little rain. This route had its nice bits and it's ugly parts. 
 
@@ -77,7 +77,7 @@ At Salt Spring I was greeted by my friend and looked forward to some good chats,
 
 ### Day 5: Salt Spring to Deep Cove
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7019686713/embed/e71beedf61e735a8243e9ec58cb035d28871a110'></iframe>
+[gpx#7019686713]
 
 **Note:** missing from Strava is the first 11+km that I tried to record, but didn't. Hey it was 5:00am in the dark.
 

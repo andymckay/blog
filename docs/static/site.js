@@ -1,6 +1,6 @@
 window.addEventListener("load", (event) => {
-    const carouselElement = document.getElementById("carousel");
-    if (carouselElement) {
+    const carouselElements = document.getElementsByClassName("carousel");
+    for (let carouselElement of carouselElements) {
         const carousel = new bootstrap.Carousel(carouselElement, {
             interval: 5000,
             wrap: true,
@@ -8,10 +8,6 @@ window.addEventListener("load", (event) => {
             keyboard: true,
             ride: 'carousel',
         });
-    }
-
-    for (let el of document.getElementsByClassName("strava-explanation")) {
-        el.style.display = "none";
     }
 });
 

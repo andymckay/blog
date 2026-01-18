@@ -14,7 +14,7 @@ Was originally aiming for Runner Peak, but decided that wasn't happening today. 
 
 There are still small patches of snow in parts, but everything is now hikeable and its only parts that get a lot of shade that have snow. No spikes needed.
 
-[strava#11856984669]
+[gpx#11856984669]
 
 Really disappointed to be having to pick up garbage on Pump Peak, including plastic water bottles, ziploc baggies and instant noodle packets.
 

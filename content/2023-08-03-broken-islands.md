@@ -25,7 +25,7 @@ The advertised <a href="https://www.reuters.com/legal/tesla-faces-california-cla
 
 At the lodge we rented a canoe to go with our two kayaks. Of note, the lodge now has a tap for you to fill up on water. It's the last drinkable water available.
 
-[strava#9675459494]
+[gpx#9675459494]
 
 Hand is one of the closest campsites and has some fantastic sandy beaches, with warm water. Hand used to have a homestead on it, run by Annie McKay in the early 1900's that used to supply the whaling station at Uclelet.
 
@@ -35,7 +35,7 @@ With talk of gale force winds closing in the afternoon, we focused on getting mo
 
 So we headed out to Clarke, thinking that we might just have to abandon on a beach somewhere. We didn't and the gale force winds (gusts up to 80km/h was forecast) never materialized.
 
-[strava#9675459711]
+[gpx#9675459711]
 
 I did get us a little lost, always pays to double check your maps at regular intervals, was still a decent paddle.
 
@@ -43,7 +43,7 @@ I did get us a little lost, always pays to double check your maps at regular int
 
 This was a rest day, with a trip to Benson island, a short hike and so on.
 
-[strava#9681782216]
+[gpx#9681782216]
 
 Let's talk about water for a moment. The <a href="https://parks.canada.ca/pn-np/bc/pacificrim/activ/camping/activ4">parks site</a> recommends: "Potable water is not available on the islands. Bring an adequate amount of freshwater with you. We recommend 4-6 litres per person, per day." 
 
@@ -55,11 +55,11 @@ We took well over 64 liters of water and ending up throwing over 50% of it away.
 
 All the paddling was memorable, but this day was really good. Gentle rolling waves were coming in, and we spent our time near rocks and seaweed as the waves rolled in. We saw many seals, fish and so much wildlife. Was a real west coast treat.
 
-[strava#9688896835]
+[gpx#9688896835]
 
 We stopped at Dodd and found the beach is really hard to camp at, there's no campsites near the toilet, everything is shade and on a cloudy day pretty much sucked. So although we had "reserved" Dodd, we just went on to Hand.
 
-[strava#9688896798]
+[gpx#9688896798]
 
 Because we had to be at the lodge at 9:15am the next morning, being closer to the lodge, made life a little easier the next day too.
 
@@ -67,7 +67,7 @@ Because we had to be at the lodge at 9:15am the next morning, being closer to th
 
 Early start and back to the lodge and reverse the process we had on the way out, oh and dump a pile of water.
 
-[strava#9693372968]
+[gpx#9693372968]
 
 We were able to get the Highway 4 point by the 1pm opening of the road, meaning we were able to get to the ferry in time for a late afternoon ferry.
 

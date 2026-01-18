@@ -17,7 +17,7 @@ The entry to the Stein means going through Lytton and seeing first hand the deva
 
 To get to the Stein you can take the <a href="https://www2.gov.bc.ca/gov/content/transportation/passenger-travel/water-travel/inland-ferries/lytton-reaction-ferry">reaction ferry</a> across the river. Except because of flooding and high snow melt, the ferry was closed. The ramp to get onto the ferry was flooded.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7293015309'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7293015309]
 
 There are two choices left; the rail bridge to the south of Lytton and then an 8km hike up to the park trailhead or the suspension bridge and a ~2km hike. We went for the latter. It looks like this and with a 30km+ wind howling up the Fraser it made an interesting crossing while carrying a large backpack.
 
@@ -35,7 +35,7 @@ It was seriously steep, seriously sketchy and with a very large penalty if you s
 
 So at that point, we headed back, packed up and reluctantly headed out of the Stein Valley and found a gin and tonic instead.
 
-<div class='strava-embed-placeholder' data-embed-type='activity' data-embed-id='7293015342'></div><script src='https://strava-embeds.com/embed.js'></script>
+[gpx#7293015342]
 
 As it turns out in almost 30c heat, hiking up hills with 40lb+ backpacks and crossing the suspension bridge of doom was enough to wipe us out. Getting back to the car, we definitely felt like we'd done a good hike and we enjoyed our gin and tonic.
 

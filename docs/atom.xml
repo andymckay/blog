@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-01-18T14:54:00.772653+00:00</updated>
+    <updated>2026-01-18T20:33:33.205950+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Ditching Strava</title>
+        <link href="https://mckay.pub/2026-01-18-ditching-strava.html"/>
+        <published>2026-01-18T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-01-18-ditching-strava.html</id>
+        <content type="html">
+            &lt;p&gt;As part of the slow, but ongoing, effort to remove US companies out of my life, I&#39;ve decided to remove Strava out of my life. This was not an easy decision, I&#39;ve used Strava for 8 years and used it &lt;em&gt;a lot&lt;/em&gt;. I&#39;ll miss seeing what my friends do on Strava and many other things. However &lt;em&gt;uploading so much personal data about my activities to a US company with data on US servers at this point in 2026 is no longer acceptable&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Strava served a few functions for me, so I&#39;ll go through what I&#39;ve done to get off of Strava and what I&#39;m missing below 👇&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;I rarely use Strava for recording insted it comes from my watch or my cycling computer. I don&#39;t use my cycling computer much anymore but unfortunately its a &lt;a href=&#34;https://en.wikipedia.org/wiki/Wahoo_Fitness&#34;&gt;Wahoo&lt;/a&gt; and they are a US company. The main device I use multiple times a day is my watch and that&#39;s from &lt;a href=&#34;https://en.wikipedia.org/wiki/COROS_Wearables_Inc&#34;&gt;Coros&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Coros parent company is Chinese with its head office in California. So at this point I&#39;ve got no guarantees that my data is going to either China or the US. Also having a legal entity in the US is a problem. At this point, I trust China more than I do the US. I guess that&#39;s because China hasn&#39;t threatened Canada&#39;s sovereignty repeatedly or threatened us with &#34;taking us over&#34;. Coros being under the influence of the US is a problem, but one step at a time.&lt;/p&gt;
+&lt;h3 id=&#34;analysis&#34;&gt;Analysis&lt;/h3&gt;
+&lt;p&gt;I used Strava to look at my activities and analyse the data. So I&#39;m using &lt;a href=&#34;https://intervals.icu&#34;&gt;intervals.icu&lt;/a&gt; for that (hat tip to &lt;a href=&#34;https://pnw.zone/@felix/115833363579937530&#34;&gt;@felix&lt;/a&gt;). Intervals.icu is a London company, and their servers are in Germany. Germany has probably some of the highest data protection and privacy laws around (at least that I know about). It&#39;s supported by donation of 10 EUR every 3 months 👍. &lt;/p&gt;
+&lt;p&gt;It imported all my data directly from Strava and I can now go and compare my new runs with my old runs. Activities import straight from Coros, so there&#39;s nothing for me to do there:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/files/intervals-icu.png&#34; class=&#34;img-fluid&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;blog&#34;&gt;Blog&lt;/h3&gt;
+&lt;p&gt;In the past after uploading an activity to Strava, if I wrote a blog post about it I&#39;d share it here so that it appears nicely in the post. I tried checking out other services but I couldn&#39;t find one I really liked - but honourable mentions to &lt;a href=&#34;https://www.komoot.com/&#34;&gt;Komoot&lt;/a&gt; (in the EU) and &lt;a href=&#34;https://outdooractive.com&#34;&gt;Outdoor Active&lt;/a&gt; (in the EU).&lt;/p&gt;
+&lt;p&gt;Strava provided a great download of my data, with all 3,457 activities along with photos, routes and so on. More detail on &lt;a href=&#34;https://support.strava.com/hc/en-us/articles/216918437-Exporting-your-Data-and-Bulk-Export&#34;&gt;that is here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Armed with the &lt;code&gt;.gpx&lt;/code&gt; files, I tried to figure out how to convert 117 Strava embeds into a new site embed. Only to find many problems around correlating all the data and the IDs. The Strava export is the raw data, then you have to call it&#39;s API to match up other bits of data. Then the other services have patchy APIs that don&#39;t really the job either. I spent way too long on this part and instead just decided to build it all.&lt;/p&gt;
+&lt;p&gt;So instead I:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;parsed the markdown files looking for Strava IDs&lt;/li&gt;
+&lt;li&gt;grabbed some key data from the Strava API and put into a &lt;code&gt;.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;grabbed the &lt;code&gt;.gpx&lt;/code&gt; file from Strava (that&#39;s not in the export or the API, instead the original upload file is present)&lt;/li&gt;
+&lt;li&gt;grab the photos out of the export (it&#39;s not in the API)&lt;/li&gt;
+&lt;li&gt;generate open street map image of the route using Mapbox&lt;/li&gt;
+&lt;li&gt;generate an elevation image of the route&lt;/li&gt;
+&lt;li&gt;convert the Markdown file to use a new Markdown extension&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So given a &lt;code&gt;.gpx&lt;/code&gt; I can generate a similar amount of information that any of these services can generate. You can see an example here: &lt;a href=&#34;/2025-10-06-skyline.html&#34;&gt;Skyline&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&#39;s rather janky at this moment, making it look good is going to take some time and cleaning, but it&#39;s a start. All the data and generation is now under my control, with all the advantages and disadvantages that brings, but I&#39;m going to keep those &lt;code&gt;.gpx&lt;/code&gt; files backed up locally from now on, so I can easily move between services. It also means that readers of this blog aren&#39;t making web requests to Strava, so helping their privacy a teeny tiny bit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I&#39;m making the decision to be open about &lt;em&gt;some&lt;/em&gt; activities and show them on the blog. But I&#39;m not sharing widely the activities I do &lt;em&gt;every day&lt;/em&gt;. There&#39;s an important difference between &lt;em&gt;sharing everything&lt;/em&gt; and having the &lt;em&gt;autonomy to share an activity of my choice&lt;/em&gt; on the blog.&lt;/p&gt;
+&lt;h3 id=&#34;whats-lost&#34;&gt;What&#39;s lost&lt;/h3&gt;
+&lt;p&gt;Connections with friends and seeing what they do. Spying with envy on pro athletes. Segments and easy comparisons of old runs. But credit to Strava for providing an excellent download. I haven&#39;t found a great substitute for these yet and I&#39;m not sure I want to look for an alternative at this point.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I realise this is all seems rather futile, there&#39;s lots more places where my data goes to the US or US companies. But one step at a time and I&#39;ll get there.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Organic Maps</title>
@@ -49,7 +88,7 @@
         <id>https://mckay.pub/2025-12-30-maplewood.html</id>
         <content type="html">
             &lt;p&gt;The Wild Bird Trust of BC has a conservation area in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our cameras and was able to see more birds than we expected. Turns it out there were some nice, rather common, birds there:&lt;/p&gt;
-&lt;p&gt;&lt;div id=&#34;carousel&#34; class=&#34;carousel slide col-md-12&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;carousel slide col-md-12&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
 
         &lt;div class=&#34;carousel-item active&#34;&gt;
@@ -154,7 +193,7 @@
 &lt;h3 id=&#34;photography&#34;&gt;Photography&lt;/h3&gt;
 &lt;p&gt;As a result, I did get to spend more time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I&#39;ve enjoyed, but I found wildlife photography especially fun. There&#39;s the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place. After all that, you &lt;em&gt;might get a great photo, you might not&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;We ended up with over 3,500 photographs and culled it down to 130 that we&#39;ll keep in our album. Here&#39;s some of my favourites, but there are so many more good ones:&lt;/p&gt;
-&lt;div id=&#34;carousel&#34; class=&#34;carousel slide col-md-12&#34;&gt;
+&lt;div class=&#34;carousel slide col-md-12&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
 
         &lt;div class=&#34;carousel-item active&#34;&gt;
@@ -242,30 +281,74 @@
 &lt;p&gt;Lack of safe running places meant I ended up running on the beach at Manuel Antonio, and that was when it wrong and I badly pulled my &lt;a href=&#34;https://en.wikipedia.org/wiki/Piriformis_muscle&#34;&gt;piriformis muscle&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;16561934698&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/16561934698&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;8.05 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;0h 58m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 26.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/16561934698/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/16561934698/A497B730-109F-498E-9808-03631064156F.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/16561934698/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;But it was pretty.&lt;/p&gt;
 &lt;h3 id=&#34;surfing-at-tamarindo&#34;&gt;Surfing at Tamarindo&lt;/h3&gt;
 &lt;p&gt;I would have ❤️ to have spent my time in Tamarindo surfing, it&#39;s a super friendly beach that&#39;s great to learn how to surf. However hopping up onto a board and balancing riding a wave was not going to work with my pulled piriformis. So I bought a little body board and played in the small waves. Amsuingly enough on Strava, it looks something like this:&lt;/p&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;16751311395&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/16751311395&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;0.80 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;1h 30m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 12.2 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/16751311395/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/16751311395/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;piriformis&#34;&gt;Piriformis&lt;/h3&gt;
 &lt;p&gt;Thanks to some help from an &lt;a href=&#34;https://epione.janeapp.com/&#34;&gt;awesome RMT&lt;/a&gt; and &lt;a href=&#34;https://nssm.ca/&#34;&gt;physio&lt;/a&gt;, my muscle seems so much better and I&#39;m back to running and hiking. Fingers crossed for the next big set of hikes coming up, starting in February 2026 🤞.&lt;/p&gt;
@@ -318,15 +401,37 @@
 &lt;h3 id=&#34;day-1-highway-helmet-falls&#34;&gt;Day 1: Highway 👉 Helmet Falls&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15857340650&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15857340650&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;14.77 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;4h 21m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 682.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340650/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340650/E11ADD6C-4FDC-479A-8408-BF83A98B17B7.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340650/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;We started out at the Paint Pots car park and went in towards Helmet Falls. The trail gains over 570m as you head up towards Helmet Falls. Past Paint Pots, the trail goes up by a creek and is quite a lovely trail.&lt;/p&gt;
 &lt;p&gt;The payoff occurs in the last km or so as you approach the campsite. To the west of the campsite is a huge wall of rock (not the rock wall) with a waterfall coming over the middle of it. It&#39;s an amazing spot as you feel like you are surrounded by a huge rock wall, it wraps around more than 180 degrees of the campsite.&lt;/p&gt;
@@ -334,15 +439,37 @@
 &lt;h3 id=&#34;day-2-helmet-falls-numa-creek&#34;&gt;Day 2: Helmet Falls 👉 Numa Creek&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15857340804&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15857340804&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;20.77 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;7h 9m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 1222.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340804/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340804/4B2F5CAD-BA81-493B-BAC9-54A0BCFB2BCC.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340804/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;The next day we climb up away from Helmet Falls and across the west side of the Rockwall. The Rockwall is just as described, a huge wall of rock that juts out to the west, looking out over meadows, larches and lakes. Multiple times I thought of &lt;a href=&#34;https://duckduckgo.com/?t=ffab&amp;q=game+of+thrones+the+wall&amp;ia=images&amp;iax=images&#34;&gt;The Wall in the Game of Thrones&lt;/a&gt;, just nicer.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/files/IMG_3055.jpeg&#34; class=&#34;img-fluid&#34;&gt;&lt;/p&gt;
@@ -352,15 +479,37 @@
 &lt;h3 id=&#34;day-3-numa-creek-floe-lake&#34;&gt;Day 3: Numa Creek 👉 Floe Lake&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15857340589&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15857340589&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;9.89 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;3h 24m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 857.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340589/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340589/380954FA-D82D-4C6E-8B64-1646706EE059.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340589/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;This was a pretty short day, with a consistent climb up to Numa pass. The pass marks the highest elevation on the trail, at ~2,335m and gives you an amazing view back along the valley the way you came. &lt;/p&gt;
 &lt;p&gt;Floe Lake is probably one of the most beautiful spots I&#39;ve camped at. Right by the lake with huge mountains looming above. Floe Lake is used as a day hike from the highway, so it did get a little busy around lunchtime, but those groups soon left.&lt;/p&gt;
@@ -369,15 +518,37 @@
 &lt;h3 id=&#34;day-3-floe-lake-highway&#34;&gt;Day 3: Floe Lake 👉 Highway&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15857340513&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15857340513&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;10.37 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;2h 38m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 191.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340513/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340513/CC05BEDE-FEA8-483C-A897-C2AC68892923.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15857340513/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Sunrise on Floe Lake was just spectacular in the morning, just stunning. The sun came up from the west, peeked over the mountain and for about 15 minutes cast an amazing orange glow across Floe mountain. A campsite with a great sunrise makes me so happy.&lt;/p&gt;
 &lt;p&gt;Heading out of Floe Lake to the highway is pretty much straight downhill and at 10k represents a reasonably easy way out of the Rockwall hike.&lt;/p&gt;
@@ -493,15 +664,37 @@
 &lt;h3 id=&#34;day-1-maligne-lake-snowbowl&#34;&gt;Day 1: Maligne Lake 👉 Snowbowl&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15788401032&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15788401032&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;12.36 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;2h 56m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 641.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401032/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401032/BF82F6F3-5158-4ED4-8C10-2905007ECF6C.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401032/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;I started out heading out from Maligne Lake and the trail goes uphill for 12.36km up to the Snowbowl campsite. You&#39;ll pass two other campsites on the way, but both of those are so close to Maligne Lake trailhead that I didn&#39;t want to stop there. Snowbowl campsite is one of the most popular campsites as a result. The climb up is pretty relentless until you pass Little Shovel campsite and crest Little Shovel Pass.&lt;/p&gt;
 &lt;p&gt;The result is that you are hiking in forest and shade most of the way. Around Little Shovel Pass, you get some nice views as the trees thin out.&lt;/p&gt;
@@ -510,15 +703,37 @@
 &lt;h3 id=&#34;day-2-snowbowl-tekarra&#34;&gt;Day 2: Snowbowl 👉 Tekarra&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15788401364&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15788401364&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;19.43 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;5h 17m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 834.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401364/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401364/BAD1E254-7B99-48FA-B0F8-4115E419526D.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401364/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Day 1 was nice, but didn&#39;t feel too epic - but day 2 definitely delivered. The trail keeps climbing between the mountains until you hit Big Shovel Pass and thats where it gets good. Amazing views of down into the valley, lakes and soaring peaks on either side as you walk through a barren rocky landscape. Again this gave me New Zealand vibes similar to the &lt;a href=&#34;https://mckay.pub/2025-03-27-alpine-crossing.html&#34;&gt;Alpine Crossing&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Then it&#39;s up to the main ridge at 2,500m called The Notch. The climb up is on a bit of a scree slope, but I never felt exposed or worried and didn&#39;t have any problem. At the top you get an amazing view back where you came (see picture 👇) and also out across the valley. Sadly at that time there was smoke and haze in the distance which obscured the mountains in the distance.&lt;/p&gt;
@@ -530,15 +745,37 @@
 &lt;h3 id=&#34;day-3-tekarra-signal&#34;&gt;Day 3: Tekarra 👉 Signal&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15788401454&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15788401454&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;14.38 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;3h 2m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 186.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401454/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401454/72961539-0826-46E1-BB0F-D5728BCB937C.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15788401454/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;This hike is mostly downhill down past the Signal campsite and down to the car park near to Jasper. The first 4km is quite nice as you stay at over 2,000m and enjoy lovely views and trees. Then 8km from the end you hit a logging road. From then on it&#39;s a consistent downhill on the logging road. Sadly all the trees for the last 8km were burnt in the forest fire, so it&#39;s a slightly depressing hike down.&lt;/p&gt;
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
@@ -4605,15 +4842,37 @@
 &lt;h3 id=&#34;day-1-chekamus-helm-creek&#34;&gt;Day 1: Chekamus 👉 Helm Creek&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15684874430&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15684874430&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;8.15 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;2h 13m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 785.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684874430/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684874430/AB876E75-9FB4-46CE-894D-F050458DD86A.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684874430/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;There are two main ways into this area, via Helm Creek (from the north) or via Taylor Meadows (from the south). The Helm Creek route is the furthest and comes in from Cheakamus Lake. It&#39;s not a technical trail and is an easy surface to hike on. In 8km it has almost 800m of elevation, but most of that comes in the last 6km of the hike. It starts off with steep switchbacks, but calms down after a while.&lt;/p&gt;
 &lt;p&gt;Helm Creek has bear caches, a couple of toilets and lots of tent pads spread out across the campsite. With Black Tusk visible from the campsite, it&#39;s a lovely spot.&lt;/p&gt;
@@ -4621,15 +4880,37 @@
 &lt;h3 id=&#34;day-2-garibaldi-day-2-helm-creek-panorama-ridge&#34;&gt;Day 2: Garibaldi Day 2: Helm Creek 👉 Panorama Ridge&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15684943622&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15684943622&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;15.70 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;5h 56m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 827.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684943622/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684943622/644AC542-D048-43DE-8844-83F59120F6E4.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684943622/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;I left my tent and gear at Helm Creek and moved the essentials into a smaller day bag. This was a pretty common approach, some people took their tent down and just put their backpack up the bear cache. It meant a light pack to tackle Panorama Ridge. The hike up towards the trail intersection is easy going. As you approach there are big flat areas of lacva rock, right underneath Black Tusk. It reminded me of volcanoes in New Zealand and was something I hadn&#39;t really experienced in BC.&lt;/p&gt;
 &lt;p&gt;The paths up to Black Tusk and the one up to Panorama Ridge are near each other. From that point it&#39;s 400m climb up a ridge and on to the top. I never felt exposed or nervous, the trail was pretty wide and felt good. There was one small part as it worked its way to the very top, but that was short lived and wasn&#39;t a problem for someone like me who is not keen on large drops or exposure. The top is absolutely stunning and had absolutely amazing views. I can see why its popular.&lt;/p&gt;
@@ -4640,15 +4921,37 @@
 &lt;h3 id=&#34;day-3-helm-creek-cheakamus&#34;&gt;Day 3: Helm Creek 👉 Cheakamus&lt;/h3&gt;
 &lt;p&gt;
 &lt;div&gt;
-&lt;div class=&#34;strava-embed-placeholder&#34; 
-       data-embed-type=&#34;activity&#34; 
-       data-embed-id=&#34;15684943044&#34; 
-       data-style=&#34;standard&#34; 
-       data-from-embed=&#34;false&#34;&gt;
-   &lt;/div&gt;
-&lt;script src=&#34;https://strava-embeds.com/embed.js&#34;&gt;&lt;/script&gt;
-&lt;p class=&#34;strava-explanation&#34;&gt;&lt;a href=&#34;https://www.strava.com/activities/15684943044&#34;&gt;View on Strava here.&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;8.15 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;1h 50m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Elevation&lt;/h5&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 97.0 m&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684943044/route.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-md-6&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684943044/F6AFC240-BF9A-4A93-B5A8-2ECE2CFCDCD9.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-12&#34;&gt;
+            &lt;img src=&#34;/files/gpx/15684943044/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;This is a pretty straightforward hike out, due to it being downhill pretty much all the way, it passed really quickly. I enjoyed the sun rising and the sunlight coming in through the trees as I made my way down. It only took 1h 46m for me to get back to the car. Then it was drive out on the 8km of unpaved road to Function Junction feeling pretty happy and satisfied. This would be a nice opportunity to divert over to Cheakamus Lake if you fancied another mountain lake swim.&lt;/p&gt;
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;

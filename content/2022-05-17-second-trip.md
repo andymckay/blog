@@ -30,7 +30,7 @@ In the end I could only get a total of 3 nights camping out of my 7 there. I wou
 
 I stayed in Kahului, assembled my bike after a 10:30pm arrival the night before. Most hotels will not store bike boxes or anything overnight, but I did persuade one nice person at the hotel to do it for me (cost a bit in tips).
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7110978753/embed/5cd626998d8e95ebbfab65f71002802ad2c22b23'></iframe>
+[gpx#7110978753]
 
 This was just a quick shake out ride and then a visit to Walmart to stock up on groceries.
 
@@ -38,7 +38,7 @@ This was just a quick shake out ride and then a visit to Walmart to stock up on 
 
 The first long ride, ending up with campsite and a beach in Olowalu.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7121391240/embed/73b811f333e399e90f3795b6eccd0260a273df53'></iframe>
+[gpx#7121391240]
 
 <img src="/files/IMG_2052.JPG" width="400">
 
@@ -57,7 +57,7 @@ In the morning I had to make a decision, to try <a href="https://www.google.com/
 
 In the end I took a leisurely ride from Olowalu over to Kihei and had a nice lunch and layabout.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7122582736/embed/a5602855ad48294a11ca7d3487719d7ac0222f26'></iframe>
+[gpx#7122582736]
 
 This was a flat ride, a good chunk on a busy highway. It also had brutal headwinds that seemed to change and hit me each way. At one point I just gave up riding and walked my bike along the sandy beach instead, tough life.
 
@@ -69,7 +69,7 @@ The big ride was coming up, around Hana and I'd got a hotel back in Kahului to a
 
 So instead I went the long way back to Kahului and reversed my route from the day before. Why the heck not, it was gorgeous. This time I got to stop at some different places on the way and it was just as amazing.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7127821053/embed/4ed5c263f566ddae06399b7d295827833db5688f'></iframe>
+[gpx#7127821053]
 
 There is one hill that almost defeated me, called "The Wall" which <a href="https://www.strava.com/activities/7127821053/segments/2959625694434573968">Strava shows as 15.8%</a> but feels more like 18%.
 
@@ -83,7 +83,7 @@ I ❤️ the east side of Maui and was looking forward to this.
 
 **Note:** A lot of people recommend doing this counter clockwise to avoid tourist traffic heading out to Hana. I did this clockwise because the week before the road near <a href="https://www.google.com/maps/place/Kaupo,+HI+96790,+USA/@20.6364922,-156.1309922,15z/data=!3m1!4b1!4m8!1m2!10m1!1e1!3m4!1s0x7954ba30cdccfdb5:0xcfee263a13947dc3!8m2!3d20.6364792!4d-156.1222243">Kaupo</a> has been washed out and it was impassable. I wanted to ensure that I didn't cycle counter clockwise, get to Kaupo and then be stuck and have to do a 170km diversion to get to my campsite.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138008219/embed/5df4b9d3bbf2ef1ee38149d9ec0d8159eb4b726d'></iframe>
+[gpx#7138008219]
 
 The first part of the road until it gets into the "road to Hana" is mostly forgettable and a bit hilly. But then it turns into the most magnificient road ever. It generally flows really nicely and provides comfortable riding with amazing views.
 
@@ -99,7 +99,7 @@ The campsite is spectacular and it was basically empty. I had a nice chat with t
 
 Wouldn't be a visit to the national park without a hike up to the waterfalls that evening would it?
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138007945/embed/8aba46fa2f77129d77cae7ca9f1aad5323ea7d90'></iframe>
+[gpx#7138007945]
 
 This was a tiring day, on top of a good ride yesterday and I slept well.
 
@@ -111,7 +111,7 @@ The road is advertised as four wheel drive only. It's just fine for a bike. A ro
 
 It starts with being close to the sea and beaches. Then it starts to open out and you get to climb. And climb. And climb. Many short steep sections. There is no water for 45km and 1,000 meters and it was getting up to 28c.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7138008275/embed/f53b039a252167d21f91c1166f0f405e3de2d203'></iframe>
+[gpx#7138008275]
 
 This where I started to struggle. But I just rested a few times and enjoyed the remoteness. On one side you had the sea, the other the volcano stretching up with the observatory on top.
 

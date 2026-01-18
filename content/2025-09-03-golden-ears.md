@@ -9,7 +9,7 @@ Golden Ears is a mountain just to the north of Maple Ridge and if you look at it
 
 ### Day 1: Alouette Lake 👉 Golden Ears Ridge
 
-[strava#15562126545]
+[gpx#15562126545]
 
 The trail starts with a steady up hill for 5km+ through the trees until the Alder flats campground. We went from the East Canyon, but it's roughly the same from the West Canyon Trail. They are trails either side of the same river and eventually meetup at a bridge before the campground.
 
@@ -25,7 +25,7 @@ There were no bugs and the camping on the ridge was just amazing.
 
 ### Day 2: Golden Ears Ridge 👉 Alouette Lake
 
-[strava#15562126473]
+[gpx#15562126473]
 
 There isn't much more to do at the top of the ridge than head back down, so we did that. We went up on a Friday and headed down on a Saturday. It started to get really busy with lots of people heading up. I bet it gets busy up there on a weekend.
 

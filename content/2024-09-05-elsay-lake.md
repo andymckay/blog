@@ -9,7 +9,7 @@ Since my experience on [Howe Sound Crest Trail](/2024-07-17-my-limit.html) I've 
 
 Also it's a good overnight trip that I can do straight from my house and end up in the almost back country.
 
-[strava#12318210614]
+[gpx#12318210614]
 
 It was an overcast day and heading up from Deep Cove I went from patchy sun, into deep cloud, into sun, into deep cloud and ended up at an overcast remote lake. I've all but the last 5km or so of this trail before and knew what to expect, until I hit that last 5km. 
 
@@ -21,6 +21,6 @@ The lake itself is lovely, quiet, serene and peaceful. The water was warm after 
 
 Next day due to a bleeding leg, I decided to get a ride from Mt. Seymour resort. 
 
-[strava#12318247010]
+[gpx#12318247010]
 
 I think most people do the hike to and from Mt. Seymour and I'd definitely recommend that unless you are wanting that extra distance.

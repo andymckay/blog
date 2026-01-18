@@ -11,7 +11,7 @@ I've done the Whislter Gran Fondo a few times ([first](/2015-09-12-gran-fondo/),
 
 I didn't train enough, I was in bad shape. There was a headwind, just a horrible headwind the whole way. That's all I can remember. I couldn't get many drafts, you had to pedal going downhill otherwise you couldn't get any speed.
 
-[strava#7786997882]
+[gpx#7786997882]
 
 Within the first hour, I knew I had no chance of beating my times, so I tried to relax. Mostly I just got stressed and tired.
 
@@ -58,7 +58,7 @@ I'd already approached this Fondo as I ride I would take slow and easy, enjoying
 
 So I chilled and enjoyed the ride. Unlike last year, going into it with that mentality from the start, I actually did find the ride enjoyable. Fantastic views, great people.
 
-[strava#9817035495]
+[gpx#9817035495]
 
 Not too fussed about the time and didn't sign up for next year. Not sure if I'll ride it again.
 

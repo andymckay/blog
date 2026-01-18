@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head data-bs-theme="light">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy McKay | Ditching Strava</title>
+    <link href="/static/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/blog.css" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏔</text></svg>">
+    <link rel="alternate" href="/atom.xml" type="application/atom+xml"> 
+<meta property="og:image:width" content="600" />
+<meta property="og:image" content="/files/elbows-up.jpg" />
+<meta property="og:title" content="Ditching Strava" />
+<meta property="og:description" content="As part of the slow, but ongoing, effort to remove US companies out of my..." />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mckay.pub/2026-01-18-ditching-strava.html" /> 
+</head>
+
+<body>
+    <div class="container py-3">
+        <header class="border-bottom border-secondary lh-1 py-3">
+            <div class="row flex-nowrap">
+                <div class="col-9 pt-1">
+                    <h1>🏔 Andy McKay</h1>
+                </div>
+                <div class="col-3 pt-1 text-end">
+                    <a href="/" class="btn btn-primary">Home</a>
+                    <a href="#" class="theme-switch btn btn-secondary">Theme</a>
+                </div>
+            </div>
+            <div class="col-12 pt-1 text-end">
+                <p>
+                    <small>
+                        <a href="https://www.strava.com/athletes/5871759" class="text-body-secondary">Strava</a> &bull;
+                        <a href="https://bsky.app/profile/mckay.pub" class="text-body-secondary">Bluesky</a> &bull;
+                        <a href="https://mastodon.social/@andymckay" class="text-body-secondary">Mastodon</a> &bull;
+                        <a href="/atom.xml" class="text-body-secondary">Atom</a><br/>
+                    </small>
+                </p>
+            </div>
+        </header>
+        <main class="container">
+            <div class="p-4 p-md-5 mb-4 rounded">
+                
+<div class="mb-4">
+    
+    <a href="/apps.html" class="btn btn-outline-secondary">Apps</a> 
+</div>
+<div class="row g-5">
+    <div class="col-lg-8 px-4">
+        <div class="border-bottom border-secondary">
+            <h2>Ditching Strava</h2>
+            <p class="text-secondary">January 18, 2026</p>
+        </div>
+        <p class="my-3 "></p>
+        <div class="post"><p>As part of the slow, but ongoing, effort to remove US companies out of my life, I've decided to remove Strava out of my life. This was not an easy decision, I've used Strava for 8 years and used it <em>a lot</em>. I'll miss seeing what my friends do on Strava and many other things. However <em>uploading so much personal data about my activities to a US company with data on US servers at this point in 2026 is no longer acceptable</em>.</p>
+<p>Strava served a few functions for me, so I'll go through what I've done to get off of Strava and what I'm missing below 👇</p>
+<h3 id="recording">Recording</h3>
+<p>I rarely use Strava for recording insted it comes from my watch or my cycling computer. I don't use my cycling computer much anymore but unfortunately its a <a href="https://en.wikipedia.org/wiki/Wahoo_Fitness">Wahoo</a> and they are a US company. The main device I use multiple times a day is my watch and that's from <a href="https://en.wikipedia.org/wiki/COROS_Wearables_Inc">Coros</a>.</p>
+<p>Coros parent company is Chinese with its head office in California. So at this point I've got no guarantees that my data is going to either China or the US. Also having a legal entity in the US is a problem. At this point, I trust China more than I do the US. I guess that's because China hasn't threatened Canada's sovereignty repeatedly or threatened us with "taking us over". Coros being under the influence of the US is a problem, but one step at a time.</p>
+<h3 id="analysis">Analysis</h3>
+<p>I used Strava to look at my activities and analyse the data. So I'm using <a href="https://intervals.icu">intervals.icu</a> for that (hat tip to <a href="https://pnw.zone/@felix/115833363579937530">@felix</a>). Intervals.icu is a London company, and their servers are in Germany. Germany has probably some of the highest data protection and privacy laws around (at least that I know about). It's supported by donation of 10 EUR every 3 months 👍. </p>
+<p>It imported all my data directly from Strava and I can now go and compare my new runs with my old runs. Activities import straight from Coros, so there's nothing for me to do there:</p>
+<p><img src="/files/intervals-icu.png" class="img-fluid"></p>
+<h3 id="blog">Blog</h3>
+<p>In the past after uploading an activity to Strava, if I wrote a blog post about it I'd share it here so that it appears nicely in the post. I tried checking out other services but I couldn't find one I really liked - but honourable mentions to <a href="https://www.komoot.com/">Komoot</a> (in the EU) and <a href="https://outdooractive.com">Outdoor Active</a> (in the EU).</p>
+<p>Strava provided a great download of my data, with all 3,457 activities along with photos, routes and so on. More detail on <a href="https://support.strava.com/hc/en-us/articles/216918437-Exporting-your-Data-and-Bulk-Export">that is here</a>. </p>
+<p>Armed with the <code>.gpx</code> files, I tried to figure out how to convert 117 Strava embeds into a new site embed. Only to find many problems around correlating all the data and the IDs. The Strava export is the raw data, then you have to call it's API to match up other bits of data. Then the other services have patchy APIs that don't really the job either. I spent way too long on this part and instead just decided to build it all.</p>
+<p>So instead I:</p>
+<ul>
+<li>parsed the markdown files looking for Strava IDs</li>
+<li>grabbed some key data from the Strava API and put into a <code>.json</code></li>
+<li>grabbed the <code>.gpx</code> file from Strava (that's not in the export or the API, instead the original upload file is present)</li>
+<li>grab the photos out of the export (it's not in the API)</li>
+<li>generate open street map image of the route using Mapbox</li>
+<li>generate an elevation image of the route</li>
+<li>convert the Markdown file to use a new Markdown extension</li>
+</ul>
+<p>So given a <code>.gpx</code> I can generate a similar amount of information that any of these services can generate. You can see an example here: <a href="/2025-10-06-skyline.html">Skyline</a>.</p>
+<p>It's rather janky at this moment, making it look good is going to take some time and cleaning, but it's a start. All the data and generation is now under my control, with all the advantages and disadvantages that brings, but I'm going to keep those <code>.gpx</code> files backed up locally from now on, so I can easily move between services. It also means that readers of this blog aren't making web requests to Strava, so helping their privacy a teeny tiny bit.</p>
+<p><strong>Note:</strong> I'm making the decision to be open about <em>some</em> activities and show them on the blog. But I'm not sharing widely the activities I do <em>every day</em>. There's an important difference between <em>sharing everything</em> and having the <em>autonomy to share an activity of my choice</em> on the blog.</p>
+<h3 id="whats-lost">What's lost</h3>
+<p>Connections with friends and seeing what they do. Spying with envy on pro athletes. Segments and easy comparisons of old runs. But credit to Strava for providing an excellent download. I haven't found a great substitute for these yet and I'm not sure I want to look for an alternative at this point.</p>
+<hr />
+<p>I realise this is all seems rather futile, there's lots more places where my data goes to the US or US companies. But one step at a time and I'll get there.</p></div>
+    </div>
+    <div class="col-lg-4 px-4 p-4 mb-4">
+        
+        <div class="bg-body-tertiary rounded mb-4 p-4">
+            <h4>📸</h4>
+            <a href="/files/elbows-up.jpg"><img src="/files/elbows-up.jpg" class="img-fluid" style="object-fit: cover"></a>
+        </div>
+        
+        <div class=" bg-body-tertiary rounded mb-4 p-4 ">
+            <h4 class="fst-italic">About</h4>
+            <p>Grumpy Old Hiker is a blog about hiking, backpacking, and the outdoors. Proud Canadian 🇨🇦</p>
+            <p>
+                <a href="/about.html ">Read more...</a>
+            </p>
+        </div>
+        
+<div class="p-4">
+    <h4 class="fst-italic">Contents</h4>
+    <div class="toc">
+<ul>
+<li><a href="#recording">Recording</a></li>
+<li><a href="#analysis">Analysis</a></li>
+<li><a href="#blog">Blog</a></li>
+<li><a href="#whats-lost">What's lost</a></li>
+</ul>
+</div>
+
+</div>
+
+    </div>
+</div>
+
+            </div>
+        </main>
+        <footer class="container border-top border-secondary lh-1 py-3 text-end">
+            <p>
+                <small>
+                    <a href="https://www.strava.com/athletes/5871759" class="text-body-secondary">Strava</a> &bull;
+                    <a href="https://bsky.app/profile/mckay.pub" class="text-body-secondary">Bluesky</a> &bull;
+                    <a href="https://mastodon.social/@andymckay" class="text-body-secondary">Mastodon</a> &bull;
+                    <a href="/atom.xml" class="text-body-secondary">Atom</a><br/>
+                </small>
+            </p>
+            <p>
+                <small class="text-body-secondary">Ramblings about hiking from a grumpy old hiker. The end.</small>
+            </p>
+        </footer>
+    </div>
+    
+    <script src="/static/bootstrap.min.js "></script>
+    <script src="/static/site.js "></script>
+</body>
+
+</html>
