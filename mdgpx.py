@@ -5,6 +5,7 @@ from markdown.preprocessors import Preprocessor
 import re
 import json
 import os
+import uuid
 
 gpx_re = r"\[(?P<prefix>gpx#)(?P<activity_number>\d+)\]"
 
@@ -46,20 +47,20 @@ gpx_end = """
 </div>"""
 
 carousel_html_start = """
-<div class="carousel slide col-md-12">
+<div class="carousel slide col-md-12" id="carousel-id-{uid}">
     <div class="carousel-inner">
 """
 
 carousel_html_end = """
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-    </div>
 </div>
 """
 
@@ -133,6 +134,7 @@ class CarouselProcessor(Preprocessor):
         super().__init__(*args, **kw)
 
     def run(self, lines):
+        uid = uuid.uuid4().hex
         in_carousel = False
         imgs = []
         output = []
@@ -142,7 +144,7 @@ class CarouselProcessor(Preprocessor):
 
                 if not line.strip():
                     in_carousel = False
-                    html = carousel_html_start
+                    html = carousel_html_start.format(uid=uid)
                     for (k, img) in enumerate(imgs):
                         if (img.strip()):
                             exif = self.exifdata.get(img.strip(), {})
@@ -151,7 +153,7 @@ class CarouselProcessor(Preprocessor):
                             else:
                                 caption = ""    
                             html += carousel_html_element.format(url=img, active="active" if not k else "", caption=caption)
-                    html += carousel_html_end
+                    html += carousel_html_end.format(uid=uid)
                     placeholder = self.md.htmlStash.store(html.strip())
                     output.append(placeholder)
 

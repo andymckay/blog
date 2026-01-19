@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-01-19T01:39:14.261685+00:00</updated>
+    <updated>2026-01-19T18:37:46.444016+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -88,7 +88,7 @@
         <id>https://mckay.pub/2025-12-30-maplewood.html</id>
         <content type="html">
             &lt;p&gt;The Wild Bird Trust of BC has a conservation area in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our cameras and was able to see more birds than we expected. Turns it out there were some nice, rather common, birds there:&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;carousel slide col-md-12&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-6e16a56d1cba41128c60724b50a01a88&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
 
         &lt;div class=&#34;carousel-item active&#34;&gt;
@@ -169,15 +169,15 @@
 
         &lt;/div&gt;
 
-    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;prev&#34;&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-6e16a56d1cba41128c60724b50a01a88&#34; data-bs-slide=&#34;prev&#34;&gt;
         &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
     &lt;/button&gt;
-    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;next&#34;&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-6e16a56d1cba41128c60724b50a01a88&#34; data-bs-slide=&#34;next&#34;&gt;
         &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
     &lt;/button&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
 &lt;a href=&#34;2025-12-30-maplewood-carousel.html&#34;&gt;View in full screen&lt;/a&gt; 🔎&lt;/p&gt;
         </content>
@@ -193,7 +193,7 @@
 &lt;h3 id=&#34;photography&#34;&gt;Photography&lt;/h3&gt;
 &lt;p&gt;As a result, I did get to spend more time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I&#39;ve enjoyed, but I found wildlife photography especially fun. There&#39;s the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place. After all that, you &lt;em&gt;might get a great photo, you might not&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;We ended up with over 3,500 photographs and culled it down to 130 that we&#39;ll keep in our album. Here&#39;s some of my favourites, but there are so many more good ones:&lt;/p&gt;
-&lt;div class=&#34;carousel slide col-md-12&#34;&gt;
+&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-5149bcf8c3dc46638fab2cde50cd05ce&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
 
         &lt;div class=&#34;carousel-item active&#34;&gt;
@@ -261,15 +261,15 @@
 
         &lt;/div&gt;
 
-    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;prev&#34;&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-5149bcf8c3dc46638fab2cde50cd05ce&#34; data-bs-slide=&#34;prev&#34;&gt;
         &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
     &lt;/button&gt;
-    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel&#34; data-bs-slide=&#34;next&#34;&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-5149bcf8c3dc46638fab2cde50cd05ce&#34; data-bs-slide=&#34;next&#34;&gt;
         &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
     &lt;/button&gt;
-    &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;2025-12-26-costa-rica-carousel.html&#34;&gt;View in full screen&lt;/a&gt; 🔎&lt;/p&gt;
 
