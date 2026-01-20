@@ -19,6 +19,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 
 
+
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -265,6 +266,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Houdini|🇸🇪 Sweden|<a target="_blank" href="https://houdinisportswear.com" title="Website">➡️</a>|
 |✅|Hultafors|🇸🇪 Sweden|<a target="_blank" href="https://hultafors.com" title="Website">➡️</a>|
 |✅|Hults Bruk|🇸🇪 Sweden|<a target="_blank" href="https://www.hultsbruk.se/" title="Website">➡️</a>|
+|❌|Huma|🇺🇸 United States|<a target="_blank" href="https://humagel.com/" title="Website">➡️</a>|
 |❌|HumanGear|🇺🇸 United States|<a target="_blank" href="https://humangear.com/" title="Website">➡️</a>|
 |❌|Humangear|🇺🇸 United States|<a target="_blank" href="https://humangear.com" title="Website">➡️</a>|
 |❌|Hydrapak|🇺🇸 United States|<a target="_blank" href="https://www.hydrapak.com/" title="Website">➡️</a>|
@@ -363,6 +365,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Marker Bindings & Helmets|🇦🇹 Austria|<a target="_blank" href="https://www.marker.net/" title="Website">➡️</a>|
 |❌|Marmot|🇺🇸 United States|<a target="_blank" href="https://www.marmot.com/" title="Website">➡️</a>|
 |❌|Matador|🇺🇸 United States|<a target="_blank" href="https://matadorup.com" title="Website">➡️</a>|
+|✅|Maurten|🇸🇪 Sweden|<a target="_blank" href="https://www.maurten.com" title="Website">➡️</a>|
 |✅|Maxxis|🇹🇼 Taiwan|<a target="_blank" href="https://maxxis.com" title="Website">➡️</a>|
 |❌|Med Spec|🇺🇸 United States|<a target="_blank" href="https://medspec.com/" title="Website">➡️</a>|
 |✅|Mephisto|🇫🇷 France|<a target="_blank" href="https://www.mephisto.com/" title="Website">➡️</a>|
@@ -395,6 +398,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|NEMO Equipment|🇺🇸 United States|<a target="_blank" href="https://www.nemoequipment.com/" title="Website">➡️</a>|
 |❌|NRS|🇺🇸 United States|<a target="_blank" href="https://nrs.com" title="Website">➡️</a>|
 |✅|NRS Canada|🇨🇦 Canada|<a target="_blank" href="https://www.nrs.com/" title="Website">➡️</a>|
+|✅|Naak|🇨🇦 Canada|<a target="_blank" href="https://www.naak.com/" title="Website">➡️</a>|
 |❌|Nalgene|🇺🇸 United States|<a target="_blank" href="https://www.nalgene.com/" title="Website">➡️</a>|
 |✅|Naot|🇮🇱 Israel|<a target="_blank" href="https://www.naot.com/" title="Website">➡️</a>|
 |❌|Nathan|🇺🇸 United States|<a target="_blank" href="https://www.nathansports.com/" title="Website">➡️</a>|
@@ -653,6 +657,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Wilderness Systems|🇺🇸 United States|<a target="_blank" href="https://www.wildernesssystems.com/" title="Website">➡️</a>|
 |✅|Wildo|🇸🇪 Sweden|<a target="_blank" href="https://www.wildo.com/" title="Website">➡️</a>|
 |❌|WrightSock|🇺🇸 United States|<a target="_blank" href="https://www.wrightsock.com/" title="Website">➡️</a>|
+|✅|Xact|🇨🇦 Canada|<a target="_blank" href="https://www.xactnutrition.com/" title="Website">➡️</a>|
 |❌|Xcel|🇺🇸 United States|<a target="_blank" href="https://xcelwetsuits.com/" title="Website">➡️</a>|
 |❌|Xtratuf|🇺🇸 United States|<a target="_blank" href="https://www.xtratufboots.com/" title="Website">➡️</a>|
 |✅|YY Vertical|🇨🇦 Canada|<a target="_blank" href="https://www.yyvertical.com/" title="Website">➡️</a>|
@@ -679,7 +684,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
-|🇨🇦 Canada|108|
+|🇨🇦 Canada|110|
 |🇨🇳 China|7|
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
@@ -700,8 +705,8 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇿🇦 South Africa|2|
 |🇰🇷 South Korea|3|
 |🇪🇸 Spain|4|
-|🇸🇪 Sweden|18|
+|🇸🇪 Sweden|19|
 |🇨🇭 Switzerland|17|
 |🇹🇼 Taiwan|3|
 |🇬🇧 United Kingdom|24|
-|🇺🇸 United States|330|
+|🇺🇸 United States|331|
