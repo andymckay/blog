@@ -20,6 +20,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 
 
+
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -521,7 +522,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Ruffwear|🇺🇸 United States|<a target="_blank" href="https://ruffwear.com/" title="Website">➡️</a>|
 |✅|Rumpl|🇨🇦 Canada|<a target="_blank" href="https://rumpl.ca/" title="Website">➡️</a>|
 |✅|Rundle Nordic Inc|🇨🇦 Canada|<a target="_blank" href="https://www.rundlenordic.com/" title="Website">➡️</a>|
-|✅|SCARPA|🇮🇹 Italy|<a target="_blank" href="https://www.scarpa.com/" title="Website">➡️</a>|
 |✅|SKS|🇩🇪 Germany|<a target="_blank" href="https://www.sks-germany.com/" title="Website">➡️</a>|
 |❌|SMC - Seattle Manufacturing Corporation|🇺🇸 United States|<a target="_blank" href="https://www.smcgear.com/" title="Website">➡️</a>|
 |❌|SOG|🇺🇸 United States|<a target="_blank" href="https://www.sogknives.com/" title="Website">➡️</a>|
@@ -534,7 +534,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Sanuk|🇺🇸 United States|<a target="_blank" href="https://www.sanuk.com/" title="Website">➡️</a>|
 |❌|Saucony|🇺🇸 United States|<a target="_blank" href="https://www.saucony.com/" title="Website">➡️</a>|
 |✅|Saxx|🇨🇦 Canada|<a target="_blank" href="https://www.saxxunderwear.com/" title="Website">➡️</a>|
-|✅|Saxx Underwear|🇨🇦 Canada|<a target="_blank" href="https://www.saxxunderwear.com/" title="Website">➡️</a>|
 |✅|Scarpa|🇮🇹 Italy|<a target="_blank" href="https://www.scarpa.com/" title="Website">➡️</a>|
 |✅|Schwalbe|🇩🇪 Germany|<a target="_blank" href="https://www.schwalbe.com/" title="Website">➡️</a>|
 |✅|Scott|🇨🇭 Switzerland|<a target="_blank" href="https://www.scott-sports.com/" title="Website">➡️</a>|
@@ -549,7 +548,6 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |❌|Showers Pass|🇺🇸 United States|<a target="_blank" href="https://www.showerspass.com/" title="Website">➡️</a>|
 |✅|Sidas|🇫🇷 France|<a target="_blank" href="https://www.sidas.com/" title="Website">➡️</a>|
 |✅|Silky|🇯🇵 Japan|<a target="_blank" href="https://www.silky-saw.com/" title="Website">➡️</a>|
-|✅|Silky Saws|🇯🇵 Japan|<a target="_blank" href="https://www.silky-saw.com/" title="Website">➡️</a>|
 |✅|Silva|🇸🇪 Sweden|<a target="_blank" href="https://www.silva.se/" title="Website">➡️</a>|
 |❌|Ski Ties|🇺🇸 United States|<a target="_blank" href="https://www.skities.com/" title="Website">➡️</a>|
 |❌|Skratch Labs|🇺🇸 United States|<a target="_blank" href="https://www.skratchlabs.com/" title="Website">➡️</a>|
@@ -684,7 +682,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇦🇺 Australia|15|
 |🇦🇹 Austria|9|
 |🇧🇪 Belgium|1|
-|🇨🇦 Canada|110|
+|🇨🇦 Canada|109|
 |🇨🇳 China|7|
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
@@ -695,8 +693,8 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇮🇩 Indonesia|1|
 |🇮🇪 Ireland|1|
 |🇮🇱 Israel|1|
-|🇮🇹 Italy|27|
-|🇯🇵 Japan|7|
+|🇮🇹 Italy|26|
+|🇯🇵 Japan|6|
 |🇳🇵 Nepal|1|
 |🇳🇱 Netherlands|4|
 |🇳🇿 New Zealand|4|
