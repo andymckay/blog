@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-01-21T01:05:54.370176+00:00</updated>
+    <updated>2026-01-23T06:02:41.692376+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -88,7 +88,7 @@
         <id>https://mckay.pub/2025-12-30-maplewood.html</id>
         <content type="html">
             &lt;p&gt;The Wild Bird Trust of BC has a conservation area in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our cameras and was able to see more birds than we expected. Turns it out there were some nice, rather common, birds there:&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-3ecd15cf704341d2a36ca86cb13bb021&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-6a7abbc3ea1169d2abc990c4008879b3&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
 
         &lt;div class=&#34;carousel-item active&#34;&gt;
@@ -170,11 +170,11 @@
         &lt;/div&gt;
 
     &lt;/div&gt;
-    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-3ecd15cf704341d2a36ca86cb13bb021&#34; data-bs-slide=&#34;prev&#34;&gt;
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-6a7abbc3ea1169d2abc990c4008879b3&#34; data-bs-slide=&#34;prev&#34;&gt;
         &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
     &lt;/button&gt;
-    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-3ecd15cf704341d2a36ca86cb13bb021&#34; data-bs-slide=&#34;next&#34;&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-6a7abbc3ea1169d2abc990c4008879b3&#34; data-bs-slide=&#34;next&#34;&gt;
         &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
     &lt;/button&gt;
@@ -193,7 +193,7 @@
 &lt;h3 id=&#34;photography&#34;&gt;Photography&lt;/h3&gt;
 &lt;p&gt;As a result, I did get to spend more time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I&#39;ve enjoyed, but I found wildlife photography especially fun. There&#39;s the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place. After all that, you &lt;em&gt;might get a great photo, you might not&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;We ended up with over 3,500 photographs and culled it down to 130 that we&#39;ll keep in our album. Here&#39;s some of my favourites, but there are so many more good ones:&lt;/p&gt;
-&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-549a6f29dd8c4567b6528611063f4136&#34;&gt;
+&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-c4eecdfb444a2fcd774e5594ac992503&#34;&gt;
     &lt;div class=&#34;carousel-inner&#34;&gt;
 
         &lt;div class=&#34;carousel-item active&#34;&gt;
@@ -262,11 +262,11 @@
         &lt;/div&gt;
 
     &lt;/div&gt;
-    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-549a6f29dd8c4567b6528611063f4136&#34; data-bs-slide=&#34;prev&#34;&gt;
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-c4eecdfb444a2fcd774e5594ac992503&#34; data-bs-slide=&#34;prev&#34;&gt;
         &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
     &lt;/button&gt;
-    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-549a6f29dd8c4567b6528611063f4136&#34; data-bs-slide=&#34;next&#34;&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-c4eecdfb444a2fcd774e5594ac992503&#34; data-bs-slide=&#34;next&#34;&gt;
         &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
         &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
     &lt;/button&gt;
@@ -289,25 +289,39 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;0h 58m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 0h 58m&lt;br /&gt;
+            Moving: 0h 56m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 26.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 26.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-16561934698&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-16561934698&#34;&gt;
+        &lt;img src=&#34;/files/gpx/16561934698/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/16561934698/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/16561934698/A497B730-109F-498E-9808-03631064156F.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/16561934698/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-16561934698&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/16561934698/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/16561934698/A497B730-109F-498E-9808-03631064156F.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-16561934698&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-16561934698&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -326,25 +340,35 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;1h 30m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 1h 30m&lt;br /&gt;
+            Moving: 0h 19m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 12.2 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 12.2 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-16751311395&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-16751311395&#34;&gt;
+        &lt;img src=&#34;/files/gpx/16751311395/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/16751311395/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/16751311395/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-16751311395&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/16751311395/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-16751311395&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-16751311395&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -409,25 +433,51 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;4h 21m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 4h 21m&lt;br /&gt;
+            Moving: 3h 45m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 682.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 682.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15857340650&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340650&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15857340650/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340650/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340650/E11ADD6C-4FDC-479A-8408-BF83A98B17B7.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340650/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15857340650&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340650/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340650/E11ADD6C-4FDC-479A-8408-BF83A98B17B7.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340650/3538BC4C-57B0-4CCD-A42E-63E5B865A085.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340650/4225B53B-D006-4F7D-B586-1BF8C6CF0B14.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340650/5247E226-D4B2-4374-97B7-9B3E6BDD3D88.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340650&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340650&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -447,25 +497,63 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;7h 9m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 7h 9m&lt;br /&gt;
+            Moving: 5h 45m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 1222.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 1222.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15857340804&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340804&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15857340804/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340804/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340804/4B2F5CAD-BA81-493B-BAC9-54A0BCFB2BCC.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340804/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15857340804&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/4B2F5CAD-BA81-493B-BAC9-54A0BCFB2BCC.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/734BE63C-2BA0-4ACD-BFA5-00CFB9EC17D1.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/58E5582B-E5F7-49AA-A2A0-439F2AD8F89F.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/59FE7362-8DD8-474A-A742-659BD025CE18.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/317FF90F-DF9D-4FFB-A895-ABDC8C5660EE.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/FAFAD5BC-E3B0-4376-865A-5830A8F8786D.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340804/C9F5F4B0-8269-44E8-BCB2-E0CDBE06C122.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340804&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340804&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -487,25 +575,51 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;3h 24m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 3h 24m&lt;br /&gt;
+            Moving: 2h 47m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 857.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 857.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15857340589&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340589&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15857340589/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340589/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340589/380954FA-D82D-4C6E-8B64-1646706EE059.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340589/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15857340589&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340589/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340589/380954FA-D82D-4C6E-8B64-1646706EE059.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340589/90DC1B2A-30D5-417E-8E34-2F2C24ADF0E7.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340589/2A0AE014-53A2-479D-8F3F-4309C954B751.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340589/30C67E86-B2F4-485C-BE8B-95356A70F8A4.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340589&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340589&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -526,25 +640,43 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;2h 38m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 2h 38m&lt;br /&gt;
+            Moving: 2h 27m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 191.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 191.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15857340513&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340513&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15857340513/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340513/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340513/CC05BEDE-FEA8-483C-A897-C2AC68892923.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15857340513/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15857340513&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340513/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340513/CC05BEDE-FEA8-483C-A897-C2AC68892923.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15857340513/BE9E8E04-9BAB-47C2-8942-C32AB30E6D8C.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340513&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15857340513&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -672,25 +804,43 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;2h 56m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 2h 56m&lt;br /&gt;
+            Moving: 2h 42m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 641.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 641.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15788401032&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15788401032&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15788401032/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401032/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401032/BF82F6F3-5158-4ED4-8C10-2905007ECF6C.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401032/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15788401032&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401032/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401032/BF82F6F3-5158-4ED4-8C10-2905007ECF6C.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401032/17CEA8CC-F380-4858-8445-0269CFB14957.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15788401032&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15788401032&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -711,25 +861,51 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;5h 17m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 5h 17m&lt;br /&gt;
+            Moving: 4h 31m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 834.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 834.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15788401364&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15788401364&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15788401364/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401364/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401364/BAD1E254-7B99-48FA-B0F8-4115E419526D.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401364/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15788401364&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401364/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401364/BAD1E254-7B99-48FA-B0F8-4115E419526D.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401364/250914A2-B32A-4137-AD15-444671028510.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401364/EFA0C0C3-8087-4A7E-99E3-3F661C1A4317.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401364/791CB14D-20C7-4E9B-8EC4-C5711C662DB4.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15788401364&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15788401364&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -753,25 +929,51 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;3h 2m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 3h 2m&lt;br /&gt;
+            Moving: 2h 54m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 186.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 186.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15788401454&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15788401454&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15788401454/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401454/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401454/72961539-0826-46E1-BB0F-D5728BCB937C.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15788401454/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15788401454&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401454/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401454/72961539-0826-46E1-BB0F-D5728BCB937C.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401454/D6F83DB8-449D-4319-A052-9D4218A2744E.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401454/631FF5FD-00CE-4613-9658-BD676D5EAE56.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15788401454/B574D673-C77A-464A-800A-3558A5481150.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15788401454&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15788401454&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -4856,25 +5058,51 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;2h 13m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 2h 13m&lt;br /&gt;
+            Moving: 2h 8m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 785.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 785.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15684874430&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15684874430&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15684874430/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684874430/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684874430/AB876E75-9FB4-46CE-894D-F050458DD86A.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684874430/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15684874430&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684874430/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684874430/AB876E75-9FB4-46CE-894D-F050458DD86A.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684874430/DD7F8FC6-FD69-4F00-8FD7-0692D81D663B.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684874430/18A04B96-3E7A-4A40-BE68-3265C0068AE4.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684874430/291ABE26-8081-461B-9C30-04CF20645407.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15684874430&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15684874430&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -4894,25 +5122,51 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;5h 56m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 5h 56m&lt;br /&gt;
+            Moving: 4h 2m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 827.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 827.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15684943622&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15684943622&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15684943622/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684943622/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684943622/644AC542-D048-43DE-8844-83F59120F6E4.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684943622/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15684943622&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943622/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943622/644AC542-D048-43DE-8844-83F59120F6E4.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943622/58B3A4E5-1BB7-400B-9C5B-AC182658AE99.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943622/48C4274B-27DE-44D5-B54A-9ECAD0F15E60.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943622/56281B5C-12F4-4E56-92C4-0FE99E6773DB.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15684943622&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15684943622&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -4935,25 +5189,39 @@
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
-            &lt;p&gt;1h 50m&lt;/p&gt;
+            &lt;p&gt;Elapsed: 1h 50m&lt;br /&gt;
+            Moving: 1h 46m&lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 97.0 m&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 97.0 m&lt;/span&gt;&lt;br&gt;
+            ℹ️ &lt;a href=&#34;#elevation-profile-15684943044&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
         &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15684943044&#34;&gt;
+        &lt;img src=&#34;/files/gpx/15684943044/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684943044/route.png&#34; class=&#34;img-fluid&#34; /&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;col-md-6&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684943044/F6AFC240-BF9A-4A93-B5A8-2ECE2CFCDCD9.jpg&#34; class=&#34;img-fluid photo&#34; /&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;row&#34;&gt;
-        &lt;div class=&#34;col-md-12&#34;&gt;
-            &lt;img src=&#34;/files/gpx/15684943044/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-15684943044&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943044/route.png&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/15684943044/F6AFC240-BF9A-4A93-B5A8-2ECE2CFCDCD9.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+            &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15684943044&#34; data-bs-slide=&#34;prev&#34;&gt;
+                &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-15684943044&#34; data-bs-slide=&#34;next&#34;&gt;
+                &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+                &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+            &lt;/button&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 

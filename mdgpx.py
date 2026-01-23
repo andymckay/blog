@@ -5,7 +5,7 @@ from markdown.preprocessors import Preprocessor
 import re
 import json
 import os
-import uuid
+import hashlib
 
 gpx_re = r"\[(?P<prefix>gpx#)(?P<activity_number>\d+)\]"
 
@@ -18,27 +18,45 @@ description_html = """
         </div>
         <div class="col">
             <h5>Time</h5>
-            <p>{elapsed}</p>
+            <p>Elapsed: {elapsed}<br />
+            Moving: {moving}</p>
         </div>
         <div class="col">
             <h5>Elevation</h5>
-            <p><span title="Elevation gain">📈 {elevation_gain} m</span></p>
+            <p><span title="Elevation gain">📈 {elevation_gain} m</span><br>
+            ℹ️ <a href="#elevation-profile-{uid}" data-bs-toggle="collapse">Click for profile</a></p>
         </div>
+    </div>
+    <div class="row collapse" id="elevation-profile-{uid}">
+        <img src="/files/gpx/{activity_id}/elevation.png" class="img-fluid" />
     </div>
 """
 
-activity_html = """
+activity_html_start = """
     <div class="row">
-        <div class="col-md-6">
-            <img src="/files/gpx/{activity_id}/route.png" class="img-fluid" />
-        </div>
-        <div class="col-md-6">
-            {photo}
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <img src="/files/gpx/{activity_id}/elevation.png" class="img-fluid" />
+        <div class="carousel slide col-md-12" id="carousel-id-{uid}">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/files/gpx/{activity_id}/route.png" class="img-fluid photo">
+                </div>
+"""
+
+activity_html_photo = """
+                <div class="carousel-item">
+                    <img src="/files/gpx/{activity_id}/{photo}.jpg" class="img-fluid photo">
+                </div>
+"""
+
+activity_html_end = """
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 """
@@ -103,14 +121,11 @@ class GPXProcessor(InlineProcessor):
         
         activity = json.load(open(f"docs/files/gpx/{activity_number}/activity.json", "r", encoding="utf8"))
         update_activity(activity)
-        html = description_html.format(**activity)
-        if not activity["photos"]:
-            print(f"No photos for activity {activity_number}")
-            photo = ""
-        else:
-            photo = activity["photos"][0]
-            photo = f'<img src="/files/gpx/{activity_number}/{photo}.jpg" class="img-fluid photo" />'
-        html += activity_html.format(**activity, photo=photo)
+        html = description_html.format(**activity, uid=activity_number)
+        html += activity_html_start.format(**activity, uid=activity_number)
+        for photo in activity["photos"]:
+            html += activity_html_photo.format(**activity, photo=photo, uid=activity_number)
+        html += activity_html_end.format(**activity, uid=activity_number)
         html += gpx_end
 
         el = etree.Element("div")
@@ -134,7 +149,6 @@ class CarouselProcessor(Preprocessor):
         super().__init__(*args, **kw)
 
     def run(self, lines):
-        uid = uuid.uuid4().hex
         in_carousel = False
         imgs = []
         output = []
@@ -143,6 +157,7 @@ class CarouselProcessor(Preprocessor):
                 imgs.append(line.strip())
 
                 if not line.strip():
+                    uid = hashlib.md5("".join(imgs).encode('utf-8')).hexdigest()
                     in_carousel = False
                     html = carousel_html_start.format(uid=uid)
                     for (k, img) in enumerate(imgs):
