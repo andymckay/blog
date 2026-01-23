@@ -34,7 +34,7 @@ description_html = """
 
 activity_html_start = """
     <div class="row">
-        <iframe src="/files/gpx/{activity_id}/route.html" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        <iframe src="/files/gpx/{activity_id}/route.html" width="100%" frameborder="0"></iframe>
     </div>
     <div class="row">
         <div class="carousel slide col-md-12" id="carousel-id-{uid}">
