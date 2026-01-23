@@ -99,12 +99,6 @@
         padding: 0.5rem;
     }
     
-    .carousel {
-        padding-top: 1em;
-        padding-bottom: 1em;
-        height: 500px;
-    }
-    
     .carousel-caption {
         display: none !important;
     }
@@ -118,7 +112,6 @@
     
     .gpx {
         border-top: 1px solid #727272;
-        border-bottom: 1px solid #727272;
     }
     
     .gpx .carousel {
@@ -128,4 +121,9 @@
     
     .photo {
         max-height: 486px !important;
+    }
+    
+    .carousel-controls {
+        padding-bottom: 0.5em;
+        border-bottom: 1px solid #727272;
     }

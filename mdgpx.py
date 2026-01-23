@@ -34,35 +34,38 @@ description_html = """
 
 activity_html_start = """
     <div class="row">
+        <iframe src="/files/gpx/{activity_id}/route.html" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="row">
         <div class="carousel slide col-md-12" id="carousel-id-{uid}">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/files/gpx/{activity_id}/route.png" class="img-fluid photo">
-                </div>
 """
 
 activity_html_photo = """
-                <div class="carousel-item">
+                <div class="carousel-item {active}">
                     <img src="/files/gpx/{activity_id}/{photo}.jpg" class="img-fluid photo">
                 </div>
 """
 
 activity_html_end = """
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
 """
 
 gpx_end = """
-</div>"""
+</div>
+<div class="carousel-controls d-flex justify-content-center my-2">
+        <button type="button" class="col-auto me-auto btn btn-outline-secondary" data-bs-target="#carousel-id-{uid}" data-bs-slide="prev">Previous</button>
+        <button type="button" class="col-auto btn btn-outline-secondary" data-bs-target="#carousel-id-{uid}" data-bs-slide="next">Next</button>
+</div>
+"""
+
+gpx_end_no_photos = """
+</div>
+<div class="carousel-controls d-flex justify-content-center my-2">
+</div>
+"""
 
 carousel_html_start = """
 <div class="carousel slide col-md-12" id="carousel-id-{uid}">
@@ -123,10 +126,13 @@ class GPXProcessor(InlineProcessor):
         update_activity(activity)
         html = description_html.format(**activity, uid=activity_number)
         html += activity_html_start.format(**activity, uid=activity_number)
-        for photo in activity["photos"]:
-            html += activity_html_photo.format(**activity, photo=photo, uid=activity_number)
+        for k, photo in enumerate(activity["photos"]):
+            html += activity_html_photo.format(**activity, photo=photo, uid=activity_number, active="active" if not k else "")
         html += activity_html_end.format(**activity, uid=activity_number)
-        html += gpx_end
+        if activity["photos"]:
+            html += gpx_end.format(**activity, uid=activity_number)
+        else:
+            html += gpx_end_no_photos.format(**activity, uid=activity_number)
 
         el = etree.Element("div")
         el.text = self.md.htmlStash.store(html)

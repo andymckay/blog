@@ -1,14 +1,16 @@
 window.addEventListener("load", (event) => {
-    const carouselElements = document.getElementsByClassName("carousel");
-    for (let carouselElement of carouselElements) {
-        const carousel = new bootstrap.Carousel(carouselElement, {
-            interval: 5000,
-            wrap: true,
-            touch: true,
-            keyboard: true,
-            ride: 'carousel',
-        });
-    }
+    /*
+        const carouselElements = document.getElementsByClassName("carousel");
+        for (let carouselElement of carouselElements) {
+            const carousel = new bootstrap.Carousel(carouselElement, {
+                interval: 5000,
+                wrap: true,
+                touch: true,
+                keyboard: true,
+                ride: 'carousel',
+            });
+        }
+            */
 });
 
 window.addEventListener('DOMContentLoaded', () => {
