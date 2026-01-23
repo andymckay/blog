@@ -52,7 +52,7 @@
             height: 250px;
         }
         .gpx iframe {
-            height: 480px;
+            height: 470px;
         }
     }
     
@@ -70,7 +70,7 @@
             height: 250px;
         }
         .gpx iframe {
-            height: 340px;
+            height: 330px;
         }
     }
     
@@ -91,7 +91,7 @@
     
     @media (max-width: 575px) {
         .gpx iframe {
-            height: 300px;
+            height: 260px;
         }
     }
     /* Pagination */
