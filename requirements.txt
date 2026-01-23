@@ -5,3 +5,5 @@ stravalib
 jinja2
 watchdog
 py-markdown-table
+gpxo
+folium
