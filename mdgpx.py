@@ -6,31 +6,39 @@ import re
 import json
 import os
 import hashlib
+import gpxo
+from rendergpx import generate_map
+from pathlib import Path
+from jinja2 import Environment, BaseLoader
 
-gpx_re = r"\[(?P<prefix>gpx#)(?P<activity_number>\d+)\]"
+gpx_re = r"\[(?P<prefix>gpx#)(?P<activity_number>\w+)\]"
 
-description_html = """
+description_html = Environment(loader=BaseLoader).from_string("""
 <div class="gpx">
+                                                              {{ context }}
     <div class="row align-items-start">
         <div class="col">
             <h5>Distance</h5>
-            <p>{distance} km</p>
+            <p>{% if distance %}{{ distance }} km{% else %}Unknown{% endif %}</p>
         </div>
         <div class="col">
             <h5>Time</h5>
-            <p>Elapsed: {elapsed}<br />
-            Moving: {moving}</p>
+            <p>Elapsed: {{ elapsed }}{% if moving_time_seconds %}<br />
+            Moving: {{moving }} {% endif %}</p>
         </div>
         <div class="col">
-            <h5>Elevation</h5>
-            <p><span title="Elevation gain">📈 {elevation_gain} m</span><br>
-            ℹ️ <a href="#elevation-profile-{uid}" data-bs-toggle="collapse">Click for profile</a></p>
+            {% if elevation_gain %}
+                <h5>Elevation</h5>
+                <p><span title="Elevation gain">📈 {{ elevation_gain }} m</span>
+                {% if elevation_path %}<br>
+                ℹ️ <a href="#elevation-profile-{{ uid }}" data-bs-toggle="collapse">Click for profile</a>{% endif %}</p>
+            {% endif %}
         </div>
     </div>
-    <div class="row collapse" id="elevation-profile-{uid}">
+    <div class="row collapse" id="elevation-profile-{{ uid }}">
         <img src="/files/gpx/{activity_id}/elevation.png" class="img-fluid" />
     </div>
-"""
+""")
 
 activity_html_start = """
     <div class="row">
@@ -110,8 +118,15 @@ class GPXExtension(Extension):
 
 def update_activity(activity):
     activity['elapsed'] = f"{activity['elapsed_time_seconds'] // 3600}h {(activity['elapsed_time_seconds'] % 3600) // 60}m"
-    activity['moving'] = f"{activity['moving_time_seconds'] // 3600}h {(activity['moving_time_seconds'] % 3600) // 60}m"
-    activity['distance'] = f"{activity['distance_meters'] / 1000:.2f}"
+    if activity['moving_time_seconds']:
+        activity['moving'] = f"{activity['moving_time_seconds'] // 3600}h {(activity['moving_time_seconds'] % 3600) // 60}m"
+    else:
+        activity['moving'] = "Unknown"
+    if activity['distance_meters']:
+        activity['distance'] = f"{activity['distance_meters'] / 1000:.2f}"
+    else:
+        activity['distance'] = "Unknown"
+    
 
 class GPXProcessor(InlineProcessor):
     def handleMatch(
@@ -122,17 +137,49 @@ class GPXProcessor(InlineProcessor):
         if not os.path.exists(f"docs/files/gpx/{activity_number}"):
             raise ValueError(f"GPX for activity {activity_number} not found")
         
-        activity = json.load(open(f"docs/files/gpx/{activity_number}/activity.json", "r", encoding="utf8"))
+        activity_path = f"docs/files/gpx/{activity_number}/activity.json"
+        gpx_path = f"docs/files/gpx/{activity_number}/route.gpx"
+        route_path = f"docs/files/gpx/{activity_number}/route.html"
+        elevation_path = f"docs/files/gpx/{activity_number}/elevation.png"
+
+        if not os.path.exists(activity_path):
+            # generate activity.json if info we can figure out from the GPX file
+            gpx_path = f"docs/files/gpx/{activity_number}/route.gpx"
+            if not os.path.exists(gpx_path):
+                raise ValueError(f"GPX file for activity {activity_number} not found")
+            
+            track = gpxo.Track(gpx_path)
+            elapsed_time_seconds = (track.data.values[-1][2] - track.data.values[0][2]).seconds
+            data = {
+                "elapsed_time_seconds": elapsed_time_seconds,
+                "moving_time_seconds": None,
+                # Coros has GPX in the extensions.
+                "distance_meters": float(track._load_points()[-1].extensions[1].text),    
+                "photos": [],
+                "elevation_gain": None,
+                "activity_id": activity_number
+            }
+            with open(activity_path, "w", encoding="utf8") as f:
+                json.dump(data, f, indent=4)
+
+        
+        if not os.path.exists(route_path):
+            generate_map(Path(gpx_path))
+
+        activity = json.load(open(activity_path, "r", encoding="utf8"))
+        activity["elevation_path"] = os.path.exists(elevation_path)
+
         update_activity(activity)
-        html = description_html.format(**activity, uid=activity_number)
-        html += activity_html_start.format(**activity, uid=activity_number)
+        activity["uid"] = activity_number
+        html = description_html.render(**activity)
+        html += activity_html_start.format(**activity)
         for k, photo in enumerate(activity["photos"]):
-            html += activity_html_photo.format(**activity, photo=photo, uid=activity_number, active="active" if not k else "")
-        html += activity_html_end.format(**activity, uid=activity_number)
+            html += activity_html_photo.format(**activity, photo=photo, active="active" if not k else "")
+        html += activity_html_end.format(**activity)
         if activity["photos"]:
-            html += gpx_end.format(**activity, uid=activity_number)
+            html += gpx_end.format(**activity)
         else:
-            html += gpx_end_no_photos.format(**activity, uid=activity_number)
+            html += gpx_end_no_photos.format(**activity)
 
         el = etree.Element("div")
         el.text = self.md.htmlStash.store(html)

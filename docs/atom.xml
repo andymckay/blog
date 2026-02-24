@@ -1,12 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-01-23T16:42:01.042283+00:00</updated>
+    <updated>2026-02-24T04:59:38.128591+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>First Half - 2026</title>
+        <link href="https://mckay.pub/2026-02-23-first-half.html"/>
+        <published>2026-02-23T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-02-23-first-half.html</id>
+        <content type="html">
+            &lt;p&gt;I&#39;ve done the First Half a couple of years now, it&#39;s a half marathon in Vancouver in February and because of that, for many it&#39;s the first half marathon of the year. Hence the name.&lt;/p&gt;
+&lt;p&gt;The nice thing about the race is that it I generally consider October to February prime running season for me. It&#39;s cooler in the winter and I spend less time cycling and backpacking.&lt;/p&gt;
+&lt;p&gt;Doing this race every year let&#39;s me see how I&#39;m doing each year with my fitness levels. This year I got an &lt;a href=&#34;https://www.sharmanultra.com/coaches/elliegreenwood&#34;&gt;amazing running coach&lt;/a&gt; in November, to help me get faster. Together we came up with the goal of getting a personal record on the First Half of beating my last time of &lt;em&gt;2:04:51&lt;/em&gt;. I also set myself a goal of beating 2 hours. Almost 5 minutes faster? Maybe 😀&lt;/p&gt;
+&lt;p&gt;Then in &lt;a href=&#34;https://mckay.pub/2025-12-26-costa-rica.html&#34;&gt;Costa Rica&lt;/a&gt; I injured myself. I ran along a beach (there were few options) and ended up spending 3 weeks not running and then slowly getting back up to speed. This messed up my training schedule.&lt;/p&gt;
+&lt;p&gt;During training I did a half marathon two weeks before and got a half in &lt;em&gt;1:58&lt;/em&gt; (moving time) and &lt;em&gt;2:01&lt;/em&gt; (elapsed time). I did stop for a pee and my airpod fell out. I&#39;d done it! The pressure was off.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+                                                              
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;21.12 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 2h 1m&lt;br /&gt;
+            Moving: 1h 58m &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 121 m&lt;/span&gt;
+                &lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-prefirsthalf&#34;&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/prefirsthalf/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-prefirsthalf&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Admittedly the elapsed time was over an hour, but that elapsed time was perfect.&lt;/p&gt;
+&lt;p&gt;Then to make it worse, I went to the &lt;a href=&#34;https://www.curling.ca/2026scotties/&#34;&gt;Scotties&lt;/a&gt; and Ottawa and getting back to Vancouver the night before.&lt;/p&gt;
+&lt;p&gt;Race day did not go smoothly however. I made some mistakes that compounded. I had a cup of green tea before the race (caffeine alert), at 7km and 14km I had xact gels (caffeine alert). Both of those gels triggered heart problems for me brought on by too much stress (late night before, a minor cold) and too much caffeine.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+                                                              
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;21.32 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 2h 2m&lt;br /&gt;
+            Moving: 1h 56m &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 82 m&lt;/span&gt;
+                &lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-firsthalf&#34;&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/firsthalf/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-firsthalf&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;So I would have run something that would normally be a &lt;em&gt;1:56&lt;/em&gt; pace but I spent a total of 6 minutes on the side of the race recovering from heart problems. The result was that I completed the race in &lt;em&gt;2:02:10&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;So I got my fastest half marathon, yay, well done me. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/files/first-half.jpg&#34; class=&#34;img-fluid&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I avoided any serious heart problems, but did get a good talking to from my cardiologist when I went for a check up afterwards. Avoid the damn caffeine.&lt;/p&gt;
+&lt;p&gt;Next year, below 2 hours without any heart problems.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Ditching Strava</title>
@@ -282,6 +386,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -290,18 +395,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 0h 58m&lt;br /&gt;
-            Moving: 0h 56m&lt;/p&gt;
+            Moving: 0h 56m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 26.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-16561934698&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 26.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-16561934698&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-16561934698&#34;&gt;
-        &lt;img src=&#34;/files/gpx/16561934698/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/16561934698/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -330,6 +437,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -338,18 +446,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 1h 30m&lt;br /&gt;
-            Moving: 0h 19m&lt;/p&gt;
+            Moving: 0h 19m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 12.2 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-16751311395&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 12.2 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-16751311395&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-16751311395&#34;&gt;
-        &lt;img src=&#34;/files/gpx/16751311395/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/16751311395/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -418,6 +528,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -426,18 +537,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 4h 21m&lt;br /&gt;
-            Moving: 3h 45m&lt;/p&gt;
+            Moving: 3h 45m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 682.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15857340650&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 682.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15857340650&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340650&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15857340650/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15857340650/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -479,6 +592,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -487,18 +601,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 7h 9m&lt;br /&gt;
-            Moving: 5h 45m&lt;/p&gt;
+            Moving: 5h 45m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 1222.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15857340804&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 1222.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15857340804&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340804&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15857340804/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15857340804/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -554,6 +670,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -562,18 +679,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 3h 24m&lt;br /&gt;
-            Moving: 2h 47m&lt;/p&gt;
+            Moving: 2h 47m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 857.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15857340589&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 857.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15857340589&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340589&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15857340589/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15857340589/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -616,6 +735,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -624,18 +744,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 2h 38m&lt;br /&gt;
-            Moving: 2h 27m&lt;/p&gt;
+            Moving: 2h 27m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 191.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15857340513&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 191.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15857340513&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15857340513&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15857340513/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15857340513/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -777,6 +899,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -785,18 +908,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 2h 56m&lt;br /&gt;
-            Moving: 2h 42m&lt;/p&gt;
+            Moving: 2h 42m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 641.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15788401032&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 641.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15788401032&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15788401032&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15788401032/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15788401032/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -831,6 +956,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -839,18 +965,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 5h 17m&lt;br /&gt;
-            Moving: 4h 31m&lt;/p&gt;
+            Moving: 4h 31m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 834.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15788401364&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 834.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15788401364&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15788401364&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15788401364/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15788401364/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -896,6 +1024,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -904,18 +1033,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 3h 2m&lt;br /&gt;
-            Moving: 2h 54m&lt;/p&gt;
+            Moving: 2h 54m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 186.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15788401454&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 186.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15788401454&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15788401454&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15788401454/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15788401454/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -5022,6 +5153,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -5030,18 +5162,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 2h 13m&lt;br /&gt;
-            Moving: 2h 8m&lt;/p&gt;
+            Moving: 2h 8m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 785.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15684874430&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 785.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15684874430&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15684874430&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15684874430/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15684874430/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -5083,6 +5217,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -5091,18 +5226,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 5h 56m&lt;br /&gt;
-            Moving: 4h 2m&lt;/p&gt;
+            Moving: 4h 2m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 827.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15684943622&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 827.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15684943622&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15684943622&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15684943622/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15684943622/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
@@ -5147,6 +5284,7 @@
 &lt;p&gt;
 &lt;div&gt;
 &lt;div class=&#34;gpx&#34;&gt;
+                                                              
     &lt;div class=&#34;row align-items-start&#34;&gt;
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Distance&lt;/h5&gt;
@@ -5155,18 +5293,20 @@
         &lt;div class=&#34;col&#34;&gt;
             &lt;h5&gt;Time&lt;/h5&gt;
             &lt;p&gt;Elapsed: 1h 50m&lt;br /&gt;
-            Moving: 1h 46m&lt;/p&gt;
+            Moving: 1h 46m &lt;/p&gt;
         &lt;/div&gt;
         &lt;div class=&#34;col&#34;&gt;
-            &lt;h5&gt;Elevation&lt;/h5&gt;
-            &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 97.0 m&lt;/span&gt;&lt;br&gt;
-            ℹ️ &lt;a href=&#34;#elevation-profile-15684943044&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 97.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-15684943044&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-15684943044&#34;&gt;
-        &lt;img src=&#34;/files/gpx/15684943044/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+        &lt;img src=&#34;/files/gpx/{activity_id}/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
     &lt;/div&gt;
-
     &lt;div class=&#34;row&#34;&gt;
         &lt;iframe src=&#34;/files/gpx/15684943044/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
     &lt;/div&gt;

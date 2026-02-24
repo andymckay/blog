@@ -566,5 +566,13 @@
     "aperture": null,
     "shutter": null,
     "description": ""
+  },
+  "/files/first-half.jpg": {
+    "lens": "Not recorded",
+    "model": null,
+    "iso": "Not recorded",
+    "aperture": null,
+    "shutter": null,
+    "description": ""
   }
 }
