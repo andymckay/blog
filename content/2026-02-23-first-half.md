@@ -4,7 +4,7 @@ title: First Half - 2026
 categories: running
 ---
 
-I've done the First Half a couple of years now, it's a half marathon in Vancouver in February and because of that, for many it's the first half marathon of the year. Hence the name.
+I've done the [First Half](https://firsthalf.ca/) a couple of years now, it's a half marathon in Vancouver in February and because of that, for many it's the first half marathon of the year. Hence the name.
 
 The nice thing about the race is that it I generally consider October to February prime running season for me. It's cooler in the winter and I spend less time cycling and backpacking.
 
