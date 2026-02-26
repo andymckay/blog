@@ -16,7 +16,7 @@ During training I did a half marathon two weeks before and got a half in *1:58* 
 
 [gpx#prefirsthalf]
 
-Admittedly the elapsed time was over an hour, but that elapsed time was perfect.
+Admittedly the elapsed time was over an hour, but the moving time was perfect.
 
 Then to make it worse, I went to the [Scotties](https://www.curling.ca/2026scotties/) and Ottawa and getting back to Vancouver the night before.
 
