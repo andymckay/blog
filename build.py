@@ -230,7 +230,6 @@ def get_content():
                 except Exception as e:
                     print(f"🔴 Error processing Markdown in {filename}: {e}")
                     raise
-                    continue
 
         if not content.meta.get("categories"):
             content.meta["categories"] = []

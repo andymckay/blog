@@ -574,5 +574,61 @@
     "aperture": null,
     "shutter": null,
     "description": ""
+  },
+  "/files/4T9A1744.jpeg": {
+    "lens": "Canon EF-S 18-55mm f/3.5-5.6 IS",
+    "model": "Canon EOS R7",
+    "iso": 100,
+    "aperture": 4.0,
+    "shutter": "1/80",
+    "description": "Mist on the trail"
+  },
+  "/files/4T9A1690_DxO.jpeg": {
+    "lens": "Canon EF-S 18-55mm f/3.5-5.6 IS",
+    "model": "Canon EOS R7",
+    "iso": 125,
+    "aperture": 9.0,
+    "shutter": 0.5,
+    "description": "Water over the bridge"
+  },
+  "/files/4T9A1081.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 5000,
+    "aperture": 7.1,
+    "shutter": "1/1000",
+    "description": "Song Sparrow"
+  },
+  "/files/4T9A1297.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 800,
+    "aperture": 6.3,
+    "shutter": "1/1000",
+    "description": "American Coot and it's reflection"
+  },
+  "/files/4T9A1794.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 6400,
+    "aperture": 9.0,
+    "shutter": "1/1250",
+    "description": "Great Blue Heron"
+  },
+  "/files/4T9A1989_DxO.jpeg": {
+    "lens": "Canon RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 640,
+    "aperture": 10.0,
+    "shutter": "1/2000",
+    "description": "Anna's Hummingbird"
+  },
+  "/files/37F9ABF3-E6FB-44DA-BD78-BF4C7EB246BB.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 3200,
+    "aperture": 9,
+    "shutter": "1/1000",
+    "description": ""
   }
 }

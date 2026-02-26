@@ -1,12 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-02-24T05:05:05.630143+00:00</updated>
+    <updated>2026-02-26T03:31:41.115309+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>February photos</title>
+        <link href="https://mckay.pub/2026-02-25-feb-pictures.html"/>
+        <published>2026-02-25T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-02-25-feb-pictures.html</id>
+        <content type="html">
+            &lt;p&gt;Over January and February I really got chance to explore the Vancouver area with a new camera and lens that I purchased after &lt;a href=&#34;/2025-12-26-costa-rica.html&#34;&gt;Costa Rica&lt;/a&gt;. The result is way too many photos, some of which are below.&lt;/p&gt;
+&lt;p&gt;Areas the following photos are from:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deep Cove trails&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wildbirdtrust.org/visit-maplewood-flats/&#34;&gt;Maplewood Flats&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://metrovancouver.org/services/regional-parks/park/boundary-bay-regional-park&#34;&gt;Boundary Bay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Squamish&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pac.dfo-mpo.gc.ca/sep-pmvs/hatcheries-ecloseries/tenderfoot-eng.html&#34;&gt;Tenderfoot hatchery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-19c72971393851b1b8486f73dc5f2b1d&#34;&gt;
+    &lt;div class=&#34;carousel-inner&#34;&gt;
+
+        &lt;div class=&#34;carousel-item active&#34;&gt;
+            &lt;img src=&#34;/files/4T9A1081.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Song Sparrow&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 5000 &amp;bull; Aperture: 7.1 &amp;bull; Shutter speed: 1/1000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/37F9ABF3-E6FB-44DA-BD78-BF4C7EB246BB.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 3200 &amp;bull; Aperture: 9 &amp;bull; Shutter speed: 1/1000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A1989_DxO.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Anna&#39;s Hummingbird&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; Canon RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 640 &amp;bull; Aperture: 10.0 &amp;bull; Shutter speed: 1/2000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A1794.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Great Blue Heron&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 6400 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A1744.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Mist on the trail&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; Canon EF-S 18-55mm f/3.5-5.6 IS&lt;br /&gt;
+          ISO: 100 &amp;bull; Aperture: 4.0 &amp;bull; Shutter speed: 1/80
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A1690_DxO.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;Water over the bridge&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; Canon EF-S 18-55mm f/3.5-5.6 IS&lt;br /&gt;
+          ISO: 125 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 0.5
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+        &lt;div class=&#34;carousel-item &#34;&gt;
+            &lt;img src=&#34;/files/4T9A1297.jpeg&#34; class=&#34;d-block w-100&#34;&gt;
+            
+    &lt;div class=&#34;carousel-caption d-none d-md-block fs-6&#34;&gt;
+        &lt;p&gt;
+          &lt;b&gt;American Coot and it&#39;s reflection&lt;/b&gt;&lt;br /&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 800 &amp;bull; Aperture: 6.3 &amp;bull; Shutter speed: 1/1000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;button class=&#34;carousel-control-prev&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-19c72971393851b1b8486f73dc5f2b1d&#34; data-bs-slide=&#34;prev&#34;&gt;
+        &lt;span class=&#34;carousel-control-prev-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;visually-hidden&#34;&gt;Previous&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;carousel-control-next&#34; type=&#34;button&#34; data-bs-target=&#34;#carousel-id-19c72971393851b1b8486f73dc5f2b1d&#34; data-bs-slide=&#34;next&#34;&gt;
+        &lt;span class=&#34;carousel-control-next-icon&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;
+        &lt;span class=&#34;visually-hidden&#34;&gt;Next&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/div&gt;
+&lt;a href=&#34;2026-02-25-feb-pictures-carousel.html&#34;&gt;View in full screen&lt;/a&gt; 🔎&lt;/p&gt;
+&lt;p&gt;It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you never know when that wildlife is going to pop up.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>First Half - 2026</title>
