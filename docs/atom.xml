@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-02-28T00:42:01.648054+00:00</updated>
+    <updated>2026-02-28T00:46:27.456421+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -24,13 +24,10 @@
 &lt;li&gt;&lt;a href=&#34;https://www.pac.dfo-mpo.gc.ca/sep-pmvs/hatcheries-ecloseries/tenderfoot-eng.html&#34;&gt;Tenderfoot hatchery&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-0&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-0&#34;&gt;&lt;/a&gt;Song Sparrow&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A1081.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Song Sparrow&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 5000 &amp;bull; Aperture: 7.1 &amp;bull; Shutter speed: 1/1000
@@ -41,13 +38,10 @@
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-1&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-1&#34;&gt;&lt;/a&gt;Spreading wings&lt;/h4&gt;
             &lt;img src=&#34;/files/37F9ABF3-E6FB-44DA-BD78-BF4C7EB246BB.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 3200 &amp;bull; Aperture: 9 &amp;bull; Shutter speed: 1/1000
@@ -58,13 +52,10 @@
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-2&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-2&#34;&gt;&lt;/a&gt;Anna&#39;s Hummingbird&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A1989_DxO.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Anna&#39;s Hummingbird&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; Canon RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 640 &amp;bull; Aperture: 10.0 &amp;bull; Shutter speed: 1/2000
@@ -75,13 +66,10 @@
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-3&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-3&#34;&gt;&lt;/a&gt;Great Blue Heron&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A1794.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Great Blue Heron&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 6400 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
@@ -92,13 +80,10 @@
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-4&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-4&#34;&gt;&lt;/a&gt;Mist on the trail&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A1744.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Mist on the trail&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; Canon EF-S 18-55mm f/3.5-5.6 IS&lt;br /&gt;
           ISO: 100 &amp;bull; Aperture: 4.0 &amp;bull; Shutter speed: 1/80
@@ -109,13 +94,10 @@
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-5&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-5&#34;&gt;&lt;/a&gt;Water over the bridge&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A1690_DxO.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Water over the bridge&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; Canon EF-S 18-55mm f/3.5-5.6 IS&lt;br /&gt;
           ISO: 125 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 0.5
@@ -126,13 +108,10 @@
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-6&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-19c72971393851b1b8486f73dc5f2b1d-6&#34;&gt;&lt;/a&gt;American Coot and it&#39;s reflection&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A1297.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;American Coot and it&#39;s reflection&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 800 &amp;bull; Aperture: 6.3 &amp;bull; Shutter speed: 1/1000
@@ -328,13 +307,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         <content type="html">
             &lt;p&gt;The Wild Bird Trust of BC has a conservation area in North Vancouver, by Dollarton Highway. On a sunny day last week we popped by with our cameras and was able to see more birds than we expected. Turns it out there were some nice, rather common, birds there:&lt;/p&gt;
 &lt;p&gt;&lt;div&gt;
-            &lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-0&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-0&#34;&gt;&lt;/a&gt;Bald Eagle&lt;/h4&gt;
             &lt;img src=&#34;/files/IMG_6298.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Bald Eagle&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS 90D &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
           ISO: 25600 &amp;bull; Aperture: 29.0 &amp;bull; Shutter speed: 1/8000
@@ -345,13 +321,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-1&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-1&#34;&gt;&lt;/a&gt;Bald Eagle in nest&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A0149.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Bald Eagle in nest&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 640 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
@@ -362,13 +335,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-2&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-2&#34;&gt;&lt;/a&gt;Wood Duck&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A0088.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Wood Duck&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 6400 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
@@ -379,13 +349,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-3&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-3&#34;&gt;&lt;/a&gt;Varied Thrush&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A0215.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Varied Thrush&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 800 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
@@ -396,13 +363,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-4&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-4&#34;&gt;&lt;/a&gt;Song Sparrow&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A0106.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Song Sparrow&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 6400 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1250
@@ -413,13 +377,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-5&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-6a7abbc3ea1169d2abc990c4008879b3-5&#34;&gt;&lt;/a&gt;Spotted Towhee&lt;/h4&gt;
             &lt;img src=&#34;/files/4T9A0054.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Spotted Towhee&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
           ISO: 6400 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/640
@@ -443,13 +404,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
 &lt;p&gt;As a result, I did get to spend more time taking photographs of the amazing wildlife in Costa Rica. Photography has always been something I&#39;ve enjoyed, but I found wildlife photography especially fun. There&#39;s the challenge of finding the animal or plant you want to photograph, then framing the shot, hoping the light is to your advantage, getting the right gear in place. After all that, you &lt;em&gt;might get a great photo, you might not&lt;/em&gt;. &lt;/p&gt;
 &lt;p&gt;We ended up with over 3,500 photographs and culled it down to 130 that we&#39;ll keep in our album. Here&#39;s some of my favourites, but there are so many more good ones:&lt;/p&gt;
 &lt;p&gt;&lt;div&gt;
-            &lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-0&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-0&#34;&gt;&lt;/a&gt;Rufous-tailed Hummingbird&lt;/h4&gt;
             &lt;img src=&#34;/files/IMG_2079.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Rufous-tailed Hummingbird&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS Rebel T7 &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
           ISO: 3200 &amp;bull; Aperture: 6.3 &amp;bull; Shutter speed: 1/500
@@ -460,13 +418,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-1&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-1&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
             &lt;img src=&#34;/files/IMG_1877.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS Rebel T7 &amp;bull; Canon EF-S18-135mm f/3.5-5.6 IS USM&lt;br /&gt;
           ISO: 320 &amp;bull; Aperture: 5.6 &amp;bull; Shutter speed: 1/200
@@ -477,13 +432,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-2&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-2&#34;&gt;&lt;/a&gt;Frog spawn on a leaf&lt;/h4&gt;
             &lt;img src=&#34;/files/IMG_4123.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Frog spawn on a leaf&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS 90D &amp;bull; Canon EF 50mm f/2.5 Macro&lt;br /&gt;
           ISO: 100 &amp;bull; Aperture: 3.5 &amp;bull; Shutter speed: 1/250
@@ -494,13 +446,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-3&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-3&#34;&gt;&lt;/a&gt;Caiman&lt;/h4&gt;
             &lt;img src=&#34;/files/IMG_3904.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Caiman&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS 90D &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
           ISO: 1000 &amp;bull; Aperture: 6.3 &amp;bull; Shutter speed: 1/1000
@@ -511,13 +460,10 @@ It&#39;s rare I go out &lt;em&gt;without&lt;/em&gt; my camera and lens now, you 
         &lt;/div&gt;
 
         &lt;div&gt;
-            &lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-4&#34;&gt;&lt;/a&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c4eecdfb444a2fcd774e5594ac992503-4&#34;&gt;&lt;/a&gt;Howler Monkey&lt;/h4&gt;
             &lt;img src=&#34;/files/IMG_4349.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
             
     &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
-        &lt;p&gt;
-          &lt;b&gt;Howler Monkey&lt;/b&gt;&lt;br /&gt;
-        &lt;/p&gt;
         &lt;p class=&#34;exifdata&#34;&gt;
           Canon EOS 90D &amp;bull; Sigma 150-500mm f/5-6.3 APO DG OS HSM&lt;br /&gt;
           ISO: 2000 &amp;bull; Aperture: 5.6 &amp;bull; Shutter speed: 1/800

@@ -76,7 +76,7 @@ gpx_end_no_photos = """
 
 carousel_html_element = """
         <div>
-            <a id="carousel-{uid}-{k}"></a>
+            <h4><a id="carousel-{uid}-{k}"></a>{description}</h4>
             <img src="{url}" class="img-fluid photo">
             {caption}
             <hr>
@@ -85,9 +85,6 @@ carousel_html_element = """
 
 carousel_caption = """
     <div class="img-fluid photo-caption">
-        <p>
-          <b>{description}</b><br />
-        </p>
         <p class="exifdata">
           {model} &bull; {lens}<br />
           ISO: {iso} &bull; Aperture: {aperture} &bull; Shutter speed: {shutter}
@@ -205,7 +202,7 @@ class CarouselProcessor(Preprocessor):
                                 caption = carousel_caption.format(uid=uid, k=k, **exif)
                             else:
                                 caption = ""    
-                            html += carousel_html_element.format(uid=uid, k=k, url=img, active="active" if not k else "", caption=caption)
+                            html += carousel_html_element.format(uid=uid, k=k, url=img, active="active" if not k else "", caption=caption, **exif)
                     placeholder = self.md.htmlStash.store(html.strip())
                     output.append(placeholder)
 
