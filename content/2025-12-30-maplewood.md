@@ -14,5 +14,3 @@ The Wild Bird Trust of BC has a conservation area in North Vancouver, by Dollart
     /files/4T9A0215.jpeg
     /files/4T9A0106.jpeg
     /files/4T9A0054.jpeg
-
-<a href="2025-12-30-maplewood-carousel.html">View in full screen</a> 🔎

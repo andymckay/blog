@@ -15,7 +15,6 @@ gpx_re = r"\[(?P<prefix>gpx#)(?P<activity_number>\w+)\]"
 
 description_html = Environment(loader=BaseLoader).from_string("""
 <div class="gpx">
-                                                              {{ context }}
     <div class="row align-items-start">
         <div class="col">
             <h5>Distance</h5>
@@ -75,35 +74,21 @@ gpx_end_no_photos = """
 </div>
 """
 
-carousel_html_start = """
-<div class="carousel slide col-md-12" id="carousel-id-{uid}">
-    <div class="carousel-inner">
-"""
-
-carousel_html_end = """
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel-id-{uid}" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
-"""
-
 carousel_html_element = """
-        <div class="carousel-item {active}">
-            <img src="{url}" class="d-block w-100">
+        <div>
+            <a id="carousel-{uid}-{k}"></a>
+            <img src="{url}" class="img-fluid photo">
             {caption}
+            <hr>
         </div>
 """
 
 carousel_caption = """
-    <div class="carousel-caption d-none d-md-block fs-6">
+    <div class="img-fluid photo-caption">
         <p>
           <b>{description}</b><br />
+        </p>
+        <p class="exifdata">
           {model} &bull; {lens}<br />
           ISO: {iso} &bull; Aperture: {aperture} &bull; Shutter speed: {shutter}
         </p>
@@ -212,16 +197,15 @@ class CarouselProcessor(Preprocessor):
                 if not line.strip():
                     uid = hashlib.md5("".join(imgs).encode('utf-8')).hexdigest()
                     in_carousel = False
-                    html = carousel_html_start.format(uid=uid)
+                    html = ""
                     for (k, img) in enumerate(imgs):
                         if (img.strip()):
                             exif = self.exifdata.get(img.strip(), {})
                             if exif:
-                                caption = carousel_caption.format(**exif)
+                                caption = carousel_caption.format(uid=uid, k=k, **exif)
                             else:
                                 caption = ""    
-                            html += carousel_html_element.format(url=img, active="active" if not k else "", caption=caption)
-                    html += carousel_html_end.format(uid=uid)
+                            html += carousel_html_element.format(uid=uid, k=k, url=img, active="active" if not k else "", caption=caption)
                     placeholder = self.md.htmlStash.store(html.strip())
                     output.append(placeholder)
 

@@ -24,6 +24,4 @@ Areas the following photos are from:
     /files/4T9A1690_DxO.jpeg
     /files/4T9A1297.jpeg
 
-<a href="2026-02-25-feb-pictures-carousel.html">View in full screen</a> 🔎
-
 It's rare I go out *without* my camera and lens now, you never know when that wildlife is going to pop up.

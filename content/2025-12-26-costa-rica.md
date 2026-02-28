@@ -20,8 +20,6 @@ We ended up with over 3,500 photographs and culled it down to 130 that we'll kee
     /files/IMG_3904.jpeg
     /files/IMG_4349.jpeg
 
-<p><a href="2025-12-26-costa-rica-carousel.html">View in full screen</a> 🔎</p>
-
 This is a hobby that combines hiking and spending time outside, so expect to see more.
 
 ### Running in Costa Rica

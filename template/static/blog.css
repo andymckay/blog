@@ -169,3 +169,7 @@
         padding-bottom: 0.5em;
         border-bottom: 1px solid #727272;
     }
+    
+    .exifdata {
+        font-size: 0.7em;
+    }
