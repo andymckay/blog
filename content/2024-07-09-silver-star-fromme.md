@@ -6,7 +6,6 @@ categories: hiking, canada, BC
 ---
 
 Bagged: ✅ Mount Fromme
-<p>ℹ️ <a href="/files/peaks-bagged.html">List of 2024 peaks bagged</a>.</p>
 
 <hr class="florished">
 

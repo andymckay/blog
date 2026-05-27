@@ -83,24 +83,13 @@ class Post(Content):
         if self.filename in images:
             return images[self.filename]
 
-        print("ℹ️ Fetching Strava image for", self.filename)
-        soup = BeautifulSoup(self.html, features="html.parser")
+        print("ℹ️ Getting image for", self.filename)
         url = None
-        for embed in soup.find_all("div", class_="strava-embed-placeholder"):
-            if embed["data-embed-type"] == "activity":
-                strava_id = embed["data-embed-id"]
-                
-                try:
-                    activity = client.get_activity(strava_id)
-                except exc.AccessUnauthorized:
-                    print("❌ try running `source .strava` to get the Strava credentials.")
-                    raise
-
-                try:
-                    url = activity.photos.primary.urls["600"]
-                    break
-                except AttributeError as e:
-                    print(f"❌ Error fetching Strava image for {strava_id}: {e}")
+        soup = BeautifulSoup(self.html, features="html.parser")
+        for img in soup.find_all("img"):
+            src = img.get("src")
+            if src and src.startswith("/files/gpx"):
+                url = src
 
         images[self.filename] = url
         with open("images.json", "w") as f:
