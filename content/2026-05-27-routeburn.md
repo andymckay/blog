@@ -46,10 +46,12 @@ The last day goes along the side of the mountain, again with gorgeous views and 
 
 The hike out to the divide is pretty straightforward, although I did get derailed by a Waka, who just wanted to hang out. A few other birds, including Kea sightings made this more interesting. At the divide I had to wait an hour or two to get a bus down to Te Anau where I'd have a rest, restock and head out on the next trail.
 
+*Note:* I stopped and forgot to start my watch after lunch, so there's about 2km missing from the GPX data on this hike.
+
 ### Summary
 
 A lovely trail, featuring forest, mountain passes, lakes and all the usual New Zealand wonders. As a Great Track its in amazing shape and the trail is very well maintained. At Routeburn Flat there are even flush toilets. Because it's so short it attracts day hikers from either end and people running it too. One group were "having to hustle to catch their helicopter 🙄".
 
 Because the Divide is on the road to Milford Sound, I think a lot of people stop and day hike from there on their way to the Sound. This detracted from the overall fun for me a bit, I like my hikes to have people on them - just not too many.
 
-I'm glad I did this hike, but I wouldn't do it again unless a friend wanted to do so or the weather meant the views from Harris Saddle were clear and spectacular. 
+I'm glad I did this hike, but I wouldn't do it again unless a friend wanted to do so or the weather meant the views from Harris Saddle were clear and spectacular.
