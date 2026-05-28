@@ -294,10 +294,12 @@ class Handler(FileSystemEventHandler):
     def on_any_event(event):
         if event.src_path.find("blog/docs") > -1:
             return
+        elif event.src_path.find(".git") > -1:
+            return
         elif event.is_directory:
             return
         else:
-            print("ℹ️ Event detected:", event.event_type, "on file:", event.src_path)
+            print("ℹ️ Event detected", event.event_type, "on file:", event.src_path)
             build()
 
 

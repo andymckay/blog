@@ -35,7 +35,7 @@ description_html = Environment(loader=BaseLoader).from_string("""
         </div>
     </div>
     <div class="row collapse" id="elevation-profile-{{ uid }}">
-        <img src="/files/gpx/{activity_id}/elevation.png" class="img-fluid" />
+        <img src="/files/gpx/{{activity_id}}/elevation.png" class="img-fluid" />
     </div>
 """)
 
@@ -50,7 +50,7 @@ activity_html_start = """
 
 activity_html_photo = """
                 <div class="carousel-item {active}">
-                    <img src="/files/gpx/{activity_id}/{photo}.jpg" class="img-fluid photo">
+                    <img src="/files/gpx/{activity_id}/{photo}" class="img-fluid photo">
                 </div>
 """
 
@@ -123,6 +123,7 @@ class GPXProcessor(InlineProcessor):
         gpx_path = f"docs/files/gpx/{activity_number}/route.gpx"
         route_path = f"docs/files/gpx/{activity_number}/route.html"
         elevation_path = f"docs/files/gpx/{activity_number}/elevation.png"
+        photos_path = f"docs/files/gpx/{activity_number}/"
 
         if not os.path.exists(activity_path):
             # generate activity.json if info we can figure out from the GPX file
@@ -132,16 +133,18 @@ class GPXProcessor(InlineProcessor):
             
             track = gpxo.Track(gpx_path)
             elapsed_time_seconds = (track.data.values[-1][2] - track.data.values[0][2]).seconds
+            dist = track.data.to_dict()["distance (km)"]
             data = {
                 "elapsed_time_seconds": elapsed_time_seconds,
                 "moving_time_seconds": None,
                 # Coros has GPX in the extensions.
-                "distance_meters": float(track._load_points()[-1].extensions[1].text),    
-                "photos": [],
+                "distance_meters": round(float(dist[len(dist)-1]) * 1000, 2) if len(dist) else 0.5,
+                "photos": [f for f in os.listdir(photos_path) if f.lower().endswith((".jpg", ".jpeg"))],
                 "elevation_gain": None,
                 "activity_id": activity_number
             }
             with open(activity_path, "w", encoding="utf8") as f:
+                print(f"  ℹ️ Generated activity.json for {activity_number} based on GPX data")
                 json.dump(data, f, indent=4)
 
         
@@ -156,9 +159,11 @@ class GPXProcessor(InlineProcessor):
         html = description_html.render(**activity)
         html += activity_html_start.format(**activity)
         for k, photo in enumerate(activity["photos"]):
+            if not photo.lower().endswith((".jpg", ".jpeg")):
+                photo = f"{photo}.jpg"
             html += activity_html_photo.format(**activity, photo=photo, active="active" if not k else "")
         html += activity_html_end.format(**activity)
-        if activity["photos"]:
+        if len(activity["photos"]) > 1:
             html += gpx_end.format(**activity)
         else:
             html += gpx_end_no_photos.format(**activity)

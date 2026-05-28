@@ -3,6 +3,9 @@
     "moving_time_seconds": 7116,
     "distance_meters": 21124.0,
     "photos": [],
-    "elevation_gain": 121,
-    "activity_id": "prefirsthalf"
+    "elevation_gain": 140.0,
+    "activity_id": "prefirsthalf",
+    "max_height": 111.0,
+    "min_height": -3.0,
+    "elevation_loss": 220.0
 }
