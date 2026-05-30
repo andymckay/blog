@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-05-28T21:16:51.789894+00:00</updated>
+    <updated>2026-05-30T16:53:29.006091+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -54,12 +54,18 @@
                     &lt;img src=&#34;/files/gpx/routeburnone/IMG_5858.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
                 &lt;/div&gt;
 
+                &lt;div class=&#34;carousel-item &#34;&gt;
+                    &lt;img src=&#34;/files/gpx/routeburnone/AND_4544.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
 &lt;/div&gt;
 &lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+        &lt;button type=&#34;button&#34; class=&#34;col-auto me-auto btn btn-outline-secondary&#34; data-bs-target=&#34;#carousel-id-routeburnone&#34; data-bs-slide=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+        &lt;button type=&#34;button&#34; class=&#34;col-auto btn btn-outline-secondary&#34; data-bs-target=&#34;#carousel-id-routeburnone&#34; data-bs-slide=&#34;next&#34;&gt;Next&lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
