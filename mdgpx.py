@@ -7,7 +7,7 @@ import json
 import os
 import hashlib
 import gpxo
-from rendergpx import generate_map
+from rendergpx import generate_map, generate_elevation_plot
 from pathlib import Path
 from jinja2 import Environment, BaseLoader
 
@@ -148,10 +148,16 @@ class GPXProcessor(InlineProcessor):
                 json.dump(data, f, indent=4)
 
         
+        activity = json.load(open(activity_path, "r", encoding="utf8"))
+        
         if not os.path.exists(route_path):
             generate_map(Path(gpx_path))
 
-        activity = json.load(open(activity_path, "r", encoding="utf8"))
+        if not os.path.exists(elevation_path) or activity["elevation_gain"] is None:
+            generate_elevation_plot(Path(gpx_path))
+            activity = json.load(open(activity_path, "r", encoding="utf8"))
+
+        
         activity["elevation_path"] = os.path.exists(elevation_path)
 
         update_activity(activity)

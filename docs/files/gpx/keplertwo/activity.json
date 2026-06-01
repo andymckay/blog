@@ -1,0 +1,15 @@
+{
+    "elapsed_time_seconds": 18274,
+    "moving_time_seconds": null,
+    "distance_meters": 16169.63,
+    "photos": [
+        "AND_5039.jpeg",
+        "AND_5036.jpeg",
+        "AND_5026.jpeg"
+    ],
+    "elevation_gain": 861.0,
+    "activity_id": "keplertwo",
+    "max_height": 1477.0,
+    "min_height": 450.0,
+    "elevation_loss": 1456.0
+}

@@ -630,5 +630,13 @@
     "aperture": 9,
     "shutter": "1/1000",
     "description": "Spreading wings"
+  },
+  "/files/kea-warning.jpg": {
+    "lens": "Not recorded",
+    "model": null,
+    "iso": "Not recorded",
+    "aperture": null,
+    "shutter": null,
+    "description": ""
   }
 }
