@@ -1,12 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-02T14:09:53.421120+00:00</updated>
+    <updated>2026-06-03T18:33:57.360515+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Northburn Half</title>
+        <link href="https://mckay.pub/2026-06-03-northburn.html"/>
+        <published>2026-06-03T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-06-03-northburn.html</id>
+        <content type="html">
+            &lt;p&gt;What do you do after you&#39;ve completed the &lt;a href=&#34;/2026-05-29-kepler.html&#34;&gt;Kepler&lt;/a&gt; and &lt;a href=&#34;/2026-05-27-routeburn.html&#34;&gt;Routeburn&lt;/a&gt; Tracks? You do a half marathon up the side of a big hill. Well at least that&#39;s what I did.&lt;/p&gt;
+&lt;p&gt;In 2026 I decided to set myself the goal of doing a half marathon every month as a way to set a better base level of fitness. Sometimes it&#39;s a training run by myself or sometimes it&#39;s a race. In February I did the &lt;a href=&#34;/2026-02-23-first-half.html&#34;&gt;First Half&lt;/a&gt; and had some heart problems but set a personal record for that race. Since I was in New Zealand, I tried to find a race and ended up at the &lt;a href=&#34;https://www.northburn100.co.nz/&#34;&gt;Northburn&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So two days after completing the Kepler I was at the start of the Northburn trail run to complete a half marathon. The Northburn 100 is aimed at people who want to do a 100 km or 100 mile race, but it&#39;s still a small race. Gathered in a field by a lake near Cromwell the 23 racers got a pre-race briefing, which is basically &#34;follow the flags, get lost and I&#39;ll take the piss out of you&#34;. It was a fun event.&lt;/p&gt;
+&lt;p&gt;Over the weekend people suffered with the large distances, and they threw in a few small loops for us less crazy people. Seeing people do over 100 km taking breaks from their loops looking so tired and beaten up made me feel kinda rubbish for only doing 21 km, but I that&#39;s fine.&lt;/p&gt;
+&lt;p&gt;I never went into this race expecting to get a personal record or do well. It was for fun. The weather was warm with full sun, no shade, and starting at 9am. The organizers said it was unseasonally sunny and warm. Also there was an aggressive wasps nest on the loop, so a diversion was up a really steep hill, yay.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;21.05 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 2h 52m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 896.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-northburn&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-northburn&#34;&gt;
+        &lt;img src=&#34;/files/gpx/northburn/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/northburn/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-northburn&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/northburn/IMG_4116.JPG&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Anyway with only 23 people in the field, it split up quickly and by the end of the first hill I was effectively on my own. People were in the distance in front of me... until they went out of view. And it just go hotter.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Kepler Track</title>
@@ -68,7 +127,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;Starting off in Te Anau, you have a nice walk out around the lake and off into the woods. It was cool sitting in Te Anau by the lake and looking at the mountain you are about to climb nice and clear across the lake.&lt;/p&gt;
+&lt;p&gt;Starting off in Te Anau, you have a nice walk out around the lake and off into the woods. It was cool sitting in Te Anau by the lake and looking at the mountain you are about to climb clearly across the lake.&lt;/p&gt;
 &lt;p&gt;The woods are beautiful, green, and mossy with some nice beaches. At about halfway at Brody Bay there is a campsite. At this point the trail turns left and goes up about 800m 😀&lt;/p&gt;
 &lt;p&gt;On this trail, I got to encounter two &lt;a href=&#34;https://en.wikipedia.org/wiki/Kea&#34;&gt;Kea parrots&lt;/a&gt;, who were just playing and hanging out on the trail. The defining part of this hike for me was spending 4 days in Kea territory. They are amazing animals and spending time with these wonderful, inquisitive and intelligent animals was a highlight of my whole holiday. There&#39;ll likely be another post about these animals.&lt;/p&gt;
 &lt;p&gt;The hike ended at Luxmore Hut which sits on a ridge looking out over Lake Te Anau and has an amazing view across mountains. The Murchison mountains across the lake are where the &lt;a href=&#34;https://en.wikipedia.org/wiki/Takah%C4%93&#34;&gt;Takahē&lt;/a&gt; was found and brought back from extinction.&lt;/p&gt;
