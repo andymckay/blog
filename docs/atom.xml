@@ -1,12 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-03T19:23:10.978924+00:00</updated>
+    <updated>2026-06-08T01:35:43.832451+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Wilsons Promontory</title>
+        <link href="https://mckay.pub/2026-06-07-wilson.html"/>
+        <published>2026-06-07T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-06-07-wilson.html</id>
+        <content type="html">
+            &lt;p&gt;&lt;a href=&#34;https://www.parks.vic.gov.au/places-to-see/parks/wilsons-promontory-national-park&#34;&gt;Wilsons Promontory&lt;/a&gt; is a park at the southern tip of the Australia. Well it&#39;s the southern most part of what people in Tasmania call &#34;the mainland&#34;, because Tasmania is the southern most tip. &lt;/p&gt;
+&lt;p&gt;It&#39;s a beautiful park, but when we visited was buffeted by strong, strong winds, whipped with rain and generally just pretty rough. It&#39;s like the wind and rain was coming straight from Antarctica. The result was that saw huge waves crashing up on the rocks and deserted beaches.&lt;/p&gt;
+&lt;p&gt;On the second to last day we were there, the sun came out in the morning and I got to do a decent hike, sadly not overnight but long enough to write about 😁&lt;/p&gt;
+&lt;p&gt;The original route of choice was the much longer hike over to Sealers Cove, but that trail was currently closed. &lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;22.12 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 4h 38m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 643.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-wilsons&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-wilsons&#34;&gt;
+        &lt;img src=&#34;/files/gpx/wilsons/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/wilsons/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-wilsons&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/wilsons/IMG_8623.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&#34;carousel-item &#34;&gt;
+                    &lt;img src=&#34;/files/gpx/wilsons/IMG_8622.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+        &lt;button type=&#34;button&#34; class=&#34;col-auto me-auto btn btn-outline-secondary&#34; data-bs-target=&#34;#carousel-id-wilsons&#34; data-bs-slide=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+        &lt;button type=&#34;button&#34; class=&#34;col-auto btn btn-outline-secondary&#34; data-bs-target=&#34;#carousel-id-wilsons&#34; data-bs-slide=&#34;next&#34;&gt;Next&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;So instead my route was from Tidal River hugging the coast, through Little Oberon Bay. Then turning right inland to Telegraph Junction. At that I headed north to the slopes of Mount Oberon, then back into Tidal River.&lt;/p&gt;
+&lt;p&gt;The hike down along the coast was the absolute highlight. Featuring birds, kangaroos and about 5 humans in total. I was all alone in Little Oberon Bay, just enjoying a pristine and deserted beach. &lt;/p&gt;
+&lt;p&gt;There was a creek to cross that wasn&#39;t hard, but I did head quite far out on the beach till it was really shallow. &lt;/p&gt;
+&lt;p&gt;The walk inland was on wide sandy or gravel roads and wasn&#39;t that interesting. Eventually I got into &#34;just get it done&#34; mode. The trail was a bit busier as this the main north - south route from Tidal River down to the Lighthouse or Roaring Meg campsite.&lt;/p&gt;
+&lt;p&gt;After about 3 hours the rain set in and didn&#39;t let up again. Fortunately I got to the cafe in time to get a nice bowl of chips.&lt;/p&gt;
+&lt;p&gt;A good hike, but I would like to explore of the beaches and cliffs on the eastern and southern side of this area, I&#39;m sure those are just amazing.&lt;/p&gt;
+        </content>
+    </entry>
+    
+    <entry>
+        <title>March photos</title>
+        <link href="https://mckay.pub/2026-06-04-march-pictures.html"/>
+        <published>2026-06-04T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-06-04-march-pictures.html</id>
+        <content type="html">
+            &lt;p&gt;Text goes here.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Northburn Half</title>
