@@ -638,5 +638,53 @@
     "aperture": null,
     "shutter": null,
     "description": ""
+  },
+  "/files/AND_6032.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 640,
+    "aperture": 9.0,
+    "shutter": "1/800",
+    "description": ""
+  },
+  "/files/4T9A3122.jpeg": {
+    "lens": "Canon RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 400,
+    "aperture": 11.0,
+    "shutter": 1,
+    "description": "Blood Moon"
+  },
+  "/files/AND_5021.jpeg": {
+    "lens": "RF50mm F1.8 STM",
+    "model": "Canon EOS R7",
+    "iso": 100,
+    "aperture": 4.0,
+    "shutter": "1/400",
+    "description": "Kea Parrot at dawn"
+  },
+  "/files/020A6864.jpeg": {
+    "lens": "Canon EF 75-300mm f/4-5.6",
+    "model": "Canon EOS R7",
+    "iso": 6400,
+    "aperture": 4.0,
+    "shutter": "1/40",
+    "description": "Multicoloured Sails at night"
+  },
+  "/files/AND_5092.jpeg": {
+    "lens": "RF50mm F1.8 STM",
+    "model": "Canon EOS R7",
+    "iso": 100,
+    "aperture": 5.0,
+    "shutter": "1/500",
+    "description": "Sunset from Motuaru Hut"
+  },
+  "/files/AND_6611.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 320,
+    "aperture": 9.0,
+    "shutter": "1/160",
+    "description": "Crow"
   }
 }

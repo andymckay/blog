@@ -47,4 +47,4 @@ def update_exif(exifdata):
     return exifdata
 
 if __name__=='__main__':
-    get_exif()
+    update_exif(get_exif())
