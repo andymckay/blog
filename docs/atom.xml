@@ -1,12 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-09T15:40:28.038870+00:00</updated>
+    <updated>2026-06-16T02:48:00.917187+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Rockhampton Half</title>
+        <link href="https://mckay.pub/2026-06-15-rockhampton.html"/>
+        <published>2026-06-15T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-06-15-rockhampton.html</id>
+        <content type="html">
+            &lt;p&gt;For my May Half Marathon, I ran the &lt;a href=&#34;https://www.rockyriverrun.com.au/Home&#34;&gt;Rocky River Run&lt;/a&gt; in Rockhampton. This kept me streak of running a half marathon every month in 2026. Following on from the &lt;a href=&#34;https://mckay.pub/2026-06-03-northburn.html&#34;&gt;Northburn 100&lt;/a&gt;, in April I did a long training run in Melbourne on &lt;a href=&#34;https://en.wikipedia.org/wiki/Anzac_Day&#34;&gt;Anzac day&lt;/a&gt;. We were in &lt;a href=&#34;https://en.wikipedia.org/wiki/Rockhampton&#34;&gt;Rockhampton&lt;/a&gt; a couple of days before and I noticed the race, so signed up. No training or planning, just go for it.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;21.23 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 1h 58m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 77.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-rockhampton&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-rockhampton&#34;&gt;
+        &lt;img src=&#34;/files/gpx/rockhampton/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/rockhampton/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-rockhampton&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/rockhampton/aged.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Rockhampton put on a good event with 440 runners in the half, with more in the other distances. It was two loops around Rockhampton around the river, past a band and some noisy crowds.&lt;/p&gt;
+&lt;p&gt;This one started at a great time before the sun came up at 6:15am which meant we got some of the first loop without the blazing sun. The first 10km was around 5:44 pace. Then after that I kept trying to pick up the pace. I got to 5:05 pace for the 15km.&lt;/p&gt;
+&lt;p&gt;But things started to slow down a bit after that. Despite drinking and eating what I thought I was appropriate, I don&#39;t think it was enough to cope with the sun that had come up and was beating down on me. My worst pace in the last kms dropped down to a 5:23 pace.&lt;/p&gt;
+&lt;p&gt;I know for many people those are slow, but as it turns out I was on pace for a personal best. At roughly 20.5km there was a slight incline, and I slowed down to a walk so I could fiddle with my watch and see if I could figure out my overall time (sometimes its hard without glasses).&lt;/p&gt;
+&lt;p&gt;And... I sprinted to the end to get my personal best beating the time I got in the &lt;a href=&#34;https://mckay.pub/2026-02-23-first-half.html&#34;&gt;First Half&lt;/a&gt;. And this time without zero heart problems.&lt;/p&gt;
+&lt;p&gt;Later on I realized that I was so dehydrated when I kept drinking so much water, for hours after.&lt;/p&gt;
+&lt;p&gt;It was a great event in Rockhampton and I&#39;m happy I got to run it.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Wilsons Promontory</title>
