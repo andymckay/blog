@@ -2,7 +2,7 @@
 ---
 layout: post
 title: Northburn Half
-categories: Running, Race
+categories: Running, Race, New Zealand
 ---
 
 What do you do after you've completed the [Kepler](/2026-05-29-kepler.html) and [Routeburn](/2026-05-27-routeburn.html) Tracks? You do a half marathon up the side of a big hill. Well at least that's what I did.
