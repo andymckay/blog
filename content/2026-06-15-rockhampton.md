@@ -3,7 +3,7 @@
 layout: post
 title: Rockhampton Half
 categories: Running, Race
-image: /files/gpx/rockhampton/aged.jpeg
+image: /files/gpx/rockhampton/IMG_1647.jpeg
 ---
 
 For my May Half Marathon, I ran the [Rocky River Run](https://www.rockyriverrun.com.au/Home) in Rockhampton. This kept me streak of running a half marathon every month in 2026. Following on from the [Northburn 100](https://mckay.pub/2026-06-03-northburn.html), in April I did a long training run in Melbourne on [Anzac day](https://en.wikipedia.org/wiki/Anzac_Day). We were in [Rockhampton](https://en.wikipedia.org/wiki/Rockhampton) a couple of days before and I noticed the race, so signed up. No training or planning, just go for it.
