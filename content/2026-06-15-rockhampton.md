@@ -2,7 +2,7 @@
 ---
 layout: post
 title: Rockhampton Half
-categories: Running, Race
+categories: Running, Race, Australia
 image: /files/gpx/rockhampton/IMG_1647.jpeg
 ---
 
