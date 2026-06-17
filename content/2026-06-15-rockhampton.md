@@ -18,7 +18,7 @@ But things started to slow down a bit after that. Despite drinking and eating wh
 
 I know for many people those are slow, but as it turns out I was on pace for a personal best. At roughly 20.5km there was a slight incline, and I slowed down to a walk so I could fiddle with my watch and see if I could figure out my overall time (sometimes its hard without glasses).
 
-And... I sprinted to the end to get my personal best beating the time I got in the [First Half](https://mckay.pub/2026-02-23-first-half.html), official time 1:58:24. And this time without zero heart problems.
+And... I sprinted to the end to get my personal best beating the time I got in the [First Half](https://mckay.pub/2026-02-23-first-half.html), official time 1:58:24. And this time without heart problems.
 
 Later on I realized that I was so dehydrated when I kept drinking so much water, for hours after.
 
