@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-17T19:48:10.964417+00:00</updated>
+    <updated>2026-06-17T19:51:45.085995+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -15,11 +15,9 @@
         <id>https://mckay.pub/2026-06-17-photo-software.html</id>
         <content type="html">
             &lt;p&gt;When you start to get into photography, you&#39;ll get into management and editing of the photographs after taking them. Post editing of photos is an important part of the process these days and can really enhance your photos.&lt;/p&gt;
-&lt;p&gt;However, when I started on this hobby I noticed that two names always came up as the default: &lt;b&gt;Photoshop&lt;/b&gt; and &lt;b&gt;Lightroom&lt;/b&gt;, both by Adobe. These peices of software are used by most of the photographers online, in blogs, youtube videos, and in the clubs I&#39;m in. Both are from a US company and both require a monthly subscription.&lt;/p&gt;
-&lt;p&gt;I wanted to find an alternative to avoid sending my money to country that repeatedly threatens not only Canada, but &lt;a href=&#34;https://www.cnn.com/2026/05/27/politics/oman-trump-threat-attack-countries&#34;&gt;1 out of every 13 countries on the planet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, when I started on this hobby I noticed that two names always came up as the default: &lt;em&gt;Photoshop&lt;/em&gt; and &lt;em&gt;Lightroom&lt;/em&gt;, both by Adobe. These peices of software are used by most of the photographers online, in blogs, youtube videos, and in the clubs I&#39;m in. Adobe is a US company and both require a monthly subscription. &lt;/p&gt;
+&lt;p&gt;I want to avoid sending my money every month to a country that repeatedly threatens not only Canada, but &lt;a href=&#34;https://www.cnn.com/2026/05/27/politics/oman-trump-threat-attack-countries&#34;&gt;1 out of every 13 countries on the planet&lt;/a&gt;. Alternatives do exist.&lt;/p&gt;
 &lt;div class=&#34;alert alert-primary&#34;&gt;ℹ️ This is not a list of good or bad companies, or any reflection on their software. This is just to clarify the nationality of the company so you can add that to your buying decisions.&lt;/div&gt;
-
-&lt;div class=&#34;alert alert-primary&#34;&gt;ℹ️ This list might not be perfect and it can be &lt;a href=&#34;https://github.com/andymckay/blog&#34;&gt;updated on GitHub&lt;/a&gt;, or &lt;a href=&#34;/about.html&#34;&gt;drop me a line&lt;/a&gt; and I&#39;ll try my best to keep up to date with corrections or additions.&lt;/div&gt;
 
 &lt;h3 id=&#34;list-of-software&#34;&gt;&lt;a id=&#34;companies&#34;&gt;List of software&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
@@ -126,7 +124,10 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;div class=&#34;alert alert-primary&#34;&gt;ℹ️ This list might not be perfect and it can be &lt;a href=&#34;https://github.com/andymckay/blog&#34;&gt;updated on GitHub&lt;/a&gt;, or &lt;a href=&#34;/about.html&#34;&gt;drop me a line&lt;/a&gt; and I&#39;ll try my best to keep up to date with corrections or additions.&lt;/div&gt;
+
 &lt;p&gt;Since I shoot with a Canon, I&#39;ve found the basic Canon Digital Photo Professional software great for managing my photographs. That final post processing? I&#39;m not sure yet.&lt;/p&gt;
+&lt;p&gt;See also: &lt;a href=&#34;/2025-09-30-nationality-of-companies.html&#34;&gt;Outdoor gear&lt;/a&gt;.&lt;/p&gt;
         </content>
     </entry>
     
