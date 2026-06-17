@@ -1,8 +1,9 @@
-
 ---
 layout: post
-title: Nationality of photo software
-categories: software, photos
+title: US or not? Photo software
+categories: gear, photos
+pinned: true
+image: /files/canada-flag.png
 ---
 
 When you start to get into photography, you'll get into management and editing of the photographs after taking them. Post editing of photos is an important part of the process these days and can really enhance your photos.

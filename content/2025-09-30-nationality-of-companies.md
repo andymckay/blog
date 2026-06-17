@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nationality of companies
+title: US or not? Outdoor gear
 categories: gear
 pinned: true
 image: /files/canada-flag.png

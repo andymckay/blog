@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-17T19:33:48.700548+00:00</updated>
+    <updated>2026-06-17T19:36:26.496210+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -9,7 +9,7 @@
     </author>
     
     <entry>
-        <title>Nationality of photo software</title>
+        <title>US or not? Photo software</title>
         <link href="https://mckay.pub/2026-06-17-photo-software.html"/>
         <published>2026-06-17T00:00:00+00:00</published>
         <id>https://mckay.pub/2026-06-17-photo-software.html</id>
@@ -2064,7 +2064,7 @@ This is a hobby that combines hiking and spending time outside, so expect to see
     </entry>
     
     <entry>
-        <title>Nationality of companies</title>
+        <title>US or not? Outdoor gear</title>
         <link href="https://mckay.pub/2025-09-30-nationality-of-companies.html"/>
         <published>2025-09-30T00:00:00+00:00</published>
         <id>https://mckay.pub/2025-09-30-nationality-of-companies.html</id>
