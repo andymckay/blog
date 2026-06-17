@@ -3,7 +3,6 @@ layout: post
 title: US or not? Outdoor gear
 categories: gear
 pinned: true
-image: /files/canada-flag.png
 ---
 
 If you go shopping for hiking, running or backpacking gear, you are going to see lots of gear from a wide range of companies. Most (but not all) the things for hiking and backpacking are most likely made in Asia. Anything involving fabric or sewing is like made in Thailand, Cambodia or Vietnam. China for many other things. This is pretty universal these days, with some exceptions. But the company that is making the real profit, is not from there, it's likely in the US or Europe.
