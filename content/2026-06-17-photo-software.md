@@ -20,16 +20,18 @@ I wanted to find an alternative to avoid sending my money to country that repeat
 
 |US or not?|Software|Company|Located|Subscription Required|
 |-|-|-|-|-|
-|❌|Photoshop|<a target="_blank" href="https://lightroom.adobe.com/" title="Website">Adobe</a>|🇺🇸 United States|Monthly 👎|
-|❌|Lightroom|<a target="_blank" href="https://www.adobe.com/products/photoshop.html" title="Website">Adobe</a>|🇺🇸 United States|Monthly 👎|
+|❌|Photoshop|<a target="_blank" href="https://lightroom.adobe.com/" title="Website">Adobe</a>|🇺🇸 United States|Monthly|
+|❌|Lightroom|<a target="_blank" href="https://www.adobe.com/products/photoshop.html" title="Website">Adobe</a>|🇺🇸 United States|Monthly|
 |❌|Mac OS Photos|<a target="_blank" href="https://apps.apple.com/us/app/photos/id1584215428" title="Website">Apple</a>|🇺🇸 United States|Free ✅|
 |✅|Digital Photo Professional|<a target="_blank" href="https://global.canon/en/" title="Website">Canon</a>|🇯🇵 Japan|Free ✅|
 |✅|Capture One|<a target="_blank" href="https://www.captureone.com/en" title="Website">Capture One</a>|🇩🇰 Denmark and 🇬🇷 Greece|Free ✅|
-|✅|Cyberlink Photo Director|<a target="_blank" href="https://www.cyberlink.com/products/photodirector-photo-editing-software-365/overview_en_US.html" title="Website">Cyberlink|🇹🇼 Taiwan|No 👍|
-|✅|DxO Photolab|<a target="_blank" href="https://www.dxo.com/dxo-photolab/" title="Website">DxO</a>|🇦🇺 Australia|No 👍|
+|✅|Cyberlink Photo Director|<a target="_blank" href="https://www.cyberlink.com/products/photodirector-photo-editing-software-365/overview_en_US.html" title="Website">Cyberlink|🇹🇼 Taiwan|No|
+|✅|DxO Photolab|<a target="_blank" href="https://www.dxo.com/dxo-photolab/" title="Website">DxO</a>|🇦🇺 Australia|No|
+|❌|Mylio|<a target="_blank" href="https://www.mylio.com/" title="Website">Mylio</a>|🇺🇸 United States|Monthly|
 |✅|Darktable|<a target="_blank" href="https://www.darktable.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
 |✅|Raw Therapee|<a target="_blank" href="https://www.darktable.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
-|✅|Luminar|<a target="_blank" href="https://skylum.com/" title="Website">Skylum</a>|🇺🇦 Ukraine|No 👍|
-|❌|On1|<a target="_blank" href="https://www.on1.com/" title="Website">On1</a>|🇺🇸 United States|No 👍|
+|❌|On1|<a target="_blank" href="https://www.on1.com/" title="Website">On1</a>|🇺🇸 United States|No|
+|✅|Luminar|<a target="_blank" href="https://skylum.com/" title="Website">Skylum</a>|🇺🇦 Ukraine|No|
+|✅|Zoner Studio|<a target="_blank" href="https://www.zoner.com/" title="Website">Zoner</a>|🇨🇿 Czech|Yearly|
 
 Since I shoot with a Canon, I've found the basic Canon Digital Photo Professional software great for managing my photographs. That final post processing? I'm not sure yet.

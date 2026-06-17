@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-17T19:36:26.496210+00:00</updated>
+    <updated>2026-06-17T19:44:59.465254+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -38,14 +38,14 @@
 &lt;td&gt;Photoshop&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://lightroom.adobe.com/&#34; title=&#34;Website&#34;&gt;Adobe&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
-&lt;td&gt;Monthly 👎&lt;/td&gt;
+&lt;td&gt;Monthly&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;Lightroom&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.adobe.com/products/photoshop.html&#34; title=&#34;Website&#34;&gt;Adobe&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
-&lt;td&gt;Monthly 👎&lt;/td&gt;
+&lt;td&gt;Monthly&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
@@ -73,14 +73,21 @@
 &lt;td&gt;Cyberlink Photo Director&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.cyberlink.com/products/photodirector-photo-editing-software-365/overview_en_US.html&#34; title=&#34;Website&#34;&gt;Cyberlink&lt;/td&gt;
 &lt;td&gt;🇹🇼 Taiwan&lt;/td&gt;
-&lt;td&gt;No 👍&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
 &lt;td&gt;DxO Photolab&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.dxo.com/dxo-photolab/&#34; title=&#34;Website&#34;&gt;DxO&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🇦🇺 Australia&lt;/td&gt;
-&lt;td&gt;No 👍&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;td&gt;Mylio&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.mylio.com/&#34; title=&#34;Website&#34;&gt;Mylio&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;🇺🇸 United States&lt;/td&gt;
+&lt;td&gt;Monthly&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
@@ -97,18 +104,25 @@
 &lt;td&gt;Free ✅&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
-&lt;td&gt;Luminar&lt;/td&gt;
-&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://skylum.com/&#34; title=&#34;Website&#34;&gt;Skylum&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;🇺🇦 Ukraine&lt;/td&gt;
-&lt;td&gt;No 👍&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;On1&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.on1.com/&#34; title=&#34;Website&#34;&gt;On1&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
-&lt;td&gt;No 👍&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Luminar&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://skylum.com/&#34; title=&#34;Website&#34;&gt;Skylum&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;🇺🇦 Ukraine&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Zoner Studio&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.zoner.com/&#34; title=&#34;Website&#34;&gt;Zoner&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;🇨🇿 Czech&lt;/td&gt;
+&lt;td&gt;Yearly&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
