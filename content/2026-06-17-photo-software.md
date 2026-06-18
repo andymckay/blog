@@ -21,11 +21,12 @@ I want to avoid sending my money every month to a country that repeatedly threat
 |❌|Lightroom|<a target="_blank" href="https://www.adobe.com/products/photoshop.html" title="Website">Adobe</a>|🇺🇸 United States|Monthly|
 |❌|Mac OS Photos|<a target="_blank" href="https://apps.apple.com/us/app/photos/id1584215428" title="Website">Apple</a>|🇺🇸 United States|Free ✅|
 |✅|Digital Photo Professional|<a target="_blank" href="https://global.canon/en/" title="Website">Canon</a>|🇯🇵 Japan|Free ✅|
-|✅|Capture One|<a target="_blank" href="https://www.captureone.com/en" title="Website">Capture One</a>|🇩🇰 Denmark and 🇬🇷 Greece|Free ✅|
+|✅|Capture One|<a target="_blank" href="https://www.captureone.com/en" title="Website">Capture One</a>|🇩🇰 Denmark and 🇬🇷 Greece|Monthly|
 |✅|Cyberlink Photo Director|<a target="_blank" href="https://www.cyberlink.com/products/photodirector-photo-editing-software-365/overview_en_US.html" title="Website">Cyberlink|🇹🇼 Taiwan|No|
 |✅|DxO Photolab|<a target="_blank" href="https://www.dxo.com/dxo-photolab/" title="Website">DxO</a>|🇦🇺 Australia|No|
 |❌|Mylio|<a target="_blank" href="https://www.mylio.com/" title="Website">Mylio</a>|🇺🇸 United States|Monthly|
 |✅|Darktable|<a target="_blank" href="https://www.darktable.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
+|✅|Digikam|<a target="_blank" href="https://www.digikam.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
 |✅|Raw Therapee|<a target="_blank" href="https://www.darktable.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
 |❌|On1|<a target="_blank" href="https://www.on1.com/" title="Website">On1</a>|🇺🇸 United States|No|
 |✅|Luminar|<a target="_blank" href="https://skylum.com/" title="Website">Skylum</a>|🇺🇦 Ukraine|No|

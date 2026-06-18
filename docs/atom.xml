@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-17T19:51:45.085995+00:00</updated>
+    <updated>2026-06-18T20:10:05.260263+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -64,7 +64,7 @@
 &lt;td&gt;Capture One&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.captureone.com/en&#34; title=&#34;Website&#34;&gt;Capture One&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🇩🇰 Denmark and 🇬🇷 Greece&lt;/td&gt;
-&lt;td&gt;Free ✅&lt;/td&gt;
+&lt;td&gt;Monthly&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
@@ -91,6 +91,13 @@
 &lt;td&gt;✅&lt;/td&gt;
 &lt;td&gt;Darktable&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.darktable.org/&#34; title=&#34;Website&#34;&gt;Open source&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;🌏 Open source&lt;/td&gt;
+&lt;td&gt;Free ✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Digikam&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.digikam.org/&#34; title=&#34;Website&#34;&gt;Open source&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🌏 Open source&lt;/td&gt;
 &lt;td&gt;Free ✅&lt;/td&gt;
 &lt;/tr&gt;
