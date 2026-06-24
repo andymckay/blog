@@ -14,6 +14,7 @@ As we were walking around I saw these reflective windows and thought they might 
 My wife then went on to take a much better picture that took into account the reflective ground surface 👍
 
 Locations:
+
 * Sydney
 * Wilsons Promontory
 * The Grampians

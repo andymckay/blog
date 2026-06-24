@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-24T18:26:26.003398+00:00</updated>
+    <updated>2026-06-24T18:29:01.121362+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
@@ -18,12 +18,14 @@
 &lt;p&gt;The first picture is most interesting to me. This is a picture of Sydney Habour Bridge reflected in the windows of the Sydney Opera House. It answers a question, how do you take an interesting or original photograph of one of the most photographed buildings in the world?&lt;/p&gt;
 &lt;p&gt;As we were walking around I saw these reflective windows and thought they might make an interesting photo. But there are so many people walking by, it was very noisy. The answer? Slow the shutter speed way down and let those people vanish. The only person remaining is another person standing still to take a photograph.&lt;/p&gt;
 &lt;p&gt;My wife then went on to take a much better picture that took into account the reflective ground surface 👍&lt;/p&gt;
-&lt;p&gt;Locations:
-* Sydney
-* Wilsons Promontory
-* The Grampians
-* Melbourne
-* ...and somewhere in between the above places&lt;/p&gt;
+&lt;p&gt;Locations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sydney&lt;/li&gt;
+&lt;li&gt;Wilsons Promontory&lt;/li&gt;
+&lt;li&gt;The Grampians&lt;/li&gt;
+&lt;li&gt;Melbourne&lt;/li&gt;
+&lt;li&gt;...and somewhere in between the above places&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;div&gt;
             &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-0&#34;&gt;&lt;/a&gt;Sydney Harbour Bridge&lt;/h4&gt;
             &lt;img src=&#34;/files/AND_7075.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
