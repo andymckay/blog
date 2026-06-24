@@ -1,6 +1,6 @@
 ---
 layout: post
-title: February photos
+title: Six pictures from February
 categories: photos
 image: /files/4T9A1297.jpeg
 ---

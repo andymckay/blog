@@ -686,5 +686,53 @@
     "aperture": 9.0,
     "shutter": "1/160",
     "description": "Black Currawong"
+  },
+  "/files/AND_7075.jpeg": {
+    "lens": "RF50mm F1.8 STM",
+    "model": "Canon EOS R7",
+    "iso": 1250,
+    "aperture": 9.0,
+    "shutter": 2.5,
+    "description": "Sydney Harbour Bridge"
+  },
+  "/files/AND_8811.jpeg": {
+    "lens": "RF50mm F1.8 STM",
+    "model": "Canon EOS R7",
+    "iso": 100,
+    "aperture": 7.1,
+    "shutter": "1/1000",
+    "description": "A lull in the storm"
+  },
+  "/files/AND_8921.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 250,
+    "aperture": 7.1,
+    "shutter": "1/400",
+    "description": "Wallaby eating grass"
+  },
+  "/files/AND_9203.jpeg": {
+    "lens": "RF50mm F1.8 STM",
+    "model": "Canon EOS R7",
+    "iso": 4000,
+    "aperture": 1.8,
+    "shutter": "1/1600",
+    "description": "Incoming"
+  },
+  "/files/AND_9357.jpeg": {
+    "lens": "RF200-800mm F6.3-9 IS USM",
+    "model": "Canon EOS R7",
+    "iso": 3200,
+    "aperture": 9.0,
+    "shutter": "1/1000",
+    "description": "Crow"
+  },
+  "/files/AND_9896.jpeg": {
+    "lens": "RF50mm F1.8 STM",
+    "model": "Canon EOS R7",
+    "iso": 100,
+    "aperture": 16.0,
+    "shutter": 1.3,
+    "description": "Fire juggler"
   }
 }

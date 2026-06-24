@@ -1,12 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-18T20:10:05.260263+00:00</updated>
+    <updated>2026-06-24T18:26:26.003398+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Six pictures from April</title>
+        <link href="https://mckay.pub/2026-06-24-april-pictures.html"/>
+        <published>2026-06-24T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-06-24-april-pictures.html</id>
+        <content type="html">
+            &lt;p&gt;Here&#39;s a collection of some of best photos from April while we were in Australia. It&#39;s an amazing place to be with so much variation in landscape. I&#39;m stick to the principle of just choosing six pictures to show this month, although I took about 4,000 pictures 😀&lt;/p&gt;
+&lt;p&gt;The first picture is most interesting to me. This is a picture of Sydney Habour Bridge reflected in the windows of the Sydney Opera House. It answers a question, how do you take an interesting or original photograph of one of the most photographed buildings in the world?&lt;/p&gt;
+&lt;p&gt;As we were walking around I saw these reflective windows and thought they might make an interesting photo. But there are so many people walking by, it was very noisy. The answer? Slow the shutter speed way down and let those people vanish. The only person remaining is another person standing still to take a photograph.&lt;/p&gt;
+&lt;p&gt;My wife then went on to take a much better picture that took into account the reflective ground surface 👍&lt;/p&gt;
+&lt;p&gt;Locations:
+* Sydney
+* Wilsons Promontory
+* The Grampians
+* Melbourne
+* ...and somewhere in between the above places&lt;/p&gt;
+&lt;p&gt;&lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-0&#34;&gt;&lt;/a&gt;Sydney Harbour Bridge&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_7075.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF50mm F1.8 STM&lt;br /&gt;
+          ISO: 1250 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 2.5
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-1&#34;&gt;&lt;/a&gt;Wallaby eating grass&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_8921.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 250 &amp;bull; Aperture: 7.1 &amp;bull; Shutter speed: 1/400
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-2&#34;&gt;&lt;/a&gt;Crow&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_9357.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 3200 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/1000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-3&#34;&gt;&lt;/a&gt;A lull in the storm&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_8811.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF50mm F1.8 STM&lt;br /&gt;
+          ISO: 100 &amp;bull; Aperture: 7.1 &amp;bull; Shutter speed: 1/1000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-4&#34;&gt;&lt;/a&gt;Incoming&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_9203.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF50mm F1.8 STM&lt;br /&gt;
+          ISO: 4000 &amp;bull; Aperture: 1.8 &amp;bull; Shutter speed: 1/1600
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-fc35592f557a26a98ed13b30d2ee7241-5&#34;&gt;&lt;/a&gt;Fire juggler&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_9896.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF50mm F1.8 STM&lt;br /&gt;
+          ISO: 100 &amp;bull; Aperture: 16.0 &amp;bull; Shutter speed: 1.3
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>US or not? Photo software</title>
@@ -350,12 +453,12 @@
     </entry>
     
     <entry>
-        <title>March photos</title>
+        <title>Six pictures from March</title>
         <link href="https://mckay.pub/2026-06-04-march-pictures.html"/>
         <published>2026-06-04T00:00:00+00:00</published>
         <id>https://mckay.pub/2026-06-04-march-pictures.html</id>
         <content type="html">
-            &lt;p&gt;Here&#39;s a collection of some of best photos from March. We were in New Zealand in March and headed over to Australia at the end.&lt;/p&gt;
+            &lt;p&gt;Here&#39;s a collection of some of photos from March. We were in New Zealand in March and headed over to Australia at the end.&lt;/p&gt;
 &lt;p&gt;Notable is that were present for the &lt;a href=&#34;https://www.timeanddate.com/eclipse/lunar/2026-march-3&#34;&gt;Blood Moon&lt;/a&gt; and golly do I wish I&#39;d had a tripod for that. Holding a camera with 2kg 200-800mm lens up at the right angle to capture the moon and keep it steady for a slow shutter speed... is hard. Most of my pictures of it are blurry.&lt;/p&gt;
 &lt;p&gt;&lt;div&gt;
             &lt;h4&gt;&lt;a id=&#34;carousel-807d6ef7fe12264bd188ab6828475e08-0&#34;&gt;&lt;/a&gt;Multicoloured Sails at night&lt;/h4&gt;
@@ -917,7 +1020,7 @@ Honestly I&#39;ve got so many photos in March, it&#39;s a bit ridiculous. New Ze
     </entry>
     
     <entry>
-        <title>February photos</title>
+        <title>Six pictures from February</title>
         <link href="https://mckay.pub/2026-02-25-feb-pictures.html"/>
         <published>2026-02-25T00:00:00+00:00</published>
         <id>https://mckay.pub/2026-02-25-feb-pictures.html</id>
