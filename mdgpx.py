@@ -208,12 +208,18 @@ class CarouselProcessor(Preprocessor):
                     html = ""
                     for (k, img) in enumerate(imgs):
                         if (img.strip()):
-                            exif = self.exifdata.get(img.strip(), {})
-                            if exif:
+                            try:
+                                exif = self.exifdata.get(img.strip(), {})
+                                if not exif:
+                                    if not os.path.exists(img.strip()):
+                                        print(f"🔴 Image file {img.strip()} not found")
+                                    print(f"🔴 No EXIF data found for image {img.strip()}")
                                 caption = carousel_caption.format(uid=uid, k=k, **exif)
-                            else:
-                                caption = ""    
-                            html += carousel_html_element.format(uid=uid, k=k, url=img, active="active" if not k else "", caption=caption, **exif)
+                                html += carousel_html_element.format(uid=uid, k=k, url=img, active="active" if not k else "", caption=caption, **exif)
+                            except Exception as e:
+                                print(f"Error occurred while processing image {img}: {e}")
+                                raise
+
                     placeholder = self.md.htmlStash.store(html.strip())
                     output.append(placeholder)
 

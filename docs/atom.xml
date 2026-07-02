@@ -1,12 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-06-24T18:29:01.121362+00:00</updated>
+    <updated>2026-07-02T22:21:11.489599+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>High Falls Hike</title>
+        <link href="https://mckay.pub/2026-07-02-high-falls.html"/>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-07-02-high-falls.html</id>
+        <content type="html">
+            &lt;p&gt;The High Falls hike was my first with the Vancouver branch of the &lt;a href=&#34;https://accvancouver.ca/&#34;&gt;Alpine Club of Canada&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;10.67 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 4h 22m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 722.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-highfalls&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-highfalls&#34;&gt;
+        &lt;img src=&#34;/files/gpx/highfalls/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/highfalls/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-highfalls&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/highfalls/AND_7371.jpg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;This hike starts north of Squamish, up the Paradise Valley road. The hike up takes you by a stream and it waterfalls as tumbles down the mountain. There&#39;s a nice bit or two by the waterfalls, but not a huge amount of views. This section is has some steep rocky sections and the trail gets close to the river side at times, but the exposure isn&#39;t that bad.&lt;/p&gt;
+&lt;p&gt;There&#39;s a nice lookout back down the valley as the trail climbs. You can cut across to the logging road to shorten the hike. We carried up along the creek, before heading across a boulder field and up to the road. The logging road on the way down is consistent and straightforward, but does give you a lovely view up the valley at one point.&lt;/p&gt;
+&lt;p&gt;A nice hike with lovely people that took a few hours and it meant I got to know some more people at the Alpine Club.&lt;/p&gt;
+        </content>
+    </entry>
+    
+    <entry>
+        <title>Six pictures from May</title>
+        <link href="https://mckay.pub/2026-07-01-may-pictures.html"/>
+        <published>2026-07-01T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-07-01-may-pictures.html</id>
+        <content type="html">
+            &lt;p&gt;These are six photos from April. We were still in Australia at this point so the pictures still have a focus on the amazing Australian birds we saw.&lt;/p&gt;
+&lt;p&gt;Locations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Uluru&lt;/li&gt;
+&lt;li&gt;Daintree&lt;/li&gt;
+&lt;li&gt;Bundaberg&lt;/li&gt;
+&lt;li&gt;Agnes Water&lt;/li&gt;
+&lt;li&gt;Brisbane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c0f541e6a995fb4b3e4fd95ffda9aaac-0&#34;&gt;&lt;/a&gt;Uluru sandstone&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_0942.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 2000 &amp;bull; Aperture: 7.1 &amp;bull; Shutter speed: 1/800
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c0f541e6a995fb4b3e4fd95ffda9aaac-1&#34;&gt;&lt;/a&gt;Wood Swallow&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_2442.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 4000 &amp;bull; Aperture: 8.0 &amp;bull; Shutter speed: 1/1250
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c0f541e6a995fb4b3e4fd95ffda9aaac-2&#34;&gt;&lt;/a&gt;One of these is not like the others&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_6675.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 2500 &amp;bull; Aperture: 6.3 &amp;bull; Shutter speed: 1/1000
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c0f541e6a995fb4b3e4fd95ffda9aaac-3&#34;&gt;&lt;/a&gt;Blue faced Honeyeater&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_5455.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 640 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/400
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c0f541e6a995fb4b3e4fd95ffda9aaac-4&#34;&gt;&lt;/a&gt;What you looking at?&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_5434.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF200-800mm F6.3-9 IS USM&lt;br /&gt;
+          ISO: 12800 &amp;bull; Aperture: 9.0 &amp;bull; Shutter speed: 1/400
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h4&gt;&lt;a id=&#34;carousel-c0f541e6a995fb4b3e4fd95ffda9aaac-5&#34;&gt;&lt;/a&gt;Red Brew&lt;/h4&gt;
+            &lt;img src=&#34;/files/AND_7231.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+            
+    &lt;div class=&#34;img-fluid photo-caption&#34;&gt;
+        &lt;p class=&#34;exifdata&#34;&gt;
+          Canon EOS R7 &amp;bull; RF50mm F1.8 STM&lt;br /&gt;
+          ISO: 3200 &amp;bull; Aperture: 3.5 &amp;bull; Shutter speed: 1/320
+        &lt;/p&gt;
+    &lt;/div&gt;
+
+            &lt;hr&gt;
+        &lt;/div&gt;
+&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>Six pictures from April</title>
