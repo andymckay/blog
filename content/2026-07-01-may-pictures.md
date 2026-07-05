@@ -5,7 +5,7 @@ categories: photos
 image: /files/AND_2442.jpeg
 ---
 
-These are six photos from April. We were still in Australia at this point so the pictures still have a focus on the amazing Australian birds we saw.
+These are six photos from May. We were still in Australia at this point so the pictures still have a focus on the amazing Australian birds we saw.
 
 Locations:
 
