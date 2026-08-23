@@ -20,6 +20,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 
 
 
+
 ### <a id="companies">List of companies</a>
 
 |US or not?|Company|Located|Site|
@@ -260,7 +261,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Herschel|🇨🇦 Canada|<a target="_blank" href="https://herschel.com" title="Website">➡️</a>|
 |✅|Hestra|🇸🇪 Sweden|<a target="_blank" href="https://www.hestragloves.com/" title="Website">➡️</a>|
 |✅|Hillsound|🇨🇦 Canada|<a target="_blank" href="https://hillsound.ca" title="Website">➡️</a>|
-|✅|Hoka|🇫🇷 France|<a target="_blank" href="https://www.hoka.com/en/ca/" title="Website">➡️</a>|
+|❌|Hoka|🇺🇸 United States|<a target="_blank" href="https://www.hoka.com/en/ca/" title="Website">➡️</a>|
 |❌|Honey Stinger|🇺🇸 United States|<a target="_blank" href="https://www.honeystinger.com/" title="Website">➡️</a>|
 |✅|Hornby Organic|🇨🇦 Canada|<a target="_blank" href="https://hornbyorganic.com" title="Website">➡️</a>|
 |✅|Houdini|🇸🇪 Sweden|<a target="_blank" href="https://houdinisportswear.com" title="Website">➡️</a>|
@@ -385,6 +386,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |✅|Mountain Coffee Co.|🇨🇦 Canada|<a target="_blank" href="https://mountaincoffeeco.com" title="Website">➡️</a>|
 |❌|Mountain Hardwear|🇺🇸 United States|<a target="_blank" href="https://www.mountainhardwear.com/" title="Website">➡️</a>|
 |❌|Mountain House|🇺🇸 United States|<a target="_blank" href="https://www.mountainhouse.com/" title="Website">➡️</a>|
+|✅|Mountain Warehouse|🇬🇧 United Kingdom|<a target="_blank" href="https://www.mountainwarehouse.com/ca/" title="Website">➡️</a>|
 |❌|Mountaineers Books|🇺🇸 United States|<a target="_blank" href="https://www.mountaineersbooks.org/" title="Website">➡️</a>|
 |❌|Mr. Zogs|🇺🇸 United States|<a target="_blank" href="https://www.mrzogs.com/" title="Website">➡️</a>|
 |✅|Muc-Off|🇬🇧 United Kingdom|<a target="_blank" href="https://muc-off.com" title="Website">➡️</a>|
@@ -686,7 +688,7 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇨🇿 Czech Republic|1|
 |🇩🇰 Denmark|3|
 |🇫🇮 Finland|4|
-|🇫🇷 France|15|
+|🇫🇷 France|14|
 |🇩🇪 Germany|25|
 |🇮🇸 Iceland|1|
 |🇮🇩 Indonesia|1|
@@ -705,5 +707,5 @@ In this list I'm going to go through a whole pile of brands and where the compan
 |🇸🇪 Sweden|19|
 |🇨🇭 Switzerland|17|
 |🇹🇼 Taiwan|3|
-|🇬🇧 United Kingdom|24|
-|🇺🇸 United States|331|
+|🇬🇧 United Kingdom|25|
+|🇺🇸 United States|332|
