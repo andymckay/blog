@@ -27,7 +27,7 @@ I want to avoid sending my money every month to a country that repeatedly threat
 |❌|Mylio|<a target="_blank" href="https://www.mylio.com/" title="Website">Mylio</a>|🇺🇸 United States|Monthly|
 |✅|Darktable|<a target="_blank" href="https://www.darktable.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
 |✅|Digikam|<a target="_blank" href="https://www.digikam.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
-|✅|Raw Therapee|<a target="_blank" href="https://www.darktable.org/" title="Website">Open source</a>|🌏 Open source|Free ✅|
+|✅|Raw Therapee|<a target="_blank" href="https://rawtherapee.com/" title="Website">Open source</a>|🌏 Open source|Free ✅|
 |❌|On1|<a target="_blank" href="https://www.on1.com/" title="Website">On1</a>|🇺🇸 United States|No|
 |✅|Luminar|<a target="_blank" href="https://skylum.com/" title="Website">Skylum</a>|🇺🇦 Ukraine|No|
 |✅|Zoner Studio|<a target="_blank" href="https://www.zoner.com/" title="Website">Zoner</a>|🇨🇿 Czech|Yearly|
