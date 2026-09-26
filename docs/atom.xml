@@ -1,12 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Andy McKay</title>
-    <updated>2026-08-23T18:09:19.426560+00:00</updated>
+    <updated>2026-09-26T23:33:06.228056+00:00</updated>
     <id>https://mckay.pub/</id>
     <author>
         <name>Andy McKay</name>
         <email>andy@mckay.pub</email>
     </author>
+    
+    <entry>
+        <title>Elfin Lake</title>
+        <link href="https://mckay.pub/2026-09-26-elfin.html"/>
+        <published>2026-09-26T00:00:00+00:00</published>
+        <id>https://mckay.pub/2026-09-26-elfin.html</id>
+        <content type="html">
+            &lt;p&gt;Elfin Lake is in the &lt;a href=&#34;https://bcparks.ca/garibaldi-park/&#34;&gt;Garibaldi Park&lt;/a&gt; just to the east of Squamish and I went for single night this week.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;10.63 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 3h 11m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 690.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-elfinone&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-elfinone&#34;&gt;
+        &lt;img src=&#34;/files/gpx/elfinone/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/elfinone/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-elfinone&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/elfinone/AND_6958.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The trail starts from the trail head at the top of the forest service road. There were quite a lot of sedans that were there and the road seems currently manageable in a sedan, but it&#39;s probably easier in a truck.&lt;/p&gt;
+&lt;p&gt;The hike hides up a wide rocky trail. The whole way the trail is in similar shape, its relatively wide and rocky and easy to hike. The gradient is consistent upwards at gradual incline up to the top of the ridge. Up to 5km, the views aren&#39;t great with trees on either side. At 5km you get to Red Heather Hut, it opens up a bit with lots of heather and shrubs. Then once you get to the ridge, you the view opens up with views of Diamond Head and other mountains, hopefully 😀&lt;/p&gt;
+&lt;p&gt;To the left along the ridge you can see the Elfin Lake Ranger cabin and the trail just leads up and down along the ridge to the Elfin Lakes campsite. The campsite has a public cabin (which needs reserving), lots of tent pads, lots of bear cache poles, and multiple toilets. Because this trail is easy the campsite is clearly popular with lots of people visiting. Whilst we were there mid-week there were many people there, mostly some school groups.&lt;/p&gt;
+&lt;p&gt;That night it got cold as the temperature quickly dropped. The campsite is over 1,400m, but it was a cold spell for the end of September.&lt;/p&gt;
+&lt;p&gt;
+&lt;div&gt;
+&lt;div class=&#34;gpx&#34;&gt;
+    &lt;div class=&#34;row align-items-start&#34;&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Distance&lt;/h5&gt;
+            &lt;p&gt;11.21 km&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            &lt;h5&gt;Time&lt;/h5&gt;
+            &lt;p&gt;Elapsed: 2h 49m&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col&#34;&gt;
+            
+                &lt;h5&gt;Elevation&lt;/h5&gt;
+                &lt;p&gt;&lt;span title=&#34;Elevation gain&#34;&gt;📈 189.0 m&lt;/span&gt;
+                &lt;br&gt;
+                ℹ️ &lt;a href=&#34;#elevation-profile-elfintwo&#34; data-bs-toggle=&#34;collapse&#34;&gt;Click for profile&lt;/a&gt;&lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row collapse&#34; id=&#34;elevation-profile-elfintwo&#34;&gt;
+        &lt;img src=&#34;/files/gpx/elfintwo/elevation.png&#34; class=&#34;img-fluid&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;iframe src=&#34;/files/gpx/elfintwo/route.html&#34; width=&#34;100%&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;carousel slide col-md-12&#34; id=&#34;carousel-id-elfintwo&#34;&gt;
+            &lt;div class=&#34;carousel-inner&#34;&gt;
+
+                &lt;div class=&#34;carousel-item active&#34;&gt;
+                    &lt;img src=&#34;/files/gpx/elfintwo/AND_6983.jpeg&#34; class=&#34;img-fluid photo&#34;&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;carousel-controls d-flex justify-content-center my-2&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;At night we didn&#39;t have much to see, the clouds rolled in before sunset hiding the mountains. The morning was much better, with beautiful views across Diamond Head, Opal Cone and Pyramid Mountain. The hike down was straightforward.&lt;/p&gt;
+        </content>
+    </entry>
     
     <entry>
         <title>High Falls Hike</title>
@@ -368,7 +471,7 @@
 &lt;tr&gt;
 &lt;td&gt;✅&lt;/td&gt;
 &lt;td&gt;Raw Therapee&lt;/td&gt;
-&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.darktable.org/&#34; title=&#34;Website&#34;&gt;Open source&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://rawtherapee.com/&#34; title=&#34;Website&#34;&gt;Open source&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;🌏 Open source&lt;/td&gt;
 &lt;td&gt;Free ✅&lt;/td&gt;
 &lt;/tr&gt;
@@ -3790,9 +3893,9 @@ This is a hobby that combines hiking and spending time outside, so expect to see
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://hillsound.ca&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
 &lt;td&gt;Hoka&lt;/td&gt;
-&lt;td&gt;🇫🇷 France&lt;/td&gt;
+&lt;td&gt;🇺🇸 United States&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.hoka.com/en/ca/&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -4538,6 +4641,12 @@ This is a hobby that combines hiking and spending time outside, so expect to see
 &lt;td&gt;Mountain House&lt;/td&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
 &lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.mountainhouse.com/&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;td&gt;Mountain Warehouse&lt;/td&gt;
+&lt;td&gt;🇬🇧 United Kingdom&lt;/td&gt;
+&lt;td&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://www.mountainwarehouse.com/ca/&#34; title=&#34;Website&#34;&gt;➡️&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;❌&lt;/td&gt;
@@ -6312,7 +6421,7 @@ This is a hobby that combines hiking and spending time outside, so expect to see
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇫🇷 France&lt;/td&gt;
-&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;14&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇩🇪 Germany&lt;/td&gt;
@@ -6388,11 +6497,11 @@ This is a hobby that combines hiking and spending time outside, so expect to see
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇬🇧 United Kingdom&lt;/td&gt;
-&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;🇺🇸 United States&lt;/td&gt;
-&lt;td&gt;331&lt;/td&gt;
+&lt;td&gt;332&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
